@@ -2184,5 +2184,2381 @@
     "category": "AML/social responsibility enforcement",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "dd17fd2ca0f60d4c1220be82697521268da1220e866c57498b93a6cf90881bbe",
+    "source": "companies_house",
+    "source_id": "MzQ5NTE0MTEzM2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQ5NTE0MTEzM2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2025-12-22T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Financial filings from bet365, the UK's largest private betting operator, can reveal performance and profitability trends of interest to the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7ffa4fbc7fcf5c534389a5e411f92a1f3ebf2e83ad20ed35bae3e16babf1f3db",
+    "source": "companies_house",
+    "source_id": "MzQ3NTIwMzE3OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQ3NTIwMzE3OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2025-07-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal new information for gambling sector coverage.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4aaa52b3b053436aa999a20a14d07575a67e1812f7dcbf2062d6921a941dd92a",
+    "source": "companies_house",
+    "source_id": "MzQ0OTc1MTU4M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQ0OTc1MTU4M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2025-01-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Annual accounts from the UK's largest private bookmaker can reveal financial performance and tax trends relevant to the gambling sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7fd4f3f8500ccf90de7e7e7e51727a31edf43108d60317847feca786d7813dd5",
+    "source": "companies_house",
+    "source_id": "MzQzMTA0MTgwNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQzMTA0MTgwNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-08-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with no updates, minimal newsworthiness but confirms bet365's continued corporate compliance status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "dd1822b6598b4cdf69216201b7fcff537e1486aaa34003937687c48bbc36b522",
+    "source": "companies_house",
+    "source_id": "MzQwNTY1NTQ5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQwNTY1NTQ5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2024-01-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Financial disclosures from bet365, the UK's largest private betting operator, offer insight into sector performance and its dominant market position.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5f9ed2ea62ebb8e67a86551439afcea15bf1fa6caf9d34b1f2601637c984a191",
+    "source": "companies_house",
+    "source_id": "MzM4Nzk0MzQ0MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzM4Nzk0MzQ0MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-07-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine compliance filing with no updates offers minimal news value but confirms bet365's continued corporate standing.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ab493307cc7b864632efb9944bc471ec0aad1effee23c175ff272999ab4ba773",
+    "source": "companies_house",
+    "source_id": "MzM2NDA2MjQxOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzM2NDA2MjQxOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2023-01-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "bet365's group accounts filing can reveal financial performance and tax details for the UK's largest private betting operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "51d6a59936894c54bac9901f470f693ef4930a9fe843bf998738497a9ef30b4d",
+    "source": "companies_house",
+    "source_id": "MzM0Njk0ODE5M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzM0Njk0ODE5M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2022-07-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates carries minimal news value beyond confirming bet365's continued corporate compliance.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fc9aa10585ef250243f2f26e3bd16397a32637efaf1e7365fc7604f6a21d21e3",
+    "source": "companies_house",
+    "source_id": "MzMzMTQ5NTI0NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMzMTQ5NTI0NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2022-03-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Annual accounts from the UK's largest private betting operator can reveal revenue, profit and tax trends relevant to industry analysis.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b9a3477d55c20a5b6dc327bc21066d8ef78ae7f4c4a8f9cd6c1a7daebc910bd1",
+    "source": "companies_house",
+    "source_id": "MzMwOTU4OTg4OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwOTU4OTg4OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2021-08-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine annual confirmation statement offers minimal news value beyond confirming bet365's continued corporate compliance status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "14ff5e72a84f7412e421f95f423130fade1f57484fc26d1afecb7da608bcf2c3",
+    "source": "companies_house",
+    "source_id": "MzMwNDQ0OTk3M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwNDQ0OTk3M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2021-06-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine company secretary appointment at bet365 offers minor corporate governance visibility but no operational or regulatory impact.",
+    "category": "company officer filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0f58cddbe29ef978c1fdac4969a7b69d62a9d427613eed6e13e7a5b6a29e6602",
+    "source": "companies_house",
+    "source_id": "MzMwNDQ0OTk4MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwNDQ0OTk4MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2021-06-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing showing a secretary termination at bet365, minor administrative update with limited editorial value.",
+    "category": "corporate officer change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1af2774fdf4f40f89e3e0090ad62a5db3104113c39475c2eed27401ed188a899",
+    "source": "companies_house",
+    "source_id": "MzI5NzIzNTAwMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI5NzIzNTAwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2021-04-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Financial filings from bet365, the UK's largest private betting operator, can reveal performance and market trends for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0c885289bf708a569d4f711514b5fb7bbca40a80032baaccd696ca203c12d026",
+    "source": "companies_house",
+    "source_id": "MzI3NDAzNTM2NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI3NDAzNTM2NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2020-07-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates offers minimal insight into bet365's operations or finances.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f3dc891c7ea7c613312eee51e82a62186bc6a211c22509d449741ecd255081dd",
+    "source": "companies_house",
+    "source_id": "MzI1MjIzNDU1MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI1MjIzNDU1MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2019-12-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Filed group accounts from major operator bet365 may reveal financial performance and tax details relevant to UK gambling market analysis.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "550e25a9b272e66155bbab6ff72bad890a043a0da92715b48d088fcf1aa2de72",
+    "source": "companies_house",
+    "source_id": "MzI0MDgyNjkzNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI0MDgyNjkzNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2019-08-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine compliance filing with Companies House, offering minimal insight into bet365's operations but confirms continued good standing.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "90ade8adb8f288aebd3a8b31b4ef4421cdf580f878922e5e26db9c3bd49cd354",
+    "source": "companies_house",
+    "source_id": "MzIxOTY4MzEwOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzIxOTY4MzEwOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2018-11-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "Financial filings from bet365, one of the UK's largest gambling operators, offer insight into its ongoing performance and market position.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f89007f922cb8d1dc00aa8be6453c85470cb92447e8d27b65455d5453b564bc2",
+    "source": "companies_house",
+    "source_id": "MzIxMTA1Njk0MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzIxMTA1Njk0MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2018-07-31T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal insight but confirms bet365's continued corporate compliance status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5c059253ec5b89244540e64eee648cbebb37c5371de0a6c7f1aa55ba5727a63a",
+    "source": "companies_house",
+    "source_id": "MzE4OTc0MjczOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE4OTc0MjczOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2017-11-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Financial filings from bet365, the UK's largest private betting operator, can reveal revenue and profit trends of interest to the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9f6e9d8e241fc60e9a6116d08d48329a78d87cc42aec26460c5ea75660b505fe",
+    "source": "companies_house",
+    "source_id": "MzE4MTg5ODE5MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE4MTg5ODE5MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2017-08-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no changes offers minimal news value beyond confirming bet365's continued registration.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0a0d6d1ec278a531c3ab2ca5546e03c70185656fd593d6946fd521dfec62edf9",
+    "source": "companies_house",
+    "source_id": "MzE3ODkyMjQ5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE3ODkyMjQ5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2017-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing at bet365 offers minor corporate governance signal but limited news value on its own.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "362d5b7402efb4002ed19d50e9739d25b52e71fccc01ecb185c8eb0b430a566a",
+    "source": "companies_house",
+    "source_id": "MzE1ODE3MTg3NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE1ODE3MTg3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2016-09-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "Financial filings from bet365, a dominant UK operator, can reveal revenue trends and financial health relevant to industry analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "535e2a381146d71be3c3701e58444a70777ac807a63cd7708c7059452846c0ad",
+    "source": "companies_house",
+    "source_id": "MzE1NDQ5Nzc2MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE1NDQ5Nzc2MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2016-08-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House confirmation statement offers minimal news value but confirms bet365's corporate status remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "814af7ba1f3b4fac4697d39b71af089da13065e2d761bd0ad908459ebdd6c267",
+    "source": "companies_house",
+    "source_id": "MzE0Nzg4MTgzMGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE0Nzg4MTgzMGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2016-05-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing on director changes at bet365 offers minor governance visibility but limited immediate news value.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3c291635a6f273245655ebe4115db7c6f61acef6a8e7b4a23658682af07b3448",
+    "source": "companies_house",
+    "source_id": "MzE0Nzg4MTc3MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE0Nzg4MTc3MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2016-05-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A director change at bet365 offers minor insight into governance at one of the UK's largest gambling operators.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4c2128cc460814b30e9c4fe9e81d37930ccd60efdede1cb0ec97e8f52e5c5bef",
+    "source": "companies_house",
+    "source_id": "MzUxMTQ4NTY0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUxMTQ4NTY0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Board changes at a major UK gambling operator can signal governance shifts worth monitoring, though routine filings rarely drive coverage alone.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5c723189ae7bbfaef8ef3e80ea90efddd7e3c6559386e05fa22f68f1342cead6",
+    "source": "companies_house",
+    "source_id": "MzUxMTQ4NTA2NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUxMTQ4NTA2NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at Entain's UK arm could signal leadership changes worth tracking at a major listed operator.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f5ef629519a39e1dfcd3ed3a5328199c16ce4c058245fee22393fa517433f786",
+    "source": "companies_house",
+    "source_id": "MzUwMDM5NTk0OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUwMDM5NTk0OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-01-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing confirming Entain UK's records are up to date, with no substantive news for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fefd0536112b6e5a725268e8c9a36c3d48a14ba5c7c4dc9bdd3eddf49b45e1be",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMzczMGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMzczMGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing shows Entain released a mortgage charge, a minor administrative financial update.",
+    "category": "charge release filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ec290c65d754b57b527d40fec2e2400077749b69c5392a5604886620bc136195",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMTUyOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMTUyOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine Companies House filing showing a financial charge release, unlikely to affect Entain's operations or market position.",
+    "category": "charge release filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c865aaf0f9e512b2629775dc0e6a0222d567a50d597979af4f8819fcda5bad46",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMTI5OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMTI5OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine Companies House filing showing release of a mortgage charge offers minor insight into Entain's financing arrangements.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "cf1cce544fe734037d5ddefc708757a788a8eb94b4780cf0839a87cc64a1b985",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMTA1NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMTA1NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Shows Entain's UK subsidiary clearing a registered charge, a routine but trackable corporate finance update.",
+    "category": "charge release",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "54dbb112c950f70541a99c5f2898fd26685620328fef2692bfd2899959c9de3d",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMDk1OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMDk1OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing showing release of a charge, unlikely to interest gambling trade journalists.",
+    "category": "charge release filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e9539b5498322c3e109c964a5b6ef6032425577ec0aa125960d650f28ee467f6",
+    "source": "companies_house",
+    "source_id": "MzQ5NDAzMDU3OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ5NDAzMDU3OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR05 · Description: Mortgage charge whole release with charge number",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing showing release of a charge on Entain's UK subsidiary, unlikely to affect operations or investors.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4d743fb38b52a72527b51139be9a57982e974d3e398cb57a651031adce226455",
+    "source": "companies_house",
+    "source_id": "MzQ4MzUwNzc2NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ4MzUwNzc2NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-10-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Full accounts filings from a major operator's UK entity can reveal financial performance details relevant to industry analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9ecf61c89bf4c543b748eb0ab9004d56da23ff1f6dbd33468fd5c6fba1fc280a",
+    "source": "companies_house",
+    "source_id": "MzQ2ODY4NDE3MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ2ODY4NDE3MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2025-06-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A new charge against Entain's UK holding entity could signal financing activity worth monitoring for financial stability implications.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "88058c00a22c8326ef1f9a4576076e9094554e376a945b64e10f1daaccd78f99",
+    "source": "companies_house",
+    "source_id": "MzQ1NDExNjgxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ1NDExNjgxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-02-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited",
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Full accounts from a major operator's UK subsidiary can reveal financial performance and regulatory exposure worth tracking.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "753efaa694ce1408d820fb4b3f04fef5e657dd4a4a731086e237eab32c14b433",
+    "source": "companies_house",
+    "source_id": "MzQ1MjY2NzA5MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQ1MjY2NzA5MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2025-01-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with no updates, offering minimal news value beyond confirming Entain's UK entity remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "aaf305e6e8acb01b93577ceb0304f49166720ea7ffab95cd3f7ee4ba136d8515",
+    "source": "companies_house",
+    "source_id": "MzQyODYzMDY2OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQyODYzMDY2OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2024-07-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A new charge against Entain's UK holding entity could signal financing activity worth monitoring for wider corporate or lending implications.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bd1a65bdc41985fb6e8eb3183f552aee6b97161c9e151b0abc1554304827423b",
+    "source": "companies_house",
+    "source_id": "MzQyNzM5MDY4NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQyNzM5MDY4NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2024-07-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A change in significant control at Entain's UK entity may signal internal restructuring worth monitoring for ownership or governance shifts.",
+    "category": "PSC/ownership change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "cad056df1eaf49ab1b4604f0dc526c23ef90609c9c06f2b7b91f916ef2f1b50e",
+    "source": "companies_house",
+    "source_id": "MzQwODkwNjM4NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQwODkwNjM4NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2024-01-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with minor operational relevance for tracking Entain's corporate structure, but no substantive news content.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b5ed0308d0a4f55b5aafff37cd683986fbb64bed7121df4cda7a02018f88aca9",
+    "source": "companies_house",
+    "source_id": "MzM5NzkyNzU3NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5NzkyNzU3NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2023-10-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Leadership changes at Entain's UK arm can signal governance shifts worth tracking for a major gambling operator.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "992261d50d8ea67328f63179b9c67be54b1e7a4f28d22683e1c82ac615b3aa7f",
+    "source": "companies_house",
+    "source_id": "MzM5NTkwNDI2M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5NTkwNDI2M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2023-10-11T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine full accounts filing from a major UK gambling operator's subsidiary may offer financial detail worth checking for analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "26c1150970eeabf9feb1721de72591773a4df99ec0f70b6104a3b3affe29ea4c",
+    "source": "companies_house",
+    "source_id": "MzM5MzgxMTcyOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5MzgxMTcyOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A registered charge on Entain's UK holding entity may signal financing activity worth monitoring for wider group implications.",
+    "category": "charge registration",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c166c201c5e4a36fcae7a0a51ff6dc69c5592ae2b7912dc31dc724b7ab181cba",
+    "source": "companies_house",
+    "source_id": "MzM4NTE4NDQ2M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE4NDQ2M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: RP04AP01 · Description: Second filing of director appointment with name",
+    "published_at": "2023-07-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Minor administrative filing showing a director appointment at Entain's UK entity, of limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "592ef7038c484e47f8b71564b5c30eda8d76c0e53db06ba9375298df5408e548",
+    "source": "companies_house",
+    "source_id": "MzM4NTM0OTc0NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTM0OTc0NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2023-07-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing at a major operator's UK subsidiary, of limited standalone interest but useful for tracking leadership changes.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f09f8ee9b809ed493fd05e7085bf978ea9abc276d8fe940358305e80783811fd",
+    "source": "companies_house",
+    "source_id": "MzM4NTE4NjI1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE4NjI1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-07-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine director appointment at Entain's UK entity offers minor governance context but limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "2b33f0a30d100186b8ef9f95e5ece6de13d4be3c5252317806d0e02fd1679d92",
+    "source": "companies_house",
+    "source_id": "MzM4NTE1NjE2MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE1NjE2MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-07-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Minor administrative filing with no operational or regulatory impact but confirms corporate housekeeping at a major operator.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "884df8bb2223884c3a28eb37e4e70ae86a140dccded0d964cbfd55920834a382",
+    "source": "companies_house",
+    "source_id": "MzM4NDAwMjI1MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NDAwMjI1MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing with no operational or regulatory significance for the gambling sector.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "70c9edef91b09d7f69ba4e851d8653394aa745e53f72a2e1a7549bcf50c7d3f2",
+    "source": "companies_house",
+    "source_id": "MzM4NDAwMTgwNGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NDAwMTgwNGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-06-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine officer filing at Entain's UK entity offers minor governance visibility but no immediate operational or regulatory impact.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f84176b0a093b375422354f710cfc61400044c0148a76f70eea7375b40fd9c78",
+    "source": "companies_house",
+    "source_id": "MzUxMTUwMjA1N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzUxMTUwMjA1N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine director termination filing offers minor governance signal for one of the UK's largest bookmakers.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d5bb478d15443a432710cad93057a844c2cf0be6c6c44cc493912d2b24315e23",
+    "source": "companies_house",
+    "source_id": "MzUxMTUwMTAxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzUxMTUwMTAxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at a major Entain-owned licensee may signal governance or strategic changes worth monitoring.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6ab1864919b0ce1191950d55990d9df40164918c881f2fd800b272426debb14f",
+    "source": "companies_house",
+    "source_id": "MzQ5ODI2MTkxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ5ODI2MTkxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Address filed",
+    "raw_summary": "Type: AD02 · Description: Change sail address company with old address new address",
+    "published_at": "2026-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A routine administrative filing with no operational or regulatory significance for the gambling sector.",
+    "category": "registered address change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f442f4d0f4518afb5c66e2c61ff3e9a763091a8425dff79b8faa1d3b8b310a4c",
+    "source": "companies_house",
+    "source_id": "MzQ5ODI0NjM3MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ5ODI0NjM3MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no updates, offering minimal news value beyond corporate record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b56fceca231d98ff3205bf882d57f61813316172773a75aa255518fdaeef0a65",
+    "source": "companies_house",
+    "source_id": "MzQ5NDA2MzA0MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ5NDA2MzA0MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2025-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A registered charge on a major gambling group's assets could signal refinancing or intra-group financial restructuring worth monitoring.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8af2220ae0ce8b1dce6733d388cf4520b8839fc4e4532289cd93b060b75f7cb6",
+    "source": "companies_house",
+    "source_id": "MzQ4MzY0MDIzOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ4MzY0MDIzOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-10-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine full accounts filing offers potential financial insight into a major UK bookmaker's parent entity, worth monitoring for details.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6b32cccd299ef2315eec7c037f66eb3faf487d434f190fc35bf27213d140fc5e",
+    "source": "companies_house",
+    "source_id": "MzQ2ODY4NDEwNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ2ODY4NDEwNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2025-06-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new mortgage charge on Ladbrokes Coral could signal financing activity worth monitoring for corporate structure changes.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "11d12d082c0971f8e7fbdfbc093aa2e9fa839877f13843e64af0dbe2109851b1",
+    "source": "companies_house",
+    "source_id": "MzQ1NDExNjgxN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ1NDExNjgxN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-02-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full accounts filing offers a rare look at the financial health of a major Entain-owned UK bookmaker.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "edd8e31f679364592a39093ac5a2f94449b8dac2a6208e15b0339b09d783b325",
+    "source": "companies_house",
+    "source_id": "MzQ1MTI4NjMwM2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ1MTI4NjMwM2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2025-01-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual filing with no updates, minimal relevance beyond confirming corporate status.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f34b21d6f7a92fffb42461db42e4c1763ecfda1070081674ecb3ac8422e005d2",
+    "source": "companies_house",
+    "source_id": "MzQyODYzMDk3NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQyODYzMDk3NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2024-07-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A registered charge against Ladbrokes Coral could signal financing or restructuring activity worth monitoring within the wider Entain group.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "21d407e0ea25549c00105cd89d74cbe0e8180972c3ccf6f13ccf5dad4306fc6a",
+    "source": "companies_house",
+    "source_id": "MzQwNzYyMjI3NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzYyMjI3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-01-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming the entity remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "907ce17f922047c4becacb56142420a899532cb5c70f9cfe6ba7772ea3e85819",
+    "source": "companies_house",
+    "source_id": "MzQwNzExNjIyMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzExNjIyMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2024-01-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A change in significant control at a major bookmaker could signal ownership shifts worth monitoring for M&A implications.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8fb63d557d3bdd5d371faf91560c9d2d7f18199da11a89d9735d724692188d01",
+    "source": "companies_house",
+    "source_id": "MzQwNzExNTk1MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzExNTk1MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: CH04 · Description: Change corporate secretary company with change date",
+    "published_at": "2024-01-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine administrative filing with low editorial value unless linked to wider governance or ownership changes at Entain.",
+    "category": "corporate secretary change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8c6d0d47c9b838e71944b32a7317214771d27e55a0761cf51af56315313812ab",
+    "source": "companies_house",
+    "source_id": "MzM5NTkwNTIxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM5NTkwNTIxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2023-10-11T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full financial accounts from a major Entain-owned brand can reveal performance and liabilities data of interest to industry analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "858234ab49612377700c0ce90f3e46ccfef524a0e51d0ccb739cf55c8f0ac305",
+    "source": "companies_house",
+    "source_id": "MzM5MzgxMTQ3NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM5MzgxMTQ3NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A registered mortgage charge signals financing activity at a major UK bookmaker, worth noting for financial context.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "feff7d2f14fa10a03c7c88545a100942746eac49c6cd70d3c62277a1425192c7",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MzI3NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MzI3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine director appointment at a major operator may hint at governance changes worth monitoring but has limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "05e17b3c1556abc9b9208104f39b6598d6d7981625c831a18efc37c26749fe20",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MzQ0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MzQ0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine administrative filing with minimal direct impact on industry news but confirms corporate housekeeping for a major operator.",
+    "category": "registered office address change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "06f16b639b72c809288b60728062bf2c1dcaf64997980b3f7f405ffa05dcabf2",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MjgwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MjgwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing offers minor governance insight into Entain's Ladbrokes Coral entity but has no immediate market impact.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bdbe76481c49d541297b18838f9a82974d240efa8ca3e7fcf76185de54e7f7c0",
+    "source": "companies_house",
+    "source_id": "MzM2NTA0MzA0MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM2NTA0MzA0MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine compliance filing with no new information, unlikely to interest gambling industry journalists.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d67e97b15eebbc0984a6e00c9303fe13a01ee5aed9f30894b4985eef35ed70f6",
+    "source": "companies_house",
+    "source_id": "MzM2MzUwMDY0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM2MzUwMDY0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2022-12-22T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A registered charge on Ladbrokes Coral's assets could signal financing activity within the wider Entain group structure.",
+    "category": "charge/mortgage filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8fb21a1d8bb54a30cadbb571ba40cf19aa979716fd738c28c103e1a599d45f1d",
+    "source": "companies_house",
+    "source_id": "MzM1MzkxMjI2MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM1MzkxMjI2MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2022-10-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full accounts from a major bookmaker's holding entity could reveal financial performance details relevant to sector analysis.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3379625558f1ae37db6e0ff655d1420e66e319f10c9492182f1a957799190d0b",
+    "source": "companies_house",
+    "source_id": "MzM1MzY4NTEzNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM1MzY4NTEzNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2022-09-30T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine director change filing at a major operator's holding company, of limited standalone news value.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6b3aba993004b8abba0eca4be1eb29ba713c98705a8fb0ad322387b9375c1f76",
+    "source": "companies_house",
+    "source_id": "MzMyNzQ0OTMzOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzMyNzQ0OTMzOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2022-01-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement filing, low direct news value but keeps corporate records current for a major UK operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e3090f1ae2f3f35140f6a8111d9b367b8e079d3025a564ed9ff819f0739b4370",
+    "source": "companies_house",
+    "source_id": "MzMyNTQ3MTkwN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzMyNTQ3MTkwN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2022-01-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine full accounts filing offers a data point for tracking Entain-owned Ladbrokes Coral's UK financial position.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ab29891f69c791758874d1062b2e6db8ba79e997d308ac33ab496bf31db18d06",
+    "source": "companies_house",
+    "source_id": "MzMxMzUwMjc1NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzMxMzUwMjc1NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2021-09-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A registered charge on Ladbrokes Coral's assets may signal financing activity worth monitoring within Entain's group structure.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+    "source": "companies_house",
+    "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzUyODc1MjMxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2026-06-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "01be16dcf724fa8009901d85c409e4682c137a80d32a23fc90f10be111a6c10b",
+    "source": "companies_house",
+    "source_id": "MzQ5NzQ5MjU4N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ5NzQ5MjU4N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Change of name filed",
+    "raw_summary": "Type: RP04SH01 · Description: Legacy",
+    "published_at": "2026-01-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A name change filing for William Hill Limited could signal internal corporate restructuring worth tracking for ownership or brand implications.",
+    "category": "corporate restructuring",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d20555abffe95d401e365142036da265a3c1e06bca4a74441cdbf477b28ee75d",
+    "source": "companies_house",
+    "source_id": "MzQ3Mjc2ODcwMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ3Mjc2ODcwMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2025-07-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "William Hill's filed accounts could reveal financial performance and group liabilities relevant to industry analysts and investors.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c80a1ad3310558f97e41a2543eb8d4a76ebad3e341c18965722937c52a2532f3",
+    "source": "companies_house",
+    "source_id": "MzQ3MjQ4NzU2MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ3MjQ4NzU2MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Capital filed",
+    "raw_summary": "Type: SH05 · Description: Capital cancellation treasury shares with date currency capital figure",
+    "published_at": "2025-07-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A share capital filing at William Hill may reflect internal restructuring worth tracking amid ongoing 888/William Hill ownership changes.",
+    "category": "share capital change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1531fbc5de057dbe4d1f5793d6c1985beeee1b5c85b6889d8683f0b69a743a28",
+    "source": "companies_house",
+    "source_id": "MzQ3MTA4NDQ0NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ3MTA4NDQ0NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2025-06-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing confirms William Hill's corporate records are current, but carries no operational or regulatory significance.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6c2069a3486a3aaa2390bb0f8d411c2b3a197822fc51e723b2dfcbe759bf5ffc",
+    "source": "companies_house",
+    "source_id": "MzQ3MTA4MjU4MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ3MTA4MjU4MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Capital filed",
+    "raw_summary": "Type: SH01 · Description: Capital allotment shares",
+    "published_at": "2025-06-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine share allotment filing offers minor corporate-structure insight but no immediate regulatory or market impact for gambling watchers.",
+    "category": "share capital filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8afee82cb26e31b630036e835aad6157cb141ff97c67177988b65144b57b33e7",
+    "source": "companies_house",
+    "source_id": "MzQ1Nzk1NDUzMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ1Nzk1NDUzMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2025-03-11T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing offers minor corporate governance signal for a major bookmaker with limited immediate industry impact.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "63ffb4020e6b5918e5d464e502a0f0cd6832f78d74ec709602b933af9c39c040",
+    "source": "companies_house",
+    "source_id": "MzQyNzY3NDU1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQyNzY3NDU1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2024-07-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine accounts filing for a major bookmaker, useful for tracking financial health but not inherently newsworthy alone.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8e02f060254d2986748ef01636bd1f5fe6b1d8f2760cbcd293737f12a7d5eec0",
+    "source": "companies_house",
+    "source_id": "MzQyNTYwMzkwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQyNTYwMzkwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-06-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no updates, of minimal interest beyond standard compliance record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "966d77e81f498d16ba32adce3428c85a4f2d688b4026d1074fc3f9acc937e860",
+    "source": "companies_house",
+    "source_id": "MzQxOTg2ODEzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQxOTg2ODEzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2024-04-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing gives limited insight into William Hill's operations unless linked to wider governance changes.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "789d16baff7834d4b0802074905f7b8b7b111aeb7ccb0a2faa013255f7ec8149",
+    "source": "companies_house",
+    "source_id": "MzQxMTU1NzAzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQxMTU1NzAzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2024-02-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine board change filing at William Hill offers minor governance signal but little immediate industry impact.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5b8d747a714c442ae4840938797f05d1388558838192a1eb57dab8b0f0b46600",
+    "source": "companies_house",
+    "source_id": "MzQwOTYyMzk1NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQwOTYyMzk1NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2024-02-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at William Hill could signal leadership or strategy shifts worth monitoring for the operator.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1f03095cacfa050868bbc3b1ffe36b6cb84db2ecea9d1822b521e537aa88049d",
+    "source": "companies_house",
+    "source_id": "MzM4NjE0MDU2NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM4NjE0MDU2NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2023-07-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine accounts filing may reveal financial performance details for a major UK bookmaker of interest to industry watchers.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "029e1a0fb0e256e6c98fd942fbf7c62836bad29641792f7541e1afcc7a902257",
+    "source": "companies_house",
+    "source_id": "MzM4MzQxNTkwMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM4MzQxNTkwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2023-06-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House confirmation statement offers minimal news value but confirms William Hill's continued corporate status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c9c5e52c1a5ecbc85a2f5e8fa4196d302e201f2fa7f99283eae8aec3d1005094",
+    "source": "companies_house",
+    "source_id": "MzM1ODc1MzMzNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM1ODc1MzMzNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AAMD · Description: Accounts amended with accounts type group",
+    "published_at": "2022-11-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Amended accounts from a major bookmaker could reveal financial corrections worth checking despite limited detail.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4440af557e48411a26f7a7219b1fee4edf6bcfc2b7b1ee7770e9794651c93880",
+    "source": "companies_house",
+    "source_id": "MzM1NzU1NTEyM2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM1NzU1NTEyM2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2022-11-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing on a secretary termination for William Hill, minor administrative detail with limited editorial value.",
+    "category": "company officer filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e0997b73fb4196d1182cbcc6bdbc7822bc94c81e1e29c64e4622b71890efdba2",
+    "source": "companies_house",
+    "source_id": "MzM1NzU0NzY0MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM1NzU0NzY0MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2022-11-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine company secretary appointment at William Hill offers minor administrative insight but limited news value for the gambling sector.",
+    "category": "company officer change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "61f0939ec05a57f99e82a125c15f4a3c5dabdc285bd34a737a62f7b287104745",
+    "source": "companies_house",
+    "source_id": "MzM1Mzg2ODM1NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM1Mzg2ODM1NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Auditors filed",
+    "raw_summary": "Type: AUD · Description: Auditors resignation company",
+    "published_at": "2022-10-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "An auditor resignation at a major bookmaker can signal governance shifts worth monitoring even without immediate financial impact.",
+    "category": "auditor change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "20c8d3bc0247b080b23bdcfda0dc491a0d2e1a320cdd75182c09471bf0f22ec7",
+    "source": "companies_house",
+    "source_id": "MzM0NTAyNTYwNGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NTAyNTYwNGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2022-07-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Ownership control changes at major operators can signal wider group restructuring worth tracking industry-wide.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bf7186225cecb80de9413a19d6715b888904e581e3c5cf1126b5d745885efaeb",
+    "source": "companies_house",
+    "source_id": "MzM0NTAyNTUwMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NTAyNTUwMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2022-07-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Ownership control filings can signal shifts in corporate structure affecting William Hill's licensing accountability.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "361fbc560fe123c8242e0c53093c119f6f99c8fdcadf166d8d024af4399d858c",
+    "source": "companies_house",
+    "source_id": "MzM0NDQ4MTk4NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NDQ4MTk4NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2022-07-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Financial filings from a major bookmaker can reveal performance trends useful for market context, though routine.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ded2939463a7524f3d6591784759f8b23b1fcda60c53416a5931fc604763654c",
+    "source": "companies_house",
+    "source_id": "MzM0NDQ4NjY2MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NDQ4NjY2MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2022-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine administrative filing of a secretary termination, minimal relevance beyond standard corporate record-keeping.",
+    "category": "company officer filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8410103adc93614b8e2f36f642b5f807de2ec5ef39686999907276b6116d1e46",
+    "source": "companies_house",
+    "source_id": "MzM0NDQ4NjY4NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NDQ4NjY4NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP02 · Description: Appoint corporate director company with name date",
+    "published_at": "2022-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine corporate filing showing a change in William Hill's board structure, of limited standalone news value but useful for tracking ownership changes.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "41475858c0c6c7abefdb009832480dc04ac549097e66893ce0e4336f7cdabfdd",
+    "source": "companies_house",
+    "source_id": "MzM0NDQ4NjY0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NDQ4NjY0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2022-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A director termination filing at William Hill is routine corporate housekeeping with limited standalone news value unless linked to wider governance changes.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "88288514218186c7ce628186e5cefa0e65a886fcdbe122f0180be76ea6c09780",
+    "source": "companies_house",
+    "source_id": "MzM0NDQ4NjY1NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM0NDQ4NjY1NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2022-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing offers minor governance signal but little immediate relevance to the wider gambling sector.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "57fe85aef0c3418c0fe4c495a9b0c208f1b89466af8904a11a9e897422a79e05",
+    "source": "companies_house",
+    "source_id": "MzQ4NjIwNjU3OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQ4NjIwNjU3OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-10-24T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full annual accounts from a major Flutter-owned betting brand could reveal UK financial performance and regulatory cost trends.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bc4c4d6a5b0b361c51cf2fc3e77257f638331b31b342ba6bd0b6447c0d3e455c",
+    "source": "companies_house",
+    "source_id": "MzQ4NDMyNjQ3OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQ4NDMyNjQ3OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2025-10-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no updates, so minimal direct relevance to gambling sector coverage.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "53aced67a60dccdfc2b62d6375d8b551afd538b38749d24baf3e480ed5ecfc3d",
+    "source": "companies_house",
+    "source_id": "MzQ2OTQ4MjMyOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQ2OTQ4MjMyOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2025-06-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A director change at Betfair Limited could signal governance shifts at a major gambling operator worth monitoring.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b508b372a365eec38121178c892b17e1d81f8151d8ff20763076073f7393269e",
+    "source": "companies_house",
+    "source_id": "MzQ0ODMyMjY4MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQ0ODMyMjY4MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2024-12-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full-year accounts from a major Flutter-owned betting brand can reveal UK revenue and profitability trends for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fb2c0bf1e93122e5a3f1eed813eee14367a3c991bbff097f0389ba03a5438f07",
+    "source": "companies_house",
+    "source_id": "MzQzODk0OTIzOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQzODk0OTIzOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-10-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine Companies House confirmation statement with no updates, offering minimal news value for industry watchers.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3dd2fc0611010876f30cbd301d6f1b6383c3b666bdff6fa619de991a7b04d9e2",
+    "source": "companies_house",
+    "source_id": "MzQzMDk5ODU2OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQzMDk5ODU2OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-08-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates, minimal editorial value beyond corporate record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f500a54c1b49581a4a49a63bd9c27954d4f6790203f2eaf165d6cecb53f539e9",
+    "source": "companies_house",
+    "source_id": "MzQyODkwODc5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQyODkwODc5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2024-07-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine company secretary termination filing at Betfair Limited has minor administrative relevance but no operational or regulatory impact.",
+    "category": "officer filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "969a38135c2103e55eef4227c64fa58005ff3118e75812715702ee8ce208580c",
+    "source": "companies_house",
+    "source_id": "MzQyODkwNDI5OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQyODkwNDI5OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2024-07-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine officer filing at Betfair Limited offers minor corporate housekeeping detail but no material regulatory or business impact.",
+    "category": "company secretary appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "438cd7a3506b39fe8e2a3c75ee519f1d9e49755b728b1243b208aabc5b34017b",
+    "source": "companies_house",
+    "source_id": "MzQwNDk4Njc4OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQwNDk4Njc4OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2024-01-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full accounts filing may reveal financial performance details for a major gambling brand under Flutter's umbrella.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f6570665bf579c64e61769a79c574d4804a817037da24d326161a25ad8c00369",
+    "source": "companies_house",
+    "source_id": "MzM5OTYzMjAwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM5OTYzMjAwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2023-11-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "Ownership control changes at a major gambling brand can signal wider corporate restructuring within Flutter's group.",
+    "category": "PSC/ownership change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e841935e6015910adea6b93ec369b82c76b6ef073fb9121cada9633c66fadcdf",
+    "source": "companies_house",
+    "source_id": "MzM5ODg2NzkzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM5ODg2NzkzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2023-11-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A change in Betfair's controlling ownership structure could signal wider Flutter group governance shifts worth monitoring.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b4fe6582fdf4e3c5c62aba74036edea767335b19fa6c5ecb19fc0ff99986a526",
+    "source": "companies_house",
+    "source_id": "MzM4Nzk1NDM1NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4Nzk1NDM1NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-07-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine compliance filing with no updates, offering minimal insight into Betfair's operations or strategy.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e2fff8b8f0aeb3cbbd3c8b826f7ccfbe8d890b4b475475ee3bf1f3b9539a24f8",
+    "source": "companies_house",
+    "source_id": "MzM4MzcxNTI2MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4MzcxNTI2MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing with minimal direct impact on industry stakeholders, but confirms Betfair's continued corporate activity.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7794ee0ec2ef4dade2254bf86cfecc3e128ab81022b2ffd477d331a74f4df77e",
+    "source": "companies_house",
+    "source_id": "MzM4MjI4NjExOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4MjI4NjExOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing showing Betfair Limited's registered office address change, of minimal editorial interest.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5b5aab1353d7eca728000f6040d0b38c40ecd913f03658b803e1e3cc26f2dfd3",
+    "source": "companies_house",
+    "source_id": "MzM2MjIwNDU2MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM2MjIwNDU2MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2022-12-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full financial accounts from a major betting brand can reveal performance trends relevant to competitors and analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9ed1ca33cba441f4a2ae3e649985d50cd5b89338e1d1f86814a2856263fe5a26",
+    "source": "companies_house",
+    "source_id": "MzM0NjkzNDQ5M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM0NjkzNDQ5M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2022-07-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming Betfair Limited remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "065e15bf02e24eb1e3b6f7e9405d6c298ba5c9889be44546c6bafec401d1440a",
+    "source": "companies_house",
+    "source_id": "MzMxNTkyNzQ3MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzMxNTkyNzQ3MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type total exemption full",
+    "published_at": "2021-10-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine full accounts filing for Betfair Limited offers limited insight but may inform financial tracking of the operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "69c02c81b1537a200cad3d464e7053c1171a05319b818d0ac7df50c72f1fd591",
+    "source": "companies_house",
+    "source_id": "MzMwODg4NzUxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzMwODg4NzUxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2021-07-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates, unlikely to affect operations or signal any regulatory change.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ba1dd03ee8f94a5f546799bd60efeaac2a560634ab761075fccfea1ed953b9ed",
+    "source": "companies_house",
+    "source_id": "MzI4ODIyNzE3N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI4ODIyNzE3N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2021-01-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine full accounts filing for Betfair may reveal financial performance details relevant to Flutter's UK betting operations.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3edcbc073a4f2a3cc0664be8dda449266155e3b1623d5a0da73b136feb320df0",
+    "source": "companies_house",
+    "source_id": "MzI4MjMwNDUxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI4MjMwNDUxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2020-11-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A director appointment at Betfair Limited offers minor governance insight but limited immediate impact for the gambling sector.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0a087c408d5cd8c08f7a1ea052c4db5398f0492658eb87612991a7448a202fb3",
+    "source": "companies_house",
+    "source_id": "MzI4MjMwNDQ3MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI4MjMwNDQ3MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2020-11-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing offers minor governance signal for a major gambling brand but lacks operational impact.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e83d9a0ee2388920b5fd58310fde093671c4d7e87d082506ade42d5b6f527f4f",
+    "source": "companies_house",
+    "source_id": "MzI3Mjg1MDI2NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI3Mjg1MDI2NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2020-07-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming Betfair Limited remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "09554de650e6238366c2befea38d3f2346b1134f1077696ac22757aade9d38cb",
+    "source": "companies_house",
+    "source_id": "MzI0ODQ4NDgyN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI0ODQ4NDgyN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2019-11-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine full accounts filing gives limited insight but may reveal Betfair's financial position for analysts tracking the operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "48cb78c56083a02039b7541dcf11c75fd58675e4a028420c722568b403e8bb38",
+    "source": "companies_house",
+    "source_id": "MzIzNzQ3NTA4MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzIzNzQ3NTA4MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2019-06-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.602088+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine administrative filing with Companies House, offering minimal insight into Betfair's operations or strategy.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d289e54d8aee37ec0f14c99e0a550bf713f98ab1298bfc107ba3c4a699521514",
+    "source": "companies_house",
+    "source_id": "MzIzMzk0NTI1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzIzMzk0NTI1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2019-05-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.602088+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine company secretary appointment at Betfair Limited has minimal standalone relevance to gambling industry coverage.",
+    "category": "corporate officer filing",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]

@@ -7,10 +7,12 @@ gambling_commission:
       signal_type: enforcement
   user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
 
-# Phase 1 sources — disabled until their collectors are built
 companies_house:
-  enabled: false
+  enabled: true
+  items_per_page: 25
+  sleep_seconds: 0.6   # politeness between watchlist companies, well within the 600 req/5min limit
 
+# Phase 1 sources — disabled until their collectors are built
 gazette:
   enabled: false
 

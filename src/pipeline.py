@@ -5,6 +5,7 @@ import yaml
 from dotenv import load_dotenv
 
 from src import store
+from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
 from src.normalise import to_signal
 from src.score import score_signal
@@ -18,6 +19,12 @@ def load_sources(path: str = "config/sources.yaml") -> dict:
         return yaml.safe_load(f)
 
 
+def load_watchlist(path: str = "config/watchlist.yaml") -> list[dict]:
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return data.get("operators", [])
+
+
 def build_collectors(sources: dict) -> list:
     collectors = []
 
@@ -29,6 +36,23 @@ def build_collectors(sources: dict) -> list:
                 user_agent=gc_config["user_agent"],
             )
         )
+
+    ch_config = sources.get("companies_house", {})
+    if ch_config.get("enabled"):
+        api_key = os.environ.get("COMPANIES_HOUSE_API_KEY")
+        if not api_key:
+            logger.warning(
+                "COMPANIES_HOUSE_API_KEY not set — skipping Companies House collector"
+            )
+        else:
+            collectors.append(
+                CompaniesHouseCollector(
+                    api_key=api_key,
+                    operators=load_watchlist(),
+                    items_per_page=ch_config.get("items_per_page", 25),
+                    sleep_seconds=ch_config.get("sleep_seconds", 0.6),
+                )
+            )
 
     return collectors
 
