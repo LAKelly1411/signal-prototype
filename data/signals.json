@@ -7605,13 +7605,18 @@
     "raw_summary": "The Secretary of State has appointed Anne Lambert, CMG, from 16 September 2024 to 15 June 2025, while the process to appoint a substantive Chair to the Horserace Betting Levy Board is run. This appointment follows the sad death of the Chair, Paul Darling, in August 2024.",
     "published_at": "2024-09-16T11:00:00Z",
     "ingested_at": "2026-07-14T10:46:09.314380+00:00",
-    "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "signal_type": "regulatory",
+    "entities": [
+      "Horserace Betting Levy Board",
+      "Anne Lambert",
+      "Paul Darling",
+      "DCMS"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Signals interim leadership at the body overseeing horserace betting levy funding, relevant to racing and betting operators.",
+    "category": "governance appointment",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "3b34f367692225bc24c428de1362308d6c1ec1606829ddc22428a167f71103ba",
