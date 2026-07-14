@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from src import store
 from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
+from src.collectors.gazette import GazetteCollector
 from src.normalise import to_signal
 from src.score import score_signal
 
@@ -53,6 +54,18 @@ def build_collectors(sources: dict) -> list:
                     sleep_seconds=ch_config.get("sleep_seconds", 0.6),
                 )
             )
+
+    gz_config = sources.get("gazette", {})
+    if gz_config.get("enabled"):
+        watchlist_names = [op["name"] for op in load_watchlist()]
+        collectors.append(
+            GazetteCollector(
+                search_terms=gz_config.get("keywords", []) + watchlist_names,
+                user_agent=gz_config["user_agent"],
+                results_per_term=gz_config.get("results_per_term", 20),
+                sleep_seconds=gz_config.get("sleep_seconds", 1.0),
+            )
+        )
 
     return collectors
 

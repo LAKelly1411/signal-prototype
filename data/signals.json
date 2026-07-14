@@ -4560,5 +4560,2568 @@
     "category": "corporate officer filing",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
+    "source": "gazette",
+    "source_id": "5167601",
+    "source_url": "https://www.thegazette.co.uk/notice/5167601",
+    "title": "DEESIDE BOOKMAKERS LTD.",
+    "raw_summary": "Appointment of Liquidators: …kmakers Ltd. by virtue of the deemed consent procedure. The nature of the business of the company is Gambling and betting activities. …",
+    "published_at": "2026-07-03T12:01:45+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Deeside Bookmakers Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bookmaker entering liquidation signals possible sector distress and may trigger licence and creditor implications.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+    "source": "gazette",
+    "source_id": "5158520",
+    "source_url": "https://www.thegazette.co.uk/notice/5158520",
+    "title": "RICHMOND ATLANTIC SERVICES LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: RICHMOND ATLANTIC SERVICES LTD Company Number: 15850124 Nature of Business: Gambling /Financial Services & Corporate Investment …",
+    "published_at": "2026-06-22T01:02:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Richmond Atlantic Services Ltd"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A gambling-linked company entering liquidation may signal financial distress worth tracking for sector risk patterns.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9ef42c050b2ea27424757af274a98032da52448d7d8d00591611eb9741a66ab1",
+    "source": "gazette",
+    "source_id": "5147677",
+    "source_url": "https://www.thegazette.co.uk/notice/5147677",
+    "title": "PAUL SUNNUCKS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 08473219 Name of Company: PAUL SUNNUCKS LIMITED Nature of Business: Online Gambling Comparison and Support Website …",
+    "published_at": "2026-06-05T18:30:41+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Paul Sunnucks Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A small gambling comparison site entering liquidation signals affiliate-sector financial pressure, of note to industry watchers.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d589b3e306b6bd5eba1ecd770df08fbacffe5a8c84d50f3a78618e796f88512f",
+    "source": "gazette",
+    "source_id": "5106998",
+    "source_url": "https://www.thegazette.co.uk/notice/5106998",
+    "title": "ASHCROFT BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: ASHCROFT BOOKMAKERS LIMITED Company Number: 05078251 Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-09T01:08:46+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Ashcroft Bookmakers Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed UK bookmaker entering liquidation may signal wider financial distress among small independent betting operators.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "80a380a0c05d19113d7fc80b7765613315e1c3112a04da1f94b3607795e074aa",
+    "source": "gazette",
+    "source_id": "5104704",
+    "source_url": "https://www.thegazette.co.uk/notice/5104704",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: PALAIS BINGO LIMITED Company Number: 08728175 Nature of Business: Gambling and Betting Activities …",
+    "published_at": "2026-04-08T01:10:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bingo operator entering liquidation signals possible sector distress and prompts checks on player fund protection and licence status.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "cebb49b024da4c153bde82dfb02e3f9927b8ad481792ff6b66133f065a6531c9",
+    "source": "gazette",
+    "source_id": "5102407",
+    "source_url": "https://www.thegazette.co.uk/notice/5102407",
+    "title": "DEADHEAT RACING LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: DEADHEAT RACING LIMITED Company Number: 08016564 Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-07T01:02:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Deadhead Racing Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A licensed gambling and betting operator entering liquidation may signal wider financial distress in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9514d16afdca46f7a423373809b6753ffb460ecf67c7ca2881159aed16717033",
+    "source": "gazette",
+    "source_id": "5099733",
+    "source_url": "https://www.thegazette.co.uk/notice/5099733",
+    "title": "SANDANCER LEISURE LTD",
+    "raw_summary": "Resolutions for Winding Up: …ipal Trading Address: Truwood House , Bromfield Industrial Estate , Mold CH7 1XB Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-01T11:20:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sandancer Leisure Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed gambling operator entering voluntary winding up signals potential financial distress within the UK betting sector.",
+    "category": "company winding up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "afdbb0ce0fa5d71e3d40ebeba791568d1cfaf1a45c41f8f9e393cf176dccbc36",
+    "source": "gazette",
+    "source_id": "5099732",
+    "source_url": "https://www.thegazette.co.uk/notice/5099732",
+    "title": "SANDANCER LEISURE LTD",
+    "raw_summary": "Appointment of Liquidators: …DANCER LEISURE LTD Company Number: 06060855 Company Type: Registered Company Nature of the business: Gambling and betting activities …",
+    "published_at": "2026-04-01T11:20:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sandancer Leisure Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gambling operator entering liquidation could signal wider financial distress worth tracking in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "19d4dbcb535b6b78063e31527c835c23305e92f2b6d88ab19d42734ef5abe244",
+    "source": "gazette",
+    "source_id": "5060048",
+    "source_url": "https://www.thegazette.co.uk/notice/5060048",
+    "title": "RANGERS FC POOLS LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: SC584163 Name of Company: RANGERS FC POOLS LTD Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-02-20T01:07:45+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Rangers FC Pools Ltd"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A football club-linked gambling entity entering liquidation could signal wind-down of a betting operation tied to Rangers FC.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e414c203fc797e9402202a28e141e69a1151abb49b7d5112b57ca6edd6f8c032",
+    "source": "gazette",
+    "source_id": "4997114",
+    "source_url": "https://www.thegazette.co.uk/notice/4997114",
+    "title": "MEDIA PLAYERS (UK) LIMITED",
+    "raw_summary": "Appointment of Liquidators: …ompany: MEDIA PLAYERS (UK) LIMITED Company Number: 12247182 Nature of Business: Marketing agency for gambling providers …",
+    "published_at": "2025-11-13T13:33:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Media Players (UK) Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A gambling marketing agency entering liquidation could signal wider financial pressure among affiliate and marketing suppliers in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a4152cc87e808bc288402cbc2410b34c9d54c22aed0b7e0ddc6f458c604c8484",
+    "source": "gazette",
+    "source_id": "4988974",
+    "source_url": "https://www.thegazette.co.uk/notice/4988974",
+    "title": "ROAR BETTING UK LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: ROAR BETTING UK LIMITED Company Number: 05746823 Nature of Business: Gambling and Betting activities …",
+    "published_at": "2025-10-30T01:07:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "ROAR BETTING UK LIMITED"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A licensed betting operator entering liquidation may signal financial distress worth tracking for creditor and licensing implications.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "49fa7f7264c0c05b8f80d3d293a9882c63a4a740c202ecbdfda0f165e7b18f62",
+    "source": "gazette",
+    "source_id": "4987088",
+    "source_url": "https://www.thegazette.co.uk/notice/4987088",
+    "title": "STARSTON INTERNATIONAL LIMITED",
+    "raw_summary": "Resolutions for Winding-up: …use, Rouen Road, Norwich NR1 1RE (Tel: 01603 877540, Fax: 01603 877549, Email: info@mw-w.com). Peter …",
+    "published_at": "2025-10-27T01:00:30+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Starston International Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up resolution signals company failure, worth noting if linked to a gambling supplier or operator.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b4e36fa8db12212ebe7b6c56811b02dd4b1e8d192922d511f219c8706fd1e6f8",
+    "source": "gazette",
+    "source_id": "4966203",
+    "source_url": "https://www.thegazette.co.uk/notice/4966203",
+    "title": "DOLPHIN GAMING LIMITED and other companies",
+    "raw_summary": "Notices to Creditors: … address: Second Floor Matrix House, North Fourth Street, Milton Keynes, MK9 1NJ Nature of Business: Gambling and betting activities. …",
+    "published_at": "2025-09-22T05:00:14+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dolphin Gaming Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A named gambling operator entering creditor proceedings could signal financial distress worth tracking in the sector.",
+    "category": "insolvency/creditors notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f9f5d1f71418733454fb482e140ccf4018a3691c5df1a9cb1a1750527405919e",
+    "source": "gazette",
+    "source_id": "4966204",
+    "source_url": "https://www.thegazette.co.uk/notice/4966204",
+    "title": "MIRAGE CENTRES LIMITED and other companies",
+    "raw_summary": "Appointment of Liquidators: … address: Second Floor Matrix House, North Fourth Street, Milton Keynes, MK9 1NJ Nature of Business: Gambling and betting activities …",
+    "published_at": "2025-09-22T04:50:13+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mirage Centres Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A gambling-sector company entering liquidation may signal wider financial distress among smaller betting operators.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8f4c70abec925b5dbf5fbfeed57c8f4f691dc60d52e86c20a9ebe7562e94bb65",
+    "source": "gazette",
+    "source_id": "4943364",
+    "source_url": "https://www.thegazette.co.uk/notice/4943364",
+    "title": "JARO LIMITED",
+    "raw_summary": "Appointment of Liquidators: …APPOINTMENT OF LIQUIDATOR Name of Company: JARO LIMITED Company Number: SC108151 Nature of Business: Gambling & Betting Activities …",
+    "published_at": "2025-08-12T12:00:34+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "JARO LIMITED"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A licensed gambling business entering liquidation may signal financial distress affecting creditors, staff and industry stability.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "69bc4d6058a57081c2971bfb2747b4614f992f6fe0ceff5db6ae91e1cebbb847",
+    "source": "gazette",
+    "source_id": "4867819",
+    "source_url": "https://www.thegazette.co.uk/notice/4867819",
+    "title": "ASPERS (MILTON KEYNES) LIMITED",
+    "raw_summary": "Appointment of Administrators: …S (MILTON KEYNES) LIMITED (Company Number 04498928 ) Trading Name: The Casino MK Nature of Business: Gambling and betting activities …",
+    "published_at": "2025-04-14T17:40:42+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Aspers (Milton Keynes) Limited",
+      "The Casino MK"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A UK licensed casino operator entering administration signals financial distress that could affect jobs, creditors and licensing status.",
+    "category": "casino insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c30382f5db66cf3bd01494d487b6a3ff69ed4198f0c7bfa43d0ec6c3a3df9e51",
+    "source": "gazette",
+    "source_id": "4818999",
+    "source_url": "https://www.thegazette.co.uk/notice/4818999",
+    "title": "GRACE DIEU MANOR SCHOOL",
+    "raw_summary": "Resolutions for Winding-up: …be appointed Liquidator of the Company for the purposes of the voluntary winding up. Richard William …",
+    "published_at": "2025-02-21T09:50:15+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Grace Dieu Manor School"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This concerns a school's voluntary winding-up and has no connection to the UK gambling or gaming sector.",
+    "category": "unrelated filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "63bb868d075753c821504acc691eafa3c3ea25fd1b069dfb9a76a0a0101a3f5e",
+    "source": "gazette",
+    "source_id": "4813970",
+    "source_url": "https://www.thegazette.co.uk/notice/4813970",
+    "title": "NORTH EAST HOSPICES LOTTERY LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: NORTH EAST HOSPICES LOTTERY LIMITED Company Number: 03540674 Nature of Business: Gambling and betting activities …",
+    "published_at": "2025-02-17T01:02:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "North East Hospices Lottery Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A society lottery operator entering liquidation could affect charity fundraising and highlights sector fragility for regulators and journalists.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1f51042a1a6c8ad6fe32784beaface6c8ce3a83fe6eba0c90a3471bde868234c",
+    "source": "gazette",
+    "source_id": "4799471",
+    "source_url": "https://www.thegazette.co.uk/notice/4799471",
+    "title": "JA SPORTSBOOK LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: JA SPORTSBOOK LIMITED Company Number: 08713946 Nature of Business: Gambling and betting activities …",
+    "published_at": "2025-01-28T01:01:44+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "JA SPORTSBOOK LIMITED"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A licensed betting operator entering liquidation signals financial distress worth tracking in the UK gambling sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "43ca6078de567b44ab708bf9061260774ad21114373764601058d5bd644a06d5",
+    "source": "gazette",
+    "source_id": "4724725",
+    "source_url": "https://www.thegazette.co.uk/notice/4724725",
+    "title": "G.W.CARRIGILL LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: G.W.CARRIGILL LIMITED Company Number: 00742472 Nature of Business: Gambling and betting activities …",
+    "published_at": "2024-10-14T01:03:43+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "G.W.Carrigill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A licensed gambling business entering liquidation may signal wider sector distress and affect creditors, staff and licence status.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
+    "source": "gazette",
+    "source_id": "5167475",
+    "source_url": "https://www.thegazette.co.uk/notice/5167475",
+    "title": "ACCELERATE CORPORATION LTD.",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1269121/ …",
+    "published_at": "2026-07-03T12:01:35+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Accelerate Corporation Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "No apparent gambling-sector link, so limited relevance to gambling industry journalists despite being an HMRC insolvency action.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+    "source": "gazette",
+    "source_id": "5163880",
+    "source_url": "https://www.thegazette.co.uk/notice/5163880",
+    "title": "RALTEC ARC LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270555/ …",
+    "published_at": "2026-06-30T12:00:25+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RALTEC ARC LTD",
+      "HMRC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An HMRC winding-up petition suggests financial distress, but no clear link to gambling sector operations is evident.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+    "source": "gazette",
+    "source_id": "5162134",
+    "source_url": "https://www.thegazette.co.uk/notice/5162134",
+    "title": "RAPIDO RESTAURANTS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270694/ …",
+    "published_at": "2026-06-26T12:01:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Rapido Restaurants Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This HMRC winding-up petition concerns a restaurant company with no apparent link to the UK gambling sector.",
+    "category": "unrelated insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "75412a643b1f6520982d5fd2e8dd8aff865d85196858202f9cceb8c0887ba6b5",
+    "source": "gazette",
+    "source_id": "5156613",
+    "source_url": "https://www.thegazette.co.uk/notice/5156613",
+    "title": "GORBALS RETAIL LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1265430/ …",
+    "published_at": "2026-06-19T12:00:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gorbals Retail Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A generic HMRC winding-up petition with no apparent link to the gambling sector, limited relevance to trade journalists.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "2010349061bf4f5c8589662f492beac6c6dc11c627f9b7da572a5b8f74d79266",
+    "source": "gazette",
+    "source_id": "5156608",
+    "source_url": "https://www.thegazette.co.uk/notice/5156608",
+    "title": "CHAMBERS LEGAL LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1266044/ …",
+    "published_at": "2026-06-19T12:00:30+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Chambers Legal Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No apparent link to the gambling sector, making this routine insolvency filing of minimal interest to gambling trade press.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "accbffb18b2915a99dcb9909c9267f49ffec83f70bbf38ffbe360b9f31184ec1",
+    "source": "gazette",
+    "source_id": "5148266",
+    "source_url": "https://www.thegazette.co.uk/notice/5148266",
+    "title": "WE ARE TRUERLEIN LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1229483/ …",
+    "published_at": "2026-06-09T12:00:56+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "We Are Truerlein Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A winding-up petition by HMRC signals financial distress, but the company's link to gambling is unconfirmed.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a4d258c06edb4b696042320333bdc0185d50e4c4c4698bcd199934e0895d401d",
+    "source": "gazette",
+    "source_id": "5148265",
+    "source_url": "https://www.thegazette.co.uk/notice/5148265",
+    "title": "TASTE OF SPEYSIDE LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1227115/ …",
+    "published_at": "2026-06-09T12:00:54+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Taste of Speyside Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This appears unrelated to the gambling sector, involving a food/drink company facing an HMRC winding-up petition.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f65eb6c78108611f0d7d8d39bb50193038b4acc5e4fa30c05430dd2e5c7ae641",
+    "source": "gazette",
+    "source_id": "5148254",
+    "source_url": "https://www.thegazette.co.uk/notice/5148254",
+    "title": "VEGETABLE OIL COMPANY LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264227/ …",
+    "published_at": "2026-06-09T12:00:31+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Vegetable Oil Company Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This HMRC insolvency petition against a vegetable oil company has no apparent connection to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8abcd5127e345d9a9572021ff01337bd01c5692c814a97f819fc39d71978fca0",
+    "source": "gazette",
+    "source_id": "5145943",
+    "source_url": "https://www.thegazette.co.uk/notice/5145943",
+    "title": "JBA2025 LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1267792/ …",
+    "published_at": "2026-06-05T12:00:44+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "JBA2025 LTD",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An HMRC winding-up petition may signal financial distress, but no gambling-sector link is evident from this filing.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3bcc01f5773de580efefe9b2106c6616f019b586178d5c361321e7a77019a615",
+    "source": "gazette",
+    "source_id": "5145936",
+    "source_url": "https://www.thegazette.co.uk/notice/5145936",
+    "title": "MEX 2 U LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1250891/ …",
+    "published_at": "2026-06-05T12:00:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mex 2 U Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An HMRC winding-up petition against this company shows no clear gambling-sector link, limiting relevance to specialist readers.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "506c327810878eb37a8035b02e2d521b531a914fa58f0240ec95b01f7ac12e29",
+    "source": "gazette",
+    "source_id": "5140376",
+    "source_url": "https://www.thegazette.co.uk/notice/5140376",
+    "title": "RENDERWORKS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1109931/ …",
+    "published_at": "2026-05-26T12:00:33+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Renderworks Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No evident link to the gambling sector, so limited relevance to a B2B gambling newsroom.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ae8d573b0458f9a519feabe29eb72b46d9007b68f7950fa531ce4258eb003289",
+    "source": "gazette",
+    "source_id": "5136314",
+    "source_url": "https://www.thegazette.co.uk/notice/5136314",
+    "title": "VOLOPA FINANCIAL SERVICES (SCOTLAND) LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1249534/ …",
+    "published_at": "2026-05-19T12:02:14+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Volopa Financial Services (Scotland) Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No apparent connection to the gambling sector, so limited relevance to a specialist gambling-industry audience.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0a5a1604d317b68f4e3a026780250b899db8f23cd9918f34dbaf3be4144db53b",
+    "source": "gazette",
+    "source_id": "5133711",
+    "source_url": "https://www.thegazette.co.uk/notice/5133711",
+    "title": "EBEN CARE AND SUPPORT LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264209/ …",
+    "published_at": "2026-05-15T12:01:53+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Eben Care And Support Ltd",
+      "HMRC Legal Group"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a care sector insolvency filing with no apparent connection to the gambling industry.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fe5f21fb0b942720554ce0d783f0b34cba3a59be9934256e8844d4384f01b10a",
+    "source": "gazette",
+    "source_id": "5132703",
+    "source_url": "https://www.thegazette.co.uk/notice/5132703",
+    "title": "IMPACT CONTRACTS GLASGOW LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1263193/ …",
+    "published_at": "2026-05-15T12:01:34+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Impact Contracts Glasgow Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition concerns a construction firm with no apparent link to gambling or gaming, so it holds negligible relevance for this sector.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f764743c8a7ee6283db5b7bb71ff4ca96747a3b6683f588758e13c18012be22e",
+    "source": "gazette",
+    "source_id": "5124712",
+    "source_url": "https://www.thegazette.co.uk/notice/5124712",
+    "title": "RH CONTRACTING LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1266290/ …",
+    "published_at": "2026-05-01T12:03:00+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RH Contracting Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A HMRC winding-up petition against an unrelated contracting firm has no apparent link to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3d2faddeedf7d5bf5f3c9f8f42576ed54a8271be891110d18c51b17f582595bc",
+    "source": "gazette",
+    "source_id": "5123112",
+    "source_url": "https://www.thegazette.co.uk/notice/5123112",
+    "title": "PINK CLEANING AGA LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264573/ …",
+    "published_at": "2026-05-01T12:01:06+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Pink Cleaning Aga Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This HMRC winding-up petition concerns a cleaning company with no apparent link to gambling or gaming.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "acd694ddaee82639426e5364ef993ad714b783e9392459abb5eb744192e1e30b",
+    "source": "gazette",
+    "source_id": "5103197",
+    "source_url": "https://www.thegazette.co.uk/notice/5103197",
+    "title": "KNS SHOPFIT (UK) LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264195/ …",
+    "published_at": "2026-04-07T12:02:58+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KNS Shopfit (UK) Ltd",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A shopfitting firm facing an HMRC winding-up petition has no apparent link to the gambling sector, limiting relevance to specialist readers.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "19f821a98a5aa4398f8ba1d99d93c1d759b9abefe027b28f06b2b1ce5ccb065e",
+    "source": "gazette",
+    "source_id": "5143346",
+    "source_url": "https://www.thegazette.co.uk/notice/5143346",
+    "title": "MAB BOOKMAKERS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): MAB BOOKMAKERS LIMITED …",
+    "published_at": "2026-05-29T12:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "MAB Bookmakers Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A winding-up petition against a licensed bookmaker signals potential financial distress and possible licence or player-protection implications.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "64c0851ca83008c4f49f83ec8590699b5a10452d73fb2f394d54e2b30a122232",
+    "source": "gazette",
+    "source_id": "5115564",
+    "source_url": "https://www.thegazette.co.uk/notice/5115564",
+    "title": "DEESIDE BOOKMAKERS LTD.",
+    "raw_summary": "Petitions to Wind Up (Companies): DEESIDE BOOKMAKERS LTD. …",
+    "published_at": "2026-04-21T12:01:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Deeside Bookmakers Ltd"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A winding-up petition against a licensed bookmaker signals potential insolvency, affecting punters, staff and the wider betting market.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6b1fa75cc9c47d9f2ff12aebcc6124a5a3d83cd8a3355ccf31f2edc056ece986",
+    "source": "gazette",
+    "source_id": "5106989",
+    "source_url": "https://www.thegazette.co.uk/notice/5106989",
+    "title": "ASHCROFT BOOKMAKERS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: ASHCROFT BOOKMAKERS LIMITED …",
+    "published_at": "2026-04-09T01:08:35+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Ashcroft Bookmakers Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bookmaker's voluntary winding-up signals potential market exit, relevant to gambling licensing and creditor trackers.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0536ac2b11efbe34211f0d29e4667776448a32923494037752c57e899204253e",
+    "source": "gazette",
+    "source_id": "5038023",
+    "source_url": "https://www.thegazette.co.uk/notice/5038023",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Notices to Creditors: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "A licensed bookmaker entering creditor proceedings signals financial distress worth tracking in the small-operator segment.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1b28eb1451e7d838d3a39159bfd98f7973013fec8b238414df7b88044afdf191",
+    "source": "gazette",
+    "source_id": "5038006",
+    "source_url": "https://www.thegazette.co.uk/notice/5038006",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:01:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "A licensed bookmaker entering liquidation signals potential market exit, affecting staff, creditors and local betting shop presence.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c096f6f6b686501255ef8088a51c5be0c5211b0bec56b665d446c87f4a4a7851",
+    "source": "gazette",
+    "source_id": "5037980",
+    "source_url": "https://www.thegazette.co.uk/notice/5037980",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:00:57+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bookmaker entering winding-up signals possible licence surrender and financial distress within the betting sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9a1742437d1c4700c7e7ba32aa7e85a465fb87b17ce55d9ab3b5ac87be46c2ec",
+    "source": "gazette",
+    "source_id": "4972803",
+    "source_url": "https://www.thegazette.co.uk/notice/4972803",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Final Meetings: MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2025-10-03T12:01:53+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals the formal wind-down of a small independent bookmaker, relevant to tracking market consolidation in UK betting.",
+    "category": "company dissolution",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "18a9c5414fdca8b39590f152c232f033815a1a2b50d4b978eb5dabcd6c292aca",
+    "source": "gazette",
+    "source_id": "4838081",
+    "source_url": "https://www.thegazette.co.uk/notice/4838081",
+    "title": "U.K. BOOKMAKERS LIMITED",
+    "raw_summary": "Notices to Creditors: U.K. BOOKMAKERS LIMITED …",
+    "published_at": "2025-03-17T01:04:14+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "U.K. Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Signals financial distress or wind-down at a UK bookmaker, relevant for tracking sector consolidation and creditor exposure.",
+    "category": "creditor notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e869424c027ac9d970e87571ba85d5ad3d3ca20fd6bbc897cc66e0f4bc54ee15",
+    "source": "gazette",
+    "source_id": "4838042",
+    "source_url": "https://www.thegazette.co.uk/notice/4838042",
+    "title": "U.K. BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: U.K. BOOKMAKERS LIMITED …",
+    "published_at": "2025-03-17T01:03:00+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "U.K. Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A named UK bookmaker entering liquidation signals potential market exit worth tracking for sector consolidation trends.",
+    "category": "liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "65606db4645aa9ee38211f74d51de1e53d9d2b7d5bcfaf35c9b789ebc4499fee",
+    "source": "gazette",
+    "source_id": "4837983",
+    "source_url": "https://www.thegazette.co.uk/notice/4837983",
+    "title": "U.K. BOOKMAKERS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: U.K. BOOKMAKERS LIMITED …",
+    "published_at": "2025-03-17T01:01:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "U.K. Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A named UK bookmaker entering voluntary winding-up signals possible market exit worth tracking for industry consolidation trends.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "226d963fc64c2ef73bfc001a637fea5d9c3256a524a44e645e20409b0cd5e0ad",
+    "source": "gazette",
+    "source_id": "4805274",
+    "source_url": "https://www.thegazette.co.uk/notice/4805274",
+    "title": "CLAYTON BARKER RETAIL LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: 13742280 Name of Company: CLAYTON BARKER RETAIL LTD Trading Name: BetBre …",
+    "published_at": "2025-02-04T17:30:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clayton Barker Retail Ltd",
+      "BetBre"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals the closure of a small betting retailer, relevant to tracking consolidation in the UK gambling retail sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "37eb7f10798adf879f29ea1fe8bee65df4c15c4152fede2406e6bdf2bbf2c1e7",
+    "source": "gazette",
+    "source_id": "4805273",
+    "source_url": "https://www.thegazette.co.uk/notice/4805273",
+    "title": "CLAYTON BARKER RETAIL LTD",
+    "raw_summary": "Resolutions for Winding-up: CLAYTON BARKER RETAIL LTD (Company Number 13742280 ) Trading Name: BetBre …",
+    "published_at": "2025-02-04T17:30:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clayton Barker Retail Ltd",
+      "BetBre"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A winding-up resolution for a betting-linked retail company signals possible financial distress in the sector's smaller operators.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a2515f00f264b887ded1786306af7c2acfb7b36ebed69d581d408208e3f89bf8",
+    "source": "gazette",
+    "source_id": "4791729",
+    "source_url": "https://www.thegazette.co.uk/notice/4791729",
+    "title": "CLAYTON BARKER RETAIL LTD",
+    "raw_summary": "Meetings of Creditors: CLAYTON BARKER RETAIL LTD (Company Number 13742280 ) Trading Name: BetBre …",
+    "published_at": "2025-01-15T17:30:14+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clayton Barker Retail Ltd",
+      "BetBre"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A betting-linked retailer's creditors meeting signals financial distress worth tracking for sector risk trends.",
+    "category": "insolvency proceedings",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b34138e9763f3837ca12cd84ec2794f70c92d6b62d14516e98efb61d7bb858d3",
+    "source": "gazette",
+    "source_id": "4601064",
+    "source_url": "https://www.thegazette.co.uk/notice/4601064",
+    "title": "PCA TRANSPORT LTD and other companies",
+    "raw_summary": "Final Meetings: …ANSPORT LTD (Company Number NI633273 ) MOURNE CEILINGS LIMITED (Company Number NI625289 ) S.P. BOYLE BOOKMAKERS LIMITED …",
+    "published_at": "2024-04-12T12:01:29+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "PCA TRANSPORT LTD",
+      "MOURNE CEILINGS LIMITED",
+      "S.P. BOYLE BOOKMAKERS LIMITED"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small bookmaker's final liquidation meeting signals company closure, of minor interest to gambling sector trackers.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b8ef7810d6974c6e62fb04d6f301c98dedcee901dc75bb4f9c6bcd600b4e72da",
+    "source": "gazette",
+    "source_id": "4517585",
+    "source_url": "https://www.thegazette.co.uk/notice/4517585",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Notices to Creditors: NOTICE TO CREDITORS TO SEND IN PARTICULARS OF DEBTS OR CLAIMS MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A licensed bookmaker's creditor notice signals company wind-down, relevant to gambling sector market-exit tracking.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c36cbb3805096d89d9d183ca971f758a4deab98dffb10a194ab954cb0e67fc65",
+    "source": "gazette",
+    "source_id": "4517584",
+    "source_url": "https://www.thegazette.co.uk/notice/4517584",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: PURSUANT TO ARTICLE 95 OF THE INSOLVENCY (NORTHERN IRELAND) ORDER 1989 Name of Company: MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A Northern Ireland bookmaker entering liquidation signals financial distress in the regional betting sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b200226bae453be2f9883b4f15aaedd27082e5edc9f9a5a32f94d931558cb154",
+    "source": "gazette",
+    "source_id": "4517583",
+    "source_url": "https://www.thegazette.co.uk/notice/4517583",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: NOTICE UNDER THE INSOLVENCY (NORTHERN IRELAND) ORDER 1989 MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:09+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A Northern Ireland bookmaker's winding-up filing signals possible market exit and creditor impact in the betting sector.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f0d67bef81347cb29afb1c2527b9c04de1e08d68da43a7268fcd872926787fa3",
+    "source": "gazette",
+    "source_id": "4515824",
+    "source_url": "https://www.thegazette.co.uk/notice/4515824",
+    "title": "KELROSS RACING LIMITED",
+    "raw_summary": "Appointment of Liquidators: …he Howarth Armsby Suite Studio House, Delamare Road, Cheshunt EN8 9SH Nature of Business: Racecourse …",
+    "published_at": "2023-12-19T15:00:12+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Kelross Racing Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A racecourse operator's liquidation may signal wider financial pressure in the racing and gambling supply chain.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d551bfd0627f115bcdab469232934316c3d8945b2d6956e2f8078939b7384cea",
+    "source": "gazette",
+    "source_id": "5135019",
+    "source_url": "https://www.thegazette.co.uk/notice/5135019",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Notice of Intended Dividends: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2026-05-14T17:51:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A gambling equipment supplier's creditor dividend notice may signal financial distress in the casino supply chain.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "178e4149b8f85b1dcb4b167088f892efb0c88fcebb723391e0f77f5b45f6fd0f",
+    "source": "gazette",
+    "source_id": "4929081",
+    "source_url": "https://www.thegazette.co.uk/notice/4929081",
+    "title": "AESTHETIC PODS LIMITED",
+    "raw_summary": "Winding-Up Orders: AESTHETIC PODS LIMITED (Company Number 09425698 ) Registered office: The Old …",
+    "published_at": "2025-07-22T09:50:39+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "AESTHETIC PODS LIMITED"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Not a gambling-sector company, so this insolvency notice has minimal relevance to gambling/gaming industry journalists.",
+    "category": "winding-up order",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ff5f48a8cb1681f3e1045bdcb09578c01ffb6edc4cd43e17ba2b5f88fb37694e",
+    "source": "gazette",
+    "source_id": "4918810",
+    "source_url": "https://www.thegazette.co.uk/notice/4918810",
+    "title": "AESTHETIC PODS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ncy Act 1986 A Petition to wind up the above-named Company, Registration Number 09425698, of The Old Casino , Fourth Avenue, Hove, England, BN3 2PJ …",
+    "published_at": "2025-07-04T00:11:28+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Aesthetic Pods Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a winding-up petition for a beauty/aesthetics company with no connection to gambling despite its address name 'The Old Casino'.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9735735cc9741a077f8ba73ee27cc188fe02a34475bf689e6d7a2c2514bc4a50",
+    "source": "gazette",
+    "source_id": "4844776",
+    "source_url": "https://www.thegazette.co.uk/notice/4844776",
+    "title": "HIMAYA INVESTMENTS LTD",
+    "raw_summary": "Notices to Creditors: HIMAYA INVESTMENTS LTD (Company Number 10713790 ) Registered office: 83 Casino Avenue, London, SE24 9PJ …",
+    "published_at": "2025-03-24T01:06:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "HIMAYA INVESTMENTS LTD"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine creditors notice for an unrelated company with no apparent gambling-industry connection despite the 'Casino Avenue' address.",
+    "category": "creditors notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "2478b97561a792457689ea48ac45fef400bb08bb62e2a3d102947f3fb0d09c7e",
+    "source": "gazette",
+    "source_id": "4844723",
+    "source_url": "https://www.thegazette.co.uk/notice/4844723",
+    "title": "HIMAYA INVESTMENTS LTD",
+    "raw_summary": "Appointment of Liquidators: …of Business: Management consultancy activities other than financial management Registered office: 83 Casino Avenue, London, SE24 9PJ …",
+    "published_at": "2025-03-24T01:04:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Himaya Investments Ltd"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a management consultancy liquidation with no evident link to gambling despite the street name coincidence.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c40082ad2d5eeb38edb36fd6ee5922861cf53b9333453d8676706158f9bfe48b",
+    "source": "gazette",
+    "source_id": "4844613",
+    "source_url": "https://www.thegazette.co.uk/notice/4844613",
+    "title": "HIMAYA INVESTMENTS LTD",
+    "raw_summary": "Resolutions for Winding-up: HIMAYA INVESTMENTS LTD (Company Number 10713790 ) Registered office: 83 Casino Avenue, London, SE24 9PJ …",
+    "published_at": "2025-03-24T01:01:27+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Himaya Investments Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is an unrelated company insolvency notice with no apparent connection to the gambling industry despite the street name 'Casino Avenue'.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4a645c75ccc6cdbef0918e015ebcd649f2f50d433e76463df3b7afa96dea6e51",
+    "source": "gazette",
+    "source_id": "4824522",
+    "source_url": "https://www.thegazette.co.uk/notice/4824522",
+    "title": "SHINE HOLISTIC LIMITED",
+    "raw_summary": "Meetings of Creditors: SHINE HOLISTIC LIMITED (Company Number 04506501 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2025-02-28T03:40:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Shine Holistic Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This creditors' meeting notice concerns a non-gambling company with no apparent link to the gambling sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "2b234e2ce283f73e026bcac5765fceec4b67ce37a618598875fa538af8d8f63b",
+    "source": "gazette",
+    "source_id": "4814096",
+    "source_url": "https://www.thegazette.co.uk/notice/4814096",
+    "title": "INFINITE PARTNERSHIPS LIMITED",
+    "raw_summary": "Appointment of Liquidators: …NERSHIPS LIMITED Company Number: 13410501 Nature of Business: Consultants Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in process of being changed to FRP Advisory Trading Limited, The M…",
+    "published_at": "2025-02-17T01:06:04+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Infinite Partnerships Limited",
+      "FRP Advisory Trading Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A consultancy linked to gambling-sector premises has entered liquidation, potentially affecting clients and creditors in the industry.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1876366d96f33d756f3fc97be4736e14bdded79a3cd2e3ecfb44d5362369f839",
+    "source": "gazette",
+    "source_id": "4814063",
+    "source_url": "https://www.thegazette.co.uk/notice/4814063",
+    "title": "INFINITE PARTNERSHIPS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: INFINITE PARTNERSHIPS LIMITED (Company Number 13410501 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in process of being changed to FRP Advisory Trading Limited, The Manor House, 260 …",
+    "published_at": "2025-02-17T01:05:02+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Infinite Partnerships Limited",
+      "FRP Advisory Trading Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine winding-up notice with no clear gambling-sector link beyond a coincidentally named office address.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "78cb68d0863fdaa876365d73abb6a31267cec1dc9d5b5fbec1dd8b096eb8e449",
+    "source": "gazette",
+    "source_id": "4803399",
+    "source_url": "https://www.thegazette.co.uk/notice/4803399",
+    "title": "INFINITE PARTNERSHIPS LIMITED",
+    "raw_summary": "Meetings of Creditors: INFINITE PARTNERSHIPS LIMITED (Company Number 13410501 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2025-02-03T01:03:58+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Infinite Partnerships Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine insolvency notice with no clear gambling-sector operator or supplier link beyond an incidental address name.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d65990e0a33eabb542cc5fa40398bceb1ca4cb90e7d46d28aeac61cce11846de",
+    "source": "gazette",
+    "source_id": "4757402",
+    "source_url": "https://www.thegazette.co.uk/notice/4757402",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Resolutions for Winding-up: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2024-11-20T17:31:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A voluntary winding-up of a casino equipment supplier signals financial distress within the gambling supply chain.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0061792f645c6fff32ebc507218f1cda2544ff260aa74d7fa647bd170b789966",
+    "source": "gazette",
+    "source_id": "4757401",
+    "source_url": "https://www.thegazette.co.uk/notice/4757401",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 03138964 Name of Company: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2024-11-20T17:31:34+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A casino equipment supplier entering liquidation could signal wider financial pressure in the gambling supply chain.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "05e7c399d0ff4cdc3d711981d1d4682cbb3f57045a6a3918a9b599aa52c5347f",
+    "source": "gazette",
+    "source_id": "4752736",
+    "source_url": "https://www.thegazette.co.uk/notice/4752736",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LTD",
+    "raw_summary": "Meetings of Creditors: MARTIN WILLIAMS CASINO EQUIPMENT LTD …",
+    "published_at": "2024-11-13T17:30:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A casino equipment supplier's creditors meeting signals potential financial distress affecting gambling industry supply chains.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "696e5b947091f2e896067c4cc7cc43c821cca9d8e89f6f9cc4a12ee757a2fadc",
+    "source": "gazette",
+    "source_id": "4745420",
+    "source_url": "https://www.thegazette.co.uk/notice/4745420",
+    "title": "SPN LIFESTYLE LIMITED",
+    "raw_summary": "Appointment of Liquidators: …E LIMITED Company Number: 10152601 Nature of Business: Fitness facilities Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-11-05T01:08:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SPN Lifestyle Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A fitness company's liquidation appears unrelated to gambling despite its 'Old Casino' address, offering minimal relevance to the sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "71a3df5e30e6b37a8c6e1a570d302e41165d48aaa432309f528af50ff17e8fde",
+    "source": "gazette",
+    "source_id": "4745315",
+    "source_url": "https://www.thegazette.co.uk/notice/4745315",
+    "title": "SPN LIFESTYLE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: SPN LIFESTYLE LIMITED (Company Number 10152601 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-11-05T01:06:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SPN Lifestyle Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up resolution for a small firm with no confirmed gambling licence link has minimal relevance to the sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8928cc2f33f07e67a738c311800e97a4a66f6726ea44d6a125dcbd4d1821fb49",
+    "source": "gazette",
+    "source_id": "4742415",
+    "source_url": "https://www.thegazette.co.uk/notice/4742415",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Notices to Creditors: S. & K. HARRIS PROPERTIES LIMITED (Company Number 01690464 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in the process of being changed to Suite 2, 2nd Floor, Phoenix House, 32 West …",
+    "published_at": "2024-11-01T01:10:55+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. Harris Properties Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A property firm's creditor notice with no discernible link to gambling operators has negligible relevance to the sector.",
+    "category": "creditors notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9e838d5013fea3297406ceca2a6327aba38e4e63dd8b4bbedda6f896ee9f5e90",
+    "source": "gazette",
+    "source_id": "4742224",
+    "source_url": "https://www.thegazette.co.uk/notice/4742224",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Appointment of Liquidators: …ure of Business: Other letting and operating of own or leased real estate Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in the process of being changed to Suite 2, 2nd Floor, Phoenix Hou…",
+    "published_at": "2024-11-01T01:06:48+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. Harris Properties Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A real estate letting firm's liquidation has minimal direct relevance to gambling despite its 'Old Casino' address, offering little industry signal.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1848569e3f11af2dc58b65bfbfff707d00ea0a12230a766cbbdb14783cdbc884",
+    "source": "gazette",
+    "source_id": "4742195",
+    "source_url": "https://www.thegazette.co.uk/notice/4742195",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: S. & K. HARRIS PROPERTIES LIMITED (Company Number 01690464 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove BN3 2PJ to be changed to Suite 2, 2nd Floor, Phoenix House, 32 West Street, Brighton, B…",
+    "published_at": "2024-11-01T01:06:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. HARRIS PROPERTIES LIMITED"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A minor property company's voluntary winding-up has negligible relevance to the gambling sector despite the 'Old Casino' address.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "91af492291fbf48ff94ce28a1ec55886efebd65c83942605a2fb8d2e4ab59763",
+    "source": "gazette",
+    "source_id": "4732095",
+    "source_url": "https://www.thegazette.co.uk/notice/4732095",
+    "title": "RUBIX VT LTD",
+    "raw_summary": "Resolutions for Winding-up: RUBIX VT LTD (Company Number 09245547 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-10-23T01:06:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RUBIX VT LTD"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A company voluntary winding-up filing with no clear gambling-sector connection beyond its registered office address name.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1319dc8aec88d5a93d417016d4a5daf11403cd9e4d6ec4456a29fc4bdd112080",
+    "source": "gazette",
+    "source_id": "5138158",
+    "source_url": "https://www.thegazette.co.uk/notice/5138158",
+    "title": "/n/n/nWINNERS BINGO LIMITED",
+    "raw_summary": "Notice of Dividends: NOTICE OF INTENDED DIVIDEND UNDER R14.29 WINNERS BINGO LIMITED …",
+    "published_at": "2026-05-19T16:10:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Winners Bingo Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shows a bingo operator's insolvency creditor payout process is progressing, of interest to industry watchers tracking sector distress.",
+    "category": "insolvency dividend notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f94e72bc6183d5af8333961cfda4ad6895d322e5883be4d821bd29c2ad8d1fc2",
+    "source": "gazette",
+    "source_id": "5104638",
+    "source_url": "https://www.thegazette.co.uk/notice/5104638",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Resolutions for Winding-up: PALAIS BINGO LIMITED …",
+    "published_at": "2026-04-08T01:09:12+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A named bingo operator's winding-up resolution signals potential market exit, relevant to sector consolidation tracking.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9c2e7ccb0753d6bb2a02c03bfafcd2d609cd39ac85ad9b0d9d2981e05438c6cc",
+    "source": "gazette",
+    "source_id": "5077706",
+    "source_url": "https://www.thegazette.co.uk/notice/5077706",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Deemed Consent: PALAIS BINGO LIMITED …",
+    "published_at": "2026-03-13T01:13:56+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A minor statutory notice for a bingo operator, of limited interest unless it signals wider financial distress.",
+    "category": "corporate filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3424d26d437a75e4d790bf829278be8668da11e0c14001aa526fd470d114e3ec",
+    "source": "gazette",
+    "source_id": "5045368",
+    "source_url": "https://www.thegazette.co.uk/notice/5045368",
+    "title": "BINGO MEDIA LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: BINGO MEDIA LIMITED …",
+    "published_at": "2026-01-30T04:10:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Media Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling-affiliated company entering liquidation could signal financial distress in the bingo/affiliate marketing niche of the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3e87c016a68bb17d1fddf2924b8c4391f113d05d64d78bcde4c0de9482c03faa",
+    "source": "gazette",
+    "source_id": "5045369",
+    "source_url": "https://www.thegazette.co.uk/notice/5045369",
+    "title": "BINGO MEDIA LIMITED",
+    "raw_summary": "Resolutions for Winding-up: BINGO MEDIA LIMITED …",
+    "published_at": "2026-01-30T04:00:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Media Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A named gambling-affiliate-style company entering voluntary winding-up signals financial distress worth tracking in the sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6eb310c1c810b913401f6540081fc972dc6c4381cf07929e7ebfc93e52073b58",
+    "source": "gazette",
+    "source_id": "4951448",
+    "source_url": "https://www.thegazette.co.uk/notice/4951448",
+    "title": "WINNERS BINGO LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: WINNERS BINGO LIMITED …",
+    "published_at": "2025-08-22T14:08:55+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Winners Bingo Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Liquidation of a bingo operator signals financial distress in the sector, worth tracking for licence and creditor implications.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d476a5ab2187a3229dc0f31dbe5a0ddbfd199d3859f204fea1293f1755eb9807",
+    "source": "gazette",
+    "source_id": "4951445",
+    "source_url": "https://www.thegazette.co.uk/notice/4951445",
+    "title": "WINNERS BINGO LIMITED",
+    "raw_summary": "Resolutions for Winding-up: WINNERS BINGO LIMITED …",
+    "published_at": "2025-08-22T14:08:51+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Winners Bingo Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A licensed bingo operator's voluntary winding-up signals potential financial distress in the UK gambling sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "29a50d6ac683139737d4bf745953f51a2ed41346d1612e7017193ab6f92cac31",
+    "source": "gazette",
+    "source_id": "4755410",
+    "source_url": "https://www.thegazette.co.uk/notice/4755410",
+    "title": "BINGO SKIP LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): In the High Court of Justice CR-2024-CR-2024-006140 In the matter of BINGO SKIP LTD …",
+    "published_at": "2024-11-19T00:10:43+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Skip Ltd"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up petition against a company named Bingo Skip Ltd may be of marginal interest if it has any gambling-sector link, though this is unconfirmed.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "efcd3ab0c7004f65093d56cfa6188bf643725a89b17ff83ca9ab9fa3a5ddc3b2",
+    "source": "gazette",
+    "source_id": "4676260",
+    "source_url": "https://www.thegazette.co.uk/notice/4676260",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Notices to Creditors: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:03:09+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club entering creditor proceedings signals financial distress in the UK land-based bingo sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8ac698a2189a9945efd77852319a8ae6edb15e8a17966513eb76965353afabb8",
+    "source": "gazette",
+    "source_id": "4676195",
+    "source_url": "https://www.thegazette.co.uk/notice/4676195",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Resolutions for Winding-up: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:02:00+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club's winding-up resolution signals operator distress worth tracking in the UK gambling sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7ec05f63b5aa97e462a042a13f95ab86b7e35279daeec088f7e627081677e03b",
+    "source": "gazette",
+    "source_id": "4676194",
+    "source_url": "https://www.thegazette.co.uk/notice/4676194",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Appointment of Liquidators: Name of Company: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:01:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited (The)"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club entering liquidation signals financial distress in the land-based gambling sector, relevant to industry trend-watchers.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6577bcb2935c5ed847e486284548f7376c79e4f0106da908db116e1820ae9ad6",
+    "source": "gazette",
+    "source_id": "4623099",
+    "source_url": "https://www.thegazette.co.uk/notice/4623099",
+    "title": "CLARENCE COOPER & CO. LIMITED",
+    "raw_summary": "Winding-Up Orders: CLARENCE COOPER & CO. LIMITED (Company Number 04986380 ) Registered office: The Pavillion …",
+    "published_at": "2024-05-16T08:40:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No evident link to gambling; a generic insolvency notice with no clear relevance to the sector.",
+    "category": "winding-up order",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "91d93a67cdd0dbde47ff1aacba9324e69d236566260503163ba289768288ba95",
+    "source": "gazette",
+    "source_id": "4619834",
+    "source_url": "https://www.thegazette.co.uk/notice/4619834",
+    "title": "STONEY LANE LIMITED",
+    "raw_summary": "Appointment of Liquidators: … LIMITED Company Number: 09768876 Nature of Business: Licensed restaurants Previous Name of Company: Bingo Forever Ltd …",
+    "published_at": "2024-05-09T01:04:41+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stoney Lane Limited",
+      "Bingo Forever Ltd"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A company formerly trading as Bingo Forever Ltd has entered liquidation, a minor data point for tracking gambling-sector business failures.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "979e09314e2294113eeefb7070c2b197115a070e5a1c3d9e9a716198c6a218a0",
+    "source": "gazette",
+    "source_id": "4619791",
+    "source_url": "https://www.thegazette.co.uk/notice/4619791",
+    "title": "STONEY LANE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: STONEY LANE LIMITED (Company Number 09768876 ) Previous Name of Company: Bingo Forever Ltd …",
+    "published_at": "2024-05-09T01:03:55+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stoney Lane Limited",
+      "Bingo Forever Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A company formerly trading as Bingo Forever has filed for winding-up, signalling potential operator distress in the gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f2cc5e4501bb926ea1011eedb1b55112e65c612f2f6825c1cc3d6c4ec8375521",
+    "source": "gazette",
+    "source_id": "4614774",
+    "source_url": "https://www.thegazette.co.uk/notice/4614774",
+    "title": "CLARENCE COOPER & CO. LIMITED",
+    "raw_summary": "Winding-Up Orders: CLARENCE COOPER & CO. LIMITED (Company Number 14035347 ) Registered office: The Pavillion …",
+    "published_at": "2024-05-03T08:00:15+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up order for a company with no evident gambling-sector link has minimal relevance to UK gambling industry news.",
+    "category": "winding-up order",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fae109c096a7d1eb0c9c87e3b7990fd41c19e9af69f2d16d69da6137c26949f7",
+    "source": "gazette",
+    "source_id": "4613629",
+    "source_url": "https://www.thegazette.co.uk/notice/4613629",
+    "title": "THENEWROXYBAR LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: …, Surtees Business Park, Stockton-On-Tees, TS18 3HR Principal trading address: Trading Address: Roxy Bingo Hall, Wharf Street, Sowerby Bridge, West Yorkshire, United Kingdom, HX6 2AE …",
+    "published_at": "2024-04-29T13:00:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "THENEWROXYBAR LIMITED",
+      "Roxy Bingo Hall"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A bingo hall operator's insolvency filing may signal financial distress in the UK bingo sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "74582932feb1be459bf4ff43ef92acddc6777cf158bedbb0c27ac585726189e6",
+    "source": "gazette",
+    "source_id": "4601100",
+    "source_url": "https://www.thegazette.co.uk/notice/4601100",
+    "title": "CLARENCE COOPER & CO. LIMITED ",
+    "raw_summary": "Petitions to Wind Up (Companies): … 1986 A Petition to wind up the above-named Company, Registration Number 14035347, of ,The Pavillion Bingo , 15 Main Street, Ferryhill, United Kingdom, DL17 8LA, …",
+    "published_at": "2024-04-12T00:11:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited",
+      "The Pavillion Bingo"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A winding-up petition against a bingo hall operator signals potential financial distress in the UK gambling venue sector.",
+    "category": "insolvency/winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "372e867d73fa9aa22144b4560d22e298d4e22118556001a9310fdd0bbcba6887",
+    "source": "gazette",
+    "source_id": "4554166",
+    "source_url": "https://www.thegazette.co.uk/notice/4554166",
+    "title": "CLARENCE COOPER & CO. LIMITED ",
+    "raw_summary": "Petitions to Wind Up (Companies): …of CLARENCE COOPER & CO. LIMITED (Company Number 14035347 ) Principal trading address: The Pavillion Bingo , 15 Main Street, Ferryhill, United Kingdom, DL17 8LA …",
+    "published_at": "2024-02-16T00:10:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited",
+      "The Pavillion Bingo"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A winding-up petition against a licensed bingo hall operator signals potential financial distress in the retail gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "df9e2bbf777e73aeef123848a9dbf885d96548b12355311777d7cad912ae6187",
+    "source": "gazette",
+    "source_id": "4526409",
+    "source_url": "https://www.thegazette.co.uk/notice/4526409",
+    "title": "THENEWROXYBAR LIMITED",
+    "raw_summary": "Resolutions for Winding-up: THENEWROXYBAR LIMITED (Company Number 13966336 ) Registered office: Roxy Bingo Hall, Wharf Street, Sowerby Bridge, West Yorkshire HX6 2AE …",
+    "published_at": "2024-01-08T01:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "THENEWROXYBAR LIMITED",
+      "Roxy Bingo Hall"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A UK bingo hall operator's voluntary winding-up signals possible financial distress in the land-based bingo sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
+    "source": "gazette",
+    "source_id": "5167173",
+    "source_url": "https://www.thegazette.co.uk/notice/5167173",
+    "title": "LANGORF HOTEL LIMITED",
+    "raw_summary": "Appointment of Liquidators: …716940 Nature of Business: Hotels and similar accommodation Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN …",
+    "published_at": "2026-07-03T01:03:54+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Langorf Hotel Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A hotel company's liquidation appears unrelated to gambling and gaming, so it holds minimal relevance for this sector's audience.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
+    "source": "gazette",
+    "source_id": "5167145",
+    "source_url": "https://www.thegazette.co.uk/notice/5167145",
+    "title": "LANGORF HOTEL LIMITED",
+    "raw_summary": "Resolutions for Winding-up: LANGORF HOTEL LIMITED (Company Number 11716940 ) Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN …",
+    "published_at": "2026-07-03T01:03:23+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Langorf Hotel Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A hotel company's winding-up resolution has no apparent connection to the gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+    "source": "gazette",
+    "source_id": "5166165",
+    "source_url": "https://www.thegazette.co.uk/notice/5166165",
+    "title": "FATCAT SOFTWORKS LTD",
+    "raw_summary": "Appointment of Liquidators: …any Number: 09457103 Name of Company: FATCAT SOFTWORKS LTD Nature of Business: Producing content for gaming machines/re-fitting gaming machines …",
+    "published_at": "2026-07-01T17:31:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Fatcat Softworks Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming machine content supplier entering liquidation could signal supply chain disruption for gambling operators reliant on its products.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+    "source": "gazette",
+    "source_id": "5163750",
+    "source_url": "https://www.thegazette.co.uk/notice/5163750",
+    "title": "NATIONAL FITNESS GAMES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: NATIONAL FITNESS GAMES LIMITED …",
+    "published_at": "2026-06-26T17:50:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "National Fitness Games Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+    "source": "gazette",
+    "source_id": "5163749",
+    "source_url": "https://www.thegazette.co.uk/notice/5163749",
+    "title": "NATIONAL FITNESS GAMES LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 11427107 Name of Company: NATIONAL FITNESS GAMES LIMITED …",
+    "published_at": "2026-06-26T17:50:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "National Fitness Games Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
+    "category": "liquidation notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+    "source": "gazette",
+    "source_id": "5159127",
+    "source_url": "https://www.thegazette.co.uk/notice/5159127",
+    "title": "TODHILL GAME LIMITED",
+    "raw_summary": "Resolutions for Winding-up: TODHILL GAME LIMITED …",
+    "published_at": "2026-06-23T12:00:26+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Todhill Game Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-related company entering voluntary winding-up may signal financial distress worth monitoring in the sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+    "source": "gazette",
+    "source_id": "5159125",
+    "source_url": "https://www.thegazette.co.uk/notice/5159125",
+    "title": "TODHILL GAME LIMITED",
+    "raw_summary": "Appointment of Liquidators: PURSUANT TO SECTION 109 OF THE INSOLVENCY ACT 1986 Name of Company: TODHILL GAME LIMITED …",
+    "published_at": "2026-06-23T12:00:23+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Todhill Game Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A minor company liquidation notice with unclear gambling-sector relevance offers limited value to specialist readers.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+    "source": "gazette",
+    "source_id": "5159508",
+    "source_url": "https://www.thegazette.co.uk/notice/5159508",
+    "title": "COOPERMATIC LIMITED",
+    "raw_summary": "Appointment of Liquidators: …RMATIC LIMITED Company Number: 08962503 Trading Name: Peek & Poke Nature of Business: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-06-23T01:02:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Coopermatic Limited",
+      "Peek & Poke"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small toy/games retailer entering liquidation has negligible direct relevance to the UK gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7e78658fe7f8e24b8a591fc025bc29491a8df55f3b91d1d75fca6abadb2697f3",
+    "source": "gazette",
+    "source_id": "5152647",
+    "source_url": "https://www.thegazette.co.uk/notice/5152647",
+    "title": "STARBREEZE STUDIOS UK LIMITED",
+    "raw_summary": "Appointment of Liquidators: …y: STARBREEZE STUDIOS UK LIMITED Company Number: 14488463 Nature of Business: Publishing of computer …",
+    "published_at": "2026-06-15T01:00:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Starbreeze Studios UK Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A gaming publisher entering liquidation may signal wider financial distress relevant to UK gaming industry suppliers and partners.",
+    "category": "liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "07ce9193c790b9bea80f7e5c745da5c6f03530353f6538d67e17cc4a83d0ce9f",
+    "source": "gazette",
+    "source_id": "5150671",
+    "source_url": "https://www.thegazette.co.uk/notice/5150671",
+    "title": "CAPITAL D’EXPLORATION LIMITED",
+    "raw_summary": "Notices to Creditors: …Curtis House, Elms Square, Bury New Road, Whitefield, Manchester, M45 7TA Principal trading address: Game Keep, 112A High Street, Long Crendon, Aylesbury, Buckinghamshire HP18 9AN …",
+    "published_at": "2026-06-11T01:03:05+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Capital D'Exploration Limited",
+      "Game Keep"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A creditors' notice for a small retail trader with no clear gambling-sector link offers little relevance to industry journalists.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bd55c96ce761342fc645d2062c43ff4deb8786137f5de2f2dd9a8f9b395116f5",
+    "source": "gazette",
+    "source_id": "5149525",
+    "source_url": "https://www.thegazette.co.uk/notice/5149525",
+    "title": "OUTSCAPE TECHNOLOGIES LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: OUTSCAPE TECHNOLOGIES LTD Company Number: 10307925 Trading Name: Outscape …",
+    "published_at": "2026-06-09T10:43:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Outscape Technologies Ltd"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A liquidator appointment may signal financial distress at a company possibly linked to gambling tech supply chains, though sector ties are unclear.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "979c206543146c0676d52146c51bed53c4251ec07111da1f68df9d4159d62caf",
+    "source": "gazette",
+    "source_id": "5149496",
+    "source_url": "https://www.thegazette.co.uk/notice/5149496",
+    "title": "OUTSCAPE TECHNOLOGIES LTD",
+    "raw_summary": "Resolutions for Winding-up: OUTSCAPE TECHNOLOGIES LTD (Company Number 10307925 ) Trading Name: Outscape …",
+    "published_at": "2026-06-09T10:43:03+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Outscape Technologies Ltd"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A winding-up resolution signals potential insolvency, worth noting if the firm supplies or affiliates with the gambling sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "1ca8ec884065920b74baa45039a470c333a92e7c3305a8d690a944e642ff5a9d",
+    "source": "gazette",
+    "source_id": "5147435",
+    "source_url": "https://www.thegazette.co.uk/notice/5147435",
+    "title": "/n MAZE THEORY GAMES LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
+    "published_at": "2026-06-05T12:02:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Maze Theory Games Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A minor insolvency filing for a video game studio has little direct relevance to the gambling sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f71469293c00ab53da89af8c6949de99c24fca6b852653e70a033010a74621aa",
+    "source": "gazette",
+    "source_id": "5147434",
+    "source_url": "https://www.thegazette.co.uk/notice/5147434",
+    "title": "/n MAZE THEORY GAMES LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
+    "published_at": "2026-06-05T12:02:18+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Maze Theory Games Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A minor insolvency filing for a games company with no clear gambling-sector link offers limited relevance to gambling B2B readers.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "886cff0c460fd91992da7ebd61a528d042fd24e11e43f63a299391289e247b2e",
+    "source": "gazette",
+    "source_id": "5143876",
+    "source_url": "https://www.thegazette.co.uk/notice/5143876",
+    "title": "NEXTBEAT LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: NEXTBEAT LIMITED Company Number: 16049999 Nature of Business: Mobile music game publisher and developer …",
+    "published_at": "2026-06-01T01:00:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Nextbeat Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A mobile game developer's liquidation has minimal direct relevance to the UK gambling sector but may interest broader gaming-industry watchers.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "83f3d2c92c0676eb9ddc1e89bcaad9b1d08fc220cc605b44fb78e6fdad18a326",
+    "source": "gazette",
+    "source_id": "5139459",
+    "source_url": "https://www.thegazette.co.uk/notice/5139459",
+    "title": "LONDON FILM EXPERIENCE (BAKER STREET) LTD and other companies",
+    "raw_summary": "Appointment of Liquidators: …Company: PLATFORM 9 3/4 RETAIL LTD Company Number: 10275533 Nature of Business: (All) Retail sale of games and toys in specialised stores/Museums activities/Other retail sale not in stores, stalls or market…",
+    "published_at": "2026-05-22T01:02:40+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "London Film Experience (Baker Street) Ltd",
+      "Platform 9 3/4 Retail Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Retail/toy companies unrelated to gambling entering liquidation, of negligible relevance to gambling sector journalists.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "bb542543c01d729fc3b91bb7779c3822f4262eb5b8e69fe891d101173b668a93",
+    "source": "gazette",
+    "source_id": "5136479",
+    "source_url": "https://www.thegazette.co.uk/notice/5136479",
+    "title": "GILGAMESH LIMITED",
+    "raw_summary": "Appointment of Liquidators: …mber: 14582874 Nature of Business: Pan Asian Restaurant & Bar Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
+    "published_at": "2026-05-19T01:03:07+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gilgamesh Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a restaurant and bar liquidation with no connection to gambling or gaming, so it holds negligible relevance for this sector's journalists.",
+    "category": "liquidation - unrelated sector",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8327005efccd8c59b0fd8adfed13cc2d0447471a3adae7d291bae616d1bfe7c2",
+    "source": "gazette",
+    "source_id": "5136454",
+    "source_url": "https://www.thegazette.co.uk/notice/5136454",
+    "title": "GILGAMESH LIMITED",
+    "raw_summary": "Resolutions for Winding-up: GILGAMESH LIMITED (Company Number 14582874 ) Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
+    "published_at": "2026-05-19T01:02:25+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gilgamesh Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up resolution for a small company with no clear or confirmed link to the gambling sector offers limited relevance to trade journalists.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "99d1743df62fd662a90b10ca1360e578d9674faa8f984fcd8a19f29950a453a7",
+    "source": "gazette",
+    "source_id": "5136409",
+    "source_url": "https://www.thegazette.co.uk/notice/5136409",
+    "title": "CASTLE DONNINGTON LIMITED",
+    "raw_summary": "Appointment of Administrators: …ber 10704315 ) Nature of Business: Fund management activities Registered office: Woodgate House, 2-8 Games Road, Cockfosters, EN4 9HN …",
+    "published_at": "2026-05-19T01:00:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Castle Donnington Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A fund management company entering administration has no clear gambling-sector relevance despite the coincidental address.",
+    "category": "administrator appointment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "502ecffe5cbad7e7b6406c0aac7ab70fd48df2c850dac122a093ac93d73796f9",
+    "source": "gazette",
+    "source_id": "5135805",
+    "source_url": "https://www.thegazette.co.uk/notice/5135805",
+    "title": "FIRST LIGHT GAMES LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: FIRST LIGHT GAMES LTD …",
+    "published_at": "2026-05-18T01:02:06+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "First Light Games Ltd"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "First Light Games, a UK slots studio supplying licensed operators, is entering liquidation, signalling potential supply-chain disruption in the gambling sector.",
+    "category": "supplier insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+    "source": "gazette",
+    "source_id": "5163998",
+    "source_url": "https://www.thegazette.co.uk/notice/5163998",
+    "title": "CORPORATE INTELLIGENCE SERVICE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: CORPORATE INTELLIGENCE SERVICE LIMITED (Company Number 02488908 ) Registered office: The Courtyard, Shoreham Road, Upper Beeding, Steyning, BN44 3TN Principal trading address: Hill Cottage, Cricklade…",
+    "published_at": "2026-06-29T17:30:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Corporate Intelligence Service Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No apparent link to gambling sector, making this insolvency notice largely irrelevant to industry journalists.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a79b588c6787c60a97d0b3f99bfdfd4a622a34703ca06c76938b5032fb5fa091",
+    "source": "gazette",
+    "source_id": "5158625",
+    "source_url": "https://www.thegazette.co.uk/notice/5158625",
+    "title": "SLACK CAPITAL LIMITED",
+    "raw_summary": "Resolutions for Winding-up: SLACK CAPITAL LIMITED (Company Number 15960451 ) Registered office: 18 BRINCLIFFE CRESCENT, SHEFFIELD, SOUTH YORKSHIRE, ENGLAND, S11 9AW Principal trading address: 18 BRINCLIFFE CRESCENT, SHEFFIELD, S…",
+    "published_at": "2026-06-19T17:30:29+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Slack Capital Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No apparent connection to the gambling sector, so this routine insolvency notice is unlikely to interest gambling industry journalists.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fb6c926af413b7aaa81caa94af3960ddff0306e498aed88cf859116b4b9379ee",
+    "source": "gazette",
+    "source_id": "5143231",
+    "source_url": "https://www.thegazette.co.uk/notice/5143231",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: KRS MORTGAGE SERVICES LIMITED Company Number: 14785198 Trading Name: Mortgage and Equity Release Advice Nature of Business: Activities of mortgage finance companies Registered office:…",
+    "published_at": "2026-05-29T01:05:35+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS Mortgage Services Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A mortgage advice firm's liquidation appears unrelated to the gambling and gaming sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "3a6faf6fd400be8bf68862526438e14a303ac0f8dba00fed9e41f03afd739952",
+    "source": "gazette",
+    "source_id": "5143154",
+    "source_url": "https://www.thegazette.co.uk/notice/5143154",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address The Old Church School, Butts Hill, Frome, BA11 1HR",
+    "published_at": "2026-05-29T01:03:21+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS Mortgage Services Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a mortgage services company winding-up notice with no apparent connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0b89f19f5d8a83e423c3cbf96e565791be5ff8e0379d007e435486f5e2102b6c",
+    "source": "gazette",
+    "source_id": "5134576",
+    "source_url": "https://www.thegazette.co.uk/notice/5134576",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Meetings of Creditors: KRS MORTGAGE SERVICES LIMITED (Company Number 14785198 ) Trading Name: Mortgage and Equity Release Advice Registered office: The Old Church School, Butts Hill, Frome, BA11 1HR Principal trading addres…",
+    "published_at": "2026-05-15T01:02:23+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS MORTGAGE SERVICES LIMITED"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Mortgage advice firm insolvency, unrelated to gambling sector, minimal relevance to UK gambling journalists.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6056c18b2b6285e4d183e99423ff9b7321cc81bdc4c8ed6494f7942cefd1ef83",
+    "source": "gazette",
+    "source_id": "5125427",
+    "source_url": "https://www.thegazette.co.uk/notice/5125427",
+    "title": "STRATAGEM SOLUTIONS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: STRATAGEM SOLUTIONS LIMITED (Company Number 10928852 ) Trading Name: Stratagem Solutions Limited Registered office: St James House, 65 Mere Green Road, Sutton Coldfield, B75 5BY Principal trading addr…",
+    "published_at": "2026-05-01T17:41:51+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stratagem Solutions Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up resolution for an unidentified company with no confirmed gambling-industry link offers little direct relevance to the sector.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "42c5531475aa73d65b43bd126aae526a8f37114849d3c7241009d2a2fcf1e7fd",
+    "source": "gazette",
+    "source_id": "5116712",
+    "source_url": "https://www.thegazette.co.uk/notice/5116712",
+    "title": "MULTIBETON LTD.",
+    "raw_summary": "Resolutions for Winding-up: Company Address 10 Orban Court, Hurricane Way, Wickford Business Park, Essex, SS1 8YB in process of being changed to Jupiter House, Warley Hill Business Park, The Drive, Brentwood, CM13 3BE",
+    "published_at": "2026-04-22T01:02:18+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multibeton Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling-linked company entering winding-up resolutions may signal financial distress worth monitoring for supplier or operator risk.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a1960565dfdeea09f4cf467d263cccabb1057bf076860fc4c565cb665f17735d",
+    "source": "gazette",
+    "source_id": "5111169",
+    "source_url": "https://www.thegazette.co.uk/notice/5111169",
+    "title": "CANOVILLE COACHING LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 09893539 Name of Company: CANOVILLE COACHING LIMITED Nature of Business: Other sports activities Registered office: Canoville Coaching Football Centre, Arnold Hill Academy, Arnold, Not…",
+    "published_at": "2026-04-14T09:31:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Canoville Coaching Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A small sports coaching company's liquidation is unrelated to gambling and holds negligible relevance for the sector's trade press.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d9b2daaea473eac9c6f36644bca02514b2f33ae4255c30dadec9bea2543fc5cb",
+    "source": "gazette",
+    "source_id": "5111168",
+    "source_url": "https://www.thegazette.co.uk/notice/5111168",
+    "title": "CANOVILLE COACHING LIMITED",
+    "raw_summary": "Resolutions for Winding-up: CANOVILLE COACHING LIMITED (Company Number 09893539 ) Registered office: Canoville Coaching Football Centre, Arnold Hill Academy, Arnold, Nottingham, NG5 6NZ Principal trading address: Unit 2, Victori…",
+    "published_at": "2026-04-14T09:31:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Canoville Coaching Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a football coaching company insolvency with no apparent connection to the gambling or gaming sector.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "df1c38c052a736db19902969090a8a08deaa24ebf4355e837459d0478060e260",
+    "source": "gazette",
+    "source_id": "5108774",
+    "source_url": "https://www.thegazette.co.uk/notice/5108774",
+    "title": "SYKES VAN SALES LIMITED ",
+    "raw_summary": "Resolutions for Winding-up: SYKES VAN SALES LIMITED (Company Number 04634479 ) Trading Name: Sykes Van Sales Limited Previous Name of Company: Endex Investments Limited Registered office: 11 Roman Way, Berry Hill, Droitwich, Wor…",
+    "published_at": "2026-04-09T17:42:53+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sykes Van Sales Limited",
+      "Endex Investments Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Van sales company insolvency has no apparent connection to the gambling sector.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5d22481075692c8f0477fd7dbca6feb05db7d5b936800247bb3d259a7a15ada4",
+    "source": "gazette",
+    "source_id": "5103905",
+    "source_url": "https://www.thegazette.co.uk/notice/5103905",
+    "title": "JOHN BARTER TRANSPORT (SOUTH WEST) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address 30 Rodden Road, Frome, BA11 2AH",
+    "published_at": "2026-04-08T01:01:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "John Barter Transport (South West) Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a transport company winding-up notice with no connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "63d8951582b557b2f9c4b107e352984e19b0a1287fb136adc43f022be7c0ff0e",
+    "source": "gazette",
+    "source_id": "5102366",
+    "source_url": "https://www.thegazette.co.uk/notice/5102366",
+    "title": "SB INTEGRATIONS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address 79 Caroline Street, Birmingham B3 1UP. Formerly: 102 High Street, Henley-in-Arden, Warwickshire, B95 5BY",
+    "published_at": "2026-04-07T01:01:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SB Integrations Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named company tied to gambling integrations is winding up, worth monitoring for supplier or platform impacts.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d6ca6617980c05190539cc91c1bdc421c1ae1758f808e69e87e93d00b2e054cc",
+    "source": "gazette",
+    "source_id": "5071330",
+    "source_url": "https://www.thegazette.co.uk/notice/5071330",
+    "title": "ARCADIA SPA LIMITED",
+    "raw_summary": "Meetings of Creditors: ARCADIA SPA LIMITED (Company Number 13984986 ) Registered office: George Albert Hotel Wardon Hill, Evershot, Dorchester, DT2 9PW Principal trading address: N/A Notice is hereby given that a virtual me…",
+    "published_at": "2026-03-05T01:04:58+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Arcadia Spa Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This is a hotel/spa insolvency notice with no apparent connection to the UK gambling sector.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d7797402f6b1859d1bbf2b26e3c0190751c31f9bc3c88e2fcdc569b1479d275e",
+    "source": "gazette",
+    "source_id": "5068211",
+    "source_url": "https://www.thegazette.co.uk/notice/5068211",
+    "title": "/n LM GROUND FACILITIES LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): In the HIGH COURT OF JUSTICE BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES INSOLVENCY AND COMPANIES LIST (ChD) Court Number: CR-2026-000851 In the Matter of LM GROUND FACILITIES LTD (Company Numbe…",
+    "published_at": "2026-03-02T13:40:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "LM Ground Facilities Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No apparent connection to the gambling sector, making this a routine corporate insolvency filing of minimal relevance.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a6da6a9f74e53e71f18b83d5e02568b61ba25cbc58c8a6462d495aa11f10225e",
+    "source": "gazette",
+    "source_id": "5061188",
+    "source_url": "https://www.thegazette.co.uk/notice/5061188",
+    "title": "WOODBOIS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): In the High Court of Justice (Business and Property Courts of England and Wales) Insolvency and Companies List (ChD) Court Number: CR-2026-000257 In the Matter of WOODBOIS LIMITED (Company Number CMP5…",
+    "published_at": "2026-02-20T14:30:22+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Woodbois Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Woodbois Limited appears unconnected to gambling/gaming, so this insolvency filing has negligible relevance for the sector's trade press.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "b6b8c65614e93be1ef3e4da76993c3b9432f900569f41b21868574a68060970c",
+    "source": "gazette",
+    "source_id": "5047335",
+    "source_url": "https://www.thegazette.co.uk/notice/5047335",
+    "title": "NORTHWOOD ENGINEERING LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address Ryefield Court, 81 Joel Street, Northwood Hills, Middlesex, HA6 1LL",
+    "published_at": "2026-02-04T01:03:13+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Northwood Engineering Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This engineering firm's winding-up notice has no apparent connection to the UK gambling or gaming sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6503d8bbe6b5df0b17b9ae57335747b9f427e2f19ec24e1a0f6aef4932e2d3b3",
+    "source": "gazette",
+    "source_id": "5041171",
+    "source_url": "https://www.thegazette.co.uk/notice/5041171",
+    "title": "WLG WORLDWIDE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: WLG WORLDWIDE LIMITED (Company Number 11751211 ) Trading Name: WLG Worldwide Limited Registered office: 6-8 Freeman Street Grimsby DN32 7AA Principal trading address: 57 Kelburn Road Orton Northgate P…",
+    "published_at": "2026-01-23T17:30:57+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "WLG Worldwide Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A winding-up resolution signals company failure, relevant if WLG Worldwide has links to gambling supply chains.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7208fa84fd102360a53d21d461f52025a1cef89c24dea96e985bca729c6c1c19",
+    "source": "gazette",
+    "source_id": "5024775",
+    "source_url": "https://www.thegazette.co.uk/notice/5024775",
+    "title": "DECLAN MORONEY CONSTRUCTION LTD/n ",
+    "raw_summary": "Petitions to Wind Up (Companies): In the HIGH COURT OF JUSTICE BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES INSOLVENCY AND COMPANIES LIST (ChD) Court Number: CR-2025-007951 In the Matter of DECLAN MORONEY CONSTRUCTION LTD (“Compa…",
+    "published_at": "2025-12-22T15:00:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Declan Moroney Construction Ltd"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a construction company winding-up petition with no connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9f479ebfc33efeb10ec01d400bada456bbec8af1f6a57c31ee0f7f94c58cce14",
+    "source": "gazette",
+    "source_id": "5023394",
+    "source_url": "https://www.thegazette.co.uk/notice/5023394",
+    "title": "OSPREY HOMES (MARCH) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address c/o Verulam Advisory Limited, Second Floor, The Annexe, New Barnes Mill, Cottonmill Lane, St Albans, Herts, AL1 2HA",
+    "published_at": "2025-12-22T01:05:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Osprey Homes (March) Limited",
+      "Verulam Advisory Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a homebuilding company winding-up notice with no apparent connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "990f5eff04960ebe982346cf85cfa0f83b73d7dd0c1a8d3e99be650c44241847",
+    "source": "gazette",
+    "source_id": "5002605",
+    "source_url": "https://www.thegazette.co.uk/notice/5002605",
+    "title": "SPECIALIST INSPECTION SERVICES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: SPECIALIST INSPECTION SERVICES LIMITED (Company Number 14822791 ) Trading Name: Specialist Inspection Services Limited Registered office: 6 Ash View Mealbank Kendal LA8 9DN Principal trading address:…",
+    "published_at": "2025-11-21T17:31:47+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Specialist Inspection Services Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A winding-up resolution for a non-gambling company has no relevance to the UK gambling and gaming sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
