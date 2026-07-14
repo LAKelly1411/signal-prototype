@@ -1,4 +1,5 @@
 import html
+from datetime import datetime
 
 import requests
 import streamlit as st
@@ -131,6 +132,45 @@ def render_card(signal: dict) -> None:
     )
 
 
+def apply_filters(scored: list[dict]) -> list[dict]:
+    st.sidebar.header("Filters")
+
+    sources = sorted({s["source"] for s in scored})
+    selected_sources = st.sidebar.multiselect("Source", sources, default=sources)
+
+    signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
+    selected_types = st.sidebar.multiselect(
+        "Signal type", signal_types, default=signal_types
+    )
+
+    min_score = st.sidebar.slider("Minimum score", 0, 100, 0)
+
+    published_dates = [
+        datetime.fromisoformat(s["published_at"]).date() for s in scored
+    ]
+    min_date, max_date = min(published_dates), max(published_dates)
+    date_range = st.sidebar.date_input(
+        "Date range", value=(min_date, max_date), min_value=min_date, max_value=max_date
+    )
+    if isinstance(date_range, tuple) and len(date_range) == 2:
+        start_date, end_date = date_range
+    else:
+        start_date, end_date = min_date, max_date
+
+    filtered = []
+    for signal, pub_date in zip(scored, published_dates):
+        if signal["source"] not in selected_sources:
+            continue
+        if signal.get("signal_type") not in selected_types:
+            continue
+        if signal["newsworthiness_score"] < min_score:
+            continue
+        if not (start_date <= pub_date <= end_date):
+            continue
+        filtered.append(signal)
+    return filtered
+
+
 def render_feed(signals: list[dict]) -> None:
     st.title("PA Sector Signal")
     st.markdown('<div class="pa-header-rule"></div>', unsafe_allow_html=True)
@@ -143,7 +183,14 @@ def render_feed(signals: list[dict]) -> None:
         st.info("No scored signals yet — check back after the next pipeline run.")
         return
 
-    for signal in scored:
+    filtered = apply_filters(scored)
+    st.caption(f"Showing {len(filtered)} of {len(scored)} scored signals.")
+
+    if not filtered:
+        st.info("No signals match the current filters.")
+        return
+
+    for signal in filtered:
         render_card(signal)
 
 
