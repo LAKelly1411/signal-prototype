@@ -51,8 +51,14 @@ class CompaniesHouseCollector(Collector):
         items: list[RawItem] = []
 
         for operator in self.operators:
-            company_number = operator["company_number"]
+            company_number = operator.get("company_number")
             name = operator["name"]
+
+            if not company_number:
+                logger.info(
+                    "Skipping %s — no company_number resolved yet", name
+                )
+                continue
 
             filings = self._fetch_filings(company_number)
             if not filings:

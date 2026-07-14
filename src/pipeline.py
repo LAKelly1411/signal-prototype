@@ -21,14 +21,27 @@ def load_sources(path: str = "config/sources.yaml") -> dict:
         return yaml.safe_load(f)
 
 
-def load_watchlist(path: str = "config/watchlist.yaml") -> list[dict]:
-    with open(path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
-    return data.get("operators", [])
+def _load_operators_file(path: str) -> list[dict]:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+    except FileNotFoundError:
+        return []
+    return (data or {}).get("operators", []) or []
+
+
+def load_watchlist(
+    seed_path: str = "config/watchlist.yaml",
+    user_path: str = "config/user_watchlist.yaml",
+) -> list[dict]:
+    """Seed list curated by PA, plus any self-service additions from the
+    dashboard. The user file may not exist yet — that's fine, not an error."""
+    return _load_operators_file(seed_path) + _load_operators_file(user_path)
 
 
 def build_collectors(sources: dict) -> list:
     collectors = []
+    watchlist = load_watchlist()
 
     gc_config = sources.get("gambling_commission", {})
     if gc_config.get("enabled"):
@@ -50,7 +63,7 @@ def build_collectors(sources: dict) -> list:
             collectors.append(
                 CompaniesHouseCollector(
                     api_key=api_key,
-                    operators=load_watchlist(),
+                    operators=watchlist,
                     items_per_page=ch_config.get("items_per_page", 25),
                     sleep_seconds=ch_config.get("sleep_seconds", 0.6),
                 )
@@ -58,7 +71,7 @@ def build_collectors(sources: dict) -> list:
 
     gz_config = sources.get("gazette", {})
     if gz_config.get("enabled"):
-        watchlist_names = [op["name"] for op in load_watchlist()]
+        watchlist_names = [op["name"] for op in watchlist]
         collectors.append(
             GazetteCollector(
                 search_terms=gz_config.get("keywords", []) + watchlist_names,

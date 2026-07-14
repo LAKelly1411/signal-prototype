@@ -1,10 +1,16 @@
+import base64
 import html
 from datetime import datetime
 
 import requests
 import streamlit as st
+import yaml
 
 st.set_page_config(page_title="PA Sector Signal", layout="wide")
+
+GITHUB_OWNER = "LAKelly1411"
+GITHUB_REPO = "signal-prototype"
+USER_WATCHLIST_PATH = "config/user_watchlist.yaml"
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp: one hue
 # (PA purple), monotone lightness, light->dark mapping low->high newsworthiness.
@@ -194,10 +200,93 @@ def render_feed(signals: list[dict]) -> None:
         render_card(signal)
 
 
+def _github_headers() -> dict:
+    return {
+        "Authorization": f"token {st.secrets['GITHUB_TOKEN']}",
+        "Accept": "application/vnd.github+json",
+    }
+
+
+def _fetch_user_watchlist() -> tuple[dict, str | None]:
+    url = (
+        f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
+        f"/contents/{USER_WATCHLIST_PATH}"
+    )
+    resp = requests.get(url, headers=_github_headers(), timeout=20)
+    if resp.status_code == 404:
+        return {"operators": []}, None
+    resp.raise_for_status()
+    payload = resp.json()
+    content = base64.b64decode(payload["content"]).decode("utf-8")
+    data = yaml.safe_load(content) or {"operators": []}
+    return data, payload["sha"]
+
+
+def add_operator_to_watchlist(
+    name: str, company_number: str, aliases: str, notes: str
+) -> None:
+    data, sha = _fetch_user_watchlist()
+    data.setdefault("operators", []).append(
+        {
+            "name": name,
+            "company_number": company_number or None,
+            "aliases": [a.strip() for a in aliases.split(",") if a.strip()],
+            "notes": notes,
+        }
+    )
+    new_content = yaml.safe_dump(data, sort_keys=False, allow_unicode=True)
+    encoded = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
+
+    url = (
+        f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
+        f"/contents/{USER_WATCHLIST_PATH}"
+    )
+    body = {
+        "message": f"Add {name} to watchlist via dashboard",
+        "content": encoded,
+        "branch": "main",
+    }
+    if sha:
+        body["sha"] = sha
+    resp = requests.put(url, headers=_github_headers(), json=body, timeout=20)
+    resp.raise_for_status()
+
+
+def render_watchlist_form() -> None:
+    with st.sidebar.expander("Add a company to the watchlist"):
+        with st.form("add_operator_form", clear_on_submit=True):
+            name = st.text_input("Company name")
+            company_number = st.text_input(
+                "Companies House number (optional)",
+                help="If you don't have this, we'll still monitor the name "
+                "for Gazette insolvency notices, but not Companies House filings.",
+            )
+            aliases = st.text_input("Aliases / trading names (comma-separated, optional)")
+            notes = st.text_area("Notes (optional)")
+            submitted = st.form_submit_button("Add to watchlist")
+
+            if submitted:
+                if not name.strip():
+                    st.error("Company name is required.")
+                else:
+                    try:
+                        add_operator_to_watchlist(
+                            name.strip(), company_number.strip(), aliases, notes.strip()
+                        )
+                        st.success(
+                            f"Added {name} — it'll be picked up on the next pipeline run."
+                        )
+                    except Exception:
+                        st.error(
+                            "Couldn't save that addition — please flag it to the PA team."
+                        )
+
+
 def main() -> None:
     inject_css()
     if not check_password():
         return
+    render_watchlist_form()
     signals = load_signals()
     render_feed(signals)
 
