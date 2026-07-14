@@ -19,6 +19,8 @@ gazette:
   sleep_seconds: 1.0
   user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
 
-# Phase 1 sources — disabled until their collectors are built
 dcms:
-  enabled: false
+  enabled: true
+  keywords: ["gambling", "betting"]
+  results_per_term: 20
+  user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
