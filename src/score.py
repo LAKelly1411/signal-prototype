@@ -1,0 +1,78 @@
+import json
+import logging
+import os
+
+import anthropic
+
+logger = logging.getLogger(__name__)
+
+SYSTEM_PROMPT = (
+    "You are a signal-scoring assistant for a B2B gambling-industry newsroom. "
+    "You are given one item from a public, regulatory or corporate source. "
+    "Assess how newsworthy it is to journalists covering the UK gambling and "
+    "gaming sector. You do not write articles. You return structured JSON only.\n\n"
+    "Score for a specialist B2B gambling audience, not a general newsdesk. A "
+    "small operator's confirmation statement can matter here even if it would "
+    "never make national news. Reward items that name operators, suppliers or "
+    "affiliates, involve enforcement or money, or signal a regulatory or policy "
+    "shift. Extract entity names carefully; these drive a downstream pattern-"
+    "detection layer.\n\n"
+    "Return exactly this JSON shape, no prose, no markdown fences:\n"
+    "{\n"
+    '  "newsworthiness_score": 0-100,\n'
+    '  "signal_type": "regulatory|enforcement|consultation|corporate_filing|insolvency|policy",\n'
+    '  "entities": ["operator or company names mentioned"],\n'
+    "  \"category\": \"short theme tag, e.g. 'AML enforcement', 'licence change', 'accounts filing'\",\n"
+    '  "why_it_matters": "one sentence, plain English, no more than 30 words"\n'
+    "}"
+)
+
+
+def _client() -> anthropic.Anthropic:
+    return anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+
+def _strip_fences(text: str) -> str:
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else text
+        if text.endswith("```"):
+            text = text.rsplit("```", 1)[0]
+    return text.strip()
+
+
+def score_signal(signal: dict, client: anthropic.Anthropic | None = None) -> dict:
+    """Enrich a signal in place with score/entities/category/why_it_matters.
+    On any failure, leaves the score null and flags it rather than dropping it."""
+    client = client or _client()
+    model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+
+    user_content = (
+        f"Title: {signal['title']}\n"
+        f"Source: {signal['source']}\n"
+        f"Published: {signal['published_at']}\n"
+        f"Extract: {signal['raw_summary']}"
+    )
+
+    try:
+        response = client.messages.create(
+            model=model,
+            max_tokens=500,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_content}],
+        )
+        text_block = next(b for b in response.content if b.type == "text")
+        raw = _strip_fences(text_block.text)
+        parsed = json.loads(raw)
+
+        signal["newsworthiness_score"] = int(parsed["newsworthiness_score"])
+        signal["signal_type"] = parsed.get("signal_type", signal["signal_type"])
+        signal["entities"] = parsed.get("entities", [])
+        signal["category"] = parsed.get("category")
+        signal["why_it_matters"] = parsed.get("why_it_matters")
+        signal["status"] = "seen"
+    except Exception:
+        logger.warning("Scoring failed for signal %s", signal["id"], exc_info=True)
+        # Leave status as "new" and score null so the next pipeline run retries it.
+
+    return signal

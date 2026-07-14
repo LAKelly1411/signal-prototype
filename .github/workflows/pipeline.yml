@@ -1,0 +1,37 @@
+name: Pipeline
+
+on:
+  schedule:
+    - cron: "0 8,12,16 * * 1-5"  # 08:00, 12:00, 16:00 UTC, Mon-Fri
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
+        run: python -m src.pipeline
+
+      - name: Commit updated signals
+        run: |
+          git config user.name "sbc-signal-pipeline"
+          git config user.email "actions@github.com"
+          git add data/signals.json
+          git diff --staged --quiet || git commit -m "Update signals [skip ci]"
+          git push

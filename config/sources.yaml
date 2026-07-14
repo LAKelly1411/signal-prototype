@@ -1,0 +1,18 @@
+gambling_commission:
+  enabled: true
+  listing_pages:
+    - url: "https://www.gamblingcommission.gov.uk/news"
+      signal_type: regulatory
+    - url: "https://www.gamblingcommission.gov.uk/news/enforcement-action"
+      signal_type: enforcement
+  user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
+
+# Phase 1 sources — disabled until their collectors are built
+companies_house:
+  enabled: false
+
+gazette:
+  enabled: false
+
+dcms:
+  enabled: false

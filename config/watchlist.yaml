@@ -1,0 +1,28 @@
+# Seed watchlist for the Companies House collector (Phase 1). Inert until then.
+# Martyn can request additions via the dashboard (Phase 1 self-service form),
+# which writes to config/user_watchlist.yaml — this file stays curated by PA.
+operators:
+  - name: "bet365 Group Limited"
+    company_number: "04241161"
+    aliases: ["bet365", "Hillside"]
+    notes: "Clean single group entity. Privately held (Denise Coates)."
+
+  - name: "Entain Holdings (UK) Limited"
+    company_number: "11159638"
+    aliases: ["Ladbrokes", "Coral", "bwin", "partypoker", "Gala", "Entain"]
+    notes: "Entain plc itself is Isle of Man registered and shows at CH only as overseas company FC037925. Track the UK holding co, 11159638, for real filings."
+
+  - name: "Ladbrokes Coral Group Limited"
+    company_number: "00566221"
+    aliases: ["Ladbrokes", "Coral"]
+    notes: "Group entity under Entain. Operating co is Ladbrokes Betting & Gaming Limited, 00775667."
+
+  - name: "William Hill Limited"
+    company_number: "04212563"
+    aliases: ["William Hill", "888", "Mr Green", "evoke"]
+    notes: "Principal group entity. Long-standing operating co is William Hill Organization Limited, 00278208. Parent evoke being acquired by Bally's Intralot (agreed 5 June 2026)."
+
+  - name: "Betfair Limited"
+    company_number: "05140986"
+    aliases: ["Betfair", "Paddy Power", "Flutter"]
+    notes: "Flutter UK entity. Sky Bet files under Bonne Terre Limited and Paddy Power GB retail under Power Leisure Bookmakers Limited, both still to resolve. Flutter plc is Irish-domiciled, NYSE-listed, so no standard UK accounts."
