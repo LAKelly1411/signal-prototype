@@ -1,0 +1,5 @@
+operators:
+- name: Test Operator Ltd (smoke test — safe to delete)
+  company_number: null
+  aliases: []
+  notes: Added by automated smoke test of the dashboard write-back form.
