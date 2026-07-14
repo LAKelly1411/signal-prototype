@@ -1,6 +1,6 @@
 # signal-prototype
 
-PA Sector Signal prototype for SBC Media (gambling/gaming). See `SBC_Signal_Prototype_BUILD_SPEC.md` for the full build spec.
+PA Sector Signal prototype (gambling/gaming). See `SBC_Signal_Prototype_BUILD_SPEC.md` for the full build spec.
 
 Phase 0: Gambling Commission collector → Claude scoring → `data/signals.json` → password-gated Streamlit dashboard.
 

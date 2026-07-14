@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-st.set_page_config(page_title="PA Sector Signal — SBC Media", layout="wide")
+st.set_page_config(page_title="PA Sector Signal", layout="wide")
 
 
 def check_password() -> bool:
@@ -27,7 +27,7 @@ def load_signals() -> list[dict]:
 
 
 def render_feed(signals: list[dict]) -> None:
-    st.title("PA Sector Signal — SBC Media")
+    st.title("PA Sector Signal")
     st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
 
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
