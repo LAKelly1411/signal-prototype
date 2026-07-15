@@ -34,7 +34,7 @@ def load_watchlist(
     seed_path: str = "config/watchlist.yaml",
     user_path: str = "config/user_watchlist.yaml",
 ) -> list[dict]:
-    """Seed list curated by PA, plus any self-service additions from the
+    """Curated seed list, plus any self-service additions from the
     dashboard. The user file may not exist yet — that's fine, not an error."""
     return _load_operators_file(seed_path) + _load_operators_file(user_path)
 

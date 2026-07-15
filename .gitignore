@@ -4,3 +4,4 @@ __pycache__/
 data/*.db
 .venv/
 .streamlit/secrets.toml
+SBC_Signal_Prototype_BUILD_SPEC.md

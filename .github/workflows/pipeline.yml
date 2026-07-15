@@ -30,7 +30,7 @@ jobs:
 
       - name: Commit updated signals
         run: |
-          git config user.name "sbc-signal-pipeline"
+          git config user.name "signal-pipeline-bot"
           git config user.email "actions@github.com"
           git add data/signals.json
           git diff --staged --quiet || git commit -m "Update signals [skip ci]"

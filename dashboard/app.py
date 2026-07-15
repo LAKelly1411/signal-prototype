@@ -6,14 +6,14 @@ import requests
 import streamlit as st
 import yaml
 
-st.set_page_config(page_title="PA Sector Signal", layout="wide")
+st.set_page_config(page_title="Sector Signal", layout="wide")
 
 GITHUB_OWNER = "LAKelly1411"
 GITHUB_REPO = "signal-prototype"
 USER_WATCHLIST_PATH = "config/user_watchlist.yaml"
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp: one hue
-# (PA purple), monotone lightness, light->dark mapping low->high newsworthiness.
+# (brand purple), monotone lightness, light->dark mapping low->high newsworthiness.
 SCORE_TIERS = [
     (70, "High", "#3d3677", "#ffffff"),
     (40, "Medium", "#6352b9", "#ffffff"),
@@ -96,7 +96,7 @@ def check_password() -> bool:
     if st.session_state.get("authenticated"):
         return True
 
-    st.title("PA Sector Signal")
+    st.title("Sector Signal")
     password = st.text_input("Password", type="password")
     if password:
         if password == st.secrets["DASHBOARD_PASSWORD"]:
@@ -178,7 +178,7 @@ def apply_filters(scored: list[dict]) -> list[dict]:
 
 
 def render_feed(signals: list[dict]) -> None:
-    st.title("PA Sector Signal")
+    st.title("Sector Signal")
     st.markdown('<div class="pa-header-rule"></div>', unsafe_allow_html=True)
     st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
 
@@ -278,7 +278,7 @@ def render_watchlist_form() -> None:
                         )
                     except Exception:
                         st.error(
-                            "Couldn't save that addition — please flag it to the PA team."
+                            "Couldn't save that addition — please flag it to the team."
                         )
 
 

@@ -5,7 +5,7 @@ gambling_commission:
       signal_type: regulatory
     - url: "https://www.gamblingcommission.gov.uk/news/enforcement-action"
       signal_type: enforcement
-  user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
+  user_agent: "Signal-Prototype/0.1"
 
 companies_house:
   enabled: true
@@ -17,10 +17,10 @@ gazette:
   keywords: ["gambling", "betting", "bookmaker", "casino", "bingo", "gaming"]
   results_per_term: 20
   sleep_seconds: 1.0
-  user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
+  user_agent: "Signal-Prototype/0.1"
 
 dcms:
   enabled: true
   keywords: ["gambling", "betting"]
   results_per_term: 20
-  user_agent: "PA-SBC-Signal-Prototype/0.1 (contact: lesley-anne.kelly@pamediagroup.com)"
+  user_agent: "Signal-Prototype/0.1"

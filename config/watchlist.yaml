@@ -1,6 +1,6 @@
 # Seed watchlist for the Companies House collector (Phase 1). Inert until then.
 # Martyn can request additions via the dashboard (Phase 1 self-service form),
-# which writes to config/user_watchlist.yaml — this file stays curated by PA.
+# which writes to config/user_watchlist.yaml — this file stays curated separately.
 operators:
   - name: "bet365 Group Limited"
     company_number: "04241161"
