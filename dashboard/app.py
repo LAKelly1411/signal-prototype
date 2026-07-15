@@ -35,7 +35,7 @@ def inject_css() -> None:
         html, body, [class*="css"] {
             font-family: 'Greycliff CF', Helvetica, Arial, sans-serif;
         }
-        .pa-header-rule {
+        .header-rule {
             height: 4px;
             background: linear-gradient(90deg, #ffcb47, #6352b9);
             border-radius: 2px;
@@ -179,7 +179,7 @@ def apply_filters(scored: list[dict]) -> list[dict]:
 
 def render_feed(signals: list[dict]) -> None:
     st.title("Sector Signal")
-    st.markdown('<div class="pa-header-rule"></div>', unsafe_allow_html=True)
+    st.markdown('<div class="header-rule"></div>', unsafe_allow_html=True)
     st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
 
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
