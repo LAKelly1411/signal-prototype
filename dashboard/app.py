@@ -144,12 +144,23 @@ def render_card(signal: dict) -> None:
 def apply_filters(scored: list[dict]) -> list[dict]:
     st.sidebar.header("Filters")
 
+    search_query = st.sidebar.text_input(
+        "Search", placeholder="Search title, summary, entities…"
+    ).strip().lower()
+
     sources = sorted({s["source"] for s in scored})
     selected_sources = st.sidebar.multiselect("Source", sources, default=sources)
 
     signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
     selected_types = st.sidebar.multiselect(
         "Signal type", signal_types, default=signal_types
+    )
+
+    all_entities = sorted({e for s in scored for e in s.get("entities", [])})
+    selected_entities = st.sidebar.multiselect(
+        "Company / entity",
+        all_entities,
+        help="Leave empty to include all companies.",
     )
 
     min_score = st.sidebar.slider("Minimum score", 0, 100, 0)
@@ -166,6 +177,10 @@ def apply_filters(scored: list[dict]) -> list[dict]:
     else:
         start_date, end_date = min_date, max_date
 
+    sort_order = st.sidebar.radio(
+        "Sort by", ["Newest first", "Highest score first"], horizontal=True
+    )
+
     filtered = []
     for signal, pub_date in zip(scored, published_dates):
         if signal["source"] not in selected_sources:
@@ -176,7 +191,26 @@ def apply_filters(scored: list[dict]) -> list[dict]:
             continue
         if not (start_date <= pub_date <= end_date):
             continue
+        if selected_entities and not set(signal.get("entities", [])) & set(
+            selected_entities
+        ):
+            continue
+        if search_query:
+            haystack = " ".join(
+                [
+                    signal.get("title", ""),
+                    signal.get("why_it_matters") or "",
+                    signal.get("category") or "",
+                    " ".join(signal.get("entities", [])),
+                ]
+            ).lower()
+            if search_query not in haystack:
+                continue
         filtered.append(signal)
+
+    if sort_order == "Highest score first":
+        filtered.sort(key=lambda s: s["newsworthiness_score"], reverse=True)
+
     return filtered
 
 
