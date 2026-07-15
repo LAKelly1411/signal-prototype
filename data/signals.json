@@ -7811,5 +7811,25 @@
     "category": "horseracing funding policy",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/consultation-on-banning-unlicensed-gambling-sponsorship",
+    "title": "Consultation on banning unlicensed gambling sponsorship",
+    "raw_summary": "A consultation on banning gambling operators which are not licensed by the Gambling Commission from entering into sponsorship or advertising arrangements across all sectors, including sports.",
+    "published_at": "2026-07-15T09:14:26Z",
+    "ingested_at": "2026-07-15T09:56:33.864083+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.",
+    "category": "advertising/sponsorship policy",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
