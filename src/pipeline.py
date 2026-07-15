@@ -5,10 +5,12 @@ import yaml
 from dotenv import load_dotenv
 
 from src import cluster, store
+from src.collectors.asa import ASACollector
 from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.dcms import DCMSCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
 from src.collectors.gazette import GazetteCollector
+from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
 from src.score import score_signal
 
@@ -88,6 +90,25 @@ def build_collectors(sources: dict) -> list:
                 keywords=dcms_config.get("keywords", []),
                 user_agent=dcms_config["user_agent"],
                 results_per_term=dcms_config.get("results_per_term", 20),
+            )
+        )
+
+    parliament_config = sources.get("parliament", {})
+    if parliament_config.get("enabled"):
+        collectors.append(
+            ParliamentCollector(
+                keywords=parliament_config.get("keywords", []),
+                user_agent=parliament_config["user_agent"],
+                results_per_term=parliament_config.get("results_per_term", 20),
+            )
+        )
+
+    asa_config = sources.get("asa", {})
+    if asa_config.get("enabled"):
+        collectors.append(
+            ASACollector(
+                keywords=asa_config.get("keywords", []),
+                user_agent=asa_config["user_agent"],
             )
         )
 
