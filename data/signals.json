@@ -6375,7 +6375,7 @@
     "newsworthiness_score": 5,
     "why_it_matters": "A hotel company's liquidation appears unrelated to gambling and gaming, so it holds minimal relevance for this sector's audience.",
     "category": "insolvency filing",
-    "cluster_id": null,
+    "cluster_id": "933ee7f1d7e3c921",
     "status": "seen"
   },
   {
@@ -6394,7 +6394,7 @@
     "newsworthiness_score": 5,
     "why_it_matters": "A hotel company's winding-up resolution has no apparent connection to the gambling sector.",
     "category": "insolvency filing",
-    "cluster_id": null,
+    "cluster_id": "933ee7f1d7e3c921",
     "status": "seen"
   },
   {
@@ -6432,7 +6432,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
     "category": "company winding-up",
-    "cluster_id": null,
+    "cluster_id": "a710c3c4eaac8620",
     "status": "seen"
   },
   {
@@ -6451,7 +6451,7 @@
     "newsworthiness_score": 5,
     "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
     "category": "liquidation notice",
-    "cluster_id": null,
+    "cluster_id": "a710c3c4eaac8620",
     "status": "seen"
   },
   {
@@ -6470,7 +6470,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A gaming-related company entering voluntary winding-up may signal financial distress worth monitoring in the sector.",
     "category": "insolvency filing",
-    "cluster_id": null,
+    "cluster_id": "18b5c56af1d82eae",
     "status": "seen"
   },
   {
@@ -6489,7 +6489,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A minor company liquidation notice with unclear gambling-sector relevance offers limited value to specialist readers.",
     "category": "insolvency filing",
-    "cluster_id": null,
+    "cluster_id": "18b5c56af1d82eae",
     "status": "seen"
   },
   {
@@ -7830,6 +7830,44 @@
     "why_it_matters": "A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.",
     "category": "advertising/sponsorship policy",
     "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
+    "source": "gazette",
+    "source_id": "5173405",
+    "source_url": "https://www.thegazette.co.uk/notice/5173405",
+    "title": "LOCKED IN GAMES YORK LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: LOCKED IN GAMES YORK LIMITED …",
+    "published_at": "2026-07-15T01:03:51+00:00",
+    "ingested_at": "2026-07-15T12:01:49.407204+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Locked In Games York Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A minor liquidation notice with no clear evidence of gambling-sector involvement, unlikely to interest specialist readers.",
+    "category": "insolvency filing",
+    "cluster_id": "b0d9958d52ab4727",
+    "status": "seen"
+  },
+  {
+    "id": "d8bf3029809cfec6751fe561acaf2e37e2e54f7ae8ddd7191cae45375ece0e3d",
+    "source": "gazette",
+    "source_id": "5173313",
+    "source_url": "https://www.thegazette.co.uk/notice/5173313",
+    "title": "LOCKED IN GAMES YORK LIMITED",
+    "raw_summary": "Resolutions for Winding-up: LOCKED IN GAMES YORK LIMITED …",
+    "published_at": "2026-07-15T01:02:00+00:00",
+    "ingested_at": "2026-07-15T12:01:49.407204+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Locked In Games York Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-related company entering voluntary winding-up may signal sector distress worth tracking for wider industry trends.",
+    "category": "company winding-up",
+    "cluster_id": "b0d9958d52ab4727",
     "status": "seen"
   }
 ]

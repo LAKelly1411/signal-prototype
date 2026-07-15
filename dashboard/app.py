@@ -1,10 +1,13 @@
 import base64
 import html
+from collections import defaultdict
 from datetime import datetime
 
 import requests
 import streamlit as st
 import yaml
+
+from src.cluster import compute_heat
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
 
@@ -178,10 +181,6 @@ def apply_filters(scored: list[dict]) -> list[dict]:
 
 
 def render_feed(signals: list[dict]) -> None:
-    st.title("Sector Signal")
-    st.markdown('<div class="header-rule"></div>', unsafe_allow_html=True)
-    st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
-
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
     scored.sort(key=lambda s: s["published_at"], reverse=True)
 
@@ -198,6 +197,50 @@ def render_feed(signals: list[dict]) -> None:
 
     for signal in filtered:
         render_card(signal)
+
+
+def render_patterns(signals: list[dict]) -> None:
+    scored = [s for s in signals if s.get("newsworthiness_score") is not None]
+
+    grouped = defaultdict(list)
+    for s in scored:
+        if s.get("cluster_id"):
+            grouped[s["cluster_id"]].append(s)
+
+    if not grouped:
+        st.info(
+            "No emerging patterns yet — a pattern needs two or more signals "
+            "naming the same company within the last 30 days."
+        )
+        return
+
+    heat_threshold = st.slider("Minimum heat score", 0, 150, 50)
+
+    clusters = [
+        (compute_heat(members), members) for members in grouped.values()
+    ]
+    clusters = [c for c in clusters if c[0] >= heat_threshold]
+    clusters.sort(key=lambda pair: pair[0], reverse=True)
+
+    st.caption(f"{len(clusters)} of {len(grouped)} clusters meet the heat threshold.")
+
+    if not clusters:
+        st.info("No clusters meet the current heat threshold.")
+        return
+
+    for heat, members in clusters:
+        members_sorted = sorted(members, key=lambda m: m["published_at"], reverse=True)
+        entities = sorted({e for m in members for e in m.get("entities", [])})
+        sources = sorted({m["source"] for m in members})
+        label = entities[0] if entities else "Unnamed cluster"
+        source_word = "source" if len(sources) == 1 else "sources"
+
+        with st.expander(
+            f"{label} — heat {heat:.0f} · {len(members)} signals · "
+            f"{len(sources)} {source_word}"
+        ):
+            for m in members_sorted:
+                render_card(m)
 
 
 def _github_headers() -> dict:
@@ -287,8 +330,17 @@ def main() -> None:
     if not check_password():
         return
     render_watchlist_form()
+
+    st.title("Sector Signal")
+    st.markdown('<div class="header-rule"></div>', unsafe_allow_html=True)
+    st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
+
     signals = load_signals()
-    render_feed(signals)
+    feed_tab, patterns_tab = st.tabs(["Feed", "Patterns"])
+    with feed_tab:
+        render_feed(signals)
+    with patterns_tab:
+        render_patterns(signals)
 
 
 main()

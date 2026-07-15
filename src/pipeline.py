@@ -4,7 +4,7 @@ import os
 import yaml
 from dotenv import load_dotenv
 
-from src import store
+from src import cluster, store
 from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.dcms import DCMSCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
@@ -120,6 +120,10 @@ def run() -> None:
 
     for signal in unscored:
         score_signal(signal)
+
+    cluster.assign_clusters(merged)
+    clustered = len({s["cluster_id"] for s in merged if s.get("cluster_id")})
+    logger.info("%d clusters formed", clustered)
 
     store.save(merged)
     logger.info("Store now holds %d signals total", len(merged))
