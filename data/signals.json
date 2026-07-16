@@ -8264,12 +8264,15 @@
     "published_at": "2025-05-22T00:00:00+00:00",
     "ingested_at": "2026-07-15T13:45:13.115275+00:00",
     "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "HM Treasury",
+      "British Horseracing Authority"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Proposed changes to Remote Betting and Gaming Duty could reshape betting operators' tax liabilities and horseracing funding.",
+    "category": "gambling tax reform",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "f216a484484129a976e143ae232561060934fa0d6419809f9a3243c6883fe741",
@@ -9868,6 +9871,25 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals ongoing government scrutiny of how 2027 betting duty changes could specifically impact greyhound racing revenue.",
     "category": "gambling duty reform",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-publishes-third-annual-gambling-survey-for-great-britain",
+    "title": "Commission publishes third annual Gambling Survey for Great Britain",
+    "raw_summary": "The Gambling Commission has today published the third annual report from the Gambling Survey for Great Britain (GSGB).",
+    "published_at": "2026-07-16T00:00:00+00:00",
+    "ingested_at": "2026-07-16T10:03:42.645103+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "GSGB data shapes regulatory debate on gambling harm rates, informing future policy and affordability check decisions.",
+    "category": "prevalence/survey data",
     "cluster_id": null,
     "status": "seen"
   }
