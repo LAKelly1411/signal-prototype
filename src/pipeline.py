@@ -6,10 +6,12 @@ from dotenv import load_dotenv
 
 from src import cluster, store
 from src.collectors.asa import ASACollector
+from src.collectors.bgc import BGCCollector
 from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.dcms import DCMSCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
 from src.collectors.gazette import GazetteCollector
+from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
 from src.score import score_signal
@@ -109,6 +111,24 @@ def build_collectors(sources: dict) -> list:
             ASACollector(
                 keywords=asa_config.get("keywords", []),
                 user_agent=asa_config["user_agent"],
+            )
+        )
+
+    bgc_config = sources.get("bgc", {})
+    if bgc_config.get("enabled"):
+        collectors.append(
+            BGCCollector(
+                user_agent=bgc_config["user_agent"],
+                pages=bgc_config.get("pages", 2),
+            )
+        )
+
+    lse_config = sources.get("lse_rns", {})
+    if lse_config.get("enabled"):
+        collectors.append(
+            LSERNSCollector(
+                tickers=lse_config.get("tickers", {}),
+                user_agent=lse_config["user_agent"],
             )
         )
 

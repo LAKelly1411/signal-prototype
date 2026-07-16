@@ -5,6 +5,22 @@ gambling_commission:
       signal_type: regulatory
     - url: "https://www.gamblingcommission.gov.uk/news/enforcement-action"
       signal_type: enforcement
+    - url: "https://www.gamblingcommission.gov.uk/public-register/regulatory-actions/full"
+      signal_type: enforcement
+  user_agent: "Signal-Prototype/0.1"
+
+bgc:
+  enabled: true
+  pages: 2
+  user_agent: "Signal-Prototype/0.1"
+
+lse_rns:
+  enabled: true
+  tickers:
+    ENT: "Entain"
+    FLTR: "Flutter Entertainment"
+    EVOK: "evoke"
+    RNK: "Rank Group"
   user_agent: "Signal-Prototype/0.1"
 
 companies_house:

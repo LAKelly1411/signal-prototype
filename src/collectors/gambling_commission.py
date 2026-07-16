@@ -62,6 +62,37 @@ def _parse_enforcement_cards(soup: BeautifulSoup) -> list[tuple[str, str, str, s
     return items
 
 
+def _parse_register_items(soup: BeautifulSoup) -> list[tuple[str, str, str, str]]:
+    """Layout used by /public-register/regulatory-actions/full: <li
+    class="gcweb-search-result--item"> with an action-type tag (Sanction/
+    Settlement), a business name link, a decision date, and an outcomes
+    paragraph. Distinct from the /news/enforcement-action press releases —
+    this is the structured register entry, so it often covers cases that
+    never get a news write-up."""
+    items = []
+    for li in soup.select("li.gcweb-search-result--item"):
+        a = li.find("a")
+        if not a or not a.get("href"):
+            continue
+        title = a.get_text(strip=True)
+        tag = li.find("strong", class_="gcweb5-tag")
+        action_type = tag.get_text(strip=True) if tag else ""
+
+        date_text = None
+        outcomes = ""
+        for p in li.find_all("p"):
+            text = p.get_text(" ", strip=True)
+            if text.startswith("Decision date:"):
+                date_text = text[len("Decision date:"):].strip()
+            elif text.startswith("Outcomes:"):
+                outcomes = text[len("Outcomes:"):].strip()
+
+        if title and date_text:
+            summary = f"{action_type}: {outcomes}" if action_type else outcomes
+            items.append((title, a["href"], date_text, summary))
+    return items
+
+
 def _parse_date(date_text: str) -> str:
     try:
         dt = datetime.strptime(date_text.strip(), "%d %B %Y")
@@ -95,7 +126,11 @@ class GamblingCommissionCollector(Collector):
             if soup is None:
                 continue
 
-            parsed = _parse_news_cards(soup) or _parse_enforcement_cards(soup)
+            parsed = (
+                _parse_news_cards(soup)
+                or _parse_enforcement_cards(soup)
+                or _parse_register_items(soup)
+            )
             if not parsed:
                 logger.warning(
                     "Zero items parsed from %s — page layout may have changed", url
