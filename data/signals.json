@@ -10549,12 +10549,14 @@
     "published_at": "2025-11-07T00:00:00+00:00",
     "ingested_at": "2026-07-16T13:29:51.923343+00:00",
     "signal_type": "enforcement",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "Done Brothers (Cash Betting) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A UK-licensed betting operator faces regulatory sanctions including a financial penalty, signalling compliance failures and enforcement risk industry-wide.",
+    "category": "licence conditions and financial penalty",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "2df30e416eed047740933cfa4d0a7b39ee1c30b8c648eaf6be41247a9a7b301e",
@@ -11708,12 +11710,14 @@
     "published_at": "2024-12-03T00:00:00+00:00",
     "ingested_at": "2026-07-16T13:29:51.923540+00:00",
     "signal_type": "enforcement",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "Amatic Industries GmbH"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission financial penalty against a licensed supplier signals compliance failings and possible wider industry scrutiny.",
+    "category": "AML/regulatory enforcement",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "0959e0accab94e20af560de701ba64ae9a2401b76c486fb24c7ae2851bd89a72",
@@ -12604,12 +12608,15 @@
     "published_at": "2026-05-21T00:00:00+00:00",
     "ingested_at": "2026-07-16T13:29:51.926024+00:00",
     "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "Betting and Gaming Council",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "BGC publicly pressures the Gambling Commission ahead of a decision on financial risk assessments, a contentious affordability policy affecting operators and punters.",
+    "category": "affordability checks / FRA policy",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "4f86ef26352814a05b14d38e181b5d04f12e77bba775bc8214efec7dbbdedd5b",
@@ -16457,6 +16464,26 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine PDMR shareholding disclosure offers minor insight into insider confidence at a major UK-listed gambling operator.",
     "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
+    "source": "parliament",
+    "source_id": "1926159",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-09/17574",
+    "title": "Written question: Gambling: Cryptocurrencies",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, if she will publish a list of organisations that have lobbied the Gambling Commission or her Department on the subject of crypto gambling.\nA: As the Gambling Commission is an independent regulatory body, the Department for Culture, Media and Sport does not hold records of which organisations have lobbied the Commission on any particular topic. Transparency data for ministerial meetings will be ...",
+    "published_at": "2026-07-09T00:00:00+00:00",
+    "ingested_at": "2026-07-16T17:09:03.417666+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Shows lack of transparency on lobbying over crypto gambling, a growing regulatory concern for UK operators and suppliers.",
+    "category": "crypto gambling policy",
     "cluster_id": null,
     "status": "seen"
   }
