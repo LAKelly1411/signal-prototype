@@ -11,6 +11,7 @@ from src.collectors.companies_house import CompaniesHouseCollector
 from src.collectors.dcms import DCMSCollector
 from src.collectors.gambling_commission import GamblingCommissionCollector
 from src.collectors.gazette import GazetteCollector
+from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
@@ -120,6 +121,16 @@ def build_collectors(sources: dict) -> list:
             BGCCollector(
                 user_agent=bgc_config["user_agent"],
                 pages=bgc_config.get("pages", 2),
+            )
+        )
+
+    insolvency_config = sources.get("insolvency_service", {})
+    if insolvency_config.get("enabled"):
+        collectors.append(
+            InsolvencyServiceCollector(
+                keywords=insolvency_config.get("keywords", []),
+                user_agent=insolvency_config["user_agent"],
+                sleep_seconds=insolvency_config.get("sleep_seconds", 1.0),
             )
         )
 

@@ -14,6 +14,12 @@ bgc:
   pages: 2
   user_agent: "Signal-Prototype/0.1"
 
+insolvency_service:
+  enabled: true
+  keywords: ["gambling", "betting", "bookmaker", "casino", "bingo", "gaming"]
+  sleep_seconds: 1.0
+  user_agent: "Signal-Prototype/0.1"
+
 lse_rns:
   enabled: true
   tickers:
