@@ -10342,12 +10342,14 @@
     "published_at": "2025-12-17T00:00:00+00:00",
     "ingested_at": "2026-07-16T13:29:51.923308+00:00",
     "signal_type": "enforcement",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "PPB Entertainment Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission settlement signals compliance failings at PPB Entertainment, warning other operators of enforcement risk and costs.",
+    "category": "AML/social responsibility settlement",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "9baec6ce2f9d3af43e3d6d56ea0126b43ca642189ab280509547b1316a2f13b4",
