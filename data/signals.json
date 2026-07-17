@@ -16488,5 +16488,24 @@
     "category": "crypto gambling policy",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+    "source": "parliament",
+    "source_id": "1926359",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-09/17575",
+    "title": "Written question: Gambling: Internet",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what steps the Gambling Commission is taking to prevent UK licensed gambling software companies providing games to illegal gambling sites.\nA: The Gambling Commission, as the independent regulator for gambling, has responsibility for making decisions around licensing. As part of its regulatory approach, the Gambling Commission assesses applicants against the statutory licensing objectives and ma...",
+    "published_at": "2026-07-09T00:00:00+00:00",
+    "ingested_at": "2026-07-17T17:06:56.438969+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Signals parliamentary scrutiny of how licensed software suppliers may inadvertently support illegal gambling sites.",
+    "category": "illegal market/licensing oversight",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
