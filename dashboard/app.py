@@ -148,12 +148,21 @@ def apply_filters(scored: list[dict]) -> list[dict]:
         "Search", placeholder="Search title, summary, entities…"
     ).strip().lower()
 
+    # Keyed on the current option set so the widget resets to "all selected"
+    # whenever a new source or signal type shows up — otherwise Streamlit
+    # keeps a session's original default forever, silently hiding anything
+    # added after the browser tab was first opened.
     sources = sorted({s["source"] for s in scored})
-    selected_sources = st.sidebar.multiselect("Source", sources, default=sources)
+    selected_sources = st.sidebar.multiselect(
+        "Source", sources, default=sources, key=f"sources_{','.join(sources)}"
+    )
 
     signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
     selected_types = st.sidebar.multiselect(
-        "Signal type", signal_types, default=signal_types
+        "Signal type",
+        signal_types,
+        default=signal_types,
+        key=f"types_{','.join(signal_types)}",
     )
 
     all_entities = sorted({e for s in scored for e in s.get("entities", [])})
@@ -170,7 +179,15 @@ def apply_filters(scored: list[dict]) -> list[dict]:
     ]
     min_date, max_date = min(published_dates), max(published_dates)
     date_range = st.sidebar.date_input(
-        "Date range", value=(min_date, max_date), min_value=min_date, max_value=max_date
+        "Date range",
+        value=(min_date, max_date),
+        min_value=min_date,
+        max_value=max_date,
+        # Keyed on the current bounds so the widget resets to the full
+        # range whenever new data extends it — otherwise Streamlit keeps
+        # whatever range was selected when the browser session started,
+        # which quietly falls behind as the store picks up new signals.
+        key=f"date_range_{min_date}_{max_date}",
     )
     if isinstance(date_range, tuple) and len(date_range) == 2:
         start_date, end_date = date_range

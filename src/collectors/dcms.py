@@ -23,6 +23,7 @@ class DCMSCollector(Collector):
             "q": term,
             "filter_organisations": ORGANISATION_SLUG,
             "count": self.results_per_term,
+            "order": "-public_timestamp",
         }
         try:
             resp = requests.get(SEARCH_URL, params=params, headers=self.headers, timeout=20)
@@ -33,6 +34,16 @@ class DCMSCollector(Collector):
             )
             return []
         return resp.json().get("results", [])
+
+    def _parse_date(self, public_timestamp: str | None) -> str:
+        if not public_timestamp:
+            return datetime.now(timezone.utc).isoformat()
+        try:
+            dt = datetime.fromisoformat(public_timestamp.replace("Z", "+00:00"))
+            return dt.isoformat()
+        except ValueError:
+            logger.warning("Could not parse DCMS date %r", public_timestamp)
+            return datetime.now(timezone.utc).isoformat()
 
     def collect(self) -> list[RawItem]:
         seen_links: set[str] = set()
@@ -52,9 +63,7 @@ class DCMSCollector(Collector):
                 title = result.get("title") or "Untitled"
                 description = result.get("description") or ""
                 fmt = result.get("format", "")
-                published_at = result.get("public_timestamp") or datetime.now(
-                    timezone.utc
-                ).isoformat()
+                published_at = self._parse_date(result.get("public_timestamp"))
 
                 signal_type = "consultation" if "consultation" in fmt else "policy"
 
