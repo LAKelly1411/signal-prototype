@@ -12301,12 +12301,14 @@
     "published_at": "2023-07-18T00:00:00+00:00",
     "ingested_at": "2026-07-16T13:29:51.923658+00:00",
     "signal_type": "enforcement",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "Done Brothers (Cash Betting) Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A licensed operator's settlement involving divestment and a financial payment signals ongoing Gambling Commission enforcement scrutiny.",
+    "category": "regulatory settlement",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
   },
   {
     "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
@@ -16518,11 +16520,128 @@
     "published_at": "2023-03-28T00:00:00+00:00",
     "ingested_at": "2026-07-20T10:46:27.779133+00:00",
     "signal_type": "enforcement",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
+    "entities": [
+      "William Hill",
+      "William Hill Group"
+    ],
+    "newsworthiness_score": 95,
+    "why_it_matters": "A record £19.2m penalty against William Hill signals the Gambling Commission's toughened stance on AML and safer gambling failures, raising compliance stakes industry-wide.",
+    "category": "AML and social responsibility enforcement",
     "cluster_id": null,
-    "status": "new"
+    "status": "seen"
+  },
+  {
+    "id": "06f000e532af02fe4ef2801be421ebcc02e920c98a1a1fc3657fcf7a16645e4c",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/draft-gambling-bill",
+    "title": "Draft Gambling Bill",
+    "raw_summary": "This document contains the following information: Draft Gambling Bill.",
+    "published_at": "2003-11-19T00:00:00Z",
+    "ingested_at": "2026-07-20T13:54:50.697101+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Historic 2003 draft bill has no current newsroom relevance but may provide background context on UK gambling law origins.",
+    "category": "legislative history",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "61b8ca1fc53aa89b8d725ddeef8e7554d45e83a93fd18b6809e1086acb2e63d2",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/speeches/gambling-reform-in-the-digital-age",
+    "title": "Gambling reform for the digital age",
+    "raw_summary": "Oral statement by the Culture Secretary on the white paper setting out government's plans for major reform of gambling laws",
+    "published_at": "2023-04-27T10:58:00Z",
+    "ingested_at": "2026-07-20T13:54:50.697105+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 88,
+    "why_it_matters": "Signals the government's formal direction for major UK gambling law reform, shaping licensing, affordability checks and industry compliance.",
+    "category": "gambling white paper reform",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ad66d844921c0ffe2a98b93ea1335e355594858109ec4b1bf1f18bbc1df0444b",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/measures-relating-to-the-land-based-gambling-sector",
+    "title": "Measures relating to the land-based gambling sector",
+    "raw_summary": "A consultation on measures relating to the land-based gambling sector.",
+    "published_at": "2024-05-16T11:00:08Z",
+    "ingested_at": "2026-07-20T13:54:50.697108+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals potential regulatory changes to casinos, bingo and betting shops that could affect licensing and operating rules across the land-based sector.",
+    "category": "land-based gambling policy",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "836371d4891581fb1815bb159741cac1f96ada322f2d2f5ac07d4c510d3875dd",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/speeches/gambling-ministers-speech-at-the-gambleaware-annual-conference",
+    "title": "Gambling Minister's speech at the GambleAware annual conference",
+    "raw_summary": "Gambling Minister Stuart Andrew speaks at the GambleAware 11th annual conference.",
+    "published_at": "2023-12-06T14:39:20Z",
+    "ingested_at": "2026-07-20T13:54:50.697111+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "GambleAware",
+      "Stuart Andrew",
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Minister's remarks may signal government thinking on gambling reform ahead of white paper implementation, relevant to operators and regulators.",
+    "category": "government policy speech",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5bed217533818a4a71a331610264e62a78921fb3af376c268ae2984a4a458b60",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/impact-assessment-amendments-to-schedule-6-gambling-act-2005",
+    "title": "Impact assessment – Amendments to Schedule 6, Gambling Act 2005",
+    "raw_summary": "Schedule 6 of the Gambling Act 2005 lists persons and bodies for the purpose of exchanging information with the Gambling Commission (GC). This…",
+    "published_at": "2012-04-10T00:00:00Z",
+    "ingested_at": "2026-07-20T13:54:50.697116+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Historic policy document on information-sharing powers has little current relevance for today's gambling industry coverage.",
+    "category": "legislative amendment",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "460e280e5d38ab3685df457eb7ed612d41d4133310f79003fa6a74e8e40892fc",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/organisations/department-for-culture-media-and-sport/about",
+    "title": "About us",
+    "raw_summary": "The Department for Culture, Media and Sport supports culture, arts, media, sport, tourism and civil society across every part of England — recognising the UK’s world-leading position in these areas and the importance of these sectors in contributing so much to our economy, way of life and our reputation around the world. \r\n\r\nThe department champions sport for all at every level, supports our world-leading cultural and creative industries, and enhances the cohesiveness of our communities.",
+    "published_at": "2025-11-13T16:32:22Z",
+    "ingested_at": "2026-07-20T13:54:50.697177+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Generic DCMS boilerplate with no gambling-specific content or actionable news for industry readers.",
+    "category": "departmental overview",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
