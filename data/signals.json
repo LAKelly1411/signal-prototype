@@ -16667,5 +16667,62 @@
     "category": "corporate restructuring/scheme document",
     "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
+  },
+  {
+    "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/unlicensed-gambling-den-raids-in-doncaster",
+    "title": "Unlicensed gambling den raids in Doncaster",
+    "raw_summary": "",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "ingested_at": "2026-07-21T14:22:38.214062+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Shows the Commission actively targeting unlicensed gambling operations, signalling enforcement priorities and risks for operators near illegal markets.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
+    "source": "gazette",
+    "source_id": "5176733",
+    "source_url": "https://www.thegazette.co.uk/notice/5176733",
+    "title": "THE CTRL PAD LTD",
+    "raw_summary": "Appointment of Liquidators: …Nature of Business: Other information technology service activities Previous Name of Company: E-Dojo Gaming Limited …",
+    "published_at": "2026-07-21T01:03:06+00:00",
+    "ingested_at": "2026-07-21T14:22:38.215682+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "The Ctrl Pad Ltd",
+      "E-Dojo Gaming Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-linked IT firm formerly named E-Dojo Gaming has entered liquidation, a minor data point on sector attrition.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
+    "source": "gazette",
+    "source_id": "5176711",
+    "source_url": "https://www.thegazette.co.uk/notice/5176711",
+    "title": "BOOMERANG STUDIOS LIMITED",
+    "raw_summary": "Appointment of Liquidators: …IMITED Company Number: 14938096 Trading Name: Dice Dice Baby Shop Nature of Business: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-07-21T01:02:40+00:00",
+    "ingested_at": "2026-07-21T14:22:38.215685+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Boomerang Studios Limited",
+      "Dice Dice Baby Shop"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small toy/games retailer's liquidation has minimal relevance to the UK gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
