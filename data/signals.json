@@ -11893,7 +11893,7 @@
     "newsworthiness_score": 55,
     "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
     "category": "gambling tax policy",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -11913,7 +11913,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A DCMS crackdown on unlicensed gambling sponsorship in sport could reshape marketing rules and squeeze black-market operators' visibility.",
     "category": "sponsorship regulation",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -11932,7 +11932,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "BGC lobbying on unlicensed gambling could shape future affordability checks and tax policy affecting licensed UK operators.",
     "category": "black market/policy advocacy",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -11952,7 +11952,7 @@
     "newsworthiness_score": 58,
     "why_it_matters": "Industry body's reaction to regulator's stance on financial risk checks signals ongoing friction over affordability rules affecting UK operators.",
     "category": "financial risk assessments / affordability checks",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -11972,7 +11972,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "BGC's pushback on proposed Machine Games Duty changes signals a live tax policy fight affecting arcades, pubs and high-street jobs.",
     "category": "gambling taxation policy",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -11992,7 +11992,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Industry pushback on proposed Machine Games Duty changes signals potential tax policy shifts affecting operators' cost base.",
     "category": "gambling tax/duty policy",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -12011,7 +12011,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "BGC's warnings on channelisation to illegal operators could influence UK affordability and regulatory debate.",
     "category": "black market advocacy",
-    "cluster_id": "b551c17b3d5a06ae",
+    "cluster_id": "d8be1fb40d67ff81",
     "status": "seen"
   },
   {
@@ -14145,7 +14145,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "3aa7057a9c49eeb8",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   },
   {
@@ -14164,7 +14164,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "3aa7057a9c49eeb8",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   },
   {
@@ -14183,7 +14183,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "3aa7057a9c49eeb8",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   },
   {
@@ -14202,7 +14202,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "3aa7057a9c49eeb8",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   },
   {
@@ -14221,7 +14221,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
     "category": "shareholder notification",
-    "cluster_id": "3aa7057a9c49eeb8",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   },
   {
@@ -16626,6 +16626,46 @@
     "why_it_matters": "General workforce AI skills projections have negligible direct relevance to UK gambling operators, suppliers or regulation.",
     "category": "labour market/skills report",
     "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "e0620e0a515362777c95eb7eab221b30a7236ca12d3183770626bb2d40395ad5",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-welcomes-lisa-nandys-reappointment-and-looks-forward-to-working-with-chancellor-john-healey",
+    "title": "BGC WELCOMES LISA NANDY'S REAPPOINTMENT AND LOOKS FORWARD TO WORKING WITH CHANCELLOR JOHN HEALEY",
+    "raw_summary": "",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "ingested_at": "2026-07-21T10:21:41.411373+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Lisa Nandy",
+      "John Healey"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
+    "category": "political reaction/lobbying",
+    "cluster_id": "d8be1fb40d67ff81",
+    "status": "seen"
+  },
+  {
+    "id": "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/publication-of-the-scheme-document/9678458",
+    "title": "evoke: Publication of the Scheme Document",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-07-21T07:00:00+00:00",
+    "ingested_at": "2026-07-21T10:21:41.411804+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
+    "category": "corporate restructuring/scheme document",
+    "cluster_id": "5f2b13f12c1dc5af",
     "status": "seen"
   }
 ]
