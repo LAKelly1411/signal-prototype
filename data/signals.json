@@ -16724,5 +16724,43 @@
     "category": "insolvency filing",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+    "source": "parliament",
+    "source_id": "1927100",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-13/18346",
+    "title": "Written question: Cryptocurrencies: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what information her Department holds on the Reform Party holding discussions with the Gambling Commission on Crypto Gambling.\nA: The Gambling Commission, as the independent regulator for gambling, has responsibility for making decisions around licensing. The Gambling Commission has not been approached or held any discussion with the Reform Party on crypto gambling. ",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-21T17:45:30.840940+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Reform Party",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Confirms no regulatory engagement yet on crypto gambling, but flags political interest that could shape future policy.",
+    "category": "crypto gambling policy",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+    "source": "parliament",
+    "source_id": "1927104",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-13/18347",
+    "title": "Written question: Gambling: Licensing",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, with reference to Investigate Europe's report entitled Payment firms handled millions for companies linked to unlicensed gambling network, published on 9 July 2026, whether the payments associati\nA: We are committed to taking action on the illegal gambling market. Since its launch in January this year, the Illegal Gambling Taskforce has worked with payment providers and other relevant stakeholders to consider the best way to tackle the issue of payme...",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-21T17:45:30.840945+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": null,
+    "why_it_matters": null,
+    "category": null,
+    "cluster_id": null,
+    "status": "new"
   }
 ]
