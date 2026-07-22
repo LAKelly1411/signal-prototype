@@ -8712,7 +8712,7 @@
     "newsworthiness_score": 40,
     "why_it_matters": "Signals continued government scrutiny of age-verification and illegal gambling advertising, relevant to operators' compliance and marketing practices.",
     "category": "child protection / age verification policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -8731,7 +8731,7 @@
     "newsworthiness_score": 38,
     "why_it_matters": "Signals government focus on tech platform cooperation to curb illegal gambling ads, relevant to compliance and enforcement trends.",
     "category": "illegal gambling policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -8850,7 +8850,7 @@
     "newsworthiness_score": 40,
     "why_it_matters": "Signals government focus on tackling illegal gambling apps and potential regulatory/funding changes affecting enforcement priorities.",
     "category": "illegal gambling policy",
-    "cluster_id": "c4d896e962f6caf2",
+    "cluster_id": "996f656ecafbf9d4",
     "status": "seen"
   },
   {
@@ -8981,7 +8981,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Signals government focus on curbing illegal gambling payments ahead of the World Cup, relevant to payment providers and licensed operators.",
     "category": "illegal gambling policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -9001,7 +9001,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Confirms government concern that gambling duty rises could push bettors to illegal operators during major sporting events like the World Cup.",
     "category": "gambling duty and illegal market policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -9021,7 +9021,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Signals continued government focus on black-market betting ahead of the 2026 World Cup, relevant to licensed operators' competitive position.",
     "category": "illegal gambling market policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -9041,7 +9041,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Signals continued government focus on tackling illegal gambling ahead of the World Cup, relevant to operators and payment providers.",
     "category": "illegal gambling market policy",
-    "cluster_id": "763e22cd171fb73b",
+    "cluster_id": "664ec4ec5110b4e5",
     "status": "seen"
   },
   {
@@ -9101,7 +9101,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Confirms £26m government funding to boost Gambling Commission's fight against illegal betting sites, highlighting policy focus on black market enforcement.",
     "category": "illegal gambling market / policy funding",
-    "cluster_id": "c4d896e962f6caf2",
+    "cluster_id": null,
     "status": "seen"
   },
   {
@@ -16756,11 +16756,34 @@
     "published_at": "2026-07-13T00:00:00+00:00",
     "ingested_at": "2026-07-21T17:45:30.840945+00:00",
     "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": null,
-    "why_it_matters": null,
-    "category": null,
-    "cluster_id": null,
-    "status": "new"
+    "entities": [
+      "Illegal Gambling Taskforce",
+      "Investigate Europe"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Signals government scrutiny of payment providers' links to unlicensed gambling, potentially prompting new enforcement or compliance obligations.",
+    "category": "illegal gambling/payments policy",
+    "cluster_id": "664ec4ec5110b4e5",
+    "status": "seen"
+  },
+  {
+    "id": "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/consolidated-fund-to-receive-regulatory-settlement-money",
+    "title": "Consolidated Fund to receive regulatory settlement money",
+    "raw_summary": "In February the Commission launched a consultation on where funds from regulatory settlements should go following the introduction of the Government’s statutory levy.",
+    "published_at": "2026-07-22T00:00:00+00:00",
+    "ingested_at": "2026-07-22T10:35:16.175246+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Redirecting settlement funds to the Consolidated Fund changes financial incentives around Gambling Commission enforcement post-levy.",
+    "category": "regulatory settlement policy",
+    "cluster_id": "996f656ecafbf9d4",
+    "status": "seen"
   }
 ]
