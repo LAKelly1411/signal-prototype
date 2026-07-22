@@ -14145,7 +14145,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": "3dd413175a956bd7",
     "status": "seen"
   },
   {
@@ -14164,7 +14164,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": "3dd413175a956bd7",
     "status": "seen"
   },
   {
@@ -14183,7 +14183,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": "3dd413175a956bd7",
     "status": "seen"
   },
   {
@@ -14202,7 +14202,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": "3dd413175a956bd7",
     "status": "seen"
   },
   {
@@ -14221,7 +14221,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
     "category": "shareholder notification",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": null,
     "status": "seen"
   },
   {
@@ -16665,7 +16665,7 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "5f2b13f12c1dc5af",
+    "cluster_id": "3dd413175a956bd7",
     "status": "seen"
   },
   {
@@ -16785,5 +16785,160 @@
     "category": "regulatory settlement policy",
     "cluster_id": "996f656ecafbf9d4",
     "status": "seen"
+  },
+  {
+    "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+    "source": "parliament",
+    "source_id": "1927793",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18904",
+    "title": "Written question: Gambling: Horse Racing",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what assessment has been made of the potential impact of the Gambling Commission's proposed affordability checks for bets of more than £1,000 on the horse racing industry.\nA: The Government recognises the significant contribution that racing makes to British sporting culture and its importance to the British economy. Horseracing is the only sport in receipt of a direct government-mandated levy which helps to drive improvements...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945815+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Shows ongoing government scrutiny of affordability checks' impact on racing, a key stakeholder in gambling policy debates.",
+    "category": "affordability checks / horse racing",
+    "cluster_id": "7d31c4a70e617b30",
+    "status": "seen"
+  },
+  {
+    "id": "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+    "source": "parliament",
+    "source_id": "1927528",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18826",
+    "title": "Written question: Gambling Commission: Public Appointments",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what discussions she has had with the Gambling Commission on a timetable for a new permanent appointment for its chief executive.\nA: The timetable for appointing a permanent Chief Executive to the Gambling Commission is a matter for the Gambling Commission’s Board. Any appointment will be subject to the Secretary of State agreeing terms and conditions. ",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945818+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Ongoing uncertainty over the Gambling Commission's permanent CEO could affect regulatory direction and enforcement priorities for operators.",
+    "category": "regulatory leadership",
+    "cluster_id": "7d31c4a70e617b30",
+    "status": "seen"
+  },
+  {
+    "id": "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+    "source": "parliament",
+    "source_id": "1927532",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18828",
+    "title": "Written question: Gambling Commission: Staff",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, with reference to the answer of 17 April 2026 to Question 123653 on Gambling Commission: Staff, whether Gambling Commission staff are (a) civil and (b) crown servants.\nA: Gambling Commission staff are neither civil nor crown servants. They are public servants who act on behalf of the Crown to regulate the commercial gambling industry. ",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945821+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Clarifies the legal status of Gambling Commission staff, a niche governance point relevant to regulatory accountability debates.",
+    "category": "regulator governance",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+    "source": "parliament",
+    "source_id": "1927913",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18769",
+    "title": "Written question: Gaming Machines: Payment Methods",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what discussions her Department has had with representatives of the adult gaming centre sector on enabling cashless payment systems; and whether she plans to bring forward related regula\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945824+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Digital, Culture, Media and Sport",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Signals government is holding off on cashless payment reforms for adult gaming centres pending stronger customer protections.",
+    "category": "cashless payments policy",
+    "cluster_id": "7d31c4a70e617b30",
+    "status": "seen"
+  },
+  {
+    "id": "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+    "source": "parliament",
+    "source_id": "1927911",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18768",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department has had discussions with the adult gaming centre sector on raising the stakes and prizes cap; and what assessment she has made of the potential economic impact of \nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945827+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government reluctance to deregulate AGC stakes and prizes caps, affecting sector growth plans and lobbying strategy.",
+    "category": "stakes and prizes policy",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+    "source": "parliament",
+    "source_id": "1927910",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18767",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department has considered raising the stakes and prizes cap for adult gaming centres.\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945830+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government is holding off on deregulation for adult gaming centres, affecting AGC operators' growth plans.",
+    "category": "AGC stakes and prizes policy",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+    "source": "parliament",
+    "source_id": "1927900",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18766",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department plans to review the maximum stakes and prizes limits for Category B3 and C gaming machines in adult gaming centres.\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945833+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Signals government will delay any B3/C machine stake or prize deregulation until customer protection improvements are made, affecting AGC operators.",
+    "category": "gaming machine stakes policy",
+    "cluster_id": "7d31c4a70e617b30",
+    "status": "seen"
+  },
+  {
+    "id": "532304072e9ce4ad372a2396c713556a1a03e3c6faaa890af3156df7f50b70a5",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-statement-on-the-appointment-of-simon-cox-as-chair-of-the-british-horseracing-authority",
+    "title": "BGC STATEMENT ON THE APPOINTMENT OF SIMON COX AS CHAIR OF THE BRITISH HORSERACING AUTHORITY",
+    "raw_summary": "",
+    "published_at": "2026-07-22T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.946109+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": null,
+    "why_it_matters": null,
+    "category": null,
+    "cluster_id": null,
+    "status": "new"
   }
 ]
