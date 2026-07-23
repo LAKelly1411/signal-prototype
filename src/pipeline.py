@@ -154,7 +154,15 @@ def run() -> None:
 
     raw_items = []
     for collector in collectors:
-        raw_items.extend(collector.collect())
+        try:
+            raw_items.extend(collector.collect())
+        except Exception:
+            # One source's unexpected failure shouldn't take every other
+            # source down with it — log it and move on.
+            logger.exception(
+                "Collector %s failed — skipping, other sources unaffected",
+                type(collector).__name__,
+            )
     logger.info("Collected %d raw items", len(raw_items))
 
     new_signals_by_id = {}
