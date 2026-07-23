@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "193385cdef50d824",
+    "cluster_id": "ec2424a0267c7c27",
     "status": "seen",
-    "cluster_summary": "Entain's cluster of shareholder disclosures coincides with its phased CEE divestment, suggesting investors are repositioning as the company reshapes its regional portfolio. Routine share-capital updates and the upcoming BetMGM earnings call add context on capital structure and US joint-venture performance amid this broader strategic realignment.",
-    "cluster_summary_for": "193385cdef50d824:aa9d372d"
+    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
+    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -12320,10 +12320,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "193385cdef50d824",
+    "cluster_id": "ec2424a0267c7c27",
     "status": "seen",
-    "cluster_summary": "Entain's cluster of shareholder disclosures coincides with its phased CEE divestment, suggesting investors are repositioning as the company reshapes its regional portfolio. Routine share-capital updates and the upcoming BetMGM earnings call add context on capital structure and US joint-venture performance amid this broader strategic realignment.",
-    "cluster_summary_for": "193385cdef50d824:aa9d372d"
+    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
+    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
   },
   {
     "id": "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
@@ -12341,10 +12341,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain's phased exit from its CEE business signals a strategic shift in its regional footprint and could affect investor sentiment.",
     "category": "corporate divestment",
-    "cluster_id": "193385cdef50d824",
+    "cluster_id": "ec2424a0267c7c27",
     "status": "seen",
-    "cluster_summary": "Entain's cluster of shareholder disclosures coincides with its phased CEE divestment, suggesting investors are repositioning as the company reshapes its regional portfolio. Routine share-capital updates and the upcoming BetMGM earnings call add context on capital structure and US joint-venture performance amid this broader strategic realignment.",
-    "cluster_summary_for": "193385cdef50d824:aa9d372d"
+    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
+    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
   },
   {
     "id": "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
@@ -12362,10 +12362,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
     "category": "shareholder disclosure",
-    "cluster_id": "193385cdef50d824",
+    "cluster_id": "ec2424a0267c7c27",
     "status": "seen",
-    "cluster_summary": "Entain's cluster of shareholder disclosures coincides with its phased CEE divestment, suggesting investors are repositioning as the company reshapes its regional portfolio. Routine share-capital updates and the upcoming BetMGM earnings call add context on capital structure and US joint-venture performance amid this broader strategic realignment.",
-    "cluster_summary_for": "193385cdef50d824:aa9d372d"
+    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
+    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
   },
   {
     "id": "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
@@ -12383,7 +12383,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Changes in major shareholders can signal shifting investor confidence or influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "193385cdef50d824",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's cluster of shareholder disclosures coincides with its phased CEE divestment, suggesting investors are repositioning as the company reshapes its regional portfolio. Routine share-capital updates and the upcoming BetMGM earnings call add context on capital structure and US joint-venture performance amid this broader strategic realignment.",
     "cluster_summary_for": "193385cdef50d824:aa9d372d"
@@ -17113,6 +17113,23 @@
     "newsworthiness_score": 58,
     "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, relevant for tracking enforcement trends across licensees.",
     "category": "AML/enforcement penalty",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
+    "source": "parliament",
+    "source_id": "AEDC737E-B6BB-4D27-B301-45541371C33F",
+    "source_url": "https://hansard.parliament.uk/Lords/2026-07-23/debates/AEDC737E-B6BB-4D27-B301-45541371C33F/YoungPeopleGamblingHarm",
+    "title": "Young People: Gambling Harm",
+    "raw_summary": "Lords Chamber debate, Lords: Young People: Gambling Harm",
+    "published_at": "2026-07-23T00:00:00+00:00",
+    "ingested_at": "2026-07-23T17:46:37.616291+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Peers debating youth gambling harm could signal future regulatory or legislative pressure on operators and advertising rules.",
+    "category": "parliamentary debate on youth gambling harm",
     "cluster_id": null,
     "status": "seen"
   }
