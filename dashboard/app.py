@@ -295,7 +295,7 @@ def render_patterns(signals: list[dict]) -> None:
             f"{len(sources)} {source_word}"
         ):
             if summary:
-                st.markdown(f"**What this means:** {summary}")
+                st.markdown(f"**Signal:** {summary}")
             for m in members_sorted:
                 render_card(m)
 

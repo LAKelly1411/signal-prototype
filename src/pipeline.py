@@ -16,7 +16,7 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
-from src.score import score_signal, summarize_cluster
+from src.score import CLUSTER_SUMMARY_VERSION, score_signal, summarize_cluster
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -182,15 +182,16 @@ def run() -> None:
     logger.info("%d clusters formed", len(by_cluster))
 
     for cluster_id, members in by_cluster.items():
-        # Content-addressed cluster_id means membership changes invalidate the
-        # cache automatically; skip re-summarising (and re-billing) otherwise.
-        if any(m.get("cluster_summary_for") == cluster_id for m in members):
+        # Cache key covers both cluster membership and prompt wording, so
+        # either changing invalidates it and triggers a re-summary.
+        cache_key = f"{cluster_id}:{CLUSTER_SUMMARY_VERSION}"
+        if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
         summary = summarize_cluster(members)
         if summary:
             for m in members:
                 m["cluster_summary"] = summary
-                m["cluster_summary_for"] = cluster_id
+                m["cluster_summary_for"] = cache_key
 
     store.save(merged)
     logger.info("Store now holds %d signals total", len(merged))

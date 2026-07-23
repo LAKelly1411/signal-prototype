@@ -1,3 +1,4 @@
+import hashlib
 import json
 import logging
 import os
@@ -31,14 +32,25 @@ SYSTEM_PROMPT = (
 CLUSTER_SYSTEM_PROMPT = (
     "You are a signal-analysis assistant for a B2B gambling-industry newsroom. "
     "You are given a cluster of signals that all name the same company, "
-    "collected from public, regulatory or corporate sources. Synthesise what "
-    "the pattern means and why a journalist covering UK gambling and gaming "
-    "should care — don't just restate the individual signals.\n\n"
+    "collected from public, regulatory or corporate sources. Synthesise the "
+    "pattern behind them — what is actually going on — rather than "
+    "restating the individual signals.\n\n"
+    "The audience is always a specialist gambling-industry newsroom, so "
+    "never state that explicitly and never address the reader directly. Do "
+    "not say things like 'journalists should' or 'this means for reporters' "
+    "and do not instruct anyone on what to do with the information — just "
+    "describe the pattern and why it is significant.\n\n"
     "Return exactly this JSON shape, no prose, no markdown fences:\n"
     "{\n"
     '  "summary": "2-3 sentences, plain English, no more than 60 words"\n'
     "}"
 )
+
+# Tied to the prompt text so editing CLUSTER_SYSTEM_PROMPT automatically
+# invalidates cached cluster_summary values from the old wording.
+CLUSTER_SUMMARY_VERSION = hashlib.sha256(
+    CLUSTER_SYSTEM_PROMPT.encode("utf-8")
+).hexdigest()[:8]
 
 
 def _client() -> anthropic.Anthropic:
