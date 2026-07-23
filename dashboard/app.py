@@ -1,6 +1,6 @@
 import base64
 import html
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime
 
 import requests
@@ -23,12 +23,27 @@ SCORE_TIERS = [
     (0, "Low", "#d6dcff", "#000000"),
 ]
 
+# Same ramp, scaled to the heat slider's 0-150 range rather than a 0-100 score.
+HEAT_TIERS = [
+    (100, "High", "#3d3677", "#ffffff"),
+    (60, "Medium", "#6352b9", "#ffffff"),
+    (0, "Low", "#d6dcff", "#000000"),
+]
+
+
+def _tier(value: float, tiers: list[tuple[float, str, str, str]]) -> tuple[str, str, str]:
+    for threshold, label, bg, fg in tiers:
+        if value >= threshold:
+            return label, bg, fg
+    return tiers[-1][1:]
+
 
 def score_tier(score: int) -> tuple[str, str, str]:
-    for threshold, label, bg, fg in SCORE_TIERS:
-        if score >= threshold:
-            return label, bg, fg
-    return SCORE_TIERS[-1][1:]
+    return _tier(score, SCORE_TIERS)
+
+
+def heat_tier(heat: float) -> tuple[str, str, str]:
+    return _tier(heat, HEAT_TIERS)
 
 
 def inject_css() -> None:
@@ -88,6 +103,23 @@ def inject_css() -> None:
         }
         .signal-link:hover {
             text-decoration: underline;
+        }
+        .cluster-summary {
+            background-color: #fff6df;
+            border-left: 4px solid #ffcb47;
+            border-radius: 6px;
+            padding: 12px 18px;
+            margin-bottom: 16px;
+            color: #000000;
+        }
+        .cluster-summary-label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #8a6a00;
+            margin-bottom: 4px;
         }
         </style>
         """,
@@ -280,24 +312,58 @@ def render_patterns(signals: list[dict]) -> None:
         return
 
     for heat, members in clusters:
+        cluster_id = members[0]["cluster_id"]
         members_sorted = sorted(members, key=lambda m: m["published_at"], reverse=True)
-        entities = sorted({e for m in members for e in m.get("entities", [])})
         sources = sorted({m["source"] for m in members})
-        label = entities[0] if entities else "Unnamed cluster"
         source_word = "source" if len(sources) == 1 else "sources"
+
+        # Most-mentioned entity rather than alphabetically-first, so a
+        # multi-company cluster is labelled by whoever it's actually about.
+        entity_counts = Counter(e for m in members for e in m.get("entities", []))
+        if entity_counts:
+            primary_entity = entity_counts.most_common(1)[0][0]
+            other_entities = len(entity_counts) - 1
+            label = (
+                f"{primary_entity} +{other_entities} more"
+                if other_entities
+                else primary_entity
+            )
+        else:
+            label = "Unnamed cluster"
+
+        pub_dates = sorted(
+            datetime.fromisoformat(m["published_at"]).date() for m in members
+        )
+        span_days = (pub_dates[-1] - pub_dates[0]).days
+        span_text = "in a single day" if span_days == 0 else f"over {span_days} days"
+
+        heat_label = heat_tier(heat)[0]
         summary = next(
             (m.get("cluster_summary") for m in members if m.get("cluster_summary")),
             None,
         )
 
         with st.expander(
-            f"{label} — heat {heat:.0f} · {len(members)} signals · "
-            f"{len(sources)} {source_word}"
+            f"{label} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
+            f"{len(sources)} {source_word} · {span_text}"
         ):
             if summary:
-                st.markdown(f"**Signal:** {summary}")
-            for m in members_sorted:
-                render_card(m)
+                st.markdown(
+                    f"""
+                    <div class="cluster-summary">
+                      <span class="cluster-summary-label">Signal</span>
+                      {html.escape(summary)}
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+            show_all = st.checkbox(
+                f"Show all {len(members)} signals",
+                key=f"show_signals_{cluster_id}",
+            )
+            if show_all:
+                for m in members_sorted:
+                    render_card(m)
 
 
 def _github_headers() -> dict:
