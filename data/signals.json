@@ -11893,7 +11893,7 @@
     "newsworthiness_score": 55,
     "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
     "category": "gambling tax policy",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -11913,7 +11913,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A DCMS crackdown on unlicensed gambling sponsorship in sport could reshape marketing rules and squeeze black-market operators' visibility.",
     "category": "sponsorship regulation",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -11932,7 +11932,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "BGC lobbying on unlicensed gambling could shape future affordability checks and tax policy affecting licensed UK operators.",
     "category": "black market/policy advocacy",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -11952,7 +11952,7 @@
     "newsworthiness_score": 58,
     "why_it_matters": "Industry body's reaction to regulator's stance on financial risk checks signals ongoing friction over affordability rules affecting UK operators.",
     "category": "financial risk assessments / affordability checks",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -11972,7 +11972,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "BGC's pushback on proposed Machine Games Duty changes signals a live tax policy fight affecting arcades, pubs and high-street jobs.",
     "category": "gambling taxation policy",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -11992,7 +11992,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Industry pushback on proposed Machine Games Duty changes signals potential tax policy shifts affecting operators' cost base.",
     "category": "gambling tax/duty policy",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -12011,7 +12011,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "BGC's warnings on channelisation to illegal operators could influence UK affordability and regulatory debate.",
     "category": "black market advocacy",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -16646,7 +16646,7 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
     "category": "political reaction/lobbying",
-    "cluster_id": "d8be1fb40d67ff81",
+    "cluster_id": "6fbfab12bdd4b3fa",
     "status": "seen"
   },
   {
@@ -16934,11 +16934,70 @@
     "published_at": "2026-07-22T00:00:00+00:00",
     "ingested_at": "2026-07-22T17:42:37.946109+00:00",
     "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Simon Cox",
+      "British Horseracing Authority"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "New BHA chair could influence horserace betting levy and gambling-industry relations with racing's governing body.",
+    "category": "industry appointment",
+    "cluster_id": "6fbfab12bdd4b3fa",
+    "status": "seen"
+  },
+  {
+    "id": "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/evolution-malta-holding-limited-to-pay-gbp4-75m",
+    "title": "Evolution Malta Holding Limited to pay £4.75m",
+    "raw_summary": "",
+    "published_at": "2026-07-23T00:00:00+00:00",
+    "ingested_at": "2026-07-23T08:54:10.106832+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Evolution Malta Holding Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A £4.75m Gambling Commission settlement against a major B2B supplier signals heightened scrutiny of game/software providers, not just operators.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/335",
+    "title": "Evolution Malta Holding Limited",
+    "raw_summary": "Settlement: Commission costs, Public statement and Payment in lieu of financial penalty",
+    "published_at": "2026-07-23T00:00:00+00:00",
+    "ingested_at": "2026-07-23T08:54:10.107138+00:00",
+    "signal_type": "enforcement",
     "entities": [],
     "newsworthiness_score": null,
     "why_it_matters": null,
     "category": null,
     "cluster_id": null,
     "status": "new"
+  },
+  {
+    "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/333",
+    "title": "Evans Amusements Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-07-09T00:00:00+00:00",
+    "ingested_at": "2026-07-23T08:54:10.107141+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Evans Amusements Limited"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, relevant for tracking enforcement trends across licensees.",
+    "category": "AML/enforcement penalty",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
