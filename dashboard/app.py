@@ -1,7 +1,7 @@
 import base64
 import html
 from collections import Counter, defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 import streamlit as st
@@ -104,6 +104,31 @@ def inject_css() -> None:
         .signal-link:hover {
             text-decoration: underline;
         }
+        .signal-tags {
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .tag-chip {
+            display: inline-block;
+            background-color: #d6dcff;
+            color: #3d3677;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 999px;
+        }
+        .tag-chip.category {
+            background-color: #ffe9b3;
+            color: #7a5c00;
+        }
+        .pattern-badge {
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #3d3677;
+            font-weight: 600;
+        }
         .cluster-summary {
             background-color: #fff6df;
             border-left: 4px solid #ffcb47;
@@ -149,9 +174,30 @@ def load_signals() -> list[dict]:
     return resp.json()
 
 
-def render_card(signal: dict) -> None:
+def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
     label, bg, fg = score_tier(signal["newsworthiness_score"])
     why_it_matters = html.escape(signal.get("why_it_matters") or "")
+
+    category = signal.get("category")
+    entities = signal.get("entities") or []
+    tags_html = ""
+    if category or entities:
+        chips = []
+        if category:
+            chips.append(f'<span class="tag-chip category">{html.escape(category)}</span>')
+        chips.extend(f'<span class="tag-chip">{html.escape(e)}</span>' for e in entities)
+        tags_html = f'<div class="signal-tags">{"".join(chips)}</div>'
+
+    pattern_html = ""
+    cluster_id = signal.get("cluster_id")
+    if cluster_info and cluster_id in cluster_info:
+        heat, count = cluster_info[cluster_id]
+        heat_label = heat_tier(heat)[0]
+        pattern_html = (
+            '<div class="pattern-badge">'
+            f"Part of a pattern &middot; {count} signals &middot; "
+            f"heat {heat:.0f} ({heat_label}) — see Patterns tab</div>"
+        )
 
     st.markdown(
         f"""
@@ -165,7 +211,9 @@ def render_card(signal: dict) -> None:
           <div class="signal-meta">
             {html.escape(signal['source'])} &middot; {signal['published_at'][:10]}
           </div>
+          {tags_html}
           <div class="signal-why">{why_it_matters}</div>
+          {pattern_html}
           <a class="signal-link" href="{signal['source_url']}" target="_blank">Source &rarr;</a>
         </div>
         """,
@@ -173,7 +221,7 @@ def render_card(signal: dict) -> None:
     )
 
 
-def apply_filters(scored: list[dict]) -> list[dict]:
+def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     st.sidebar.header("Filters")
 
     search_query = st.sidebar.text_input(
@@ -204,7 +252,9 @@ def apply_filters(scored: list[dict]) -> list[dict]:
         help="Leave empty to include all companies.",
     )
 
-    min_score = st.sidebar.slider("Minimum score", 0, 100, 0)
+    # Defaults to 40 (Medium+) rather than 0 so a busy day doesn't bury
+    # higher-value signals under Low-tier noise; still adjustable down to 0.
+    min_score = st.sidebar.slider("Minimum score", 0, 100, 40)
 
     published_dates = [
         datetime.fromisoformat(s["published_at"]).date() for s in scored
@@ -260,7 +310,26 @@ def apply_filters(scored: list[dict]) -> list[dict]:
     if sort_order == "Highest score first":
         filtered.sort(key=lambda s: s["newsworthiness_score"], reverse=True)
 
-    return filtered
+    return filtered, sort_order
+
+
+def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
+    grouped = defaultdict(list)
+    for s in scored:
+        if s.get("cluster_id"):
+            grouped[s["cluster_id"]].append(s)
+    return {cid: (compute_heat(members), len(members)) for cid, members in grouped.items()}
+
+
+def _date_bucket(pub_date, today) -> str:
+    delta = (today - pub_date).days
+    if delta <= 0:
+        return "Today"
+    if delta == 1:
+        return "Yesterday"
+    if delta <= 7:
+        return "This week"
+    return "Earlier"
 
 
 def render_feed(signals: list[dict]) -> None:
@@ -271,15 +340,35 @@ def render_feed(signals: list[dict]) -> None:
         st.info("No scored signals yet — check back after the next pipeline run.")
         return
 
-    filtered = apply_filters(scored)
+    cluster_info = _build_cluster_info(scored)
+
+    filtered, sort_order = apply_filters(scored)
     st.caption(f"Showing {len(filtered)} of {len(scored)} scored signals.")
 
     if not filtered:
         st.info("No signals match the current filters.")
         return
 
+    if sort_order != "Newest first":
+        for signal in filtered:
+            render_card(signal, cluster_info)
+        return
+
+    # Date-bucketed only for the newest-first view — bucketing would
+    # scramble a highest-score-first ordering by scattering same-score
+    # items across date sections.
+    today = datetime.now(timezone.utc).date()
+    buckets: dict[str, list[dict]] = defaultdict(list)
     for signal in filtered:
-        render_card(signal)
+        pub_date = datetime.fromisoformat(signal["published_at"]).date()
+        buckets[_date_bucket(pub_date, today)].append(signal)
+
+    for bucket in ["Today", "Yesterday", "This week", "Earlier"]:
+        if not buckets[bucket]:
+            continue
+        st.subheader(bucket)
+        for signal in buckets[bucket]:
+            render_card(signal, cluster_info)
 
 
 def render_patterns(signals: list[dict]) -> None:
