@@ -285,11 +285,17 @@ def render_patterns(signals: list[dict]) -> None:
         sources = sorted({m["source"] for m in members})
         label = entities[0] if entities else "Unnamed cluster"
         source_word = "source" if len(sources) == 1 else "sources"
+        summary = next(
+            (m.get("cluster_summary") for m in members if m.get("cluster_summary")),
+            None,
+        )
 
         with st.expander(
             f"{label} — heat {heat:.0f} · {len(members)} signals · "
             f"{len(sources)} {source_word}"
         ):
+            if summary:
+                st.markdown(f"**What this means:** {summary}")
             for m in members_sorted:
                 render_card(m)
 

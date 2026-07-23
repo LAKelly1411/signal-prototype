@@ -1,5 +1,6 @@
 import logging
 import os
+from collections import defaultdict
 
 import yaml
 from dotenv import load_dotenv
@@ -15,7 +16,7 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
-from src.score import score_signal
+from src.score import score_signal, summarize_cluster
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -174,8 +175,22 @@ def run() -> None:
         score_signal(signal)
 
     cluster.assign_clusters(merged)
-    clustered = len({s["cluster_id"] for s in merged if s.get("cluster_id")})
-    logger.info("%d clusters formed", clustered)
+    by_cluster = defaultdict(list)
+    for s in merged:
+        if s.get("cluster_id"):
+            by_cluster[s["cluster_id"]].append(s)
+    logger.info("%d clusters formed", len(by_cluster))
+
+    for cluster_id, members in by_cluster.items():
+        # Content-addressed cluster_id means membership changes invalidate the
+        # cache automatically; skip re-summarising (and re-billing) otherwise.
+        if any(m.get("cluster_summary_for") == cluster_id for m in members):
+            continue
+        summary = summarize_cluster(members)
+        if summary:
+            for m in members:
+                m["cluster_summary"] = summary
+                m["cluster_summary_for"] = cluster_id
 
     store.save(merged)
     logger.info("Store now holds %d signals total", len(merged))
