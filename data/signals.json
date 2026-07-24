@@ -17172,5 +17172,43 @@
     "status": "seen",
     "cluster_summary": "Rank Group is undergoing a leadership transition, with a new CEO named alongside a director change, timed just before its full-year trading update. Clustering these events suggests the board is aligning governance changes with a key financial reporting moment, signalling a deliberate reset of strategic direction for the bingo and casino operator.",
     "cluster_summary_for": "1923a35dd6fb884e:aa9d372d"
+  },
+  {
+    "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+    "source": "gazette",
+    "source_id": "5179513",
+    "source_url": "https://www.thegazette.co.uk/notice/5179513",
+    "title": "FIRESTOKE GROUP LIMITED",
+    "raw_summary": "Appointment of Liquidators: …Number: SC689236 Name of Company: FIRESTOKE GROUP LIMITED Nature of Business: Publishing of computer …",
+    "published_at": "2026-07-24T01:03:49+00:00",
+    "ingested_at": "2026-07-24T17:52:12.055270+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Firestoke Group Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming publisher entering liquidation could signal wider financial distress affecting suppliers or partners in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+    "source": "gazette",
+    "source_id": "5178467",
+    "source_url": "https://www.thegazette.co.uk/notice/5178467",
+    "title": "LYSIS GAMING COMPLIANCE LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ourt of Justice (Chancery Division) Companies Court No CR-2026-004834 of 2026 In the Matter of LYSIS GAMING COMPLIANCE LTD …",
+    "published_at": "2026-07-24T00:11:14+00:00",
+    "ingested_at": "2026-07-24T17:52:12.055273+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Lysis Gaming Compliance Ltd"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A gambling compliance firm facing a winding-up petition could signal financial distress affecting operator compliance support in the UK market.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
