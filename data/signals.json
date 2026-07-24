@@ -15185,10 +15185,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Rank Group's full-year trading update offers financial performance insight into a major UK bingo and casino operator ahead of results.",
     "category": "trading update",
-    "cluster_id": "6a15c5972eba26e6",
+    "cluster_id": "1923a35dd6fb884e",
     "status": "seen",
-    "cluster_summary": "Rank Group's CEO transition coincides with its full-year trading update, pairing new leadership with a first public read on financial performance. The timing suggests the incoming chief will inherit clearly defined trading conditions, offering an early signal of strategic direction for the UK bingo and casino operator heading into formal results.",
-    "cluster_summary_for": "6a15c5972eba26e6:aa9d372d"
+    "cluster_summary": "Rank Group is undergoing a leadership transition, with a new CEO named alongside a director change, timed just before its full-year trading update. Clustering these events suggests the board is aligning governance changes with a key financial reporting moment, signalling a deliberate reset of strategic direction for the bingo and casino operator.",
+    "cluster_summary_for": "1923a35dd6fb884e:aa9d372d"
   },
   {
     "id": "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
@@ -15207,10 +15207,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "A new CEO at a major listed casino and bingo operator could signal strategic shifts affecting UK gambling market direction.",
     "category": "leadership change",
-    "cluster_id": "6a15c5972eba26e6",
+    "cluster_id": "1923a35dd6fb884e",
     "status": "seen",
-    "cluster_summary": "Rank Group's CEO transition coincides with its full-year trading update, pairing new leadership with a first public read on financial performance. The timing suggests the incoming chief will inherit clearly defined trading conditions, offering an early signal of strategic direction for the UK bingo and casino operator heading into formal results.",
-    "cluster_summary_for": "6a15c5972eba26e6:aa9d372d"
+    "cluster_summary": "Rank Group is undergoing a leadership transition, with a new CEO named alongside a director change, timed just before its full-year trading update. Clustering these events suggests the board is aligning governance changes with a key financial reporting moment, signalling a deliberate reset of strategic direction for the bingo and casino operator.",
+    "cluster_summary_for": "1923a35dd6fb884e:aa9d372d"
   },
   {
     "id": "ac2e99d78fc453498fbae37efbdee7badce278cb906b471d37e4a0260561804f",
@@ -17132,5 +17132,45 @@
     "category": "parliamentary debate on youth gambling harm",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/334",
+    "title": "Dench eGaming Solutions Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-07-10T00:00:00+00:00",
+    "ingested_at": "2026-07-24T10:28:55.135867+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Dench eGaming Solutions Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A UK Gambling Commission financial penalty signals compliance failings, relevant to operators and suppliers watching enforcement trends.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/directorate-change/9685277",
+    "title": "Rank Group: Directorate change",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-07-24T07:00:00+00:00",
+    "ingested_at": "2026-07-24T10:28:55.138321+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
+    "category": "board/directorate change",
+    "cluster_id": "1923a35dd6fb884e",
+    "status": "seen",
+    "cluster_summary": "Rank Group is undergoing a leadership transition, with a new CEO named alongside a director change, timed just before its full-year trading update. Clustering these events suggests the board is aligning governance changes with a key financial reporting moment, signalling a deliberate reset of strategic direction for the bingo and casino operator.",
+    "cluster_summary_for": "1923a35dd6fb884e:aa9d372d"
   }
 ]
