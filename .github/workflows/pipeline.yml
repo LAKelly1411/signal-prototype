@@ -1,9 +1,7 @@
 name: Pipeline
 
 on:
-  schedule:
-    - cron: "17 8,12,16 * * 1-5"  # 08:17, 12:17, 16:17 UTC, Mon-Fri
-  workflow_dispatch: {}
+  workflow_dispatch: {}  # fired by the n8n schedule instead of GitHub's own cron
 
 permissions:
   contents: write
