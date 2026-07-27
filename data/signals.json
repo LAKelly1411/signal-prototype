@@ -131,7 +131,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A supplier's penalty for running slots faster than allowed shows the Commission enforcing player protection technical standards on B2B suppliers.",
     "category": "game speed/RTP compliance breach",
-    "cluster_id": "914fbfb625f789e0",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Stakelogic BV settled with the Gambling Commission, paying £122,835 after slot games ran faster than permitted, breaching technical player-protection standards. The action underscores regulatory scrutiny extending upstream to B2B suppliers' game speed and RTP compliance, not just operator-facing conduct.",
     "cluster_summary_for": "914fbfb625f789e0:aa9d372d"
@@ -6440,7 +6440,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
     "category": "company winding-up",
-    "cluster_id": "a710c3c4eaac8620",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "These two notices both concern National Fitness Games Limited entering liquidation and winding-up, a fitness-sector company unrelated to gambling. The cluster reflects a naming coincidence rather than any signal relevant to the gambling industry.",
     "cluster_summary_for": "a710c3c4eaac8620:aa9d372d"
@@ -6461,7 +6461,7 @@
     "newsworthiness_score": 5,
     "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
     "category": "liquidation notice",
-    "cluster_id": "a710c3c4eaac8620",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "These two notices both concern National Fitness Games Limited entering liquidation and winding-up, a fitness-sector company unrelated to gambling. The cluster reflects a naming coincidence rather than any signal relevant to the gambling industry.",
     "cluster_summary_for": "a710c3c4eaac8620:aa9d372d"
@@ -9534,7 +9534,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A licensed gambling supplier has settled with the UK regulator via public statement and payment in lieu of a fine, signalling compliance failings.",
     "category": "regulatory settlement",
-    "cluster_id": "914fbfb625f789e0",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Stakelogic BV settled with the Gambling Commission, paying £122,835 after slot games ran faster than permitted, breaching technical player-protection standards. The action underscores regulatory scrutiny extending upstream to B2B suppliers' game speed and RTP compliance, not just operator-facing conduct.",
     "cluster_summary_for": "914fbfb625f789e0:aa9d372d"
@@ -11935,10 +11935,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
     "category": "gambling tax policy",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
@@ -11957,10 +11957,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A DCMS crackdown on unlicensed gambling sponsorship in sport could reshape marketing rules and squeeze black-market operators' visibility.",
     "category": "sponsorship regulation",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
@@ -11978,10 +11978,10 @@
     "newsworthiness_score": 42,
     "why_it_matters": "BGC lobbying on unlicensed gambling could shape future affordability checks and tax policy affecting licensed UK operators.",
     "category": "black market/policy advocacy",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
@@ -12000,10 +12000,10 @@
     "newsworthiness_score": 58,
     "why_it_matters": "Industry body's reaction to regulator's stance on financial risk checks signals ongoing friction over affordability rules affecting UK operators.",
     "category": "financial risk assessments / affordability checks",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
@@ -12022,10 +12022,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "BGC's pushback on proposed Machine Games Duty changes signals a live tax policy fight affecting arcades, pubs and high-street jobs.",
     "category": "gambling taxation policy",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
@@ -12044,10 +12044,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Industry pushback on proposed Machine Games Duty changes signals potential tax policy shifts affecting operators' cost base.",
     "category": "gambling tax/duty policy",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "528b4e6ce13f7173a7eb2f8b2a3b1dbabe0b38c6eacfec5508dc26564204426c",
@@ -12065,7 +12065,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "BGC's warnings on channelisation to illegal operators could influence UK affordability and regulatory debate.",
     "category": "black market advocacy",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
     "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "ec2424a0267c7c27",
+    "cluster_id": "dbc9e8a230a27a2d",
     "status": "seen",
-    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
-    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
+    "cluster_summary": "Entain's routine share capital filing coincides with an announced BetMGM Q2 update, pointing to upcoming disclosure on US joint-venture performance. Neither signal alone indicates strategic change, but together they mark a scheduled checkpoint for assessing Entain's US growth trajectory and capital position.",
+    "cluster_summary_for": "dbc9e8a230a27a2d:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -12320,10 +12320,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "ec2424a0267c7c27",
+    "cluster_id": "dbc9e8a230a27a2d",
     "status": "seen",
-    "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
-    "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
+    "cluster_summary": "Entain's routine share capital filing coincides with an announced BetMGM Q2 update, pointing to upcoming disclosure on US joint-venture performance. Neither signal alone indicates strategic change, but together they mark a scheduled checkpoint for assessing Entain's US growth trajectory and capital position.",
+    "cluster_summary_for": "dbc9e8a230a27a2d:aa9d372d"
   },
   {
     "id": "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
@@ -12341,7 +12341,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain's phased exit from its CEE business signals a strategic shift in its regional footprint and could affect investor sentiment.",
     "category": "corporate divestment",
-    "cluster_id": "ec2424a0267c7c27",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
     "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
@@ -12362,7 +12362,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
     "category": "shareholder disclosure",
-    "cluster_id": "ec2424a0267c7c27",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain is reshaping its portfolio, agreeing a phased 20% divestment of its CEE business while shareholder disclosures suggest shifting investor positioning. Routine capital updates continue alongside an upcoming BetMGM Q2 update, which will offer insight into US joint-venture performance amid this broader regional restructuring.",
     "cluster_summary_for": "ec2424a0267c7c27:aa9d372d"
@@ -13263,10 +13263,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps track Flutter's share capital but carries limited standalone news value.",
     "category": "shareholder disclosure",
-    "cluster_id": "6724e4b9055ddbec",
+    "cluster_id": "f9e31dbc5e72254d",
     "status": "seen",
-    "cluster_summary": "A cluster of consecutive shareholding disclosures and a total voting rights notice for Flutter Entertainment points to active repositioning among major investors within days. The pattern suggests notable ownership movement worth watching, though individual filings offer limited detail on scale or motive.",
-    "cluster_summary_for": "6724e4b9055ddbec:aa9d372d"
+    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
+    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
   },
   {
     "id": "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
@@ -13284,10 +13284,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Changes in major shareholdings of Flutter can signal shifts in investor sentiment or control of a leading gambling operator.",
     "category": "shareholder disclosure",
-    "cluster_id": "6724e4b9055ddbec",
+    "cluster_id": "f9e31dbc5e72254d",
     "status": "seen",
-    "cluster_summary": "A cluster of consecutive shareholding disclosures and a total voting rights notice for Flutter Entertainment points to active repositioning among major investors within days. The pattern suggests notable ownership movement worth watching, though individual filings offer limited detail on scale or motive.",
-    "cluster_summary_for": "6724e4b9055ddbec:aa9d372d"
+    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
+    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
   },
   {
     "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
@@ -13305,10 +13305,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals a change in major shareholding at Flutter, worth monitoring for ownership shifts but lacks detail on scale or impact.",
     "category": "shareholder notification",
-    "cluster_id": "6724e4b9055ddbec",
+    "cluster_id": "f9e31dbc5e72254d",
     "status": "seen",
-    "cluster_summary": "A cluster of consecutive shareholding disclosures and a total voting rights notice for Flutter Entertainment points to active repositioning among major investors within days. The pattern suggests notable ownership movement worth watching, though individual filings offer limited detail on scale or motive.",
-    "cluster_summary_for": "6724e4b9055ddbec:aa9d372d"
+    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
+    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
   },
   {
     "id": "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
@@ -13326,7 +13326,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Tracks major shareholding changes in a leading gambling operator, relevant for investors and market watchers.",
     "category": "shareholder disclosure",
-    "cluster_id": "6724e4b9055ddbec",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A cluster of consecutive shareholding disclosures and a total voting rights notice for Flutter Entertainment points to active repositioning among major investors within days. The pattern suggests notable ownership movement worth watching, though individual filings offer limited detail on scale or motive.",
     "cluster_summary_for": "6724e4b9055ddbec:aa9d372d"
@@ -16738,10 +16738,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
     "category": "political reaction/lobbying",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
@@ -17050,10 +17050,10 @@
     "newsworthiness_score": 32,
     "why_it_matters": "New BHA chair could influence horserace betting levy and gambling-industry relations with racing's governing body.",
     "category": "industry appointment",
-    "cluster_id": "6fbfab12bdd4b3fa",
+    "cluster_id": "2fa2b861a5a1b985",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d"
+    "cluster_summary": "The BGC is running a coordinated multi-front lobbying campaign ahead of UK fiscal and regulatory decisions, contesting Machine Games Duty changes, affordability checks, and tax rises while simultaneously courting new ministers and racing leadership. The unifying theme: pre-empting a Treasury tax raid and tighter regulation by framing black-market growth and job losses as the key risks.",
+    "cluster_summary_for": "2fa2b861a5a1b985:aa9d372d"
   },
   {
     "id": "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
