@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "785f863fcfe5d3bb",
+    "cluster_id": "ff8b4f116d951158",
     "status": "seen",
-    "cluster_summary": "Entain's routine share capital update sits alongside a scheduled BetMGM Q2 earnings notice and a board-level directorate change, suggesting normal governance and reporting cycles rather than upheaval. The clustering of a leadership change with upcoming US joint-venture results may still draw scrutiny over whether board shifts relate to BetMGM's performance trajectory.",
-    "cluster_summary_for": "785f863fcfe5d3bb:aa9d372d"
+    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
+    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -12320,10 +12320,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "785f863fcfe5d3bb",
+    "cluster_id": "ff8b4f116d951158",
     "status": "seen",
-    "cluster_summary": "Entain's routine share capital update sits alongside a scheduled BetMGM Q2 earnings notice and a board-level directorate change, suggesting normal governance and reporting cycles rather than upheaval. The clustering of a leadership change with upcoming US joint-venture results may still draw scrutiny over whether board shifts relate to BetMGM's performance trajectory.",
-    "cluster_summary_for": "785f863fcfe5d3bb:aa9d372d"
+    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
+    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
   },
   {
     "id": "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
@@ -17227,10 +17227,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "785f863fcfe5d3bb",
+    "cluster_id": "ff8b4f116d951158",
     "status": "seen",
-    "cluster_summary": "Entain's routine share capital update sits alongside a scheduled BetMGM Q2 earnings notice and a board-level directorate change, suggesting normal governance and reporting cycles rather than upheaval. The clustering of a leadership change with upcoming US joint-venture results may still draw scrutiny over whether board shifts relate to BetMGM's performance trajectory.",
-    "cluster_summary_for": "785f863fcfe5d3bb:aa9d372d"
+    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
+    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
   },
   {
     "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
@@ -17252,5 +17252,27 @@
     "status": "seen",
     "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
     "cluster_summary_for": "30228d852e6a940a:aa9d372d"
+  },
+  {
+    "id": "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/betmgm-q2-2026-business-update/9691513",
+    "title": "Entain: BetMGM Q2 2026 Business Update",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-07-28T12:00:00+00:00",
+    "ingested_at": "2026-07-28T14:18:33.789523+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain",
+      "BetMGM"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
+    "category": "trading update",
+    "cluster_id": "ff8b4f116d951158",
+    "status": "seen",
+    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
+    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
   }
 ]
