@@ -13263,10 +13263,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps track Flutter's share capital but carries limited standalone news value.",
     "category": "shareholder disclosure",
-    "cluster_id": "f9e31dbc5e72254d",
+    "cluster_id": "30228d852e6a940a",
     "status": "seen",
-    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
-    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
+    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
+    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
   },
   {
     "id": "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
@@ -13284,10 +13284,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Changes in major shareholdings of Flutter can signal shifts in investor sentiment or control of a leading gambling operator.",
     "category": "shareholder disclosure",
-    "cluster_id": "f9e31dbc5e72254d",
+    "cluster_id": "30228d852e6a940a",
     "status": "seen",
-    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
-    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
+    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
+    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
   },
   {
     "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
@@ -13305,10 +13305,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals a change in major shareholding at Flutter, worth monitoring for ownership shifts but lacks detail on scale or impact.",
     "category": "shareholder notification",
-    "cluster_id": "f9e31dbc5e72254d",
+    "cluster_id": "30228d852e6a940a",
     "status": "seen",
-    "cluster_summary": "Successive shareholding notifications and a routine voting-rights update for Flutter Entertainment point to ongoing movement in its major investor base rather than a single disclosed event. Individually minor, together they suggest incremental ownership repositioning worth tracking for signs of accumulating stakes or shifting institutional sentiment.",
-    "cluster_summary_for": "f9e31dbc5e72254d:aa9d372d"
+    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
+    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
   },
   {
     "id": "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
@@ -17231,5 +17231,26 @@
     "status": "seen",
     "cluster_summary": "Entain's routine share capital update sits alongside a scheduled BetMGM Q2 earnings notice and a board-level directorate change, suggesting normal governance and reporting cycles rather than upheaval. The clustering of a leadership change with upcoming US joint-venture results may still draw scrutiny over whether board shifts relate to BetMGM's performance trajectory.",
     "cluster_summary_for": "785f863fcfe5d3bb:aa9d372d"
+  },
+  {
+    "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/notice-of-q2-results/9689634",
+    "title": "Flutter Entertainment: Notice of Q2 Results",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-07-27T16:00:00+00:00",
+    "ingested_at": "2026-07-28T06:18:37.329854+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
+    "category": "results announcement notice",
+    "cluster_id": "30228d852e6a940a",
+    "status": "seen",
+    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
+    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
   }
 ]
