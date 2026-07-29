@@ -16903,10 +16903,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Shows ongoing government scrutiny of affordability checks' impact on racing, a key stakeholder in gambling policy debates.",
     "category": "affordability checks / horse racing",
-    "cluster_id": "7d31c4a70e617b30",
+    "cluster_id": "c056fbfa794c015f",
     "status": "seen",
-    "cluster_summary": "UK parliamentary questions on the same day reveal a cautious regulatory stance: affordability checks remain contested with racing stakeholders, Gambling Commission leadership is unsettled, and cashless payment and stake/prize reforms for gaming machines are being deliberately delayed pending stronger customer protections.",
-    "cluster_summary_for": "7d31c4a70e617b30:aa9d372d"
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
   },
   {
     "id": "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
@@ -16925,10 +16925,10 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Ongoing uncertainty over the Gambling Commission's permanent CEO could affect regulatory direction and enforcement priorities for operators.",
     "category": "regulatory leadership",
-    "cluster_id": "7d31c4a70e617b30",
+    "cluster_id": "c056fbfa794c015f",
     "status": "seen",
-    "cluster_summary": "UK parliamentary questions on the same day reveal a cautious regulatory stance: affordability checks remain contested with racing stakeholders, Gambling Commission leadership is unsettled, and cashless payment and stake/prize reforms for gaming machines are being deliberately delayed pending stronger customer protections.",
-    "cluster_summary_for": "7d31c4a70e617b30:aa9d372d"
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
   },
   {
     "id": "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
@@ -16966,10 +16966,10 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Signals government is holding off on cashless payment reforms for adult gaming centres pending stronger customer protections.",
     "category": "cashless payments policy",
-    "cluster_id": "7d31c4a70e617b30",
+    "cluster_id": "c056fbfa794c015f",
     "status": "seen",
-    "cluster_summary": "UK parliamentary questions on the same day reveal a cautious regulatory stance: affordability checks remain contested with racing stakeholders, Gambling Commission leadership is unsettled, and cashless payment and stake/prize reforms for gaming machines are being deliberately delayed pending stronger customer protections.",
-    "cluster_summary_for": "7d31c4a70e617b30:aa9d372d"
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
   },
   {
     "id": "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
@@ -17027,10 +17027,10 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Signals government will delay any B3/C machine stake or prize deregulation until customer protection improvements are made, affecting AGC operators.",
     "category": "gaming machine stakes policy",
-    "cluster_id": "7d31c4a70e617b30",
+    "cluster_id": "c056fbfa794c015f",
     "status": "seen",
-    "cluster_summary": "UK parliamentary questions on the same day reveal a cautious regulatory stance: affordability checks remain contested with racing stakeholders, Gambling Commission leadership is unsettled, and cashless payment and stake/prize reforms for gaming machines are being deliberately delayed pending stronger customer protections.",
-    "cluster_summary_for": "7d31c4a70e617b30:aa9d372d"
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
   },
   {
     "id": "532304072e9ce4ad372a2396c713556a1a03e3c6faaa890af3156df7f50b70a5",
@@ -17291,6 +17291,49 @@
     "newsworthiness_score": 55,
     "why_it_matters": "An ASA upheld ruling against BoyleSports highlights ongoing scrutiny of gambling ads encouraging harmful, repetitive betting behaviour.",
     "category": "ASA ruling - irresponsible advertising",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/sarah-fox-to-join-the-gambling-commission",
+    "title": "Sarah Fox to join the Gambling Commission",
+    "raw_summary": "A senior leader from the Department for Digital, Culture, Media and Sport (DCMS) is to join the Gambling Commission’s Executive Team.",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "ingested_at": "2026-07-29T10:18:39.231007+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Sarah Fox",
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A new senior appointment at the Gambling Commission could signal shifts in regulatory priorities or DCMS-Commission alignment on policy.",
+    "category": "regulator leadership change",
+    "cluster_id": "c056fbfa794c015f",
+    "status": "seen",
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
+  },
+  {
+    "id": "4e1fcb3906f5f09b97c1d32b77cdc8f068b09ccdf236d5f6d7282a54be8ecaa3",
+    "source": "gazette",
+    "source_id": "5181029",
+    "source_url": "https://www.thegazette.co.uk/notice/5181029",
+    "title": "POTTERS HEALTH CARE LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1273155/ …",
+    "published_at": "2026-07-28T12:01:08+00:00",
+    "ingested_at": "2026-07-29T10:18:39.232553+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Potters Health Care Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition against a healthcare company has no apparent link to the gambling sector.",
+    "category": "winding-up petition",
     "cluster_id": null,
     "status": "seen"
   }
