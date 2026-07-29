@@ -13263,10 +13263,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps track Flutter's share capital but carries limited standalone news value.",
     "category": "shareholder disclosure",
-    "cluster_id": "30228d852e6a940a",
+    "cluster_id": "86403deef9910e2f",
     "status": "seen",
-    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
-    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
+    "cluster_summary": "Flutter's routine shareholder and voting-rights filings coincide with the run-up to its Q2 results announcement, suggesting normal governance housekeeping ahead of a scheduled earnings disclosure rather than any unusual corporate development. The cluster reflects standard regulatory transparency rather than a distinct market-moving event.",
+    "cluster_summary_for": "86403deef9910e2f:aa9d372d"
   },
   {
     "id": "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
@@ -13284,10 +13284,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Changes in major shareholdings of Flutter can signal shifts in investor sentiment or control of a leading gambling operator.",
     "category": "shareholder disclosure",
-    "cluster_id": "30228d852e6a940a",
+    "cluster_id": "86403deef9910e2f",
     "status": "seen",
-    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
-    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
+    "cluster_summary": "Flutter's routine shareholder and voting-rights filings coincide with the run-up to its Q2 results announcement, suggesting normal governance housekeeping ahead of a scheduled earnings disclosure rather than any unusual corporate development. The cluster reflects standard regulatory transparency rather than a distinct market-moving event.",
+    "cluster_summary_for": "86403deef9910e2f:aa9d372d"
   },
   {
     "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
@@ -13305,7 +13305,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals a change in major shareholding at Flutter, worth monitoring for ownership shifts but lacks detail on scale or impact.",
     "category": "shareholder notification",
-    "cluster_id": "30228d852e6a940a",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
     "cluster_summary_for": "30228d852e6a940a:aa9d372d"
@@ -17248,10 +17248,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
     "category": "results announcement notice",
-    "cluster_id": "30228d852e6a940a",
+    "cluster_id": "86403deef9910e2f",
     "status": "seen",
-    "cluster_summary": "A run of consecutive shareholder notifications on Flutter, followed by a routine voting-rights update and a Q2 results notice, points to ordinary regulatory compliance and pre-earnings positioning rather than any single material event. Together they suggest heightened investor activity ahead of scheduled results disclosure.",
-    "cluster_summary_for": "30228d852e6a940a:aa9d372d"
+    "cluster_summary": "Flutter's routine shareholder and voting-rights filings coincide with the run-up to its Q2 results announcement, suggesting normal governance housekeeping ahead of a scheduled earnings disclosure rather than any unusual corporate development. The cluster reflects standard regulatory transparency rather than a distinct market-moving event.",
+    "cluster_summary_for": "86403deef9910e2f:aa9d372d"
   },
   {
     "id": "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
@@ -17334,6 +17334,23 @@
     "newsworthiness_score": 5,
     "why_it_matters": "This HMRC winding-up petition against a healthcare company has no apparent link to the gambling sector.",
     "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/illegal-casino-arrests",
+    "title": "Illegal casino arrests",
+    "raw_summary": "",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "ingested_at": "2026-07-29T14:18:50.138992+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Arrests linked to illegal casinos signal active Gambling Commission enforcement against unlicensed operators, a key compliance risk area for the sector.",
+    "category": "illegal gambling enforcement",
     "cluster_id": null,
     "status": "seen"
   }
