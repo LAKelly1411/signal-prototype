@@ -8816,7 +8816,7 @@
     "newsworthiness_score": 28,
     "why_it_matters": "Signals government stance on gambling ad regulation, relevant to operators' compliance and future policy debate.",
     "category": "advertising regulation",
-    "cluster_id": "ac554ea96d56a804",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
     "cluster_summary_for": "ac554ea96d56a804:aa9d372d"
@@ -8838,7 +8838,7 @@
     "newsworthiness_score": 38,
     "why_it_matters": "Signals government stance on gambling ad restrictions affecting children, relevant to future regulatory tightening.",
     "category": "advertising policy",
-    "cluster_id": "ac554ea96d56a804",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
     "cluster_summary_for": "ac554ea96d56a804:aa9d372d"
@@ -17370,6 +17370,66 @@
     "newsworthiness_score": 30,
     "why_it_matters": "A personal gambling licence revocation signals Commission enforcement action against an individual, relevant to fitness-and-propriety standards in the sector.",
     "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/court-of-appeal-refuses-tnlc-permission-to-appeal",
+    "title": "Court of Appeal refuses TNLC permission to appeal",
+    "raw_summary": "The Court of Appeal has refused The New Lottery Company Limited (TNLC) and Northern & Shell PLC’s application to appeal part of the High Court decision from April 2026 which had dismissed all claims against the Gambling Commission.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "ingested_at": "2026-07-31T06:18:36.495875+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "The New Lottery Company Limited",
+      "Northern & Shell PLC",
+      "Gambling Commission",
+      "Allwyn"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Ends TNLC and Northern & Shell's legal challenge over the National Lottery licence award, reinforcing the Gambling Commission's decision-making authority.",
+    "category": "licence dispute litigation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "2ec42643843dd6e54e40097c464ea3ff2a6afd30e0908715159a39af65355bd4",
+    "source": "companies_house",
+    "source_id": "MzUzNjA3NjI4OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzUzNjA3NjI4OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "ingested_at": "2026-07-31T06:18:36.496825+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming bet365's continued corporate status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "5943318ad4ccbfffda7414a3a6f0ef3204f7614900e6c7a6d4fea828c6bf15af",
+    "source": "gazette",
+    "source_id": "5182466",
+    "source_url": "https://www.thegazette.co.uk/notice/5182466",
+    "title": "CLARMANS HOLDINGS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): … A Petition to wind up the above-named Company, Registration Number 04310225, of Woodgate House, 2-8 Games Road, Barnet, England, EN4 9HN …",
+    "published_at": "2026-07-31T00:28:05+00:00",
+    "ingested_at": "2026-07-31T06:18:36.497609+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarmans Holdings Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up petition against this company shows no evident link to gambling, limiting relevance to the sector.",
+    "category": "winding up petition",
     "cluster_id": null,
     "status": "seen"
   }
