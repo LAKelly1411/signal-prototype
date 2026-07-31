@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "ff8b4f116d951158",
+    "cluster_id": "83bf57fc729b95bd",
     "status": "seen",
-    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
-    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
+    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
+    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -12320,7 +12320,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "ff8b4f116d951158",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
     "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
@@ -14221,10 +14221,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "3dd413175a956bd7",
+    "cluster_id": "6b4fdce8a755ba40",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal corporate scheme, likely M&A or restructuring, marked by procedural filings on voting rights, shareholding changes, and scheme document publication, alongside upcoming interim results. The sequence points to a structural transaction advancing toward a defined milestone, warranting attention to ownership and financial disclosures.",
-    "cluster_summary_for": "3dd413175a956bd7:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement, moving from timing notice to full document publication, alongside notable shareholder movements ahead of interim results. Together these point to a significant corporate restructuring or ownership change process running in parallel with routine financial reporting.",
+    "cluster_summary_for": "6b4fdce8a755ba40:aa9d372d"
   },
   {
     "id": "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
@@ -14242,10 +14242,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "3dd413175a956bd7",
+    "cluster_id": "6b4fdce8a755ba40",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal corporate scheme, likely M&A or restructuring, marked by procedural filings on voting rights, shareholding changes, and scheme document publication, alongside upcoming interim results. The sequence points to a structural transaction advancing toward a defined milestone, warranting attention to ownership and financial disclosures.",
-    "cluster_summary_for": "3dd413175a956bd7:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement, moving from timing notice to full document publication, alongside notable shareholder movements ahead of interim results. Together these point to a significant corporate restructuring or ownership change process running in parallel with routine financial reporting.",
+    "cluster_summary_for": "6b4fdce8a755ba40:aa9d372d"
   },
   {
     "id": "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
@@ -14263,10 +14263,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "3dd413175a956bd7",
+    "cluster_id": "6b4fdce8a755ba40",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal corporate scheme, likely M&A or restructuring, marked by procedural filings on voting rights, shareholding changes, and scheme document publication, alongside upcoming interim results. The sequence points to a structural transaction advancing toward a defined milestone, warranting attention to ownership and financial disclosures.",
-    "cluster_summary_for": "3dd413175a956bd7:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement, moving from timing notice to full document publication, alongside notable shareholder movements ahead of interim results. Together these point to a significant corporate restructuring or ownership change process running in parallel with routine financial reporting.",
+    "cluster_summary_for": "6b4fdce8a755ba40:aa9d372d"
   },
   {
     "id": "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
@@ -14284,7 +14284,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "3dd413175a956bd7",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evoke is progressing through a formal corporate scheme, likely M&A or restructuring, marked by procedural filings on voting rights, shareholding changes, and scheme document publication, alongside upcoming interim results. The sequence points to a structural transaction advancing toward a defined milestone, warranting attention to ownership and financial disclosures.",
     "cluster_summary_for": "3dd413175a956bd7:aa9d372d"
@@ -16759,10 +16759,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "3dd413175a956bd7",
+    "cluster_id": "6b4fdce8a755ba40",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal corporate scheme, likely M&A or restructuring, marked by procedural filings on voting rights, shareholding changes, and scheme document publication, alongside upcoming interim results. The sequence points to a structural transaction advancing toward a defined milestone, warranting attention to ownership and financial disclosures.",
-    "cluster_summary_for": "3dd413175a956bd7:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement, moving from timing notice to full document publication, alongside notable shareholder movements ahead of interim results. Together these point to a significant corporate restructuring or ownership change process running in parallel with routine financial reporting.",
+    "cluster_summary_for": "6b4fdce8a755ba40:aa9d372d"
   },
   {
     "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
@@ -17227,10 +17227,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "ff8b4f116d951158",
+    "cluster_id": "83bf57fc729b95bd",
     "status": "seen",
-    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
-    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
+    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
+    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
   },
   {
     "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
@@ -17270,10 +17270,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "ff8b4f116d951158",
+    "cluster_id": "83bf57fc729b95bd",
     "status": "seen",
-    "cluster_summary": "Entain's routine capital disclosures coincide with a board-level directorate change and closely-timed BetMGM Q2 reporting, suggesting governance adjustments alongside scrutiny of US joint-venture performance. Together these signals point to a period of leadership transition running parallel with investor focus on BetMGM's trading results as a key driver of Entain's overall valuation.",
-    "cluster_summary_for": "ff8b4f116d951158:aa9d372d"
+    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
+    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
   },
   {
     "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
@@ -17430,6 +17430,118 @@
     "newsworthiness_score": 8,
     "why_it_matters": "A winding-up petition against this company shows no evident link to gambling, limiting relevance to the sector.",
     "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "c137e0fa834948570093683183677017324a36c01843e76295b43f62e0d678d3",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/guidance/community-and-engagement-survey-202526",
+    "title": "Community and Engagement Survey 2025/26",
+    "raw_summary": "The findings of the Community and Engagement Survey in 2025/26.",
+    "published_at": "2026-07-31T08:30:06+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999401+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "DCMS survey findings could inform future gambling policy and engagement strategy, worth monitoring for regulatory signals.",
+    "category": "government survey",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "f9f82758908116b7445493cc1d5e0403b09dc42658bb01fda56b4e89cbc00e59",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-summary-report",
+    "title": "Community and Engagement Survey 2025/26: summary report",
+    "raw_summary": "Report covering the headline findings of the Community and Engagement Survey in 2025/26.",
+    "published_at": "2026-07-31T08:30:06+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999404+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 15,
+    "why_it_matters": "General DCMS engagement survey with no gambling-specific findings or named operators, limited direct relevance to sector journalists.",
+    "category": "general survey data",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a082b662c5bab0b2bcc773067eba48733e8360fa6d8fb4e2ee1ee4898254ed39",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-live-sport-and-gambling",
+    "title": "Community and Engagement Survey 2025/26: live sport and gambling",
+    "raw_summary": "The findings of the Community and Engagement Survey for live sport and gambling in 2025/26.",
+    "published_at": "2026-07-31T08:30:05+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999406+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Government survey data on sport and gambling engagement could inform future policy or regulatory debate in the sector.",
+    "category": "public opinion/survey research",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "312b3b4a03623d2ad00117516e5eb592776fe6143f4a48e942faee8eb50c6da7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents",
+    "title": "Community and Engagement Survey 2025/26: supplementary documents",
+    "raw_summary": "Documents accompanying the findings of the Community and Engagement Survey in 2025/26.",
+    "published_at": "2026-07-31T08:30:04+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999408+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Supplementary survey data may inform future DCMS policy thinking but has no direct or immediate regulatory impact on gambling operators.",
+    "category": "government survey",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "03a39984b47ef4988c7b00b1c6a5f5dc175844ac0ee77d398afef8fd5db03ef3",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-october-to-december-2025",
+    "title": "Community and Engagement Survey: October to December 2025",
+    "raw_summary": "This publication will provide quarterly results on how adults engage with DCMS sectors and their community, covering the period October to December 2025.",
+    "published_at": "2026-07-31T08:30:04+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999410+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "General DCMS engagement data has limited direct relevance to gambling operators unless it includes gambling-specific participation figures.",
+    "category": "sector engagement statistics",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "d795c44a2b6ac06a8eed8aea45804be91e16979238fc76cdc90d183796a1d81b",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-january-to-march-2026",
+    "title": "Community and Engagement Survey: January to March 2026",
+    "raw_summary": "This publication will provide quarterly results on how adults engage with DCMS sectors and their community, covering the period January to March 2026",
+    "published_at": "2026-07-31T08:30:04+00:00",
+    "ingested_at": "2026-07-31T10:18:42.999414+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "General DCMS survey data offers limited direct relevance to gambling-specific regulatory or commercial developments.",
+    "category": "sector engagement statistics",
     "cluster_id": null,
     "status": "seen"
   }
