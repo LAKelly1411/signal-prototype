@@ -17248,10 +17248,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
     "category": "results announcement notice",
-    "cluster_id": null,
+    "cluster_id": "0629d43b3da85591",
     "status": "seen",
-    "cluster_summary": "A routine voting-rights notice and a scheduled Q2 results announcement together form standard corporate housekeeping for Flutter Entertainment. The notices themselves carry little news value individually, but the results date signals when substantive performance data on the operator will next become public.",
-    "cluster_summary_for": "11e9614f3499626d:aa9d372d"
+    "cluster_summary": "Flutter's Q2 results notice arrives just before its confirmed LSE delisting, marking the formal end of its UK listing as the company completes its shift to a US-primary listing. The sequencing highlights the transition's finality, with future financial disclosures and investor access now centred away from London.",
+    "cluster_summary_for": "0629d43b3da85591:aa9d372d"
   },
   {
     "id": "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
@@ -17627,5 +17627,45 @@
     "status": "seen",
     "cluster_summary": "evoke's shareholder notification and scheme document publication, ahead of interim results, point to an active M&A or restructuring process progressing through formal court/shareholder approval stages, alongside routine capital-structure disclosures confirming shareholder base changes.",
     "cluster_summary_for": "0ee21847fd13f1aa:aa9d372d"
+  },
+  {
+    "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/flutter-completes-lse-delisting/9700686",
+    "title": "Flutter Entertainment: Flutter completes LSE delisting",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-08-03T08:15:00+00:00",
+    "ingested_at": "2026-08-03T10:18:12.692144+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Flutter's exit from the LSE marks a major shift in where the UK's largest gambling operator trades, affecting investor access and index inclusion.",
+    "category": "listing change",
+    "cluster_id": "0629d43b3da85591",
+    "status": "seen",
+    "cluster_summary": "Flutter's Q2 results notice arrives just before its confirmed LSE delisting, marking the formal end of its UK listing as the company completes its shift to a US-primary listing. The sequencing highlights the transition's finality, with future financial disclosures and investor access now centred away from London.",
+    "cluster_summary_for": "0629d43b3da85591:aa9d372d"
+  },
+  {
+    "id": "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/cancellation-flutter-entertainment-plc/9700574",
+    "title": "Flutter Entertainment: Cancellation - Flutter Entertainment Plc",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-08-03T08:00:00+00:00",
+    "ingested_at": "2026-08-03T10:18:12.692147+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment Plc"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share cancellation notice from a major operator, of limited interest beyond compliance tracking.",
+    "category": "corporate filing - share cancellation",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
