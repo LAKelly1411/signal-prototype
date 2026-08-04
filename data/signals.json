@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "83bf57fc729b95bd",
+    "cluster_id": "03d71cd2130729bd",
     "status": "seen",
-    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
-    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
+    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
+    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -17227,10 +17227,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "83bf57fc729b95bd",
+    "cluster_id": "03d71cd2130729bd",
     "status": "seen",
-    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
-    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
+    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
+    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
   },
   {
     "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
@@ -17270,10 +17270,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "83bf57fc729b95bd",
+    "cluster_id": "03d71cd2130729bd",
     "status": "seen",
-    "cluster_summary": "Entain is combining scheduled BetMGM Q2 disclosure with a board-level leadership change within weeks, suggesting the US joint venture's performance update coincides with governance shifts. Together these events point to a period of strategic recalibration at Entain, likely influencing how investors interpret both BetMGM's trajectory and Entain's broader direction.",
-    "cluster_summary_for": "83bf57fc729b95bd:aa9d372d"
+    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
+    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
   },
   {
     "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
@@ -17709,5 +17709,26 @@
     "status": "seen",
     "cluster_summary": "These signals concern a board game cafe's winding-up and liquidation filings, with no substantive link to the regulated gambling or gaming industry beyond superficial keyword overlap.",
     "cluster_summary_for": "54bc0dfee0c5cfa0:aa9d372d"
+  },
+  {
+    "id": "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9703519",
+    "title": "Entain: TR-1: Notification of major holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-08-04T09:30:00+00:00",
+    "ingested_at": "2026-08-04T10:18:09.258715+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
+    "category": "major shareholding notification",
+    "cluster_id": "03d71cd2130729bd",
+    "status": "seen",
+    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
+    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
   }
 ]
