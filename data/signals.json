@@ -17667,5 +17667,47 @@
     "category": "corporate filing - share cancellation",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
+    "source": "gazette",
+    "source_id": "5185136",
+    "source_url": "https://www.thegazette.co.uk/notice/5185136",
+    "title": "THE DOUBLE SIX CAFE LIMITED",
+    "raw_summary": "Appointment of Liquidators: …any Number: 15548993 Name of Company: THE DOUBLE SIX CAFE LIMITED Trading Name: The Double Six Board Game Cafe …",
+    "published_at": "2026-08-03T17:10:50+00:00",
+    "ingested_at": "2026-08-04T06:18:20.595377+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "The Double Six Cafe Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A board game cafe entering liquidation has no discernible link to the regulated gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": "54bc0dfee0c5cfa0",
+    "status": "seen",
+    "cluster_summary": "These signals concern a board game cafe's winding-up and liquidation filings, with no substantive link to the regulated gambling or gaming industry beyond superficial keyword overlap.",
+    "cluster_summary_for": "54bc0dfee0c5cfa0:aa9d372d"
+  },
+  {
+    "id": "c7e6734708fc8fa6533380487551533f4cd4b32977b1974d6af4460a4c1d5a8a",
+    "source": "gazette",
+    "source_id": "5185135",
+    "source_url": "https://www.thegazette.co.uk/notice/5185135",
+    "title": "THE DOUBLE SIX CAFE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: THE DOUBLE SIX CAFE LIMITED (Company Number 15548993 ) Trading Name: The Double Six Board Game Cafe …",
+    "published_at": "2026-08-03T17:10:49+00:00",
+    "ingested_at": "2026-08-04T06:18:20.595380+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "The Double Six Cafe Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a board game cafe winding-up notice with no apparent connection to the gambling or gaming industry.",
+    "category": "unrelated insolvency",
+    "cluster_id": "54bc0dfee0c5cfa0",
+    "status": "seen",
+    "cluster_summary": "These signals concern a board game cafe's winding-up and liquidation filings, with no substantive link to the regulated gambling or gaming industry beyond superficial keyword overlap.",
+    "cluster_summary_for": "54bc0dfee0c5cfa0:aa9d372d"
   }
 ]
