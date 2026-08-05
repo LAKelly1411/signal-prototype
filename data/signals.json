@@ -17730,5 +17730,47 @@
     "status": "seen",
     "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
     "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
+  },
+  {
+    "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+    "source": "gazette",
+    "source_id": "5185917",
+    "source_url": "https://www.thegazette.co.uk/notice/5185917",
+    "title": "SHEPHERD&apos;S BUSH GAMES LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: SHEPHERD'S BUSH GAMES LTD …",
+    "published_at": "2026-08-05T07:30:10+00:00",
+    "ingested_at": "2026-08-05T10:18:45.279617+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Shepherd's Bush Games Ltd"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A gaming-named company entering liquidation may signal financial distress in the sector, though scale and licensing status are unclear.",
+    "category": "insolvency filing",
+    "cluster_id": "aa024597828d9023",
+    "status": "seen",
+    "cluster_summary": "Shepherd's Bush Games Ltd has entered voluntary winding up and filed for insolvency, with two separate gazette notices confirming the liquidation. Scale and licensing status remain unclear, but the pairing of filings points to a formal, active insolvency process rather than an isolated administrative event.",
+    "cluster_summary_for": "aa024597828d9023:aa9d372d"
+  },
+  {
+    "id": "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
+    "source": "gazette",
+    "source_id": "5185915",
+    "source_url": "https://www.thegazette.co.uk/notice/5185915",
+    "title": "SHEPHERD&apos;S BUSH GAMES LTD",
+    "raw_summary": "Resolutions for Winding Up: SHEPHERD'S BUSH GAMES LTD …",
+    "published_at": "2026-08-05T07:30:08+00:00",
+    "ingested_at": "2026-08-05T10:18:45.279620+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Shepherd's Bush Games Ltd"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "A gaming-named company entering voluntary winding up may signal financial distress worth tracking in the sector.",
+    "category": "company winding up",
+    "cluster_id": "aa024597828d9023",
+    "status": "seen",
+    "cluster_summary": "Shepherd's Bush Games Ltd has entered voluntary winding up and filed for insolvency, with two separate gazette notices confirming the liquidation. Scale and licensing status remain unclear, but the pairing of filings points to a formal, active insolvency process rather than an isolated administrative event.",
+    "cluster_summary_for": "aa024597828d9023:aa9d372d"
   }
 ]
