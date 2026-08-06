@@ -11978,10 +11978,10 @@
     "newsworthiness_score": 42,
     "why_it_matters": "BGC lobbying on unlicensed gambling could shape future affordability checks and tax policy affecting licensed UK operators.",
     "category": "black market/policy advocacy",
-    "cluster_id": "af3336c8c68fc928",
+    "cluster_id": "946896490433603c",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
-    "cluster_summary_for": "af3336c8c68fc928:aa9d372d"
+    "cluster_summary": "BGC is running a sustained lobbying push across multiple fronts—black market risk, tax policy, and ministerial/regulatory relationships (DCMS reshuffle, BHA chair)—to shape upcoming affordability checks, gambling duty decisions, and racing levy negotiations. The Betfred closures give this advocacy a concrete economic-harm narrative ahead of anticipated tax changes.",
+    "cluster_summary_for": "946896490433603c:aa9d372d"
   },
   {
     "id": "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
@@ -12000,7 +12000,7 @@
     "newsworthiness_score": 58,
     "why_it_matters": "Industry body's reaction to regulator's stance on financial risk checks signals ongoing friction over affordability rules affecting UK operators.",
     "category": "financial risk assessments / affordability checks",
-    "cluster_id": "af3336c8c68fc928",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
     "cluster_summary_for": "af3336c8c68fc928:aa9d372d"
@@ -16738,10 +16738,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
     "category": "political reaction/lobbying",
-    "cluster_id": "af3336c8c68fc928",
+    "cluster_id": "946896490433603c",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
-    "cluster_summary_for": "af3336c8c68fc928:aa9d372d"
+    "cluster_summary": "BGC is running a sustained lobbying push across multiple fronts—black market risk, tax policy, and ministerial/regulatory relationships (DCMS reshuffle, BHA chair)—to shape upcoming affordability checks, gambling duty decisions, and racing levy negotiations. The Betfred closures give this advocacy a concrete economic-harm narrative ahead of anticipated tax changes.",
+    "cluster_summary_for": "946896490433603c:aa9d372d"
   },
   {
     "id": "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
@@ -17050,10 +17050,10 @@
     "newsworthiness_score": 32,
     "why_it_matters": "New BHA chair could influence horserace betting levy and gambling-industry relations with racing's governing body.",
     "category": "industry appointment",
-    "cluster_id": "af3336c8c68fc928",
+    "cluster_id": "946896490433603c",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
-    "cluster_summary_for": "af3336c8c68fc928:aa9d372d"
+    "cluster_summary": "BGC is running a sustained lobbying push across multiple fronts—black market risk, tax policy, and ministerial/regulatory relationships (DCMS reshuffle, BHA chair)—to shape upcoming affordability checks, gambling duty decisions, and racing levy negotiations. The Betfred closures give this advocacy a concrete economic-harm narrative ahead of anticipated tax changes.",
+    "cluster_summary_for": "946896490433603c:aa9d372d"
   },
   {
     "id": "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
@@ -17562,10 +17562,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "BGC links Betfred shop closures to government tax rises, highlighting industry pushback ahead of potential further duty changes.",
     "category": "gambling tax policy impact",
-    "cluster_id": "af3336c8c68fc928",
+    "cluster_id": "946896490433603c",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
-    "cluster_summary_for": "af3336c8c68fc928:aa9d372d"
+    "cluster_summary": "BGC is running a sustained lobbying push across multiple fronts—black market risk, tax policy, and ministerial/regulatory relationships (DCMS reshuffle, BHA chair)—to shape upcoming affordability checks, gambling duty decisions, and racing levy negotiations. The Betfred closures give this advocacy a concrete economic-harm narrative ahead of anticipated tax changes.",
+    "cluster_summary_for": "946896490433603c:aa9d372d"
   },
   {
     "id": "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
@@ -17772,5 +17772,42 @@
     "status": "seen",
     "cluster_summary": "Shepherd's Bush Games Ltd has entered voluntary winding up and filed for insolvency, with two separate gazette notices confirming the liquidation. Scale and licensing status remain unclear, but the pairing of filings points to a formal, active insolvency process rather than an isolated administrative event.",
     "cluster_summary_for": "aa024597828d9023:aa9d372d"
+  },
+  {
+    "id": "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/337",
+    "title": "Maxwell Taylor and Pamela Taylor",
+    "raw_summary": "Settlement: Commission costs, Public statement and Payment in lieu of financial penalty",
+    "published_at": "2026-08-06T00:00:00+00:00",
+    "ingested_at": "2026-08-06T06:18:39.653279+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Maxwell Taylor",
+      "Pamela Taylor"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A Gambling Commission settlement involving costs and a penalty-in-lieu payment signals ongoing compliance enforcement against named individuals.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
+    "source": "parliament",
+    "source_id": "1929813",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-23/HL2771",
+    "title": "Written question: Taxation",
+    "raw_summary": "Q: To ask His Majesty's Government whether they plan to increase taxes on vapes, smoking, gambling, alcohol and food; and, if so, what estimate they have made of the revenue implications of increasing those taxes.\nA: Decisions on taxes are taken at the Budget by the Chancellor. Tax changes announced at Budget are accompanied by a Tax Information and Impact Note which sets out the expected revenue impact. ",
+    "published_at": "2026-07-23T00:00:00+00:00",
+    "ingested_at": "2026-08-06T06:18:39.654910+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Signals ongoing parliamentary interest in gambling tax rises, relevant to operators ahead of the Budget.",
+    "category": "gambling taxation policy",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
