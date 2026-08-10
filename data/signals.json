@@ -17886,5 +17886,26 @@
     "category": "illegal gambling enforcement",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "eac48fb8f29544fc98efb7701a052a01f2e27dd5c00c51183b7dc96632dbc8ab",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/two-trustees-reappointed-to-the-theatres-trust-board",
+    "title": "Two Trustees reappointed to the Theatres Trust board",
+    "raw_summary": "The Secretary of State for Digital, Culture, Media and Sport has reappointed Annie Hampson and Katie Town as Trustees of the Theatres Trust Board for six months from 13 September 2026.",
+    "published_at": "2026-08-10T11:00:07+00:00",
+    "ingested_at": "2026-08-10T14:18:41.796315+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Theatres Trust",
+      "Annie Hampson",
+      "Katie Town"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to gambling sector; concerns Theatres Trust board governance, not gaming operators or regulation.",
+    "category": "board appointment",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
