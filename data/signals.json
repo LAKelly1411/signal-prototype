@@ -14221,10 +14221,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "0ee21847fd13f1aa",
+    "cluster_id": "b855d53f9bbd1a0c",
     "status": "seen",
-    "cluster_summary": "evoke's shareholder notification and scheme document publication, ahead of interim results, point to an active M&A or restructuring process progressing through formal court/shareholder approval stages, alongside routine capital-structure disclosures confirming shareholder base changes.",
-    "cluster_summary_for": "0ee21847fd13f1aa:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal corporate scheme, likely a takeover or restructuring, with a scheme document published shortly before interim results. The clustered timing of these disclosures alongside routine voting-rights filings suggests a significant ownership or structural change is advancing in parallel with normal financial reporting.",
+    "cluster_summary_for": "b855d53f9bbd1a0c:aa9d372d"
   },
   {
     "id": "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
@@ -14242,7 +14242,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "0ee21847fd13f1aa",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "evoke's shareholder notification and scheme document publication, ahead of interim results, point to an active M&A or restructuring process progressing through formal court/shareholder approval stages, alongside routine capital-structure disclosures confirming shareholder base changes.",
     "cluster_summary_for": "0ee21847fd13f1aa:aa9d372d"
@@ -16759,10 +16759,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "0ee21847fd13f1aa",
+    "cluster_id": "b855d53f9bbd1a0c",
     "status": "seen",
-    "cluster_summary": "evoke's shareholder notification and scheme document publication, ahead of interim results, point to an active M&A or restructuring process progressing through formal court/shareholder approval stages, alongside routine capital-structure disclosures confirming shareholder base changes.",
-    "cluster_summary_for": "0ee21847fd13f1aa:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal corporate scheme, likely a takeover or restructuring, with a scheme document published shortly before interim results. The clustered timing of these disclosures alongside routine voting-rights filings suggests a significant ownership or structural change is advancing in parallel with normal financial reporting.",
+    "cluster_summary_for": "b855d53f9bbd1a0c:aa9d372d"
   },
   {
     "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
@@ -17623,10 +17623,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "0ee21847fd13f1aa",
+    "cluster_id": "b855d53f9bbd1a0c",
     "status": "seen",
-    "cluster_summary": "evoke's shareholder notification and scheme document publication, ahead of interim results, point to an active M&A or restructuring process progressing through formal court/shareholder approval stages, alongside routine capital-structure disclosures confirming shareholder base changes.",
-    "cluster_summary_for": "0ee21847fd13f1aa:aa9d372d"
+    "cluster_summary": "Evoke is progressing a formal corporate scheme, likely a takeover or restructuring, with a scheme document published shortly before interim results. The clustered timing of these disclosures alongside routine voting-rights filings suggests a significant ownership or structural change is advancing in parallel with normal financial reporting.",
+    "cluster_summary_for": "b855d53f9bbd1a0c:aa9d372d"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -17807,6 +17807,64 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals ongoing parliamentary interest in gambling tax rises, relevant to operators ahead of the Budget.",
     "category": "gambling taxation policy",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "7e0766a82ca991a74c34ac9cfec919112c76b1fb7e822f45c8eaba824f628890",
+    "source": "gazette",
+    "source_id": "5186862",
+    "source_url": "https://www.thegazette.co.uk/notice/5186862",
+    "title": "MAB BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: …kers Limited by virtue of the deemed consent procedure. The nature of the business of the company is Gambling and betting activities. …",
+    "published_at": "2026-08-07T12:01:15+00:00",
+    "ingested_at": "2026-08-10T06:18:31.126197+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "MAB Bookmakers Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bookmaker entering liquidation signals possible operator exit, affecting staff, creditors and market consolidation in UK betting.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
+    "source": "gazette",
+    "source_id": "5186864",
+    "source_url": "https://www.thegazette.co.uk/notice/5186864",
+    "title": "NOVELTY CARE UK LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1203995/ …",
+    "published_at": "2026-08-07T12:01:17+00:00",
+    "ingested_at": "2026-08-10T06:18:31.126263+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Novelty Care UK Ltd",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A non-gambling care company facing an HMRC winding-up petition has no relevance to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "34d9d81eb7a15bf083de17fd40b533249b21b14be4b9e651bc5393feccba6d04",
+    "source": "gazette",
+    "source_id": "5188258",
+    "source_url": "https://www.thegazette.co.uk/notice/5188258",
+    "title": "MEDLAND ASSOCIATES LIMITED/n ",
+    "raw_summary": "Petitions to Wind Up (Companies): In the COUNTY COURT AT BRIGHTON No 0062 of 2026 In the Matter of MEDLAND ASSOCIATES LIMITED (Company Number 07169977 ) and in the Matter of the INSOLVENCY ACT 1986 A petition to wind up the above-name…",
+    "published_at": "2026-08-07T14:30:28+00:00",
+    "ingested_at": "2026-08-10T06:18:31.126580+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Medland Associates Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A winding-up petition against an unidentified company has no clear connection to the UK gambling sector.",
+    "category": "winding-up petition",
     "cluster_id": null,
     "status": "seen"
   }
