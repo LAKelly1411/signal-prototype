@@ -17867,5 +17867,24 @@
     "category": "winding-up petition",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-supports-police-action-targeting-illegal-gambling-activity",
+    "title": "Commission supports police action targeting illegal gambling activity",
+    "raw_summary": "",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "ingested_at": "2026-08-10T10:19:00.654099+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Shows regulator actively backing police action against unlicensed operators, signalling continued crackdown on the black market.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
