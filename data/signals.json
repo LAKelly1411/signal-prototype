@@ -11935,10 +11935,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
     "category": "gambling tax policy",
-    "cluster_id": "ad40f681fd76c784",
+    "cluster_id": "9f728b59d436fff7",
     "status": "seen",
-    "cluster_summary": "BGC is positioning itself against both unlicensed sponsorship and proposed tax hikes, framing each as threats that push UK bettors toward the black market. The pattern shows a coordinated lobbying push tying regulatory and fiscal policy debates to channelisation and consumer protection arguments ahead of DCMS and Treasury decisions.",
-    "cluster_summary_for": "ad40f681fd76c784:aa9d372d"
+    "cluster_summary": "BGC is running a coordinated lobbying push ahead of UK fiscal decisions, framing tax rises and unlicensed sponsorship as threats that boost black-market gambling and cost high-street jobs. The pattern shows the trade body aligning consumer-protection, economic and regulatory arguments to shape upcoming tax and marketing policy.",
+    "cluster_summary_for": "9f728b59d436fff7:aa9d372d"
   },
   {
     "id": "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
@@ -11957,10 +11957,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A DCMS crackdown on unlicensed gambling sponsorship in sport could reshape marketing rules and squeeze black-market operators' visibility.",
     "category": "sponsorship regulation",
-    "cluster_id": "ad40f681fd76c784",
+    "cluster_id": "9f728b59d436fff7",
     "status": "seen",
-    "cluster_summary": "BGC is positioning itself against both unlicensed sponsorship and proposed tax hikes, framing each as threats that push UK bettors toward the black market. The pattern shows a coordinated lobbying push tying regulatory and fiscal policy debates to channelisation and consumer protection arguments ahead of DCMS and Treasury decisions.",
-    "cluster_summary_for": "ad40f681fd76c784:aa9d372d"
+    "cluster_summary": "BGC is running a coordinated lobbying push ahead of UK fiscal decisions, framing tax rises and unlicensed sponsorship as threats that boost black-market gambling and cost high-street jobs. The pattern shows the trade body aligning consumer-protection, economic and regulatory arguments to shape upcoming tax and marketing policy.",
+    "cluster_summary_for": "9f728b59d436fff7:aa9d372d"
   },
   {
     "id": "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
@@ -17907,5 +17907,68 @@
     "category": "board appointment",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "eb004dbd4a5928497e9395c130c8e803700931409983ff24d1e9ee98f88d2982",
+    "source": "gazette",
+    "source_id": "5189109",
+    "source_url": "https://www.thegazette.co.uk/notice/5189109",
+    "title": "GAME CHANGER MARKETING LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: SC750203 Name of Company: GAME CHANGER MARKETING LTD …",
+    "published_at": "2026-08-11T01:03:18+00:00",
+    "ingested_at": "2026-08-11T10:18:48.720272+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Game Changer Marketing Ltd"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A liquidator appointment for a marketing firm may signal financial distress among affiliates serving the gambling sector, though its industry link is unconfirmed.",
+    "category": "insolvency filing",
+    "cluster_id": "17c0331fdc195257",
+    "status": "seen",
+    "cluster_summary": "Game Changer Marketing Ltd has entered voluntary liquidation, with a winding-up resolution and liquidator appointment both filed on the same date. The duplicate gazette entries confirm a single formal insolvency event rather than separate incidents, though the firm's specific ties to gambling-industry marketing or affiliate work remain unverified.",
+    "cluster_summary_for": "17c0331fdc195257:aa9d372d"
+  },
+  {
+    "id": "48d2d9f792f2be0341d2a0fbe9317328d697770a3a8e7592a48eb12ac035d773",
+    "source": "gazette",
+    "source_id": "5189108",
+    "source_url": "https://www.thegazette.co.uk/notice/5189108",
+    "title": "GAME CHANGER MARKETING LTD",
+    "raw_summary": "Resolutions for Winding-up: GAME CHANGER MARKETING LTD …",
+    "published_at": "2026-08-11T01:03:17+00:00",
+    "ingested_at": "2026-08-11T10:18:48.720275+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Game Changer Marketing Ltd"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up resolution may signal financial distress at a marketing firm with unclear but possible gambling-industry ties.",
+    "category": "insolvency filing",
+    "cluster_id": "17c0331fdc195257",
+    "status": "seen",
+    "cluster_summary": "Game Changer Marketing Ltd has entered voluntary liquidation, with a winding-up resolution and liquidator appointment both filed on the same date. The duplicate gazette entries confirm a single formal insolvency event rather than separate incidents, though the firm's specific ties to gambling-industry marketing or affiliate work remain unverified.",
+    "cluster_summary_for": "17c0331fdc195257:aa9d372d"
+  },
+  {
+    "id": "9a8c1908258588f050984e3f545295d310d987f49858b9bea678d9319935e606",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-statement-on-governments-high-street-plan",
+    "title": "BGC: Empty shops and lost jobs are the real threat to Britain’s high streets",
+    "raw_summary": "",
+    "published_at": "2026-08-11T00:00:00+00:00",
+    "ingested_at": "2026-08-11T10:18:48.720792+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "BGC's high-street jobs argument signals ongoing lobbying against tax or regulatory changes affecting betting shops.",
+    "category": "industry lobbying",
+    "cluster_id": "9f728b59d436fff7",
+    "status": "seen",
+    "cluster_summary": "BGC is running a coordinated lobbying push ahead of UK fiscal decisions, framing tax rises and unlicensed sponsorship as threats that boost black-market gambling and cost high-street jobs. The pattern shows the trade body aligning consumer-protection, economic and regulatory arguments to shape upcoming tax and marketing policy.",
+    "cluster_summary_for": "9f728b59d436fff7:aa9d372d"
   }
 ]
