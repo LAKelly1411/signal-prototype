@@ -12299,7 +12299,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "409b27706bc0d59f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
     "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
@@ -17227,7 +17227,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "409b27706bc0d59f",
+    "cluster_id": "24dfaacaa77a9c43",
     "status": "seen",
     "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
     "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
@@ -17270,7 +17270,7 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "409b27706bc0d59f",
+    "cluster_id": "24dfaacaa77a9c43",
     "status": "seen",
     "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
     "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
@@ -17726,7 +17726,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "409b27706bc0d59f",
+    "cluster_id": "24dfaacaa77a9c43",
     "status": "seen",
     "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
     "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
@@ -18071,7 +18071,7 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "409b27706bc0d59f",
+    "cluster_id": "24dfaacaa77a9c43",
     "status": "seen",
     "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
     "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
@@ -18117,5 +18117,22 @@
     "status": "seen",
     "cluster_summary": "Rank Group's board reshuffle in late July, followed by a further board update issued alongside its full-year results in mid-August, points to a coordinated governance transition timed around financial reporting—suggesting new leadership will be judged against, or is repositioning strategy in light of, the group's latest performance figures.",
     "cluster_summary_for": "04bed331f3c13541:aa9d372d"
+  },
+  {
+    "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/conclusion-of-audit-tender/9720995",
+    "title": "Entain: Conclusion of Audit Tender",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-08-13T13:27:00+00:00",
+    "ingested_at": "2026-08-13T14:18:39.376144+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [],
+    "newsworthiness_score": null,
+    "why_it_matters": null,
+    "category": null,
+    "cluster_id": null,
+    "status": "new"
   }
 ]
