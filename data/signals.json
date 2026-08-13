@@ -12299,10 +12299,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "03d71cd2130729bd",
+    "cluster_id": "409b27706bc0d59f",
     "status": "seen",
-    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
-    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
+    "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
+    "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
   },
   {
     "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
@@ -15185,10 +15185,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Rank Group's full-year trading update offers financial performance insight into a major UK bingo and casino operator ahead of results.",
     "category": "trading update",
-    "cluster_id": "be8ca27bc8f46088",
+    "cluster_id": "f688e28c2184e005",
     "status": "seen",
-    "cluster_summary": "Rank Group's full-year trading update lands just ahead of a board-level directorate change, pairing a performance readout with a leadership shift. The timing suggests governance or strategic adjustments may be linked to how the UK bingo and casino operator's financial results are being framed to the market.",
-    "cluster_summary_for": "be8ca27bc8f46088:aa9d372d"
+    "cluster_summary": "Rank Group's full-year trading update and final results bookend a cluster of board changes, with directorate and leadership shifts announced in the same window as the financial reporting cycle. The timing suggests governance changes are being aligned with the results calendar, potentially signalling a strategic reset alongside the annual performance disclosure.",
+    "cluster_summary_for": "f688e28c2184e005:aa9d372d"
   },
   {
     "id": "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
@@ -16903,7 +16903,7 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Shows ongoing government scrutiny of affordability checks' impact on racing, a key stakeholder in gambling policy debates.",
     "category": "affordability checks / horse racing",
-    "cluster_id": "c056fbfa794c015f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
     "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
@@ -16925,7 +16925,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Ongoing uncertainty over the Gambling Commission's permanent CEO could affect regulatory direction and enforcement priorities for operators.",
     "category": "regulatory leadership",
-    "cluster_id": "c056fbfa794c015f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
     "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
@@ -16966,7 +16966,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Signals government is holding off on cashless payment reforms for adult gaming centres pending stronger customer protections.",
     "category": "cashless payments policy",
-    "cluster_id": "c056fbfa794c015f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
     "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
@@ -17027,7 +17027,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Signals government will delay any B3/C machine stake or prize deregulation until customer protection improvements are made, affecting AGC operators.",
     "category": "gaming machine stakes policy",
-    "cluster_id": "c056fbfa794c015f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
     "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
@@ -17168,10 +17168,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
     "category": "board/directorate change",
-    "cluster_id": "be8ca27bc8f46088",
+    "cluster_id": "f688e28c2184e005",
     "status": "seen",
-    "cluster_summary": "Rank Group's full-year trading update lands just ahead of a board-level directorate change, pairing a performance readout with a leadership shift. The timing suggests governance or strategic adjustments may be linked to how the UK bingo and casino operator's financial results are being framed to the market.",
-    "cluster_summary_for": "be8ca27bc8f46088:aa9d372d"
+    "cluster_summary": "Rank Group's full-year trading update and final results bookend a cluster of board changes, with directorate and leadership shifts announced in the same window as the financial reporting cycle. The timing suggests governance changes are being aligned with the results calendar, potentially signalling a strategic reset alongside the annual performance disclosure.",
+    "cluster_summary_for": "f688e28c2184e005:aa9d372d"
   },
   {
     "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
@@ -17227,10 +17227,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "03d71cd2130729bd",
+    "cluster_id": "409b27706bc0d59f",
     "status": "seen",
-    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
-    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
+    "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
+    "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
   },
   {
     "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
@@ -17270,10 +17270,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "03d71cd2130729bd",
+    "cluster_id": "409b27706bc0d59f",
     "status": "seen",
-    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
-    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
+    "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
+    "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
   },
   {
     "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
@@ -17312,7 +17312,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "A new senior appointment at the Gambling Commission could signal shifts in regulatory priorities or DCMS-Commission alignment on policy.",
     "category": "regulator leadership change",
-    "cluster_id": "c056fbfa794c015f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
     "cluster_summary_for": "c056fbfa794c015f:aa9d372d"
@@ -17726,10 +17726,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "03d71cd2130729bd",
+    "cluster_id": "409b27706bc0d59f",
     "status": "seen",
-    "cluster_summary": "Entain's Q2 disclosure cycle for BetMGM coincides with board-level changes and a major shareholder notification, suggesting heightened scrutiny of US joint-venture performance alongside shifting governance and ownership dynamics. The clustering of these events points to a period of strategic repositioning at Entain, with investors watching both operational results and leadership/ownership signals closely.",
-    "cluster_summary_for": "03d71cd2130729bd:aa9d372d"
+    "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
+    "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
   },
   {
     "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
@@ -18054,5 +18054,68 @@
     "status": "seen",
     "cluster_summary": "BGC is running a coordinated lobbying campaign that pairs support for anti-black-market measures (unlicensed sponsorship bans) with warnings that tax increases push bettors to illegal operators and destroy high-street jobs, using shop closure data to pressure policymakers ahead of further fiscal decisions.",
     "cluster_summary_for": "02d19e62d1c72e61:aa9d372d"
+  },
+  {
+    "id": "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/interim-results/9719042",
+    "title": "Entain: Interim Results",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-08-13T07:00:00+00:00",
+    "ingested_at": "2026-08-13T06:18:32.514588+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
+    "category": "financial results",
+    "cluster_id": "409b27706bc0d59f",
+    "status": "seen",
+    "cluster_summary": "Entain's cluster shows a coordinated disclosure cycle: BetMGM Q2 results feed into group interim results, alongside board changes and a shifting major shareholder base. Together these suggest heightened investor scrutiny of US joint-venture performance and possible strategic repositioning around leadership and ownership ahead of key financial reporting.",
+    "cluster_summary_for": "409b27706bc0d59f:aa9d372d"
+  },
+  {
+    "id": "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/board-update-/9719116",
+    "title": "Rank Group: Board Update",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-08-13T07:00:00+00:00",
+    "ingested_at": "2026-08-13T06:18:32.515077+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
+    "category": "board update",
+    "cluster_id": "f688e28c2184e005",
+    "status": "seen",
+    "cluster_summary": "Rank Group's full-year trading update and final results bookend a cluster of board changes, with directorate and leadership shifts announced in the same window as the financial reporting cycle. The timing suggests governance changes are being aligned with the results calendar, potentially signalling a strategic reset alongside the annual performance disclosure.",
+    "cluster_summary_for": "f688e28c2184e005:aa9d372d"
+  },
+  {
+    "id": "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/final-results/9719084",
+    "title": "Rank Group: Final Results",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-08-13T07:00:00+00:00",
+    "ingested_at": "2026-08-13T06:18:32.515079+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
+    "category": "accounts filing",
+    "cluster_id": "f688e28c2184e005",
+    "status": "seen",
+    "cluster_summary": "Rank Group's full-year trading update and final results bookend a cluster of board changes, with directorate and leadership shifts announced in the same window as the financial reporting cycle. The timing suggests governance changes are being aligned with the results calendar, potentially signalling a strategic reset alongside the annual performance disclosure.",
+    "cluster_summary_for": "f688e28c2184e005:aa9d372d"
   }
 ]
