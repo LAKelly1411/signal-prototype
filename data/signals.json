@@ -18138,5 +18138,25 @@
     "status": "seen",
     "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
     "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
+  },
+  {
+    "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
+    "source": "gazette",
+    "source_id": "5190056",
+    "source_url": "https://www.thegazette.co.uk/notice/5190056",
+    "title": "GLASS AGE UK LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1272813/ …",
+    "published_at": "2026-08-14T12:00:53+00:00",
+    "ingested_at": "2026-08-14T14:18:40.579785+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Glass Age UK Ltd",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No apparent link to gambling; a routine HMRC insolvency petition against an unrelated company holds little relevance for the sector.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
