@@ -16759,10 +16759,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "89e5bc9ebd348794",
+    "cluster_id": "e811b7be4607af73",
     "status": "seen",
-    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
-    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
+    "cluster_summary": "Evoke's scheme document, court/general meeting approvals and interim results together indicate a formal scheme of arrangement is progressing toward completion, likely reshaping ownership or capital structure. The timing alongside H1 results suggests the company is finalising restructuring while demonstrating underlying financial performance to stakeholders.",
+    "cluster_summary_for": "e811b7be4607af73:aa9d372d"
   },
   {
     "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
@@ -17625,10 +17625,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "89e5bc9ebd348794",
+    "cluster_id": "e811b7be4607af73",
     "status": "seen",
-    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
-    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
+    "cluster_summary": "Evoke's scheme document, court/general meeting approvals and interim results together indicate a formal scheme of arrangement is progressing toward completion, likely reshaping ownership or capital structure. The timing alongside H1 results suggests the company is finalising restructuring while demonstrating underlying financial performance to stakeholders.",
+    "cluster_summary_for": "e811b7be4607af73:aa9d372d"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -18031,10 +18031,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "89e5bc9ebd348794",
+    "cluster_id": "e811b7be4607af73",
     "status": "seen",
-    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
-    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
+    "cluster_summary": "Evoke's scheme document, court/general meeting approvals and interim results together indicate a formal scheme of arrangement is progressing toward completion, likely reshaping ownership or capital structure. The timing alongside H1 results suggests the company is finalising restructuring while demonstrating underlying financial performance to stakeholders.",
+    "cluster_summary_for": "e811b7be4607af73:aa9d372d"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -18303,5 +18303,47 @@
     "category": "board appointment",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "5108d8fecfbca362b8fef36bb2635b791a9954af2817e48f7d9c7b940341529b",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/two-trustees-terms-extended-on-the-national-lottery-heritage-fund-board",
+    "title": "Two Trustees’ terms extended on the National Lottery Heritage Fund Board",
+    "raw_summary": "Mukesh Sharma's term as a Trustee of The National Lottery Heritage Fund has been extended by four months and James Twining's term by six months.\r\n\r\nThese extensions were made by the previous Prime Minister.\r\n",
+    "published_at": "2026-08-17T11:54:28+00:00",
+    "ingested_at": "2026-08-17T14:18:11.822402+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "National Lottery Heritage Fund",
+      "Mukesh Sharma",
+      "James Twining"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Minor governance update on National Lottery Heritage Fund trustees, of limited direct relevance to gambling industry operators.",
+    "category": "board appointments",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/results-of-court-meeting-and-general-meeting/9725760",
+    "title": "evoke: Results of Court Meeting and General Meeting",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-08-17T14:27:00+00:00",
+    "ingested_at": "2026-08-17T14:18:11.823352+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
+    "category": "shareholder meeting results",
+    "cluster_id": "e811b7be4607af73",
+    "status": "seen",
+    "cluster_summary": "Evoke's scheme document, court/general meeting approvals and interim results together indicate a formal scheme of arrangement is progressing toward completion, likely reshaping ownership or capital structure. The timing alongside H1 results suggests the company is finalising restructuring while demonstrating underlying financial performance to stakeholders.",
+    "cluster_summary_for": "e811b7be4607af73:aa9d372d"
   }
 ]
