@@ -11935,7 +11935,7 @@
     "newsworthiness_score": 55,
     "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
     "category": "gambling tax policy",
-    "cluster_id": "1f34e10f26c0dcd5",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "BGC is running a coordinated pre-Budget lobbying campaign, using black-market and job-loss framing to pressure the UK government against further gambling tax rises. The messaging progression—from warning of illegal betting risks to citing 540+ shop closures and 4,500 jobs lost—shows an escalating, data-driven push timed ahead of fiscal decisions.",
     "cluster_summary_for": "1f34e10f26c0dcd5:aa9d372d"
@@ -14221,7 +14221,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "9230bc06ec21a6c3",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evoke is moving through a structured corporate process: interim results guidance, publication of a scheme document pointing to a formal restructuring or takeover, routine voting-rights disclosure, then actual H1 results. Together these suggest a major corporate action (likely M&A or reorganisation) is being executed alongside standard financial reporting.",
     "cluster_summary_for": "9230bc06ec21a6c3:aa9d372d"
@@ -16759,10 +16759,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "9230bc06ec21a6c3",
+    "cluster_id": "89e5bc9ebd348794",
     "status": "seen",
-    "cluster_summary": "Evoke is moving through a structured corporate process: interim results guidance, publication of a scheme document pointing to a formal restructuring or takeover, routine voting-rights disclosure, then actual H1 results. Together these suggest a major corporate action (likely M&A or reorganisation) is being executed alongside standard financial reporting.",
-    "cluster_summary_for": "9230bc06ec21a6c3:aa9d372d"
+    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
+    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
   },
   {
     "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
@@ -17430,8 +17430,10 @@
     "newsworthiness_score": 8,
     "why_it_matters": "A winding-up petition against this company shows no evident link to gambling, limiting relevance to the sector.",
     "category": "winding up petition",
-    "cluster_id": null,
-    "status": "seen"
+    "cluster_id": "fd0f09ca4666b9db",
+    "status": "seen",
+    "cluster_summary": "Clarmans Holdings Limited progressed from a winding-up petition to a formal winding-up order within about two weeks, indicating the company has entered compulsory liquidation. No gambling-sector connection is evident, suggesting minimal relevance beyond a routine corporate insolvency record.",
+    "cluster_summary_for": "fd0f09ca4666b9db:aa9d372d"
   },
   {
     "id": "c137e0fa834948570093683183677017324a36c01843e76295b43f62e0d678d3",
@@ -17623,10 +17625,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "9230bc06ec21a6c3",
+    "cluster_id": "89e5bc9ebd348794",
     "status": "seen",
-    "cluster_summary": "Evoke is moving through a structured corporate process: interim results guidance, publication of a scheme document pointing to a formal restructuring or takeover, routine voting-rights disclosure, then actual H1 results. Together these suggest a major corporate action (likely M&A or reorganisation) is being executed alongside standard financial reporting.",
-    "cluster_summary_for": "9230bc06ec21a6c3:aa9d372d"
+    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
+    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -17966,10 +17968,10 @@
     "newsworthiness_score": 35,
     "why_it_matters": "BGC's high-street jobs argument signals ongoing lobbying against tax or regulatory changes affecting betting shops.",
     "category": "industry lobbying",
-    "cluster_id": "1f34e10f26c0dcd5",
+    "cluster_id": "6b12b72a278bbd92",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated pre-Budget lobbying campaign, using black-market and job-loss framing to pressure the UK government against further gambling tax rises. The messaging progression—from warning of illegal betting risks to citing 540+ shop closures and 4,500 jobs lost—shows an escalating, data-driven push timed ahead of fiscal decisions.",
-    "cluster_summary_for": "1f34e10f26c0dcd5:aa9d372d"
+    "cluster_summary": "BGC is escalating a coordinated lobbying campaign, pairing high-street jobs messaging with hard closure and job-loss figures tied to the recent tax rise, aimed at pre-empting further gambling tax increases ahead of upcoming fiscal decisions.",
+    "cluster_summary_for": "6b12b72a278bbd92:aa9d372d"
   },
   {
     "id": "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
@@ -18029,10 +18031,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "9230bc06ec21a6c3",
+    "cluster_id": "89e5bc9ebd348794",
     "status": "seen",
-    "cluster_summary": "Evoke is moving through a structured corporate process: interim results guidance, publication of a scheme document pointing to a formal restructuring or takeover, routine voting-rights disclosure, then actual H1 results. Together these suggest a major corporate action (likely M&A or reorganisation) is being executed alongside standard financial reporting.",
-    "cluster_summary_for": "9230bc06ec21a6c3:aa9d372d"
+    "cluster_summary": "Evoke's scheme document publication points to a formal restructuring or takeover process running in parallel with routine shareholder disclosures and interim results, suggesting management is managing corporate transformation and capital-structure changes while continuing normal reporting obligations ahead of a likely change in ownership or group structure.",
+    "cluster_summary_for": "89e5bc9ebd348794:aa9d372d"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -18050,10 +18052,10 @@
     "newsworthiness_score": 68,
     "why_it_matters": "Quantifies retail betting shop closures and job losses tied to gambling tax rises, fuelling industry pushback against further tax hikes.",
     "category": "tax policy impact",
-    "cluster_id": "1f34e10f26c0dcd5",
+    "cluster_id": "6b12b72a278bbd92",
     "status": "seen",
-    "cluster_summary": "BGC is running a coordinated pre-Budget lobbying campaign, using black-market and job-loss framing to pressure the UK government against further gambling tax rises. The messaging progression—from warning of illegal betting risks to citing 540+ shop closures and 4,500 jobs lost—shows an escalating, data-driven push timed ahead of fiscal decisions.",
-    "cluster_summary_for": "1f34e10f26c0dcd5:aa9d372d"
+    "cluster_summary": "BGC is escalating a coordinated lobbying campaign, pairing high-street jobs messaging with hard closure and job-loss figures tied to the recent tax rise, aimed at pre-empting further gambling tax increases ahead of upcoming fiscal decisions.",
+    "cluster_summary_for": "6b12b72a278bbd92:aa9d372d"
   },
   {
     "id": "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
@@ -18156,6 +18158,149 @@
     "newsworthiness_score": 5,
     "why_it_matters": "No apparent link to gambling; a routine HMRC insolvency petition against an unrelated company holds little relevance for the sector.",
     "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "6501613c5c03990c5ee10a84ead7c5cd7ac1bb77c5abe41c192b90f409c89074",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/338",
+    "title": "Galgerud, Zura Adam",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-08-06T00:00:00+00:00",
+    "ingested_at": "2026-08-17T06:18:35.195300+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Zura Adam Galgerud"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "A named individual's gambling personal licence was revoked, signalling continued regulatory enforcement against personal management licence holders.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+    "source": "gazette",
+    "source_id": "5191825",
+    "source_url": "https://www.thegazette.co.uk/notice/5191825",
+    "title": "OG REALISATIONS 2026 LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: OG REALISATIONS 2026 LIMITED Company Number: 12164104 Trading Name: Outshine …",
+    "published_at": "2026-08-17T02:01:53+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196297+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "OG Realisations 2026 Limited",
+      "Outshine"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Liquidation of a company trading as Outshine could signal financial distress at a gambling-linked supplier or operator.",
+    "category": "insolvency/liquidation",
+    "cluster_id": "52344b7de9ec246b",
+    "status": "seen",
+    "cluster_summary": "OG Realisations 2026 Limited (formerly trading as Outshine) has entered liquidation via a winding-up resolution, indicating formal corporate failure. The repeated gazette filings confirm this is a confirmed insolvency event rather than a rumor, relevant for tracking financial distress among gambling-sector suppliers or operators linked to the Outshine name.",
+    "cluster_summary_for": "52344b7de9ec246b:aa9d372d"
+  },
+  {
+    "id": "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
+    "source": "gazette",
+    "source_id": "5191790",
+    "source_url": "https://www.thegazette.co.uk/notice/5191790",
+    "title": "OG REALISATIONS 2026 LIMITED",
+    "raw_summary": "Resolutions for Winding-up: OG REALISATIONS 2026 LIMITED (Company Number 12164104 ) Trading Name: Outshine …",
+    "published_at": "2026-08-17T02:01:14+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196299+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "OG REALISATIONS 2026 LIMITED",
+      "Outshine"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A winding-up resolution signals corporate failure, worth tracking if the company has gambling-sector links.",
+    "category": "insolvency filing",
+    "cluster_id": "52344b7de9ec246b",
+    "status": "seen",
+    "cluster_summary": "OG Realisations 2026 Limited (formerly trading as Outshine) has entered liquidation via a winding-up resolution, indicating formal corporate failure. The repeated gazette filings confirm this is a confirmed insolvency event rather than a rumor, relevant for tracking financial distress among gambling-sector suppliers or operators linked to the Outshine name.",
+    "cluster_summary_for": "52344b7de9ec246b:aa9d372d"
+  },
+  {
+    "id": "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
+    "source": "gazette",
+    "source_id": "5191874",
+    "source_url": "https://www.thegazette.co.uk/notice/5191874",
+    "title": "CLARMANS HOLDINGS LIMITED",
+    "raw_summary": "Winding-Up Orders: CLARMANS HOLDINGS LIMITED (Company Number 04310225 ) Registered office: Woodgate House , 2-8 Games Road …",
+    "published_at": "2026-08-16T13:20:07+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196305+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarmans Holdings Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up order against this company has no evident link to gambling operators, so limited relevance to the sector.",
+    "category": "winding-up order",
+    "cluster_id": "fd0f09ca4666b9db",
+    "status": "seen",
+    "cluster_summary": "Clarmans Holdings Limited progressed from a winding-up petition to a formal winding-up order within about two weeks, indicating the company has entered compulsory liquidation. No gambling-sector connection is evident, suggesting minimal relevance beyond a routine corporate insolvency record.",
+    "cluster_summary_for": "fd0f09ca4666b9db:aa9d372d"
+  },
+  {
+    "id": "3811ed645906089fdd14e233500273618620261e40152ec4517931058791b755",
+    "source": "gazette",
+    "source_id": "5191878",
+    "source_url": "https://www.thegazette.co.uk/notice/5191878",
+    "title": "G.C.S. ALARMS 2018 LIMITED",
+    "raw_summary": "Meetings of Creditors: G.C.S. ALARMS 2018 LIMITED (Company Number 01783132 ) Previous Name of Company: G.C.S. ALARMS LIMITED, WOLDPRESS ENGINEERING LIMITED Registered office: 2 Colchester Road, St Osyth, CO16 8HA Principal…",
+    "published_at": "2026-08-14T17:10:41+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196360+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "G.C.S. Alarms 2018 Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Not gambling-related; an alarms company insolvency notice has no relevance to the gambling sector.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "91028f94e049e982a127816a34c801222e6c9625efe4cdd69dca76701731c09b",
+    "source": "gazette",
+    "source_id": "5191700",
+    "source_url": "https://www.thegazette.co.uk/notice/5191700",
+    "title": "BLUE SHARK TRADING LIMITED",
+    "raw_summary": "Resolutions for Winding-up: BLUE SHARK TRADING LIMITED (Company Number 11228350 ) Trading Name: Blue Shark Trading Limited Registered office: Unit 18 Horsbeck Industrial Estate Horsbeck Way, Horsford, Norwich,, NR10 3SS Principa…",
+    "published_at": "2026-08-14T17:10:21+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196363+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Blue Shark Trading Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A company winding-up notice with no apparent link to gambling operators or suppliers offers little value to this niche audience.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "717690d9ae2490a87274b506a4151045a33f012163fe61d710c7e4870f2655b7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/two-members-appointed-to-the-s4c-board--2",
+    "title": "Two members appointed to the S4C Board",
+    "raw_summary": "The Secretary of State has appointed Rhodri Lewis and Stephen Dimmick for four-year terms commencing 1 September 2026.",
+    "published_at": "2026-08-14T14:48:48+00:00",
+    "ingested_at": "2026-08-17T06:18:35.196413+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "S4C",
+      "Rhodri Lewis",
+      "Stephen Dimmick"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This board appointment at a Welsh broadcaster has no relevance to UK gambling or gaming industry news.",
+    "category": "board appointment",
     "cluster_id": null,
     "status": "seen"
   }
