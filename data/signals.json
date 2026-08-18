@@ -18406,5 +18406,24 @@
     "category": "age verification / responsible gambling",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "0b0d9bf7138db2c885c982ecf946264b8e7e5341707440783e71e5e8d7e7c2c1",
+    "source": "gazette",
+    "source_id": "5192952",
+    "source_url": "https://www.thegazette.co.uk/notice/5192952",
+    "title": "GIGGLES & GRINS UK LTD",
+    "raw_summary": "Appointment of Liquidators: …ddress: 54 Queen Street, Glasgow G1 3DS The nature of the business of the company is: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-08-18T12:00:33+00:00",
+    "ingested_at": "2026-08-18T14:18:42.623599+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Giggles & Grins UK Ltd"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A toy/games retailer entering liquidation is likely too tangential to gambling to interest B2B gambling trade press.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
