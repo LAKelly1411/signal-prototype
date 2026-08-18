@@ -18345,5 +18345,47 @@
     "status": "seen",
     "cluster_summary": "Evoke's scheme document, court/general meeting approvals and interim results together indicate a formal scheme of arrangement is progressing toward completion, likely reshaping ownership or capital structure. The timing alongside H1 results suggests the company is finalising restructuring while demonstrating underlying financial performance to stakeholders.",
     "cluster_summary_for": "e811b7be4607af73:aa9d372d"
+  },
+  {
+    "id": "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/holland-park-leisure-limited-fined-gbp150-000",
+    "title": "Holland Park Leisure Limited fined £150,000",
+    "raw_summary": "",
+    "published_at": "2026-08-18T00:00:00+00:00",
+    "ingested_at": "2026-08-18T06:18:36.335037+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Holland Park Leisure Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A Gambling Commission fine signals compliance failings and reinforces enforcement risk for operators across the sector.",
+    "category": "licence enforcement/fine",
+    "cluster_id": "3278b45fb45ee3b7",
+    "status": "seen",
+    "cluster_summary": "Two Gambling Commission disclosures roughly three weeks apart both point to a single £150,000 enforcement action against Holland Park Leisure Limited, indicating AML/licence-condition failings. The repeated regulatory reporting underscores ongoing scrutiny of operator compliance and highlights enforcement risk trends across the sector.",
+    "cluster_summary_for": "3278b45fb45ee3b7:aa9d372d"
+  },
+  {
+    "id": "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/339",
+    "title": "Holland Park Leisure Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "ingested_at": "2026-08-18T06:18:36.335457+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Holland Park Leisure Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, useful for tracking operator enforcement trends.",
+    "category": "AML/licence enforcement",
+    "cluster_id": "3278b45fb45ee3b7",
+    "status": "seen",
+    "cluster_summary": "Two Gambling Commission disclosures roughly three weeks apart both point to a single £150,000 enforcement action against Holland Park Leisure Limited, indicating AML/licence-condition failings. The repeated regulatory reporting underscores ongoing scrutiny of operator compliance and highlights enforcement risk trends across the sector.",
+    "cluster_summary_for": "3278b45fb45ee3b7:aa9d372d"
   }
 ]
