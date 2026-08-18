@@ -18387,5 +18387,24 @@
     "status": "seen",
     "cluster_summary": "Two Gambling Commission disclosures roughly three weeks apart both point to a single £150,000 enforcement action against Holland Park Leisure Limited, indicating AML/licence-condition failings. The repeated regulatory reporting underscores ongoing scrutiny of operator compliance and highlights enforcement risk trends across the sector.",
     "cluster_summary_for": "3278b45fb45ee3b7:aa9d372d"
+  },
+  {
+    "id": "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-members-outperform-other-age-restricted-retailers-in-latest-test-purchasing",
+    "title": "BGC members outperform other age-restricted retailers in latest test purchasing",
+    "raw_summary": "",
+    "published_at": "2026-08-18T00:00:00+00:00",
+    "ingested_at": "2026-08-18T10:19:16.321974+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council (BGC)"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "BGC's compliance data supports industry self-regulation claims, relevant to ongoing debates over age verification standards and regulatory scrutiny.",
+    "category": "age verification / responsible gambling",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
