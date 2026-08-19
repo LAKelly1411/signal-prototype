@@ -18425,5 +18425,24 @@
     "category": "insolvency filing",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "eb55b5ec3dbddaa90d44e059aed85b7a245abe60c8052b5d49e08c5d6d9f3402",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/340",
+    "title": "Quintero Velasco, Juliana Manuela",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-03-23T00:00:00+00:00",
+    "ingested_at": "2026-08-19T06:18:58.470170+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Juliana Manuela Quintero Velasco"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual's gambling licence has been revoked, signalling continued Commission enforcement against personal licence holders.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
