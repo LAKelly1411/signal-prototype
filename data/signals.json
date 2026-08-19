@@ -17168,10 +17168,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
     "category": "board/directorate change",
-    "cluster_id": "04bed331f3c13541",
+    "cluster_id": "54dbfc2c095e65f3",
     "status": "seen",
-    "cluster_summary": "Rank Group's board reshuffle in late July, followed by a further board update issued alongside its full-year results in mid-August, points to a coordinated governance transition timed around financial reporting—suggesting new leadership will be judged against, or is repositioning strategy in light of, the group's latest performance figures.",
-    "cluster_summary_for": "04bed331f3c13541:aa9d372d"
+    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
+    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
   },
   {
     "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
@@ -18094,10 +18094,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
     "category": "board update",
-    "cluster_id": "04bed331f3c13541",
+    "cluster_id": "54dbfc2c095e65f3",
     "status": "seen",
-    "cluster_summary": "Rank Group's board reshuffle in late July, followed by a further board update issued alongside its full-year results in mid-August, points to a coordinated governance transition timed around financial reporting—suggesting new leadership will be judged against, or is repositioning strategy in light of, the group's latest performance figures.",
-    "cluster_summary_for": "04bed331f3c13541:aa9d372d"
+    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
+    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
   },
   {
     "id": "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
@@ -18115,10 +18115,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
     "category": "accounts filing",
-    "cluster_id": "04bed331f3c13541",
+    "cluster_id": "54dbfc2c095e65f3",
     "status": "seen",
-    "cluster_summary": "Rank Group's board reshuffle in late July, followed by a further board update issued alongside its full-year results in mid-August, points to a coordinated governance transition timed around financial reporting—suggesting new leadership will be judged against, or is repositioning strategy in light of, the group's latest performance figures.",
-    "cluster_summary_for": "04bed331f3c13541:aa9d372d"
+    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
+    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
   },
   {
     "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
@@ -18463,5 +18463,86 @@
     "category": "economic statistics",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "a393b482db708b3024a837fc7cf8346a7d8b24e466ab5480ca76e2d7c73b7057",
+    "source": "gazette",
+    "source_id": "5192196",
+    "source_url": "https://www.thegazette.co.uk/notice/5192196",
+    "title": "PSG UK FACILITIES MANAGEMENT LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1274145/ …",
+    "published_at": "2026-08-18T13:00:25+00:00",
+    "ingested_at": "2026-08-19T14:18:40.244015+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "PSG UK Facilities Management Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition concerns a facilities management firm with no apparent link to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "84a48e8038e05f34c8b63a8ace8ba923e67796f16672d5a5948e1a37dd4ae613",
+    "source": "gazette",
+    "source_id": "5192190",
+    "source_url": "https://www.thegazette.co.uk/notice/5192190",
+    "title": "PI HOTEL LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1272344/ …",
+    "published_at": "2026-08-18T13:00:13+00:00",
+    "ingested_at": "2026-08-19T14:18:40.244019+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "PI Hotel Ltd",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC insolvency petition against a hotel company shows no apparent link to gambling or gaming operators.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "365a310082c44ac4bd5774ae005f45bcad50d142c5613cea49a859aa5cbe9dd1",
+    "source": "gazette",
+    "source_id": "5192951",
+    "source_url": "https://www.thegazette.co.uk/notice/5192951",
+    "title": "SA SCOT FOODS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264222/ …",
+    "published_at": "2026-08-18T12:00:30+00:00",
+    "ingested_at": "2026-08-19T14:18:40.244023+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SA Scot Foods Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This HMRC winding-up petition concerns a food company with no apparent link to the gambling sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "a29591f803e37080ec7e2e0b0a2e09987619a25d8515934c1982acdce65c4234",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/amendment-director-pdmr-shareholding/9730379",
+    "title": "Rank Group: Amendment - Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-08-19T14:19:00+00:00",
+    "ingested_at": "2026-08-19T14:18:40.245083+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine PDMR disclosure offers minor transparency on insider dealings at a major UK bookmaker but carries no operational impact.",
+    "category": "director shareholding notification",
+    "cluster_id": "54dbfc2c095e65f3",
+    "status": "seen",
+    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
+    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
   }
 ]
