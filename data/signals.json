@@ -18444,5 +18444,24 @@
     "category": "personal licence revocation",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "9105825cef46de924f70ef8e6aa3af4abf5aaeb89b546ee2d5823add23e603c7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-economic-estimates-monthly-gva-to-june-2026",
+    "title": "DCMS Economic Estimates: Monthly GVA (to June 2026)",
+    "raw_summary": "Official Statistics estimating the contribution of DCMS Sectors, to the UK economy, measured by GVA (gross value added).",
+    "published_at": "2026-08-19T08:30:04+00:00",
+    "ingested_at": "2026-08-19T10:18:28.401088+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Broad DCMS sector GVA data offers macro context but contains no gambling-specific detail for operators or regulators.",
+    "category": "economic statistics",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
