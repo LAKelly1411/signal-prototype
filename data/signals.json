@@ -16738,7 +16738,7 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
     "category": "political reaction/lobbying",
-    "cluster_id": "78cb57759c7a0866",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "BGC is intensifying coordinated lobbying across a reshuffled UK political and sporting landscape—welcoming new ministers, a new BHA chair, and framing Betfred closures as tax-policy fallout—positioning itself to shape gambling duty and regulatory decisions before further changes are decided.",
     "cluster_summary_for": "78cb57759c7a0866:aa9d372d"
@@ -17050,10 +17050,10 @@
     "newsworthiness_score": 32,
     "why_it_matters": "New BHA chair could influence horserace betting levy and gambling-industry relations with racing's governing body.",
     "category": "industry appointment",
-    "cluster_id": "78cb57759c7a0866",
+    "cluster_id": "eaa0c498752c6414",
     "status": "seen",
-    "cluster_summary": "BGC is intensifying coordinated lobbying across a reshuffled UK political and sporting landscape—welcoming new ministers, a new BHA chair, and framing Betfred closures as tax-policy fallout—positioning itself to shape gambling duty and regulatory decisions before further changes are decided.",
-    "cluster_summary_for": "78cb57759c7a0866:aa9d372d"
+    "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
+    "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
   },
   {
     "id": "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
@@ -17564,10 +17564,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "BGC links Betfred shop closures to government tax rises, highlighting industry pushback ahead of potential further duty changes.",
     "category": "gambling tax policy impact",
-    "cluster_id": "78cb57759c7a0866",
+    "cluster_id": "eaa0c498752c6414",
     "status": "seen",
-    "cluster_summary": "BGC is intensifying coordinated lobbying across a reshuffled UK political and sporting landscape—welcoming new ministers, a new BHA chair, and framing Betfred closures as tax-policy fallout—positioning itself to shape gambling duty and regulatory decisions before further changes are decided.",
-    "cluster_summary_for": "78cb57759c7a0866:aa9d372d"
+    "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
+    "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
   },
   {
     "id": "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
@@ -18010,10 +18010,10 @@
     "newsworthiness_score": 38,
     "why_it_matters": "A new gambling minister signals potential shifts in regulatory priorities and policy direction affecting operators.",
     "category": "ministerial appointment",
-    "cluster_id": "78cb57759c7a0866",
+    "cluster_id": "eaa0c498752c6414",
     "status": "seen",
-    "cluster_summary": "BGC is intensifying coordinated lobbying across a reshuffled UK political and sporting landscape—welcoming new ministers, a new BHA chair, and framing Betfred closures as tax-policy fallout—positioning itself to shape gambling duty and regulatory decisions before further changes are decided.",
-    "cluster_summary_for": "78cb57759c7a0866:aa9d372d"
+    "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
+    "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
   },
   {
     "id": "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
@@ -18544,5 +18544,89 @@
     "status": "seen",
     "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
     "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
+  },
+  {
+    "id": "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/quinnbet-gibraltar-limited-to-pay-gbp609-104-for-regulatory-failures",
+    "title": "QuinnBet (Gibraltar) Limited to pay £609,104 for regulatory failures",
+    "raw_summary": "",
+    "published_at": "2026-08-20T00:00:00+00:00",
+    "ingested_at": "2026-08-20T06:18:36.855538+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "QuinnBet (Gibraltar) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A UK-facing operator must pay over £600k for regulatory failings, highlighting ongoing Gambling Commission enforcement pressure on licensees.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": "66f465366837c96f",
+    "status": "seen",
+    "cluster_summary": "QuinnBet's £609,104 settlement with the Gambling Commission over AML and social responsibility failings reflects continued regulatory scrutiny of UK-facing operators. The repeated framing across sources underscores the Commission's sustained enforcement focus on compliance weaknesses among licensees, rather than an isolated incident.",
+    "cluster_summary_for": "66f465366837c96f:aa9d372d"
+  },
+  {
+    "id": "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/341",
+    "title": "QuinnBet (Gibraltar) Limited",
+    "raw_summary": "Settlement: Commission costs, Public statement and Payment in lieu of financial penalty",
+    "published_at": "2026-08-20T00:00:00+00:00",
+    "ingested_at": "2026-08-20T06:18:36.855875+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "QuinnBet (Gibraltar) Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A UK gambling operator has settled with the regulator, paying costs and a penalty in lieu, signalling compliance failings.",
+    "category": "AML/enforcement settlement",
+    "cluster_id": "66f465366837c96f",
+    "status": "seen",
+    "cluster_summary": "QuinnBet's £609,104 settlement with the Gambling Commission over AML and social responsibility failings reflects continued regulatory scrutiny of UK-facing operators. The repeated framing across sources underscores the Commission's sustained enforcement focus on compliance weaknesses among licensees, rather than an isolated incident.",
+    "cluster_summary_for": "66f465366837c96f:aa9d372d"
+  },
+  {
+    "id": "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
+    "source": "gazette",
+    "source_id": "5193039",
+    "source_url": "https://www.thegazette.co.uk/notice/5193039",
+    "title": "Resolutions for Winding-up",
+    "raw_summary": "Resolutions for Winding-up: GREAT FILTER GAMES LTD …",
+    "published_at": "2026-08-18T17:40:28+00:00",
+    "ingested_at": "2026-08-20T06:18:36.857098+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Great Filter Games Ltd"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A gaming-related company's voluntary winding-up may signal financial distress worth tracking for industry consolidation trends.",
+    "category": "company winding-up",
+    "cluster_id": "d069aca19ae56b88",
+    "status": "seen",
+    "cluster_summary": "Great Filter Games Ltd has entered insolvency via a voluntary winding-up resolution, a formal endpoint rather than early distress. Coupled with a separate winding-up filing, this points to continued attrition among smaller gaming studios, consistent with ongoing consolidation pressure in the sector.",
+    "cluster_summary_for": "d069aca19ae56b88:aa9d372d"
+  },
+  {
+    "id": "d36bc1779260677e2c094778df9085ef2ad1b3f698eb1a303473fda4be17d524",
+    "source": "gazette",
+    "source_id": "5193038",
+    "source_url": "https://www.thegazette.co.uk/notice/5193038",
+    "title": "GREAT FILTER GAMES LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: 15171613 Name of Company: GREAT FILTER GAMES LTD …",
+    "published_at": "2026-08-18T17:40:27+00:00",
+    "ingested_at": "2026-08-20T06:18:36.857100+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Great Filter Games Ltd"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small games company entering liquidation may signal wider distress among gaming studios, though limited detail is given.",
+    "category": "insolvency filing",
+    "cluster_id": "d069aca19ae56b88",
+    "status": "seen",
+    "cluster_summary": "Great Filter Games Ltd has entered insolvency via a voluntary winding-up resolution, a formal endpoint rather than early distress. Coupled with a separate winding-up filing, this points to continued attrition among smaller gaming studios, consistent with ongoing consolidation pressure in the sector.",
+    "cluster_summary_for": "d069aca19ae56b88:aa9d372d"
   }
 ]
