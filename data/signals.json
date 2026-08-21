@@ -17050,7 +17050,7 @@
     "newsworthiness_score": 32,
     "why_it_matters": "New BHA chair could influence horserace betting levy and gambling-industry relations with racing's governing body.",
     "category": "industry appointment",
-    "cluster_id": "eaa0c498752c6414",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
     "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
@@ -17564,10 +17564,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "BGC links Betfred shop closures to government tax rises, highlighting industry pushback ahead of potential further duty changes.",
     "category": "gambling tax policy impact",
-    "cluster_id": "eaa0c498752c6414",
+    "cluster_id": "f0cbcfb8c62384b1",
     "status": "seen",
-    "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
-    "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
+    "cluster_summary": "BGC is actively shaping the tax debate by citing Betfred closures as evidence of policy harm, while simultaneously engaging a newly appointed gambling minister. Together these signals show industry lobbying intensifying around anticipated regulatory and fiscal changes, positioning BGC to influence policy direction early in the new ministerial term.",
+    "cluster_summary_for": "f0cbcfb8c62384b1:aa9d372d"
   },
   {
     "id": "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
@@ -18010,10 +18010,10 @@
     "newsworthiness_score": 38,
     "why_it_matters": "A new gambling minister signals potential shifts in regulatory priorities and policy direction affecting operators.",
     "category": "ministerial appointment",
-    "cluster_id": "eaa0c498752c6414",
+    "cluster_id": "f0cbcfb8c62384b1",
     "status": "seen",
-    "cluster_summary": "The BGC is actively positioning itself around shifting UK gambling governance: welcoming new leadership at the BHA and DCMS while framing betting shop closures as evidence of tax policy harm. This reflects a coordinated lobbying push to shape relationships with incoming decision-makers ahead of expected regulatory and fiscal changes.",
-    "cluster_summary_for": "eaa0c498752c6414:aa9d372d"
+    "cluster_summary": "BGC is actively shaping the tax debate by citing Betfred closures as evidence of policy harm, while simultaneously engaging a newly appointed gambling minister. Together these signals show industry lobbying intensifying around anticipated regulatory and fiscal changes, positioning BGC to influence policy direction early in the new ministerial term.",
+    "cluster_summary_for": "f0cbcfb8c62384b1:aa9d372d"
   },
   {
     "id": "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
@@ -18628,5 +18628,24 @@
     "status": "seen",
     "cluster_summary": "Great Filter Games Ltd has entered insolvency via a voluntary winding-up resolution, a formal endpoint rather than early distress. Coupled with a separate winding-up filing, this points to continued attrition among smaller gaming studios, consistent with ongoing consolidation pressure in the sector.",
     "cluster_summary_for": "d069aca19ae56b88:aa9d372d"
+  },
+  {
+    "id": "bd95ade173dbe320e6517d309012ff76da2a1137152ffc5748b4fb3b005fe531",
+    "source": "gazette",
+    "source_id": "5195393",
+    "source_url": "https://www.thegazette.co.uk/notice/5195393",
+    "title": "BIZZYBODS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 05590489 Name of Company: BIZZYBODS LIMITED Nature of Business: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-08-20T17:30:15+00:00",
+    "ingested_at": "2026-08-21T06:18:38.934966+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "BIZZYBODS LIMITED"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A toy and games retailer's liquidation appears unrelated to the gambling sector and holds negligible relevance for industry journalists.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
   }
 ]
