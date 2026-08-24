@@ -17968,10 +17968,10 @@
     "newsworthiness_score": 35,
     "why_it_matters": "BGC's high-street jobs argument signals ongoing lobbying against tax or regulatory changes affecting betting shops.",
     "category": "industry lobbying",
-    "cluster_id": "6b12b72a278bbd92",
+    "cluster_id": "e691159e440af4cf",
     "status": "seen",
-    "cluster_summary": "BGC is escalating a coordinated lobbying campaign, pairing high-street jobs messaging with hard closure and job-loss figures tied to the recent tax rise, aimed at pre-empting further gambling tax increases ahead of upcoming fiscal decisions.",
-    "cluster_summary_for": "6b12b72a278bbd92:aa9d372d"
+    "cluster_summary": "BGC is running a coordinated lobbying campaign combining high-street job-loss data, betting shop closure statistics, and black-market growth forecasts to argue against further gambling tax increases and advertising restrictions, aiming to shape upcoming UK fiscal and regulatory policy decisions.",
+    "cluster_summary_for": "e691159e440af4cf:aa9d372d"
   },
   {
     "id": "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
@@ -18052,10 +18052,10 @@
     "newsworthiness_score": 68,
     "why_it_matters": "Quantifies retail betting shop closures and job losses tied to gambling tax rises, fuelling industry pushback against further tax hikes.",
     "category": "tax policy impact",
-    "cluster_id": "6b12b72a278bbd92",
+    "cluster_id": "e691159e440af4cf",
     "status": "seen",
-    "cluster_summary": "BGC is escalating a coordinated lobbying campaign, pairing high-street jobs messaging with hard closure and job-loss figures tied to the recent tax rise, aimed at pre-empting further gambling tax increases ahead of upcoming fiscal decisions.",
-    "cluster_summary_for": "6b12b72a278bbd92:aa9d372d"
+    "cluster_summary": "BGC is running a coordinated lobbying campaign combining high-street job-loss data, betting shop closure statistics, and black-market growth forecasts to argue against further gambling tax increases and advertising restrictions, aiming to shape upcoming UK fiscal and regulatory policy decisions.",
+    "cluster_summary_for": "e691159e440af4cf:aa9d372d"
   },
   {
     "id": "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
@@ -18666,5 +18666,27 @@
     "category": "unrelated insolvency",
     "cluster_id": null,
     "status": "seen"
+  },
+  {
+    "id": "6e0dc6ec9dbc31bd97663b4b1875605a074779adadd4bff5daf2452b7d4f4751",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/black-market-betting-on-premier-league-to-hit-1bn-a-season",
+    "title": "BLACK MARKET BETTING ON PREMIER LEAGUE TO HIT £1BN A SEASON",
+    "raw_summary": "",
+    "published_at": "2026-08-24T00:00:00+00:00",
+    "ingested_at": "2026-08-24T10:18:36.913782+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council",
+      "Premier League"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "BGC's £1bn black market forecast fuels the ongoing policy debate over gambling sponsorship and advertising restrictions in football.",
+    "category": "black market growth",
+    "cluster_id": "e691159e440af4cf",
+    "status": "seen",
+    "cluster_summary": "BGC is running a coordinated lobbying campaign combining high-street job-loss data, betting shop closure statistics, and black-market growth forecasts to argue against further gambling tax increases and advertising restrictions, aiming to shape upcoming UK fiscal and regulatory policy decisions.",
+    "cluster_summary_for": "e691159e440af4cf:aa9d372d"
   }
 ]
