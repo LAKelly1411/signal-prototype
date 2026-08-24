@@ -17071,7 +17071,7 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A £4.75m Gambling Commission settlement against a major B2B supplier signals heightened scrutiny of game/software providers, not just operators.",
     "category": "regulatory settlement",
-    "cluster_id": "731d401887296721",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A £4.75m Gambling Commission settlement against Evolution Malta Holding Limited shows UK regulatory scrutiny extending upstream to B2B game/software suppliers, not only licensed operators. This exposes operators using Evolution's products to associated compliance and reputational risk, and signals broader regulatory intent to hold supply-chain participants accountable.",
     "cluster_summary_for": "731d401887296721:aa9d372d"
@@ -17092,7 +17092,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A gambling supplier's settlement with the UK regulator, including a financial payment, signals compliance risk relevant to operators using its products.",
     "category": "regulatory settlement",
-    "cluster_id": "731d401887296721",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A £4.75m Gambling Commission settlement against Evolution Malta Holding Limited shows UK regulatory scrutiny extending upstream to B2B game/software suppliers, not only licensed operators. This exposes operators using Evolution's products to associated compliance and reputational risk, and signals broader regulatory intent to hold supply-chain participants accountable.",
     "cluster_summary_for": "731d401887296721:aa9d372d"
@@ -17168,7 +17168,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
     "category": "board/directorate change",
-    "cluster_id": "54dbfc2c095e65f3",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
     "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
@@ -18094,10 +18094,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
     "category": "board update",
-    "cluster_id": "54dbfc2c095e65f3",
+    "cluster_id": "2431d6d32e635109",
     "status": "seen",
-    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
-    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
+    "cluster_summary": "Rank Group's cluster of final results, a board update and PDMR shareholding filings within a single week points to a coordinated corporate governance and reporting cycle, likely tied to annual results announcements prompting leadership changes and routine insider disclosures rather than isolated events.",
+    "cluster_summary_for": "2431d6d32e635109:aa9d372d"
   },
   {
     "id": "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
@@ -18115,10 +18115,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
     "category": "accounts filing",
-    "cluster_id": "54dbfc2c095e65f3",
+    "cluster_id": "2431d6d32e635109",
     "status": "seen",
-    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
-    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
+    "cluster_summary": "Rank Group's cluster of final results, a board update and PDMR shareholding filings within a single week points to a coordinated corporate governance and reporting cycle, likely tied to annual results announcements prompting leadership changes and routine insider disclosures rather than isolated events.",
+    "cluster_summary_for": "2431d6d32e635109:aa9d372d"
   },
   {
     "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
@@ -18540,10 +18540,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine PDMR disclosure offers minor transparency on insider dealings at a major UK bookmaker but carries no operational impact.",
     "category": "director shareholding notification",
-    "cluster_id": "54dbfc2c095e65f3",
+    "cluster_id": "2431d6d32e635109",
     "status": "seen",
-    "cluster_summary": "Rank Group is combining board-level changes with the release of its full-year results within a three-week window, pairing leadership transition with a formal financial disclosure moment. The accompanying director shareholding notice is routine, but the clustering of governance and results reporting suggests a coordinated period of strategic repositioning at the operator.",
-    "cluster_summary_for": "54dbfc2c095e65f3:aa9d372d"
+    "cluster_summary": "Rank Group's cluster of final results, a board update and PDMR shareholding filings within a single week points to a coordinated corporate governance and reporting cycle, likely tied to annual results announcements prompting leadership changes and routine insider disclosures rather than isolated events.",
+    "cluster_summary_for": "2431d6d32e635109:aa9d372d"
   },
   {
     "id": "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
@@ -18645,6 +18645,25 @@
     "newsworthiness_score": 3,
     "why_it_matters": "A toy and games retailer's liquidation appears unrelated to the gambling sector and holds negligible relevance for industry journalists.",
     "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen"
+  },
+  {
+    "id": "0f15b4d3055ddbb27a68846da548288353621be82131053ffdcc437d43896144",
+    "source": "gazette",
+    "source_id": "5196584",
+    "source_url": "https://www.thegazette.co.uk/notice/5196584",
+    "title": "INDIGO JAMM LIMITED",
+    "raw_summary": "Appointment of Liquidators: …me of Company: INDIGO JAMM LIMITED Company Number: 07489814 Nature of Business: Manufacture of other games and toys, not elsewhere classified …",
+    "published_at": "2026-08-24T01:03:25+00:00",
+    "ingested_at": "2026-08-24T06:18:44.101432+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Indigo Jamm Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a toy manufacturer's liquidation notice with no connection to the UK gambling and gaming sector.",
+    "category": "unrelated insolvency",
     "cluster_id": null,
     "status": "seen"
   }
