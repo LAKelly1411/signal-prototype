@@ -17227,7 +17227,7 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "67d29c64a30b0be6",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
     "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
@@ -17270,10 +17270,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "67d29c64a30b0be6",
+    "cluster_id": "db05331b3f5682c8",
     "status": "seen",
-    "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
-    "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
+    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
+    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
   },
   {
     "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
@@ -17728,10 +17728,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "67d29c64a30b0be6",
+    "cluster_id": "db05331b3f5682c8",
     "status": "seen",
-    "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
-    "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
+    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
+    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
   },
   {
     "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
@@ -18073,10 +18073,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "67d29c64a30b0be6",
+    "cluster_id": "db05331b3f5682c8",
     "status": "seen",
-    "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
-    "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
+    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
+    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
   },
   {
     "id": "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
@@ -18136,10 +18136,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "67d29c64a30b0be6",
+    "cluster_id": "db05331b3f5682c8",
     "status": "seen",
-    "cluster_summary": "Entain shows a convergence of governance and financial signals within weeks: board changes, a major shareholder notification, an audit tender conclusion, and interim results alongside BetMGM's Q2 update. Together these suggest heightened investor and boardroom scrutiny around performance and leadership as Entain reports on both UK governance and US joint-venture trading.",
-    "cluster_summary_for": "67d29c64a30b0be6:aa9d372d"
+    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
+    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
   },
   {
     "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
@@ -18688,5 +18688,47 @@
     "status": "seen",
     "cluster_summary": "BGC is running a coordinated lobbying campaign combining high-street job-loss data, betting shop closure statistics, and black-market growth forecasts to argue against further gambling tax increases and advertising restrictions, aiming to shape upcoming UK fiscal and regulatory policy decisions.",
     "cluster_summary_for": "e691159e440af4cf:aa9d372d"
+  },
+  {
+    "id": "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+    "source": "gazette",
+    "source_id": "5198045",
+    "source_url": "https://www.thegazette.co.uk/notice/5198045",
+    "title": "LYSIS GAMING COMPLIANCE LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: LYSIS GAMING COMPLIANCE LTD …",
+    "published_at": "2026-08-26T01:04:13+00:00",
+    "ingested_at": "2026-08-26T14:18:46.924390+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Lysis Gaming Compliance Ltd"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A gambling compliance-focused firm entering liquidation could signal wider financial pressure in the sector's advisory services market.",
+    "category": "insolvency filing",
+    "cluster_id": "d0af372ef94c891c",
+    "status": "seen",
+    "cluster_summary": "Lysis Gaming Compliance Ltd has entered insolvency/winding-up proceedings, indicating financial distress within a specialised gambling compliance advisory firm. Repeated filings on the same date suggest formal confirmation of the process, potentially pointing to broader cost pressures facing niche regulatory service providers supporting the gambling sector.",
+    "cluster_summary_for": "d0af372ef94c891c:aa9d372d"
+  },
+  {
+    "id": "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+    "source": "gazette",
+    "source_id": "5198031",
+    "source_url": "https://www.thegazette.co.uk/notice/5198031",
+    "title": "LYSIS GAMING COMPLIANCE LTD",
+    "raw_summary": "Resolutions for Winding-up: LYSIS GAMING COMPLIANCE LTD …",
+    "published_at": "2026-08-26T01:03:49+00:00",
+    "ingested_at": "2026-08-26T14:18:46.924392+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Lysis Gaming Compliance Ltd"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A gambling compliance firm's winding-up could signal wider financial stress among sector service providers.",
+    "category": "insolvency",
+    "cluster_id": "d0af372ef94c891c",
+    "status": "seen",
+    "cluster_summary": "Lysis Gaming Compliance Ltd has entered insolvency/winding-up proceedings, indicating financial distress within a specialised gambling compliance advisory firm. Repeated filings on the same date suggest formal confirmation of the process, potentially pointing to broader cost pressures facing niche regulatory service providers supporting the gambling sector.",
+    "cluster_summary_for": "d0af372ef94c891c:aa9d372d"
   }
 ]
