@@ -1,6 +1,13 @@
 from datetime import datetime, timedelta, timezone
 
-from src.cluster import RECENCY_MAX, assign_clusters, compute_heat, is_excluded
+from src.cluster import (
+    PEAK_SCORE_MAX,
+    RECENCY_MAX,
+    SIGNIFICANT_SCORE,
+    assign_clusters,
+    compute_heat,
+    is_excluded,
+)
 from src.entities import build_alias_map
 
 NOW = datetime(2026, 8, 27, tzinfo=timezone.utc)
@@ -149,13 +156,50 @@ class TestComputeHeat:
     def test_recency_contribution_is_capped_at_its_ceiling(self):
         # Widening the window redistributes recency; it must not inflate heat,
         # or the dashboard's tier thresholds would silently need re-tuning.
-        freshest = [signal("a", ["X"], days_ago=0), signal("b", ["X"], days_ago=0)]
-        base = 2 * 10 + 1 * 20
+        freshest = [
+            signal("a", ["X"], days_ago=0, score=100),
+            signal("b", ["X"], days_ago=0, score=100),
+        ]
+        base = 2 * 10 + 1 * 20 + PEAK_SCORE_MAX
         assert compute_heat(freshest, now=NOW) == base + RECENCY_MAX
 
     def test_recency_reaches_zero_at_the_window_edge(self):
-        edge = [signal("a", ["X"], days_ago=90), signal("b", ["X"], days_ago=90)]
-        assert compute_heat(edge, now=NOW) == 2 * 10 + 1 * 20
+        edge = [
+            signal("a", ["X"], days_ago=90, score=100),
+            signal("b", ["X"], days_ago=90, score=100),
+        ]
+        assert compute_heat(edge, now=NOW) == 2 * 10 + 1 * 20 + PEAK_SCORE_MAX
+
+    def test_routine_filings_do_not_outrank_a_real_story(self):
+        # The reason heat became score-aware: a month of RNS boilerplate used
+        # to bury a two-signal cluster containing a record fine.
+        boilerplate = [signal(str(i), ["X"], score=20) for i in range(12)]
+        enforcement = [
+            signal("a", ["Y"], score=88),
+            signal("b", ["Y"], score=72),
+        ]
+        assert compute_heat(enforcement, now=NOW) > compute_heat(boilerplate, now=NOW)
+
+    def test_below_threshold_signals_add_no_volume(self):
+        two_real = [signal("a", ["X"], score=60), signal("b", ["X"], score=60)]
+        padded = two_real + [signal(f"p{i}", ["X"], score=SIGNIFICANT_SCORE - 1)
+                             for i in range(8)]
+        assert compute_heat(padded, now=NOW) == compute_heat(two_real, now=NOW)
+
+    def test_peak_score_rewards_the_best_signal(self):
+        weak = [signal("a", ["X"], score=40), signal("b", ["X"], score=40)]
+        strong = [signal("a", ["X"], score=40), signal("b", ["X"], score=95)]
+        assert compute_heat(strong, now=NOW) > compute_heat(weak, now=NOW)
+
+    def test_peak_score_counts_even_when_below_threshold(self):
+        # A cluster of sub-threshold signals still scores above zero, so it
+        # sinks rather than vanishing.
+        quiet = [signal("a", ["X"], score=10), signal("b", ["X"], score=10)]
+        assert compute_heat(quiet, now=NOW) > 0
+
+    def test_unscored_members_are_tolerated(self):
+        members = [signal("a", ["X"], score=None), signal("b", ["X"], score=70)]
+        assert compute_heat(members, now=NOW) > 0
 
     def test_heat_window_follows_the_cluster_window(self):
         members = [signal("a", ["X"], days_ago=40), signal("b", ["X"], days_ago=40)]

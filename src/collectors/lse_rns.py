@@ -33,9 +33,24 @@ class LSERNSCollector(Collector):
     Companies House filings are backward-looking (annual accounts); this
     catches trading updates, M&A and board changes as they're announced."""
 
-    def __init__(self, tickers: dict[str, str], user_agent: str):
+    def __init__(
+        self,
+        tickers: dict[str, str],
+        user_agent: str,
+        skip_titles: list[str] | None = None,
+    ):
         self.tickers = tickers  # {"ENT": "Entain", ...}
         self.headers = {"User-Agent": user_agent}
+        # Routine corporate-action announcements. These fire near-daily for a
+        # listed operator, score in the teens and twenties, and are pure
+        # volume in a cluster — half of all RNS items collected were of this
+        # kind. Matched case-insensitively as substrings, so "Issuance of
+        # Shares & Total Voting Rights" is caught by "total voting rights".
+        self.skip_titles = [t.lower() for t in (skip_titles or [])]
+
+    def _is_routine(self, title: str) -> bool:
+        lowered = title.lower()
+        return any(phrase in lowered for phrase in self.skip_titles)
 
     def _fetch(self, ticker: str) -> BeautifulSoup | None:
         try:
@@ -74,6 +89,9 @@ class LSERNSCollector(Collector):
                     continue
 
                 title = link.get_text(strip=True)
+                if self._is_routine(title):
+                    continue
+
                 date_text = cells[0].get_text(strip=True)
                 time_text = cells[1].get_text(strip=True)
 

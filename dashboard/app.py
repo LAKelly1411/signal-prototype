@@ -8,7 +8,12 @@ import requests
 import streamlit as st
 import yaml
 
-from src.cluster import compute_heat, is_excluded, signal_entities
+from src.cluster import (
+    SIGNIFICANT_SCORE,
+    compute_heat,
+    is_excluded,
+    signal_entities,
+)
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
 
@@ -24,12 +29,21 @@ SCORE_TIERS = [
     (0, "Low", "#d6dcff", "#000000"),
 ]
 
-# Same ramp, scaled to the heat slider's 0-150 range rather than a 0-100 score.
+# Same ramp, scaled to the heat slider's range rather than a 0-100 score.
+# Calibrated against the observed spread once heat stopped counting routine
+# filings: there's a clear break at 60 between the busy half of the clusters
+# and the quiet half, and 90 isolates the handful worth interrupting someone
+# for. Re-check these if the heat formula changes again.
 HEAT_TIERS = [
-    (100, "High", "#3d3677", "#ffffff"),
+    (90, "High", "#3d3677", "#ffffff"),
     (60, "Medium", "#6352b9", "#ffffff"),
     (0, "Low", "#d6dcff", "#000000"),
 ]
+
+# Heat is unbounded in principle, but sits well under this in practice; a
+# higher ceiling would leave most of the slider's travel unusable. It filters
+# on a minimum, so anything above the ceiling still shows.
+HEAT_SLIDER_MAX = 120
 
 
 def _tier(value: float, tiers: list[tuple[float, str, str, str]]) -> tuple[str, str, str]:
@@ -463,7 +477,7 @@ def render_patterns(signals: list[dict]) -> None:
         )
         return
 
-    heat_threshold = st.slider("Minimum heat score", 0, 150, 50)
+    heat_threshold = st.slider("Minimum heat score", 0, HEAT_SLIDER_MAX, 50)
 
     clusters = [
         (compute_heat(members), members) for members in grouped.values()
@@ -483,6 +497,20 @@ def render_patterns(signals: list[dict]) -> None:
         sources = sorted({m["source"] for m in members})
         source_word = "source" if len(sources) == 1 else "sources"
 
+        # Heat counts only signals above the significance bar, so the header
+        # says the same thing — otherwise a cluster padded with routine
+        # filings reads as far busier than its heat implies.
+        significant = sum(
+            1
+            for m in members
+            if (m.get("newsworthiness_score") or 0) >= SIGNIFICANT_SCORE
+        )
+        signal_text = (
+            f"{significant} of {len(members)} signals"
+            if significant != len(members)
+            else f"{len(members)} signals"
+        )
+
         # Most-mentioned company rather than alphabetically-first, so a
         # multi-company cluster is labelled by whoever it's actually about.
         label = cluster_label(members)
@@ -500,7 +528,7 @@ def render_patterns(signals: list[dict]) -> None:
         )
 
         with st.expander(
-            f"{label} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
+            f"{label} — heat {heat:.0f} ({heat_label}) · {signal_text} · "
             f"{len(sources)} {source_word} · {span_text}"
         ):
             if summary:

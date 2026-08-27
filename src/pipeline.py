@@ -154,6 +154,7 @@ def build_collectors(sources: dict) -> list:
             LSERNSCollector(
                 tickers=lse_config.get("tickers", {}),
                 user_agent=lse_config["user_agent"],
+                skip_titles=lse_config.get("skip_titles"),
             )
         )
 

@@ -87,6 +87,17 @@ CLUSTER_WINDOW_DAYS = 90
 # signal count and source diversity, which are the substantive terms.
 RECENCY_MAX = 30
 
+# Score a signal must reach to count toward a cluster's volume. Matches the
+# dashboard's default "Medium and above" feed filter, so a pattern is built
+# from the same signals a journalist would have chosen to read.
+SIGNIFICANT_SCORE = 40
+
+# Ceiling on the contribution of the cluster's single best signal. Volume and
+# source spread describe how *sustained* a pattern is; this is what stops a
+# two-signal cluster containing a record fine from being buried under a month
+# of routine filings.
+PEAK_SCORE_MAX = 30
+
 
 def assign_clusters(
     signals: list[dict],
@@ -163,16 +174,36 @@ def compute_heat(
     a cluster spanning multiple sources is far more interesting than the same
     number of signals from one source), and recency of the latest signal.
 
+    Volume and source spread count only signals that cleared
+    SIGNIFICANT_SCORE. Counting every signal let routine corporate filings
+    dominate — half of all RNS items are "Holding(s) in Company", "Total
+    Voting Rights" and similar, scoring in the teens and twenties — so a month
+    of boilerplate outranked a two-signal cluster containing a record fine.
+    Scoring already judged that; heat now uses it.
+
     Recency decays linearly across the full clustering window rather than over
     a fixed 30 days: with a 90-day window a fixed ramp would bottom out a
     third of the way in, leaving two thirds of eligible clusters tied on the
     recency term. Its ceiling stays at RECENCY_MAX so widening the window
-    changes how recency is *distributed*, not how much heat it can contribute
-    — which keeps existing heat values and the dashboard's tiers valid."""
+    changes how recency is *distributed*, not how much heat it can contribute.
+    """
     now = now or datetime.now(timezone.utc)
-    num_signals = len(members)
-    num_sources = len({m["source"] for m in members})
+
+    significant = [
+        m
+        for m in members
+        if (m.get("newsworthiness_score") or 0) >= SIGNIFICANT_SCORE
+    ]
+    num_signals = len(significant)
+    num_sources = len({m["source"] for m in significant})
+
+    best_score = max((m.get("newsworthiness_score") or 0) for m in members)
+    peak_score = PEAK_SCORE_MAX * best_score / 100
+
+    # Recency stays keyed on the whole cluster: a burst of routine filings
+    # still means the company is active, even if none of them is the story.
     most_recent = max(_parse_date(m["published_at"]) for m in members)
     days_since = max(0, (now - most_recent).days)
     recency_score = RECENCY_MAX * max(0, window_days - days_since) / window_days
-    return num_signals * 10 + num_sources * 20 + recency_score
+
+    return num_signals * 10 + num_sources * 20 + peak_score + recency_score
