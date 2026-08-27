@@ -1,11 +1,15 @@
+import json
 import logging
 import os
 from collections import defaultdict
+from datetime import datetime, timezone
+from pathlib import Path
 
 import yaml
 from dotenv import load_dotenv
 
 from src import cluster, store
+from src.entities import build_alias_map
 from src.collectors.asa import ASACollector
 from src.collectors.bgc import BGCCollector
 from src.collectors.companies_house import CompaniesHouseCollector
@@ -16,10 +20,17 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
-from src.score import CLUSTER_SUMMARY_VERSION, score_signal, summarize_cluster
+from src.score import (
+    CLUSTER_SUMMARY_VERSION,
+    build_client,
+    score_signal,
+    summarize_cluster,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
+
+RUN_STATUS_PATH = Path("data/run_status.json")
 
 
 def load_sources(path: str = "config/sources.yaml") -> dict:
@@ -72,6 +83,8 @@ def build_collectors(sources: dict) -> list:
                     operators=watchlist,
                     items_per_page=ch_config.get("items_per_page", 25),
                     sleep_seconds=ch_config.get("sleep_seconds", 0.6),
+                    lookback_days=ch_config.get("lookback_days", 365),
+                    categories=ch_config.get("categories"),
                 )
             )
 
@@ -141,28 +154,51 @@ def build_collectors(sources: dict) -> list:
             LSERNSCollector(
                 tickers=lse_config.get("tickers", {}),
                 user_agent=lse_config["user_agent"],
+                skip_titles=lse_config.get("skip_titles"),
             )
         )
 
     return collectors
 
 
+def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
+    """Publish what the run actually did, so a silently broken scraper shows
+    up in the dashboard instead of only in an Actions log nobody reads."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(status, f, indent=2, ensure_ascii=False)
+
+
 def run() -> None:
     load_dotenv()
+    started_at = datetime.now(timezone.utc)
     sources = load_sources()
     collectors = build_collectors(sources)
+    alias_map = build_alias_map(load_watchlist())
+    client = build_client()
 
     raw_items = []
+    source_status: dict[str, dict] = {}
     for collector in collectors:
+        name = type(collector).__name__
         try:
-            raw_items.extend(collector.collect())
+            collected = collector.collect()
         except Exception:
             # One source's unexpected failure shouldn't take every other
             # source down with it — log it and move on.
             logger.exception(
-                "Collector %s failed — skipping, other sources unaffected",
-                type(collector).__name__,
+                "Collector %s failed — skipping, other sources unaffected", name
             )
+            source_status[name] = {"items": 0, "ok": False, "error": True}
+            continue
+        raw_items.extend(collected)
+        # Zero items isn't an exception, but for a scraper it usually means
+        # the page layout moved underneath us — flag it as unhealthy.
+        source_status[name] = {
+            "items": len(collected),
+            "ok": bool(collected),
+            "error": False,
+        }
     logger.info("Collected %d raw items", len(raw_items))
 
     new_signals_by_id = {}
@@ -171,7 +207,9 @@ def run() -> None:
         new_signals_by_id[signal["id"]] = signal
 
     existing = store.load()
-    merged, added = store.merge_new(existing, list(new_signals_by_id.values()))
+    merged, added = store.merge_new(
+        existing, list(new_signals_by_id.values()), store.load_archived_ids()
+    )
 
     unscored = [s for s in merged if s.get("newsworthiness_score") is None]
     logger.info(
@@ -180,14 +218,16 @@ def run() -> None:
     )
 
     for signal in unscored:
-        score_signal(signal)
+        score_signal(signal, client=client, alias_map=alias_map)
 
-    cluster.assign_clusters(merged)
+    cluster.assign_clusters(merged, alias_map=alias_map)
+    cluster.assign_themes(merged, alias_map=alias_map)
     by_cluster = defaultdict(list)
     for s in merged:
         if s.get("cluster_id"):
             by_cluster[s["cluster_id"]].append(s)
-    logger.info("%d clusters formed", len(by_cluster))
+    themes = {s["theme_id"] for s in merged if s.get("theme_id")}
+    logger.info("%d clusters and %d themes formed", len(by_cluster), len(themes))
 
     for cluster_id, members in by_cluster.items():
         # Cache key covers both cluster membership and prompt wording, so
@@ -195,14 +235,37 @@ def run() -> None:
         cache_key = f"{cluster_id}:{CLUSTER_SUMMARY_VERSION}"
         if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
-        summary = summarize_cluster(members)
-        if summary:
+        verdict = summarize_cluster(members, client=client)
+        if verdict:
             for m in members:
-                m["cluster_summary"] = summary
+                m["cluster_summary"] = verdict["summary"]
+                m["cluster_pattern_type"] = verdict["pattern_type"]
+                m["cluster_coherent"] = verdict["coherent"]
+                m["cluster_significance"] = verdict["significance"]
                 m["cluster_summary_for"] = cache_key
 
-    store.save(merged)
-    logger.info("Store now holds %d signals total", len(merged))
+    live = store.save(merged)
+    logger.info(
+        "Store now holds %d live signals (%d archived this run)",
+        len(live), len(merged) - len(live),
+    )
+
+    write_run_status(
+        {
+            "started_at": started_at.isoformat(),
+            "finished_at": datetime.now(timezone.utc).isoformat(),
+            "sources": source_status,
+            "healthy_sources": sum(1 for s in source_status.values() if s["ok"]),
+            "total_sources": len(source_status),
+            "raw_items": len(raw_items),
+            "new_signals": len(added),
+            "unscored": sum(
+                1 for s in live if s.get("newsworthiness_score") is None
+            ),
+            "live_signals": len(live),
+            "clusters": len(by_cluster),
+        }
+    )
 
 
 if __name__ == "__main__":

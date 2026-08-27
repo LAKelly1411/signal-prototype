@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -22,7 +23,9 @@ jobs:
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          # Not a secret — a repo variable, so the model in use is visible
+          # without opening the settings page.
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
           COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
         run: python -m src.pipeline
 
@@ -30,6 +33,22 @@ jobs:
         run: |
           git config user.name "signal-pipeline-bot"
           git config user.email "actions@github.com"
-          git add data/signals.json
+          # Covers signals.json, run_status.json and the archive; data/*.db
+          # stays gitignored.
+          git add data
           git diff --staged --quiet || git commit -m "Update signals [skip ci]"
           git push
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "No ALERT_WEBHOOK_URL secret set — skipping notification."
+            exit 0
+          fi
+          curl -sS --fail -X POST -H 'Content-Type: application/json' \
+            -d "{\"text\": \"Sector Signal pipeline failed: $RUN_URL\"}" \
+            "$WEBHOOK_URL"

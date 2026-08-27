@@ -35,15 +35,16 @@ class DCMSCollector(Collector):
             return []
         return resp.json().get("results", [])
 
-    def _parse_date(self, public_timestamp: str | None) -> str:
-        if not public_timestamp:
-            return datetime.now(timezone.utc).isoformat()
-        try:
-            dt = datetime.fromisoformat(public_timestamp.replace("Z", "+00:00"))
-            return dt.isoformat()
-        except ValueError:
-            logger.warning("Could not parse DCMS date %r", public_timestamp)
-            return datetime.now(timezone.utc).isoformat()
+    def _parse_date(self, public_timestamp: str | None) -> tuple[str, bool]:
+        """Returns (iso_date, estimated). Estimated means the source gave us
+        nothing usable and the timestamp is a stand-in, not a fact."""
+        if public_timestamp:
+            try:
+                dt = datetime.fromisoformat(public_timestamp.replace("Z", "+00:00"))
+                return dt.isoformat(), False
+            except ValueError:
+                logger.warning("Could not parse DCMS date %r", public_timestamp)
+        return datetime.now(timezone.utc).isoformat(), True
 
     def collect(self) -> list[RawItem]:
         seen_links: set[str] = set()
@@ -63,7 +64,9 @@ class DCMSCollector(Collector):
                 title = result.get("title") or "Untitled"
                 description = result.get("description") or ""
                 fmt = result.get("format", "")
-                published_at = self._parse_date(result.get("public_timestamp"))
+                published_at, estimated = self._parse_date(
+                    result.get("public_timestamp")
+                )
 
                 signal_type = "consultation" if "consultation" in fmt else "policy"
 
@@ -74,6 +77,7 @@ class DCMSCollector(Collector):
                         title=title,
                         raw_summary=description,
                         published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type=signal_type,
                     )
                 )

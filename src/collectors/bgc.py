@@ -12,13 +12,16 @@ SOURCE = "bgc"
 logger = logging.getLogger(__name__)
 
 
-def _parse_date(date_text: str) -> str:
-    try:
-        dt = datetime.strptime(date_text.strip(), "%d %B %Y")
-        return dt.replace(tzinfo=timezone.utc).isoformat()
-    except ValueError:
-        logger.warning("Could not parse BGC news date %r", date_text)
-        return datetime.now(timezone.utc).isoformat()
+def _parse_date(date_text: str | None) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if date_text:
+        try:
+            dt = datetime.strptime(date_text.strip(), "%d %B %Y")
+            return dt.replace(tzinfo=timezone.utc).isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse BGC news date %r", date_text)
+    return datetime.now(timezone.utc).isoformat(), True
 
 
 class BGCCollector(Collector):
@@ -62,6 +65,9 @@ class BGCCollector(Collector):
                 date_tag = card.select_one("small.date")
                 summary_tag = card.select_one("div.summary")
 
+                published_at, estimated = _parse_date(
+                    date_tag.get_text(strip=True) if date_tag else None
+                )
                 items.append(
                     RawItem(
                         source=SOURCE,
@@ -70,11 +76,8 @@ class BGCCollector(Collector):
                         raw_summary=(
                             summary_tag.get_text(strip=True) if summary_tag else ""
                         ),
-                        published_at=(
-                            _parse_date(date_tag.get_text(strip=True))
-                            if date_tag
-                            else datetime.now(timezone.utc).isoformat()
-                        ),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="policy",
                     )
                 )

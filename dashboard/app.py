@@ -2,12 +2,20 @@ import base64
 import html
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 import requests
 import streamlit as st
 import yaml
 
-from src.cluster import compute_heat
+from src.cluster import (
+    MIN_THEME_COMPANIES,
+    SIGNIFICANT_SCORE,
+    compute_heat,
+    compute_theme_heat,
+    is_excluded,
+    signal_entities,
+)
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
 
@@ -23,12 +31,40 @@ SCORE_TIERS = [
     (0, "Low", "#d6dcff", "#000000"),
 ]
 
-# Same ramp, scaled to the heat slider's 0-150 range rather than a 0-100 score.
+# Same ramp, scaled to the heat slider's range rather than a 0-100 score.
+# Calibrated against the observed spread once heat stopped counting routine
+# filings: there's a clear break at 60 between the busy half of the clusters
+# and the quiet half, and 90 isolates the handful worth interrupting someone
+# for. Re-check these if the heat formula changes again.
 HEAT_TIERS = [
-    (100, "High", "#3d3677", "#ffffff"),
+    (90, "High", "#3d3677", "#ffffff"),
     (60, "Medium", "#6352b9", "#ffffff"),
     (0, "Low", "#d6dcff", "#000000"),
 ]
+
+# Heat is unbounded in principle, but sits well under this in practice; a
+# higher ceiling would leave most of the slider's travel unusable. It filters
+# on a minimum, so anything above the ceiling still shows.
+HEAT_SLIDER_MAX = 120
+
+# Theme heat is on its own scale — it rewards breadth across companies rather
+# than source diversity, so a sector-wide wave scores far above any single
+# company's cluster. Calibrated separately for that reason.
+THEME_HEAT_TIERS = [
+    (200, "High", "#3d3677", "#ffffff"),
+    (130, "Medium", "#6352b9", "#ffffff"),
+    (0, "Low", "#d6dcff", "#000000"),
+]
+
+# How Claude's own read of a cluster is shown. Anything not listed falls back
+# to a plain chip.
+PATTERN_TYPE_LABELS = {
+    "escalation": "Escalating",
+    "wave": "Sector-wide",
+    "developing_story": "Developing",
+    "routine": "Routine",
+    "unrelated": "Unrelated",
+}
 
 
 def _tier(value: float, tiers: list[tuple[float, str, str, str]]) -> tuple[str, str, str]:
@@ -44,6 +80,10 @@ def score_tier(score: int) -> tuple[str, str, str]:
 
 def heat_tier(heat: float) -> tuple[str, str, str]:
     return _tier(heat, HEAT_TIERS)
+
+
+def theme_heat_tier(heat: float) -> tuple[str, str, str]:
+    return _tier(heat, THEME_HEAT_TIERS)
 
 
 def inject_css() -> None:
@@ -129,6 +169,23 @@ def inject_css() -> None:
             color: #3d3677;
             font-weight: 600;
         }
+        .estimated-date {
+            font-style: italic;
+            opacity: 0.75;
+        }
+        .health-strip {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+        .health-ok { background-color: #e6f4ea; color: #1c5c2e; }
+        .health-warn { background-color: #fff6df; color: #8a6a00; }
+        .health-bad { background-color: #fdeaea; color: #8a1c1c; }
         .cluster-summary {
             background-color: #fff6df;
             border-left: 4px solid #ffcb47;
@@ -174,6 +231,34 @@ def load_signals() -> list[dict]:
     return resp.json()
 
 
+@st.cache_data(ttl=600)
+def load_run_status() -> dict | None:
+    """Pipeline health, published next to the signals file. Absent on older
+    data or if the URL isn't configured — the strip just hides itself."""
+    url = st.secrets.get("RUN_STATUS_RAW_URL")
+    if not url:
+        return None
+    try:
+        resp = requests.get(url, timeout=20)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception:
+        return None
+
+
+def safe_url(url: str) -> str:
+    """Source URLs come from scraped hrefs on third-party pages and land
+    inside an href="..." rendered with unsafe_allow_html, so both the scheme
+    and the quoting need checking before they get there."""
+    try:
+        scheme = urlparse(url).scheme.lower()
+    except ValueError:
+        return "#"
+    if scheme not in ("http", "https"):
+        return "#"
+    return html.escape(url, quote=True)
+
+
 def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
     label, bg, fg = score_tier(signal["newsworthiness_score"])
     why_it_matters = html.escape(signal.get("why_it_matters") or "")
@@ -187,6 +272,12 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
             chips.append(f'<span class="tag-chip category">{html.escape(category)}</span>')
         chips.extend(f'<span class="tag-chip">{html.escape(e)}</span>' for e in entities)
         tags_html = f'<div class="signal-tags">{"".join(chips)}</div>'
+
+    date_html = signal["published_at"][:10]
+    if signal.get("published_at_estimated"):
+        # The source gave no usable date, so this is the ingest time standing
+        # in — say so rather than presenting a guess as fact.
+        date_html = f'<span class="estimated-date">{date_html} (date estimated)</span>'
 
     pattern_html = ""
     cluster_id = signal.get("cluster_id")
@@ -209,12 +300,13 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
             </span>
           </div>
           <div class="signal-meta">
-            {html.escape(signal['source'])} &middot; {signal['published_at'][:10]}
+            {html.escape(signal['source'])} &middot; {date_html}
           </div>
           {tags_html}
           <div class="signal-why">{why_it_matters}</div>
           {pattern_html}
-          <a class="signal-link" href="{signal['source_url']}" target="_blank">Source &rarr;</a>
+          <a class="signal-link" href="{safe_url(signal['source_url'])}"
+             target="_blank" rel="noopener noreferrer">Source &rarr;</a>
         </div>
         """,
         unsafe_allow_html=True,
@@ -245,7 +337,12 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
         key=f"types_{','.join(signal_types)}",
     )
 
-    all_entities = sorted({e for s in scored for e in s.get("entities", [])})
+    # Canonical names, so one option covers every spelling of a company —
+    # picking "Entain Holdings (UK) Limited" also matches signals that named
+    # it "Entain".
+    all_entities = sorted(
+        {e for s in scored for e in signal_entities(s)}, key=str.lower
+    )
     selected_entities = st.sidebar.multiselect(
         "Company / entity",
         all_entities,
@@ -290,17 +387,20 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
             continue
         if not (start_date <= pub_date <= end_date):
             continue
-        if selected_entities and not set(signal.get("entities", [])) & set(
+        if selected_entities and not set(signal_entities(signal)) & set(
             selected_entities
         ):
             continue
         if search_query:
+            # Search both spellings so "Entain" finds signals stored under
+            # the full legal name and vice versa.
             haystack = " ".join(
                 [
                     signal.get("title", ""),
                     signal.get("why_it_matters") or "",
                     signal.get("category") or "",
                     " ".join(signal.get("entities", [])),
+                    " ".join(signal_entities(signal)),
                 ]
             ).lower()
             if search_query not in haystack:
@@ -313,12 +413,32 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     return filtered, sort_order
 
 
-def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
+def group_by_cluster(scored: list[dict]) -> dict[str, list[dict]]:
     grouped = defaultdict(list)
     for s in scored:
         if s.get("cluster_id"):
             grouped[s["cluster_id"]].append(s)
-    return {cid: (compute_heat(members), len(members)) for cid, members in grouped.items()}
+    return grouped
+
+
+def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
+    return {
+        cid: (compute_heat(members), len(members))
+        for cid, members in group_by_cluster(scored).items()
+    }
+
+
+def cluster_label(members: list[dict]) -> str:
+    """Name a cluster after the company it's actually about. Institutions are
+    skipped: a cluster titled "Gambling Commission" says nothing, since the
+    regulator is named in most of the feed."""
+    counts = Counter(e for m in members for e in signal_entities(m))
+    companies = [(name, n) for name, n in counts.most_common() if not is_excluded(name)]
+    if not companies:
+        return "Unnamed cluster"
+    primary = companies[0][0]
+    others = len(companies) - 1
+    return f"{primary} +{others} more" if others else primary
 
 
 def _date_bucket(pub_date, today) -> str:
@@ -371,25 +491,58 @@ def render_feed(signals: list[dict]) -> None:
             render_card(signal, cluster_info)
 
 
+def _cluster_verdict(members: list[dict]) -> dict:
+    """Claude's read of the cluster, carried on every member."""
+    return {
+        "summary": next(
+            (m.get("cluster_summary") for m in members if m.get("cluster_summary")),
+            None,
+        ),
+        "pattern_type": next(
+            (m.get("cluster_pattern_type") for m in members
+             if m.get("cluster_pattern_type")),
+            None,
+        ),
+        "significance": next(
+            (m.get("cluster_significance") for m in members
+             if m.get("cluster_significance") is not None),
+            None,
+        ),
+        # Only treat a cluster as rejected if the model actually said so;
+        # clusters summarised before this judgement existed have no opinion.
+        "coherent": not any(m.get("cluster_coherent") is False for m in members),
+    }
+
+
 def render_patterns(signals: list[dict]) -> None:
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
-
-    grouped = defaultdict(list)
-    for s in scored:
-        if s.get("cluster_id"):
-            grouped[s["cluster_id"]].append(s)
+    grouped = group_by_cluster(scored)
 
     if not grouped:
         st.info(
             "No emerging patterns yet — a pattern needs two or more signals "
-            "naming the same company within the last 30 days."
+            "naming the same company within the last 90 days."
         )
         return
 
-    heat_threshold = st.slider("Minimum heat score", 0, 150, 50)
+    heat_threshold = st.slider("Minimum heat score", 0, HEAT_SLIDER_MAX, 50)
+
+    # Clusters are formed on a shared company name, so some are coincidence.
+    # Claude is asked to say which; those are set aside rather than deleted,
+    # since a wrong call should be visible, not silently hidden.
+    incoherent = [m for m in grouped.values() if not _cluster_verdict(m)["coherent"]]
+    if incoherent:
+        show_rejected = st.checkbox(
+            f"Include {len(incoherent)} cluster(s) Claude flagged as unrelated",
+            value=False,
+        )
+    else:
+        show_rejected = True
 
     clusters = [
-        (compute_heat(members), members) for members in grouped.values()
+        (compute_heat(members), members)
+        for members in grouped.values()
+        if show_rejected or _cluster_verdict(members)["coherent"]
     ]
     clusters = [c for c in clusters if c[0] >= heat_threshold]
     clusters.sort(key=lambda pair: pair[0], reverse=True)
@@ -406,19 +559,23 @@ def render_patterns(signals: list[dict]) -> None:
         sources = sorted({m["source"] for m in members})
         source_word = "source" if len(sources) == 1 else "sources"
 
-        # Most-mentioned entity rather than alphabetically-first, so a
+        # Heat counts only signals above the significance bar, so the header
+        # says the same thing — otherwise a cluster padded with routine
+        # filings reads as far busier than its heat implies.
+        significant = sum(
+            1
+            for m in members
+            if (m.get("newsworthiness_score") or 0) >= SIGNIFICANT_SCORE
+        )
+        signal_text = (
+            f"{significant} of {len(members)} signals"
+            if significant != len(members)
+            else f"{len(members)} signals"
+        )
+
+        # Most-mentioned company rather than alphabetically-first, so a
         # multi-company cluster is labelled by whoever it's actually about.
-        entity_counts = Counter(e for m in members for e in m.get("entities", []))
-        if entity_counts:
-            primary_entity = entity_counts.most_common(1)[0][0]
-            other_entities = len(entity_counts) - 1
-            label = (
-                f"{primary_entity} +{other_entities} more"
-                if other_entities
-                else primary_entity
-            )
-        else:
-            label = "Unnamed cluster"
+        label = cluster_label(members)
 
         pub_dates = sorted(
             datetime.fromisoformat(m["published_at"]).date() for m in members
@@ -427,20 +584,35 @@ def render_patterns(signals: list[dict]) -> None:
         span_text = "in a single day" if span_days == 0 else f"over {span_days} days"
 
         heat_label = heat_tier(heat)[0]
-        summary = next(
-            (m.get("cluster_summary") for m in members if m.get("cluster_summary")),
-            None,
-        )
+        verdict = _cluster_verdict(members)
+        summary = verdict["summary"]
 
-        with st.expander(
-            f"{label} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
+        header = (
+            f"{label} — heat {heat:.0f} ({heat_label}) · {signal_text} · "
             f"{len(sources)} {source_word} · {span_text}"
-        ):
+        )
+        pattern_type = PATTERN_TYPE_LABELS.get(
+            verdict["pattern_type"], verdict["pattern_type"]
+        )
+        if pattern_type:
+            header = f"{pattern_type} · {header}"
+        if not verdict["coherent"]:
+            header = f"⚠ {header}"
+
+        with st.expander(header):
+            if not verdict["coherent"]:
+                st.warning(
+                    "Claude judged these signals unrelated — they share a "
+                    "company name rather than a story."
+                )
             if summary:
+                label_text = "Signal"
+                if verdict["significance"] is not None:
+                    label_text = f"Signal · significance {verdict['significance']}"
                 st.markdown(
                     f"""
                     <div class="cluster-summary">
-                      <span class="cluster-summary-label">Signal</span>
+                      <span class="cluster-summary-label">{html.escape(label_text)}</span>
                       {html.escape(summary)}
                     </div>
                     """,
@@ -453,6 +625,128 @@ def render_patterns(signals: list[dict]) -> None:
             if show_all:
                 for m in members_sorted:
                     render_card(m)
+
+
+def render_themes(signals: list[dict]) -> None:
+    """Patterns across companies rather than about one. A run of small
+    operators being wound up is a sector story that company clustering can
+    never see, because every signal names someone different."""
+    grouped = defaultdict(list)
+    for s in signals:
+        if s.get("theme_id"):
+            grouped[s["theme_id"]].append(s)
+
+    if not grouped:
+        st.info(
+            "No sector-wide themes yet — a theme needs signals of the same "
+            f"kind naming at least {MIN_THEME_COMPANIES} different companies "
+            "within the last 90 days."
+        )
+        return
+
+    st.caption(
+        "Themes group signals by what happened rather than who it happened "
+        "to, so a run of similar events across different companies reads as "
+        "one pattern."
+    )
+
+    themes = sorted(
+        ((compute_theme_heat(members), theme, members)
+         for theme, members in grouped.items()),
+        reverse=True,
+        key=lambda t: t[0],
+    )
+
+    for heat, theme, members in themes:
+        companies = sorted(
+            {e for m in members for e in signal_entities(m) if not is_excluded(e)},
+            key=str.lower,
+        )
+        members_sorted = sorted(members, key=lambda m: m["published_at"], reverse=True)
+        heat_label = theme_heat_tier(heat)[0]
+
+        pub_dates = sorted(
+            datetime.fromisoformat(m["published_at"]).date() for m in members
+        )
+        span_days = (pub_dates[-1] - pub_dates[0]).days
+        company_word = "company" if len(companies) == 1 else "companies"
+
+        with st.expander(
+            f"{theme} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
+            f"{len(companies)} {company_word} · over {span_days} days"
+        ):
+            # Monthly counts are the point of a theme: whether the wave is
+            # building or fading is the story, not any single signal.
+            per_month = Counter(m["published_at"][:7] for m in members)
+            trend = " · ".join(
+                f"{month}: {count}" for month, count in sorted(per_month.items())
+            )
+            st.markdown(f"**By month** — {trend}")
+
+            shown = ", ".join(companies[:12])
+            if len(companies) > 12:
+                shown += f", and {len(companies) - 12} more"
+            st.markdown(f"**Companies** — {shown}")
+
+            if st.checkbox(
+                f"Show all {len(members)} signals", key=f"show_theme_{theme}"
+            ):
+                for m in members_sorted:
+                    render_card(m)
+
+
+def _humanise_age(delta_seconds: float) -> str:
+    minutes = int(delta_seconds // 60)
+    if minutes < 60:
+        return f"{max(minutes, 0)} min ago"
+    hours = minutes // 60
+    if hours < 24:
+        return f"{hours} hour{'s' if hours != 1 else ''} ago"
+    days = hours // 24
+    return f"{days} day{'s' if days != 1 else ''} ago"
+
+
+def render_health_strip(status: dict | None) -> None:
+    """Freshness and source health at a glance. Without this a scraper whose
+    page layout moved just goes quiet, and the feed looks like a slow news
+    week rather than a broken collector."""
+    if not status:
+        return
+
+    try:
+        finished = datetime.fromisoformat(status["finished_at"])
+    except (KeyError, ValueError):
+        return
+
+    age = (datetime.now(timezone.utc) - finished).total_seconds()
+    healthy = status.get("healthy_sources", 0)
+    total = status.get("total_sources", 0)
+
+    if age > 12 * 3600:
+        css, detail = "health-bad", "pipeline may have stopped running"
+    elif healthy < total:
+        css, detail = "health-warn", f"{total - healthy} source(s) returned nothing"
+    else:
+        css, detail = "health-ok", "all sources healthy"
+
+    unscored = status.get("unscored", 0)
+    if unscored:
+        detail += f" · {unscored} awaiting scoring"
+
+    st.markdown(
+        f'<div class="health-strip {css}">Updated {_humanise_age(age)} · '
+        f"{healthy}/{total} sources · {html.escape(detail)}</div>",
+        unsafe_allow_html=True,
+    )
+
+    failing = [
+        name
+        for name, info in (status.get("sources") or {}).items()
+        if not info.get("ok")
+    ]
+    if failing:
+        with st.expander("Which sources returned nothing?"):
+            st.write(", ".join(sorted(failing)))
 
 
 def _github_headers() -> dict:
@@ -547,12 +841,16 @@ def main() -> None:
     st.markdown('<div class="header-rule"></div>', unsafe_allow_html=True)
     st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
 
+    render_health_strip(load_run_status())
+
     signals = load_signals()
-    feed_tab, patterns_tab = st.tabs(["Feed", "Patterns"])
+    feed_tab, patterns_tab, themes_tab = st.tabs(["Feed", "Patterns", "Themes"])
     with feed_tab:
         render_feed(signals)
     with patterns_tab:
         render_patterns(signals)
+    with themes_tab:
+        render_themes(signals)
 
 
 main()

@@ -18,9 +18,16 @@ def to_signal(item: RawItem) -> dict:
         "title": item.title,
         "raw_summary": item.raw_summary,
         "published_at": item.published_at,
+        # True when the source didn't give us a parseable date and the
+        # collector fell back to "now" — the dashboard flags these rather
+        # than presenting a guessed date as fact.
+        "published_at_estimated": item.published_at_estimated,
         "ingested_at": datetime.now(timezone.utc).isoformat(),
         "signal_type": item.signal_type,
         "entities": [],
+        # Entity names collapsed to one spelling per company; this is what
+        # clustering matches on. See src.entities.
+        "canonical_entities": [],
         "newsworthiness_score": None,
         "why_it_matters": None,
         "category": None,

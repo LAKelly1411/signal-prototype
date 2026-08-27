@@ -18,6 +18,22 @@ def _strip_html(content: str) -> str:
     return BeautifulSoup(content, "html.parser").get_text(" ", strip=True)
 
 
+def _parse_date(published: str | None) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if published:
+        try:
+            dt = datetime.fromisoformat(published)
+            # Only assume UTC when the Gazette omits an offset — forcing it on
+            # a value that already carries one would silently shift the time.
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse Gazette date %r", published)
+    return datetime.now(timezone.utc).isoformat(), True
+
+
 class GazetteCollector(Collector):
     def __init__(
         self,
@@ -64,15 +80,7 @@ class GazetteCollector(Collector):
                 title = entry.get("title") or "Untitled notice"
                 category_term = entry.get("category", {}).get("@term", "")
                 content = _strip_html(entry.get("content", ""))
-                published = entry.get("published")
-
-                published_at = (
-                    datetime.fromisoformat(published)
-                    .replace(tzinfo=timezone.utc)
-                    .isoformat()
-                    if published
-                    else datetime.now(timezone.utc).isoformat()
-                )
+                published_at, estimated = _parse_date(entry.get("published"))
 
                 raw_summary = f"{category_term}: {content}" if category_term else content
 
@@ -84,6 +92,7 @@ class GazetteCollector(Collector):
                         title=title,
                         raw_summary=raw_summary,
                         published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="insolvency",
                     )
                 )

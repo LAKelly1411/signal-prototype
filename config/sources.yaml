@@ -28,11 +28,37 @@ lse_rns:
     EVOK: "evoke"
     RNK: "Rank Group"
   user_agent: "Signal-Prototype/0.1"
+  # Routine corporate-action announcements, matched case-insensitively as
+  # substrings of the RNS headline. These accounted for roughly half of all
+  # RNS items and scored in the teens and twenties — pure cluster volume with
+  # no story in them. Delete a line to start collecting that kind again.
+  skip_titles:
+    - "holding(s) in company"
+    - "notification of major holdings"
+    - "director/pdmr shareholding"
+    - "transaction in own shares"
+    - "total voting rights"
+    - "block listing"
 
 companies_house:
   enabled: true
   items_per_page: 25
   sleep_seconds: 0.6   # politeness between watchlist companies, well within the 600 req/5min limit
+  # The API returns the most recent N filings whatever their age, so without a
+  # date bound the first run back-fills a decade of routine accounts and
+  # confirmation statements — each paying for a scoring call and padding out
+  # the company's cluster with nothing to report.
+  lookback_days: 365
+  # Optional allowlist of filing categories. Left off by default so nothing is
+  # dropped silently; uncomment to cut the routine filings entirely.
+  # categories:
+  #   - accounts
+  #   - capital
+  #   - insolvency
+  #   - officers
+  #   - persons-with-significant-control
+  #   - change-of-name
+  #   - resolution
 
 gazette:
   enabled: true

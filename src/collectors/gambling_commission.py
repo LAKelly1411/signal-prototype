@@ -93,13 +93,16 @@ def _parse_register_items(soup: BeautifulSoup) -> list[tuple[str, str, str, str]
     return items
 
 
-def _parse_date(date_text: str) -> str:
-    try:
-        dt = datetime.strptime(date_text.strip(), "%d %B %Y")
-        return dt.replace(tzinfo=timezone.utc).isoformat()
-    except ValueError:
-        logger.warning("Could not parse Gambling Commission date %r", date_text)
-        return datetime.now(timezone.utc).isoformat()
+def _parse_date(date_text: str | None) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if date_text:
+        try:
+            dt = datetime.strptime(date_text.strip(), "%d %B %Y")
+            return dt.replace(tzinfo=timezone.utc).isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse Gambling Commission date %r", date_text)
+    return datetime.now(timezone.utc).isoformat(), True
 
 
 class GamblingCommissionCollector(Collector):
@@ -138,13 +141,15 @@ class GamblingCommissionCollector(Collector):
                 continue
 
             for title, href, date_text, summary in parsed:
+                published_at, estimated = _parse_date(date_text)
                 items.append(
                     RawItem(
                         source=SOURCE,
                         source_url=urljoin(BASE_URL, href),
                         title=title,
                         raw_summary=summary,
-                        published_at=_parse_date(date_text),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type=signal_type,
                     )
                 )
