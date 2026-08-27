@@ -1,3 +1,6 @@
+import os
+from pathlib import Path
+
 from src.collectors.base import RawItem
 from src.normalise import make_id, to_signal
 from src.score import _strip_fences
@@ -37,6 +40,33 @@ class TestToSignal:
         assert to_signal(ITEM)["published_at_estimated"] is False
         guessed = RawItem(**{**ITEM.__dict__, "published_at_estimated": True})
         assert to_signal(guessed)["published_at_estimated"] is True
+
+
+class TestModelSelection:
+    """CI sets ANTHROPIC_MODEL from a repo variable, and an undefined variable
+    arrives as an empty string rather than being absent — which a get()
+    default passes straight through to the API as the model name."""
+
+    def _model(self):
+        return os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
+
+    def test_empty_env_var_falls_back(self, monkeypatch):
+        monkeypatch.setenv("ANTHROPIC_MODEL", "")
+        assert self._model() == "claude-sonnet-5"
+
+    def test_unset_env_var_falls_back(self, monkeypatch):
+        monkeypatch.delenv("ANTHROPIC_MODEL", raising=False)
+        assert self._model() == "claude-sonnet-5"
+
+    def test_a_real_value_is_respected(self, monkeypatch):
+        monkeypatch.setenv("ANTHROPIC_MODEL", "claude-opus-5")
+        assert self._model() == "claude-opus-5"
+
+    def test_source_uses_the_or_form(self):
+        # Guards the actual call sites, not just this test's copy of the logic.
+        source = Path("src/score.py").read_text(encoding="utf-8")
+        assert 'os.environ.get("ANTHROPIC_MODEL") or' in source
+        assert 'os.environ.get("ANTHROPIC_MODEL", ' not in source
 
 
 class TestStripFences:

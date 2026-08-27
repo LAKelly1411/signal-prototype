@@ -105,7 +105,10 @@ def score_signal(
     """Enrich a signal in place with score/entities/category/why_it_matters.
     On any failure, leaves the score null and flags it rather than dropping it."""
     client = client or build_client()
-    model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+    # `or`, not a get() default: CI sets this from a repo variable, and an
+    # undefined variable arrives as an empty string, which a default would
+    # happily pass through to the API as the model name.
+    model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
 
     user_content = (
         f"Title: {signal['title']}\n"
@@ -159,7 +162,10 @@ def summarize_cluster(
     it is already being asked to read every member.
     """
     client = client or build_client()
-    model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+    # `or`, not a get() default: CI sets this from a repo variable, and an
+    # undefined variable arrives as an empty string, which a default would
+    # happily pass through to the API as the model name.
+    model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
 
     members_sorted = sorted(members, key=lambda m: m["published_at"])
     lines = [
