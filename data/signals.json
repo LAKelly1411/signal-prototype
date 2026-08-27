@@ -17270,10 +17270,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "db05331b3f5682c8",
+    "cluster_id": "63d0daad3f009c70",
     "status": "seen",
-    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
-    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
+    "cluster_summary": "Entain's disclosure cluster—BetMGM's Q2 update, interim results, an audit tender conclusion, and two major shareholder notifications within a month—signals heightened investor scrutiny around US joint-venture performance and governance just as ownership stakes shift, suggesting building pressure on strategic direction.",
+    "cluster_summary_for": "63d0daad3f009c70:aa9d372d"
   },
   {
     "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
@@ -17728,10 +17728,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "db05331b3f5682c8",
+    "cluster_id": "63d0daad3f009c70",
     "status": "seen",
-    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
-    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
+    "cluster_summary": "Entain's disclosure cluster—BetMGM's Q2 update, interim results, an audit tender conclusion, and two major shareholder notifications within a month—signals heightened investor scrutiny around US joint-venture performance and governance just as ownership stakes shift, suggesting building pressure on strategic direction.",
+    "cluster_summary_for": "63d0daad3f009c70:aa9d372d"
   },
   {
     "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
@@ -18073,10 +18073,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "db05331b3f5682c8",
+    "cluster_id": "63d0daad3f009c70",
     "status": "seen",
-    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
-    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
+    "cluster_summary": "Entain's disclosure cluster—BetMGM's Q2 update, interim results, an audit tender conclusion, and two major shareholder notifications within a month—signals heightened investor scrutiny around US joint-venture performance and governance just as ownership stakes shift, suggesting building pressure on strategic direction.",
+    "cluster_summary_for": "63d0daad3f009c70:aa9d372d"
   },
   {
     "id": "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
@@ -18136,10 +18136,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "db05331b3f5682c8",
+    "cluster_id": "63d0daad3f009c70",
     "status": "seen",
-    "cluster_summary": "Entain's disclosure cadence—BetMGM's US update, a major shareholder notification, interim results and an audit tender conclusion—clusters around mid-2026 reporting, giving a fuller read on financial performance, investor positioning and governance just as market attention on the JV and shareholder base intensifies.",
-    "cluster_summary_for": "db05331b3f5682c8:aa9d372d"
+    "cluster_summary": "Entain's disclosure cluster—BetMGM's Q2 update, interim results, an audit tender conclusion, and two major shareholder notifications within a month—signals heightened investor scrutiny around US joint-venture performance and governance just as ownership stakes shift, suggesting building pressure on strategic direction.",
+    "cluster_summary_for": "63d0daad3f009c70:aa9d372d"
   },
   {
     "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
@@ -18751,5 +18751,26 @@
     "status": "seen",
     "cluster_summary": "Evoke's routine disclosures (voting rights, interim results, shareholding changes) coincide with court and general meeting approvals pointing to a scheme of arrangement, suggesting a significant corporate restructuring—likely ownership change or reorganisation—is progressing alongside normal financial reporting cycles.",
     "cluster_summary_for": "879d23908b8fbc00:aa9d372d"
+  },
+  {
+    "id": "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9743363",
+    "title": "Entain: TR-1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-08-27T10:00:00+00:00",
+    "ingested_at": "2026-08-27T10:18:23.583292+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
+    "category": "shareholder disclosure",
+    "cluster_id": "63d0daad3f009c70",
+    "status": "seen",
+    "cluster_summary": "Entain's disclosure cluster—BetMGM's Q2 update, interim results, an audit tender conclusion, and two major shareholder notifications within a month—signals heightened investor scrutiny around US joint-venture performance and governance just as ownership stakes shift, suggesting building pressure on strategic direction.",
+    "cluster_summary_for": "63d0daad3f009c70:aa9d372d"
   }
 ]
