@@ -1,0 +1,2376 @@
+[
+  {
+    "id": "22f3a468866dd56cdf7930d6df1e34f2e7851eaf6cd830e2e5c7f3dad520651e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/five-year-ban-for-snooker-player",
+    "title": "Five year ban for snooker player",
+    "raw_summary": "",
+    "published_at": "2024-11-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Snooker player (unnamed)"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A five-year ban highlights ongoing enforcement against betting-related misconduct in sport, relevant to gambling integrity oversight.",
+    "category": "sports betting integrity",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Snooker player"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "a4d1fe4c4d959d0dc8c669883075ab755192cc4739ba015ef6fc4cbc81a1d543",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/consumer-information-notice-sorare-com-prosecution",
+    "title": "Consumer information notice: Sorare.com prosecution",
+    "raw_summary": "",
+    "published_at": "2024-09-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Sorare.com"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "Shows the Commission is pursuing legal action against unlicensed operators, signalling enforcement risk for similar fantasy/gaming platforms.",
+    "category": "unlicensed operator prosecution",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sorare.com"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "ba77df9bd89d80c16bdf60bee7b9426666043bd93c69ee5e9817e2632dcbbed1",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/illegal-gambling-arrest",
+    "title": "Illegal gambling arrest",
+    "raw_summary": "",
+    "published_at": "2024-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Shows Gambling Commission enforcement action against unlicensed betting, signalling continued crackdown on black-market gambling activity.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "f92b1dd9f7d7f8fdedca8d8286720347c677b7616e0cd802aedf43e1d324b967",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/bet365-to-pay-gbp582-120-for-regulatory-failures",
+    "title": "Bet365 to pay £582,120 for regulatory failures",
+    "raw_summary": "",
+    "published_at": "2024-04-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Bet365"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A major UK operator was fined over half a million pounds for regulatory failings, signalling ongoing Gambling Commission compliance scrutiny.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "58e25df85a437ab1b5c603e041893168fabab29f716cfb82611d4027702848ae",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/illegal-gambling-den-raided",
+    "title": "Illegal gambling den raided",
+    "raw_summary": "",
+    "published_at": "2024-03-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Shows regulator/police action against unlicensed gambling operations, signalling enforcement priorities though lacking named entities or detail.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "4a3647e941319d9644337f20262ae5107524f8c64cbc46b03a3fc75d0110c8be",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gbp6m-fine-for-online-operator-gamesys",
+    "title": "£6m fine for online operator Gamesys",
+    "raw_summary": "",
+    "published_at": "2024-01-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Gamesys"
+    ],
+    "newsworthiness_score": 82,
+    "why_it_matters": "A £6m Gambling Commission fine against a major operator signals tougher enforcement and compliance expectations across the sector.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gamesys"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "7fd4f3f8500ccf90de7e7e7e51727a31edf43108d60317847feca786d7813dd5",
+    "source": "companies_house",
+    "source_id": "MzQzMTA0MTgwNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQzMTA0MTgwNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-08-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with no updates, minimal newsworthiness but confirms bet365's continued corporate compliance status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "dd1822b6598b4cdf69216201b7fcff537e1486aaa34003937687c48bbc36b522",
+    "source": "companies_house",
+    "source_id": "MzQwNTY1NTQ5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzQwNTY1NTQ5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2024-01-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Financial disclosures from bet365, the UK's largest private betting operator, offer insight into sector performance and its dominant market position.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "aaf305e6e8acb01b93577ceb0304f49166720ea7ffab95cd3f7ee4ba136d8515",
+    "source": "companies_house",
+    "source_id": "MzQyODYzMDY2OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQyODYzMDY2OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2024-07-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A new charge against Entain's UK holding entity could signal financing activity worth monitoring for wider corporate or lending implications.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "bd1a65bdc41985fb6e8eb3183f552aee6b97161c9e151b0abc1554304827423b",
+    "source": "companies_house",
+    "source_id": "MzQyNzM5MDY4NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQyNzM5MDY4NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2024-07-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A change in significant control at Entain's UK entity may signal internal restructuring worth monitoring for ownership or governance shifts.",
+    "category": "PSC/ownership change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "cad056df1eaf49ab1b4604f0dc526c23ef90609c9c06f2b7b91f916ef2f1b50e",
+    "source": "companies_house",
+    "source_id": "MzQwODkwNjM4NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzQwODkwNjM4NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2024-01-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with minor operational relevance for tracking Entain's corporate structure, but no substantive news content.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "f34b21d6f7a92fffb42461db42e4c1763ecfda1070081674ecb3ac8422e005d2",
+    "source": "companies_house",
+    "source_id": "MzQyODYzMDk3NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQyODYzMDk3NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2024-07-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A registered charge against Ladbrokes Coral could signal financing or restructuring activity worth monitoring within the wider Entain group.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "21d407e0ea25549c00105cd89d74cbe0e8180972c3ccf6f13ccf5dad4306fc6a",
+    "source": "companies_house",
+    "source_id": "MzQwNzYyMjI3NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzYyMjI3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-01-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming the entity remains active.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "907ce17f922047c4becacb56142420a899532cb5c70f9cfe6ba7772ea3e85819",
+    "source": "companies_house",
+    "source_id": "MzQwNzExNjIyMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzExNjIyMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2024-01-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A change in significant control at a major bookmaker could signal ownership shifts worth monitoring for M&A implications.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "8fb63d557d3bdd5d371faf91560c9d2d7f18199da11a89d9735d724692188d01",
+    "source": "companies_house",
+    "source_id": "MzQwNzExNTk1MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQwNzExNTk1MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: CH04 · Description: Change corporate secretary company with change date",
+    "published_at": "2024-01-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine administrative filing with low editorial value unless linked to wider governance or ownership changes at Entain.",
+    "category": "corporate secretary change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "63ffb4020e6b5918e5d464e502a0f0cd6832f78d74ec709602b933af9c39c040",
+    "source": "companies_house",
+    "source_id": "MzQyNzY3NDU1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQyNzY3NDU1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2024-07-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine accounts filing for a major bookmaker, useful for tracking financial health but not inherently newsworthy alone.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "8e02f060254d2986748ef01636bd1f5fe6b1d8f2760cbcd293737f12a7d5eec0",
+    "source": "companies_house",
+    "source_id": "MzQyNTYwMzkwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQyNTYwMzkwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-06-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no updates, of minimal interest beyond standard compliance record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "966d77e81f498d16ba32adce3428c85a4f2d688b4026d1074fc3f9acc937e860",
+    "source": "companies_house",
+    "source_id": "MzQxOTg2ODEzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQxOTg2ODEzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2024-04-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing gives limited insight into William Hill's operations unless linked to wider governance changes.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "789d16baff7834d4b0802074905f7b8b7b111aeb7ccb0a2faa013255f7ec8149",
+    "source": "companies_house",
+    "source_id": "MzQxMTU1NzAzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQxMTU1NzAzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2024-02-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine board change filing at William Hill offers minor governance signal but little immediate industry impact.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "5b8d747a714c442ae4840938797f05d1388558838192a1eb57dab8b0f0b46600",
+    "source": "companies_house",
+    "source_id": "MzQwOTYyMzk1NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQwOTYyMzk1NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2024-02-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at William Hill could signal leadership or strategy shifts worth monitoring for the operator.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "b508b372a365eec38121178c892b17e1d81f8151d8ff20763076073f7393269e",
+    "source": "companies_house",
+    "source_id": "MzQ0ODMyMjY4MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQ0ODMyMjY4MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2024-12-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full-year accounts from a major Flutter-owned betting brand can reveal UK revenue and profitability trends for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "fb2c0bf1e93122e5a3f1eed813eee14367a3c991bbff097f0389ba03a5438f07",
+    "source": "companies_house",
+    "source_id": "MzQzODk0OTIzOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQzODk0OTIzOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-10-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine Companies House confirmation statement with no updates, offering minimal news value for industry watchers.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "3dd2fc0611010876f30cbd301d6f1b6383c3b666bdff6fa619de991a7b04d9e2",
+    "source": "companies_house",
+    "source_id": "MzQzMDk5ODU2OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQzMDk5ODU2OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2024-08-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates, minimal editorial value beyond corporate record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "f500a54c1b49581a4a49a63bd9c27954d4f6790203f2eaf165d6cecb53f539e9",
+    "source": "companies_house",
+    "source_id": "MzQyODkwODc5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQyODkwODc5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2024-07-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine company secretary termination filing at Betfair Limited has minor administrative relevance but no operational or regulatory impact.",
+    "category": "officer filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "969a38135c2103e55eef4227c64fa58005ff3118e75812715702ee8ce208580c",
+    "source": "companies_house",
+    "source_id": "MzQyODkwNDI5OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQyODkwNDI5OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2024-07-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine officer filing at Betfair Limited offers minor corporate housekeeping detail but no material regulatory or business impact.",
+    "category": "company secretary appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "438cd7a3506b39fe8e2a3c75ee519f1d9e49755b728b1243b208aabc5b34017b",
+    "source": "companies_house",
+    "source_id": "MzQwNDk4Njc4OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzQwNDk4Njc4OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2024-01-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full accounts filing may reveal financial performance details for a major gambling brand under Flutter's umbrella.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "43ca6078de567b44ab708bf9061260774ad21114373764601058d5bd644a06d5",
+    "source": "gazette",
+    "source_id": "4724725",
+    "source_url": "https://www.thegazette.co.uk/notice/4724725",
+    "title": "G.W.CARRIGILL LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: G.W.CARRIGILL LIMITED Company Number: 00742472 Nature of Business: Gambling and betting activities …",
+    "published_at": "2024-10-14T01:03:43+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "G.W.Carrigill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A licensed gambling business entering liquidation may signal wider sector distress and affect creditors, staff and licence status.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "G.W.Carrigill"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "b34138e9763f3837ca12cd84ec2794f70c92d6b62d14516e98efb61d7bb858d3",
+    "source": "gazette",
+    "source_id": "4601064",
+    "source_url": "https://www.thegazette.co.uk/notice/4601064",
+    "title": "PCA TRANSPORT LTD and other companies",
+    "raw_summary": "Final Meetings: …ANSPORT LTD (Company Number NI633273 ) MOURNE CEILINGS LIMITED (Company Number NI625289 ) S.P. BOYLE BOOKMAKERS LIMITED …",
+    "published_at": "2024-04-12T12:01:29+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "PCA TRANSPORT LTD",
+      "MOURNE CEILINGS LIMITED",
+      "S.P. BOYLE BOOKMAKERS LIMITED"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small bookmaker's final liquidation meeting signals company closure, of minor interest to gambling sector trackers.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "PCA TRANSPORT",
+      "MOURNE CEILINGS",
+      "S.P. BOYLE BOOKMAKERS"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d65990e0a33eabb542cc5fa40398bceb1ca4cb90e7d46d28aeac61cce11846de",
+    "source": "gazette",
+    "source_id": "4757402",
+    "source_url": "https://www.thegazette.co.uk/notice/4757402",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Resolutions for Winding-up: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2024-11-20T17:31:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A voluntary winding-up of a casino equipment supplier signals financial distress within the gambling supply chain.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Martin Williams Casino Equipment"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "0061792f645c6fff32ebc507218f1cda2544ff260aa74d7fa647bd170b789966",
+    "source": "gazette",
+    "source_id": "4757401",
+    "source_url": "https://www.thegazette.co.uk/notice/4757401",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 03138964 Name of Company: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2024-11-20T17:31:34+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A casino equipment supplier entering liquidation could signal wider financial pressure in the gambling supply chain.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Martin Williams Casino Equipment"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "05e7c399d0ff4cdc3d711981d1d4682cbb3f57045a6a3918a9b599aa52c5347f",
+    "source": "gazette",
+    "source_id": "4752736",
+    "source_url": "https://www.thegazette.co.uk/notice/4752736",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LTD",
+    "raw_summary": "Meetings of Creditors: MARTIN WILLIAMS CASINO EQUIPMENT LTD …",
+    "published_at": "2024-11-13T17:30:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A casino equipment supplier's creditors meeting signals potential financial distress affecting gambling industry supply chains.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Martin Williams Casino Equipment"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "696e5b947091f2e896067c4cc7cc43c821cca9d8e89f6f9cc4a12ee757a2fadc",
+    "source": "gazette",
+    "source_id": "4745420",
+    "source_url": "https://www.thegazette.co.uk/notice/4745420",
+    "title": "SPN LIFESTYLE LIMITED",
+    "raw_summary": "Appointment of Liquidators: …E LIMITED Company Number: 10152601 Nature of Business: Fitness facilities Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-11-05T01:08:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SPN Lifestyle Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A fitness company's liquidation appears unrelated to gambling despite its 'Old Casino' address, offering minimal relevance to the sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "SPN Lifestyle"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "71a3df5e30e6b37a8c6e1a570d302e41165d48aaa432309f528af50ff17e8fde",
+    "source": "gazette",
+    "source_id": "4745315",
+    "source_url": "https://www.thegazette.co.uk/notice/4745315",
+    "title": "SPN LIFESTYLE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: SPN LIFESTYLE LIMITED (Company Number 10152601 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-11-05T01:06:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SPN Lifestyle Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up resolution for a small firm with no confirmed gambling licence link has minimal relevance to the sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "SPN Lifestyle"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "8928cc2f33f07e67a738c311800e97a4a66f6726ea44d6a125dcbd4d1821fb49",
+    "source": "gazette",
+    "source_id": "4742415",
+    "source_url": "https://www.thegazette.co.uk/notice/4742415",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Notices to Creditors: S. & K. HARRIS PROPERTIES LIMITED (Company Number 01690464 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in the process of being changed to Suite 2, 2nd Floor, Phoenix House, 32 West …",
+    "published_at": "2024-11-01T01:10:55+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. Harris Properties Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A property firm's creditor notice with no discernible link to gambling operators has negligible relevance to the sector.",
+    "category": "creditors notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "S. & K. Harris Properties"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "9e838d5013fea3297406ceca2a6327aba38e4e63dd8b4bbedda6f896ee9f5e90",
+    "source": "gazette",
+    "source_id": "4742224",
+    "source_url": "https://www.thegazette.co.uk/notice/4742224",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Appointment of Liquidators: …ure of Business: Other letting and operating of own or leased real estate Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ in the process of being changed to Suite 2, 2nd Floor, Phoenix Hou…",
+    "published_at": "2024-11-01T01:06:48+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. Harris Properties Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A real estate letting firm's liquidation has minimal direct relevance to gambling despite its 'Old Casino' address, offering little industry signal.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "S. & K. Harris Properties"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "1848569e3f11af2dc58b65bfbfff707d00ea0a12230a766cbbdb14783cdbc884",
+    "source": "gazette",
+    "source_id": "4742195",
+    "source_url": "https://www.thegazette.co.uk/notice/4742195",
+    "title": "S. & K. HARRIS PROPERTIES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: S. & K. HARRIS PROPERTIES LIMITED (Company Number 01690464 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove BN3 2PJ to be changed to Suite 2, 2nd Floor, Phoenix House, 32 West Street, Brighton, B…",
+    "published_at": "2024-11-01T01:06:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S. & K. HARRIS PROPERTIES LIMITED"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A minor property company's voluntary winding-up has negligible relevance to the gambling sector despite the 'Old Casino' address.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "S. & K. HARRIS PROPERTIES"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "91af492291fbf48ff94ce28a1ec55886efebd65c83942605a2fb8d2e4ab59763",
+    "source": "gazette",
+    "source_id": "4732095",
+    "source_url": "https://www.thegazette.co.uk/notice/4732095",
+    "title": "RUBIX VT LTD",
+    "raw_summary": "Resolutions for Winding-up: RUBIX VT LTD (Company Number 09245547 ) Registered office: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2024-10-23T01:06:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RUBIX VT LTD"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A company voluntary winding-up filing with no clear gambling-sector connection beyond its registered office address name.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "RUBIX VT"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "29a50d6ac683139737d4bf745953f51a2ed41346d1612e7017193ab6f92cac31",
+    "source": "gazette",
+    "source_id": "4755410",
+    "source_url": "https://www.thegazette.co.uk/notice/4755410",
+    "title": "BINGO SKIP LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): In the High Court of Justice CR-2024-CR-2024-006140 In the matter of BINGO SKIP LTD …",
+    "published_at": "2024-11-19T00:10:43+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Skip Ltd"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up petition against a company named Bingo Skip Ltd may be of marginal interest if it has any gambling-sector link, though this is unconfirmed.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Bingo Skip"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "efcd3ab0c7004f65093d56cfa6188bf643725a89b17ff83ca9ab9fa3a5ddc3b2",
+    "source": "gazette",
+    "source_id": "4676260",
+    "source_url": "https://www.thegazette.co.uk/notice/4676260",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Notices to Creditors: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:03:09+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club entering creditor proceedings signals financial distress in the UK land-based bingo sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Empire (Garston) Bingo Club"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "8ac698a2189a9945efd77852319a8ae6edb15e8a17966513eb76965353afabb8",
+    "source": "gazette",
+    "source_id": "4676195",
+    "source_url": "https://www.thegazette.co.uk/notice/4676195",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Resolutions for Winding-up: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:02:00+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club's winding-up resolution signals operator distress worth tracking in the UK gambling sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Empire (Garston) Bingo Club"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "7ec05f63b5aa97e462a042a13f95ab86b7e35279daeec088f7e627081677e03b",
+    "source": "gazette",
+    "source_id": "4676194",
+    "source_url": "https://www.thegazette.co.uk/notice/4676194",
+    "title": "EMPIRE (GARSTON) BINGO CLUB LIMITED(THE)",
+    "raw_summary": "Appointment of Liquidators: Name of Company: EMPIRE (GARSTON) BINGO CLUB LIMITED(THE) …",
+    "published_at": "2024-08-02T01:01:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Empire (Garston) Bingo Club Limited (The)"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A licensed bingo club entering liquidation signals financial distress in the land-based gambling sector, relevant to industry trend-watchers.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Empire (Garston) Bingo Club"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6577bcb2935c5ed847e486284548f7376c79e4f0106da908db116e1820ae9ad6",
+    "source": "gazette",
+    "source_id": "4623099",
+    "source_url": "https://www.thegazette.co.uk/notice/4623099",
+    "title": "CLARENCE COOPER & CO. LIMITED",
+    "raw_summary": "Winding-Up Orders: CLARENCE COOPER & CO. LIMITED (Company Number 04986380 ) Registered office: The Pavillion …",
+    "published_at": "2024-05-16T08:40:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No evident link to gambling; a generic insolvency notice with no clear relevance to the sector.",
+    "category": "winding-up order",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Clarence Cooper &"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "91d93a67cdd0dbde47ff1aacba9324e69d236566260503163ba289768288ba95",
+    "source": "gazette",
+    "source_id": "4619834",
+    "source_url": "https://www.thegazette.co.uk/notice/4619834",
+    "title": "STONEY LANE LIMITED",
+    "raw_summary": "Appointment of Liquidators: … LIMITED Company Number: 09768876 Nature of Business: Licensed restaurants Previous Name of Company: Bingo Forever Ltd …",
+    "published_at": "2024-05-09T01:04:41+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stoney Lane Limited",
+      "Bingo Forever Ltd"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A company formerly trading as Bingo Forever Ltd has entered liquidation, a minor data point for tracking gambling-sector business failures.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Stoney Lane",
+      "Bingo Forever"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "979e09314e2294113eeefb7070c2b197115a070e5a1c3d9e9a716198c6a218a0",
+    "source": "gazette",
+    "source_id": "4619791",
+    "source_url": "https://www.thegazette.co.uk/notice/4619791",
+    "title": "STONEY LANE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: STONEY LANE LIMITED (Company Number 09768876 ) Previous Name of Company: Bingo Forever Ltd …",
+    "published_at": "2024-05-09T01:03:55+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stoney Lane Limited",
+      "Bingo Forever Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A company formerly trading as Bingo Forever has filed for winding-up, signalling potential operator distress in the gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Stoney Lane",
+      "Bingo Forever"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f2cc5e4501bb926ea1011eedb1b55112e65c612f2f6825c1cc3d6c4ec8375521",
+    "source": "gazette",
+    "source_id": "4614774",
+    "source_url": "https://www.thegazette.co.uk/notice/4614774",
+    "title": "CLARENCE COOPER & CO. LIMITED",
+    "raw_summary": "Winding-Up Orders: CLARENCE COOPER & CO. LIMITED (Company Number 14035347 ) Registered office: The Pavillion …",
+    "published_at": "2024-05-03T08:00:15+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up order for a company with no evident gambling-sector link has minimal relevance to UK gambling industry news.",
+    "category": "winding-up order",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Clarence Cooper &"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "fae109c096a7d1eb0c9c87e3b7990fd41c19e9af69f2d16d69da6137c26949f7",
+    "source": "gazette",
+    "source_id": "4613629",
+    "source_url": "https://www.thegazette.co.uk/notice/4613629",
+    "title": "THENEWROXYBAR LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: …, Surtees Business Park, Stockton-On-Tees, TS18 3HR Principal trading address: Trading Address: Roxy Bingo Hall, Wharf Street, Sowerby Bridge, West Yorkshire, United Kingdom, HX6 2AE …",
+    "published_at": "2024-04-29T13:00:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "THENEWROXYBAR LIMITED",
+      "Roxy Bingo Hall"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A bingo hall operator's insolvency filing may signal financial distress in the UK bingo sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "THENEWROXYBAR",
+      "Roxy Bingo Hall"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "74582932feb1be459bf4ff43ef92acddc6777cf158bedbb0c27ac585726189e6",
+    "source": "gazette",
+    "source_id": "4601100",
+    "source_url": "https://www.thegazette.co.uk/notice/4601100",
+    "title": "CLARENCE COOPER & CO. LIMITED ",
+    "raw_summary": "Petitions to Wind Up (Companies): … 1986 A Petition to wind up the above-named Company, Registration Number 14035347, of ,The Pavillion Bingo , 15 Main Street, Ferryhill, United Kingdom, DL17 8LA, …",
+    "published_at": "2024-04-12T00:11:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited",
+      "The Pavillion Bingo"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A winding-up petition against a bingo hall operator signals potential financial distress in the UK gambling venue sector.",
+    "category": "insolvency/winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Clarence Cooper &",
+      "The Pavillion Bingo"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "372e867d73fa9aa22144b4560d22e298d4e22118556001a9310fdd0bbcba6887",
+    "source": "gazette",
+    "source_id": "4554166",
+    "source_url": "https://www.thegazette.co.uk/notice/4554166",
+    "title": "CLARENCE COOPER & CO. LIMITED ",
+    "raw_summary": "Petitions to Wind Up (Companies): …of CLARENCE COOPER & CO. LIMITED (Company Number 14035347 ) Principal trading address: The Pavillion Bingo , 15 Main Street, Ferryhill, United Kingdom, DL17 8LA …",
+    "published_at": "2024-02-16T00:10:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Clarence Cooper & Co. Limited",
+      "The Pavillion Bingo"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A winding-up petition against a licensed bingo hall operator signals potential financial distress in the retail gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Clarence Cooper &",
+      "The Pavillion Bingo"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "df9e2bbf777e73aeef123848a9dbf885d96548b12355311777d7cad912ae6187",
+    "source": "gazette",
+    "source_id": "4526409",
+    "source_url": "https://www.thegazette.co.uk/notice/4526409",
+    "title": "THENEWROXYBAR LIMITED",
+    "raw_summary": "Resolutions for Winding-up: THENEWROXYBAR LIMITED (Company Number 13966336 ) Registered office: Roxy Bingo Hall, Wharf Street, Sowerby Bridge, West Yorkshire HX6 2AE …",
+    "published_at": "2024-01-08T01:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "THENEWROXYBAR LIMITED",
+      "Roxy Bingo Hall"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A UK bingo hall operator's voluntary winding-up signals possible financial distress in the land-based bingo sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "THENEWROXYBAR",
+      "Roxy Bingo Hall"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "ea8e671402096c734ce7493a9131f1075d2b37d56a75a535a6dc4ff5fd53c22c",
+    "source": "parliament",
+    "source_id": "CD839663-BF7F-45C5-AD71-57EEE93C856F",
+    "source_url": "https://hansard.parliament.uk/Commons/2024-12-10/debates/CD839663-BF7F-45C5-AD71-57EEE93C856F/GamblingrelatedCrimeSupportforVictims",
+    "title": "Gambling-related Crime: Support for Victims",
+    "raw_summary": "Commons Chamber debate, Commons: Gambling-related Crime: Support for Victims",
+    "published_at": "2024-12-10T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "MPs discussing victim support for gambling-related crime could signal future policy or regulatory pressure on operators.",
+    "category": "parliamentary debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "b6c3e3c1d7356b2998fcc5410e99b59147dd13220980ac7a4214cb5bd37ab1b3",
+    "source": "parliament",
+    "source_id": "2B40223C-E48C-425F-8365-05CF1C3041C1",
+    "source_url": "https://hansard.parliament.uk/Commons/2024-11-28/debates/2B40223C-E48C-425F-8365-05CF1C3041C1/GamblingOperatorsLevySocietyLotteries",
+    "title": "Gambling Operators Levy: Society Lotteries",
+    "raw_summary": "Commons Chamber debate, Commons: Gambling Operators Levy: Society Lotteries",
+    "published_at": "2024-11-28T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Society Lotteries"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Parliamentary debate on the gambling levy affecting society lotteries could signal future funding or regulatory changes for the sector.",
+    "category": "levy/policy debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Society Lotteries"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "276d9d185af89c738e2871165bafbf6703cd54a63bcadd6568dd20382825092f",
+    "source": "parliament",
+    "source_id": "9BDEAC72-20D3-43F9-98AC-24F4D5C18AE8",
+    "source_url": "https://hansard.parliament.uk/Commons/2024-10-17/debates/9BDEAC72-20D3-43F9-98AC-24F4D5C18AE8/GamblingHarmfulEffects",
+    "title": "Gambling: Harmful Effects",
+    "raw_summary": "Commons Chamber debate, Commons: Gambling: Harmful Effects",
+    "published_at": "2024-10-17T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "MPs debating gambling harms signals potential policy shifts or future regulation affecting operators and affordability checks.",
+    "category": "parliamentary debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "f6824e47158ccb825222f09a10195dc6f7eb67d676f3229398434eab16e9ea52",
+    "source": "parliament",
+    "source_id": "FF1ED59E-5E19-4C62-B1DD-841765DCF15B",
+    "source_url": "https://hansard.parliament.uk/Lords/2024-04-25/debates/FF1ED59E-5E19-4C62-B1DD-841765DCF15B/GamblingAdvertising",
+    "title": "Gambling Advertising",
+    "raw_summary": "Lords Chamber debate, Lords: Gambling Advertising",
+    "published_at": "2024-04-25T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Parliamentary debate could signal future tightening of gambling advertising rules affecting operators and affiliates.",
+    "category": "gambling advertising policy debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "2469eb9b6d6efb34425b15520b2a0f7bdbcfca8bc00470f743d49caa58409363",
+    "source": "parliament",
+    "source_id": "93992E5A-AB0F-4224-BE4B-845C084FD14F",
+    "source_url": "https://hansard.parliament.uk/Commons/2024-04-18/debates/93992E5A-AB0F-4224-BE4B-845C084FD14F/GamblingOperatorsLevy",
+    "title": "Gambling Operators Levy",
+    "raw_summary": "Commons Chamber debate, Commons: Gambling Operators Levy",
+    "published_at": "2024-04-18T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Parliamentary debate on the gambling operators levy could shape how much operators pay and fund research, prevention and treatment.",
+    "category": "statutory levy/policy debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "9fa92d690b28aedfce5a3e38848d73b1e8df2ffeedfe8a762fcd6b264266a0bb",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/mobee-co-ltd-a24-1241357-mobee-co-ltd.html",
+    "title": "Mobee Co Ltd t/a Ignite Classic Slots",
+    "raw_summary": "Upheld / Social media (paid ad): Two paid-for TikTok ads for a social casino game app misleadingly implied that people could win real-world money or tangible prizes through gameplay when this wasn’t the case.",
+    "published_at": "2024-09-25T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Mobee Co Ltd",
+      "Ignite Classic Slots"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "ASA upheld a ruling that a social casino app misled TikTok users into thinking gameplay could win real money, highlighting ad compliance risks.",
+    "category": "ASA ad ruling - misleading social casino ad",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Mobee",
+      "Ignite Classic Slots"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "dcd28bd7873a7c5073dce6256fa72a9a9a51d8c2451d2251c5fc516dd751d28d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/whg--international--ltd-a24-1242050-whg--international--ltd.html",
+    "title": "WHG (International) Ltd t/a William Hill Online",
+    "raw_summary": "Upheld / Internet (sponsored search): A paid-for search ad and a website for William Hill advertising a new customer welcome bonus misled consumers by failing to include all significant conditions of the promotion and by not positioning the conditions prominently.",
+    "published_at": "2024-07-31T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "William Hill",
+      "WHG (International) Ltd"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A major operator was found to have misled consumers via a bonus promotion, highlighting ongoing ad-compliance risks in gambling marketing.",
+    "category": "ASA ruling - misleading advertising",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited",
+      "WHG"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "fc9842a7ba18f52c540884fc598001190324081c5237597bd29b63088c9bb94d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/gb-sports-advisors-ltd-a24-1242810-gb-sports-advisors-ltd.html",
+    "title": "GB Sports Advisors Ltd t/a Geoff Banks Online",
+    "raw_summary": "Upheld / Internet (on own site): A website ad offering a free bet failed to include all the significant conditions of the promotion.",
+    "published_at": "2024-07-17T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "GB Sports Advisors Ltd",
+      "Geoff Banks Online"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "An ASA ruling against a bookmaker for hiding free bet terms highlights ongoing compliance risks in gambling promotions.",
+    "category": "advertising standards breach",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "GB Sports Advisors",
+      "Geoff Banks Online"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "22e38b9083e47954788f98bcd8b6af74d4f3cce8afc092a50aae059eaf0d8703",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/237",
+    "title": "Fairbetter Limited",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2024-12-12T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923537+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Fairbetter Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A gambling operator lost its UK licence, signalling regulatory failure that removes it from the market and warns other operators.",
+    "category": "licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Fairbetter"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "7bef7d987bf6263335e79792558230fc04178a9ca5934f35851904e34c89b920",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/236",
+    "title": "Amatic Industries Gmbh",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-12-03T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923540+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Amatic Industries GmbH"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission financial penalty against a licensed supplier signals compliance failings and possible wider industry scrutiny.",
+    "category": "AML/regulatory enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Amatic Industries GmbH"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "0959e0accab94e20af560de701ba64ae9a2401b76c486fb24c7ae2851bd89a72",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/235",
+    "title": "Sportito SRL",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-11-07T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923560+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Sportito SRL"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "A UK Gambling Commission financial penalty signals compliance failings, warning other operators and affiliates of enforcement risk.",
+    "category": "AML/licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sportito SRL"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "0a0b911fb093cbf3b9c71774e174b68f4d858b887fb2130040d53c3cf56a89d5",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/234",
+    "title": "Clacton Pier Company Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-10-10T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923563+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Clacton Pier Company Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, warning other operators of enforcement risk and standards expected.",
+    "category": "AML/compliance enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Clacton Pier"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "bf101e2f113be28a923fabfdc050900e04f984f814b0ddccdc00c58f84c20524",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/233",
+    "title": "DK Crown Holdings Inc",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-09-12T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923566+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "DK Crown Holdings Inc"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, warning other operators about similar regulatory risks.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DK Crown"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "5365ef57be2718856d7f1b5b3656919796a20e9464591f8c8916548ea89ceb20",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/231",
+    "title": "Goode Michael Edward",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-09-02T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923569+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Goode Michael Edward"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual received a formal warning from the Gambling Commission, signalling personal licence enforcement activity in the sector.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Goode Michael Edward"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "e7b10ea3c185ebee871f5dae127c316a46270429d5b5eb1c4005ffbfa62b539a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/232",
+    "title": "Lee Charles Nicholas",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-08-30T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923572+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Lee Charles Nicholas"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual received a Gambling Commission warning, signalling personal licence compliance enforcement worth tracking for industry patterns.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lee Charles Nicholas"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "a170e0456ac66d94584f6b305bf97edcca2a65276f2e9fb4dcd54273e2cf54ec",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/229",
+    "title": "888 UK Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-08-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923575+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "888 UK Limited"
+    ],
+    "newsworthiness_score": 75,
+    "why_it_matters": "A UK Gambling Commission fine against 888 signals ongoing compliance failures and reputational risk for a major licensed operator.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "9f0f65019c973db9ce1c5b7b63437907fcdc361e3997b3b388e69d50536ed570",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/230",
+    "title": "Curley Matthew Christopher",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2024-08-09T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923578+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Curley Matthew Christopher"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A personal licence revocation signals Gambling Commission enforcement action against an individual, relevant to fitness-and-propriety scrutiny in the sector.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Curley Matthew Christopher"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "7297291eed04ac1f2e5bf12ec226122535f64284a972e144c22541e98b3c9efb",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/228",
+    "title": "Jungle X UK Limited",
+    "raw_summary": "Sanction: Financial penalty and Warning",
+    "published_at": "2024-07-26T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923580+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Jungle X UK Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A UK Gambling Commission financial penalty signals compliance failings, warning other operators about regulatory risk and enforcement priorities.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Jungle X"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "833d6f9767e0121081183eedc9692fb824ece239bacdea9cc6a3059cdaa96184",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/227",
+    "title": "Moir Philip Keith Walker",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-05-24T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923585+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Moir Philip Keith Walker"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A named individual received a formal warning from the Gambling Commission, signalling personal licence holder compliance enforcement.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Moir Philip Keith Walker"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "cccf30b8e07fd360a366df88992ae219089380c12a4c4eab964fbd0860e61cef",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/226",
+    "title": "GiveCircle Limited",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-04-25T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923590+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "GiveCircle Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A Gambling Commission warning signals compliance failings, useful precedent for operators and lotteries monitoring regulatory enforcement trends.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "GiveCircle"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "8f5789346e2c5a9028d5abbee66cc41209e40cbf2dca5a62c53854280e075ecd",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/224",
+    "title": "Hillside (UK Gaming) ENC",
+    "raw_summary": "Settlement: Payment in lieu of financial penalty, Commission costs and Public statement",
+    "published_at": "2024-04-04T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923594+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Hillside (UK Gaming) ENC"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "A Gambling Commission settlement involving payment in lieu of a penalty signals compliance failings at a licensed operator, relevant to sector risk monitoring.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Hillside (UK Gaming) ENC"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "f4bbf578863e49b90511334d0f6f14dfda48a120bf6b81c50e105648965496f2",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/225",
+    "title": "Hillside (UK Sports) ENC",
+    "raw_summary": "Settlement: Payment in lieu of financial penalty, Commission costs and Public statement",
+    "published_at": "2024-04-04T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923597+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Hillside (UK Sports) ENC"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A licensed operator's settlement with the Gambling Commission signals compliance failings and may foreshadow similar action against peers.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Hillside (UK Sports) ENC"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "34b1cb1dd0733e3d083a6f1b47127faa63612a49b3ada34126909cc908826588",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/221",
+    "title": "Meckenzie Roy",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-04-03T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923599+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Meckenzie Roy"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Shows Gambling Commission enforcement action against an individual licence holder, relevant for tracking regulatory compliance trends.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Meckenzie Roy"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "2d2f90eb5549046b864dab913540d970d250cc9cf578723db48ebf21a3f18eb2",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/222",
+    "title": "Dikov Valentin Bonchev",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-04-03T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923602+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Dikov Valentin Bonchev"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual received a Gambling Commission warning, signalling personal licence conduct enforcement worth tracking for compliance patterns.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Dikov Valentin Bonchev"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "41f749aceb50873570bee77ef91f6e0d37e7b9096bfd23140c2188ce4ac75e5f",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/223",
+    "title": "Everymatrix Technology (UK) Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2024-04-03T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923605+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Everymatrix Technology (UK) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A Gambling Commission financial penalty against a licensed supplier signals compliance failings that could affect operator partnerships and licensing scrutiny.",
+    "category": "AML/regulatory enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Everymatrix Technology"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "e70008b2ae02065e8922533078dfc3b99bf0807b8812cf418279f9891cf527ba",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/218",
+    "title": "Hoskin Robert Grant",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923608+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Hoskin Robert Grant"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A named individual received a Gambling Commission warning, signalling possible personal management licence compliance issues in the sector.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Hoskin Robert Grant"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "6f0a138cc1cceb44039d7cef54438b9e4660c034d501d8899fe646cd17ff835e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/219",
+    "title": "Buttigieg Paul",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923613+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Paul Buttigieg"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Shows the Gambling Commission continues to sanction individual licence holders, signalling ongoing personal accountability enforcement in the sector.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Paul Buttigieg"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "9035744d75ab3d7bff252b5c7ecfa5d6bc1dd1780ef4659ec184e0ca9421347a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/220",
+    "title": "Reynolds Simon Ashley",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923615+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Reynolds Simon Ashley"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A named individual received a Gambling Commission warning, signalling personal licence enforcement action relevant to industry compliance trends.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Reynolds Simon Ashley"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "ca6226acdfbaf0156aa4dce062dedb63ce1a9be5873c5b9712e3586837428e28",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/217",
+    "title": "Banbury Neil Thomas",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-02-14T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923620+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Neil Thomas (Banbury)"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named personal licence holder received a Gambling Commission warning, signalling compliance issues journalists tracking enforcement trends should note.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Neil Thomas"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "ae21e5188c260b4787da69ec7f8d0bfdc526dd445af68e032adafbb668e3ee4d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/214",
+    "title": "Cook Timothy Simon Stuart",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-02-13T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923623+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Timothy Simon Stuart Cook"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual received a formal warning from the Gambling Commission, signalling personal licence compliance risk within the sector.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Timothy Simon Stuart Cook"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "657a920cc01f87f95ec1362d93cdff3e0c9e3479753a30b2f77700340933cac4",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/215",
+    "title": "Templeman Stephen Francis",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-02-08T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923626+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Stephen Francis Templeman"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A named individual received a Gambling Commission warning, signalling personal licence enforcement worth monitoring for compliance trends.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Stephen Francis Templeman"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "3baf809cbec599410faa523eb31a4fdd8426a318c46a73ab622fcc3f192b101e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/216",
+    "title": "Munro Neil Alan",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-02-08T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923629+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Munro Neil Alan"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shows the Gambling Commission actively sanctioning individuals, signalling ongoing enforcement of personal licence conduct standards.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Munro Neil Alan"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "d80f2491cc58e462f550716f4c7cf31528d9791e59c4ba4a21c7620f1c46b18e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/212",
+    "title": "SCHLEP Games, Inc.",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-01-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923632+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "SCHLEP Games, Inc."
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A Gambling Commission warning signals compliance failings, useful for tracking operator enforcement patterns even without financial penalty.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "SCHLEP Games"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "6070496533ca092d445457c5464b6ab2796f25f3c37aba6681f6392500f254a9",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/213",
+    "title": "SCHLEP Games, Inc.",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2024-01-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923634+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "SCHLEP Games, Inc."
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A Gambling Commission warning against a named licensee signals compliance concerns worth tracking for enforcement patterns.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "SCHLEP Games"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "9bd96b998e11b4bb14a8516bf6c511768324b00485b9efd57278dacc62d448f9",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/directorate-change/8584340",
+    "title": "Rank Group: Directorate Change",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-12-02T10:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926648+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Leadership changes at major operator Rank Group can signal strategic shifts affecting its casino and bingo operations.",
+    "category": "board/directorate change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "f5362c5085d1c321c5b999ad3e886ed182472d95e9c13567b291b6f3ab7ad91f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8495646",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-10-18T14:53:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926650+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Insider share transactions can hint at executive sentiment on Rank Group's outlook, of interest to investors and analysts.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "2e153cbd5b1dc0b7c47b3abd495d959b5eec5e381993f48e7f48062c3fd31d17",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8493026",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-10-17T14:52:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926653+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "PDMR shareholding disclosures can signal insider sentiment at a major UK-listed casino and bingo operator.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "2171bdcae9598e9e8ef09f48fea5c5d3d2233c22346559ae887b47b3b50c5320",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/result-of-agm/8493012",
+    "title": "Rank Group: Result of AGM",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-10-17T14:47:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926656+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Confirms shareholder approvals and governance status at a major UK-listed casino and bingo operator.",
+    "category": "AGM results",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "5c10ee92a159f523ff189411ba5d62eb591f767e21682d682c4a84b6b2b5d8c6",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/trading-statement/8491007",
+    "title": "Rank Group: Trading Statement",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-10-17T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926660+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Rank Group's trading statement offers insight into the financial health of a major UK gambling operator, relevant to investors and competitors.",
+    "category": null,
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "2d59d131cc4610e2b8a39dd8f911093e36a4e51c3f29b7f4aa982424069ab2e5",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8439011",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-09-25T12:13:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926663+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine PDMR shareholding disclosure offers limited insight but confirms insider activity at a major UK-listed gambling operator.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "26c7d56871f98109715e1e3043228109f928fe1517e1774653b1040741b61926",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/notice-of-agm-and-2024-annual-report/8417224",
+    "title": "Rank Group: Notice of AGM and 2024 Annual Report",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-09-16T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926668+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine annual reporting from a major UK-listed gambling operator, useful for tracking corporate governance and financial health.",
+    "category": "AGM/accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "2ce55eb7ab8c90a49aaceb117d97e615ecd174598cab659892646cdcaae0b33a",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8380123",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-08-22T10:07:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926672+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine PDMR shareholding disclosure offers minor insight into insider sentiment at Rank Group but carries limited news value.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "81797decbad97d8e6927f749651672a8ecac8b5e6d40f42d77762ae742b4f68b",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8371941",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-08-19T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926675+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine PDMR disclosure gives limited insight into insider sentiment at a major UK-listed gambling operator.",
+    "category": "director shareholding",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "ecec7f10c77b1d76574d10f53356f84b9780492e1f4f6e7cd39143649a66a904",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/final-results/8367574",
+    "title": "Rank Group: Final Results",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-08-15T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926678+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Rank Group's full-year results reveal financial health and strategy of a major UK-listed casino and bingo operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "4768e33ce0ca1e1911971f2296e4a603528606d2788cedea2596e4aaeb57fdcf",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/notice-of-results/8325728",
+    "title": "Rank Group: Notice of Results",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-07-23T09:16:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926680+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Rank Group's financial results offer insight into performance trends for a major UK bingo and casino operator.",
+    "category": "results announcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "55eb6e452624837f7e6f9e2ccd6a424bcaed920ce436016be11fe3732193b3e0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/land-based-legislative-reforms-consultation/8202408",
+    "title": "Rank Group: Land-based legislative reforms consultation",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-05-16T15:31:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926683+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals potential regulatory changes affecting Rank's casino and land-based gambling operations, relevant to sector policy tracking.",
+    "category": "land-based regulatory reform",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "1c08fada1134a8e7976d3c62563176fcdf2b3e8ba51035e14b3029910e1deb13",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/holding-s-in-company/8168551",
+    "title": "Rank Group: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-05-01T17:49:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926686+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor sentiment towards Rank Group, a key UK gambling operator.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "4a8fa410885f1bbfb11784bf6bf906fa81fb533fce2ac334dfe7e6188f2b138f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/holding-s-in-company/8165459",
+    "title": "Rank Group: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-04-30T15:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926688+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Tracks major shareholder movements in Rank Group, relevant for investors and market watchers in the gambling sector.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "6db3fa53bd7dfeee08a87478c98ca0e431d8ff2053f095d41b32d0fac2328a10",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/trading-statement/8143525",
+    "title": "Rank Group: Trading Statement",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-04-18T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926691+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Rank Group's trading update offers insight into performance trends across its casino and bingo brands, relevant to sector investors and analysts.",
+    "category": "trading statement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "ff643918ef3ce9c762241ae7f6888927971d99a2d147364a57b94d6211d75f00",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/8098485",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2024-03-20T16:15:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926694+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine PDMR shareholding disclosure offers minor insight into insider confidence at a major UK-listed gambling operator.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  }
+]

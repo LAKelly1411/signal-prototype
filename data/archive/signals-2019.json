@@ -1,0 +1,122 @@
+[
+  {
+    "id": "f3dc891c7ea7c613312eee51e82a62186bc6a211c22509d449741ecd255081dd",
+    "source": "companies_house",
+    "source_id": "MzI1MjIzNDU1MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI1MjIzNDU1MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2019-12-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Filed group accounts from major operator bet365 may reveal financial performance and tax details relevant to UK gambling market analysis.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "550e25a9b272e66155bbab6ff72bad890a043a0da92715b48d088fcf1aa2de72",
+    "source": "companies_house",
+    "source_id": "MzI0MDgyNjkzNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI0MDgyNjkzNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2019-08-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine compliance filing with Companies House, offering minimal insight into bet365's operations but confirms continued good standing.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "09554de650e6238366c2befea38d3f2346b1134f1077696ac22757aade9d38cb",
+    "source": "companies_house",
+    "source_id": "MzI0ODQ4NDgyN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI0ODQ4NDgyN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2019-11-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine full accounts filing gives limited insight but may reveal Betfair's financial position for analysts tracking the operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "48cb78c56083a02039b7541dcf11c75fd58675e4a028420c722568b403e8bb38",
+    "source": "companies_house",
+    "source_id": "MzIzNzQ3NTA4MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzIzNzQ3NTA4MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2019-06-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.602088+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine administrative filing with Companies House, offering minimal insight into Betfair's operations or strategy.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "d289e54d8aee37ec0f14c99e0a550bf713f98ab1298bfc107ba3c4a699521514",
+    "source": "companies_house",
+    "source_id": "MzIzMzk0NTI1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzIzMzk0NTI1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2019-05-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.602088+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine company secretary appointment at Betfair Limited has minimal standalone relevance to gambling industry coverage.",
+    "category": "corporate officer filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  }
+]

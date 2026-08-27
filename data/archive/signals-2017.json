@@ -1,0 +1,142 @@
+[
+  {
+    "id": "5c059253ec5b89244540e64eee648cbebb37c5371de0a6c7f1aa55ba5727a63a",
+    "source": "companies_house",
+    "source_id": "MzE4OTc0MjczOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE4OTc0MjczOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2017-11-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Financial filings from bet365, the UK's largest private betting operator, can reveal revenue and profit trends of interest to the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "9f6e9d8e241fc60e9a6116d08d48329a78d87cc42aec26460c5ea75660b505fe",
+    "source": "companies_house",
+    "source_id": "MzE4MTg5ODE5MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE4MTg5ODE5MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2017-08-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no changes offers minimal news value beyond confirming bet365's continued registration.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "0a0d6d1ec278a531c3ab2ca5546e03c70185656fd593d6946fd521dfec62edf9",
+    "source": "companies_house",
+    "source_id": "MzE3ODkyMjQ5OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzE3ODkyMjQ5OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2017-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing at bet365 offers minor corporate governance signal but limited news value on its own.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "e26bff6a8c4edc5f85d3e846542bce17c0f81cca1ab3eb333691e8b0c5063ec7",
+    "source": "parliament",
+    "source_id": "60680837-2A21-486E-81B2-B9C5886830F7",
+    "source_url": "https://hansard.parliament.uk/Commons/2017-09-14/debates/60680837-2A21-486E-81B2-B9C5886830F7/FixedOddsBettingTerminals",
+    "title": "Fixed Odds Betting Terminals",
+    "raw_summary": "Commons Chamber debate, Commons: Fixed Odds Betting Terminals",
+    "published_at": "2017-09-14T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Parliamentary debate on FOBTs signals potential regulatory tightening affecting bookmakers' machine revenue and shop viability.",
+    "category": "FOBT stake limit debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "bf7d881b8d26607b10eb5152a6979a8a2efe1d5f430c44cf4d1104c731614d96",
+    "source": "parliament",
+    "source_id": "26CE0028-19E0-49B5-AF9D-A6500B3B3FF5",
+    "source_url": "https://hansard.parliament.uk/Lords/2017-03-29/debates/26CE0028-19E0-49B5-AF9D-A6500B3B3FF5/HorseraceBettingLevyRegulations2017",
+    "title": "Horserace Betting Levy Regulations 2017",
+    "raw_summary": "Lords Chamber debate, Lords: Horserace Betting Levy Regulations 2017",
+    "published_at": "2017-03-29T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Sets the statutory betting levy rate bookmakers pay to fund horseracing, affecting operator costs and industry-racing relations.",
+    "category": "levy/policy change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "52a1dd09be4246b20dece24ead47fed202ba47f146d73308ab60099ff8ef51ea",
+    "source": "parliament",
+    "source_id": "fa0e5a5f-7bc7-4347-a4de-47334692d45e",
+    "source_url": "https://hansard.parliament.uk/Commons/2017-03-27/debates/fa0e5a5f-7bc7-4347-a4de-47334692d45e/DraftHorseraceBettingLevyRegulations2017",
+    "title": "Draft Horserace Betting Levy Regulations 2017",
+    "raw_summary": "General Committees debate, Commons: Draft Horserace Betting Levy Regulations 2017",
+    "published_at": "2017-03-27T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Sets statutory betting levy rates on bookmakers funding horseracing, affecting operators' costs and racing industry finances.",
+    "category": "levy reform",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  }
+]

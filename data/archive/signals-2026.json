@@ -1,0 +1,3484 @@
+[
+  {
+    "id": "ad93713b3097913c5b08f3aae251679a1222ead363eb38bc2a403c69373784a3",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/institute-of-licensing-gambling-conference-ian-angus-speech",
+    "title": "Institute of Licensing Gambling Conference - Ian Angus speech",
+    "raw_summary": "This speech was delivered by Director of Policy Ian Angus at the Institute of Licensing Gambling Conference on 28 April 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-04-29T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Institute of Licensing"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Senior Gambling Commission policy remarks can signal upcoming regulatory priorities affecting licensing conditions industry-wide.",
+    "category": "regulator policy speech",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Institute of Licensing"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "dc7241f9c4999803aacb1dea979683d4c22eebef08254eb3d62656fb066d2f45",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/ethical-gambling-forum-tim-miller-speech",
+    "title": "Ethical Gambling Forum - Tim Miller speech",
+    "raw_summary": "This speech was delivered by Executive Director Tim Miller at the Ethical Gambling Forum on Tuesday 28 April 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-04-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Tim Miller"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals Gambling Commission's current policy priorities and thinking, which often preview future regulatory action.",
+    "category": "regulator speech",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Tim Miller"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "93e77346adca45b3e7588d9a225087c6a129ee4c929a3e74a7787f8541f2944b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/high-court-rejects-legal-challenges-relating-to-the-national-lottery",
+    "title": "High Court rejects legal challenges relating to the National Lottery",
+    "raw_summary": "On 17 April 2026, the High Court rejected in full the claims brought by The New Lottery Company Limited (TNLC) and Northern & Shell PLC (N&S) against the Gambling Commission in relation to the award of the Fourth National Lottery Licence.",
+    "published_at": "2026-04-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "The New Lottery Company Limited",
+      "Northern & Shell PLC",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 80,
+    "why_it_matters": "Confirms the Fourth National Lottery Licence award survives legal challenge, ending years of costly uncertainty for the sector's biggest franchise.",
+    "category": "National Lottery licence litigation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "The New Lottery",
+      "Northern & Shell",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "612cf63057f68e2a56fd2d403955ea4a3b48bc030cc434b8fa498d6f59b5c9a8",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/sue-young-joins-the-commission-as-executive-director-of-operations",
+    "title": "Sue Young joins the Commission as Executive Director of Operations",
+    "raw_summary": "The Gambling Commission has appointed Sue Young as its new Executive Director of Operations.",
+    "published_at": "2026-03-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gambling Commission",
+      "Sue Young"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Senior Gambling Commission appointments can signal shifts in regulatory priorities and enforcement approach affecting operators.",
+    "category": "leadership appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Sue Young"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "eca51ff87498645229eb6761fb949ccffbd4aea5c5deb5fad3c305bdcb17a488",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/reminder-for-on-course-bookmakers-at-cheltenham-festival",
+    "title": "Reminder for on-course bookmakers at Cheltenham Festival",
+    "raw_summary": "On-course bookmakers at Cheltenham Festival are reminded of their responsibilities in holding an operating licence, particularly in relation to the prevention of money laundering and handling large amounts of cash.",
+    "published_at": "2026-03-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Cheltenham Festival",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 38,
+    "why_it_matters": "Signals regulator focus on cash handling and AML controls among on-course bookmakers ahead of a high-profile racing event.",
+    "category": "AML compliance reminder",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Cheltenham Festival",
+      "Gambling Commission"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "4c2128cc460814b30e9c4fe9e81d37930ccd60efdede1cb0ec97e8f52e5c5bef",
+    "source": "companies_house",
+    "source_id": "MzUxMTQ4NTY0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUxMTQ4NTY0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Board changes at a major UK gambling operator can signal governance shifts worth monitoring, though routine filings rarely drive coverage alone.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "5c723189ae7bbfaef8ef3e80ea90efddd7e3c6559386e05fa22f68f1342cead6",
+    "source": "companies_house",
+    "source_id": "MzUxMTQ4NTA2NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUxMTQ4NTA2NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at Entain's UK arm could signal leadership changes worth tracking at a major listed operator.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "f5ef629519a39e1dfcd3ed3a5328199c16ce4c058245fee22393fa517433f786",
+    "source": "companies_house",
+    "source_id": "MzUwMDM5NTk0OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzUwMDM5NTk0OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-01-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing confirming Entain UK's records are up to date, with no substantive news for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "f84176b0a093b375422354f710cfc61400044c0148a76f70eea7375b40fd9c78",
+    "source": "companies_house",
+    "source_id": "MzUxMTUwMjA1N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzUxMTUwMjA1N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine director termination filing offers minor governance signal for one of the UK's largest bookmakers.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "d5bb478d15443a432710cad93057a844c2cf0be6c6c44cc493912d2b24315e23",
+    "source": "companies_house",
+    "source_id": "MzUxMTUwMTAxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzUxMTUwMTAxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at a major Entain-owned licensee may signal governance or strategic changes worth monitoring.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "6ab1864919b0ce1191950d55990d9df40164918c881f2fd800b272426debb14f",
+    "source": "companies_house",
+    "source_id": "MzQ5ODI2MTkxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ5ODI2MTkxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Address filed",
+    "raw_summary": "Type: AD02 · Description: Change sail address company with old address new address",
+    "published_at": "2026-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A routine administrative filing with no operational or regulatory significance for the gambling sector.",
+    "category": "registered address change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "f442f4d0f4518afb5c66e2c61ff3e9a763091a8425dff79b8faa1d3b8b310a4c",
+    "source": "companies_house",
+    "source_id": "MzQ5ODI0NjM3MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzQ5ODI0NjM3MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement with no updates, offering minimal news value beyond corporate record-keeping.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "01be16dcf724fa8009901d85c409e4682c137a80d32a23fc90f10be111a6c10b",
+    "source": "companies_house",
+    "source_id": "MzQ5NzQ5MjU4N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzQ5NzQ5MjU4N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Change of name filed",
+    "raw_summary": "Type: RP04SH01 · Description: Legacy",
+    "published_at": "2026-01-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A name change filing for William Hill Limited could signal internal corporate restructuring worth tracking for ownership or brand implications.",
+    "category": "corporate restructuring",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Merger and acquisition",
+    "theme_id": null
+  },
+  {
+    "id": "d589b3e306b6bd5eba1ecd770df08fbacffe5a8c84d50f3a78618e796f88512f",
+    "source": "gazette",
+    "source_id": "5106998",
+    "source_url": "https://www.thegazette.co.uk/notice/5106998",
+    "title": "ASHCROFT BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: ASHCROFT BOOKMAKERS LIMITED Company Number: 05078251 Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-09T01:08:46+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Ashcroft Bookmakers Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed UK bookmaker entering liquidation may signal wider financial distress among small independent betting operators.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ashcroft Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "80a380a0c05d19113d7fc80b7765613315e1c3112a04da1f94b3607795e074aa",
+    "source": "gazette",
+    "source_id": "5104704",
+    "source_url": "https://www.thegazette.co.uk/notice/5104704",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: PALAIS BINGO LIMITED Company Number: 08728175 Nature of Business: Gambling and Betting Activities …",
+    "published_at": "2026-04-08T01:10:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bingo operator entering liquidation signals possible sector distress and prompts checks on player fund protection and licence status.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Palais Bingo"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "cebb49b024da4c153bde82dfb02e3f9927b8ad481792ff6b66133f065a6531c9",
+    "source": "gazette",
+    "source_id": "5102407",
+    "source_url": "https://www.thegazette.co.uk/notice/5102407",
+    "title": "DEADHEAT RACING LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: DEADHEAT RACING LIMITED Company Number: 08016564 Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-07T01:02:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Deadhead Racing Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A licensed gambling and betting operator entering liquidation may signal wider financial distress in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Deadhead Racing"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "9514d16afdca46f7a423373809b6753ffb460ecf67c7ca2881159aed16717033",
+    "source": "gazette",
+    "source_id": "5099733",
+    "source_url": "https://www.thegazette.co.uk/notice/5099733",
+    "title": "SANDANCER LEISURE LTD",
+    "raw_summary": "Resolutions for Winding Up: …ipal Trading Address: Truwood House , Bromfield Industrial Estate , Mold CH7 1XB Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-04-01T11:20:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sandancer Leisure Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed gambling operator entering voluntary winding up signals potential financial distress within the UK betting sector.",
+    "category": "company winding up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sandancer Leisure"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "afdbb0ce0fa5d71e3d40ebeba791568d1cfaf1a45c41f8f9e393cf176dccbc36",
+    "source": "gazette",
+    "source_id": "5099732",
+    "source_url": "https://www.thegazette.co.uk/notice/5099732",
+    "title": "SANDANCER LEISURE LTD",
+    "raw_summary": "Appointment of Liquidators: …DANCER LEISURE LTD Company Number: 06060855 Company Type: Registered Company Nature of the business: Gambling and betting activities …",
+    "published_at": "2026-04-01T11:20:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sandancer Leisure Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gambling operator entering liquidation could signal wider financial distress worth tracking in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sandancer Leisure"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "19d4dbcb535b6b78063e31527c835c23305e92f2b6d88ab19d42734ef5abe244",
+    "source": "gazette",
+    "source_id": "5060048",
+    "source_url": "https://www.thegazette.co.uk/notice/5060048",
+    "title": "RANGERS FC POOLS LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: SC584163 Name of Company: RANGERS FC POOLS LTD Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-02-20T01:07:45+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Rangers FC Pools Ltd"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A football club-linked gambling entity entering liquidation could signal wind-down of a betting operation tied to Rangers FC.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rangers FC Pools"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "acd694ddaee82639426e5364ef993ad714b783e9392459abb5eb744192e1e30b",
+    "source": "gazette",
+    "source_id": "5103197",
+    "source_url": "https://www.thegazette.co.uk/notice/5103197",
+    "title": "KNS SHOPFIT (UK) LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264195/ …",
+    "published_at": "2026-04-07T12:02:58+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KNS Shopfit (UK) Ltd",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A shopfitting firm facing an HMRC winding-up petition has no apparent link to the gambling sector, limiting relevance to specialist readers.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "KNS Shopfit",
+      "HM Revenue & Customs"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "64c0851ca83008c4f49f83ec8590699b5a10452d73fb2f394d54e2b30a122232",
+    "source": "gazette",
+    "source_id": "5115564",
+    "source_url": "https://www.thegazette.co.uk/notice/5115564",
+    "title": "DEESIDE BOOKMAKERS LTD.",
+    "raw_summary": "Petitions to Wind Up (Companies): DEESIDE BOOKMAKERS LTD. …",
+    "published_at": "2026-04-21T12:01:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Deeside Bookmakers Ltd"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A winding-up petition against a licensed bookmaker signals potential insolvency, affecting punters, staff and the wider betting market.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Deeside Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6b1fa75cc9c47d9f2ff12aebcc6124a5a3d83cd8a3355ccf31f2edc056ece986",
+    "source": "gazette",
+    "source_id": "5106989",
+    "source_url": "https://www.thegazette.co.uk/notice/5106989",
+    "title": "ASHCROFT BOOKMAKERS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: ASHCROFT BOOKMAKERS LIMITED …",
+    "published_at": "2026-04-09T01:08:35+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Ashcroft Bookmakers Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bookmaker's voluntary winding-up signals potential market exit, relevant to gambling licensing and creditor trackers.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ashcroft Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "0536ac2b11efbe34211f0d29e4667776448a32923494037752c57e899204253e",
+    "source": "gazette",
+    "source_id": "5038023",
+    "source_url": "https://www.thegazette.co.uk/notice/5038023",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Notices to Creditors: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "A licensed bookmaker entering creditor proceedings signals financial distress worth tracking in the small-operator segment.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Dale James"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "1b28eb1451e7d838d3a39159bfd98f7973013fec8b238414df7b88044afdf191",
+    "source": "gazette",
+    "source_id": "5038006",
+    "source_url": "https://www.thegazette.co.uk/notice/5038006",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:01:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "A licensed bookmaker entering liquidation signals potential market exit, affecting staff, creditors and local betting shop presence.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Dale James"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "c096f6f6b686501255ef8088a51c5be0c5211b0bec56b665d446c87f4a4a7851",
+    "source": "gazette",
+    "source_id": "5037980",
+    "source_url": "https://www.thegazette.co.uk/notice/5037980",
+    "title": "DALE JAMES (BOOKMAKERS) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: DALE JAMES ( BOOKMAKERS ) LIMITED …",
+    "published_at": "2026-01-20T01:00:57+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dale James (Bookmakers) Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A licensed bookmaker entering winding-up signals possible licence surrender and financial distress within the betting sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Dale James"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f94e72bc6183d5af8333961cfda4ad6895d322e5883be4d821bd29c2ad8d1fc2",
+    "source": "gazette",
+    "source_id": "5104638",
+    "source_url": "https://www.thegazette.co.uk/notice/5104638",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Resolutions for Winding-up: PALAIS BINGO LIMITED …",
+    "published_at": "2026-04-08T01:09:12+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A named bingo operator's winding-up resolution signals potential market exit, relevant to sector consolidation tracking.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Palais Bingo"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "9c2e7ccb0753d6bb2a02c03bfafcd2d609cd39ac85ad9b0d9d2981e05438c6cc",
+    "source": "gazette",
+    "source_id": "5077706",
+    "source_url": "https://www.thegazette.co.uk/notice/5077706",
+    "title": "PALAIS BINGO LIMITED",
+    "raw_summary": "Deemed Consent: PALAIS BINGO LIMITED …",
+    "published_at": "2026-03-13T01:13:56+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Palais Bingo Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A minor statutory notice for a bingo operator, of limited interest unless it signals wider financial distress.",
+    "category": "corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Palais Bingo"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "3424d26d437a75e4d790bf829278be8668da11e0c14001aa526fd470d114e3ec",
+    "source": "gazette",
+    "source_id": "5045368",
+    "source_url": "https://www.thegazette.co.uk/notice/5045368",
+    "title": "BINGO MEDIA LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: BINGO MEDIA LIMITED …",
+    "published_at": "2026-01-30T04:10:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Media Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling-affiliated company entering liquidation could signal financial distress in the bingo/affiliate marketing niche of the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Bingo Media"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "3e87c016a68bb17d1fddf2924b8c4391f113d05d64d78bcde4c0de9482c03faa",
+    "source": "gazette",
+    "source_id": "5045369",
+    "source_url": "https://www.thegazette.co.uk/notice/5045369",
+    "title": "BINGO MEDIA LIMITED",
+    "raw_summary": "Resolutions for Winding-up: BINGO MEDIA LIMITED …",
+    "published_at": "2026-01-30T04:00:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bingo Media Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A named gambling-affiliate-style company entering voluntary winding-up signals financial distress worth tracking in the sector.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Bingo Media"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "42c5531475aa73d65b43bd126aae526a8f37114849d3c7241009d2a2fcf1e7fd",
+    "source": "gazette",
+    "source_id": "5116712",
+    "source_url": "https://www.thegazette.co.uk/notice/5116712",
+    "title": "MULTIBETON LTD.",
+    "raw_summary": "Resolutions for Winding-up: Company Address 10 Orban Court, Hurricane Way, Wickford Business Park, Essex, SS1 8YB in process of being changed to Jupiter House, Warley Hill Business Park, The Drive, Brentwood, CM13 3BE",
+    "published_at": "2026-04-22T01:02:18+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multibeton Ltd"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling-linked company entering winding-up resolutions may signal financial distress worth monitoring for supplier or operator risk.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Multibeton"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a1960565dfdeea09f4cf467d263cccabb1057bf076860fc4c565cb665f17735d",
+    "source": "gazette",
+    "source_id": "5111169",
+    "source_url": "https://www.thegazette.co.uk/notice/5111169",
+    "title": "CANOVILLE COACHING LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 09893539 Name of Company: CANOVILLE COACHING LIMITED Nature of Business: Other sports activities Registered office: Canoville Coaching Football Centre, Arnold Hill Academy, Arnold, Not…",
+    "published_at": "2026-04-14T09:31:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Canoville Coaching Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A small sports coaching company's liquidation is unrelated to gambling and holds negligible relevance for the sector's trade press.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Canoville Coaching"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d9b2daaea473eac9c6f36644bca02514b2f33ae4255c30dadec9bea2543fc5cb",
+    "source": "gazette",
+    "source_id": "5111168",
+    "source_url": "https://www.thegazette.co.uk/notice/5111168",
+    "title": "CANOVILLE COACHING LIMITED",
+    "raw_summary": "Resolutions for Winding-up: CANOVILLE COACHING LIMITED (Company Number 09893539 ) Registered office: Canoville Coaching Football Centre, Arnold Hill Academy, Arnold, Nottingham, NG5 6NZ Principal trading address: Unit 2, Victori…",
+    "published_at": "2026-04-14T09:31:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Canoville Coaching Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a football coaching company insolvency with no apparent connection to the gambling or gaming sector.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Canoville Coaching"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "df1c38c052a736db19902969090a8a08deaa24ebf4355e837459d0478060e260",
+    "source": "gazette",
+    "source_id": "5108774",
+    "source_url": "https://www.thegazette.co.uk/notice/5108774",
+    "title": "SYKES VAN SALES LIMITED ",
+    "raw_summary": "Resolutions for Winding-up: SYKES VAN SALES LIMITED (Company Number 04634479 ) Trading Name: Sykes Van Sales Limited Previous Name of Company: Endex Investments Limited Registered office: 11 Roman Way, Berry Hill, Droitwich, Wor…",
+    "published_at": "2026-04-09T17:42:53+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sykes Van Sales Limited",
+      "Endex Investments Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Van sales company insolvency has no apparent connection to the gambling sector.",
+    "category": "winding-up resolution",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sykes Van Sales",
+      "Endex Investments"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "5d22481075692c8f0477fd7dbca6feb05db7d5b936800247bb3d259a7a15ada4",
+    "source": "gazette",
+    "source_id": "5103905",
+    "source_url": "https://www.thegazette.co.uk/notice/5103905",
+    "title": "JOHN BARTER TRANSPORT (SOUTH WEST) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address 30 Rodden Road, Frome, BA11 2AH",
+    "published_at": "2026-04-08T01:01:37+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "John Barter Transport (South West) Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a transport company winding-up notice with no connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "John Barter Transport"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "63d8951582b557b2f9c4b107e352984e19b0a1287fb136adc43f022be7c0ff0e",
+    "source": "gazette",
+    "source_id": "5102366",
+    "source_url": "https://www.thegazette.co.uk/notice/5102366",
+    "title": "SB INTEGRATIONS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address 79 Caroline Street, Birmingham B3 1UP. Formerly: 102 High Street, Henley-in-Arden, Warwickshire, B95 5BY",
+    "published_at": "2026-04-07T01:01:38+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "SB Integrations Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named company tied to gambling integrations is winding up, worth monitoring for supplier or platform impacts.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "SB Integrations"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d6ca6617980c05190539cc91c1bdc421c1ae1758f808e69e87e93d00b2e054cc",
+    "source": "gazette",
+    "source_id": "5071330",
+    "source_url": "https://www.thegazette.co.uk/notice/5071330",
+    "title": "ARCADIA SPA LIMITED",
+    "raw_summary": "Meetings of Creditors: ARCADIA SPA LIMITED (Company Number 13984986 ) Registered office: George Albert Hotel Wardon Hill, Evershot, Dorchester, DT2 9PW Principal trading address: N/A Notice is hereby given that a virtual me…",
+    "published_at": "2026-03-05T01:04:58+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Arcadia Spa Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This is a hotel/spa insolvency notice with no apparent connection to the UK gambling sector.",
+    "category": "creditors meeting",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Arcadia Spa"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d7797402f6b1859d1bbf2b26e3c0190751c31f9bc3c88e2fcdc569b1479d275e",
+    "source": "gazette",
+    "source_id": "5068211",
+    "source_url": "https://www.thegazette.co.uk/notice/5068211",
+    "title": "/n LM GROUND FACILITIES LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): In the HIGH COURT OF JUSTICE BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES INSOLVENCY AND COMPANIES LIST (ChD) Court Number: CR-2026-000851 In the Matter of LM GROUND FACILITIES LTD (Company Numbe…",
+    "published_at": "2026-03-02T13:40:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "LM Ground Facilities Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No apparent connection to the gambling sector, making this a routine corporate insolvency filing of minimal relevance.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "LM Ground Facilities"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a6da6a9f74e53e71f18b83d5e02568b61ba25cbc58c8a6462d495aa11f10225e",
+    "source": "gazette",
+    "source_id": "5061188",
+    "source_url": "https://www.thegazette.co.uk/notice/5061188",
+    "title": "WOODBOIS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): In the High Court of Justice (Business and Property Courts of England and Wales) Insolvency and Companies List (ChD) Court Number: CR-2026-000257 In the Matter of WOODBOIS LIMITED (Company Number CMP5…",
+    "published_at": "2026-02-20T14:30:22+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Woodbois Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Woodbois Limited appears unconnected to gambling/gaming, so this insolvency filing has negligible relevance for the sector's trade press.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Woodbois"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "b6b8c65614e93be1ef3e4da76993c3b9432f900569f41b21868574a68060970c",
+    "source": "gazette",
+    "source_id": "5047335",
+    "source_url": "https://www.thegazette.co.uk/notice/5047335",
+    "title": "NORTHWOOD ENGINEERING LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address Ryefield Court, 81 Joel Street, Northwood Hills, Middlesex, HA6 1LL",
+    "published_at": "2026-02-04T01:03:13+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Northwood Engineering Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This engineering firm's winding-up notice has no apparent connection to the UK gambling or gaming sector.",
+    "category": "unrelated insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Northwood Engineering"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6503d8bbe6b5df0b17b9ae57335747b9f427e2f19ec24e1a0f6aef4932e2d3b3",
+    "source": "gazette",
+    "source_id": "5041171",
+    "source_url": "https://www.thegazette.co.uk/notice/5041171",
+    "title": "WLG WORLDWIDE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: WLG WORLDWIDE LIMITED (Company Number 11751211 ) Trading Name: WLG Worldwide Limited Registered office: 6-8 Freeman Street Grimsby DN32 7AA Principal trading address: 57 Kelburn Road Orton Northgate P…",
+    "published_at": "2026-01-23T17:30:57+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "WLG Worldwide Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A winding-up resolution signals company failure, relevant if WLG Worldwide has links to gambling supply chains.",
+    "category": "insolvency/winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "WLG"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a91aac6f99075adb54cabf03d0f855cea41a69c63dfcd37b821a8a3f8888a7ca",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/statutory-gambling-levy",
+    "title": "Statutory gambling levy",
+    "raw_summary": "Information about the statutory levy on gambling operators. ",
+    "published_at": "2026-03-26T17:13:36Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "The statutory levy replaces voluntary funding for research, education and treatment, affecting operator costs and compliance across the sector.",
+    "category": "statutory levy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "40f37a5b93dc387ce9c568e6b3bab635c077cfcf2d283c7692b46084179de0e0",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/gambling-levy-transition-fund",
+    "title": "Gambling Levy Transition Fund",
+    "raw_summary": "Information about the Gambling Levy Transition Fund and how to apply.",
+    "published_at": "2026-03-30T08:39:35Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Details on how funding shifts from voluntary RET contributions to the new statutory levy affect all UK operators' compliance costs.",
+    "category": "statutory levy transition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "91f139efaca45f5b023e61ad6692128ec7077279e30274898af6da9604e36cc4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/gambling-commission-annual-report-and-accounts-2024-to-2025",
+    "title": "Gambling Commission annual report and accounts 2024 to 2025",
+    "raw_summary": "The Gambling Commission's annual report and accounts for 2024 to 2025.",
+    "published_at": "2026-01-07T11:25:40Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "The Gambling Commission's annual report reveals regulatory priorities, licensing income, and enforcement activity shaping UK operator compliance.",
+    "category": "regulator accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "678c8b2a260560124d888cd9ea87a224213a6d03463dbed309c95b272d36f3a7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/government-to-crack-down-on-gambling-operator-sport-sponsorship",
+    "title": "Government to crack down on gambling operator sport sponsorship",
+    "raw_summary": "The move will prevent unlicensed operators from sponsoring sports clubs, as part of wider measures to tackle illegal gambling market",
+    "published_at": "2026-02-23T09:30:00Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "New rules blocking unlicensed operators from sports sponsorship could reshape sponsorship deals and squeeze the black market.",
+    "category": "illegal market/sponsorship crackdown",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "6d22864713b57b3a217a286c25cbac6f04f780e87569a77b602a90f00946efbe",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/madeleine-campbell-appointed-to-the-horserace-betting-levy-board",
+    "title": "Madeleine Campbell appointed to the Horserace Betting Levy Board",
+    "raw_summary": "The Secretary of State has appointed Madeleine Campbell as Board Member of the Horserace Betting Levy Board for a term of four years",
+    "published_at": "2026-01-07T12:00:02Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Madeleine Campbell",
+      "Horserace Betting Levy Board"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A new Levy Board member could influence horserace betting levy policy affecting bookmakers and racing funding.",
+    "category": "board appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Madeleine Campbell",
+      "Horserace Betting Levy Board"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "0a6cd86344fd39a335874ffbe566099e341e247800470423b148fff6eea6b69a",
+    "source": "parliament",
+    "source_id": "2127CEE3-C39F-4114-BCAB-8319F7E12357",
+    "source_url": "https://hansard.parliament.uk/Commons/2026-04-23/debates/2127CEE3-C39F-4114-BCAB-8319F7E12357/GamblingAdvertising",
+    "title": "Gambling Advertising",
+    "raw_summary": "Westminster Hall debate, Commons: Gambling Advertising",
+    "published_at": "2026-04-23T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Parliamentary debate could signal future regulatory tightening on gambling advertising affecting operators and affiliates.",
+    "category": "gambling advertising policy debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "77bfed1c8565e9f1f9e5d3f9f1608fc302d47a21398d2e5839786a19cf5557b5",
+    "source": "parliament",
+    "source_id": "62160219-733A-4BB1-B404-9A26A48C2643",
+    "source_url": "https://hansard.parliament.uk/Commons/2026-01-15/debates/62160219-733A-4BB1-B404-9A26A48C2643/GamblingAdvertising",
+    "title": "Gambling Advertising",
+    "raw_summary": "Commons Chamber debate, Commons: Gambling Advertising",
+    "published_at": "2026-01-15T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Parliamentary debate on gambling advertising could signal future regulatory tightening affecting operators and advertisers in the sector.",
+    "category": "advertising policy debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "33627e2f8add62336969557ba2353798b7ad00e91fe0db4f574e744c67e573dd",
+    "source": "parliament",
+    "source_id": "CE58A427-78D3-4DC3-97DB-132A0FDA2D09",
+    "source_url": "https://hansard.parliament.uk/Commons/2026-01-15/debates/CE58A427-78D3-4DC3-97DB-132A0FDA2D09/GamblingHarmsChildrenandYoungPeople",
+    "title": "Gambling Harms: Children and Young People",
+    "raw_summary": "Westminster Hall debate, Commons: Gambling Harms: Children and Young People",
+    "published_at": "2026-01-15T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "MPs debating child gambling harms could signal future regulatory tightening affecting operators' marketing and safer gambling obligations.",
+    "category": "parliamentary debate on child gambling harms",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "280c3cb38ce0cd74773587d4ed31c34a076748a1d3ed0a4679d54172670c5103",
+    "source": "parliament",
+    "source_id": "3CF8772B-1EBE-4E0C-98B2-9E9E6494EEA7",
+    "source_url": "https://hansard.parliament.uk/Commons/2026-01-08/debates/3CF8772B-1EBE-4E0C-98B2-9E9E6494EEA7/HighStreetGamblingReform",
+    "title": "High Street Gambling Reform",
+    "raw_summary": "Commons Chamber debate, Commons: High Street Gambling Reform",
+    "published_at": "2026-01-08T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "MPs debating high street gambling reform signals possible policy shifts affecting betting shop regulation and licensing conditions.",
+    "category": "parliamentary debate",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "cba042c9de8cdc566088a01182ea4049f87be57c40e6bdc4d152fad9167725d7",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/lc-international-ltd-g25-1274110-lc-international-ltd-1.html",
+    "title": "LC International Ltd t/a Ladbrokes",
+    "raw_summary": "Not upheld: [Republished ruling] A TV and Video on Demand ad for Ladbrokes wasn’t likely to be of strong appeal to under-18s.",
+    "published_at": "2026-04-15T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "LC International Ltd",
+      "Ladbrokes"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A not-upheld ASA ruling clears Ladbrokes' ad of appealing to under-18s, offering limited precedent for future compliance cases.",
+    "category": "ad standards ruling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "LC",
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "9a5dbe6e24f3782a228dd1a1e4dc0d48103e921b36506e7870083aba1b8a9ac0",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/skill-on-net-ltd-g26-1330243-skill-on-net-ltd.html",
+    "title": "Skill on Net Ltd t/a Gecko Play",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Instagram ad for a gambling website portrayed, condoned and encouraged gambling behaviour that was socially irresponsible and could lead to financial, social or emotional harm.",
+    "published_at": "2026-04-08T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Skill on Net Ltd",
+      "Gecko Play"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "An ASA upheld ruling flags irresponsible gambling advertising, raising compliance risk for operators using paid social media ads.",
+    "category": "ASA ad ruling - social responsibility",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Skill on Net",
+      "Gecko Play"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "3997a2a6cb63d66423fa9f6a818d7290ae516f1806d369eb91e8e0936ffbffba",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/rtsb-ltd-a25-1293152-rtsb-ltd.html",
+    "title": "RTSB Ltd t/a Match Bingo",
+    "raw_summary": "Not upheld / Social media (influencer or affiliate ad): [Republished ruling] A YouTube ad for Match Bingo, which featured the Tottenham Hotspur Football team, wasn’t inappropriately targeted to under-18s.",
+    "published_at": "2026-03-04T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "RTSB Ltd",
+      "Match Bingo",
+      "Tottenham Hotspur"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "ASA clears Match Bingo's YouTube ad using Tottenham Hotspur imagery, showing where under-18 targeting lines are currently drawn.",
+    "category": "ASA ruling - ad complaint not upheld",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "RTSB",
+      "Match Bingo",
+      "Tottenham Hotspur"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "80aa48234816375d6540754ad24886c257c8250e350f2ee99a36cea10feaed67",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/kit---kin-ltd-a25-1309689-kit---kin-ltd.html",
+    "title": "Kit & Kin Ltd",
+    "raw_summary": "Upheld: A website for a baby product company failed to make the basis of environmental and comparative claims clear, didn’t have suitable evidence to support these claims and gave a misleading impression of their products’ environmental impact.",
+    "published_at": "2026-02-04T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Kit & Kin Ltd"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to gambling sector; ASA ruling concerns baby product green claims, not gaming/betting operators.",
+    "category": "advertising standards - environmental claims",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Kit & Kin"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "2af988aa09bcd5debbd5257f894212357f2b0cfd288ce195f01d9028a48c7c01",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/the-cheeky-panda-ltd-a25-1316071-the-cheeky-panda-ltd.html",
+    "title": "The Cheeky Panda Ltd",
+    "raw_summary": "Upheld / Website (own site): A website for a baby product company failed to make the basis of environmental and comparative claims clear and didn’t have suitable evidence to support the claims made.",
+    "published_at": "2026-02-04T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "The Cheeky Panda Ltd"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This ASA ruling concerns a baby products company's environmental claims and has no relevance to the UK gambling sector.",
+    "category": "advertising standards - unrelated sector",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "The Cheeky Panda"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "b43dfb43976ac1b0d8d71973727ad39de4f886371134043b49d23eedb8a32d59",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/cb-payments-ltd-g25-1305562-cb-payments-ltd.html",
+    "title": "CB Payments Ltd t/a Coinbase",
+    "raw_summary": "Upheld / Poster, Video on demand: A video on demand ad and three posters for Coinbase, a cryptocurrency trading platform, irresponsibly trivialised the risks of cryptocurrency investment and implied it was a solution to financial concerns associated with the cost of living.",
+    "published_at": "2026-01-28T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "CB Payments Ltd",
+      "Coinbase"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "ASA ruling on financial promotion risks offers a precedent relevant to gambling ad standards around cost-of-living messaging.",
+    "category": "ad ruling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "CB Payments",
+      "Coinbase"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "8072ceef7cc0c82608fc9b1f11310f1696551fc78402a6dec3f177e5ad1271b0",
+    "source": "parliament",
+    "source_id": "1902358",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129079",
+    "title": "Written question: Sports: Regulation",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, pursuant to Question 122645 of 23 March 2026, whether she has plans to bring forward legislative proposals to clarify or amend the regulatory boundary between the Financial Conduct Authority and the Gambling Commiss\nA: As set out in the government’s previous answer on 31 March, the Financial Conduct Authority (FCA) has clarified that non-financial spread betting products are not financial instruments, and that the FCA’s regulatory framework does not account for gambling...",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029512+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "Financial Conduct Authority",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals no imminent legislative change to FCA/Gambling Commission jurisdiction over spread betting, affecting regulatory clarity for operators in this space.",
+    "category": "regulatory boundary clarification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "HM Treasury",
+      "Financial Conduct Authority",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "b08c93f626f2c141d480ec7facd20125b53fc5c9ea582f2332a69e81432a0a2e",
+    "source": "parliament",
+    "source_id": "1902357",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129078",
+    "title": "Written question: Sports: Regulation",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, pursuant to the Answer of 31 March 2026 to Question 122645 on Sports: Regulation, and with reference to the FCA Perimeter Report published in March 2026, which regulator Parliament has conferred powers upon for the \nA: As set out in the government’s previous answer on 31 March, the Financial Conduct Authority (FCA) has clarified that non-financial spread betting products are not financial instruments, and that the FCA’s regulatory framework does not account for gambling...",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029515+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Highlights a regulatory gap over which body oversees sports spread betting, potentially reshaping oversight for spread-betting operators.",
+    "category": "regulatory perimeter/spread betting",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "7089059ab200aae9a51b21cd1d8acf29b925230b9166b03c765fd72cae6ad765",
+    "source": "parliament",
+    "source_id": "1897305",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-10/125251",
+    "title": "Written question: Gambling: Children",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport what recent assessment she has made of trends in under-18 participation in gambling activities, including via online platforms and apps.\nA: The 2025 Young People in Gambling Survey demonstrated that gambling activity by under-18s increased from 27% to 30% compared with the previous year. This was driven by a 3% increase in unregulated gambling, such as private betting between friends and fami...",
+    "published_at": "2026-04-10T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029518+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Rising under-18 gambling participation could prompt tighter regulatory scrutiny of operators and age-verification measures.",
+    "category": "youth gambling trends",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "f90dce62d595b5c56f93ac55a8497e3a83c6cd4ef4d91208b00df60127072cc7",
+    "source": "parliament",
+    "source_id": "1895760",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-26/124246",
+    "title": "Written question: Gambling and Video Games: Regulation",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment her Department has made of the potential impact of Financial Risk Assessments on tax revenues from the regulated betting and gaming sector.\nA: The Government remains committed to supporting the implementation of key measures in the 2023 white paper, including the introduction of Financial Risk Assessments (FRAs). Following the conclusion of its pilot on FRAs, the Gambling Commission has continue...",
+    "published_at": "2026-03-26T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029521+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Confirms government's continued commitment to FRAs, a key affordability check policy affecting operator revenues and compliance costs.",
+    "category": "financial risk assessments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "3ebfd70b3750897495f10bb86e50790b8acf75a9daf7f375d51971fc6dfe8683",
+    "source": "parliament",
+    "source_id": "1895555",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-26/124334",
+    "title": "Written question: Horse Racing: Betting",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment her Department has made of the potential impact on the promotion of higher-risk gambling products of increasing sports betting duties without changes to the Horserace Betting Levy\nA: Horseracing was not subject to the 10% increase in General Betting Duty which was announced in the Autumn Budget. His Majesty’s Treasury published a tax information and impact note alongside these changes.Horseracing is the only sport in receipt of a dire...",
+    "published_at": "2026-03-26T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029524+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "HM Treasury",
+      "Horserace Betting Levy"
+    ],
+    "newsworthiness_score": 41,
+    "why_it_matters": "Signals ongoing government scrutiny of betting duty changes and their impact on horseracing funding and higher-risk gambling products.",
+    "category": "gambling taxation policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "HM Treasury",
+      "Horserace Betting Levy"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "677bce7720b72c8aac2122f3081025274d2caab17ab4d262615568712fa3a4b7",
+    "source": "parliament",
+    "source_id": "1895554",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-26/124333",
+    "title": "Written question: Horse Racing: Betting",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment her Department has made of the potential impact on horseracing of increasing sports betting duties without changes to the Horserace Betting Levy.\nA: Horseracing was not subject to the 10% increase in General Betting Duty which was announced in the Autumn Budget. His Majesty’s Treasury published a tax information and impact note alongside these changes.Horseracing is the only sport in receipt of a dire...",
+    "published_at": "2026-03-26T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029527+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Horserace Betting Levy",
+      "HM Treasury",
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Shows government stance on betting duty reform and its impact on horseracing funding, a key issue for bookmakers and racing bodies.",
+    "category": "betting duty/levy policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Horserace Betting Levy",
+      "HM Treasury",
+      "DCMS"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "2843f25dfb2c62d59119f128395fb8aebb8c1ff172439a6ebb7d9cacd5094641",
+    "source": "parliament",
+    "source_id": "1896493",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-10/124538",
+    "title": "Written question: Gambling: Regulation",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what estimate her Department has made of the number of betting and gaming customers required to submit financial documents under Financial Risk Assessments; and what assessment she has made of th\nA: The Government remains committed to supporting the implementation of key measures in the 2023 white paper, including the introduction of Financial Risk Assessments (FRAs), which are not currently in place.The white paper recognised the “chilling effect” t...",
+    "published_at": "2026-04-10T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029532+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals ongoing government commitment to affordability checks, a contentious white paper reform affecting how operators assess customer risk.",
+    "category": "financial risk assessments policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "322b1eb6d1700e2abaadcac466d429f0f224ea7c77f0e0af7f61790472fe24d4",
+    "source": "parliament",
+    "source_id": "1894009",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-23/122645",
+    "title": "Written question: Sports: Regulation",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, who is responsible for the regulation of sports and non-financial spread bets in the UK.\nA: The Financial Conduct Authority (FCA) has clarified that non-financial spread betting products are not financial instruments, and that the FCA’s regulatory framework does not account for gambling activity in relation to events which are not connected to f...",
+    "published_at": "2026-03-23T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029535+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Clarifies that sports spread betting falls outside FCA remit, raising questions about which body oversees these gambling-like products.",
+    "category": "regulatory jurisdiction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "7459f58736ec2f1caa4293cd201756ede414001f310b218ca8d25e2b0ba28d65",
+    "source": "parliament",
+    "source_id": "1892398",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-18/121947",
+    "title": "Written question: Gambling: Crime",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what recent assessment she has made of the potential impact of changes to betting and gaming levies on illegal gambling operations.\nA: The issue of illegal gambling is a concern for this Government. We are committed to working closely with the Gambling Commission to ensure that illegal gambling, in all its forms, is addressed. As part of the 2025 Budget, the Treasury announced that the G...",
+    "published_at": "2026-03-18T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029538+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "DCMS",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government concern that tax/levy changes could push consumers to unlicensed gambling operators, relevant to industry lobbying on Budget measures.",
+    "category": "levy/tax policy and illegal gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "DCMS",
+      "HM Treasury"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "360ea61c50346dfdfe20832e7f9cd6f82084f213df6900a68230461fa6fc5b14",
+    "source": "parliament",
+    "source_id": "1890246",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-11/120163",
+    "title": "Written question: Heart Valve Disease: Health Services",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what steps his department is taking to ensure that innovation in early detection and treatment technologies for heart valve disease is translated into timely and equitable patient access.\nA: As set out in the 10-Year Health Plan, wearables are one of the “big bets” for the future of the National Health Service. They are a powerful tool to support prevention, early intervention, and self-management of long-term conditions.By 2028, we aim to ma...",
+    "published_at": "2026-03-11T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029541+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This concerns NHS heart valve disease treatment and has no connection to gambling or gaming regulation.",
+    "category": "unrelated - health policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "17212b1c27eb7acabb50e1b422707e2b7c3405a7789dff54a3998740ef6a16f1",
+    "source": "parliament",
+    "source_id": "1890573",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-12/120420",
+    "title": "Written question: Shops: Planning Permission",
+    "raw_summary": "Q: To ask the Secretary of State for Housing, Communities and Local Government, what steps his Department plans to take to give powers to councils to reject applications for new betting shops, vapes stores and fake barbers.\nA: The Government is taking action to give local authorities and communities the power greater control over the mix of uses on their high streets. Later this year Government will bring forward a new High Streets Strategy, backed by at least £150 million of s...",
+    "published_at": "2026-03-12T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029543+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals potential new council powers to block betting shop openings, a policy shift that could affect operators' high-street expansion plans.",
+    "category": "planning policy/betting shop licensing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "bc677f3079ddd4d5161dfdcfc763f0b0757191a63c25f5257978b4e69e72c42b",
+    "source": "parliament",
+    "source_id": "1886731",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-03/117415",
+    "title": "Written question: Gambling: Regulation",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether prediction markets will be regulated by the (a) Gambling Commission and (b) Financial Conduct Authority.\nA: In order to operate in Great Britain, any prediction market would require a licence from the Gambling Commission, the independent regulator for gambling. If approved, they would be classified as a ‘Betting Intermediary’ and subject to regulation under the...",
+    "published_at": "2026-03-03T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029546+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Financial Conduct Authority",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Clarifies that prediction markets must be licensed by the Gambling Commission, signalling regulatory boundaries for this emerging sector.",
+    "category": "regulatory scope/prediction markets",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Financial Conduct Authority",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "9686a9c892da1ebce4ad371402900caa34ebd7fa0331659d62353df2fe389b0d",
+    "source": "parliament",
+    "source_id": "1886935",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-03/117592",
+    "title": "Written question: Gambling: Taxation",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what recent discussions she has had with the Chancellor of the Exchequer about the potential impact of budget changes to betting and gaming levies on the viability of British sports.\nA: The Government recognises the significant contribution that racing and other sports make to the nation’s economy and sporting landscape. DCMS and HMT Ministers have regular engagement on betting and gaming levies.",
+    "published_at": "2026-03-03T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029551+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals ongoing government scrutiny of betting/gaming tax changes and their impact on sports funding, relevant to operators and racing bodies.",
+    "category": "gambling tax policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "HM Treasury"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "e767a0165a4a04fe7db1b5413df8646615a57c48d403306999508892ee79f3fe",
+    "source": "parliament",
+    "source_id": "1884400",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-02-24/115690",
+    "title": "Written question: Betting: Excise Duties",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, whether she had discussions with the Secretary of State for Culture, Media and Sport on the potential impact of raising betting duty on Greyhound Racing alongside general sports duty in 2027; and what assessment she\nA: At Budget 2025, the government announced a package of changes to gambling duties which will raise over £1 billion per year to support the public finances and forms part of our ambition to create a fair, modern and sustainable tax system. As part of this p...",
+    "published_at": "2026-02-24T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029554+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "DCMS",
+      "Greyhound Racing"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals ongoing government scrutiny of how 2027 betting duty changes could specifically impact greyhound racing revenue.",
+    "category": "gambling duty reform",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "HM Treasury",
+      "DCMS",
+      "Greyhound Racing"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "de7da178dba30b61e5549182e2932a413b67a77c848252f71a87275d4e70653e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/321",
+    "title": "Norwich City Football Club",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-04-14T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923269+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Norwich City Football Club"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "A financial penalty against a football club signals Gambling Commission scrutiny of sports sponsorship and advertising compliance in the sector.",
+    "category": "gambling advertising/sponsorship enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Norwich City Football Club"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "2f47a335e485b5dd7ecbd3f302da7270b17669a2d5ebaa9b56d07dc3f20e2981",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/320",
+    "title": "StableDuel UK Ltd",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-03-27T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923272+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "StableDuel UK Ltd"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "A UK Gambling Commission financial penalty signals compliance failings and warns other operators of enforcement risk.",
+    "category": "AML/licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "StableDuel"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "eeaeabdcf8f3133a0a0a172489e837b4a2c3719662fd8bdbc16ff2d9c0ac9e1b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/314",
+    "title": "Octopus Game Limited",
+    "raw_summary": "Settlement: Public statement, Commission costs and Payment in lieu of financial penalty",
+    "published_at": "2026-03-25T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Octopus Game Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A UK Gambling Commission settlement signals compliance failings, informing operators and suppliers about enforcement risks and expected standards.",
+    "category": "licence settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Octopus Game"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "d8526152c8ca3fd86d0fb8df45f838ddf370f999faf14472544a520e51fac8b9",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/318",
+    "title": "Oysterfleet Plc",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-03-25T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923280+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Oysterfleet Plc"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings at Oysterfleet, relevant for tracking regulatory enforcement trends in the sector.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Oysterfleet"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "8dc3393b73740cfd6fc356ebf74c898621e5fb563cefeb69d700ba1b9d715b3d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/317",
+    "title": "Quintero Velasco Juliana Manuela",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-03-23T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923283+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Quintero Velasco Juliana Manuela"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual's gambling personal licence was revoked, signalling continued Commission enforcement against personal licence holders.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Quintero Velasco Juliana Manuela"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "97f6342b3036d986809eeef307064a0e82a0e2a5bd383cf1ce7191eb4d517f0a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/319",
+    "title": "Peter Arnett and Nicholas Arnett",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-03-20T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923286+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Peter Arnett",
+      "Nicholas Arnett"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Named individuals hit with a Gambling Commission financial penalty, signalling continued personal accountability enforcement in the sector.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Peter Arnett",
+      "Nicholas Arnett"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "cedc8c67c4f27d538f3338c977620f304f00ad41dca083ec230d95a1a43c2f89",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/316",
+    "title": "Reeder Jamal",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-03-13T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923290+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Reeder Jamal"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A personal or operator licence revocation signals Gambling Commission enforcement action, relevant for tracking compliance trends in the sector.",
+    "category": "licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Reeder Jamal"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "617ed28c40d80ad7cc3f97bde4e21794e9b02849b7f05ba91e367b40f7b2d935",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/313",
+    "title": "Sportito SRL",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-03-11T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923293+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Sportito SRL"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "A UK-facing operator has been fined by the Gambling Commission, signalling continued regulatory enforcement on compliance failures.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Sportito SRL"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "a3a36b784c780127971e362a0415824cc062035d1adcc8df13c8dec13a361e95",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/315",
+    "title": "Moore, Adrian John",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-03-11T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923296+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Adrian John Moore"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A personal management licence revocation signals individual-level enforcement action by the Gambling Commission, relevant for compliance monitoring.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Adrian John Moore"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "90fbd51a6e3a1cdea8a3e3c2dc026250bc17010bc2cabe558263f62aaa8ce36a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/312",
+    "title": "Jaydevkumar Parbhubhai Patel",
+    "raw_summary": "Sanction: Financial penalty and Warning",
+    "published_at": "2026-03-10T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923299+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Jaydevkumar Parbhubhai Patel"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A named individual faces a financial penalty and warning from the Gambling Commission, signalling continued enforcement against personal licence holders.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Jaydevkumar Parbhubhai Patel"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "4e167da2d330038364c3fafb8a30d1798d1a8b500a1feb3e3236d0c2bfb3e982",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/311",
+    "title": "James Frederick Henry O'Brien",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-02-25T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923302+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "James Frederick Henry O'Brien"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A named individual was fined by the Gambling Commission, signalling continued personal licence enforcement in the sector.",
+    "category": "personal licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "James Frederick Henry O'Brien"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "1f71c548596bcf23783d850e21ce3580b9e9b9c4965aa6d4fe340c4b6e3e268d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/310",
+    "title": "David Llyn Thomas & Mehmet Emin Serin",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-01-08T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923305+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "David Llyn Thomas",
+      "Mehmet Emin Serin"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Named individuals sanctioned by the Gambling Commission signal personal accountability trends in licence enforcement.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "David Llyn Thomas",
+      "Mehmet Emin Serin"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "c1aee881b374f29cdeb959fa274420a6e45d7cda60e00ec2ddd3826c2f780120",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9525980",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-17T09:58:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926124+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or control over Entain, a key UK-listed gambling operator.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "632d57d5160aef40f7d304a0825f9fc88056c550b4e2388bbda25704867ee9cc",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9524314",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-16T14:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926127+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "0dda6e2e5affb89546549aa4be671d4125561eae38b827aa237a6ac71a30d81b",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/q1-trading-update/9522479",
+    "title": "Entain: Q1 Trading Update",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-16T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926130+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Entain's quarterly performance signals broader market trends in UK gambling revenues, regulation impact and investor sentiment.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "9a393f979ba1e11d34264cf059f1e47ebcfc192854776db5679ce9842c34f841",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/betmgm-q1-2026-update/9519549",
+    "title": "Entain: BetMGM Q1 2026 Update",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-14T12:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926133+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain",
+      "BetMGM"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "BetMGM performance signals Entain's US joint-venture momentum, key to investor and market assessment of its growth strategy.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited",
+      "BetMGM"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "7a6fd1c0650661242c80b1db43cb3aa0c97c1e612adf7dfc37f426c43ed88761",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/director-pdmr-shareholding/9508842",
+    "title": "Entain: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-07T15:25:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926136+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine director dealing disclosure offers minor insight into insider sentiment at a major UK-listed gambling operator.",
+    "category": "PDMR shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "c057f9b468e286315f783d7a9fc00d60b202489690c3d4290805ad1cef31eea7",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/total-voting-rights/9502066",
+    "title": "Entain: Total Voting Rights",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-01T07:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926138+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine compliance disclosure of Entain's share capital and voting rights with limited immediate impact on sector news.",
+    "category": "total voting rights announcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "81a19c87ae5f76947cfc4aa3676456eb875fa3c709ee0939b02e32081fb94a39",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/issuance-of-shares-/9501793",
+    "title": "Entain: Issuance of Shares",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926141+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Tracks changes in Entain's share capital, relevant for investors and analysts monitoring the gambling giant's corporate structure.",
+    "category": "share issuance",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "aa4bfff4adf3a13a507e387428e05c05ea6bc708de337670cd945935bc651cbe",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/annual-report-and-notice-of-agm/9485024",
+    "title": "Entain: Annual Report and Notice of AGM",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-20T12:47:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926144+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine corporate filing from a major listed operator, useful for governance and financial context but not inherently newsworthy.",
+    "category": "AGM/annual report filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "1ba1756f588e7203f5ab0b532599c34a6cadbef557a0d6b3229cacc882b5b15c",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9473842",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-13T10:38:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926147+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or potential influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "837ab2b75e291fc31b30ba200f012763a3dd8fe99ea8ac6c8399f3eef3d49354",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/released-in-error/9469798",
+    "title": "Entain: Released in error",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-11T14:17:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926150+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A major operator's RNS was released in error, signalling a possible upcoming disclosure worth monitoring.",
+    "category": "RNS correction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ab343ae660d3c86373c8dad113f2b046624a32fb89b929a0a64239323fbbabb1",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9469637",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-11T12:36:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926153+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor sentiment or influence over Entain's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "e32c2b938766243c9d96ac08fe21fba177cd8fb7a8d2fc19f359b29c46b40331",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9469082",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-11T08:24:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926155+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shifts in major shareholdings can signal investor sentiment or influence over Entain's strategic direction.",
+    "category": "major shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "7e3252068680d5ccc81ff5341347393a82a7395b49ec537a5972ab84ddb5fe56",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9465512",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-09T16:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926158+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over Entain's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "e0a0369b2334ae1fc8a38495634cc1488e98f3fdf27fe99e29eda07fd2c09135",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/director-pdmr-shareholding/9463073",
+    "title": "Entain: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-06T14:03:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926161+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine director shareholding disclosures rarely move the story but confirm insider activity at a major operator.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "44b6d920850ac88ff7824d00a1980076456c7d0ff0fbaaaa716fc6246bde0ab3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9462486",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-06T09:36:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926164+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A major shareholding change in Entain could signal shifting investor confidence or influence over the gambling giant's strategy.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "719c8d799e725a197246d3cca15f2eb226251b05176a38306b5cc2309227ea89",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/final-results/9459176",
+    "title": "Entain: Final Results",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-03-05T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926167+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Entain's full-year results reveal financial health, regulatory costs and strategic direction for one of the UK's largest listed gambling operators.",
+    "category": "financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "64030c409968bcc9587edd83d08b3b6f687340b43325efe38cbaa2a534cc3b28",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9445114",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-02-24T17:03:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926170+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor sentiment or influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "2ee5f9add9688426ebececf32bb413fcbc665d90aa337dcd26ec4b25e341ff8d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9442741",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-02-23T12:46:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926173+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or control over Entain, a leading UK-listed gambling operator.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "53737a3ec1c77dff2899c803083c62661c92886d060abee63990684851f1b1da",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9429126",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-02-13T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926176+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or influence over Entain's strategic direction.",
+    "category": "major shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "85f8421453db2be6f50f26fabbc3f211b24e202259ada46b9401b5fc67cb69b1",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9426858",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-02-12T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926178+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A major shareholding change in Entain could signal shifting investor confidence or influence over the operator's strategy.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "4df0edb2327644d5db7775e8aea1cbc687bd00b7bc7b73560e703218c4cb78a3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/betmgm-fy-2025-business-update/9408513",
+    "title": "Entain: BetMGM FY 2025 Business Update",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-02-04T12:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926181+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain",
+      "BetMGM"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A BetMGM performance update signals US joint-venture progress, informing investor and market views on Entain's growth strategy.",
+    "category": "business update/earnings",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited",
+      "BetMGM"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "2ae4594749bc7e235b5ad56174bc4de9d891559f1a7ac87fd820729b50d89276",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9542321",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-28T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926279+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine shareholding notification with no detail provided, unlikely to affect strategy or market view of Flutter.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "230d3cb4a6ebc8976c427c819bdf05b82b78c6b7425a090a3bf337f0c8835d73",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/directorate-change/9542150",
+    "title": "Flutter Entertainment: Directorate change",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-28T11:55:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926282+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Leadership changes at Flutter, a major global gambling operator, can signal strategic shifts affecting the wider industry.",
+    "category": "board/directorate change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "d11c4ff188885c9de34d4289cc7ecff85a2b93f2264f95eae1690c4edc660304",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9541983",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-28T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926284+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine buyback disclosure signals capital allocation but carries limited editorial weight for gambling-sector coverage.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "51f63c97d0f4fc1d600434e1fdfe93a8bd35b0b14e275ed195a0503eaff5da06",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9539973",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-27T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926287+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Discloses a change in major shareholding at Flutter, which may hint at investor sentiment shifts but lacks detail here.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "bd8a401f499f35c6a0c45cb3af3dec9758a5f9d9d2ce4166e3dab0b52c867226",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9537688",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-24T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926290+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine shareholding notification from a major listed operator, unlikely to affect strategy or market perception.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "abab7003e28c9845829e4cf01b9c5743bd2b3b4ae79d5583deecd9b7280d8300",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9537355",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-24T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926293+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine buyback activity signals capital allocation strategy but carries limited standalone impact for the UK gambling sector.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "41751bcac46399193dc06283b1877c136b5a73ac7e1222b260d18c9229cf9925",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9535158",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-23T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926296+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine buyback disclosures signal capital allocation strategy but rarely affect Flutter's regulatory or operational standing.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "c6c1d02d124d69eca4b862ab40af5983c05593c912584cd92cb46cb19b789ee2",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9532877",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-22T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926344+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share buyback disclosure signals capital allocation strategy but carries limited immediate news value for the sector.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "865ac49b824b120ec4df37d993a8f6383050359af87a5f98a50571a53d4bf328",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9531038",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-21T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926348+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Tracks major shareholder movements in Flutter Entertainment, relevant to investors and analysts watching ownership shifts.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "9898d7f60463abc0943c53fbc2998d08bfea82297423a63666851d932277f6e6",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9530680",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-21T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926353+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share buyback disclosure signals Flutter's capital allocation strategy but carries limited standalone news value.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "bef4eab5b682dea7aca95102509378ce368399280cd456c1ab073b04afd2b8a3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9528413",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-20T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926356+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine buyback disclosure signals capital allocation strategy for one of the largest global gambling operators.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "367abd9cded486b6fbb1f26168cf524b76682f16444ea15a3e5374f8609ba5f0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9526704",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-17T16:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926359+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine major-shareholder notification for Flutter Entertainment offers limited insight without details on stake size or acquirer identity.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "e0f0b59ab201a290bbfd55a9912396398ad87f227d14833dc8376ca57d33b5d6",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9526205",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-17T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926362+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share buyback disclosure signals capital allocation strategy but has limited immediate impact on gambling sector news.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "94a47520a6d29e73eaee6c7bc5dbdc0caf34ce270ad0eea8a09a2bf7a5630810",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/2026-notice-of-agm-definitive-proxy-statement/9524311",
+    "title": "Flutter Entertainment: 2026 Notice of AGM & Definitive Proxy Statement",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-16T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926365+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Routine governance filing with little immediate impact on operators, suppliers or regulation.",
+    "category": "AGM notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "8c29d2457a1a1fd1c0ff924ec9062af70a61377649e99198db6fade62ddc673a",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9523951",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-16T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926368+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine buyback filings signal capital allocation strategy but rarely drive standalone editorial interest for trade press.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "7dad302e7c66ad25e2834d2548dde564a689d55429ec2b78513e26a1c1745dad",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9521787",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-15T11:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926371+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine buyback disclosure signals capital allocation strategy but has limited immediate impact for gambling sector coverage.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "fb94a9bbb71bbe2f679dd281c76b4298437939dd16dd4b654d028e9c72ccfc3a",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9519403",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-14T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926373+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine buyback disclosure signals capital allocation but carries limited standalone news value for gambling-sector coverage.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "e60fed3a61d267a3c2b82e4db8a0a7524410b76f2ac00b71cc38eb4be0213dd2",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9517987",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-14T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926376+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor sentiment or influence over Flutter's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "d11c06e1b22ae58fa6dba11b1cc6378c161e59d2b235bf793eefbee6e106c16d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/delay-to-publication-of-fy25-audited-results/9542333",
+    "title": "evoke: Delay to publication of FY25 audited results",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-04-28T14:11:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926430+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke plc"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A delay to audited results from a major listed operator like evoke can signal accounting or governance issues investors and regulators will scrutinise.",
+    "category": "accounts filing delay",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "321b84078eb5934a15b6c97a68b651b574b3989e2f3d8cb36d18dbd3ef534b9d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/statement-regarding-media-speculation-/9527171",
+    "title": "evoke: Statement regarding media speculation",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-04-20T07:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926433+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke plc",
+      "888",
+      "William Hill"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A formal RNS response to media speculation about evoke, owner of William Hill and 888, may signal a takeover or major corporate change.",
+    "category": "M&A speculation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "531f0784092e78ba95714089ca4dede24c813b573810ae0cd5bd5f24617d7982",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/block-listing-six-monthly-return/9518082",
+    "title": "evoke: Block Listing Six Monthly Return",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-04-14T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926436+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine block listing return with no direct operational or regulatory impact, but tracks evoke's share issuance activity.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "369cda749081d5ffd57c8c0706975025a5b223245a17fb6f2b797493259e3e63",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9503136",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-04-01T09:56:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926438+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine regulatory disclosure of share capital and voting rights, relevant mainly for shareholder compliance tracking rather than industry news.",
+    "category": "total voting rights notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "11ce340b1d3dd89d24763adcb08938a087bfdd8abb23513a51a55fe44a6a77aa",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9501093",
+    "title": "evoke: Holding(s) in Company",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-03-31T12:34:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926441+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A change in major shareholder holdings can signal shifting investor confidence or influence over evoke's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "6fac753b4de325e626be9ee1dcf17790aa038aee7244761b4defe66e16fe1070",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/notice-of-fy25-results/9479284",
+    "title": "evoke: Notice of FY25 Results",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-03-18T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926444+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals when evoke (William Hill/888 owner) will report full-year results, giving journalists a diary date for financial scrutiny.",
+    "category": "results announcement notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "91190020e7c0c0a9eab402b6e1e7728b6a9dca417d8d5ef69cc11ab1a8d18a1d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9452038",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-03-02T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926448+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine regulatory disclosure of share capital and voting rights, useful for shareholder tracking but low editorial urgency.",
+    "category": "total voting rights announcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "72559f5d2856864521eec66a5fede0e33c36de7d7a6ca6641ace0480ea421058",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9399721",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-02-02T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926451+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine total voting rights disclosure helps shareholders calculate notifiable interest thresholds under FCA rules.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "c6d3300ce3e4f5a84c260b7ab7136687cba1b658a741b660848985f471b493de",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/2025-post-close-trading-update-/9388063",
+    "title": "evoke: 2025 Post-close Trading Update",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-01-27T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926454+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke plc"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Trading updates from major operators like evoke (William Hill, 888) signal financial health and can move share price and industry sentiment.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "b0e4017c20990909b21dbf6c84b04e70ecc95b46980a678e70a9f243c007ed36",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9328788",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-01-02T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926457+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine total voting rights disclosure helps shareholders calculate notifiable interest thresholds but carries no operational news.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "ac2e99d78fc453498fbae37efbdee7badce278cb906b471d37e4a0260561804f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/q3-2025-26-trading-update/9520281",
+    "title": "Rank Group: Q3 2025/26 Trading Update",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-04-15T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926553+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Rank's quarterly performance signals financial health of a major UK bingo and casino operator, relevant to investors and market trend analysis.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "3ec7ab310563fb2da8346e3487e9724937c46343028542b9e723d166d9e53f63",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/holding-s-in-company/9455766",
+    "title": "Rank Group: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-03-03T09:20:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926556+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A change in major shareholding could signal shifting investor sentiment or influence over Rank Group's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "1d79cb70e57c8743af6c650f547d7a9e31a29c297248c1f011461f6cd7b4dd06",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/9455751",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-03-03T09:15:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926558+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine PDMR shareholding disclosure from Rank Group offers limited insight but confirms ongoing compliance and insider activity.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "6260e3fcf6ca0c66fe862da2c0d4469d5b25f68d02cadc6041123169781ba8d0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/appointment-of-interim-chief-financial-officer/9433549",
+    "title": "Rank Group: Appointment of interim Chief Financial Officer",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-02-17T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926561+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal financial or strategic shifts worth monitoring.",
+    "category": "management change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "6103081dc11fe4432f42f9c927fd54c62454db62dc9b7587fc4d09392bbbdf33",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/director-pdmr-shareholding/9405382",
+    "title": "Rank Group: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-02-03T13:07:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926566+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine PDMR shareholding disclosure offers minor insight into insider sentiment at a major UK gambling operator.",
+    "category": "director dealing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "c97851f5d7b14b23881fd4cc84b6189876f2e4596e7e013cc017f84432fd5ffd",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/half-year-report/9392590",
+    "title": "Rank Group: Half-year Report",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-01-29T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926569+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Rank's half-year results reveal trading performance and trends across its casino and bingo brands, relevant to investors and competitors.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "dea2ac2a4dffb5ebb905db83252fcbd31429572dfd058c2a8319b96e8af1e742",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/ceo-succession/9334961",
+    "title": "Rank Group: CEO succession",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-01-06T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926572+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "CEO succession at a major listed UK gambling operator signals potential strategic shifts affecting casinos and bingo brands.",
+    "category": "leadership change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "bbbef4024a10d4cdb715ca2a76587d2564c226cc4811b3d128551160f042bb71",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-economic-estimates-earnings-2025",
+    "title": "DCMS Economic Estimates: Earnings 2025",
+    "raw_summary": "Official Statistics used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by employee earnings.",
+    "published_at": "2026-04-23T08:30:11+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914960+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Provides broad DCMS sector earnings data with limited direct relevance to gambling-specific operators or regulation.",
+    "category": "sector economic statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "c90c87165e6e2ebe097aa359dd86f81cc438a7f6476bab056c8f8baffa9748e4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/find-licences/tv-licence",
+    "title": "TV Licence",
+    "raw_summary": "You need a TV Licence to watch or record programmes on a TV, computer or other device as they're broadcast, and to watch on-demand BBC programmes on iPlayer",
+    "published_at": "2026-04-02T10:02:20+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914963+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BBC"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Generic TV Licence guidance has no relevance to UK gambling and gaming industry news.",
+    "category": "unrelated public info",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "BBC"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "0ebc7ebfbe9ab8ea3e3ec61cf778a993065e5ede43639f7c4abc4b8ffa9ce9e0",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/economic-estimates-employment-january-2024-to-december-2024-for-dcms-sectors",
+    "title": "Economic Estimates: Employment January 2024 to December 2024 for DCMS Sectors",
+    "raw_summary": "Official Statistics in development used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by employment.",
+    "published_at": "2026-04-02T08:30:10+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914966+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 12,
+    "why_it_matters": "Provides macro-level DCMS employment data but lacks operator-specific or regulatory detail relevant to gambling journalists.",
+    "category": "sector employment statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "5183b16e80dec93a78fd75f6a765a11a6f6af522ceaa1683383e3f34bc984810",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/economic-estimates-employment-in-dcms-sectors-april-2024-to-march-2025",
+    "title": "Economic Estimates: Employment in DCMS sectors, April 2024 to March 2025",
+    "raw_summary": "Official Statistics in development used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by employment.",
+    "published_at": "2026-04-02T08:30:10+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914970+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Broad DCMS employment data offers little direct relevance or actionable detail for gambling-sector journalists.",
+    "category": "sector employment statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "898d21ed7fab409a64c866d67a1742d825a6ef54382a7ddef0f4f07ea88dfc7d",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-economic-estimates-gva-2024-provisional",
+    "title": "DCMS Economic Estimates GVA 2024 (provisional)",
+    "raw_summary": "Accredited official statistics used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by GVA (gross value added).",
+    "published_at": "2026-02-05T09:30:00+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914979+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Broad DCMS sector GVA data offers only indirect, non-specific context on gambling's economic footprint for industry watchers.",
+    "category": "economic statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "000926d9d9d59c9b80ae6575ba6f0fe2ad9e2b36b5f5fc343b8c8cfa1bdf6ef1",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/ai-skills-for-life-and-work-labour-market-and-skills-projections",
+    "title": "AI Skills for Life and Work: Labour market and skills projections",
+    "raw_summary": "AI Skills for Life and Work: Labour market and skills projections ",
+    "published_at": "2026-01-28T00:01:02+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914983+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 4,
+    "why_it_matters": "General workforce AI skills projections have negligible direct relevance to UK gambling operators, suppliers or regulation.",
+    "category": "labour market/skills report",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "eb55b5ec3dbddaa90d44e059aed85b7a245abe60c8052b5d49e08c5d6d9f3402",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/340",
+    "title": "Quintero Velasco, Juliana Manuela",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-03-23T00:00:00+00:00",
+    "ingested_at": "2026-08-19T06:18:58.470170+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Juliana Manuela Quintero Velasco"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named individual's gambling licence has been revoked, signalling continued Commission enforcement against personal licence holders.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Juliana Manuela Quintero Velasco"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  }
+]

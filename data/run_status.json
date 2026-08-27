@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-08-27T10:40:01.141508+00:00",
+  "finished_at": "2026-08-27T10:42:08.860386+00:00",
+  "sources": {
+    "GamblingCommissionCollector": {
+      "items": 253,
+      "ok": true,
+      "error": false
+    },
+    "CompaniesHouseCollector": {
+      "items": 22,
+      "ok": true,
+      "error": false
+    },
+    "GazetteCollector": {
+      "items": 133,
+      "ok": true,
+      "error": false
+    },
+    "DCMSCollector": {
+      "items": 34,
+      "ok": true,
+      "error": false
+    },
+    "ParliamentCollector": {
+      "items": 79,
+      "ok": true,
+      "error": false
+    },
+    "ASACollector": {
+      "items": 27,
+      "ok": true,
+      "error": false
+    },
+    "BGCCollector": {
+      "items": 18,
+      "ok": true,
+      "error": false
+    },
+    "InsolvencyServiceCollector": {
+      "items": 0,
+      "ok": false,
+      "error": false
+    },
+    "LSERNSCollector": {
+      "items": 89,
+      "ok": true,
+      "error": false
+    }
+  },
+  "healthy_sources": 8,
+  "total_sources": 9,
+  "raw_items": 655,
+  "new_signals": 0,
+  "unscored": 0,
+  "live_signals": 329,
+  "clusters": 27
+}

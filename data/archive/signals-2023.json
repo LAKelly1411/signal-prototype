@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "56b19c18aa09b0176b1da44fe4c968b846a245fb4f51e911fcd2e9a24deb596e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/lindar-media-limited-faces-gbp690-947-regulatory-action",
+    "title": "Lindar Media Limited faces £690,947 regulatory action",
+    "raw_summary": "",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Lindar Media Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A near-£700k penalty highlights ongoing UK Gambling Commission crackdowns on compliance failures affecting operators' licences and costs.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lindar Media"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "c20406cc5f5d58e2c65d90d5579b372e30f47830642a4a068d80806a91b2774b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/suspension-of-licence-in-touch-games-limited",
+    "title": "Suspension of licences – In Touch Games Limited",
+    "raw_summary": "",
+    "published_at": "2023-09-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "In Touch Games Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A licensed operator's suspension signals active regulatory intervention, raising compliance concerns across the UK gambling sector.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "In Touch Games"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "622f15c7efe93aef1727151eff45063944020bfa11031bdeb1dd4689e8de2585",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/done-bros-cash-betting-limited-to-pay-gbp3-25m-for-regulatory-failures",
+    "title": "Done Bros (Cash Betting) Limited to pay £3.25m for regulatory failures",
+    "raw_summary": "",
+    "published_at": "2023-07-18T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Done Bros (Cash Betting) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A £3.25m regulatory settlement signals continued Gambling Commission enforcement pressure on operators over AML and safer gambling failures.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Done Bros"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "a77f76fef6f0bf7ad6a312166a42f90c3cb22cd2d833e43ec12f8117156c38fb",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gambling-business-star-racing-limited-fined-gbp594-00",
+    "title": "Gambling business Star Racing Limited fined £594,000",
+    "raw_summary": "",
+    "published_at": "2023-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Star Racing Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A UK gambling operator was fined £594,000 by the Gambling Commission, signalling ongoing enforcement action against licence holders.",
+    "category": "AML/enforcement fine",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Star Racing"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "02f9ab9b188aacdf56cf46a1179e2a1a885d3fe5e04ae6ea331e2636a326eb94",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/videoslots-limited-to-pay-gbp2m-for-regulatory-failures",
+    "title": "Videoslots Limited to pay £2m for regulatory failures",
+    "raw_summary": "",
+    "published_at": "2023-06-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Videoslots Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A £2m penalty against a well-known online operator signals continued regulatory pressure on AML and safer gambling compliance across the sector.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Videoslots"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "896fdcd3079d0a22c452b32df6921411bdb72eacb093583f35084aae51ba797b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gbp490-000-fine-for-marketing-to-vulnerable-consumers",
+    "title": "£490,000 fine for marketing to vulnerable consumers",
+    "raw_summary": "",
+    "published_at": "2023-05-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 75,
+    "why_it_matters": "A significant fine for marketing to vulnerable consumers signals tighter Gambling Commission enforcement on responsible marketing practices industry-wide.",
+    "category": "marketing/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "afceb935bb60b41d006e3d7530ebaebf026b9682335a963d4cca6eb4f03fdc7b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/skill-on-net-limited-faces-gbp305-150-regulatory-action",
+    "title": "Skill On Net Limited faces £305,150 regulatory action",
+    "raw_summary": "",
+    "published_at": "2023-05-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Skill On Net Limited"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "A UK-licensed operator's financial penalty signals ongoing Gambling Commission scrutiny of compliance failings, relevant to industry risk and enforcement trends.",
+    "category": "AML/regulatory settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Skill On Net"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "8cc5f71ea3960fdbaded00e3dcde2f6facfc4f545c1c8c1be521436672e77617",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gambling-business-tgp-europe-fined-gbp316-250",
+    "title": "Gambling business TGP Europe fined £316,250",
+    "raw_summary": "",
+    "published_at": "2023-04-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "TGP Europe"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A UK Gambling Commission fine signals compliance failings at TGP Europe and highlights ongoing regulatory scrutiny of licensees' AML and safer gambling controls.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "TGP Europe"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "a3ff1ed5488bcbe787142f485aaca4ffec2517043c98b60809467153def766b1",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gambling-commission-fines-32red-and-platinum-gaming-gbp7-1m",
+    "title": "Gambling Commission fines 32Red and Platinum Gaming £7.1m",
+    "raw_summary": "",
+    "published_at": "2023-03-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "32Red",
+      "Platinum Gaming"
+    ],
+    "newsworthiness_score": 85,
+    "why_it_matters": "Major financial penalty highlights ongoing regulatory scrutiny of operator compliance failures, signalling risk for the wider industry.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "32Red",
+      "Platinum Gaming"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "9731f10e6033c987f9ad2f0e2992b37923f772b594fe9f429c8a12d9bb57a51a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/blue-star-planet-faces-gbp620-000-regulatory-action",
+    "title": "Blue Star Planet faces £620,000 regulatory action",
+    "raw_summary": "",
+    "published_at": "2023-02-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Blue Star Planet"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A named operator faces a substantial £620,000 penalty, signalling continued Gambling Commission crackdown on compliance failures.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Blue Star Planet"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "f3982bf24841e07764f8dcb5612eb25874eacbe5d3805cd7396127c20f8083fc",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gbp6-1m-fine-for-online-operator-in-touch-games",
+    "title": "£6.1m fine for online operator In Touch Games",
+    "raw_summary": "",
+    "published_at": "2023-01-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "In Touch Games"
+    ],
+    "newsworthiness_score": 88,
+    "why_it_matters": "A £6.1m fine signals continued regulatory crackdown on operator compliance failures, setting a benchmark for future enforcement action.",
+    "category": "AML/licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "In Touch Games"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "7e7c6bc3a0f991ffdbfb55d573438687420d25e534cd30ce262e876c0592eb67",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/online-gambling-business-tonybet-fined-gbp442-750",
+    "title": "Online gambling business TonyBet fined £442,750",
+    "raw_summary": "",
+    "published_at": "2023-01-18T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "TonyBet"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A Gambling Commission fine signals compliance failings at TonyBet, offering a benchmark for enforcement trends and licence risk across the sector.",
+    "category": "AML/enforcement fine",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "TonyBet"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "e7aae364bda43180cb44c7069ada4efe488785d5554d915beb4cb09d3580f1db",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/vivaro-limited-faces-gbp337-631-regulatory-action",
+    "title": "Vivaro Limited faces £337,631 regulatory action",
+    "raw_summary": "",
+    "published_at": "2023-01-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Vivaro Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A licensed operator has been fined £337,631, signalling continued Gambling Commission scrutiny of AML and safer gambling failings.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Vivaro"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "5f9ed2ea62ebb8e67a86551439afcea15bf1fa6caf9d34b1f2601637c984a191",
+    "source": "companies_house",
+    "source_id": "MzM4Nzk0MzQ0MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzM4Nzk0MzQ0MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-07-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine compliance filing with no updates offers minimal news value but confirms bet365's continued corporate standing.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ab493307cc7b864632efb9944bc471ec0aad1effee23c175ff272999ab4ba773",
+    "source": "companies_house",
+    "source_id": "MzM2NDA2MjQxOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzM2NDA2MjQxOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2023-01-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "bet365's group accounts filing can reveal financial performance and tax details for the UK's largest private betting operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "b5ed0308d0a4f55b5aafff37cd683986fbb64bed7121df4cda7a02018f88aca9",
+    "source": "companies_house",
+    "source_id": "MzM5NzkyNzU3NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5NzkyNzU3NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2023-10-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Leadership changes at Entain's UK arm can signal governance shifts worth tracking for a major gambling operator.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "992261d50d8ea67328f63179b9c67be54b1e7a4f28d22683e1c82ac615b3aa7f",
+    "source": "companies_house",
+    "source_id": "MzM5NTkwNDI2M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5NTkwNDI2M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2023-10-11T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine full accounts filing from a major UK gambling operator's subsidiary may offer financial detail worth checking for analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "26c1150970eeabf9feb1721de72591773a4df99ec0f70b6104a3b3affe29ea4c",
+    "source": "companies_house",
+    "source_id": "MzM5MzgxMTcyOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM5MzgxMTcyOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A registered charge on Entain's UK holding entity may signal financing activity worth monitoring for wider group implications.",
+    "category": "charge registration",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "c166c201c5e4a36fcae7a0a51ff6dc69c5592ae2b7912dc31dc724b7ab181cba",
+    "source": "companies_house",
+    "source_id": "MzM4NTE4NDQ2M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE4NDQ2M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: RP04AP01 · Description: Second filing of director appointment with name",
+    "published_at": "2023-07-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Minor administrative filing showing a director appointment at Entain's UK entity, of limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "592ef7038c484e47f8b71564b5c30eda8d76c0e53db06ba9375298df5408e548",
+    "source": "companies_house",
+    "source_id": "MzM4NTM0OTc0NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTM0OTc0NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2023-07-05T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing at a major operator's UK subsidiary, of limited standalone interest but useful for tracking leadership changes.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "f09f8ee9b809ed493fd05e7085bf978ea9abc276d8fe940358305e80783811fd",
+    "source": "companies_house",
+    "source_id": "MzM4NTE4NjI1M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE4NjI1M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-07-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine director appointment at Entain's UK entity offers minor governance context but limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "2b33f0a30d100186b8ef9f95e5ece6de13d4be3c5252317806d0e02fd1679d92",
+    "source": "companies_house",
+    "source_id": "MzM4NTE1NjE2MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NTE1NjE2MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-07-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Minor administrative filing with no operational or regulatory impact but confirms corporate housekeeping at a major operator.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "884df8bb2223884c3a28eb37e4e70ae86a140dccded0d964cbfd55920834a382",
+    "source": "companies_house",
+    "source_id": "MzM4NDAwMjI1MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NDAwMjI1MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing with no operational or regulatory significance for the gambling sector.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "70c9edef91b09d7f69ba4e851d8653394aa745e53f72a2e1a7549bcf50c7d3f2",
+    "source": "companies_house",
+    "source_id": "MzM4NDAwMTgwNGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11159638/filing-history/MzM4NDAwMTgwNGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Entain Holdings (UK) Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-06-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine officer filing at Entain's UK entity offers minor governance visibility but no immediate operational or regulatory impact.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "8c6d0d47c9b838e71944b32a7317214771d27e55a0761cf51af56315313812ab",
+    "source": "companies_house",
+    "source_id": "MzM5NTkwNTIxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM5NTkwNTIxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2023-10-11T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Full financial accounts from a major Entain-owned brand can reveal performance and liabilities data of interest to industry analysts.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "858234ab49612377700c0ce90f3e46ccfef524a0e51d0ccb739cf55c8f0ac305",
+    "source": "companies_house",
+    "source_id": "MzM5MzgxMTQ3NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM5MzgxMTQ3NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A registered mortgage charge signals financing activity at a major UK bookmaker, worth noting for financial context.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "feff7d2f14fa10a03c7c88545a100942746eac49c6cd70d3c62277a1425192c7",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MzI3NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MzI3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine director appointment at a major operator may hint at governance changes worth monitoring but has limited standalone news value.",
+    "category": "director appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "05e17b3c1556abc9b9208104f39b6598d6d7981625c831a18efc37c26749fe20",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MzQ0OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MzQ0OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine administrative filing with minimal direct impact on industry news but confirms corporate housekeeping for a major operator.",
+    "category": "registered office address change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "06f16b639b72c809288b60728062bf2c1dcaf64997980b3f7f405ffa05dcabf2",
+    "source": "companies_house",
+    "source_id": "MzM4NTU0MjgwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM4NTU0MjgwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2023-07-06T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine director termination filing offers minor governance insight into Entain's Ladbrokes Coral entity but has no immediate market impact.",
+    "category": "director change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "bdbe76481c49d541297b18838f9a82974d240efa8ca3e7fcf76185de54e7f7c0",
+    "source": "companies_house",
+    "source_id": "MzM2NTA0MzA0MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzM2NTA0MzA0MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-01-09T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine compliance filing with no new information, unlikely to interest gambling industry journalists.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "1f03095cacfa050868bbc3b1ffe36b6cb84db2ecea9d1822b521e537aa88049d",
+    "source": "companies_house",
+    "source_id": "MzM4NjE0MDU2NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM4NjE0MDU2NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2023-07-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine accounts filing may reveal financial performance details for a major UK bookmaker of interest to industry watchers.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "029e1a0fb0e256e6c98fd942fbf7c62836bad29641792f7541e1afcc7a902257",
+    "source": "companies_house",
+    "source_id": "MzM4MzQxNTkwMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzM4MzQxNTkwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2023-06-19T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House confirmation statement offers minimal news value but confirms William Hill's continued corporate status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "f6570665bf579c64e61769a79c574d4804a817037da24d326161a25ad8c00369",
+    "source": "companies_house",
+    "source_id": "MzM5OTYzMjAwNWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM5OTYzMjAwNWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2023-11-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "Ownership control changes at a major gambling brand can signal wider corporate restructuring within Flutter's group.",
+    "category": "PSC/ownership change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "e841935e6015910adea6b93ec369b82c76b6ef073fb9121cada9633c66fadcdf",
+    "source": "companies_house",
+    "source_id": "MzM5ODg2NzkzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM5ODg2NzkzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Persons with significant control filed",
+    "raw_summary": "Type: PSC05 · Description: Change to a person with significant control",
+    "published_at": "2023-11-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 18,
+    "why_it_matters": "A change in Betfair's controlling ownership structure could signal wider Flutter group governance shifts worth monitoring.",
+    "category": "PSC change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "b4fe6582fdf4e3c5c62aba74036edea767335b19fa6c5ecb19fc0ff99986a526",
+    "source": "companies_house",
+    "source_id": "MzM4Nzk1NDM1NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4Nzk1NDM1NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2023-07-28T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine compliance filing with no updates, offering minimal insight into Betfair's operations or strategy.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "e2fff8b8f0aeb3cbbd3c8b826f7ccfbe8d890b4b475475ee3bf1f3b9539a24f8",
+    "source": "companies_house",
+    "source_id": "MzM4MzcxNTI2MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4MzcxNTI2MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing with minimal direct impact on industry stakeholders, but confirms Betfair's continued corporate activity.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "7794ee0ec2ef4dade2254bf86cfecc3e128ab81022b2ffd477d331a74f4df77e",
+    "source": "companies_house",
+    "source_id": "MzM4MjI4NjExOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzM4MjI4NjExOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2023-06-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine administrative filing showing Betfair Limited's registered office address change, of minimal editorial interest.",
+    "category": "registered office change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "b8ef7810d6974c6e62fb04d6f301c98dedcee901dc75bb4f9c6bcd600b4e72da",
+    "source": "gazette",
+    "source_id": "4517585",
+    "source_url": "https://www.thegazette.co.uk/notice/4517585",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Notices to Creditors: NOTICE TO CREDITORS TO SEND IN PARTICULARS OF DEBTS OR CLAIMS MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:11+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A licensed bookmaker's creditor notice signals company wind-down, relevant to gambling sector market-exit tracking.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Mel Hughes Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "c36cbb3805096d89d9d183ca971f758a4deab98dffb10a194ab954cb0e67fc65",
+    "source": "gazette",
+    "source_id": "4517584",
+    "source_url": "https://www.thegazette.co.uk/notice/4517584",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Appointment of Liquidators: PURSUANT TO ARTICLE 95 OF THE INSOLVENCY (NORTHERN IRELAND) ORDER 1989 Name of Company: MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:10+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A Northern Ireland bookmaker entering liquidation signals financial distress in the regional betting sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Mel Hughes Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "b200226bae453be2f9883b4f15aaedd27082e5edc9f9a5a32f94d931558cb154",
+    "source": "gazette",
+    "source_id": "4517583",
+    "source_url": "https://www.thegazette.co.uk/notice/4517583",
+    "title": "MEL HUGHES BOOKMAKERS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: NOTICE UNDER THE INSOLVENCY (NORTHERN IRELAND) ORDER 1989 MEL HUGHES BOOKMAKERS LIMITED …",
+    "published_at": "2023-12-22T12:01:09+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mel Hughes Bookmakers Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A Northern Ireland bookmaker's winding-up filing signals possible market exit and creditor impact in the betting sector.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Mel Hughes Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f0d67bef81347cb29afb1c2527b9c04de1e08d68da43a7268fcd872926787fa3",
+    "source": "gazette",
+    "source_id": "4515824",
+    "source_url": "https://www.thegazette.co.uk/notice/4515824",
+    "title": "KELROSS RACING LIMITED",
+    "raw_summary": "Appointment of Liquidators: …he Howarth Armsby Suite Studio House, Delamare Road, Cheshunt EN8 9SH Nature of Business: Racecourse …",
+    "published_at": "2023-12-19T15:00:12+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Kelross Racing Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A racecourse operator's liquidation may signal wider financial pressure in the racing and gambling supply chain.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Kelross Racing"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f216a484484129a976e143ae232561060934fa0d6419809f9a3243c6883fe741",
+    "source": "parliament",
+    "source_id": "A523E4E7-13C8-46FF-8666-B52AD70AF59F",
+    "source_url": "https://hansard.parliament.uk/Commons/2023-12-06/debates/A523E4E7-13C8-46FF-8666-B52AD70AF59F/HorseraceBettingLevyBoardandHorseWelfare",
+    "title": "Horserace Betting Levy Board and Horse Welfare",
+    "raw_summary": "Westminster Hall debate, Commons: Horserace Betting Levy Board and Horse Welfare",
+    "published_at": "2023-12-06T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Parliamentary debate on levy funding and horse welfare could signal future policy shifts affecting racing's betting-funded finance model.",
+    "category": "horserace betting levy / welfare policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Horserace Betting Levy Board"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null
+  },
+  {
+    "id": "c7264678e3b85dea00df5d6f0a2b8874bca969d63c4de15fa3b14cfc879ca5c5",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/211",
+    "title": "Leisure Electronics Limited",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2023-12-15T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923637+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Leisure Electronics Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A gambling supplier received a formal warning from the UK regulator, signalling possible compliance failings worth tracking industry-wide.",
+    "category": "regulatory sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Leisure Electronics"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "1ad8f8831c9837b4def6e316f708c15309ad2202c1067bac5bc82ed708583a59",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/210",
+    "title": "Gamesys Operations Limited",
+    "raw_summary": "Sanction: Financial penalty, Conditions attached to the licence, Financial penalty and Warning",
+    "published_at": "2023-11-22T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923642+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Gamesys Operations Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A financial penalty and licence conditions signal ongoing compliance failings at a major UK gambling operator, relevant to industry regulatory risk.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gamesys Operations"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  },
+  {
+    "id": "a1b00b56ce6a89f2f1ae0131e167738c9c2a1fc5e1958442fd301a96610607e5",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/209",
+    "title": "Kalooki Sportsbook Limited",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2023-11-14T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923645+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Kalooki Sportsbook Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A Gambling Commission warning signals compliance failings at the operator, useful for tracking regulatory enforcement trends.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Kalooki Sportsbook"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "ff0418480291accb8d10b755672e23a1b66344141a99eec1d9534031d2c06bff",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/207",
+    "title": "Geelen Antonius Paul",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2023-10-02T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923647+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Geelen Antonius Paul"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A personal gambling licence revocation signals UKGC enforcement action against an individual, relevant to industry compliance monitoring.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Geelen Antonius Paul"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "c074fd1e832bd75df9f2dca9e58475a73273952d65e5c8bd87712b28063f1cd9",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/206",
+    "title": "Lindar Media Limited",
+    "raw_summary": "Settlement: Divestment, Payment in lieu of financial penalty, Commission costs and Public statement",
+    "published_at": "2023-09-20T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923652+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Lindar Media Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A gambling licensee's regulatory settlement involving divestment and financial penalty signals compliance failings that peers and investors should note.",
+    "category": "licence settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lindar Media"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "6eb8fd368cccaf30652a4565c6003ac960a4a6f41dbc5a75999ea06cf9cd2ece",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/205",
+    "title": "Shaftesbury Casino Limited",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2023-07-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923655+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Shaftesbury Casino Limited"
+    ],
+    "newsworthiness_score": 38,
+    "why_it_matters": "A Gambling Commission warning against a licensed casino signals compliance failings that could foreshadow tougher action.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Shaftesbury Casino"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "2c5f4bb72e7a425173abf855c375cba207338aa73765f76dbf1dbb3fb14b5071",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/203",
+    "title": "Done Brothers (Cash Betting) Limited",
+    "raw_summary": "Settlement: Divestment, Payment in lieu of financial penalty and Public statement",
+    "published_at": "2023-07-18T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923658+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Done Brothers (Cash Betting) Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A licensed operator's settlement involving divestment and a financial payment signals ongoing Gambling Commission enforcement scrutiny.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Done Brothers"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "97991b589c06e125ec95a72a57b13dbacbac212b9fab2cc5b5eb79af33f8887f",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/william-hill-group-businesses-to-pay-record-gbp19-2m-for-failures",
+    "title": "William Hill Group businesses to pay record £19.2m for failures",
+    "raw_summary": "",
+    "published_at": "2023-03-28T00:00:00+00:00",
+    "ingested_at": "2026-07-20T10:46:27.779133+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "William Hill",
+      "William Hill Group"
+    ],
+    "newsworthiness_score": 95,
+    "why_it_matters": "A record £19.2m penalty against William Hill signals the Gambling Commission's toughened stance on AML and safer gambling failures, raising compliance stakes industry-wide.",
+    "category": "AML and social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
+  }
+]

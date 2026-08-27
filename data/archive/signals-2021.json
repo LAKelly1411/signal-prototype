@@ -1,0 +1,566 @@
+[
+  {
+    "id": "6ad89371819046359998fe9940f290c5ed2c6246caac5c9ec35dbc18456f4e95",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-publishes-conclusion-of-investigation-into-imme-ltd",
+    "title": "Commission publishes conclusion of investigation into IMME Ltd",
+    "raw_summary": "",
+    "published_at": "2021-12-22T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "IMME Ltd"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "The Gambling Commission's enforcement outcomes against licensees signal compliance risk areas operators and suppliers must monitor.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "IMME"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "1d12a8915e87b057b29d187f1b901c64dd225e7c7e27a4c7d0bebe4c66d397e1",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-buzz-group-ltd",
+    "title": "Regulatory action against Buzz Group Ltd",
+    "raw_summary": "",
+    "published_at": "2021-12-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Buzz Group Ltd"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Gambling Commission enforcement action signals compliance failings, warning other operators and affecting Buzz Group's licence status.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Buzz"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "024e777f9a25a4790c186cbc3682ade9138cec9f74be11388953ee6ef4356f76",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-greentube-alderney-limited",
+    "title": "Regulatory action against Greentube Alderney Limited",
+    "raw_summary": "",
+    "published_at": "2021-12-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Greentube Alderney Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A UK Gambling Commission enforcement action signals compliance failings, informing operators and suppliers of regulatory risk and potential penalties.",
+    "category": "regulatory enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Greentube Alderney"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "1e722ada8607a50c62fcf88a9d2d17740b8502ca507a873d59e038fdd8302a06",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/jail-for-man-who-misused-lottery-profits",
+    "title": "Jail for man who misused lottery profits",
+    "raw_summary": "",
+    "published_at": "2021-11-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Shows Gambling Commission enforcement action deters misuse of lottery funds, reinforcing accountability for society lottery operators.",
+    "category": "lottery fraud enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "b34045d15748a96b4bf6f82b2d986d033edc96a3168d7c4f13f3da9dc5e05240",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/land-based-casino-faces-regulatory-action",
+    "title": "Land-based casino faces regulatory action",
+    "raw_summary": "",
+    "published_at": "2021-10-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 60,
+    "why_it_matters": "Signals possible sanctions against a land-based casino operator, relevant for tracking Commission enforcement trends, though the operator's name is not disclosed.",
+    "category": "licence review/regulatory action",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "a872b34827998fa3331aead77e2b0d1cd4811434a6f93cbeffe8f45a0cfd828c",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-eu-lotto",
+    "title": "Regulatory action against EU Lotto",
+    "raw_summary": "",
+    "published_at": "2021-09-23T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "EU Lotto"
+    ],
+    "newsworthiness_score": 60,
+    "why_it_matters": "Regulatory action against an operator signals compliance failings and potential licence risk, relevant for industry risk monitoring.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "EU Lotto"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "9a538748fb90ced69bf62614175a7377b1e2edc2cadb2491d9c8ae96b08a0b9e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-daub-alderney",
+    "title": "Regulatory action against Daub Alderney",
+    "raw_summary": "",
+    "published_at": "2021-09-01T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Daub Alderney"
+    ],
+    "newsworthiness_score": 70,
+    "why_it_matters": "Regulatory action against a licensed operator signals potential compliance failings and may prompt fines or licence conditions affecting industry standards.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Daub Alderney"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "ed5164e6001f9242628de5382aedfa690f90e6ea1452be48af0c3408343a0f64",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/information-notice-suspension-of-licence-martin-henry-bailey",
+    "title": "Information notice: Suspension of licence – Martin Henry Bailey",
+    "raw_summary": "",
+    "published_at": "2021-07-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Martin Henry Bailey"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A personal gambling licence suspension signals Commission enforcement action, relevant for tracking regulatory compliance trends among licence holders.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Martin Henry Bailey"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "2e23cb92a1c6b943117243e0c7fc93fbb2d317c8879451bcf81afee7129b0db2",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/information-notice-suspension-of-licence-playerft-limited",
+    "title": "Information notice - Suspension of licence – PlayerFT Limited",
+    "raw_summary": "",
+    "published_at": "2021-07-02T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "PlayerFT Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A UK Gambling Commission licence suspension signals serious compliance concerns and potential enforcement action against the operator.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "PlayerFT"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "f93ae9c95c1a9e91d2ae2d064db74df2692570fca992661eb866d1ca5ec9a82a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/information-notice-suspension-of-licence-lottery-england-limited",
+    "title": "Information notice: Suspension of licence – Lottery England Limited",
+    "raw_summary": "",
+    "published_at": "2021-05-14T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Lottery England Limited"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "A Gambling Commission licence suspension signals possible serious compliance failure, directly affecting operator's ability to trade and industry trust.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lottery England"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "5dc1359f4d5b9080dc9982527322cb37cc3d1e1ca6de14890ea4bff31fcebc9e",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/interim-suspension-of-operating-licence-nektan-gibraltar-limited",
+    "title": "Interim suspension of operating licence – Nektan (Gibraltar) Limited",
+    "raw_summary": "",
+    "published_at": "2021-04-29T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Nektan (Gibraltar) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "An interim suspension signals serious regulatory concerns about Nektan's compliance, potentially disrupting its UK gambling operations and B2B partnerships.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Nektan"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "b2e9ffdcfcb98b80ba68d3eea1d958fcbbe7bf839ff369146175a8c1fead9fbf",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/land-based-casinos-face-regulatory-action",
+    "title": "Land-based casinos face regulatory action",
+    "raw_summary": "",
+    "published_at": "2021-03-30T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Regulatory action against land-based casinos signals wider compliance scrutiny that could affect operators across the sector.",
+    "category": "casino enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "33c7c1a592d13d64093e049cf91c1c9ad92a8cee3572dec75fa6f565c69f2708",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-casumo",
+    "title": "Regulatory action against Casumo",
+    "raw_summary": "",
+    "published_at": "2021-03-25T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Casumo"
+    ],
+    "newsworthiness_score": 82,
+    "why_it_matters": "Regulatory action against a licensed operator signals compliance failings and potential fines, shaping industry risk and licensing standards.",
+    "category": "licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Casumo"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "2ea905e43373774cd913fa973a26137ff2c5fc26ca53a6e56cc555f778e1a6f6",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-in-touch-games",
+    "title": "Regulatory action against In Touch Games",
+    "raw_summary": "",
+    "published_at": "2021-03-17T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "In Touch Games"
+    ],
+    "newsworthiness_score": 75,
+    "why_it_matters": "UK regulator enforcement against a licensed gambling operator signals compliance failings and potential financial penalties affecting industry standards.",
+    "category": "regulatory enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "In Touch Games"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "8a65fd48ee90ca671df02a098e3e73841197ca77b857807c146cc3603fb237ed",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/information-notice-suspension-of-licence-betindex-limited",
+    "title": "Information notice: Suspension of licence - BetIndex Limited",
+    "raw_summary": "",
+    "published_at": "2021-03-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "BetIndex Limited"
+    ],
+    "newsworthiness_score": 70,
+    "why_it_matters": "A UK Gambling Commission licence suspension signals serious regulatory concern and potential customer fund/operator impact for BetIndex.",
+    "category": "licence suspension",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "BetIndex"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "587035a9f2c25a82ca3cb4e2fdba8055bb61d52a0fcfaaed8af2a39e3fef0dcb",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/personal-licence-holders-at-caesars-entertainment-held-to-account",
+    "title": "Personal licence holders at Caesars Entertainment held to account",
+    "raw_summary": "",
+    "published_at": "2021-03-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Caesars Entertainment"
+    ],
+    "newsworthiness_score": 68,
+    "why_it_matters": "Regulatory action against individual licence holders at a major operator signals stricter AML/social responsibility accountability for senior staff across the sector.",
+    "category": "personal licence enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Caesars Entertainment"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "b9a3477d55c20a5b6dc327bc21066d8ef78ae7f4c4a8f9cd6c1a7daebc910bd1",
+    "source": "companies_house",
+    "source_id": "MzMwOTU4OTg4OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwOTU4OTg4OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2021-08-03T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine annual confirmation statement offers minimal news value beyond confirming bet365's continued corporate compliance status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "14ff5e72a84f7412e421f95f423130fade1f57484fc26d1afecb7da608bcf2c3",
+    "source": "companies_house",
+    "source_id": "MzMwNDQ0OTk3M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwNDQ0OTk3M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: AP03 · Description: Appoint person secretary company with name date",
+    "published_at": "2021-06-16T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine company secretary appointment at bet365 offers minor corporate governance visibility but no operational or regulatory impact.",
+    "category": "company officer filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "0f58cddbe29ef978c1fdac4969a7b69d62a9d427613eed6e13e7a5b6a29e6602",
+    "source": "companies_house",
+    "source_id": "MzMwNDQ0OTk4MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzMwNDQ0OTk4MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2021-06-15T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing showing a secretary termination at bet365, minor administrative update with limited editorial value.",
+    "category": "corporate officer change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "1af2774fdf4f40f89e3e0090ad62a5db3104113c39475c2eed27401ed188a899",
+    "source": "companies_house",
+    "source_id": "MzI5NzIzNTAwMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzI5NzIzNTAwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2021-04-13T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Financial filings from bet365, the UK's largest private betting operator, can reveal performance and market trends for the sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ab29891f69c791758874d1062b2e6db8ba79e997d308ac33ab496bf31db18d06",
+    "source": "companies_house",
+    "source_id": "MzMxMzUwMjc1NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzMxMzUwMjc1NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Mortgage filed",
+    "raw_summary": "Type: MR01 · Description: Mortgage create with deed with charge number charge creation date",
+    "published_at": "2021-09-10T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A registered charge on Ladbrokes Coral's assets may signal financing activity worth monitoring within Entain's group structure.",
+    "category": "charge filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "065e15bf02e24eb1e3b6f7e9405d6c298ba5c9889be44546c6bafec401d1440a",
+    "source": "companies_house",
+    "source_id": "MzMxNTkyNzQ3MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzMxNTkyNzQ3MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type total exemption full",
+    "published_at": "2021-10-04T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine full accounts filing for Betfair Limited offers limited insight but may inform financial tracking of the operator.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "69c02c81b1537a200cad3d464e7053c1171a05319b818d0ac7df50c72f1fd591",
+    "source": "companies_house",
+    "source_id": "MzMwODg4NzUxMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzMwODg4NzUxMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2021-07-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates, unlikely to affect operations or signal any regulatory change.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ba1dd03ee8f94a5f546799bd60efeaac2a560634ab761075fccfea1ed953b9ed",
+    "source": "companies_house",
+    "source_id": "MzI4ODIyNzE3N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzI4ODIyNzE3N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2021-01-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine full accounts filing for Betfair may reveal financial performance details relevant to Flutter's UK betting operations.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  }
+]
