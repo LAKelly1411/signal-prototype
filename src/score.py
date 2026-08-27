@@ -5,6 +5,8 @@ import os
 
 import anthropic
 
+from src.entities import canonicalise
+
 logger = logging.getLogger(__name__)
 
 SYSTEM_PROMPT = (
@@ -53,8 +55,13 @@ CLUSTER_SUMMARY_VERSION = hashlib.sha256(
 ).hexdigest()[:8]
 
 
-def _client() -> anthropic.Anthropic:
-    return anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+def build_client() -> anthropic.Anthropic:
+    """One client per run, reused across every call. max_retries covers the
+    transient 429/529s that would otherwise leave a signal unscored until the
+    next scheduled run."""
+    return anthropic.Anthropic(
+        api_key=os.environ["ANTHROPIC_API_KEY"], max_retries=5
+    )
 
 
 def _strip_fences(text: str) -> str:
@@ -66,10 +73,14 @@ def _strip_fences(text: str) -> str:
     return text.strip()
 
 
-def score_signal(signal: dict, client: anthropic.Anthropic | None = None) -> dict:
+def score_signal(
+    signal: dict,
+    client: anthropic.Anthropic | None = None,
+    alias_map: dict[str, str] | None = None,
+) -> dict:
     """Enrich a signal in place with score/entities/category/why_it_matters.
     On any failure, leaves the score null and flags it rather than dropping it."""
-    client = client or _client()
+    client = client or build_client()
     model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 
     user_content = (
@@ -93,6 +104,9 @@ def score_signal(signal: dict, client: anthropic.Anthropic | None = None) -> dic
         signal["newsworthiness_score"] = int(parsed["newsworthiness_score"])
         signal["signal_type"] = parsed.get("signal_type", signal["signal_type"])
         signal["entities"] = parsed.get("entities", [])
+        # Raw extraction stays as-is so it remains auditable; clustering and
+        # the dashboard's company filter work off the canonical form.
+        signal["canonical_entities"] = canonicalise(signal["entities"], alias_map)
         signal["category"] = parsed.get("category")
         signal["why_it_matters"] = parsed.get("why_it_matters")
         signal["status"] = "seen"
@@ -109,7 +123,7 @@ def summarize_cluster(
     """Synthesise what a cluster of related signals means, for the Patterns
     feed. Returns None on failure so the pipeline retries next run rather
     than caching a blank."""
-    client = client or _client()
+    client = client or build_client()
     model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 
     members_sorted = sorted(members, key=lambda m: m["published_at"])

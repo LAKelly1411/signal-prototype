@@ -1,6 +1,6 @@
 import logging
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -24,11 +24,35 @@ class CompaniesHouseCollector(Collector):
         operators: list[dict],
         items_per_page: int = 25,
         sleep_seconds: float = 0.6,
+        lookback_days: int | None = 365,
+        categories: list[str] | None = None,
     ):
         self.api_key = api_key
         self.operators = operators
         self.items_per_page = items_per_page
         self.sleep_seconds = sleep_seconds
+        # The API returns the most recent N filings regardless of age, so
+        # without a date bound the first run back-fills a decade of routine
+        # accounts and confirmation statements — each one paying for a scoring
+        # call and padding out the company's cluster with nothing to report.
+        self.lookback_days = lookback_days
+        self.categories = {c.lower() for c in categories} if categories else None
+
+    def _wanted(self, filing: dict, cutoff: datetime | None) -> bool:
+        if self.categories and filing.get("category", "").lower() not in self.categories:
+            return False
+        if cutoff is None:
+            return True
+        date = filing.get("date")
+        if not date:
+            # No date to judge it by — keep it and let scoring decide.
+            return True
+        try:
+            filed = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            logger.warning("Could not parse Companies House filing date %r", date)
+            return True
+        return filed >= cutoff
 
     def _fetch_filings(self, company_number: str) -> list[dict]:
         url = f"{API_BASE}/company/{company_number}/filing-history"
@@ -49,6 +73,11 @@ class CompaniesHouseCollector(Collector):
 
     def collect(self) -> list[RawItem]:
         items: list[RawItem] = []
+        cutoff = (
+            datetime.now(timezone.utc) - timedelta(days=self.lookback_days)
+            if self.lookback_days
+            else None
+        )
 
         for operator in self.operators:
             company_number = operator.get("company_number")
@@ -65,6 +94,9 @@ class CompaniesHouseCollector(Collector):
                 logger.info("No filings returned for %s (%s)", name, company_number)
 
             for filing in filings:
+                if not self._wanted(filing, cutoff):
+                    continue
+
                 transaction_id = filing.get("transaction_id")
                 category = filing.get("category", "")
                 filing_type = filing.get("type", "")
@@ -102,6 +134,7 @@ class CompaniesHouseCollector(Collector):
                         title=title,
                         raw_summary=raw_summary,
                         published_at=published_at,
+                        published_at_estimated=not date,
                         signal_type="corporate_filing",
                     )
                 )

@@ -19,13 +19,16 @@ def _text_after(tag: Tag) -> str:
     return sibling.strip().replace("\xa0", " ") if isinstance(sibling, str) else ""
 
 
-def _parse_date(date_text: str, fmt: str) -> str:
-    try:
-        dt = datetime.strptime(date_text.strip(), fmt)
-        return dt.replace(tzinfo=timezone.utc).isoformat()
-    except ValueError:
-        logger.warning("Could not parse Insolvency Service date %r", date_text)
-        return datetime.now(timezone.utc).isoformat()
+def _parse_date(date_text: str | None, fmt: str) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if date_text:
+        try:
+            dt = datetime.strptime(date_text.strip(), fmt)
+            return dt.replace(tzinfo=timezone.utc).isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse Insolvency Service date %r", date_text)
+    return datetime.now(timezone.utc).isoformat(), True
 
 
 class InsolvencyServiceCollector(Collector):
@@ -102,6 +105,7 @@ class InsolvencyServiceCollector(Collector):
                 else (date_submitted, "%d-%m-%Y")
             )
 
+            published_at, estimated = _parse_date(date_text, fmt)
             items.append(
                 RawItem(
                     source=SOURCE,
@@ -109,11 +113,8 @@ class InsolvencyServiceCollector(Collector):
                     source_url=f"{BASE_URL}/{detail_href}" if detail_href else LISTING_URL,
                     title=f"{name} disqualified as director — {company_name}",
                     raw_summary=summary,
-                    published_at=(
-                        _parse_date(date_text, fmt)
-                        if date_text
-                        else datetime.now(timezone.utc).isoformat()
-                    ),
+                    published_at=published_at,
+                    published_at_estimated=estimated,
                     signal_type="insolvency",
                 )
             )

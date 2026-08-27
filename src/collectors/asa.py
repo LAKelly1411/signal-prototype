@@ -15,13 +15,16 @@ _DATE_RE = re.compile(r"^\d{1,2} [A-Za-z]+ \d{4}$")
 logger = logging.getLogger(__name__)
 
 
-def _parse_date(date_text: str) -> str:
-    try:
-        dt = datetime.strptime(date_text, "%d %B %Y")
-        return dt.replace(tzinfo=timezone.utc).isoformat()
-    except ValueError:
-        logger.warning("Could not parse ASA ruling date %r", date_text)
-        return datetime.now(timezone.utc).isoformat()
+def _parse_date(date_text: str | None) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if date_text:
+        try:
+            dt = datetime.strptime(date_text, "%d %B %Y")
+            return dt.replace(tzinfo=timezone.utc).isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse ASA ruling date %r", date_text)
+    return datetime.now(timezone.utc).isoformat(), True
 
 
 class ASACollector(Collector):
@@ -84,17 +87,15 @@ class ASACollector(Collector):
                 if other_captions:
                     summary = f"{' / '.join(other_captions)}: {summary}"
 
+                published_at, estimated = _parse_date(date_text)
                 items.append(
                     RawItem(
                         source=SOURCE,
                         source_url=url,
                         title=title,
                         raw_summary=summary,
-                        published_at=(
-                            _parse_date(date_text)
-                            if date_text
-                            else datetime.now(timezone.utc).isoformat()
-                        ),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="enforcement",
                     )
                 )

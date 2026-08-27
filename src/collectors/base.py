@@ -11,6 +11,10 @@ class RawItem:
     published_at: str  # ISO 8601
     signal_type: str
     source_id: str | None = None
+    # Set when the source gave no usable date and published_at is a "now"
+    # fallback. Without this an unparseable date looks like breaking news at
+    # the top of the feed.
+    published_at_estimated: bool = False
 
 
 class Collector(ABC):

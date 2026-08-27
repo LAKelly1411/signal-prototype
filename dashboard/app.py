@@ -2,12 +2,13 @@ import base64
 import html
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 import requests
 import streamlit as st
 import yaml
 
-from src.cluster import compute_heat
+from src.cluster import compute_heat, is_excluded, signal_entities
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
 
@@ -129,6 +130,23 @@ def inject_css() -> None:
             color: #3d3677;
             font-weight: 600;
         }
+        .estimated-date {
+            font-style: italic;
+            opacity: 0.75;
+        }
+        .health-strip {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+        .health-ok { background-color: #e6f4ea; color: #1c5c2e; }
+        .health-warn { background-color: #fff6df; color: #8a6a00; }
+        .health-bad { background-color: #fdeaea; color: #8a1c1c; }
         .cluster-summary {
             background-color: #fff6df;
             border-left: 4px solid #ffcb47;
@@ -174,6 +192,34 @@ def load_signals() -> list[dict]:
     return resp.json()
 
 
+@st.cache_data(ttl=600)
+def load_run_status() -> dict | None:
+    """Pipeline health, published next to the signals file. Absent on older
+    data or if the URL isn't configured — the strip just hides itself."""
+    url = st.secrets.get("RUN_STATUS_RAW_URL")
+    if not url:
+        return None
+    try:
+        resp = requests.get(url, timeout=20)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception:
+        return None
+
+
+def safe_url(url: str) -> str:
+    """Source URLs come from scraped hrefs on third-party pages and land
+    inside an href="..." rendered with unsafe_allow_html, so both the scheme
+    and the quoting need checking before they get there."""
+    try:
+        scheme = urlparse(url).scheme.lower()
+    except ValueError:
+        return "#"
+    if scheme not in ("http", "https"):
+        return "#"
+    return html.escape(url, quote=True)
+
+
 def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
     label, bg, fg = score_tier(signal["newsworthiness_score"])
     why_it_matters = html.escape(signal.get("why_it_matters") or "")
@@ -187,6 +233,12 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
             chips.append(f'<span class="tag-chip category">{html.escape(category)}</span>')
         chips.extend(f'<span class="tag-chip">{html.escape(e)}</span>' for e in entities)
         tags_html = f'<div class="signal-tags">{"".join(chips)}</div>'
+
+    date_html = signal["published_at"][:10]
+    if signal.get("published_at_estimated"):
+        # The source gave no usable date, so this is the ingest time standing
+        # in — say so rather than presenting a guess as fact.
+        date_html = f'<span class="estimated-date">{date_html} (date estimated)</span>'
 
     pattern_html = ""
     cluster_id = signal.get("cluster_id")
@@ -209,12 +261,13 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
             </span>
           </div>
           <div class="signal-meta">
-            {html.escape(signal['source'])} &middot; {signal['published_at'][:10]}
+            {html.escape(signal['source'])} &middot; {date_html}
           </div>
           {tags_html}
           <div class="signal-why">{why_it_matters}</div>
           {pattern_html}
-          <a class="signal-link" href="{signal['source_url']}" target="_blank">Source &rarr;</a>
+          <a class="signal-link" href="{safe_url(signal['source_url'])}"
+             target="_blank" rel="noopener noreferrer">Source &rarr;</a>
         </div>
         """,
         unsafe_allow_html=True,
@@ -245,7 +298,12 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
         key=f"types_{','.join(signal_types)}",
     )
 
-    all_entities = sorted({e for s in scored for e in s.get("entities", [])})
+    # Canonical names, so one option covers every spelling of a company —
+    # picking "Entain Holdings (UK) Limited" also matches signals that named
+    # it "Entain".
+    all_entities = sorted(
+        {e for s in scored for e in signal_entities(s)}, key=str.lower
+    )
     selected_entities = st.sidebar.multiselect(
         "Company / entity",
         all_entities,
@@ -290,17 +348,20 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
             continue
         if not (start_date <= pub_date <= end_date):
             continue
-        if selected_entities and not set(signal.get("entities", [])) & set(
+        if selected_entities and not set(signal_entities(signal)) & set(
             selected_entities
         ):
             continue
         if search_query:
+            # Search both spellings so "Entain" finds signals stored under
+            # the full legal name and vice versa.
             haystack = " ".join(
                 [
                     signal.get("title", ""),
                     signal.get("why_it_matters") or "",
                     signal.get("category") or "",
                     " ".join(signal.get("entities", [])),
+                    " ".join(signal_entities(signal)),
                 ]
             ).lower()
             if search_query not in haystack:
@@ -313,12 +374,32 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     return filtered, sort_order
 
 
-def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
+def group_by_cluster(scored: list[dict]) -> dict[str, list[dict]]:
     grouped = defaultdict(list)
     for s in scored:
         if s.get("cluster_id"):
             grouped[s["cluster_id"]].append(s)
-    return {cid: (compute_heat(members), len(members)) for cid, members in grouped.items()}
+    return grouped
+
+
+def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
+    return {
+        cid: (compute_heat(members), len(members))
+        for cid, members in group_by_cluster(scored).items()
+    }
+
+
+def cluster_label(members: list[dict]) -> str:
+    """Name a cluster after the company it's actually about. Institutions are
+    skipped: a cluster titled "Gambling Commission" says nothing, since the
+    regulator is named in most of the feed."""
+    counts = Counter(e for m in members for e in signal_entities(m))
+    companies = [(name, n) for name, n in counts.most_common() if not is_excluded(name)]
+    if not companies:
+        return "Unnamed cluster"
+    primary = companies[0][0]
+    others = len(companies) - 1
+    return f"{primary} +{others} more" if others else primary
 
 
 def _date_bucket(pub_date, today) -> str:
@@ -373,16 +454,12 @@ def render_feed(signals: list[dict]) -> None:
 
 def render_patterns(signals: list[dict]) -> None:
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
-
-    grouped = defaultdict(list)
-    for s in scored:
-        if s.get("cluster_id"):
-            grouped[s["cluster_id"]].append(s)
+    grouped = group_by_cluster(scored)
 
     if not grouped:
         st.info(
             "No emerging patterns yet — a pattern needs two or more signals "
-            "naming the same company within the last 30 days."
+            "naming the same company within the last 90 days."
         )
         return
 
@@ -406,19 +483,9 @@ def render_patterns(signals: list[dict]) -> None:
         sources = sorted({m["source"] for m in members})
         source_word = "source" if len(sources) == 1 else "sources"
 
-        # Most-mentioned entity rather than alphabetically-first, so a
+        # Most-mentioned company rather than alphabetically-first, so a
         # multi-company cluster is labelled by whoever it's actually about.
-        entity_counts = Counter(e for m in members for e in m.get("entities", []))
-        if entity_counts:
-            primary_entity = entity_counts.most_common(1)[0][0]
-            other_entities = len(entity_counts) - 1
-            label = (
-                f"{primary_entity} +{other_entities} more"
-                if other_entities
-                else primary_entity
-            )
-        else:
-            label = "Unnamed cluster"
+        label = cluster_label(members)
 
         pub_dates = sorted(
             datetime.fromisoformat(m["published_at"]).date() for m in members
@@ -453,6 +520,60 @@ def render_patterns(signals: list[dict]) -> None:
             if show_all:
                 for m in members_sorted:
                     render_card(m)
+
+
+def _humanise_age(delta_seconds: float) -> str:
+    minutes = int(delta_seconds // 60)
+    if minutes < 60:
+        return f"{max(minutes, 0)} min ago"
+    hours = minutes // 60
+    if hours < 24:
+        return f"{hours} hour{'s' if hours != 1 else ''} ago"
+    days = hours // 24
+    return f"{days} day{'s' if days != 1 else ''} ago"
+
+
+def render_health_strip(status: dict | None) -> None:
+    """Freshness and source health at a glance. Without this a scraper whose
+    page layout moved just goes quiet, and the feed looks like a slow news
+    week rather than a broken collector."""
+    if not status:
+        return
+
+    try:
+        finished = datetime.fromisoformat(status["finished_at"])
+    except (KeyError, ValueError):
+        return
+
+    age = (datetime.now(timezone.utc) - finished).total_seconds()
+    healthy = status.get("healthy_sources", 0)
+    total = status.get("total_sources", 0)
+
+    if age > 12 * 3600:
+        css, detail = "health-bad", "pipeline may have stopped running"
+    elif healthy < total:
+        css, detail = "health-warn", f"{total - healthy} source(s) returned nothing"
+    else:
+        css, detail = "health-ok", "all sources healthy"
+
+    unscored = status.get("unscored", 0)
+    if unscored:
+        detail += f" · {unscored} awaiting scoring"
+
+    st.markdown(
+        f'<div class="health-strip {css}">Updated {_humanise_age(age)} · '
+        f"{healthy}/{total} sources · {html.escape(detail)}</div>",
+        unsafe_allow_html=True,
+    )
+
+    failing = [
+        name
+        for name, info in (status.get("sources") or {}).items()
+        if not info.get("ok")
+    ]
+    if failing:
+        with st.expander("Which sources returned nothing?"):
+            st.write(", ".join(sorted(failing)))
 
 
 def _github_headers() -> dict:
@@ -546,6 +667,8 @@ def main() -> None:
     st.title("Sector Signal")
     st.markdown('<div class="header-rule"></div>', unsafe_allow_html=True)
     st.caption("Gambling & gaming sector signals, scored for newsworthiness.")
+
+    render_health_strip(load_run_status())
 
     signals = load_signals()
     feed_tab, patterns_tab = st.tabs(["Feed", "Patterns"])

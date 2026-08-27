@@ -1,5 +1,6 @@
 import logging
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -12,15 +13,17 @@ SOURCE = "lse_rns"
 logger = logging.getLogger(__name__)
 
 
-def _parse_datetime(date_text: str, time_text: str) -> str:
+def _parse_datetime(date_text: str, time_text: str) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
     try:
         dt = datetime.strptime(
             f"{date_text.strip()} {time_text.strip()}", "%d %b %Y %I:%M %p"
         )
-        return dt.replace(tzinfo=timezone.utc).isoformat()
+        return dt.replace(tzinfo=timezone.utc).isoformat(), False
     except ValueError:
         logger.warning("Could not parse RNS date/time %r %r", date_text, time_text)
-        return datetime.now(timezone.utc).isoformat()
+        return datetime.now(timezone.utc).isoformat(), True
 
 
 class LSERNSCollector(Collector):
@@ -74,13 +77,19 @@ class LSERNSCollector(Collector):
                 date_text = cells[0].get_text(strip=True)
                 time_text = cells[1].get_text(strip=True)
 
+                published_at, estimated = _parse_datetime(date_text, time_text)
                 items.append(
                     RawItem(
                         source=SOURCE,
-                        source_url=link["href"],
+                        # Investegate currently emits absolute hrefs, but a
+                        # relative one would become a dead link in the
+                        # dashboard and, since the URL is the signal's id, a
+                        # duplicate on every run.
+                        source_url=urljoin(BASE_URL, link["href"]),
                         title=f"{company_name}: {title}",
                         raw_summary=f"RNS announcement from {company_name} ({ticker}).",
-                        published_at=_parse_datetime(date_text, time_text),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="corporate_filing",
                     )
                 )

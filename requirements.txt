@@ -1,6 +1,8 @@
-requests
-beautifulsoup4
-anthropic
-streamlit
-pyyaml
-python-dotenv
+# Pinned so an unattended scheduled run can't pick up a breaking release with
+# nobody watching. Bump deliberately, with a test run behind it.
+requests==2.34.2
+beautifulsoup4==4.15.0
+anthropic==1.1.0
+streamlit==1.62.0
+pyyaml==6.0.3
+python-dotenv==1.2.3

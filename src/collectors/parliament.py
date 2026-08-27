@@ -20,11 +20,18 @@ def _slugify(title: str) -> str:
     return "".join(c for c in title if c.isalnum()) or "Debate"
 
 
-def _to_iso(date_str: str) -> str:
-    dt = datetime.fromisoformat(date_str)
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    return dt.isoformat()
+def _to_iso(date_str: str | None) -> tuple[str, bool]:
+    """Returns (iso_date, estimated). Estimated means the source gave us
+    nothing usable and the timestamp is a stand-in, not a fact."""
+    if date_str:
+        try:
+            dt = datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.isoformat(), False
+        except ValueError:
+            logger.warning("Could not parse Parliament date %r", date_str)
+    return datetime.now(timezone.utc).isoformat(), True
 
 
 class ParliamentCollector(Collector):
@@ -87,6 +94,7 @@ class ParliamentCollector(Collector):
                 sitting_date = debate.get("SittingDate")
                 date_part = sitting_date[:10] if sitting_date else ""
 
+                published_at, estimated = _to_iso(sitting_date)
                 items.append(
                     RawItem(
                         source=SOURCE,
@@ -100,11 +108,8 @@ class ParliamentCollector(Collector):
                             f"{debate.get('DebateSection', '')} debate, "
                             f"{house}: {title}"
                         ),
-                        published_at=(
-                            _to_iso(sitting_date)
-                            if sitting_date
-                            else datetime.now(timezone.utc).isoformat()
-                        ),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="policy",
                     )
                 )
@@ -122,6 +127,7 @@ class ParliamentCollector(Collector):
                 question_text = question.get("questionText", "")
                 answer_text = question.get("answerText") or "(not yet answered)"
 
+                published_at, estimated = _to_iso(date_tabled)
                 items.append(
                     RawItem(
                         source=SOURCE,
@@ -132,11 +138,8 @@ class ParliamentCollector(Collector):
                         ),
                         title=f"Written question: {heading}",
                         raw_summary=f"Q: {question_text}\nA: {answer_text}",
-                        published_at=(
-                            _to_iso(date_tabled)
-                            if date_tabled
-                            else datetime.now(timezone.utc).isoformat()
-                        ),
+                        published_at=published_at,
+                        published_at_estimated=estimated,
                         signal_type="policy",
                     )
                 )

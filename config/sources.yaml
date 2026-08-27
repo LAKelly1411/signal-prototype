@@ -33,6 +33,21 @@ companies_house:
   enabled: true
   items_per_page: 25
   sleep_seconds: 0.6   # politeness between watchlist companies, well within the 600 req/5min limit
+  # The API returns the most recent N filings whatever their age, so without a
+  # date bound the first run back-fills a decade of routine accounts and
+  # confirmation statements — each paying for a scoring call and padding out
+  # the company's cluster with nothing to report.
+  lookback_days: 365
+  # Optional allowlist of filing categories. Left off by default so nothing is
+  # dropped silently; uncomment to cut the routine filings entirely.
+  # categories:
+  #   - accounts
+  #   - capital
+  #   - insolvency
+  #   - officers
+  #   - persons-with-significant-control
+  #   - change-of-name
+  #   - resolution
 
 gazette:
   enabled: true
