@@ -24,8 +24,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Not a secret — a repo variable, so the model in use is visible
-          # without opening the settings page.
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          # without opening the settings page. Falls back to the old secret so
+          # the migration doesn't need the variable to exist first; an
+          # undefined variable would otherwise arrive as an empty string.
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || secrets.ANTHROPIC_MODEL }}
           COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
         run: python -m src.pipeline
 
