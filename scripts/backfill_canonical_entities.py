@@ -1,8 +1,8 @@
-"""One-off backfill: add canonical_entities to signals scored before
-canonicalisation existed, and report what it does to clustering.
+"""One-off backfill: add canonical_entities and canonical_category to signals
+scored before canonicalisation existed, and report what it does to clustering.
 
-No re-scoring and no API calls — it only rewrites the entity lists that
-scoring already extracted, so it costs nothing to run.
+No re-scoring and no API calls — it only rewrites the entity and category
+labels that scoring already produced, so it costs nothing to run.
 
     python -m scripts.backfill_canonical_entities --dry-run
     python -m scripts.backfill_canonical_entities
@@ -12,6 +12,7 @@ import argparse
 from collections import Counter, defaultdict
 
 from src import cluster, store
+from src.categories import canonical_category
 from src.entities import build_alias_map, canonicalise
 from src.pipeline import load_watchlist
 
@@ -60,14 +61,44 @@ def main() -> None:
 
     before = summarise(signals, alias_map, use_canonical=False)
 
+    raw_categories = len({s.get("category") for s in signals if s.get("category")})
+
     changed = 0
     for signal in signals:
         resolved = canonicalise(signal.get("entities") or [], alias_map)
-        if signal.get("canonical_entities") != resolved:
+        theme = canonical_category(
+            signal.get("category"), signal.get("title", ""), signal.get("signal_type")
+        )
+        if (
+            signal.get("canonical_entities") != resolved
+            or signal.get("canonical_category") != theme
+        ):
             signal["canonical_entities"] = resolved
+            signal["canonical_category"] = theme
             changed += 1
 
     after = summarise(signals, alias_map, use_canonical=True)
+
+    cluster.assign_themes(signals, alias_map=alias_map)
+    themes = defaultdict(list)
+    for s in signals:
+        if s.get("theme_id"):
+            themes[s["theme_id"]].append(s)
+
+    print(f"\nCATEGORIES\n  {raw_categories} free-text labels -> "
+          f"{len({s.get('canonical_category') for s in signals})} themes")
+    print(f"\nCROSS-COMPANY THEMES ({len(themes)})")
+    for theme, members in sorted(
+        themes.items(), key=lambda kv: -cluster.compute_theme_heat(kv[1])
+    ):
+        companies = {
+            e
+            for m in members
+            for e in (m.get("canonical_entities") or [])
+            if not cluster.is_excluded(e)
+        }
+        print(f"  {cluster.compute_theme_heat(members):6.1f}  {len(members):3d} signals, "
+              f"{len(companies):3d} companies  {theme}")
 
     for name, stats in (("BEFORE", before), ("AFTER", after)):
         print(f"\n{name}")

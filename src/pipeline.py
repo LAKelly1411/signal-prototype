@@ -221,11 +221,13 @@ def run() -> None:
         score_signal(signal, client=client, alias_map=alias_map)
 
     cluster.assign_clusters(merged, alias_map=alias_map)
+    cluster.assign_themes(merged, alias_map=alias_map)
     by_cluster = defaultdict(list)
     for s in merged:
         if s.get("cluster_id"):
             by_cluster[s["cluster_id"]].append(s)
-    logger.info("%d clusters formed", len(by_cluster))
+    themes = {s["theme_id"] for s in merged if s.get("theme_id")}
+    logger.info("%d clusters and %d themes formed", len(by_cluster), len(themes))
 
     for cluster_id, members in by_cluster.items():
         # Cache key covers both cluster membership and prompt wording, so
@@ -233,10 +235,13 @@ def run() -> None:
         cache_key = f"{cluster_id}:{CLUSTER_SUMMARY_VERSION}"
         if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
-        summary = summarize_cluster(members, client=client)
-        if summary:
+        verdict = summarize_cluster(members, client=client)
+        if verdict:
             for m in members:
-                m["cluster_summary"] = summary
+                m["cluster_summary"] = verdict["summary"]
+                m["cluster_pattern_type"] = verdict["pattern_type"]
+                m["cluster_coherent"] = verdict["coherent"]
+                m["cluster_significance"] = verdict["significance"]
                 m["cluster_summary_for"] = cache_key
 
     live = store.save(merged)
