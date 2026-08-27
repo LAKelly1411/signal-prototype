@@ -3504,5 +3504,29 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "2953d3c317ab19a64e5eda1b7159b7b52dd1092a588a0f3bcbc6daf59c51f29b",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/result-of-agm/9544545",
+    "title": "Entain: Result of AGM",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-04-29T11:54:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926121+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Shows shareholder voting outcomes and governance signals for one of the UK's largest gambling operators.",
+    "category": "AGM results",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]
