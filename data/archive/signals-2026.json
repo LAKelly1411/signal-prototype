@@ -3480,5 +3480,29 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": null
+  },
+  {
+    "id": "e2f3ce0e003fa41591b6fed89635bafdc4b477fbd418878cc316a5ab2f7c689d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9544399",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-29T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926276+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine buyback disclosure signals capital allocation strategy but carries limited standalone editorial value for gambling-sector coverage.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
