@@ -17248,7 +17248,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
     "category": "results announcement notice",
-    "cluster_id": "0629d43b3da85591",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Flutter's Q2 results notice arrives just before its confirmed LSE delisting, marking the formal end of its UK listing as the company completes its shift to a US-primary listing. The sequencing highlights the transition's finality, with future financial disclosures and investor access now centred away from London.",
     "cluster_summary_for": "0629d43b3da85591:aa9d372d"
@@ -17625,10 +17625,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "1ca37c0e3cb53a3b",
+    "cluster_id": "879d23908b8fbc00",
     "status": "seen",
-    "cluster_summary": "evoke's routine disclosures coincide with H1 2026 results and approval of a scheme of arrangement, pointing to a formal corporate restructuring—likely a takeover, delisting or reorganisation—being finalised alongside its financial reporting cycle, reshaping the ownership or structure of the former 888/William Hill group.",
-    "cluster_summary_for": "1ca37c0e3cb53a3b:aa9d372d"
+    "cluster_summary": "Evoke's routine disclosures (voting rights, interim results, shareholding changes) coincide with court and general meeting approvals pointing to a scheme of arrangement, suggesting a significant corporate restructuring—likely ownership change or reorganisation—is progressing alongside normal financial reporting cycles.",
+    "cluster_summary_for": "879d23908b8fbc00:aa9d372d"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -17646,7 +17646,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Flutter's exit from the LSE marks a major shift in where the UK's largest gambling operator trades, affecting investor access and index inclusion.",
     "category": "listing change",
-    "cluster_id": "0629d43b3da85591",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Flutter's Q2 results notice arrives just before its confirmed LSE delisting, marking the formal end of its UK listing as the company completes its shift to a US-primary listing. The sequencing highlights the transition's finality, with future financial disclosures and investor access now centred away from London.",
     "cluster_summary_for": "0629d43b3da85591:aa9d372d"
@@ -18031,10 +18031,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "1ca37c0e3cb53a3b",
+    "cluster_id": "879d23908b8fbc00",
     "status": "seen",
-    "cluster_summary": "evoke's routine disclosures coincide with H1 2026 results and approval of a scheme of arrangement, pointing to a formal corporate restructuring—likely a takeover, delisting or reorganisation—being finalised alongside its financial reporting cycle, reshaping the ownership or structure of the former 888/William Hill group.",
-    "cluster_summary_for": "1ca37c0e3cb53a3b:aa9d372d"
+    "cluster_summary": "Evoke's routine disclosures (voting rights, interim results, shareholding changes) coincide with court and general meeting approvals pointing to a scheme of arrangement, suggesting a significant corporate restructuring—likely ownership change or reorganisation—is progressing alongside normal financial reporting cycles.",
+    "cluster_summary_for": "879d23908b8fbc00:aa9d372d"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -18341,10 +18341,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "1ca37c0e3cb53a3b",
+    "cluster_id": "879d23908b8fbc00",
     "status": "seen",
-    "cluster_summary": "evoke's routine disclosures coincide with H1 2026 results and approval of a scheme of arrangement, pointing to a formal corporate restructuring—likely a takeover, delisting or reorganisation—being finalised alongside its financial reporting cycle, reshaping the ownership or structure of the former 888/William Hill group.",
-    "cluster_summary_for": "1ca37c0e3cb53a3b:aa9d372d"
+    "cluster_summary": "Evoke's routine disclosures (voting rights, interim results, shareholding changes) coincide with court and general meeting approvals pointing to a scheme of arrangement, suggesting a significant corporate restructuring—likely ownership change or reorganisation—is progressing alongside normal financial reporting cycles.",
+    "cluster_summary_for": "879d23908b8fbc00:aa9d372d"
   },
   {
     "id": "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
@@ -18730,5 +18730,26 @@
     "status": "seen",
     "cluster_summary": "Lysis Gaming Compliance Ltd has entered insolvency/winding-up proceedings, indicating financial distress within a specialised gambling compliance advisory firm. Repeated filings on the same date suggest formal confirmation of the process, potentially pointing to broader cost pressures facing niche regulatory service providers supporting the gambling sector.",
     "cluster_summary_for": "d0af372ef94c891c:aa9d372d"
+  },
+  {
+    "id": "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9741983",
+    "title": "evoke: Holding(s) in Company",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-08-26T17:05:00+00:00",
+    "ingested_at": "2026-08-27T06:18:24.178578+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": "879d23908b8fbc00",
+    "status": "seen",
+    "cluster_summary": "Evoke's routine disclosures (voting rights, interim results, shareholding changes) coincide with court and general meeting approvals pointing to a scheme of arrangement, suggesting a significant corporate restructuring—likely ownership change or reorganisation—is progressing alongside normal financial reporting cycles.",
+    "cluster_summary_for": "879d23908b8fbc00:aa9d372d"
   }
 ]
