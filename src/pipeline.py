@@ -1,3 +1,4 @@
+import hashlib
 import json
 import logging
 import os
@@ -22,9 +23,11 @@ from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
 from src.score import (
     CLUSTER_SUMMARY_VERSION,
+    THEME_SUMMARY_VERSION,
     build_client,
     score_signal,
     summarize_cluster,
+    summarize_theme,
 )
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -243,6 +246,28 @@ def run() -> None:
                 m["cluster_coherent"] = verdict["coherent"]
                 m["cluster_significance"] = verdict["significance"]
                 m["cluster_summary_for"] = cache_key
+
+    by_theme = defaultdict(list)
+    for s in merged:
+        if s.get("theme_id"):
+            by_theme[s["theme_id"]].append(s)
+
+    for theme, members in by_theme.items():
+        # theme_id is stable, but membership isn't, so the cache key covers
+        # who is in it as well as the prompt wording.
+        members_hash = hashlib.sha256(
+            "|".join(sorted(m["id"] for m in members)).encode("utf-8")
+        ).hexdigest()[:12]
+        cache_key = f"{theme}:{members_hash}:{THEME_SUMMARY_VERSION}"
+        if any(m.get("theme_summary_for") == cache_key for m in members):
+            continue
+        verdict = summarize_theme(theme, members, client=client)
+        if verdict:
+            for m in members:
+                m["theme_summary"] = verdict["summary"]
+                m["theme_key_points"] = verdict["key_points"]
+                m["theme_direction"] = verdict["direction"]
+                m["theme_summary_for"] = cache_key
 
     live = store.save(merged)
     logger.info(

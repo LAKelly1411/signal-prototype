@@ -163,6 +163,30 @@ def inject_css() -> None:
             background-color: #ffe9b3;
             color: #7a5c00;
         }
+        .tag-chip.pattern {
+            background-color: #3d3677;
+            color: #ffffff;
+        }
+        .theme-points {
+            margin: 10px 0 0 0;
+            padding-left: 20px;
+        }
+        .theme-points li {
+            margin-bottom: 6px;
+            color: #000000;
+        }
+        .direction-chip {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .direction-building { background-color: #fdeaea; color: #8a1c1c; }
+        .direction-steady   { background-color: #eceaf7; color: #3d3677; }
+        .direction-easing   { background-color: #e6f4ea; color: #1c5c2e; }
         .pattern-badge {
             margin-top: 8px;
             font-size: 0.8rem;
@@ -587,15 +611,14 @@ def render_patterns(signals: list[dict]) -> None:
         verdict = _cluster_verdict(members)
         summary = verdict["summary"]
 
+        # Pattern type lives inside rather than in the header: nearly every
+        # cluster is a developing story, so leading with it pushed the company
+        # name rightwards and told the reader nothing that distinguishes one
+        # row from the next.
         header = (
             f"{label} — heat {heat:.0f} ({heat_label}) · {signal_text} · "
             f"{len(sources)} {source_word} · {span_text}"
         )
-        pattern_type = PATTERN_TYPE_LABELS.get(
-            verdict["pattern_type"], verdict["pattern_type"]
-        )
-        if pattern_type:
-            header = f"{pattern_type} · {header}"
         if not verdict["coherent"]:
             header = f"⚠ {header}"
 
@@ -605,14 +628,31 @@ def render_patterns(signals: list[dict]) -> None:
                     "Claude judged these signals unrelated — they share a "
                     "company name rather than a story."
                 )
+
+            chips = []
+            pattern_type = PATTERN_TYPE_LABELS.get(
+                verdict["pattern_type"], verdict["pattern_type"]
+            )
+            if pattern_type:
+                chips.append(
+                    f'<span class="tag-chip pattern">{html.escape(pattern_type)}</span>'
+                )
+            if verdict["significance"] is not None:
+                chips.append(
+                    '<span class="tag-chip">Significance '
+                    f'{verdict["significance"]}</span>'
+                )
+            if chips:
+                st.markdown(
+                    f'<div class="signal-tags">{"".join(chips)}</div>',
+                    unsafe_allow_html=True,
+                )
+
             if summary:
-                label_text = "Signal"
-                if verdict["significance"] is not None:
-                    label_text = f"Signal · significance {verdict['significance']}"
                 st.markdown(
                     f"""
                     <div class="cluster-summary">
-                      <span class="cluster-summary-label">{html.escape(label_text)}</span>
+                      <span class="cluster-summary-label">Signal</span>
                       {html.escape(summary)}
                     </div>
                     """,
@@ -671,17 +711,53 @@ def render_themes(signals: list[dict]) -> None:
         span_days = (pub_dates[-1] - pub_dates[0]).days
         company_word = "company" if len(companies) == 1 else "companies"
 
+        summary = next(
+            (m.get("theme_summary") for m in members if m.get("theme_summary")), None
+        )
+        key_points = next(
+            (m.get("theme_key_points") for m in members if m.get("theme_key_points")),
+            [],
+        )
+        direction = next(
+            (m.get("theme_direction") for m in members if m.get("theme_direction")),
+            None,
+        )
+
         with st.expander(
             f"{theme} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
             f"{len(companies)} {company_word} · over {span_days} days"
         ):
+            if summary:
+                points_html = ""
+                if key_points:
+                    items = "".join(
+                        f"<li>{html.escape(str(p))}</li>" for p in key_points
+                    )
+                    points_html = f'<ul class="theme-points">{items}</ul>'
+                st.markdown(
+                    f"""
+                    <div class="cluster-summary">
+                      <span class="cluster-summary-label">What's happening</span>
+                      {html.escape(summary)}
+                      {points_html}
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
             # Monthly counts are the point of a theme: whether the wave is
             # building or fading is the story, not any single signal.
             per_month = Counter(m["published_at"][:7] for m in members)
             trend = " · ".join(
                 f"{month}: {count}" for month, count in sorted(per_month.items())
             )
-            st.markdown(f"**By month** — {trend}")
+            direction_html = ""
+            if direction in ("building", "steady", "easing"):
+                direction_html = (
+                    f' &nbsp;<span class="direction-chip direction-{direction}">'
+                    f"{html.escape(direction)}</span>"
+                )
+            st.markdown(f"**By month** — {trend}{direction_html}", unsafe_allow_html=True)
 
             shown = ", ".join(companies[:12])
             if len(companies) > 12:
