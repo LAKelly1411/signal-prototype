@@ -3552,5 +3552,55 @@
     ],
     "canonical_category": "Financial results",
     "theme_id": null
+  },
+  {
+    "id": "5480c9c847f7f8d109983c8d910979eefad2a0295696cbb81102d9a0aee20ca0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/fy25-results/9545320",
+    "title": "evoke: FY25 Results",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-04-30T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926427+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Full-year results from evoke (formerly 888/William Hill parent) reveal financial performance and strategy shaping the UK betting sector.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "c32ad3817c697ab457e8a2c3397573204c9f2bd4a9d8f68634e86a0fc58444dc",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-sector-skills-shortages-and-skills-gaps-2024-uk",
+    "title": "DCMS Sector Skills Shortages and Skills Gaps: 2024, UK",
+    "raw_summary": "Official Statistics in development on skills shortages and skills gaps in the DCMS sectors and sub-sectors for 2024, based on the Department for Education's Employer Skills Survey.",
+    "published_at": "2026-04-30T08:30:07+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914957+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "Department for Education"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Highlights workforce skills gaps across DCMS sectors, offering limited but indirect context for gambling industry employers.",
+    "category": "sector skills statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "Department for Education"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]

@@ -6162,30 +6162,6 @@
     "theme_id": null
   },
   {
-    "id": "5480c9c847f7f8d109983c8d910979eefad2a0295696cbb81102d9a0aee20ca0",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/fy25-results/9545320",
-    "title": "evoke: FY25 Results",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-04-30T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926427+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 55,
-    "why_it_matters": "Full-year results from evoke (formerly 888/William Hill parent) reveal financial performance and strategy shaping the UK betting sector.",
-    "category": "accounts filing",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Corporate filing",
-    "theme_id": null
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -6869,32 +6845,6 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_entities": [],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
-    "id": "c32ad3817c697ab457e8a2c3397573204c9f2bd4a9d8f68634e86a0fc58444dc",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/statistics/dcms-sector-skills-shortages-and-skills-gaps-2024-uk",
-    "title": "DCMS Sector Skills Shortages and Skills Gaps: 2024, UK",
-    "raw_summary": "Official Statistics in development on skills shortages and skills gaps in the DCMS sectors and sub-sectors for 2024, based on the Department for Education's Employer Skills Survey.",
-    "published_at": "2026-04-30T08:30:07+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914957+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS",
-      "Department for Education"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Highlights workforce skills gaps across DCMS sectors, offering limited but indirect context for gambling industry employers.",
-    "category": "sector skills statistics",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "DCMS",
-      "Department for Education"
-    ],
     "canonical_category": "Policy and legislation",
     "theme_id": null
   },
@@ -10188,5 +10138,32 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:5bfd65835dbf:067ec139"
+  },
+  {
+    "id": "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
+    "source": "gazette",
+    "source_id": "5200591",
+    "source_url": "https://www.thegazette.co.uk/notice/5200591",
+    "title": "INFINITE PARTNERSHIPS LIMITED",
+    "raw_summary": "Notice of Intended Dividends: …ed, The Manor House, 260 Ecclesall Road South, Sheffield, S11 9PS Principal trading address: The Old Casino , 28 Fourth Avenue, Hove, BN3 2PJ …",
+    "published_at": "2026-08-28T01:01:39+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-08-28T10:18:38.560700+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Infinite Partnerships Limited",
+      "The Old Casino"
+    ],
+    "canonical_entities": [
+      "Infinite Partnerships",
+      "The Old Casino"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A notice of intended dividend signals formal insolvency proceedings for a company trading as a casino venue.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
