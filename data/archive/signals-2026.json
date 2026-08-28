@@ -3528,5 +3528,29 @@
     ],
     "canonical_category": "Financial results",
     "theme_id": null
+  },
+  {
+    "id": "d3a82db053191ec8350764c646e09d63c7f60f18e00932c548ff6e944e112be4",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/notice-of-q1-results/9544919",
+    "title": "Flutter Entertainment: Notice of Q1 Results",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-04-29T16:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926273+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Flags the date Flutter will publish Q1 results, letting journalists plan coverage of a major operator's performance.",
+    "category": "results calendar notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]
