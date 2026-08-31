@@ -3650,5 +3650,153 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "f764743c8a7ee6283db5b7bb71ff4ca96747a3b6683f588758e13c18012be22e",
+    "source": "gazette",
+    "source_id": "5124712",
+    "source_url": "https://www.thegazette.co.uk/notice/5124712",
+    "title": "RH CONTRACTING LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1266290/ …",
+    "published_at": "2026-05-01T12:03:00+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RH Contracting Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A HMRC winding-up petition against an unrelated contracting firm has no apparent link to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "RH Contracting",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "3d2faddeedf7d5bf5f3c9f8f42576ed54a8271be891110d18c51b17f582595bc",
+    "source": "gazette",
+    "source_id": "5123112",
+    "source_url": "https://www.thegazette.co.uk/notice/5123112",
+    "title": "PINK CLEANING AGA LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264573/ …",
+    "published_at": "2026-05-01T12:01:06+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Pink Cleaning Aga Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This HMRC winding-up petition concerns a cleaning company with no apparent link to gambling or gaming.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Pink Cleaning Aga",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6056c18b2b6285e4d183e99423ff9b7321cc81bdc4c8ed6494f7942cefd1ef83",
+    "source": "gazette",
+    "source_id": "5125427",
+    "source_url": "https://www.thegazette.co.uk/notice/5125427",
+    "title": "STRATAGEM SOLUTIONS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: STRATAGEM SOLUTIONS LIMITED (Company Number 10928852 ) Trading Name: Stratagem Solutions Limited Registered office: St James House, 65 Mere Green Road, Sutton Coldfield, B75 5BY Principal trading addr…",
+    "published_at": "2026-05-01T17:41:51+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stratagem Solutions Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up resolution for an unidentified company with no confirmed gambling-industry link offers little direct relevance to the sector.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Stratagem Solutions"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6091626c979849c27d73ffb78c5c6d2f0cfdd0c0893b4c23c5c5dfa413309c27",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/total-voting-rights/9549973",
+    "title": "Flutter Entertainment: Total Voting Rights",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-01T16:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926265+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine regulatory disclosure of share capital and voting rights with minimal impact on sector coverage.",
+    "category": "total voting rights notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "221e2138279944d3a4028a7731a93a43e79f54e7dc6fdd915b6db0f1d97ad30c",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9549369",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-01T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926267+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share buyback update signals capital allocation strategy but carries limited editorial weight for gambling trade coverage.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "29ce4e1a218180e9baef4316bf0d3fb3a1ed9de79a4e2101bfc05cfb14e9eb58",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights-correction/9547897",
+    "title": "evoke: Total Voting Rights & Correction",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-05-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926424+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke plc"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine voting rights disclosure from evoke plc, useful for tracking shareholder thresholds but not a major industry event.",
+    "category": "share capital notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
   }
 ]
