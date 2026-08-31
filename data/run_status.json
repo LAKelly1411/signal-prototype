@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-08-31T06:17:29.568609+00:00",
-  "finished_at": "2026-08-31T06:19:11.501500+00:00",
+  "started_at": "2026-08-31T10:17:33.325782+00:00",
+  "finished_at": "2026-08-31T10:18:34.261580+00:00",
   "sources": {
     "GamblingCommissionCollector": {
       "items": 253,
@@ -51,7 +51,7 @@
   "healthy_sources": 8,
   "total_sources": 9,
   "raw_items": 655,
-  "new_signals": 2,
+  "new_signals": 0,
   "unscored": 0,
   "live_signals": 319,
   "clusters": 26
