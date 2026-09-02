@@ -1856,7 +1856,7 @@
       "DCMS"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "theme_summary": "Entain has restructured its board committees twice and made two separate directorate changes between mid-June and late July, while Rank Group followed with its own director change in July and a board update in August. DCMS also named a new Horserace Betting Levy Board member in June.",
     "theme_key_points": [
       "Entain filed four separate board/committee notices between 15 June and 27 July 2026",
@@ -4100,7 +4100,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
@@ -4174,7 +4174,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "cluster_summary": "Entain files a steady stream of routine RNS disclosures over June-August 2026 — repeated TR-1 shareholding notifications, board/committee changes and share capital updates — alongside two substantive corporate events: the agreed 20% phased divestment of its CEE business and BetMGM's Q2 update ahead of Entain's interim results. The bulk are standard compliance filings rather than a single narrative.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
@@ -5434,54 +5434,6 @@
     ],
     "newsworthiness_score": 20,
     "why_it_matters": "Routine buyback disclosure signals capital allocation strategy but carries limited immediate impact for the gambling sector.",
-    "category": "share buyback",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null
-  },
-  {
-    "id": "b7ddadfc34b708e2f37b214f4554e20ced74d08e6f64b41e983d2a312c8a6a81",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9552598",
-    "title": "Flutter Entertainment: Transaction in Own Shares",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-05-05T11:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926259+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Routine buyback disclosure signals capital allocation strategy at one of the largest global gambling operators.",
-    "category": "share buyback",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null
-  },
-  {
-    "id": "0b94671b53d99e4e42eae142d255b4449ef5ae74a21c94da9e365f2909627708",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9552585",
-    "title": "Flutter Entertainment: Transaction in Own Shares",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-05-05T10:55:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926262+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Routine share buyback disclosure signals ongoing capital management by a major listed gambling operator.",
     "category": "share buyback",
     "cluster_id": null,
     "status": "seen",
@@ -7371,7 +7323,7 @@
       "Rank"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
@@ -7480,7 +7432,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
@@ -8884,7 +8836,7 @@
       "Rank"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": "Board and director changes",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
@@ -9158,13 +9110,18 @@
     "newsworthiness_score": 2,
     "why_it_matters": "Not gambling-related; an alarms company insolvency notice has no relevance to the gambling sector.",
     "category": "creditors meeting",
-    "cluster_id": null,
+    "cluster_id": "905c17b019bd5aee",
     "status": "seen",
     "canonical_entities": [
       "G.C.S. Alarms 2018"
     ],
     "canonical_category": "Insolvency",
-    "theme_id": null
+    "theme_id": null,
+    "cluster_summary": "G.C.S. Alarms 2018 Limited appears in two insolvency-related gazette notices, a creditors meeting followed by formal insolvency proceedings. This is an alarms company with no connection to gambling, betting or gaming operations.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "905c17b019bd5aee:cecdc011"
   },
   {
     "id": "91028f94e049e982a127816a34c801222e6c9625efe4cdd69dca76701731c09b",
@@ -10076,5 +10033,64 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:3d99bde6116e:067ec139"
+  },
+  {
+    "id": "e377d4d92c21d8d52d1f3d927b291aa3e3f782d8608927f4952e141104c65f34",
+    "source": "gazette",
+    "source_id": "5202375",
+    "source_url": "https://www.thegazette.co.uk/notice/5202375",
+    "title": "G.C.S. ALARMS 2018 LIMITED",
+    "raw_summary": "Resolutions for Winding-up: G.C.S. ALARMS 2018 LIMITED (Company Number 01783132 ) Trading Name: G.C.S. Alarms 2018 Limited Previous Name of Company: G.C.S. ALARMS LIMITED Registered office: 2 Colchester Road, St Osyth, CO16 8HA…",
+    "published_at": "2026-09-01T17:20:34+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-02T14:18:07.808424+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "G.C.S. ALARMS 2018 LIMITED"
+    ],
+    "canonical_entities": [
+      "G.C.S. ALARMS 2018"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This alarms company insolvency notice has no apparent connection to the UK gambling and gaming sector.",
+    "category": "Insolvency",
+    "cluster_id": "905c17b019bd5aee",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "G.C.S. Alarms 2018 Limited appears in two insolvency-related gazette notices, a creditors meeting followed by formal insolvency proceedings. This is an alarms company with no connection to gambling, betting or gaming operations.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "905c17b019bd5aee:cecdc011"
+  },
+  {
+    "id": "4aea3c3fd08cff230669c91380709833e34a2b85424ffd3af333525086a431b9",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/parliament-celebrates-250-years-of-the-st-leger",
+    "title": "Parliament celebrates 250 years of the St Leger",
+    "raw_summary": "",
+    "published_at": "2026-09-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-02T14:18:07.808923+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "BGC",
+      "Parliament",
+      "St Leger"
+    ],
+    "canonical_entities": [
+      "BGC",
+      "Parliament",
+      "St Leger"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A ceremonial celebration of horse racing history offers little actionable regulatory or commercial insight for gambling industry professionals.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]
