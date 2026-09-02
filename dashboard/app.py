@@ -552,26 +552,15 @@ def render_patterns(signals: list[dict]) -> None:
     heat_threshold = st.slider("Minimum heat score", 0, HEAT_SLIDER_MAX, 50)
 
     # Clusters are formed on a shared company name, so some are coincidence.
-    # Claude is asked to say which; those are set aside rather than deleted,
-    # since a wrong call should be visible, not silently hidden.
-    incoherent = [m for m in grouped.values() if not _cluster_verdict(m)["coherent"]]
-    if incoherent:
-        show_rejected = st.checkbox(
-            f"Include {len(incoherent)} cluster(s) Claude flagged as unrelated",
-            value=False,
-        )
-    else:
-        show_rejected = True
+    # Claude is asked to say which; those are dropped outright — a cluster the
+    # model has called unrelated is noise the reader shouldn't have to sift.
+    coherent = [m for m in grouped.values() if _cluster_verdict(m)["coherent"]]
 
-    clusters = [
-        (compute_heat(members), members)
-        for members in grouped.values()
-        if show_rejected or _cluster_verdict(members)["coherent"]
-    ]
+    clusters = [(compute_heat(members), members) for members in coherent]
     clusters = [c for c in clusters if c[0] >= heat_threshold]
     clusters.sort(key=lambda pair: pair[0], reverse=True)
 
-    st.caption(f"{len(clusters)} of {len(grouped)} clusters meet the heat threshold.")
+    st.caption(f"{len(clusters)} of {len(coherent)} clusters meet the heat threshold.")
 
     if not clusters:
         st.info("No clusters meet the current heat threshold.")
@@ -619,16 +608,8 @@ def render_patterns(signals: list[dict]) -> None:
             f"{label} — heat {heat:.0f} ({heat_label}) · {signal_text} · "
             f"{len(sources)} {source_word} · {span_text}"
         )
-        if not verdict["coherent"]:
-            header = f"⚠ {header}"
 
         with st.expander(header):
-            if not verdict["coherent"]:
-                st.warning(
-                    "Claude judged these signals unrelated — they share a "
-                    "company name rather than a story."
-                )
-
             chips = []
             pattern_type = PATTERN_TYPE_LABELS.get(
                 verdict["pattern_type"], verdict["pattern_type"]
