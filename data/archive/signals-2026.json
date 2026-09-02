@@ -3798,5 +3798,29 @@
     ],
     "canonical_category": "Corporate filing",
     "theme_id": null
+  },
+  {
+    "id": "b13e6c91a87ead79d85db176ed0eb2feefc08e4e8a3c18dec2bf9f5910b72509",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/directorate-change/9550769",
+    "title": "Entain: Directorate Change",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-05-05T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926116+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Leadership changes at Entain, one of the UK's largest listed gambling operators, can signal strategic shifts worth monitoring.",
+    "category": "board/directorate change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
   }
 ]
