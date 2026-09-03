@@ -498,18 +498,18 @@
     "newsworthiness_score": 8,
     "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
     "category": "confirmation statement",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": null,
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011"
+    "cluster_significance": 62,
+    "cluster_summary_for": "11ce830f480498da:cecdc011"
   },
   {
     "id": "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
@@ -3998,15 +3998,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Evoke plc's recommended all-share acquisition moved from announcement on 5 June to a published scheme document by 21 July, while Entain agreed a phased 20% divestment of its CEE business and Flutter completed its London delisting on 3 August. Ownership and listing structures across the sector are shifting within a single quarter.",
+    "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
-      "Evoke plc: recommended all-share bid announced 5 June 2026, scheme document filed 21 July 2026",
-      "Entain agreed a 20% divestment of its Central and Eastern Europe business on 25 June 2026",
-      "Flutter Entertainment completed its LSE delisting on 3 August 2026, ending index inclusion in London",
-      "Three separate corporate actions land within a nine-week span across June to August 2026"
+      "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
+      "Flutter Entertainment completed delisting from the London Stock Exchange on 3 August 2026",
+      "evoke published a formal Scheme Document on 21 July 2026, signalling restructuring or takeover terms",
+      "Three separate corporate-structure moves land within six weeks, spanning divestment, delisting and scheme processes"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Merger and acquisition:a6ad58913c29:067ec139"
+    "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139"
   },
   {
     "id": "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
@@ -5467,10 +5467,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5478,7 +5478,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Five major UK-listed operators moved through the summer reporting cycle between June and August 2026, from evoke's AGM results through trading updates at Rank and Flutter to BetMGM's Q2 update feeding into Entain's interim results on 13 August. The sequence tracks the sector's standard financial calendar rather than any shared operational shock.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, ahead of formal results.",
@@ -5505,10 +5505,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5516,7 +5516,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
@@ -5543,10 +5543,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5554,7 +5554,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Flutter Entertainment's LSE exit moved from intention notice on 12 June to formal share cancellation on 3 August, completing its departure from the London market within eight weeks. Rank Group installed Richard Harris as CEO on 13 July ahead of its annual results, while Entain and evoke worked through routine governance and reporting filings.",
     "theme_key_points": [
       "Flutter's delisting progressed from intention (12 June) to cancellation notice (3 August), an eight-week process.",
@@ -5581,10 +5581,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5592,7 +5592,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78
+    "cluster_significance": 62
   },
   {
     "id": "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
@@ -5610,18 +5610,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
     "category": "shareholder notification",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_significance": 62,
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
@@ -5648,18 +5648,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Share award grants under evoke's LTIP offer minor insight into executive incentives but limited direct impact on the wider gambling sector.",
     "category": "executive remuneration",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_significance": 62,
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "theme_summary": "Flutter Entertainment's LSE exit moved from intention notice on 12 June to formal share cancellation on 3 August, completing its departure from the London market within eight weeks. Rank Group installed Richard Harris as CEO on 13 July ahead of its annual results, while Entain and evoke worked through routine governance and reporting filings.",
     "theme_key_points": [
       "Flutter's delisting progressed from intention (12 June) to cancellation notice (3 August), an eight-week process.",
@@ -5686,18 +5686,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine director dealing disclosure offers minor insight into insider sentiment at evoke, parent of 888 and William Hill.",
     "category": "PDMR share dealing",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_significance": 62,
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
@@ -5724,18 +5724,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Routine AGM voting results give limited insight into shareholder sentiment on evoke's board and strategy.",
     "category": "AGM results",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_significance": 62,
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "theme_summary": "Five major UK-listed operators moved through the summer reporting cycle between June and August 2026, from evoke's AGM results through trading updates at Rank and Flutter to BetMGM's Q2 update feeding into Entain's interim results on 13 August. The sequence tracks the sector's standard financial calendar rather than any shared operational shock.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, ahead of formal results.",
@@ -5762,13 +5762,13 @@
     "newsworthiness_score": 88,
     "why_it_matters": "A recommended all-share acquisition of listed operator evoke plc signals major ownership change in the UK gambling sector.",
     "category": "M&A / takeover",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Merger and acquisition",
-    "theme_id": "Merger and acquisition",
+    "theme_id": null,
     "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -6643,10 +6643,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6654,16 +6654,16 @@
     "theme_id": "Merger and acquisition",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
-    "theme_summary": "Evoke plc's recommended all-share acquisition moved from announcement on 5 June to a published scheme document by 21 July, while Entain agreed a phased 20% divestment of its CEE business and Flutter completed its London delisting on 3 August. Ownership and listing structures across the sector are shifting within a single quarter.",
+    "cluster_significance": 62,
+    "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
-      "Evoke plc: recommended all-share bid announced 5 June 2026, scheme document filed 21 July 2026",
-      "Entain agreed a 20% divestment of its Central and Eastern Europe business on 25 June 2026",
-      "Flutter Entertainment completed its LSE delisting on 3 August 2026, ending index inclusion in London",
-      "Three separate corporate actions land within a nine-week span across June to August 2026"
+      "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
+      "Flutter Entertainment completed delisting from the London Stock Exchange on 3 August 2026",
+      "evoke published a formal Scheme Document on 21 July 2026, signalling restructuring or takeover terms",
+      "Three separate corporate-structure moves land within six weeks, spanning divestment, delisting and scheme processes"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Merger and acquisition:a6ad58913c29:067ec139"
+    "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139"
   },
   {
     "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
@@ -8059,10 +8059,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8070,7 +8070,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
@@ -8109,15 +8109,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Evoke plc's recommended all-share acquisition moved from announcement on 5 June to a published scheme document by 21 July, while Entain agreed a phased 20% divestment of its CEE business and Flutter completed its London delisting on 3 August. Ownership and listing structures across the sector are shifting within a single quarter.",
+    "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
-      "Evoke plc: recommended all-share bid announced 5 June 2026, scheme document filed 21 July 2026",
-      "Entain agreed a 20% divestment of its Central and Eastern Europe business on 25 June 2026",
-      "Flutter Entertainment completed its LSE delisting on 3 August 2026, ending index inclusion in London",
-      "Three separate corporate actions land within a nine-week span across June to August 2026"
+      "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
+      "Flutter Entertainment completed delisting from the London Stock Exchange on 3 August 2026",
+      "evoke published a formal Scheme Document on 21 July 2026, signalling restructuring or takeover terms",
+      "Three separate corporate-structure moves land within six weeks, spanning divestment, delisting and scheme processes"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Merger and acquisition:a6ad58913c29:067ec139"
+    "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139"
   },
   {
     "id": "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
@@ -8728,10 +8728,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8739,7 +8739,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Flutter Entertainment's LSE exit moved from intention notice on 12 June to formal share cancellation on 3 August, completing its departure from the London market within eight weeks. Rank Group installed Richard Harris as CEO on 13 July ahead of its annual results, while Entain and evoke worked through routine governance and reporting filings.",
     "theme_key_points": [
       "Flutter's delisting progressed from intention (12 June) to cancellation notice (3 August), an eight-week process.",
@@ -9231,10 +9231,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -9242,7 +9242,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
@@ -9829,10 +9829,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "6b1c5b1d6af07c8c",
+    "cluster_id": "11ce830f480498da",
     "status": "seen",
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "cluster_summary": "Evoke's routine disclosures build toward a scheme of arrangement, with the Scheme Document published in July and Court/General Meeting results confirmed by mid-August, alongside H1 2026 interim results. The sequence points to a formal corporate restructuring or takeover reaching completion, layered over standard shareholding and compliance filings.",
+    "cluster_summary_for": "11ce830f480498da:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -9840,7 +9840,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 78,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
     "theme_key_points": [
       "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
