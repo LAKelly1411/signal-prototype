@@ -3918,5 +3918,29 @@
     ],
     "canonical_category": "AML and compliance failures",
     "theme_id": null
+  },
+  {
+    "id": "0081f60444929f84818546ef894db22128c950b47f7384a8c4735be699b58048",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/q1-2026-financial-results/9555914",
+    "title": "Flutter Entertainment: Q1 2026 Financial Results",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-07T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926253+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Flutter's Q1 results offer insight into the gambling giant's performance, strategy and market trends ahead of full detail release.",
+    "category": "financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]
