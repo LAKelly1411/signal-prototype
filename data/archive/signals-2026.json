@@ -3894,5 +3894,29 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "243331cd15385b88a6ce6db58f0751593e5bacd0dd4413522749170e387414bd",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/322",
+    "title": "Eastern Automatics Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-05-07T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923266+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Eastern Automatics Limited"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings and highlights ongoing regulatory enforcement priorities for operators and suppliers.",
+    "category": "AML/compliance enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Eastern Automatics"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null
   }
 ]
