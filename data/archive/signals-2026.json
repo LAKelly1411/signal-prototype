@@ -3966,5 +3966,105 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "2ab9532f318aaf48735c0aa6ac2dbc96cb5a616eec2dbdd18253baa7626cbdd5",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/bingo-association-agm-sarah-gardner-speech",
+    "title": "The Bingo Association AGM - Sarah Gardner speech",
+    "raw_summary": "This speech was delivered by acting chief executive Sarah Gardner at The Bingo Association AGM on 7 May 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-05-08T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "The Bingo Association",
+      "Sarah Gardner"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "The Commission's acting chief sets tone and priorities for bingo sector regulation, signalling potential policy direction.",
+    "category": "regulator speech",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "The Bingo Association",
+      "Sarah Gardner"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "2c2136f393c6fd05b420210db11519d377aae9d1033641f78e2ad3381707e199",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/323",
+    "title": "Gambrill, Jacob Sykes",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-05-08T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923263+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Jacob Sykes Gambrill"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A named individual's gambling personal licence was revoked, signalling Gambling Commission enforcement action against personnel in the sector.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Jacob Sykes Gambrill"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null
+  },
+  {
+    "id": "28c51fab826b63a273ab94b0a69c50dfba0adbd648b51d9d02c67ba3d5a99e2a",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9559946",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-08T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926244+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings of Flutter can signal shifting investor sentiment or influence over the UK's largest gambling operator.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "10306f37ba84dc038ff1a4947fab6b4503300303532d68b0edb6d4cad2209d90",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/transaction-in-own-shares/9559565",
+    "title": "Flutter Entertainment: Transaction in Own Shares",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-08T11:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926247+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share buyback disclosure signals capital allocation strategy but carries limited immediate industry impact.",
+    "category": "share buyback",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
