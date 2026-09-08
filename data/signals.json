@@ -61,15 +61,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
@@ -297,7 +297,7 @@
     "newsworthiness_score": 40,
     "why_it_matters": "Signals the Gambling Commission's enforcement priorities on anti-money laundering, useful for operators assessing compliance risk.",
     "category": "AML policy commentary",
-    "cluster_id": "49489f6e63c776ae",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Gambling Commission",
@@ -305,7 +305,7 @@
       "John Pierce"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": "AML and compliance failures",
+    "theme_id": null,
     "cluster_summary": "Two overlapping reports cover the same GAMLG annual conference on anti-money laundering standards, with the Gambling Commission's John Pierce giving a policy speech and the BGC promoting the event. No enforcement action or regulatory change accompanies either.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
@@ -470,18 +470,18 @@
     "newsworthiness_score": 8,
     "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
     "category": "confirmation statement",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": null,
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011"
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011"
   },
   {
     "id": "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
@@ -1867,15 +1867,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
@@ -1969,15 +1969,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "f0b89b82b96f08717f7096c7f8f0bce55c46e6ea618d1085cfc8ea88cce9449d",
@@ -1997,7 +1997,7 @@
     "newsworthiness_score": 35,
     "why_it_matters": "ASA cleared a Midnite influencer ad of under-18 appeal concerns, offering a precedent for gambling affiliate marketing standards.",
     "category": "advertising compliance",
-    "cluster_id": "ad4c360870e770ba",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Dribble Media",
@@ -2005,7 +2005,7 @@
       "Mia Mon"
     ],
     "canonical_category": "Advertising ruling",
-    "theme_id": "Advertising ruling",
+    "theme_id": null,
     "cluster_summary": "Midnite's advertising drew ASA scrutiny twice in three months: a June ruling cleared an influencer ad of under-18 appeal concerns, but by August the ASA upheld multiple complaints against separate Midnite ads for linking gambling to escapism and harm.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -2280,15 +2280,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
@@ -2317,15 +2317,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
@@ -2346,15 +2346,15 @@
     "canonical_entities": [],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
@@ -3059,15 +3059,15 @@
     ],
     "canonical_category": "AML and compliance failures",
     "theme_id": "AML and compliance failures",
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "c5ac8e0a43622ed52b8bde9cc4176be0be5de5e569abe04c6036bd4e806dbcaf",
@@ -3092,15 +3092,15 @@
     ],
     "canonical_category": "AML and compliance failures",
     "theme_id": "AML and compliance failures",
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "eb7c8b1822dddbb10abe403f17275cd12d56179d1a17f803e7cb6e986f1821ca",
@@ -3158,7 +3158,7 @@
       "Western Social Club"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": "AML and compliance failures",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
     "theme_key_points": [
       "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
@@ -3629,7 +3629,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals ongoing industry focus on AML/CTF standards but contains no enforcement action or new regulatory change.",
     "category": "industry conference",
-    "cluster_id": "49489f6e63c776ae",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "GAMLG",
@@ -3960,15 +3960,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
@@ -3998,15 +3998,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
@@ -4036,15 +4036,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   },
   {
     "id": "aadd7e51961c2747eb67225011f5e3ea951767e033c99c7bdca022a9849e1d6e",
@@ -4074,15 +4074,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "aaf1204b12994e288a60679e12277f29af6ce8aaa4ffccccf6e48fcf6a03c23e",
@@ -4112,15 +4112,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   },
   {
     "id": "c409f9ffe5768d463ade8d8eccd98ee3fdd83030a172057859dec81c64d853b6",
@@ -4150,15 +4150,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "dc74cd65b599eecd2ad7ff1aea65bf8eb22ad1442dd90885d814d03221f09c4b",
@@ -4188,15 +4188,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "6cc7c111af47724064e12098829166173de96d04d458f56fdf48c95ed2bff11a",
@@ -4226,15 +4226,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "320ae8dd048774b02394618713e22f8a0f248589db5c0b9a36c384af030350d8",
@@ -4714,15 +4714,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
@@ -4781,15 +4781,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "b7a19f1be126ae4742bb3f0689e6b07963a924581dd5749581b663459fb49142",
@@ -4819,15 +4819,15 @@
     "cluster_coherent": true,
     "cluster_significance": 72,
     "cluster_summary_for": "1c38747ec382271a:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "ae360eeacf2b9a15640303ebebbcd6174e60d88134c51b983a0541e2e9bd61df",
@@ -5271,10 +5271,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5309,10 +5309,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5321,15 +5321,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
@@ -5347,10 +5347,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5385,10 +5385,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5414,27 +5414,27 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
     "category": "shareholder notification",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "04de9ea14aff7f0f74e2a5c178c88d69e7eed2a2dea358fc8b01e8e3dd0ab856",
@@ -5452,18 +5452,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Share award grants under evoke's LTIP offer minor insight into executive incentives but limited direct impact on the wider gambling sector.",
     "category": "executive remuneration",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "theme_summary": "Flutter Entertainment's LSE exit moved from intention notice on 12 June to formal share cancellation on 3 August, completing its departure from the London market within eight weeks. Rank Group installed Richard Harris as CEO on 13 July ahead of its annual results, while Entain and evoke worked through routine governance and reporting filings.",
     "theme_key_points": [
       "Flutter's delisting progressed from intention (12 June) to cancellation notice (3 August), an eight-week process.",
@@ -5490,13 +5490,13 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine director dealing disclosure offers minor insight into insider sentiment at evoke, parent of 888 and William Hill.",
     "category": "PDMR share dealing",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
     ],
     "canonical_category": "Shareholding disclosure",
-    "theme_id": "Shareholding disclosure",
+    "theme_id": null,
     "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -6447,10 +6447,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7048,15 +7048,15 @@
     ],
     "canonical_category": "AML and compliance failures",
     "theme_id": "AML and compliance failures",
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
@@ -7139,15 +7139,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   },
   {
     "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
@@ -7248,15 +7248,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   },
   {
     "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
@@ -7359,15 +7359,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
+    "theme_summary": "The ASA upheld separate complaints against Videoslots' Mr Vegas brand for child-appealing content and against BoyleSports for ads encouraging repetitive betting, while DCMS opened a consultation on banning unlicensed gambling sponsorship. Parliament has raised three written questions on gambling advertising and streaming since June.",
     "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
+      "ASA upheld rulings against Mr Vegas (1 July 2026) and BoyleSports (29 July 2026) within four weeks",
+      "DCMS consultation launched 15 July 2026 targets sponsorship by unlicensed operators, affecting sports and media deals",
+      "Three separate parliamentary written questions on gambling advertising and streaming filed between 30 June and 1 July 2026",
+      "Mr Vegas case centred on child-appealing ad content; BoyleSports case centred on encouraging repetitive betting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
+    "theme_summary_for": "Advertising ruling:d5047b2f1737:067ec139"
   },
   {
     "id": "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
@@ -7863,10 +7863,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7875,15 +7875,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -8047,15 +8047,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
@@ -8456,7 +8456,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "ASA upheld multiple complaints against Midnite ads for linking gambling to escapism and harm, raising compliance risks for betting advertisers.",
     "category": "ad standards enforcement",
-    "cluster_id": "ad4c360870e770ba",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Dribble Media",
@@ -8532,10 +8532,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8655,15 +8655,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   },
   {
     "id": "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
@@ -9035,10 +9035,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -9047,15 +9047,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
@@ -9124,15 +9124,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
@@ -9350,15 +9350,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
@@ -9388,15 +9388,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
   },
   {
     "id": "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
@@ -9633,10 +9633,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "ef4de6040ee057c2",
+    "cluster_id": "0c27ccd18db9c4ff",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -9645,15 +9645,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
@@ -9683,15 +9683,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
+    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
     "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
+      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
+      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
+      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
+    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
     "id": "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
@@ -10279,19 +10279,24 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A new Gambling Commission Chair can influence the regulator's priorities and approach to industry oversight and policy.",
     "category": "Board and director changes",
-    "cluster_id": null,
+    "cluster_id": "ffeb315fc29883cf",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "theme_summary": "Entain and Rank have each reshuffled their boards twice since mid-June, while the Gambling Commission gets a new chair in Ruth Evans from September. Governance turnover is running across both operators and the regulator at once.",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
     "theme_key_points": [
-      "Entain made three separate board/directorate disclosures: 15 June, 23 June and 27 July 2026",
-      "Rank Group changed directors twice: 24 July and 13 August 2026",
-      "Ruth Evans appointed Gambling Commission Chair, announced 7 September 2026",
-      "Changes span two listed operators and the regulator simultaneously, not one isolated boardroom"
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:5a88c641bb85:067ec139"
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139",
+    "cluster_summary": "Ruth Evans has been appointed Chair of the Gambling Commission, a role that sets the regulator's tone toward licensed operators. The BGC has publicly welcomed the appointment, signalling industry hope for a constructive relationship with the incoming Chair.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "ffeb315fc29883cf:cecdc011"
   },
   {
     "id": "d0446cdbabadd4fa7982cc85782a2e7e6cddb282ac847f39854b5eee03244a3c",
@@ -10326,5 +10331,48 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:e2cbd436db67:067ec139"
+  },
+  {
+    "id": "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-welcomes-appointment-of-ruth-evans-as-gambling-commission-chair",
+    "title": "BGC welcomes appointment of Ruth Evans as Gambling Commission Chair",
+    "raw_summary": "",
+    "published_at": "2026-09-07T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-08T06:18:49.533182+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "BGC",
+      "Ruth Evans",
+      "Gambling Commission"
+    ],
+    "canonical_entities": [
+      "BGC",
+      "Ruth Evans",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 48,
+    "why_it_matters": "A new Gambling Commission Chair signals potential shifts in regulatory tone affecting all UK licensed operators.",
+    "category": "Board and director changes",
+    "cluster_id": "ffeb315fc29883cf",
+    "status": "seen",
+    "canonical_category": "Board and director changes",
+    "theme_id": "Board and director changes",
+    "cluster_summary": "Ruth Evans has been appointed Chair of the Gambling Commission, a role that sets the regulator's tone toward licensed operators. The BGC has publicly welcomed the appointment, signalling industry hope for a constructive relationship with the incoming Chair.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "ffeb315fc29883cf:cecdc011",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
+    "theme_key_points": [
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139"
   }
 ]
