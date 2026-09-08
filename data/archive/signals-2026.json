@@ -4066,5 +4066,53 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "152837c1925433ccaccdf542bbb2efbd4d43a706d676502a9f0ee27017ccf54e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9561480",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-11T09:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926241+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine major shareholding notification offers limited insight but tracks investor interest in a leading gambling operator.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "cb449ca6cb713a173df91d44cbca4f5906311833561912bbd1e472b2e60c511f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/publication-of-notice-of-agm/9560475",
+    "title": "evoke: Publication of Notice of AGM",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-05-11T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926422+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine corporate governance filing that may signal upcoming shareholder votes on strategy or board matters at evoke.",
+    "category": "AGM notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]
