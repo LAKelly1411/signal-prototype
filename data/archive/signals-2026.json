@@ -4162,5 +4162,79 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "872d3da6260e1449a79d577e56fff19bee3a44a6f682f81a84bdc1ddfc7b0efa",
+    "source": "parliament",
+    "source_id": "1904978",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-05-13/900",
+    "title": "Written question: Gambling: Risk Assessment",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment her Department has made of the potential economic impact on the horse racing and sports betting industries of the full implementation of financial risk assessments on gambling.\nA: It is for the Gambling Commission to decide whether to implement Financial Risk Assessments (FRA). DCMS continues to support the policy intent behind Financial Risk Assessments, and has had regular engagement with the Gambling Commission on this issue. Fi...",
+    "published_at": "2026-05-13T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029510+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Confirms government continues to back financial risk checks, a key policy issue affecting betting operators' affordability rules and horse racing funding.",
+    "category": "financial risk assessments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "530fb01eecea978ebc2c5d31bc32d75c1684f1547f8ef732917ded8340a46172",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9564786",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-05-12T16:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926113+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings of Entain can signal shifts in investor confidence or potential influence over corporate strategy.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "98d8f5248fd73de05f3e1cf54d2bd47308350a42119273811f15f7e670b0d79c",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/director-pdmr-shareholding/9564683",
+    "title": "Flutter Entertainment: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-12T15:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926232+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine director dealing disclosure offers limited insight but may hint at insider sentiment at a major listed operator.",
+    "category": "PDMR shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
