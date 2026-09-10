@@ -4262,5 +4262,29 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": null
+  },
+  {
+    "id": "1bc3ac049beaf320f5f56042644721d58c57b7a2fe8364e9184c562add2542d2",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9566624",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-05-13T12:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926110+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A major shareholding change in Entain could signal shifting investor confidence or influence over the gambling giant's strategy.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
