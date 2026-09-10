@@ -4236,5 +4236,31 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "798d095ba17e7649133cfc1902bb5a2f360190ed32227671ba54fbc0ba774ea4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/guidance/illegal-gambling-taskforce-terms-of-reference",
+    "title": "Illegal Gambling Taskforce - terms of reference",
+    "raw_summary": "The taskforce will bring together a range of stakeholders including gambling bodies and law enforcement to tackle illegal gambling.",
+    "published_at": "2026-05-13T08:37:33Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "Illegal Gambling Taskforce"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Signals a coordinated government push against black-market gambling, potentially reshaping enforcement priorities for licensed operators.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "Illegal Gambling Taskforce"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
   }
 ]

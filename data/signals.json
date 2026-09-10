@@ -159,15 +159,15 @@
     "canonical_entities": [],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
@@ -230,15 +230,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "87a805f855ff507673c4382f6db2c0bcc04409ce7d72e8e29710b4526f663e1a",
@@ -1742,32 +1742,6 @@
     "theme_id": null
   },
   {
-    "id": "798d095ba17e7649133cfc1902bb5a2f360190ed32227671ba54fbc0ba774ea4",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/guidance/illegal-gambling-taskforce-terms-of-reference",
-    "title": "Illegal Gambling Taskforce - terms of reference",
-    "raw_summary": "The taskforce will bring together a range of stakeholders including gambling bodies and law enforcement to tackle illegal gambling.",
-    "published_at": "2026-05-13T08:37:33Z",
-    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS",
-      "Illegal Gambling Taskforce"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "Signals a coordinated government push against black-market gambling, potentially reshaping enforcement priorities for licensed operators.",
-    "category": "illegal gambling enforcement",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "DCMS",
-      "Illegal Gambling Taskforce"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null
-  },
-  {
     "id": "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
     "source": "dcms",
     "source_id": null,
@@ -2922,15 +2896,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
@@ -2960,15 +2934,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52",
@@ -3851,15 +3825,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
@@ -4616,10 +4590,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps track Flutter's share capital but carries limited standalone news value.",
     "category": "shareholder disclosure",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -4627,7 +4601,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72
+    "cluster_significance": 68
   },
   {
     "id": "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
@@ -4645,10 +4619,10 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Changes in major shareholdings of Flutter can signal shifts in investor sentiment or control of a leading gambling operator.",
     "category": "shareholder disclosure",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -4656,7 +4630,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 68,
     "theme_summary": "Entain, Flutter and evoke have filed a steady stream of major shareholding notifications since June, with Entain alone lodging six TR-1 disclosures by late August. Evoke's run of holding notices culminated on 17 August in Results of Court Meeting and General Meeting outcomes, pointing to a scheme of arrangement reshaping its ownership structure.",
     "theme_key_points": [
       "Entain lodged TR-1 notifications on 12, 19, 23, 25 June and 4, 27 August — six filings in under three months",
@@ -4683,10 +4657,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals a change in major shareholding at Flutter, worth monitoring for ownership shifts but lacks detail on scale or impact.",
     "category": "shareholder notification",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -4694,7 +4668,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72
+    "cluster_significance": 68
   },
   {
     "id": "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
@@ -4712,10 +4686,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Tracks major shareholding changes in a leading gambling operator, relevant for investors and market watchers.",
     "category": "shareholder disclosure",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -4723,7 +4697,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 68,
     "theme_summary": "Entain, Flutter and evoke have filed a steady stream of major shareholding notifications since June, with Entain alone lodging six TR-1 disclosures by late August. Evoke's run of holding notices culminated on 17 August in Results of Court Meeting and General Meeting outcomes, pointing to a scheme of arrangement reshaping its ownership structure.",
     "theme_key_points": [
       "Entain lodged TR-1 notifications on 12, 19, 23, 25 June and 4, 27 August — six filings in under three months",
@@ -4750,18 +4724,18 @@
     "newsworthiness_score": 22,
     "why_it_matters": "Tracks major shareholder movements in Flutter, relevant for ownership and market-influence monitoring by industry analysts.",
     "category": "shareholder notification",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_significance": 68,
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "theme_summary": "Entain, Flutter and evoke have filed a steady stream of major shareholding notifications since June, with Entain alone lodging six TR-1 disclosures by late August. Evoke's run of holding notices culminated on 17 August in Results of Court Meeting and General Meeting outcomes, pointing to a scheme of arrangement reshaping its ownership structure.",
     "theme_key_points": [
       "Entain lodged TR-1 notifications on 12, 19, 23, 25 June and 4, 27 August — six filings in under three months",
@@ -4788,13 +4762,13 @@
     "newsworthiness_score": 78,
     "why_it_matters": "Flutter's exit from the LSE marks a major shift in London's gambling sector market presence and index weighting.",
     "category": "listing change",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": "Corporate filing",
+    "theme_id": null,
     "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -5206,15 +5180,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
@@ -5311,15 +5285,15 @@
     "cluster_coherent": true,
     "cluster_significance": 72,
     "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "f4c59b7ec0173da1a83c254c28dd73351eb2d7d7094f1995e90ed2d8c71a3b86",
@@ -5596,15 +5570,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 52,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
@@ -6483,15 +6457,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
@@ -6800,15 +6774,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
@@ -6838,15 +6812,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
@@ -6924,15 +6898,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
@@ -7097,10 +7071,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
     "category": "results announcement notice",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -7108,7 +7082,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 68,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -7729,10 +7703,10 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Flutter's exit from the LSE marks a major shift in where the UK's largest gambling operator trades, affecting investor access and index inclusion.",
     "category": "listing change",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
@@ -7740,7 +7714,7 @@
     "theme_id": "Merger and acquisition",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 68,
     "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
       "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
@@ -7767,27 +7741,27 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share cancellation notice from a major operator, of limited interest beyond compliance tracking.",
     "category": "corporate filing - share cancellation",
-    "cluster_id": "1c38747ec382271a",
+    "cluster_id": "e6e4e4f1cc2209bc",
     "status": "seen",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
-    "cluster_summary_for": "1c38747ec382271a:cecdc011",
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "cluster_significance": 68,
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
@@ -7986,15 +7960,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
@@ -8297,15 +8271,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "ad4c360870e770ba:cecdc011",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
@@ -8372,15 +8346,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -8521,15 +8495,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 52,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
@@ -8559,15 +8533,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
@@ -9760,15 +9734,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
@@ -9794,15 +9768,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has issued penalties or settlements against eight named licensees since late June, spanning suppliers, operators and individuals, with Evolution Malta's £4.75m payment on 23 July the largest so far. Enforcement now reaches beyond front-line operators into B2B suppliers, individual licence holders and advertising standards.",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the biggest sum in this run of cases.",
-      "Stakelogic BV paid £122,835 on 25 June for running slots faster than permitted speed limits.",
-      "Individuals Maxwell and Pamela Taylor settled with the Commission on 6 August, alongside corporate targets Dench eGaming, Petfre, Purple Gaming and Sladders.",
-      "Dribble Media's Midnite brand had multiple ads upheld against by the ASA on 12 August for linking gambling to escapism and harm."
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:d9d27418fe05:067ec139"
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   },
   {
     "id": "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
@@ -10229,15 +10203,15 @@
     "cluster_coherent": true,
     "cluster_significance": 52,
     "cluster_summary_for": "7dace4fd2dc5ab4e:cecdc011",
-    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
     "theme_key_points": [
-      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
-      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
-      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
-      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
     "id": "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
@@ -11256,5 +11230,35 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:b4aca0cc6ea2:067ec139"
+  },
+  {
+    "id": "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/two-more-admit-general-election-betting-offences",
+    "title": "Two more admit General Election betting offences",
+    "raw_summary": "",
+    "published_at": "2026-09-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-10T10:18:45.851154+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Further guilty pleas in the general election betting scandal highlight ongoing integrity enforcement affecting political and betting sectors.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
+    "theme_key_points": [
+      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
+      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
   }
 ]
