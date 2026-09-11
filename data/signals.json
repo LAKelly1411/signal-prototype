@@ -4503,30 +4503,6 @@
     "theme_id": null
   },
   {
-    "id": "dbb9d6aaa7e6b9650b7ef1fdf7c5d56ff9916b57104599c7801e2c32ab040275",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9569000",
-    "title": "Entain: TR1: Notification of Major Holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-05-14T12:34:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926107+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholdings can signal investor sentiment shifts or potential influence over Entain's strategic direction.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
