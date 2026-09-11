@@ -4286,5 +4286,29 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "556f7f150d1398a4cbf1cc863059a543e97988f11e04f22ac82844ee388edc4c",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/safer-gambling-week-2025-drives-record-use-of-safer-gambling-tools",
+    "title": "SAFER GAMBLING WEEK 2025 DRIVES RECORD USE OF SAFER GAMBLING TOOLS",
+    "raw_summary": "",
+    "published_at": "2026-05-14T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926031+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Shows measurable uptake of safer gambling tools, relevant to industry messaging on responsible gambling and regulatory scrutiny.",
+    "category": "safer gambling campaign",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null
   }
 ]
