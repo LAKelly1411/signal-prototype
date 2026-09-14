@@ -4358,5 +4358,129 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "0a5a1604d317b68f4e3a026780250b899db8f23cd9918f34dbaf3be4144db53b",
+    "source": "gazette",
+    "source_id": "5133711",
+    "source_url": "https://www.thegazette.co.uk/notice/5133711",
+    "title": "EBEN CARE AND SUPPORT LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1264209/ …",
+    "published_at": "2026-05-15T12:01:53+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Eben Care And Support Ltd",
+      "HMRC Legal Group"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a care sector insolvency filing with no apparent connection to the gambling industry.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Eben Care And Support",
+      "HMRC Legal"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "fe5f21fb0b942720554ce0d783f0b34cba3a59be9934256e8844d4384f01b10a",
+    "source": "gazette",
+    "source_id": "5132703",
+    "source_url": "https://www.thegazette.co.uk/notice/5132703",
+    "title": "IMPACT CONTRACTS GLASGOW LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1263193/ …",
+    "published_at": "2026-05-15T12:01:34+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Impact Contracts Glasgow Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition concerns a construction firm with no apparent link to gambling or gaming, so it holds negligible relevance for this sector.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Impact Contracts Glasgow",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d551bfd0627f115bcdab469232934316c3d8945b2d6956e2f8078939b7384cea",
+    "source": "gazette",
+    "source_id": "5135019",
+    "source_url": "https://www.thegazette.co.uk/notice/5135019",
+    "title": "MARTIN WILLIAMS CASINO EQUIPMENT LIMITED",
+    "raw_summary": "Notice of Intended Dividends: MARTIN WILLIAMS CASINO EQUIPMENT LIMITED …",
+    "published_at": "2026-05-14T17:51:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Martin Williams Casino Equipment Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A gambling equipment supplier's creditor dividend notice may signal financial distress in the casino supply chain.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Martin Williams Casino Equipment"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "0b89f19f5d8a83e423c3cbf96e565791be5ff8e0379d007e435486f5e2102b6c",
+    "source": "gazette",
+    "source_id": "5134576",
+    "source_url": "https://www.thegazette.co.uk/notice/5134576",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Meetings of Creditors: KRS MORTGAGE SERVICES LIMITED (Company Number 14785198 ) Trading Name: Mortgage and Equity Release Advice Registered office: The Old Church School, Butts Hill, Frome, BA11 1HR Principal trading addres…",
+    "published_at": "2026-05-15T01:02:23+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS MORTGAGE SERVICES LIMITED"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Mortgage advice firm insolvency, unrelated to gambling sector, minimal relevance to UK gambling journalists.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "KRS MORTGAGE SERVICES"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "eff43b6b313ac4756f691718492063a5e24e1b069e558a145979c3f0a41d7467",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9570840",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-05-15T10:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926099+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Major shareholding changes in Entain can signal shifts in investor confidence or potential influence over strategy in the gambling sector.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
