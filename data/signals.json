@@ -1522,30 +1522,6 @@
     "theme_id": null
   },
   {
-    "id": "502ecffe5cbad7e7b6406c0aac7ab70fd48df2c850dac122a093ac93d73796f9",
-    "source": "gazette",
-    "source_id": "5135805",
-    "source_url": "https://www.thegazette.co.uk/notice/5135805",
-    "title": "FIRST LIGHT GAMES LTD",
-    "raw_summary": "Appointment of Liquidators: Name of Company: FIRST LIGHT GAMES LTD …",
-    "published_at": "2026-05-18T01:02:06+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "First Light Games Ltd"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "First Light Games, a UK slots studio supplying licensed operators, is entering liquidation, signalling potential supply-chain disruption in the gambling sector.",
-    "category": "supplier insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "First Light Games"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
     "source": "gazette",
     "source_id": "5163998",
@@ -3042,30 +3018,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Licence action:c21844448c95:067ec139"
-  },
-  {
-    "id": "3e8813c075de5928bba9711c7133ce36e20c65842473968cdd09c25d2caffc60",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/324",
-    "title": "Exmouth Leisure Limited",
-    "raw_summary": "Sanction: Financial penalty",
-    "published_at": "2026-05-18T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.923259+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Exmouth Leisure Limited"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "A UK gambling operator has been fined by the Gambling Commission, signalling a compliance failure relevant to sector risk and enforcement trends.",
-    "category": "financial penalty",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Exmouth Leisure"
-    ],
-    "canonical_category": "Enforcement action",
-    "theme_id": null
   },
   {
     "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
