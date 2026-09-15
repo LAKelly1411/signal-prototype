@@ -4307,30 +4307,6 @@
     "theme_id": null
   },
   {
-    "id": "72421323723ac9643fd2fb0ac34a7f3200f8eeffaaac53f82e2345f42ec28433",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9573219",
-    "title": "Entain: TR1: Notification of Major Holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-05-18T10:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926096+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or influence over Entain's strategic direction.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
@@ -11136,5 +11112,26 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+  },
+  {
+    "id": "be0ed5d5d33205c91b74a1c7d919e96588e5905670b21a0c2781d23c971ce5a8",
+    "source": "parliament",
+    "source_id": "1932051",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-08-28/21584",
+    "title": "Written question: Defence",
+    "raw_summary": "Q: To ask the Secretary of State for Defence, with reference to page 77 of his Department’s Strategic Defence Review, published 2 June 2025, what progress he has made on using impactful but low-cost activities that offer a spread bet against unpredictable fu\nA: The Strategic Defence Review recognised the value of impactful but low-cost activities. Since the review was released, the Government has published the public summary of the Defence Diplomacy Strategy and is implementing the Strategy across Defence. This ...",
+    "published_at": "2026-08-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-15T10:18:16.708519+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Uses 'spread bet' metaphorically in a defence policy context; no relevance to gambling regulation or industry.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]
