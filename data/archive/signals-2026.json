@@ -4554,5 +4554,103 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "bb542543c01d729fc3b91bb7779c3822f4262eb5b8e69fe891d101173b668a93",
+    "source": "gazette",
+    "source_id": "5136479",
+    "source_url": "https://www.thegazette.co.uk/notice/5136479",
+    "title": "GILGAMESH LIMITED",
+    "raw_summary": "Appointment of Liquidators: …mber: 14582874 Nature of Business: Pan Asian Restaurant & Bar Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
+    "published_at": "2026-05-19T01:03:07+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gilgamesh Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This is a restaurant and bar liquidation with no connection to gambling or gaming, so it holds negligible relevance for this sector's journalists.",
+    "category": "liquidation - unrelated sector",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gilgamesh"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "8327005efccd8c59b0fd8adfed13cc2d0447471a3adae7d291bae616d1bfe7c2",
+    "source": "gazette",
+    "source_id": "5136454",
+    "source_url": "https://www.thegazette.co.uk/notice/5136454",
+    "title": "GILGAMESH LIMITED",
+    "raw_summary": "Resolutions for Winding-up: GILGAMESH LIMITED (Company Number 14582874 ) Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
+    "published_at": "2026-05-19T01:02:25+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gilgamesh Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A winding-up resolution for a small company with no clear or confirmed link to the gambling sector offers limited relevance to trade journalists.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gilgamesh"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "99d1743df62fd662a90b10ca1360e578d9674faa8f984fcd8a19f29950a453a7",
+    "source": "gazette",
+    "source_id": "5136409",
+    "source_url": "https://www.thegazette.co.uk/notice/5136409",
+    "title": "CASTLE DONNINGTON LIMITED",
+    "raw_summary": "Appointment of Administrators: …ber 10704315 ) Nature of Business: Fund management activities Registered office: Woodgate House, 2-8 Games Road, Cockfosters, EN4 9HN …",
+    "published_at": "2026-05-19T01:00:59+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Castle Donnington Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A fund management company entering administration has no clear gambling-sector relevance despite the coincidental address.",
+    "category": "administrator appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Castle Donnington"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a4febb417050f48c1de8314a952c96076402dc14ffaf4bf3fd67377f695ba018",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/extension-of-firm-offer-deadline-/9573950",
+    "title": "evoke: Extension of Firm Offer Deadline",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-05-18T16:35:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926419+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke",
+      "EVOK"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "An extended firm offer deadline signals ongoing capital-raising or M&A activity at gambling operator evoke that could affect shareholders and strategy.",
+    "category": "corporate action/offer deadline",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited",
+      "EVOK"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null
   }
 ]

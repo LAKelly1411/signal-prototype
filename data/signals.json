@@ -1450,78 +1450,6 @@
     "theme_id": null
   },
   {
-    "id": "bb542543c01d729fc3b91bb7779c3822f4262eb5b8e69fe891d101173b668a93",
-    "source": "gazette",
-    "source_id": "5136479",
-    "source_url": "https://www.thegazette.co.uk/notice/5136479",
-    "title": "GILGAMESH LIMITED",
-    "raw_summary": "Appointment of Liquidators: …mber: 14582874 Nature of Business: Pan Asian Restaurant & Bar Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
-    "published_at": "2026-05-19T01:03:07+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Gilgamesh Limited"
-    ],
-    "newsworthiness_score": 3,
-    "why_it_matters": "This is a restaurant and bar liquidation with no connection to gambling or gaming, so it holds negligible relevance for this sector's journalists.",
-    "category": "liquidation - unrelated sector",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gilgamesh"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "8327005efccd8c59b0fd8adfed13cc2d0447471a3adae7d291bae616d1bfe7c2",
-    "source": "gazette",
-    "source_id": "5136454",
-    "source_url": "https://www.thegazette.co.uk/notice/5136454",
-    "title": "GILGAMESH LIMITED",
-    "raw_summary": "Resolutions for Winding-up: GILGAMESH LIMITED (Company Number 14582874 ) Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Hertfordshire, EN4 9HN …",
-    "published_at": "2026-05-19T01:02:25+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Gilgamesh Limited"
-    ],
-    "newsworthiness_score": 12,
-    "why_it_matters": "A winding-up resolution for a small company with no clear or confirmed link to the gambling sector offers limited relevance to trade journalists.",
-    "category": "winding-up notice",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gilgamesh"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "99d1743df62fd662a90b10ca1360e578d9674faa8f984fcd8a19f29950a453a7",
-    "source": "gazette",
-    "source_id": "5136409",
-    "source_url": "https://www.thegazette.co.uk/notice/5136409",
-    "title": "CASTLE DONNINGTON LIMITED",
-    "raw_summary": "Appointment of Administrators: …ber 10704315 ) Nature of Business: Fund management activities Registered office: Woodgate House, 2-8 Games Road, Cockfosters, EN4 9HN …",
-    "published_at": "2026-05-19T01:00:59+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Castle Donnington Limited"
-    ],
-    "newsworthiness_score": 8,
-    "why_it_matters": "A fund management company entering administration has no clear gambling-sector relevance despite the coincidental address.",
-    "category": "administrator appointment",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Castle Donnington"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
     "source": "gazette",
     "source_id": "5163998",
@@ -1714,15 +1642,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
@@ -1816,15 +1744,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "f0b89b82b96f08717f7096c7f8f0bce55c46e6ea618d1085cfc8ea88cce9449d",
@@ -1947,15 +1875,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "f4dbfa277f8abb868c37f666e6a91cc8316ff5e71212b353fd7f37beffb79fb0",
@@ -2017,15 +1945,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
@@ -2126,15 +2054,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
@@ -2163,15 +2091,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
@@ -2192,15 +2120,15 @@
     "canonical_entities": [],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
@@ -2231,15 +2159,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
@@ -2433,15 +2361,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
@@ -2470,15 +2398,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
@@ -2507,15 +2435,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
@@ -2544,15 +2472,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "67a96c1056cdfd291dd57f72bf5722989ef8b461628966ae2d593acb5a035acb",
@@ -2640,15 +2568,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "98f89cad52d3302ddf9d562479a75d05164628fe7c5d412811f6455032547b55",
@@ -3118,15 +3046,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
@@ -3261,15 +3189,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "00816bbc839079c62b0ca834d6dc0213d7a430a543987cdf44485a6cf77ce18d",
@@ -3293,7 +3221,7 @@
       "Betting and Gaming Council"
     ],
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
     "theme_key_points": [
       "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
@@ -5185,32 +5113,6 @@
     "cluster_summary_for": "453f7710f2e8bbcb:cecdc011"
   },
   {
-    "id": "a4febb417050f48c1de8314a952c96076402dc14ffaf4bf3fd67377f695ba018",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/extension-of-firm-offer-deadline-/9573950",
-    "title": "evoke: Extension of Firm Offer Deadline",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-05-18T16:35:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926419+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke",
-      "EVOK"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "An extended firm offer deadline signals ongoing capital-raising or M&A activity at gambling operator evoke that could affect shareholders and strategy.",
-    "category": "corporate action/offer deadline",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited",
-      "EVOK"
-    ],
-    "canonical_category": "Corporate filing",
-    "theme_id": null
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -5346,15 +5248,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
@@ -5993,15 +5895,15 @@
     "canonical_entities": [],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
@@ -6128,15 +6030,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
@@ -6864,15 +6766,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
@@ -6961,15 +6863,15 @@
     "canonical_entities": [],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
@@ -7818,15 +7720,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "eac48fb8f29544fc98efb7701a052a01f2e27dd5c00c51183b7dc96632dbc8ab",
@@ -7966,7 +7868,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "ASA upheld multiple complaints against Midnite ads for linking gambling to escapism and harm, raising compliance risks for betting advertisers.",
     "category": "ad standards enforcement",
-    "cluster_id": null,
+    "cluster_id": "3cae1668c5f7e0c6",
     "status": "seen",
     "canonical_entities": [
       "Dribble Media",
@@ -7974,11 +7876,11 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "cluster_summary": "Midnite's advertising drew ASA scrutiny twice in three months: a June ruling cleared an influencer ad of under-18 appeal concerns, but by August the ASA upheld multiple complaints against separate Midnite ads for linking gambling to escapism and harm.",
+    "cluster_summary": "The ASA upheld two separate rulings against Dribble Media's Midnite brand within five weeks: first for ads linking gambling to escapism and harm, then for using an under-25 model in a TikTok gambling ad breaching youth protection rules. Two distinct breaches in quick succession point to recurring compliance failures in Midnite's marketing.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "cluster_summary_for": "ad4c360870e770ba:cecdc011",
+    "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
     "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
     "theme_key_points": [
       "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
@@ -9039,15 +8941,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
@@ -9834,15 +9736,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
@@ -10228,15 +10130,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three gambling ad rulings since July against Videoslots' Mr Vegas brand, BoyleSports and comparison site top10onlinecasinoreviews.co.uk, while DCMS opened a consultation on banning unlicensed operator sponsorship and MPs kept tabling written questions on child-targeted and streaming ads.",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
     "theme_key_points": [
-      "ASA upheld Mr Vegas (1 July) for child-appealing content, BoyleSports (29 July) for encouraging repetitive betting",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk hit with 9 September ruling over irresponsible paid search targeting",
-      "DCMS consultation launched 15 July could ban unlicensed operator sponsorship across sports and media deals",
-      "Three separate parliamentary written questions between 30 June and 1 July probed streaming ads and child protection"
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:92732cca1395:067ec139"
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   },
   {
     "id": "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
@@ -11103,15 +11005,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "7dfedc23199a57cf:cecdc011",
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_summary": "Parliamentary scrutiny of illegal gambling intensified through summer 2026, moving from a cluster of written questions ahead of the World Cup to actual Gambling Commission raids and arrests. The BGC escalated its public warnings, culminating in a forecast that black-market betting on the Premier League will hit £1bn a season.",
     "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+      "Four separate written questions on 'World Cup: Gambling' were tabled on the same day, 29 June 2026",
+      "£26m in government funding confirmed for Gambling Commission enforcement against black-market betting sites",
+      "Gambling Commission ran raids and arrests in Doncaster (21 July) and illegal casino cases (29 July), then backed police action on 10 August",
+      "BGC moved from general warnings to hard figures: £1bn-a-season Premier League black market forecast (24 Aug) and a $50bn global market report (7 Sept)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139"
+    "theme_summary_for": "Illegal gambling:b35eaf2bc77c:067ec139"
   },
   {
     "id": "be0ed5d5d33205c91b74a1c7d919e96588e5905670b21a0c2781d23c971ce5a8",
@@ -11262,5 +11164,84 @@
     "cluster_coherent": true,
     "cluster_significance": 8,
     "cluster_summary_for": "f88aaf54ad5a725c:cecdc011"
+  },
+  {
+    "id": "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/dribble-media-ltd.html",
+    "title": "Dribble Media Ltd t/a Midnite",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for TikTok ad for Midnite featured someone who was or seemed to be under 25 gambling and playing a significant role in the ad.",
+    "published_at": "2026-09-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-16T06:18:39.977048+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Dribble Media Ltd",
+      "Midnite"
+    ],
+    "canonical_entities": [
+      "Dribble Media",
+      "Midnite"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "ASA upheld a ruling against Midnite for using an under-25 model in a gambling ad, breaching youth protection rules on TikTok.",
+    "category": "Advertising ruling",
+    "cluster_id": "3cae1668c5f7e0c6",
+    "status": "seen",
+    "canonical_category": "Advertising ruling",
+    "theme_id": "Advertising ruling",
+    "cluster_summary": "The ASA upheld two separate rulings against Dribble Media's Midnite brand within five weeks: first for ads linking gambling to escapism and harm, then for using an under-25 model in a TikTok gambling ad breaching youth protection rules. Two distinct breaches in quick succession point to recurring compliance failures in Midnite's marketing.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
+    "theme_key_points": [
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
+  },
+  {
+    "id": "f7d1d57b7e9cb59608c215da84a9409a47ee53c80e67aa362a7a69f6ca50e51d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/white-hat-gaming-ltd.html",
+    "title": "White Hat Gaming Ltd t/a Casimba and The Grand Ivy Casino",
+    "raw_summary": "Not upheld / Internet (display): Two web display ads for gambling sites and a website weren’t directed at under-18s.",
+    "published_at": "2026-09-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-16T06:18:39.977051+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "White Hat Gaming Ltd",
+      "Casimba",
+      "The Grand Ivy Casino"
+    ],
+    "canonical_entities": [
+      "White Hat Gaming",
+      "Casimba",
+      "The Grand Ivy Casino"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "ASA cleared these gambling ads of targeting under-18s, a minor but relevant compliance data point for operators.",
+    "category": "Advertising ruling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Advertising ruling",
+    "theme_id": "Advertising ruling",
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
+    "theme_key_points": [
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139"
   }
 ]
