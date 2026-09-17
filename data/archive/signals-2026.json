@@ -4726,5 +4726,83 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "567c74d4b0600d311952bf5ecb3d7e1fd5d05fd0790941b8cdc72202bacab374",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/clarion-payment-providers-summit-ian-angus-speech",
+    "title": "Clarion Payment Providers Summit - Ian Angus speech",
+    "raw_summary": "This speech was delivered by Director of Policy Ian Angus at the Clarion Payment Providers Summit on 20 May 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Ian Angus",
+      "Clarion Payment Providers Summit"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals Gambling Commission's policy direction on payment providers, potentially foreshadowing new compliance expectations for operators.",
+    "category": "regulatory speech - payments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Ian Angus",
+      "Clarion Payment Providers Summit"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "1319dc8aec88d5a93d417016d4a5daf11403cd9e4d6ec4456a29fc4bdd112080",
+    "source": "gazette",
+    "source_id": "5138158",
+    "source_url": "https://www.thegazette.co.uk/notice/5138158",
+    "title": "/n/n/nWINNERS BINGO LIMITED",
+    "raw_summary": "Notice of Dividends: NOTICE OF INTENDED DIVIDEND UNDER R14.29 WINNERS BINGO LIMITED …",
+    "published_at": "2026-05-19T16:10:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Winners Bingo Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Shows a bingo operator's insolvency creditor payout process is progressing, of interest to industry watchers tracking sector distress.",
+    "category": "insolvency dividend notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Winners Bingo"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a31f730cdb7bb00808a3ffadd805605b6fd5815a3e672523299af32ee24e3d64",
+    "source": "parliament",
+    "source_id": "1907990",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-05-20/3433",
+    "title": "Written question: Greyhound Racing: Research",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether she held discussions with the Secretary of State for Environment, Food and Rural Affairs, on commissioning independent research into the social cost of greyhound racing betting as part of\nA: Greyhound racing makes an important contribution to British cultural life and the department’s priority is ensuring the continued growth of the sport.DCMS engages regularly with DEFRA regarding greyhound racing, but has had no such discussions.",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029507+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "DEFRA"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Confirms government has no plans for independent research into social costs of greyhound betting, signalling limited near-term regulatory shift.",
+    "category": "greyhound racing policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "DEFRA"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]

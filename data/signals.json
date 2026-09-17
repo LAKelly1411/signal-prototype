@@ -60,15 +60,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
     "theme_key_points": [
-      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
-      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
-      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
-      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
   },
   {
     "id": "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
@@ -420,34 +420,6 @@
       "Lotteries Council",
       "Gambling Commission",
       "Ian Angus"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
-    "id": "567c74d4b0600d311952bf5ecb3d7e1fd5d05fd0790941b8cdc72202bacab374",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/clarion-payment-providers-summit-ian-angus-speech",
-    "title": "Clarion Payment Providers Summit - Ian Angus speech",
-    "raw_summary": "This speech was delivered by Director of Policy Ian Angus at the Clarion Payment Providers Summit on 20 May 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
-    "published_at": "2026-05-20T00:00:00+00:00",
-    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "Ian Angus",
-      "Clarion Payment Providers Summit"
-    ],
-    "newsworthiness_score": 40,
-    "why_it_matters": "Signals Gambling Commission's policy direction on payment providers, potentially foreshadowing new compliance expectations for operators.",
-    "category": "regulatory speech - payments",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "Ian Angus",
-      "Clarion Payment Providers Summit"
     ],
     "canonical_category": "Policy and legislation",
     "theme_id": null
@@ -913,30 +885,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:ceefe01e5b0b:067ec139"
-  },
-  {
-    "id": "1319dc8aec88d5a93d417016d4a5daf11403cd9e4d6ec4456a29fc4bdd112080",
-    "source": "gazette",
-    "source_id": "5138158",
-    "source_url": "https://www.thegazette.co.uk/notice/5138158",
-    "title": "/n/n/nWINNERS BINGO LIMITED",
-    "raw_summary": "Notice of Dividends: NOTICE OF INTENDED DIVIDEND UNDER R14.29 WINNERS BINGO LIMITED …",
-    "published_at": "2026-05-19T16:10:24+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Winners Bingo Limited"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Shows a bingo operator's insolvency creditor payout process is progressing, of interest to industry watchers tracking sector distress.",
-    "category": "insolvency dividend notice",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Winners Bingo"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
   },
   {
     "id": "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
@@ -2588,32 +2536,6 @@
     "theme_summary_for": "Policy and legislation:e3586de87333:067ec139"
   },
   {
-    "id": "a31f730cdb7bb00808a3ffadd805605b6fd5815a3e672523299af32ee24e3d64",
-    "source": "parliament",
-    "source_id": "1907990",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-05-20/3433",
-    "title": "Written question: Greyhound Racing: Research",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether she held discussions with the Secretary of State for Environment, Food and Rural Affairs, on commissioning independent research into the social cost of greyhound racing betting as part of\nA: Greyhound racing makes an important contribution to British cultural life and the department’s priority is ensuring the continued growth of the sport.DCMS engages regularly with DEFRA regarding greyhound racing, but has had no such discussions.",
-    "published_at": "2026-05-20T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029507+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS",
-      "DEFRA"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Confirms government has no plans for independent research into social costs of greyhound betting, signalling limited near-term regulatory shift.",
-    "category": "greyhound racing policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "DCMS",
-      "DEFRA"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
     "id": "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
     "source": "gambling_commission",
     "source_id": null,
@@ -2777,7 +2699,7 @@
       "GAN"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": "AML and compliance failures",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
       "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
@@ -2810,7 +2732,7 @@
       "Concern"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": "AML and compliance failures",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
     "theme_key_points": [
       "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
@@ -6381,15 +6303,15 @@
     ],
     "canonical_category": "AML and compliance failures",
     "theme_id": "AML and compliance failures",
-    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
     "theme_key_points": [
-      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
-      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
-      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
-      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
   },
   {
     "id": "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
@@ -8460,15 +8382,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
     "theme_key_points": [
-      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
-      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
-      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
-      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
   },
   {
     "id": "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
@@ -8686,15 +8608,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
     "theme_key_points": [
-      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
-      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
-      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
-      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
   },
   {
     "id": "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
@@ -8724,15 +8646,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
     "theme_key_points": [
-      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
-      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
-      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
-      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139"
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
   },
   {
     "id": "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
