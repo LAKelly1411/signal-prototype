@@ -4876,5 +4876,83 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "591cbd44569ca159d6047f2dd7be8f22a1b70d09601663ae0298c10219000730",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/lotteries-council-annual-conference-2026-ian-angus-speech",
+    "title": "Lotteries Council Annual Conference 2026 - Ian Angus speech",
+    "raw_summary": "This speech was delivered by Director of Policy Ian Angus at the Lotteries Council Annual Conference on 21 May 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-05-21T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Lotteries Council",
+      "Gambling Commission",
+      "Ian Angus"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A Gambling Commission policy director's remarks to the Lotteries Council may signal regulatory priorities affecting society lotteries.",
+    "category": "regulator policy speech",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lotteries Council",
+      "Gambling Commission",
+      "Ian Angus"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "04012e0a9091c625b127cf9ee6ebc1ad06a7343edfd73e03ee261d32a203a2e8",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/before-the-gambling-commission-makes-any-decision-on-fras-it-must-answer-these-questions",
+    "title": "Before the Gambling Commission makes any decision on FRAs, it must answer these questions",
+    "raw_summary": "",
+    "published_at": "2026-05-21T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926024+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "BGC publicly pressures the Gambling Commission ahead of a decision on financial risk assessments, a contentious affordability policy affecting operators and punters.",
+    "category": "affordability checks / FRA policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "4f86ef26352814a05b14d38e181b5d04f12e77bba775bc8214efec7dbbdedd5b",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/black-market-betting-to-hit-33bn-by-2028-as-forecasts-show-one-in-five-stakes-could-go-illegal",
+    "title": "BLACK MARKET BETTING TO HIT £33BN BY 2028 AS FORECASTS SHOW ONE IN FIVE STAKES COULD GO ILLEGAL",
+    "raw_summary": "",
+    "published_at": "2026-05-21T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926028+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "BGC's projection of a £33bn illegal betting market fuels the regulatory debate over affordability checks and stake limits ahead of policy decisions.",
+    "category": "black market gambling forecast",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
   }
 ]

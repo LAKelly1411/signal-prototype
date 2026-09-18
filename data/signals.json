@@ -397,34 +397,6 @@
     "theme_id": null
   },
   {
-    "id": "591cbd44569ca159d6047f2dd7be8f22a1b70d09601663ae0298c10219000730",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/lotteries-council-annual-conference-2026-ian-angus-speech",
-    "title": "Lotteries Council Annual Conference 2026 - Ian Angus speech",
-    "raw_summary": "This speech was delivered by Director of Policy Ian Angus at the Lotteries Council Annual Conference on 21 May 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
-    "published_at": "2026-05-21T00:00:00+00:00",
-    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Lotteries Council",
-      "Gambling Commission",
-      "Ian Angus"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "A Gambling Commission policy director's remarks to the Lotteries Council may signal regulatory priorities affecting society lotteries.",
-    "category": "regulator policy speech",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Lotteries Council",
-      "Gambling Commission",
-      "Ian Angus"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
     "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
     "source": "companies_house",
     "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
@@ -3360,56 +3332,6 @@
     "theme_summary_for": "Illegal gambling:d8b97262171a:067ec139"
   },
   {
-    "id": "04012e0a9091c625b127cf9ee6ebc1ad06a7343edfd73e03ee261d32a203a2e8",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/before-the-gambling-commission-makes-any-decision-on-fras-it-must-answer-these-questions",
-    "title": "Before the Gambling Commission makes any decision on FRAs, it must answer these questions",
-    "raw_summary": "",
-    "published_at": "2026-05-21T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926024+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council",
-      "Gambling Commission"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "BGC publicly pressures the Gambling Commission ahead of a decision on financial risk assessments, a contentious affordability policy affecting operators and punters.",
-    "category": "affordability checks / FRA policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Betting and Gaming Council",
-      "Gambling Commission"
-    ],
-    "canonical_category": "Player protection",
-    "theme_id": null
-  },
-  {
-    "id": "4f86ef26352814a05b14d38e181b5d04f12e77bba775bc8214efec7dbbdedd5b",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/black-market-betting-to-hit-33bn-by-2028-as-forecasts-show-one-in-five-stakes-could-go-illegal",
-    "title": "BLACK MARKET BETTING TO HIT £33BN BY 2028 AS FORECASTS SHOW ONE IN FIVE STAKES COULD GO ILLEGAL",
-    "raw_summary": "",
-    "published_at": "2026-05-21T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926028+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council"
-    ],
-    "newsworthiness_score": 58,
-    "why_it_matters": "BGC's projection of a £33bn illegal betting market fuels the regulatory debate over affordability checks and stake limits ahead of policy decisions.",
-    "category": "black market gambling forecast",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Betting and Gaming Council"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null
-  },
-  {
     "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
     "source": "lse_rns",
     "source_id": null,
@@ -3426,19 +3348,19 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -3465,18 +3387,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -3503,18 +3425,18 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain's phased exit from its CEE business signals a strategic shift in its regional footprint and could affect investor sentiment.",
     "category": "corporate divestment",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Merger and acquisition",
     "theme_id": "Merger and acquisition",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
       "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
@@ -3541,27 +3463,27 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
     "category": "shareholder disclosure",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "cluster_significance": 35,
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
@@ -3579,27 +3501,27 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Changes in major shareholders can signal shifting investor confidence or influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "cluster_significance": 35,
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
@@ -3617,18 +3539,18 @@
     "newsworthiness_score": 40,
     "why_it_matters": "Leadership and governance shifts at a major FTSE-listed gambling operator can signal strategic direction changes affecting the wider industry.",
     "category": "board changes",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "Entain and Rank have both cycled through multiple board and director changes since June 2026, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed publicly by the BGC. Corporate and regulatory leadership are turning over in parallel across the sector.",
     "theme_key_points": [
       "Entain filed three separate governance changes: 23 June, 27 July and 15 September 2026",
@@ -3655,13 +3577,13 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or influence over Entain's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
-    "theme_id": "Shareholding disclosure",
+    "theme_id": null,
     "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -4115,15 +4037,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
@@ -4182,15 +4104,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "b7a19f1be126ae4742bb3f0689e6b07963a924581dd5749581b663459fb49142",
@@ -4554,15 +4476,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
@@ -4659,15 +4581,15 @@
     "cluster_coherent": true,
     "cluster_significance": 62,
     "cluster_summary_for": "b4c4ae67e98c1e69:cecdc011",
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "04de9ea14aff7f0f74e2a5c178c88d69e7eed2a2dea358fc8b01e8e3dd0ab856",
@@ -6419,18 +6341,18 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "Entain and Rank have both cycled through multiple board and director changes since June 2026, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed publicly by the BGC. Corporate and regulatory leadership are turning over in parallel across the sector.",
     "theme_key_points": [
       "Entain filed three separate governance changes: 23 June, 27 July and 15 September 2026",
@@ -6496,19 +6418,19 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -7063,15 +6985,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
@@ -7223,27 +7145,27 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "cluster_significance": 35,
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
@@ -7793,18 +7715,18 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -7907,18 +7829,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 35,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -8234,15 +8156,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
@@ -8831,15 +8753,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
@@ -8857,27 +8779,27 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "cluster_significance": 35,
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
     "theme_key_points": [
-      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
-      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
-      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
-      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139"
   },
   {
     "id": "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
@@ -10832,15 +10754,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_pattern_type": "developing_story",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "cluster_significance": 35,
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
     "theme_summary": "Entain and Rank have both cycled through multiple board and director changes since June 2026, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed publicly by the BGC. Corporate and regulatory leadership are turning over in parallel across the sector.",
     "theme_key_points": [
       "Entain filed three separate governance changes: 23 June, 27 July and 15 September 2026",
@@ -10871,15 +10793,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "5055d223a912856e",
+    "cluster_id": "3ab69c63e512ee86",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
-    "cluster_pattern_type": "developing_story",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "5055d223a912856e:cecdc011"
+    "cluster_significance": 35,
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011"
   },
   {
     "id": "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
