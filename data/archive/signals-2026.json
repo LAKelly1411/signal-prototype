@@ -4954,5 +4954,29 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": null
+  },
+  {
+    "id": "58d6fcab5a33be4d89f9dc245b041e802216713f886d0f91bd18d090a74d26a9",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9580766",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-21T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926220+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings at Flutter can signal shifting investor sentiment toward the UK's largest listed gambling operator.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]
