@@ -4978,5 +4978,31 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "83f3d2c92c0676eb9ddc1e89bcaad9b1d08fc220cc605b44fb78e6fdad18a326",
+    "source": "gazette",
+    "source_id": "5139459",
+    "source_url": "https://www.thegazette.co.uk/notice/5139459",
+    "title": "LONDON FILM EXPERIENCE (BAKER STREET) LTD and other companies",
+    "raw_summary": "Appointment of Liquidators: …Company: PLATFORM 9 3/4 RETAIL LTD Company Number: 10275533 Nature of Business: (All) Retail sale of games and toys in specialised stores/Museums activities/Other retail sale not in stores, stalls or market…",
+    "published_at": "2026-05-22T01:02:40+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "London Film Experience (Baker Street) Ltd",
+      "Platform 9 3/4 Retail Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Retail/toy companies unrelated to gambling entering liquidation, of negligible relevance to gambling sector journalists.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "London Film Experience",
+      "Platform 9 3/4 Retail"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
