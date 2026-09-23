@@ -5004,5 +5004,25 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "a072182d1d4124236edbcf7b7c41e3e35d457606bfbb4c6439ce58b8c4ff3feb",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/implementation-extension-for-new-deposit-limit-requirements",
+    "title": "Implementation extension for new deposit limit requirements",
+    "raw_summary": "Operators have been granted more time to prepare for new deposit limit requirements.",
+    "published_at": "2026-05-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Operators get more time to comply with deposit limit rules, affecting compliance timelines and safer gambling implementation across the industry.",
+    "category": "licence condition change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Licence action",
+    "theme_id": null
   }
 ]
