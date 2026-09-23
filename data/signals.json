@@ -430,15 +430,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
@@ -776,32 +776,6 @@
     "theme_id": null
   },
   {
-    "id": "506c327810878eb37a8035b02e2d521b531a914fa58f0240ec95b01f7ac12e29",
-    "source": "gazette",
-    "source_id": "5140376",
-    "source_url": "https://www.thegazette.co.uk/notice/5140376",
-    "title": "RENDERWORKS LTD",
-    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1109931/ …",
-    "published_at": "2026-05-26T12:00:33+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Renderworks Ltd",
-      "HMRC"
-    ],
-    "newsworthiness_score": 3,
-    "why_it_matters": "No evident link to the gambling sector, so limited relevance to a B2B gambling newsroom.",
-    "category": "winding up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Renderworks",
-      "HMRC"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "19f821a98a5aa4398f8ba1d99d93c1d759b9abefe027b28f06b2b1ce5ccb065e",
     "source": "gazette",
     "source_id": "5143346",
@@ -921,15 +895,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
@@ -1560,15 +1534,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 15,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
@@ -3308,19 +3282,19 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -3347,18 +3321,18 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -3385,7 +3359,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain's phased exit from its CEE business signals a strategic shift in its regional footprint and could affect investor sentiment.",
     "category": "corporate divestment",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
     "cluster_summary_for": "48b72587bf31d31f:cecdc011",
@@ -3393,7 +3367,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Merger and acquisition",
-    "theme_id": "Merger and acquisition",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
@@ -5472,7 +5446,7 @@
       "William Hill Limited"
     ],
     "canonical_category": "Merger and acquisition",
-    "theme_id": "Merger and acquisition",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 65,
@@ -5540,15 +5514,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
@@ -6189,15 +6163,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
@@ -6227,15 +6201,15 @@
     "cluster_coherent": true,
     "cluster_significance": 30,
     "cluster_summary_for": "50b72ca3f3030631:cecdc011",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
@@ -6253,18 +6227,18 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "Rank Group and Entain have each made two rounds of board or director changes since late July, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed by the BGC. Governance turnover is running through both listed operators and the regulator itself.",
     "theme_key_points": [
       "Rank Group filed director changes on 24 July and a further board update on 13 August",
@@ -6330,19 +6304,19 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -6836,15 +6810,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
@@ -6934,7 +6908,7 @@
       "Flutter Entertainment"
     ],
     "canonical_category": "Merger and acquisition",
-    "theme_id": "Merger and acquisition",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
@@ -7060,18 +7034,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "Routine major-shareholding notifications have run through the summer at Flutter and Entain, while evoke's disclosures escalated into a scheme of arrangement confirmed at its Court and General Meetings on 17 August. A further filing on 18 September ties evoke's ownership position to the outcome of Intralot's own general meeting.",
     "theme_key_points": [
       "Flutter filed Holding(s) in Company notices on 26 and 30 June 2026.",
@@ -7110,15 +7084,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
@@ -7148,15 +7122,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
@@ -7250,15 +7224,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
@@ -7630,18 +7604,18 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -7744,18 +7718,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -7856,15 +7830,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
@@ -7896,15 +7870,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
@@ -8594,15 +8568,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
@@ -8632,15 +8606,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
@@ -8696,18 +8670,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
+    "cluster_significance": 20,
     "theme_summary": "Routine major-shareholding notifications have run through the summer at Flutter and Entain, while evoke's disclosures escalated into a scheme of arrangement confirmed at its Court and General Meetings on 17 August. A further filing on 18 September ties evoke's ownership position to the outcome of Intralot's own general meeting.",
     "theme_key_points": [
       "Flutter filed Holding(s) in Company notices on 26 and 30 June 2026.",
@@ -9271,19 +9245,24 @@
     "newsworthiness_score": 45,
     "why_it_matters": "A winding-up petition against a gaming operator signals potential financial distress and possible market exit worth tracking.",
     "category": "Insolvency",
-    "cluster_id": null,
+    "cluster_id": "79ee6c333a759caf",
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139",
+    "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 40,
+    "cluster_summary_for": "79ee6c333a759caf:cecdc011"
   },
   {
     "id": "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
@@ -10580,15 +10559,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
@@ -10672,15 +10651,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_pattern_type": "developing_story",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "cluster_significance": 20,
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011",
     "theme_summary": "Rank Group and Entain have each made two rounds of board or director changes since late July, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed by the BGC. Governance turnover is running through both listed operators and the regulator itself.",
     "theme_key_points": [
       "Rank Group filed director changes on 24 July and a further board update on 13 August",
@@ -10711,15 +10690,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "48b72587bf31d31f",
+    "cluster_id": "5687b54abfc09c4a",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
-    "cluster_pattern_type": "developing_story",
+    "cluster_summary": "Entain's routine corporate calendar runs through July-September 2026: BetMGM Q2 updates, interim results on 13 August, an audit tender conclusion, board changes, and periodic TR-1 shareholder notifications. Nothing here departs from standard listed-company disclosure cadence.",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 55,
-    "cluster_summary_for": "48b72587bf31d31f:cecdc011"
+    "cluster_significance": 20,
+    "cluster_summary_for": "5687b54abfc09c4a:cecdc011"
   },
   {
     "id": "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
@@ -11092,15 +11071,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Seventeen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between July and September 2026, spanning content suppliers, bookmakers, compliance firms and a Korean gaming holding company. The pattern has moved from small suppliers in July to a licensed operator and an international group by September.",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
     "theme_key_points": [
-      "Lysis Gaming Compliance Ltd hit with three separate winding-up filings between 24 July and 26 August 2026",
-      "MAB Bookmakers Ltd and Deeside Bookmakers Ltd both entered liquidation as licensed betting shops within five weeks",
-      "MGE Korea Limited, linked to integrated gaming facilities, had administrators appointed 14 September 2026 — the highest-scoring case",
-      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July 2026; Equusform, a racing data supplier, entered creditors' meetings 18 September"
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fbc8e40ff8c5:067ec139"
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   },
   {
     "id": "15432a94bc08978c560601183124e26d72d66c1fe9bb382191fafd2b90d18528",
@@ -11368,5 +11347,44 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139"
+  },
+  {
+    "id": "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+    "source": "gazette",
+    "source_id": "5214244",
+    "source_url": "https://www.thegazette.co.uk/notice/5214244",
+    "title": "T33 GAMING LTD",
+    "raw_summary": "Winding-Up Orders: T33 GAMING LTD …",
+    "published_at": "2026-09-23T10:20:11+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-23T14:18:38.438515+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "T33 Gaming Ltd"
+    ],
+    "canonical_entities": [
+      "T33 Gaming"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A winding-up order against a named gaming company signals financial distress that may affect players, staff, and creditors in the sector.",
+    "category": "Insolvency",
+    "cluster_id": "79ee6c333a759caf",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 40,
+    "cluster_summary_for": "79ee6c333a759caf:cecdc011",
+    "theme_summary": "Seventeen gambling-linked companies have filed for liquidation, administration or winding-up between July and September 2026, spanning bookmakers, gaming studios, IT suppliers and compliance firms. The pace has been steady week-on-week, with several cases escalating from initial petition to formal order within weeks.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance faced three separate filings between 24 July and 26 August, moving from petition to full winding-up.",
+      "T33 Gaming's winding-up petition (4 September) converted to a winding-up order by 23 September, a three-week turnaround.",
+      "MGE Korea's administrators (14 September) cover a holding company tied to integrated gaming facilities, the highest-scored case at 55.",
+      "HMRC directly petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform's creditors' meeting (18 September) hits racing data supply for bookmakers."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:45db32d868af:067ec139"
   }
 ]

@@ -5048,5 +5048,31 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "506c327810878eb37a8035b02e2d521b531a914fa58f0240ec95b01f7ac12e29",
+    "source": "gazette",
+    "source_id": "5140376",
+    "source_url": "https://www.thegazette.co.uk/notice/5140376",
+    "title": "RENDERWORKS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1109931/ …",
+    "published_at": "2026-05-26T12:00:33+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Renderworks Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No evident link to the gambling sector, so limited relevance to a B2B gambling newsroom.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Renderworks",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
