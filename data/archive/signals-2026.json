@@ -5074,5 +5074,59 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "a4121b0288160ec445797ea5c8beb2bbd3725b5221777a832e3e352c5853c201",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/cyan-blue-odds-ltd--a25-1319924-cyan-blue-odds-ltd.html",
+    "title": "Cyan Blue Odds Ltd  t/a Oddschecker",
+    "raw_summary": "Upheld / Social media (own site): Two Instagram posts for an online betting platform featuring Harry Kane and Erling Haaland were likely to be of strong appeal to under-18s.",
+    "published_at": "2026-05-27T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Cyan Blue Odds Ltd",
+      "Oddschecker",
+      "Harry Kane",
+      "Erling Haaland"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "ASA ruling against Oddschecker for child-appealing footballer ads highlights ongoing scrutiny of gambling marketing and celebrity endorsement rules.",
+    "category": "advertising standards breach",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Cyan Blue Odds",
+      "Oddschecker",
+      "Harry Kane",
+      "Erling Haaland"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
+  },
+  {
+    "id": "ce185cf500c0138e7c534e2bdc1c4f28ce7ef696ac942c133a414c8c80662226",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/betway-ltd-a25-1319927-betway-ltd.html",
+    "title": "Betway Ltd t/a Betway",
+    "raw_summary": "Not Upheld / Social media (own site): An Instagram post for Betway featuring Thierry Henry wasn’t likely to be of strong appeal to under-18s.",
+    "published_at": "2026-05-27T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Betway"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Confirms Betway's celebrity-endorsed ad cleared under-18 appeal rules, offering a benchmark for compliant gambling marketing practice.",
+    "category": "ASA ruling - advertising standards",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betway"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null
   }
 ]
