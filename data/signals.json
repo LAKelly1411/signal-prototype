@@ -392,7 +392,7 @@
     "newsworthiness_score": 8,
     "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
     "category": "confirmation statement",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "William Hill Limited"
@@ -919,7 +919,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
     "category": "company winding-up",
-    "cluster_id": "a710c3c4eaac8620",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
     "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
@@ -948,7 +948,7 @@
     "newsworthiness_score": 5,
     "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
     "category": "liquidation notice",
-    "cluster_id": "a710c3c4eaac8620",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
     "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
@@ -4252,10 +4252,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4263,7 +4263,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "UK-listed operators moved through a tight July-August reporting window, with Rank's trading update, evoke's interim notice, Flutter's Q2 notice and Entain's BetMGM update all landing within two weeks of each other, culminating in Entain's interim results on 13 August.",
     "theme_key_points": [
       "Rank Group issued its full-year trading update on 14 July, the earliest disclosure in the sequence",
@@ -4290,10 +4290,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4301,7 +4301,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Major shareholding notifications have run steadily across the sector since June, with Entain filing two TR-1s and evoke producing the densest run of disclosures, including a scheme of arrangement confirmed at its August court and general meetings and a tie to Intralot's own shareholder vote in September.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 2026-08-04 and 2026-08-27, each flagging major holding changes.",
@@ -4328,10 +4328,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4339,7 +4339,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -4366,10 +4366,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4377,7 +4377,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65
+    "cluster_significance": 72
   },
   {
     "id": "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
@@ -5378,10 +5378,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5389,7 +5389,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
       "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
@@ -6799,10 +6799,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6810,7 +6810,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Major shareholding notifications have run steadily across the sector since June, with Entain filing two TR-1s and evoke producing the densest run of disclosures, including a scheme of arrangement confirmed at its August court and general meetings and a tie to Intralot's own shareholder vote in September.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 2026-08-04 and 2026-08-27, each flagging major holding changes.",
@@ -7468,10 +7468,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7479,7 +7479,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
     "theme_key_points": [
       "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
@@ -7970,10 +7970,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7981,7 +7981,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Major shareholding notifications have run steadily across the sector since June, with Entain filing two TR-1s and evoke producing the densest run of disclosures, including a scheme of arrangement confirmed at its August court and general meetings and a tie to Intralot's own shareholder vote in September.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 2026-08-04 and 2026-08-27, each flagging major holding changes.",
@@ -8567,10 +8567,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8578,7 +8578,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
+    "cluster_significance": 72,
     "theme_summary": "Major shareholding notifications have run steadily across the sector since June, with Entain filing two TR-1s and evoke producing the densest run of disclosures, including a scheme of arrangement confirmed at its August court and general meetings and a tie to Intralot's own shareholder vote in September.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 2026-08-04 and 2026-08-27, each flagging major holding changes.",
@@ -11130,15 +11130,15 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "e08465eded972e60",
+    "cluster_id": "74dba74cbcb0799b",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 65,
-    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "cluster_significance": 72,
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
     "theme_summary": "Major shareholding notifications have run steadily across the sector since June, with Entain filing two TR-1s and evoke producing the densest run of disclosures, including a scheme of arrangement confirmed at its August court and general meetings and a tie to Intralot's own shareholder vote in September.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 2026-08-04 and 2026-08-27, each flagging major holding changes.",
