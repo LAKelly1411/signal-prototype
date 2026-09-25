@@ -5152,5 +5152,29 @@
     ],
     "canonical_category": "Board and director changes",
     "theme_id": null
+  },
+  {
+    "id": "97dd3f04d9bd5f8519ac82fdae67f3c5682846b4d6c13a5829ab7d2086716af2",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9590260",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-05-28T12:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926082+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor sentiment or potential influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
   }
 ]

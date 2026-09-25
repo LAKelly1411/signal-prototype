@@ -159,15 +159,16 @@
     "canonical_entities": [],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
@@ -2442,15 +2443,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 45,
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
@@ -3805,30 +3807,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:5bfd65835dbf:067ec139"
-  },
-  {
-    "id": "97dd3f04d9bd5f8519ac82fdae67f3c5682846b4d6c13a5829ab7d2086716af2",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9590260",
-    "title": "Entain: TR1: Notification of Major Holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-05-28T12:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926082+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholdings can signal shifts in investor sentiment or potential influence over Entain's strategic direction.",
-    "category": "shareholder disclosure",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null
   },
   {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
@@ -5567,15 +5545,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
@@ -5884,15 +5863,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
@@ -5922,15 +5902,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
@@ -6008,15 +5989,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
@@ -7070,15 +7052,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
@@ -7381,15 +7364,16 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
@@ -8849,15 +8833,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
@@ -8883,15 +8868,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
@@ -10371,15 +10357,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission issued a run of penalties and settlements between late June and late August 2026, hitting operators and suppliers alike, while prosecutions over the 2024 General Election betting scandal continue to produce guilty pleas. Evolution Malta's £4.75m settlement marks the largest single case and the first to target a major B2B software supplier rather than an operator.",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
     "theme_key_points": [
-      "Evolution Malta agreed £4.75m settlement on 23 July, the largest penalty in the run and aimed at a supplier, not an operator",
-      "Individual named settlements have appeared alongside corporate ones: Maxwell and Pamela Taylor paid costs and a penalty-in-lieu on 6 August",
-      "Election betting scandal prosecutions are still generating fresh guilty pleas, with a second pair admitting offences on 10 September",
-      "From 22 July, settlement money goes to the Consolidated Fund instead of directly funding levy activity, changing enforcement financial incentives"
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:3759ef20937e:067ec139"
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
   },
   {
     "id": "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
@@ -11462,5 +11449,94 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:8180bff9f8fc:067ec139"
+  },
+  {
+    "id": "0a7257cf950362b603591fc2d81c4ad1f9eec61873f1d61b01d9115775362bba",
+    "source": "gazette",
+    "source_id": "5216275",
+    "source_url": "https://www.thegazette.co.uk/notice/5216275",
+    "title": "COVARRUBIA ENERGY UK LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1267364/ …",
+    "published_at": "2026-09-25T12:00:50+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-25T14:19:04.101268+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Covarrubia Energy UK Ltd",
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "Covarrubia Energy",
+      "HMRC"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This HMRC wind-up petition concerns an energy company with no apparent link to the gambling sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+    "source": "parliament",
+    "source_id": "1940569",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-09-10/HL3409",
+    "title": "Written question: John Healey",
+    "raw_summary": "Q: To ask His Majesty's Government whether the Gambling Commission is investigating the bets placed on the appointment of the current Chancellor of the Exchequer before his appointment, as reported in The Mail on Sunday on 26 July.\nA: The Gambling Commission is the independent regulator for gambling in Great Britain. The Government does not comment on operational matters or on any investigations which the Commission may or may not be undertaking. ",
+    "published_at": "2026-09-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-25T14:19:04.101919+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Suggests possible insider betting investigation into political appointments, raising integrity concerns for the Gambling Commission's oversight.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
+    "theme_key_points": [
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
+  },
+  {
+    "id": "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/cash4clubs-backs-grassroots-sport-as-applications-prepare-to-open",
+    "title": "Cash4Clubs backs grassroots sport as applications prepare to open",
+    "raw_summary": "",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-25T14:19:04.102066+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betting and Gaming Council",
+      "Cash4Clubs"
+    ],
+    "canonical_entities": [
+      "Betting and Gaming Council",
+      "Cash4Clubs"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A BGC-backed grassroots sports funding scheme is a minor industry CSR initiative with limited regulatory or commercial impact.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]
