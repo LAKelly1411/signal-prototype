@@ -3831,30 +3831,6 @@
     "theme_id": null
   },
   {
-    "id": "ebec9bc513135c1350e9ec54e14649cb35ab8e376fa1f4d1bafcb845c4e588d1",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/board-appointment/9589801",
-    "title": "Entain: Board Appointment",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-05-28T10:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926085+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "Leadership changes at Entain, one of the largest UK-listed gambling operators, can signal strategic direction shifts.",
-    "category": "board appointment",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Board and director changes",
-    "theme_id": null
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
