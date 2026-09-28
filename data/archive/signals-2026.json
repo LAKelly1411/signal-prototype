@@ -5176,5 +5176,154 @@
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null
+  },
+  {
+    "id": "07e17023672c50b86c2b529db5048ca62ebbbb5c6f9f5f26b8a47a77517534e9",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/suspected-illegal-gambling-den-arrests",
+    "title": "Suspected illegal gambling den arrests",
+    "raw_summary": "",
+    "published_at": "2026-05-29T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Arrests at a suspected illegal gambling den signal continued regulatory crackdown on unlicensed gambling operations in the UK.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null
+  },
+  {
+    "id": "19f821a98a5aa4398f8ba1d99d93c1d759b9abefe027b28f06b2b1ce5ccb065e",
+    "source": "gazette",
+    "source_id": "5143346",
+    "source_url": "https://www.thegazette.co.uk/notice/5143346",
+    "title": "MAB BOOKMAKERS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): MAB BOOKMAKERS LIMITED …",
+    "published_at": "2026-05-29T12:02:24+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "MAB Bookmakers Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A winding-up petition against a licensed bookmaker signals potential financial distress and possible licence or player-protection implications.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "MAB Bookmakers"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "MAB Bookmakers Limited faced a winding-up petition in May 2026 and by August had entered liquidation. The progression points to a licensed UK bookmaker exiting the market, with implications for staff, creditors and betting-shop consolidation.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "0f2d325e6abed882:cecdc011",
+    "theme_summary": "Gazette filings show a steady run of UK gambling-linked insolvencies from May to August 2026, touching bookmakers, gaming suppliers, publishers and compliance firms alike. The pace has picked up each month, with August producing the highest count of petitions and liquidations across the 21 companies tracked.",
+    "theme_key_points": [
+      "MAB Bookmakers moved from a winding-up petition on 29 May to confirmed liquidation on 7 August.",
+      "Lysis Gaming Compliance progressed from petition (24 July) to winding-up confirmation twice on 26 August.",
+      "Two licensed bookmakers failed outright: MAB Bookmakers and Deeside Bookmakers (3 July).",
+      "HMRC petitions drove failures at Crown (Inverness) on 31 July and We Are Truerlein on 9 June.",
+      "Supply-side casualties include content firm Fatcat Softworks, publishers Starbreeze Studios UK and Firestoke, and IT firm The Ctrl Pad (formerly E-Dojo Gaming)."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:ceefe01e5b0b:067ec139"
+  },
+  {
+    "id": "fb6c926af413b7aaa81caa94af3960ddff0306e498aed88cf859116b4b9379ee",
+    "source": "gazette",
+    "source_id": "5143231",
+    "source_url": "https://www.thegazette.co.uk/notice/5143231",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: KRS MORTGAGE SERVICES LIMITED Company Number: 14785198 Trading Name: Mortgage and Equity Release Advice Nature of Business: Activities of mortgage finance companies Registered office:…",
+    "published_at": "2026-05-29T01:05:35+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS Mortgage Services Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A mortgage advice firm's liquidation appears unrelated to the gambling and gaming sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "KRS Mortgage Services"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "3a6faf6fd400be8bf68862526438e14a303ac0f8dba00fed9e41f03afd739952",
+    "source": "gazette",
+    "source_id": "5143154",
+    "source_url": "https://www.thegazette.co.uk/notice/5143154",
+    "title": "KRS MORTGAGE SERVICES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address The Old Church School, Butts Hill, Frome, BA11 1HR",
+    "published_at": "2026-05-29T01:03:21+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "KRS Mortgage Services Limited"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a mortgage services company winding-up notice with no apparent connection to the gambling or gaming sector.",
+    "category": "unrelated insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "KRS Mortgage Services"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "beebe93ddbb34ebbecec2391593d7c21b4535d4beb9aa82f9140ece41885ca33",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/director-pdmr-shareholding/9592889",
+    "title": "Flutter Entertainment: Director/PDMR Shareholding",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-05-29T16:28:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926214+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine director dealing disclosure offers minor insight into insider sentiment at a major listed gambling operator.",
+    "category": "PDMR shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Flutter Entertainment moved from routine AGM and shareholding filings to announcing its LSE delisting on 12 June 2026, completing the exit on 3 August with a share cancellation notice. Elevated holdings activity through June-July preceded the final departure, ending its dual listing and shifting trading focus to the NYSE.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "cluster_summary_for": "d1dcb48e23efb8e3:cecdc011",
+    "theme_summary": "Entain has filed ten TR-1 major shareholding notifications between June 2 and August 27, an unusually dense run for a single FTSE operator, while Flutter and evoke log steadier holdings disclosures over the same period. Evoke's August 17 court and general meeting results point to a scheme of arrangement reshaping its ownership structure.",
+    "theme_key_points": [
+      "Entain filed TR-1 notifications on ten dates between June 2 and August 27, several within days of each other",
+      "Evoke's August 17 Results of Court Meeting and General Meeting scores 45, the highest in the group, signalling a scheme of arrangement",
+      "Flutter logged five Holding(s) in Company disclosures from June 2 to June 30, spaced roughly weekly",
+      "Evoke separately confirmed Total Voting Rights on August 3 and further Holdings changes on August 26"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:15ec9eb4dca7:067ec139"
   }
 ]
