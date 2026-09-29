@@ -3093,10 +3093,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
@@ -3105,7 +3105,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
@@ -3132,7 +3132,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
     "category": "share capital update",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
     "cluster_summary_for": "1735cf1018425072:cecdc011",
@@ -3140,7 +3140,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": "Corporate filing",
+    "theme_id": null,
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
@@ -3611,73 +3611,6 @@
     "theme_summary_for": "Shareholding disclosure:6085535d6030:067ec139"
   },
   {
-    "id": "426f68503587573aaea3565e8e3c84473995bc79c7567edbf95525e69c057d53",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/total-voting-rights/9593524",
-    "title": "Entain: Total Voting Rights",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-01T07:01:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926075+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Routine total voting rights disclosure helps shareholders calculate notifiable interest thresholds but carries no operational news.",
-    "category": "shareholder disclosure",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Entain's routine LSE disclosures over June-August 2026 sit alongside genuine corporate news: a phased 20% divestment of its CEE business agreed June 25, repeated board and directorate changes, an audit tender conclusion, interim results on August 13, and BetMGM's Q2 update. The steady drumbeat of TR-1 filings reflects normal shareholder register churn rather than a single narrative.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 55,
-    "cluster_summary_for": "56ad5d533f02751f:cecdc011"
-  },
-  {
-    "id": "3175b8efe1fdca64cb8961d8dc3ee1535fd7fe506d68b0c4de8a48ba44f1576e",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/issuance-of-shares/9593177",
-    "title": "Entain: Issuance of Shares",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-01T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926079+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Entain's share issuance may signal capital structure changes relevant to investors and analysts tracking the gambling sector.",
-    "category": "share issuance",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Entain's routine LSE disclosures over June-August 2026 sit alongside genuine corporate news: a phased 20% divestment of its CEE business agreed June 25, repeated board and directorate changes, an audit tender conclusion, interim results on August 13, and BetMGM's Q2 update. The steady drumbeat of TR-1 filings reflects normal shareholder register churn rather than a single narrative.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 55,
-    "cluster_summary_for": "56ad5d533f02751f:cecdc011",
-    "theme_summary": "Entain has logged near-weekly TR-1 major shareholding notifications since early June, running through August, while Flutter and evoke file similar but less frequent holding disclosures. Evoke's pattern escalates sharply in August with a court and general meeting confirming a scheme of arrangement, pointing to a corporate restructuring rather than routine trading.",
-    "theme_key_points": [
-      "Entain filed at least 12 TR-1 major holdings notifications between 2 June and 27 August 2026",
-      "Evoke's Results of Court Meeting and General Meeting on 17 August 2026 scored 45, the highest in the set, signalling a scheme of arrangement",
-      "Flutter's disclosures stay sporadic — four Holding(s) in Company filings between June and July, none in August",
-      "Evoke also disclosed a PDMR transaction on 9 June and a Total Voting Rights update on 3 August alongside its ownership filings"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:5bfd65835dbf:067ec139"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
@@ -3984,44 +3917,6 @@
     "cluster_summary_for": "16b9052745881b00:cecdc011"
   },
   {
-    "id": "65cb02b9d81771a649c5fff8f1e43714701af2e31e7b359b886fa156bc5dbfa5",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/result-of-2026-agm/9593268",
-    "title": "Flutter Entertainment: Result of 2026 AGM",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-06-01T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926211+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Routine AGM outcomes can reveal shareholder dissent or governance signals for the sector's largest operator.",
-    "category": "AGM result",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Financial results",
-    "theme_id": null,
-    "cluster_summary": "Flutter Entertainment moved from AGM and routine shareholder filings in early June to announcing intent to delist from the LSE on June 12, completing the delisting by August 3 with a corresponding share cancellation notice. Routine PDMR and voting-rights disclosures continued alongside the delisting process, culminating in Flutter's full exit from the London exchange.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "16b9052745881b00:cecdc011",
-    "theme_summary": "The reporting calendar has moved from routine AGM notices in June to substantive trading updates through July and August, with Rank's full-year trading update, two BetMGM business updates from Entain, and Entain's interim results on 13 August carrying the most weight.",
-    "theme_key_points": [
-      "Entain issued a BetMGM Q2 2026 business update on 28 July, followed by full interim results on 13 August.",
-      "Rank Group's full-year trading update landed 14 July, ahead of its formal results.",
-      "evoke (William Hill/888 owner) flagged interim results on 16 July after its 8 June AGM produced no notable dissent.",
-      "Flutter Entertainment gave notice of Q2 results on 27 July, following its June AGM outcome."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:99298cffd767:067ec139"
-  },
-  {
     "id": "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
     "source": "lse_rns",
     "source_id": null,
@@ -4037,10 +3932,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4075,10 +3970,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
     "category": "shareholder notification",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4113,10 +4008,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
     "category": "corporate filing",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4125,15 +4020,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
@@ -4151,7 +4046,7 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
     "category": "shareholder disclosure",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
     "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
@@ -4393,35 +4288,6 @@
     "theme_summary_for": "Shareholding disclosure:bced1ba0bb56:067ec139"
   },
   {
-    "id": "319425a2df2a80cc1151435328dda36a59550b9a5c89becd83cfee173375390c",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9593146",
-    "title": "evoke: Total Voting Rights",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-06-01T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926414+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Routine regulatory disclosure of share capital and voting rights, useful mainly for shareholder record-keeping rather than industry news.",
-    "category": "total voting rights notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Evoke plc's recommended all-share takeover, announced 5 June 2026, has progressed through the standard scheme-of-arrangement timetable: posting the scheme document in July, publishing it 21 July, and securing Court and General Meeting approvals by 17 August. Routine shareholder, AGM, PDMR and voting-rights filings, plus H1 results, fill out the process toward completion.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
-    "cluster_summary_for": "453f7710f2e8bbcb:cecdc011"
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -4489,15 +4355,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 52,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
@@ -5163,10 +5029,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5952,10 +5818,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -5963,7 +5829,7 @@
     "theme_id": "Board and director changes",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Rank Group and Entain have each made two rounds of board or director changes since late July, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed by the BGC. Governance turnover is running through both listed operators and the regulator itself.",
     "theme_key_points": [
       "Rank Group filed director changes on 24 July and a further board update on 13 August",
@@ -6029,10 +5895,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
@@ -6041,7 +5907,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
@@ -6585,10 +6451,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6673,15 +6539,15 @@
     "cluster_coherent": true,
     "cluster_significance": 72,
     "cluster_summary_for": "e76a1e080c89638d:cecdc011",
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
@@ -6757,10 +6623,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -6768,7 +6634,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Routine TR-1 and holding notifications continue at Entain and evoke through August 2026, but evoke's disclosures escalate beyond standard shareholding updates into corporate restructuring: a court and general meeting on 17 August confirmed a scheme of arrangement, followed by an Intralot general meeting result on 18 September tied to evoke's stake.",
     "theme_key_points": [
       "Entain filed TR-1 major holding notifications twice, on 4 August and 27 August 2026",
@@ -7254,10 +7120,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7266,15 +7132,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -7327,10 +7193,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -7338,7 +7204,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
@@ -7415,15 +7281,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 52,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
@@ -7441,10 +7307,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -7452,16 +7318,16 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "cluster_significance": 40,
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
@@ -7756,10 +7622,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8353,10 +8219,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -8391,10 +8257,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -8402,7 +8268,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 40,
     "theme_summary": "Routine TR-1 and holding notifications continue at Entain and evoke through August 2026, but evoke's disclosures escalate beyond standard shareholding updates into corporate restructuring: a court and general meeting on 17 August confirmed a scheme of arrangement, followed by an Intralot general meeting result on 18 September tied to evoke's stake.",
     "theme_key_points": [
       "Entain filed TR-1 major holding notifications twice, on 4 August and 27 August 2026",
@@ -9133,15 +8999,15 @@
     "cluster_coherent": true,
     "cluster_significance": 52,
     "cluster_summary_for": "7dace4fd2dc5ab4e:cecdc011",
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
     "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
+      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
+      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
+      "Entain concluded its audit tender on 13 August, a routine governance update",
+      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139"
+    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139"
   },
   {
     "id": "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
@@ -10372,15 +10238,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_significance": 40,
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "theme_summary": "Rank Group and Entain have each made two rounds of board or director changes since late July, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed by the BGC. Governance turnover is running through both listed operators and the regulator itself.",
     "theme_key_points": [
       "Rank Group filed director changes on 24 July and a further board update on 13 August",
@@ -10411,15 +10277,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "1735cf1018425072:cecdc011"
+    "cluster_significance": 40,
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011"
   },
   {
     "id": "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
@@ -10919,15 +10785,15 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "74dba74cbcb0799b",
+    "cluster_id": "db38579c22a9af6f",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
     "theme_summary": "Routine TR-1 and holding notifications continue at Entain and evoke through August 2026, but evoke's disclosures escalate beyond standard shareholding updates into corporate restructuring: a court and general meeting on 17 August confirmed a scheme of arrangement, followed by an Intralot general meeting result on 18 September tied to evoke's stake.",
     "theme_key_points": [
       "Entain filed TR-1 major holding notifications twice, on 4 August and 27 August 2026",
@@ -11477,15 +11343,15 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban signals resilience but highlights regulatory risk exposure for investors and operators.",
     "category": "Financial results",
-    "cluster_id": "1735cf1018425072",
+    "cluster_id": "fd2909fd790a8cc0",
     "status": "seen",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
+    "cluster_summary": "Entain runs its normal LSE reporting calendar through summer 2026: BetMGM Q2 update, interim results, an audit tender conclusion, board and shareholder notifications, and Companies House officer filings. Late September brings the one substantive item — FY26 EBITDA guidance held despite a Brazil market ban, underlining regulatory exposure even as underlying trading holds up.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "cluster_significance": 40,
+    "cluster_summary_for": "fd2909fd790a8cc0:cecdc011",
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",

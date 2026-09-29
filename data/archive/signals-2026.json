@@ -5349,5 +5349,139 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "426f68503587573aaea3565e8e3c84473995bc79c7567edbf95525e69c057d53",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/total-voting-rights/9593524",
+    "title": "Entain: Total Voting Rights",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-01T07:01:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine total voting rights disclosure helps shareholders calculate notifiable interest thresholds but carries no operational news.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain's routine LSE disclosures over June-August 2026 sit alongside genuine corporate news: a phased 20% divestment of its CEE business agreed June 25, repeated board and directorate changes, an audit tender conclusion, interim results on August 13, and BetMGM's Q2 update. The steady drumbeat of TR-1 filings reflects normal shareholder register churn rather than a single narrative.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "56ad5d533f02751f:cecdc011"
+  },
+  {
+    "id": "3175b8efe1fdca64cb8961d8dc3ee1535fd7fe506d68b0c4de8a48ba44f1576e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/issuance-of-shares/9593177",
+    "title": "Entain: Issuance of Shares",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926079+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Entain's share issuance may signal capital structure changes relevant to investors and analysts tracking the gambling sector.",
+    "category": "share issuance",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain's routine LSE disclosures over June-August 2026 sit alongside genuine corporate news: a phased 20% divestment of its CEE business agreed June 25, repeated board and directorate changes, an audit tender conclusion, interim results on August 13, and BetMGM's Q2 update. The steady drumbeat of TR-1 filings reflects normal shareholder register churn rather than a single narrative.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "56ad5d533f02751f:cecdc011",
+    "theme_summary": "Entain has logged near-weekly TR-1 major shareholding notifications since early June, running through August, while Flutter and evoke file similar but less frequent holding disclosures. Evoke's pattern escalates sharply in August with a court and general meeting confirming a scheme of arrangement, pointing to a corporate restructuring rather than routine trading.",
+    "theme_key_points": [
+      "Entain filed at least 12 TR-1 major holdings notifications between 2 June and 27 August 2026",
+      "Evoke's Results of Court Meeting and General Meeting on 17 August 2026 scored 45, the highest in the set, signalling a scheme of arrangement",
+      "Flutter's disclosures stay sporadic — four Holding(s) in Company filings between June and July, none in August",
+      "Evoke also disclosed a PDMR transaction on 9 June and a Total Voting Rights update on 3 August alongside its ownership filings"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:5bfd65835dbf:067ec139"
+  },
+  {
+    "id": "65cb02b9d81771a649c5fff8f1e43714701af2e31e7b359b886fa156bc5dbfa5",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/result-of-2026-agm/9593268",
+    "title": "Flutter Entertainment: Result of 2026 AGM",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926211+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine AGM outcomes can reveal shareholder dissent or governance signals for the sector's largest operator.",
+    "category": "AGM result",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_summary": "Flutter Entertainment moved from AGM and routine shareholder filings in early June to announcing intent to delist from the LSE on June 12, completing the delisting by August 3 with a corresponding share cancellation notice. Routine PDMR and voting-rights disclosures continued alongside the delisting process, culminating in Flutter's full exit from the London exchange.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 78,
+    "cluster_summary_for": "16b9052745881b00:cecdc011",
+    "theme_summary": "The reporting calendar has moved from routine AGM notices in June to substantive trading updates through July and August, with Rank's full-year trading update, two BetMGM business updates from Entain, and Entain's interim results on 13 August carrying the most weight.",
+    "theme_key_points": [
+      "Entain issued a BetMGM Q2 2026 business update on 28 July, followed by full interim results on 13 August.",
+      "Rank Group's full-year trading update landed 14 July, ahead of its formal results.",
+      "evoke (William Hill/888 owner) flagged interim results on 16 July after its 8 June AGM produced no notable dissent.",
+      "Flutter Entertainment gave notice of Q2 results on 27 July, following its June AGM outcome."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:99298cffd767:067ec139"
+  },
+  {
+    "id": "319425a2df2a80cc1151435328dda36a59550b9a5c89becd83cfee173375390c",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9593146",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926414+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine regulatory disclosure of share capital and voting rights, useful mainly for shareholder record-keeping rather than industry news.",
+    "category": "total voting rights notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Evoke plc's recommended all-share takeover, announced 5 June 2026, has progressed through the standard scheme-of-arrangement timetable: posting the scheme document in July, publishing it 21 July, and securing Court and General Meeting approvals by 17 August. Routine shareholder, AGM, PDMR and voting-rights filings, plus H1 results, fill out the process toward completion.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "cluster_summary_for": "453f7710f2e8bbcb:cecdc011"
   }
 ]
