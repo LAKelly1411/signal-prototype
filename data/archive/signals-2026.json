@@ -5325,5 +5325,29 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:15ec9eb4dca7:067ec139"
+  },
+  {
+    "id": "886cff0c460fd91992da7ebd61a528d042fd24e11e43f63a299391289e247b2e",
+    "source": "gazette",
+    "source_id": "5143876",
+    "source_url": "https://www.thegazette.co.uk/notice/5143876",
+    "title": "NEXTBEAT LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: NEXTBEAT LIMITED Company Number: 16049999 Nature of Business: Mobile music game publisher and developer …",
+    "published_at": "2026-06-01T01:00:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Nextbeat Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A mobile game developer's liquidation has minimal direct relevance to the UK gambling sector but may interest broader gaming-industry watchers.",
+    "category": "insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Nextbeat"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
