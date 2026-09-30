@@ -10170,15 +10170,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director appointment at Ladbrokes Coral is routine corporate housekeeping but worth tracking for governance changes at a major operator.",
     "category": "Board and director changes",
-    "cluster_id": "f88aaf54ad5a725c",
+    "cluster_id": "4ad96e975140696d",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Companies House filings show routine director appointment and termination notices at Ladbrokes Coral Group Limited on the same day. No regulatory or operational detail accompanies the changes, consistent with standard board housekeeping at Entain's UK entity.",
+    "cluster_summary": "Ladbrokes Coral Group files routine Companies House paperwork in September 2026: director appointments and terminations plus annual accounts. Nothing here points to operational, regulatory or financial disruption at the Entain-owned bookmaker.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 8,
-    "cluster_summary_for": "f88aaf54ad5a725c:cecdc011"
+    "cluster_summary_for": "4ad96e975140696d:cecdc011"
   },
   {
     "id": "257bd5ec8429d9b60755d4795778dfcd998c90cff43338a191d8109fab10770c",
@@ -10200,15 +10200,15 @@
     "newsworthiness_score": 12,
     "why_it_matters": "Routine director termination filing at Ladbrokes Coral gives minor governance visibility but no operational or regulatory impact.",
     "category": "Board and director changes",
-    "cluster_id": "f88aaf54ad5a725c",
+    "cluster_id": "4ad96e975140696d",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Companies House filings show routine director appointment and termination notices at Ladbrokes Coral Group Limited on the same day. No regulatory or operational detail accompanies the changes, consistent with standard board housekeeping at Entain's UK entity.",
+    "cluster_summary": "Ladbrokes Coral Group files routine Companies House paperwork in September 2026: director appointments and terminations plus annual accounts. Nothing here points to operational, regulatory or financial disruption at the Entain-owned bookmaker.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 8,
-    "cluster_summary_for": "f88aaf54ad5a725c:cecdc011"
+    "cluster_summary_for": "4ad96e975140696d:cecdc011"
   },
   {
     "id": "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
@@ -11538,5 +11538,65 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "f4bb9bbfadd9e9766dbc3fdcc1882eebf2fba811da4daaede81e928bf229189f",
+    "source": "companies_house",
+    "source_id": "MzU0Nzk5MTIyMGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzU0Nzk5MTIyMGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-30T14:18:38.623739+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine annual accounts filing offers limited news value but may reveal financial performance details for a major UK bookmaker.",
+    "category": "Corporate filing",
+    "cluster_id": "4ad96e975140696d",
+    "status": "seen",
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Ladbrokes Coral Group files routine Companies House paperwork in September 2026: director appointments and terminations plus annual accounts. Nothing here points to operational, regulatory or financial disruption at the Entain-owned bookmaker.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 8,
+    "cluster_summary_for": "4ad96e975140696d:cecdc011"
+  },
+  {
+    "id": "6caf9a409d6be5d17a065cb45ac3fd65a5df79be856d58902379df5f2de6a91e",
+    "source": "companies_house",
+    "source_id": "MzU0ODUwMDYxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00566221/filing-history/MzU0ODUwMDYxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Ladbrokes Coral Group Limited: Officers filed",
+    "raw_summary": "Type: TM02 · Description: Termination secretary company with name termination date",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-09-30T14:18:38.623741+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "canonical_entities": [
+      "Ladbrokes Coral Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House officer termination filing with minimal direct relevance to gambling industry news coverage.",
+    "category": "Corporate filing",
+    "cluster_id": "4ad96e975140696d",
+    "status": "seen",
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Ladbrokes Coral Group files routine Companies House paperwork in September 2026: director appointments and terminations plus annual accounts. Nothing here points to operational, regulatory or financial disruption at the Entain-owned bookmaker.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 8,
+    "cluster_summary_for": "4ad96e975140696d:cecdc011"
   }
 ]
