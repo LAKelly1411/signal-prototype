@@ -5547,5 +5547,81 @@
     "cluster_coherent": true,
     "cluster_significance": 78,
     "cluster_summary_for": "16b9052745881b00:cecdc011"
+  },
+  {
+    "id": "5af96d1624fda6f8ba8ec0c60f27957123b216bce3c6cb897dd77d75700adea4",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9597297",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-02T10:12:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926072+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A major shareholding change in Entain could signal shifting investor confidence or influence over the operator's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain's routine RNS flow over June–August 2026 mixes recurring TR-1 shareholder notifications, board and committee reshuffles, and standard corporate updates. The substantive item is the agreed 20% phased divestment of Entain CEE on 25 June, alongside BetMGM's Q2 update and interim results in August confirming ongoing US joint-venture reporting.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 35,
+    "cluster_summary_for": "a1b42ee50bf3e224:cecdc011",
+    "theme_summary": "Entain filed TR-1 major shareholding notifications at near-weekly intervals from June through late August, while evoke (William Hill's parent) built toward a scheme of arrangement confirmed by its Court and General Meeting results on 17 August. Flutter's shareholding disclosures ran on a lighter, steadier cadence over the same period.",
+    "theme_key_points": [
+      "Entain logged at least ten TR-1 notifications between 2 June and 27 August 2026, several within days of each other",
+      "evoke's 17 August Results of Court Meeting and General Meeting (score 45) is the highest-scored filing, pointing to a scheme of arrangement",
+      "evoke also filed six separate Holdings-in-Company notices between June and late August around that restructuring",
+      "Flutter's disclosures were comparatively sparse: four Holdings-in-Company notices spread from 2 June to 30 June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:6085535d6030:067ec139"
+  },
+  {
+    "id": "73fb5a95d0240557edddf20d44c8d82dd1458ec56feec64c367cbdb4e0851371",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9597071",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-02T09:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926205+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Tracks significant shareholder movements in a major UK-listed gambling operator, relevant for ownership and market-influence monitoring.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Flutter Entertainment confirmed on 12 June 2026 its intention to delist from the London Stock Exchange, completing the process on 3 August with formal share cancellation. Surrounding shareholder notifications, PDMR filings and voting-rights disclosures through June and July trace the run-up to that exit, leaving Flutter trading solely on other exchanges.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 78,
+    "cluster_summary_for": "d0436a5004b50c8d:cecdc011",
+    "theme_summary": "Entain filed TR-1 major shareholding notifications at near-weekly intervals from June through late August, while evoke (William Hill's parent) built toward a scheme of arrangement confirmed by its Court and General Meeting results on 17 August. Flutter's shareholding disclosures ran on a lighter, steadier cadence over the same period.",
+    "theme_key_points": [
+      "Entain logged at least ten TR-1 notifications between 2 June and 27 August 2026, several within days of each other",
+      "evoke's 17 August Results of Court Meeting and General Meeting (score 45) is the highest-scored filing, pointing to a scheme of arrangement",
+      "evoke also filed six separate Holdings-in-Company notices between June and late August around that restructuring",
+      "Flutter's disclosures were comparatively sparse: four Holdings-in-Company notices spread from 2 June to 30 June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:6085535d6030:067ec139"
   }
 ]
