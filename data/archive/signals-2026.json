@@ -5483,5 +5483,69 @@
     "cluster_coherent": true,
     "cluster_significance": 72,
     "cluster_summary_for": "453f7710f2e8bbcb:cecdc011"
+  },
+  {
+    "id": "98f89cad52d3302ddf9d562479a75d05164628fe7c5d412811f6455032547b55",
+    "source": "parliament",
+    "source_id": "1911146",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-02/5898",
+    "title": "Written question: Gambling: Men",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment she has made of the impact of prediction markets on young men.\nA: In order to operate in Great Britain, any prediction market would require a licence from the Gambling Commission, the independent regulator for gambling. If approved, they would be classified as a ‘Betting Intermediary’ and subject to regulation under the...",
+    "published_at": "2026-06-02T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029504+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 38,
+    "why_it_matters": "Signals government scrutiny of prediction markets' impact on young men, hinting at possible future regulatory classification under UK gambling law.",
+    "category": "prediction markets policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliament has run a steady stream of written questions on gambling policy through June and July 2026, covering crypto, AGC machine deregulation, Gambling Commission staffing and CEO vacancy. DCMS opened consultations on regulatory funding, unlicensed sports sponsorship and prize draw codes, while three new appointments — Vicky Foxcroft as gambling minister, Simon Cox at the BHA, Lisa Nandy's reappointment — reset the ministerial and industry contacts the BGC will lobby.",
+    "theme_key_points": [
+      "Three separate written questions on 14 July confirm government will delay B3/C machine stake and prize deregulation pending customer protections",
+      "Gambling Commission funding consultation closed 30 June; a day earlier it invited industry proposals to cut regulatory burdens",
+      "Repeated written questions (3 July, 14 July) probe Gambling Commission staff moving into industry consultancy roles",
+      "DCMS consultation launched 15 July on banning unlicensed gambling sponsorship in sport, welcomed by the BGC same day"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:e3586de87333:067ec139"
+  },
+  {
+    "id": "2fd1f191e368dcddf764d39a02ca66bb908aa99ae3ef98c467ede25884c9e204",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/total-voting-rights/9595672",
+    "title": "Flutter Entertainment: Total Voting Rights",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-01T16:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926208+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine total voting rights disclosure used for shareholder threshold calculations, of limited immediate editorial value.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Flutter Entertainment moved from AGM and routine shareholder filings in early June to announcing intent to delist from the LSE on June 12, completing the delisting by August 3 with a corresponding share cancellation notice. Routine PDMR and voting-rights disclosures continued alongside the delisting process, culminating in Flutter's full exit from the London exchange.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 78,
+    "cluster_summary_for": "16b9052745881b00:cecdc011"
   }
 ]
