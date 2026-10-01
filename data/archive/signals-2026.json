@@ -5623,5 +5623,38 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:6085535d6030:067ec139"
+  },
+  {
+    "id": "0db5931451424e3f050b2ba52bde55daba809344317a765f83c3810273e7654d",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/as-the-world-cup-approaches-illegal-gambling-advertising-is-booming",
+    "title": "As the World Cup approaches, illegal gambling advertising is booming",
+    "raw_summary": "",
+    "published_at": "2026-06-03T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926021+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "BGC warning about rising illegal gambling advertising ahead of the World Cup highlights ongoing black market and consumer protection concerns for regulators.",
+    "category": "illegal/black market gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "BGC escalated warnings about illegal gambling from World Cup-related black market forecasts of £200m in June to £1bn a season by August, while the Gambling Commission moved from rhetoric to raids, arrests and police-backed operations against unlicensed operators. Parliament confirmed £26m in extra Commission funding and fielded a wave of written questions on illegal betting sites, apps and payment channels.",
+    "theme_key_points": [
+      "BGC launched a five-point plan against illegal gambling on 8 June, then wrote to Big Tech on 16 June demanding platforms curb illegal sites",
+      "Government confirmed £26m funding boost for Gambling Commission enforcement on 22 June, alongside six separate written questions on World Cup-related illegal betting by 29 June",
+      "Gambling Commission enforcement turned physical: Doncaster gambling den raids (21 July), illegal casino arrests (29 July), police-backed action (10 August)",
+      "BGC's black market estimate jumped from £200m World Cup payday (12 June) to £1bn a season tied to Premier League betting by 24 August"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:d8b97262171a:067ec139"
   }
 ]
