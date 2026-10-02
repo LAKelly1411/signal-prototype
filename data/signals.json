@@ -321,39 +321,6 @@
     "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
   },
   {
-    "id": "0b5531e3e920496ca25c51abf7391379f43102fc20198ec25b38d4bd75cec04e",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/ai-powered-content-marketing-sweep-to-protect-children",
-    "title": "AI powered content marketing sweep to protect children",
-    "raw_summary": "Operators are advised that a new compliance check on content marketing is being launched.",
-    "published_at": "2026-06-04T00:00:00+00:00",
-    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Gambling Commission"
-    ],
-    "newsworthiness_score": 58,
-    "why_it_matters": "Signals a new enforcement sweep on content marketing, prompting operators and affiliates to review compliance around child protection rules.",
-    "category": "marketing compliance/child protection",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat from June to August 2026, moving from personal licence warnings and revocations to a £150,000 fine and, by late August, full licence suspensions at BresBet and Bet St George. Alongside this, the Commission reshaped its senior team and rolled out new financial risk assessment and fee rules.",
-    "theme_key_points": [
-      "Four individuals — Sason, Liang, Lubna, Galgerud — faced personal licence warnings or revocations between June and August",
-      "Holland Park Leisure fined £150,000 on 18 August; BresBet and Bet St George Ltd had licences suspended on 28 August",
-      "Court of Appeal on 30 July ended Northern & Shell/TNLC's challenge to the National Lottery licence award",
-      "Tim Miller's departure and Sarah Fox's appointment coincide with new fee proposals and phased Financial Risk Assessment rollout"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:b64619e54418:067ec139"
-  },
-  {
     "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
     "source": "companies_house",
     "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
@@ -3713,35 +3680,6 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139"
-  },
-  {
-    "id": "b295317c7a8b61bf7fa3c7bb6c91505b506fdf37d2e92679b5835e58a07467e2",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/director-pdmr-shareholding/9600345",
-    "title": "Flutter Entertainment: Director/PDMR Shareholding",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-06-03T15:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926202+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Routine director dealing disclosure with limited standalone significance unless it signals broader insider sentiment trends.",
-    "category": "PDMR shareholding notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Flutter Entertainment confirmed on 12 June its intention to delist from the London Stock Exchange, followed by a run of major shareholder notifications and voting-rights filings likely tied to index funds rebalancing ahead of the exit. The delisting completed on 3 August, ending Flutter's LSE listing entirely and leaving it trading solely in New York.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "bca2c62fa13db605:cecdc011"
   },
   {
     "id": "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
