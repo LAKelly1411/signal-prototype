@@ -5718,5 +5718,42 @@
     "cluster_coherent": true,
     "cluster_significance": 78,
     "cluster_summary_for": "bca2c62fa13db605:cecdc011"
+  },
+  {
+    "id": "5a851339c5119472d43f22d64b75eeb44b7f9182315cd7fcd484957093ac39c4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/member-appointed-to-the-horserace-betting-levy-board",
+    "title": "Member appointed to the Horserace Betting Levy Board",
+    "raw_summary": "\r\nThe Secretary of State has appointed Catherine Colloms as a Member of the Horserace Betting Levy Board for a term of 4 years.\r\n\r\n",
+    "published_at": "2026-06-04T11:00:00Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Horserace Betting Levy Board",
+      "Catherine Colloms",
+      "DCMS"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "New Levy Board member could influence horserace betting levy policy affecting bookmakers and racing funding.",
+    "category": "board appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Horserace Betting Levy Board",
+      "Catherine Colloms",
+      "DCMS"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "theme_summary": "Entain has restructured its board committees twice and made two separate directorate changes between mid-June and late July, while Rank Group followed with its own director change in July and a board update in August. DCMS also named a new Horserace Betting Levy Board member in June.",
+    "theme_key_points": [
+      "Entain filed four separate board/committee notices between 15 June and 27 July 2026",
+      "Rank Group followed with a directorate change on 24 July and a board update on 13 August",
+      "DCMS appointed a new Horserace Betting Levy Board member on 4 June, affecting levy policy input",
+      "Activity spans two FTSE-listed operators plus a government-linked levy body within a ten-week window"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:9e66a5ff750c:067ec139"
   }
 ]
