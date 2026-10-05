@@ -1,20 +1,20 @@
 {
-  "started_at": "2026-10-02T14:17:28.195240+00:00",
-  "finished_at": "2026-10-02T14:18:34.555475+00:00",
+  "started_at": "2026-10-05T06:17:27.295705+00:00",
+  "finished_at": "2026-10-05T06:18:42.698469+00:00",
   "sources": {
     "GamblingCommissionCollector": {
-      "items": 257,
+      "items": 256,
       "ok": true,
       "error": false
     },
     "CompaniesHouseCollector": {
-      "items": 28,
+      "items": 26,
       "ok": true,
       "error": false
     },
     "GazetteCollector": {
-      "items": 0,
-      "ok": false,
+      "items": 131,
+      "ok": true,
       "error": false
     },
     "DCMSCollector": {
@@ -23,7 +23,7 @@
       "error": false
     },
     "ParliamentCollector": {
-      "items": 40,
+      "items": 78,
       "ok": true,
       "error": false
     },
@@ -48,11 +48,11 @@
       "error": false
     }
   },
-  "healthy_sources": 7,
+  "healthy_sources": 8,
   "total_sources": 9,
-  "raw_items": 484,
-  "new_signals": 0,
+  "raw_items": 650,
+  "new_signals": 8,
   "unscored": 0,
-  "live_signals": 348,
-  "clusters": 28
+  "live_signals": 346,
+  "clusters": 30
 }

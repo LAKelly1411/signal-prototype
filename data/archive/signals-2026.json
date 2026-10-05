@@ -5755,5 +5755,322 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:9e66a5ff750c:067ec139"
+  },
+  {
+    "id": "9ef42c050b2ea27424757af274a98032da52448d7d8d00591611eb9741a66ab1",
+    "source": "gazette",
+    "source_id": "5147677",
+    "source_url": "https://www.thegazette.co.uk/notice/5147677",
+    "title": "PAUL SUNNUCKS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 08473219 Name of Company: PAUL SUNNUCKS LIMITED Nature of Business: Online Gambling Comparison and Support Website …",
+    "published_at": "2026-06-05T18:30:41+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Paul Sunnucks Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A small gambling comparison site entering liquidation signals affiliate-sector financial pressure, of note to industry watchers.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Paul Sunnucks"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Insolvency filings have run steadily through the Gazette since June, touching betting shops, gaming suppliers and compliance firms alike. Deeside Bookmakers and MAB Bookmakers both collapsed within a month of each other, while Lysis Gaming Compliance faced three separate winding-up filings between July and August.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited liquidation (7 August) scores highest among licensed operators at 35, signalling operator exit and consolidation risk.",
+      "Lysis Gaming Compliance Ltd hit with repeated petitions (24 July, 26 August x2), the only company recurring three times.",
+      "HMRC-driven petitions appear twice: We Are Truerlein (9 June) and Crown Inverness (31 July), pointing to tax-debt pressure.",
+      "OG Realisations 2026, trading as Outshine, filed two separate notices on 17 August scoring up to 35."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:9e6054b369ee:067ec139"
+  },
+  {
+    "id": "8abcd5127e345d9a9572021ff01337bd01c5692c814a97f819fc39d71978fca0",
+    "source": "gazette",
+    "source_id": "5145943",
+    "source_url": "https://www.thegazette.co.uk/notice/5145943",
+    "title": "JBA2025 LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1267792/ …",
+    "published_at": "2026-06-05T12:00:44+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "JBA2025 LTD",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An HMRC winding-up petition may signal financial distress, but no gambling-sector link is evident from this filing.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "JBA2025",
+      "HM Revenue & Customs"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "3bcc01f5773de580efefe9b2106c6616f019b586178d5c361321e7a77019a615",
+    "source": "gazette",
+    "source_id": "5145936",
+    "source_url": "https://www.thegazette.co.uk/notice/5145936",
+    "title": "MEX 2 U LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1250891/ …",
+    "published_at": "2026-06-05T12:00:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Mex 2 U Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An HMRC winding-up petition against this company shows no clear gambling-sector link, limiting relevance to specialist readers.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Mex 2 U",
+      "HM Revenue & Customs"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "1ca8ec884065920b74baa45039a470c333a92e7c3305a8d690a944e642ff5a9d",
+    "source": "gazette",
+    "source_id": "5147435",
+    "source_url": "https://www.thegazette.co.uk/notice/5147435",
+    "title": "/n MAZE THEORY GAMES LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
+    "published_at": "2026-06-05T12:02:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Maze Theory Games Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A minor insolvency filing for a video game studio has little direct relevance to the gambling sector.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Maze Theory Games"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Maze Theory Games Limited has filed an insolvency notice, appearing twice in gazette records dated 2026-06-05. The company is a video game studio with no evident gambling-sector connection.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 5,
+    "cluster_summary_for": "8761ce8407cc4a3a:cecdc011"
+  },
+  {
+    "id": "f71469293c00ab53da89af8c6949de99c24fca6b852653e70a033010a74621aa",
+    "source": "gazette",
+    "source_id": "5147434",
+    "source_url": "https://www.thegazette.co.uk/notice/5147434",
+    "title": "/n MAZE THEORY GAMES LIMITED",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
+    "published_at": "2026-06-05T12:02:18+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Maze Theory Games Limited"
+    ],
+    "newsworthiness_score": 12,
+    "why_it_matters": "A minor insolvency filing for a games company with no clear gambling-sector link offers limited relevance to gambling B2B readers.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Maze Theory Games"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Maze Theory Games Limited has filed an insolvency notice, appearing twice in gazette records dated 2026-06-05. The company is a video game studio with no evident gambling-sector connection.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 5,
+    "cluster_summary_for": "8761ce8407cc4a3a:cecdc011"
+  },
+  {
+    "id": "c8e305dd51ed314439925b7648314063d3ee16cfcae9f13ff4219dc82dda6875",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/325",
+    "title": "Segev Shay Sason",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2026-06-05T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923256+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Segev Shay Sason"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A formal warning against a named individual signals Gambling Commission scrutiny of personal management licence holders.",
+    "category": "personal licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Segev Shay Sason"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement escalated steadily from June through August 2026, moving from personal licence warnings and revocations to a £150,000 fine against Holland Park Leisure and, by 28 August, outright suspension of BresBet and Bet St George's licences. Northern & Shell's Court of Appeal bid over the National Lottery licence also failed, closing off its last legal route.",
+    "theme_key_points": [
+      "Four personal licence actions in ten weeks: Sason, Liang, Lubna and Galgerud all warned or revoked.",
+      "Supplier scrutiny widened 12 June with a formal warning against Spribe OÜ, affecting operators using its games.",
+      "Enforcement intensity rose sharply: warnings in June/July gave way to a £150,000 fine (18 Aug) and licence suspensions (28 Aug).",
+      "Commission leadership in flux: Tim Miller's departure (29 June) alongside Sarah Fox's appointment (29 July)."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:c21844448c95:067ec139"
+  },
+  {
+    "id": "bb91701aaef665eddae519d95a4b6b15cdbf472700f96a5902d517aa28791ac5",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/criminal-black-market-poised-to-profit-from-derby-fever",
+    "title": "Criminal black market poised to profit from derby fever",
+    "raw_summary": "",
+    "published_at": "2026-06-05T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926018+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "BGC warns unlicensed operators could exploit derby betting demand, feeding the ongoing debate over affordability checks pushing punters offshore.",
+    "category": "black market gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "The BGC ran a sustained campaign through summer 2026 warning that illegal gambling operators are capturing bettors around major sporting events, with loss estimates rising from £200m for the World Cup to £1bn a season from Premier League betting. Parliament and the Gambling Commission responded with written questions, funding confirmation and physical raids.",
+    "theme_key_points": [
+      "BGC's black market estimates escalate: £200m World Cup (Jun 12), £40m Royal Ascot (Jun 18), £1bn/season Premier League (Aug 24)",
+      "Nine parliamentary written questions on illegal gambling clustered between 22 June and 13 July, covering World Cup, internet and licensing",
+      "Government confirms £26m funding boost for Gambling Commission enforcement against illegal betting sites (22 June)",
+      "Gambling Commission moves from rhetoric to action: Doncaster den raids (21 July), casino arrests (29 July), police operation backing (10 August)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:734f35fcddf1:067ec139"
+  },
+  {
+    "id": "ed6531f26773f169fff19d614bf3f989bb6db985e7bbfd26bd949f02547bea15",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/recommended-all-share-acquisition-of-evoke-plc/9603066",
+    "title": "evoke: Recommended all-share acquisition of evoke plc",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-06-05T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926409+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke plc"
+    ],
+    "newsworthiness_score": 88,
+    "why_it_matters": "A recommended all-share acquisition of listed operator evoke plc signals major ownership change in the UK gambling sector.",
+    "category": "M&A / takeover",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Merger and acquisition",
+    "theme_id": null,
+    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 78,
+    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
+    "theme_summary": "Evoke plc's recommended all-share acquisition moved from announcement on 5 June to a published scheme document by 21 July, while Entain agreed a phased 20% divestment of its CEE business and Flutter completed its London delisting on 3 August. Ownership and listing structures across the sector are shifting within a single quarter.",
+    "theme_key_points": [
+      "Evoke plc: recommended all-share bid announced 5 June 2026, scheme document filed 21 July 2026",
+      "Entain agreed a 20% divestment of its Central and Eastern Europe business on 25 June 2026",
+      "Flutter Entertainment completed its LSE delisting on 3 August 2026, ending index inclusion in London",
+      "Three separate corporate actions land within a nine-week span across June to August 2026"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Merger and acquisition:a6ad58913c29:067ec139"
+  },
+  {
+    "id": "906088d1c0b33f8c34b7bed68819fd171f4c5d0af8ecfb6bc477f9c3e1534c14",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9602959",
+    "title": "evoke: Holding(s) in Company",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-06-04T17:55:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926411+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Tracks major shareholder movements in evoke (formerly 888/William Hill parent), relevant to ownership and control watchers.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Evoke, parent of William Hill and 888, is being taken over via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme document was published 21 July, court and general meetings approved the deal by 17 August, and shareholder and voting-rights filings track the process alongside routine AGM, PDMR and interim results disclosures.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 78,
+    "cluster_summary_for": "ad1f7543ccdce3e7:cecdc011",
+    "theme_summary": "Entain has logged ten TR-1 major shareholding notifications since early June, with seven landing in a single fortnight, while evoke's disclosures escalated to a Results of Court Meeting and General Meeting filing on 17 August signalling a scheme of arrangement. Flutter's shareholder notifications were confined to three filings in June and have since stopped.",
+    "theme_key_points": [
+      "Entain filed TR-1 notifications on eight separate dates in June alone, then slowed to one in August (4th) and one (27th)",
+      "Evoke's 17 August Court Meeting/General Meeting result points to a scheme of arrangement changing its corporate structure",
+      "Flutter's three Holding(s) in Company notices (15, 26, 30 June) were not repeated in July or August",
+      "Evoke also filed a Total Voting Rights update on 3 August, a routine capital-structure confirmation ahead of the court process"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:bced1ba0bb56:067ec139"
+  },
+  {
+    "id": "c798281b4cab89d81f98d4ab861bd8e93f42dba973154aa72c66c381ae7f0a74",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/tate-board-appointments",
+    "title": "Tate Board Appointments",
+    "raw_summary": "The Prime Minister has reappointed Kwame Kwei-Armah and extended the terms for Anya Hindmarch, Danny Rimer and Lord Ed Vaizey",
+    "published_at": "2026-06-05T11:00:06+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914934+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Kwame Kwei-Armah",
+      "Anya Hindmarch",
+      "Danny Rimer",
+      "Lord Ed Vaizey",
+      "Tate"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Arts board appointments have no bearing on UK gambling and gaming regulation or industry news.",
+    "category": "board appointments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Kwame Kwei-Armah",
+      "Anya Hindmarch",
+      "Danny Rimer",
+      "Lord Ed Vaizey",
+      "Tate"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null
   }
 ]

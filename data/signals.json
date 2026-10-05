@@ -21,7 +21,7 @@
       "Gambling Commission"
     ],
     "canonical_category": "Licence action",
-    "theme_id": "Licence action",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
     "theme_key_points": [
       "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
@@ -416,39 +416,6 @@
     "theme_summary_for": "Insolvency:742a3c32a29b:067ec139"
   },
   {
-    "id": "9ef42c050b2ea27424757af274a98032da52448d7d8d00591611eb9741a66ab1",
-    "source": "gazette",
-    "source_id": "5147677",
-    "source_url": "https://www.thegazette.co.uk/notice/5147677",
-    "title": "PAUL SUNNUCKS LIMITED",
-    "raw_summary": "Appointment of Liquidators: Company Number: 08473219 Name of Company: PAUL SUNNUCKS LIMITED Nature of Business: Online Gambling Comparison and Support Website …",
-    "published_at": "2026-06-05T18:30:41+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Paul Sunnucks Limited"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "A small gambling comparison site entering liquidation signals affiliate-sector financial pressure, of note to industry watchers.",
-    "category": "insolvency/liquidation",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Paul Sunnucks"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "theme_summary": "Insolvency filings have run steadily through the Gazette since June, touching betting shops, gaming suppliers and compliance firms alike. Deeside Bookmakers and MAB Bookmakers both collapsed within a month of each other, while Lysis Gaming Compliance faced three separate winding-up filings between July and August.",
-    "theme_key_points": [
-      "MAB Bookmakers Limited liquidation (7 August) scores highest among licensed operators at 35, signalling operator exit and consolidation risk.",
-      "Lysis Gaming Compliance Ltd hit with repeated petitions (24 July, 26 August x2), the only company recurring three times.",
-      "HMRC-driven petitions appear twice: We Are Truerlein (9 June) and Crown Inverness (31 July), pointing to tax-debt pressure.",
-      "OG Realisations 2026, trading as Outshine, filed two separate notices on 17 August scoring up to 35."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:9e6054b369ee:067ec139"
-  },
-  {
     "id": "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
     "source": "gazette",
     "source_id": "5167475",
@@ -661,58 +628,6 @@
     "canonical_entities": [
       "Vegetable Oil",
       "HMRC"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "8abcd5127e345d9a9572021ff01337bd01c5692c814a97f819fc39d71978fca0",
-    "source": "gazette",
-    "source_id": "5145943",
-    "source_url": "https://www.thegazette.co.uk/notice/5145943",
-    "title": "JBA2025 LTD",
-    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1267792/ …",
-    "published_at": "2026-06-05T12:00:44+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "JBA2025 LTD",
-      "HM Revenue & Customs"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "An HMRC winding-up petition may signal financial distress, but no gambling-sector link is evident from this filing.",
-    "category": "winding-up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "JBA2025",
-      "HM Revenue & Customs"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "3bcc01f5773de580efefe9b2106c6616f019b586178d5c361321e7a77019a615",
-    "source": "gazette",
-    "source_id": "5145936",
-    "source_url": "https://www.thegazette.co.uk/notice/5145936",
-    "title": "MEX 2 U LIMITED",
-    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1250891/ …",
-    "published_at": "2026-06-05T12:00:36+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Mex 2 U Limited",
-      "HM Revenue & Customs"
-    ],
-    "newsworthiness_score": 8,
-    "why_it_matters": "An HMRC winding-up petition against this company shows no clear gambling-sector link, limiting relevance to specialist readers.",
-    "category": "winding up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Mex 2 U",
-      "HM Revenue & Customs"
     ],
     "canonical_category": "Insolvency",
     "theme_id": null
@@ -1095,64 +1010,6 @@
     "theme_summary_for": "Insolvency:f549dcc4418b:067ec139"
   },
   {
-    "id": "1ca8ec884065920b74baa45039a470c333a92e7c3305a8d690a944e642ff5a9d",
-    "source": "gazette",
-    "source_id": "5147435",
-    "source_url": "https://www.thegazette.co.uk/notice/5147435",
-    "title": "/n MAZE THEORY GAMES LIMITED",
-    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
-    "published_at": "2026-06-05T12:02:20+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Maze Theory Games Limited"
-    ],
-    "newsworthiness_score": 12,
-    "why_it_matters": "A minor insolvency filing for a video game studio has little direct relevance to the gambling sector.",
-    "category": "insolvency notice",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Maze Theory Games"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_summary": "Maze Theory Games Limited has filed an insolvency notice, appearing twice in gazette records dated 2026-06-05. The company is a video game studio with no evident gambling-sector connection.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": false,
-    "cluster_significance": 5,
-    "cluster_summary_for": "8761ce8407cc4a3a:cecdc011"
-  },
-  {
-    "id": "f71469293c00ab53da89af8c6949de99c24fca6b852653e70a033010a74621aa",
-    "source": "gazette",
-    "source_id": "5147434",
-    "source_url": "https://www.thegazette.co.uk/notice/5147434",
-    "title": "/n MAZE THEORY GAMES LIMITED",
-    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: … RULE 22.4 OF THE INSOLVENCY (ENGLAND AND WALES) RULES 2016 – REUSE OF A PROHIBITED NAME MAZE THEORY GAMES LIMITED …",
-    "published_at": "2026-06-05T12:02:18+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Maze Theory Games Limited"
-    ],
-    "newsworthiness_score": 12,
-    "why_it_matters": "A minor insolvency filing for a games company with no clear gambling-sector link offers limited relevance to gambling B2B readers.",
-    "category": "insolvency notice",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Maze Theory Games"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_summary": "Maze Theory Games Limited has filed an insolvency notice, appearing twice in gazette records dated 2026-06-05. The company is a video game studio with no evident gambling-sector connection.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": false,
-    "cluster_significance": 5,
-    "cluster_summary_for": "8761ce8407cc4a3a:cecdc011"
-  },
-  {
     "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
     "source": "gazette",
     "source_id": "5163998",
@@ -1328,15 +1185,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 15,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
@@ -2169,15 +2027,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
@@ -2421,39 +2279,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
-  },
-  {
-    "id": "c8e305dd51ed314439925b7648314063d3ee16cfcae9f13ff4219dc82dda6875",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/325",
-    "title": "Segev Shay Sason",
-    "raw_summary": "Sanction: Warning",
-    "published_at": "2026-06-05T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.923256+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Segev Shay Sason"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "A formal warning against a named individual signals Gambling Commission scrutiny of personal management licence holders.",
-    "category": "personal licence sanction",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Segev Shay Sason"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "Gambling Commission enforcement escalated steadily from June through August 2026, moving from personal licence warnings and revocations to a £150,000 fine against Holland Park Leisure and, by 28 August, outright suspension of BresBet and Bet St George's licences. Northern & Shell's Court of Appeal bid over the National Lottery licence also failed, closing off its last legal route.",
-    "theme_key_points": [
-      "Four personal licence actions in ten weeks: Sason, Liang, Lubna and Galgerud all warned or revoked.",
-      "Supplier scrutiny widened 12 June with a formal warning against Spribe OÜ, affecting operators using its games.",
-      "Enforcement intensity rose sharply: warnings in June/July gave way to a £150,000 fine (18 Aug) and licence suspensions (28 Aug).",
-      "Commission leadership in flux: Tim Miller's departure (29 June) alongside Sarah Fox's appointment (29 July)."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:c21844448c95:067ec139"
   },
   {
     "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
@@ -2904,39 +2729,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:f7472e46e50c:067ec139"
-  },
-  {
-    "id": "bb91701aaef665eddae519d95a4b6b15cdbf472700f96a5902d517aa28791ac5",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/criminal-black-market-poised-to-profit-from-derby-fever",
-    "title": "Criminal black market poised to profit from derby fever",
-    "raw_summary": "",
-    "published_at": "2026-06-05T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926018+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "BGC warns unlicensed operators could exploit derby betting demand, feeding the ongoing debate over affordability checks pushing punters offshore.",
-    "category": "black market gambling",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Betting and Gaming Council"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "The BGC ran a sustained campaign through summer 2026 warning that illegal gambling operators are capturing bettors around major sporting events, with loss estimates rising from £200m for the World Cup to £1bn a season from Premier League betting. Parliament and the Gambling Commission responded with written questions, funding confirmation and physical raids.",
-    "theme_key_points": [
-      "BGC's black market estimates escalate: £200m World Cup (Jun 12), £40m Royal Ascot (Jun 18), £1bn/season Premier League (Aug 24)",
-      "Nine parliamentary written questions on illegal gambling clustered between 22 June and 13 July, covering World Cup, internet and licensing",
-      "Government confirms £26m funding boost for Gambling Commission enforcement against illegal betting sites (22 June)",
-      "Gambling Commission moves from rhetoric to action: Doncaster den raids (21 July), casino arrests (29 July), police operation backing (10 August)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:734f35fcddf1:067ec139"
   },
   {
     "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
@@ -3940,82 +3732,6 @@
     "theme_summary_for": "Financial results:dc5569ef15f1:067ec139"
   },
   {
-    "id": "ed6531f26773f169fff19d614bf3f989bb6db985e7bbfd26bd949f02547bea15",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/recommended-all-share-acquisition-of-evoke-plc/9603066",
-    "title": "evoke: Recommended all-share acquisition of evoke plc",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-06-05T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926409+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke plc"
-    ],
-    "newsworthiness_score": 88,
-    "why_it_matters": "A recommended all-share acquisition of listed operator evoke plc signals major ownership change in the UK gambling sector.",
-    "category": "M&A / takeover",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Merger and acquisition",
-    "theme_id": null,
-    "cluster_summary": "Evoke plc, parent of William Hill and 888, is being taken private via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme progressed through document publication, shareholder and court meeting approval by 17 August, alongside routine disclosures and interim results confirming the deal's advance toward completion.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "6b1c5b1d6af07c8c:cecdc011",
-    "theme_summary": "Evoke plc's recommended all-share acquisition moved from announcement on 5 June to a published scheme document by 21 July, while Entain agreed a phased 20% divestment of its CEE business and Flutter completed its London delisting on 3 August. Ownership and listing structures across the sector are shifting within a single quarter.",
-    "theme_key_points": [
-      "Evoke plc: recommended all-share bid announced 5 June 2026, scheme document filed 21 July 2026",
-      "Entain agreed a 20% divestment of its Central and Eastern Europe business on 25 June 2026",
-      "Flutter Entertainment completed its LSE delisting on 3 August 2026, ending index inclusion in London",
-      "Three separate corporate actions land within a nine-week span across June to August 2026"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Merger and acquisition:a6ad58913c29:067ec139"
-  },
-  {
-    "id": "906088d1c0b33f8c34b7bed68819fd171f4c5d0af8ecfb6bc477f9c3e1534c14",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9602959",
-    "title": "evoke: Holding(s) in Company",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-06-04T17:55:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926411+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Tracks major shareholder movements in evoke (formerly 888/William Hill parent), relevant to ownership and control watchers.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Evoke, parent of William Hill and 888, is being taken over via a recommended all-share scheme of arrangement announced 5 June 2026. The scheme document was published 21 July, court and general meetings approved the deal by 17 August, and shareholder and voting-rights filings track the process alongside routine AGM, PDMR and interim results disclosures.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 78,
-    "cluster_summary_for": "ad1f7543ccdce3e7:cecdc011",
-    "theme_summary": "Entain has logged ten TR-1 major shareholding notifications since early June, with seven landing in a single fortnight, while evoke's disclosures escalated to a Results of Court Meeting and General Meeting filing on 17 August signalling a scheme of arrangement. Flutter's shareholder notifications were confined to three filings in June and have since stopped.",
-    "theme_key_points": [
-      "Entain filed TR-1 notifications on eight separate dates in June alone, then slowed to one in August (4th) and one (27th)",
-      "Evoke's 17 August Court Meeting/General Meeting result points to a scheme of arrangement changing its corporate structure",
-      "Flutter's three Holding(s) in Company notices (15, 26, 30 June) were not repeated in July or August",
-      "Evoke also filed a Total Voting Rights update on 3 August, a routine capital-structure confirmation ahead of the court process"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:bced1ba0bb56:067ec139"
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -4625,38 +4341,6 @@
     "theme_id": null
   },
   {
-    "id": "c798281b4cab89d81f98d4ab861bd8e93f42dba973154aa72c66c381ae7f0a74",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/news/tate-board-appointments",
-    "title": "Tate Board Appointments",
-    "raw_summary": "The Prime Minister has reappointed Kwame Kwei-Armah and extended the terms for Anya Hindmarch, Danny Rimer and Lord Ed Vaizey",
-    "published_at": "2026-06-05T11:00:06+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914934+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Kwame Kwei-Armah",
-      "Anya Hindmarch",
-      "Danny Rimer",
-      "Lord Ed Vaizey",
-      "Tate"
-    ],
-    "newsworthiness_score": 3,
-    "why_it_matters": "Arts board appointments have no bearing on UK gambling and gaming regulation or industry news.",
-    "category": "board appointments",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Kwame Kwei-Armah",
-      "Anya Hindmarch",
-      "Danny Rimer",
-      "Lord Ed Vaizey",
-      "Tate"
-    ],
-    "canonical_category": "Board and director changes",
-    "theme_id": null
-  },
-  {
     "id": "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
     "source": "dcms",
     "source_id": null,
@@ -4833,15 +4517,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
@@ -5482,15 +5167,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
@@ -5520,15 +5206,16 @@
     "cluster_coherent": true,
     "cluster_significance": 30,
     "cluster_summary_for": "50b72ca3f3030631:cecdc011",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
@@ -5709,15 +5396,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139",
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 15
@@ -5800,15 +5487,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
@@ -5839,15 +5526,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139",
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139",
     "cluster_summary": "The Court of Appeal shuts the door on Northern & Shell/TNLC's challenge to the National Lottery licence award, cementing Allwyn's position. Weeks later the Gambling Commission's acting CEO addresses an Allwyn-hosted participant protection conference, signalling the regulator's continued engagement with the new licensee.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -6132,15 +5819,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
@@ -6406,15 +6094,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
@@ -6444,15 +6133,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
@@ -6546,15 +6236,16 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
@@ -7114,15 +6805,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
@@ -7154,15 +6845,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
@@ -7194,15 +6886,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
@@ -7408,15 +7101,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
@@ -7891,15 +7584,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
@@ -7929,15 +7623,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
@@ -8068,15 +7763,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
@@ -8571,15 +8266,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -9882,15 +9578,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
@@ -10396,15 +10093,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -10431,10 +10129,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A minor Gazette filing on a small gaming machines company may signal dissolution but has limited industry-wide relevance.",
     "category": "Corporate filing",
-    "cluster_id": null,
+    "cluster_id": "615cd328b3491de8",
     "status": "seen",
     "canonical_category": "Corporate filing",
-    "theme_id": null
+    "theme_id": null,
+    "cluster_summary": "Carnaby Gaming Machines Limited moved from an initial Gazette filing in September 2026 to formal winding-up notices on 1 October, confirming the company has entered liquidation. The filings track a single small gaming-machine supplier's collapse rather than a wider sector trend.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "615cd328b3491de8:cecdc011"
   },
   {
     "id": "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
@@ -10569,15 +10272,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "d30b48b50af32d524413606582995335519f70400e4ef999ec407f83193902cd",
@@ -10706,15 +10409,16 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
@@ -10740,15 +10444,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "791f22b323b5bcadd6eea868236fa1edb3dc4de7046beb3376cee3618928fa77",
@@ -10809,15 +10513,16 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "afbc0be7d4bddf1eee8b54913143431e385ef3d1a222a054f1b59ba8fb9ec389",
@@ -10995,15 +10700,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
     "theme_key_points": [
-      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
-      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
-      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
-      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:f585279edc04:067ec139"
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139"
   },
   {
     "id": "ee7c197195853d7f9941c2003606fe2ac15f891346fce2ce5be397108e9c078c",
@@ -11531,15 +11236,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Insolvency filings have hit UK gambling-linked companies at a rate of roughly one a week since mid-July, spanning compliance advisers, software suppliers, bookmakers and a racing data provider. Several cases have progressed through the Gazette process from petition to winding-up order within weeks, pointing to active rather than one-off distress.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
     "theme_key_points": [
-      "T33 Gaming moved from winding-up petition (4 Sept) to winding-up order (23 Sept) in under three weeks.",
-      "Lysis Gaming Compliance, a gambling compliance adviser, appeared in three separate filings between 24 July and 26 August.",
-      "MGE Korea had administrators appointed 14 September to a holding company linked to integrated gaming facilities, the largest-scale case in the group.",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meeting (18 Sept) to liquidation (1 Oct); MAB Bookmakers, a licensed operator, entered liquidation 7 August."
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:ad9ce1e1e823:067ec139"
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   },
   {
     "id": "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
@@ -11617,5 +11323,313 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:5d3959e7f62b:067ec139"
+  },
+  {
+    "id": "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+    "source": "gazette",
+    "source_id": "5222033",
+    "source_url": "https://www.thegazette.co.uk/notice/5222033",
+    "title": "MULTILINEA LEEDS LIMITED",
+    "raw_summary": "Appointment of Liquidators: …vious Name of Company: VGC Leeds Limited, Global Gaming Ventures (Leeds) Limited Nature of Business: Gambling and betting activities …",
+    "published_at": "2026-10-01T17:50:54+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076104+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multilinea Leeds Limited",
+      "VGC Leeds Limited",
+      "Global Gaming Ventures (Leeds) Limited"
+    ],
+    "canonical_entities": [
+      "Multilinea Leeds",
+      "VGC Leeds",
+      "Global Gaming Ventures"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling operator formerly known as Global Gaming Ventures (Leeds) has entered liquidation, signalling potential sector distress.",
+    "category": "Insolvency",
+    "cluster_id": "318ff7da2fdd27ce",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Multilinea Developments Limited and Multilinea Leeds Limited — the latter formerly Global Gaming Ventures (Leeds) — both entered winding-up proceedings on the same gazette date, pointing to a coordinated collapse across a related corporate group rather than isolated failures.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+  },
+  {
+    "id": "f7018b3beb321f6557a329ef2edeb6b405281103bff7cbce1ae0c551ae4a69c4",
+    "source": "gazette",
+    "source_id": "5222263",
+    "source_url": "https://www.thegazette.co.uk/notice/5222263",
+    "title": "DION PROPERTY LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1255314/ …",
+    "published_at": "2026-10-02T12:00:45+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076182+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Dion Property Limited",
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "Dion Property",
+      "HMRC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition from HMRC signals potential insolvency, relevant if the company has gambling sector links.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "690fb30d999d3bd01099364b086c30750335bfb4b0f57ffc5d434ea1a9371914",
+    "source": "gazette",
+    "source_id": "5223197",
+    "source_url": "https://www.thegazette.co.uk/notice/5223197",
+    "title": "WIZARD OF THE NORTH LTD",
+    "raw_summary": "Appointment of Liquidators: …77 Union Street, Aberdeen, Aberdeenshire, AB11 6BB Nature of Business: retail sale of card and board games , café, and event shop, …",
+    "published_at": "2026-10-02T12:40:16+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076469+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Wizard of the North Ltd"
+    ],
+    "canonical_entities": [
+      "Wizard of the North"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small Aberdeen board-game retailer entering liquidation has negligible relevance to the gambling sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+    "source": "gazette",
+    "source_id": "5222160",
+    "source_url": "https://www.thegazette.co.uk/notice/5222160",
+    "title": "CARNABY GAMING MACHINES LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 03487583 Name of Company: CARNABY GAMING MACHINES LIMITED …",
+    "published_at": "2026-10-01T17:51:08+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076473+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Carnaby Gaming Machines Limited"
+    ],
+    "canonical_entities": [
+      "Carnaby Gaming Machines"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming machine company entering liquidation signals potential financial distress in the amusement/gaming equipment supply sector.",
+    "category": "Insolvency",
+    "cluster_id": "615cd328b3491de8",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Carnaby Gaming Machines Limited moved from an initial Gazette filing in September 2026 to formal winding-up notices on 1 October, confirming the company has entered liquidation. The filings track a single small gaming-machine supplier's collapse rather than a wider sector trend.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "615cd328b3491de8:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+  },
+  {
+    "id": "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+    "source": "gazette",
+    "source_id": "5222159",
+    "source_url": "https://www.thegazette.co.uk/notice/5222159",
+    "title": "CARNABY GAMING MACHINES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: CARNABY GAMING MACHINES LIMITED …",
+    "published_at": "2026-10-01T17:51:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076477+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Carnaby Gaming Machines Limited"
+    ],
+    "canonical_entities": [
+      "Carnaby Gaming Machines"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gaming machines operator's winding-up signals potential financial distress in the gambling equipment supply sector.",
+    "category": "Insolvency",
+    "cluster_id": "615cd328b3491de8",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Carnaby Gaming Machines Limited moved from an initial Gazette filing in September 2026 to formal winding-up notices on 1 October, confirming the company has entered liquidation. The filings track a single small gaming-machine supplier's collapse rather than a wider sector trend.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "615cd328b3491de8:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+  },
+  {
+    "id": "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+    "source": "gazette",
+    "source_id": "5222032",
+    "source_url": "https://www.thegazette.co.uk/notice/5222032",
+    "title": "MULTILINEA LEEDS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: …TILINEA LEEDS LIMITED (Company Number 09098468 ) Previous Name of Company: VGC Leeds Limited, Global Gaming Ventures (Leeds) Limited …",
+    "published_at": "2026-10-01T17:50:52+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076481+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multilinea Leeds Limited",
+      "VGC Leeds Limited",
+      "Global Gaming Ventures (Leeds) Limited"
+    ],
+    "canonical_entities": [
+      "Multilinea Leeds",
+      "VGC Leeds",
+      "Global Gaming Ventures"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-linked company with gambling-sector history has entered winding-up proceedings, signalling possible financial distress in the sector.",
+    "category": "Insolvency",
+    "cluster_id": "318ff7da2fdd27ce",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Multilinea Developments Limited and Multilinea Leeds Limited — the latter formerly Global Gaming Ventures (Leeds) — both entered winding-up proceedings on the same gazette date, pointing to a coordinated collapse across a related corporate group rather than isolated failures.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+  },
+  {
+    "id": "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+    "source": "gazette",
+    "source_id": "5222017",
+    "source_url": "https://www.thegazette.co.uk/notice/5222017",
+    "title": "MULTILINEA DEVELOPMENTS LIMITED",
+    "raw_summary": "Appointment of Liquidators: … Company: MULTILINEA DEVELOPMENTS LIMITED Previous Name of Company: VGC Developments Limited, Global Gaming Ventures (Developments) Limited …",
+    "published_at": "2026-10-01T17:50:46+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076485+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multilinea Developments Limited",
+      "VGC Developments Limited",
+      "Global Gaming Ventures (Developments) Limited"
+    ],
+    "canonical_entities": [
+      "Multilinea Developments",
+      "VGC Developments",
+      "Global Gaming Ventures"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-linked development company has entered liquidation, which may signal wider financial trouble in its corporate group.",
+    "category": "Insolvency",
+    "cluster_id": "318ff7da2fdd27ce",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Multilinea Developments Limited and Multilinea Leeds Limited — the latter formerly Global Gaming Ventures (Leeds) — both entered winding-up proceedings on the same gazette date, pointing to a coordinated collapse across a related corporate group rather than isolated failures.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+  },
+  {
+    "id": "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
+    "source": "gazette",
+    "source_id": "5222016",
+    "source_url": "https://www.thegazette.co.uk/notice/5222016",
+    "title": "MULTILINEA DEVELOPMENTS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: …PMENTS LIMITED (Company Number 09055492 ) Previous Name of Company: VGC Developments Limited, Global Gaming Ventures (Developments) Limited …",
+    "published_at": "2026-10-01T17:50:44+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-05T06:18:11.076488+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Multilinea Developments Limited",
+      "VGC Developments Limited",
+      "Global Gaming Ventures (Developments) Limited"
+    ],
+    "canonical_entities": [
+      "Multilinea Developments",
+      "VGC Developments",
+      "Global Gaming Ventures"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A gaming-linked company is winding up, which may signal financial distress within its corporate group.",
+    "category": "Insolvency",
+    "cluster_id": "318ff7da2fdd27ce",
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Multilinea Developments Limited and Multilinea Leeds Limited — the latter formerly Global Gaming Ventures (Leeds) — both entered winding-up proceedings on the same gazette date, pointing to a coordinated collapse across a related corporate group rather than isolated failures.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_key_points": [
+      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
+      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
+      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
+      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
+      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
   }
 ]
