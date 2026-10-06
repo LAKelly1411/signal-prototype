@@ -6105,5 +6105,67 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:f7472e46e50c:067ec139"
+  },
+  {
+    "id": "101a1f391d3fc79916d0539ce257d6359fe039a1296d51310bebc5955c0e746e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr1-notification-of-major-holdings/9606500",
+    "title": "Entain: TR1: Notification of Major Holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-08T09:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926069+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain files a steady stream of routine RNS disclosures over June-August 2026 — repeated TR-1 shareholding notifications, board/committee changes and share capital updates — alongside two substantive corporate events: the agreed 20% phased divestment of its CEE business and BetMGM's Q2 update ahead of Entain's interim results. The bulk are standard compliance filings rather than a single narrative.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "cc6c0266ad300bf2:cecdc011",
+    "theme_summary": "Entain has filed TR-1 major-holdings notices almost weekly since early June, running alongside repeated shareholding disclosures at Flutter and evoke (William Hill's parent). Evoke's run of disclosures culminated in an August court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_key_points": [
+      "Entain logged at least 10 TR-1 notifications between 8 June and 27 August 2026, its highest-frequency filer in the group.",
+      "Evoke's 17 August 'Results of Court Meeting and General Meeting' (score 45) marks the sharpest event, tied to a scheme of arrangement.",
+      "Flutter Entertainment filed three separate 'Holding(s) in Company' notices in June alone (15th, 26th, 30th).",
+      "Evoke also disclosed a PDMR transaction and a Total Voting Rights update, pointing to wider ownership activity beyond Entain."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:2b05b7f894a0:067ec139"
+  },
+  {
+    "id": "8b0e6b0841a2166a626993b56bb49a86b904c2c2d419244b80394017f9c4838d",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/guidance/contact-the-department-for-culture-media-and-sport",
+    "title": "Contact the Department for Culture, Media and Sport",
+    "raw_summary": "How to get in touch with the Department for Culture, Media and Sport.\r\n",
+    "published_at": "2026-06-08T09:08:58+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914931+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a generic contact page with no operator, policy or enforcement content relevant to gambling journalists.",
+    "category": "generic contact page",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]

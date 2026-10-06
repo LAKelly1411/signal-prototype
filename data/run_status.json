@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-10-06T06:17:25.959078+00:00",
-  "finished_at": "2026-10-06T06:18:08.642029+00:00",
+  "started_at": "2026-10-06T10:17:29.928523+00:00",
+  "finished_at": "2026-10-06T10:18:45.670911+00:00",
   "sources": {
     "GamblingCommissionCollector": {
       "items": 256,
@@ -13,9 +13,9 @@
       "error": false
     },
     "GazetteCollector": {
-      "items": 0,
-      "ok": false,
-      "error": true
+      "items": 131,
+      "ok": true,
+      "error": false
     },
     "DCMSCollector": {
       "items": 34,
@@ -48,11 +48,11 @@
       "error": false
     }
   },
-  "healthy_sources": 7,
+  "healthy_sources": 8,
   "total_sources": 9,
-  "raw_items": 519,
-  "new_signals": 1,
+  "raw_items": 650,
+  "new_signals": 0,
   "unscored": 0,
-  "live_signals": 346,
+  "live_signals": 344,
   "clusters": 30
 }
