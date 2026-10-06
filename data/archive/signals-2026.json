@@ -6072,5 +6072,38 @@
     ],
     "canonical_category": "Board and director changes",
     "theme_id": null
+  },
+  {
+    "id": "e12fe17b34004743799b703e9d2545111c5279f6625c0b45816dbfae4065cdfc",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-launches-five-point-plan-to-stop-illegal-gambling-black-market",
+    "title": "BGC launches five-point plan to stop illegal gambling black market",
+    "raw_summary": "",
+    "published_at": "2026-06-08T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926015+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "BGC's push to curb illegal gambling could shape regulatory debate and affiliate/operator compliance expectations across the licensed market.",
+    "category": "black market policy initiative",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "BGC has run a sustained campaign against illegal gambling since June 2026, moving from a five-point plan and £200m World Cup warning to a £1bn Premier League black-market forecast by August. Parliament fielded a cluster of written questions on World Cup betting and online enforcement, while the Gambling Commission backed raids and arrests in Doncaster and beyond.",
+    "theme_key_points": [
+      "BGC escalated its figures: £40m at Royal Ascot (18 June), £200m World Cup (12 June), £1bn a season on Premier League betting (24 Aug)",
+      "Parliament logged at least eight written questions on gambling and the black market between 22 June and 13 July 2026",
+      "Government confirmed £26m in extra funding for the Gambling Commission's black-market enforcement (22 June)",
+      "Gambling Commission moved from warnings to action: Doncaster den raids (21 July), illegal casino arrests (29 July), police-backed operation (10 Aug)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:f7472e46e50c:067ec139"
   }
 ]
