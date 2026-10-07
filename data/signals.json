@@ -3118,44 +3118,6 @@
     "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
   },
   {
-    "id": "320ae8dd048774b02394618713e22f8a0f248589db5c0b9a36c384af030350d8",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9608974",
-    "title": "Entain: TR-1: Notification of major holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-09T09:30:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926066+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
-    "category": "major shareholding notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Entain's routine LSE disclosure flow over June-August 2026 covers repeated TR-1 shareholding notifications, several board/committee changes, a 20% phased divestment of its CEE business, BetMGM's Q2 update and interim results plus an audit tender conclusion. No single thread dominates; it's mostly standard corporate housekeeping alongside one real strategic move—the CEE exit.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "b188a35b36d5270f:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications at least eight times between June and August 2026, far outpacing routine disclosure at Flutter and evoke. Evoke's pattern shifted in August from standard holdings notices to a Results of Court Meeting and General Meeting confirming a scheme of arrangement.",
-    "theme_key_points": [
-      "Entain filed TR-1 notifications on 9, 10, 11, 12, 19, 23, 25 June and 4, 27 August 2026 — near-weekly cadence.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices: 15, 26, 30 June 2026.",
-      "Evoke's 17 August 2026 Results of Court Meeting and General Meeting (score 45) points to a scheme of arrangement, its highest-scoring filing in the set.",
-      "Evoke also disclosed a PDMR transaction (9 June) and Total Voting Rights update (3 August), both routine compliance filings."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:86611d734223:067ec139"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
@@ -3638,10 +3600,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Rank Group's full-year trading update offers financial performance insight into a major UK bingo and casino operator ahead of results.",
     "category": "trading update",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
@@ -3649,7 +3611,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
+    "cluster_significance": 58,
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
@@ -3677,10 +3639,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "A new CEO at a major listed casino and bingo operator could signal strategic shifts affecting UK gambling market direction.",
     "category": "leadership change",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank",
       "Richard Harris"
@@ -3689,7 +3651,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
+    "cluster_significance": 58,
     "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
     "theme_key_points": [
       "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
@@ -4522,15 +4484,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
@@ -4839,15 +4802,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
@@ -4877,15 +4841,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
@@ -4963,15 +4928,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
@@ -4989,10 +4955,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
     "category": "board/directorate change",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
@@ -5000,7 +4966,7 @@
     "theme_id": "Board and director changes",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
+    "cluster_significance": 58,
     "theme_summary": "Rank and Entain have each made two board or director changes since late July 2026, while the Gambling Commission has settled its own leadership question with Ruth Evans's appointment as Chair on 7 September, welcomed by the BGC the same day. Operator-level reshuffles are running alongside a regulator transition that follows a parliamentary question about the CEO appointments process.",
     "theme_key_points": [
       "Rank Group made board changes twice in three weeks: 24 July and 13 August 2026.",
@@ -6036,15 +6002,16 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
@@ -6348,15 +6315,16 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
@@ -6375,10 +6343,10 @@
     "newsworthiness_score": 38,
     "why_it_matters": "A new gambling minister signals potential shifts in regulatory priorities and policy direction affecting operators.",
     "category": "ministerial appointment",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "BGC",
       "Vicky Foxcroft"
@@ -6396,7 +6364,7 @@
     "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45
+    "cluster_significance": 58
   },
   {
     "id": "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
@@ -6525,10 +6493,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
     "category": "board update",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
@@ -6536,7 +6504,7 @@
     "theme_id": "Board and director changes",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
+    "cluster_significance": 58,
     "theme_summary": "Rank and Entain have each made two board or director changes since late July 2026, while the Gambling Commission has settled its own leadership question with Ruth Evans's appointment as Chair on 7 September, welcomed by the BGC the same day. Operator-level reshuffles are running alongside a regulator transition that follows a parliamentary question about the CEO appointments process.",
     "theme_key_points": [
       "Rank Group made board changes twice in three weeks: 24 July and 13 August 2026.",
@@ -6563,10 +6531,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
     "category": "accounts filing",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
@@ -6574,7 +6542,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
+    "cluster_significance": 58,
     "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
     "theme_key_points": [
       "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
@@ -7191,10 +7159,10 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine PDMR disclosure offers minor transparency on insider dealings at a major UK bookmaker but carries no operational impact.",
     "category": "director shareholding notification",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
@@ -7202,7 +7170,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45
+    "cluster_significance": 58
   },
   {
     "id": "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
@@ -7823,15 +7791,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
@@ -7857,15 +7826,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
@@ -8289,15 +8259,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual report and AGM notice from a major listed UK gambling operator, of limited standalone news value.",
     "category": "Corporate filing",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
     "theme_key_points": [
       "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
@@ -9347,15 +9317,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
@@ -10506,15 +10477,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
@@ -10769,15 +10741,16 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission ran a steady enforcement drumbeat through July to September 2026, from a £4.75m settlement with software supplier Evolution Malta to penalties against individual licence holders and smaller operators. Parallel action from the ASA against Midnite and continuing guilty pleas in the general election betting scandal show scrutiny extending beyond core licensing into advertising and political integrity.",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
-      "Evolution Malta Holding Limited agreed a £4.75m settlement on 23 July 2026, the largest sum in this run and aimed at a B2B supplier rather than an operator.",
-      "Individual licence holders remain targets: Maxwell and Pamela Taylor settled on 6 August, Anthony Francis Lane fined and warned on 15 September.",
-      "General election betting scandal enforcement continues, with two more guilty pleas reported 10 September and a written parliamentary question from John Healey on possible insider political betting.",
-      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm, adding advertising compliance to the enforcement mix."
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:5ff6c6d7e6a2:067ec139"
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
@@ -10909,15 +10882,15 @@
     "newsworthiness_score": 42,
     "why_it_matters": "The gambling minister's casino visit signals government engagement with the industry ahead of potential regulatory or tax policy decisions.",
     "category": "Policy and legislation",
-    "cluster_id": "fa5cc2e47c2e4e55",
+    "cluster_id": "f600a9055b87e368",
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO in July, then runs through a normal reporting cycle: trading update, board changes, final results and AGM notice by September. Separately, new gambling minister Vicky Foxcroft's appointment and her September visit to a Grosvenor Casino give a loose regulatory-engagement angle rather than a direct Rank story.",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 45,
-    "cluster_summary_for": "fa5cc2e47c2e4e55:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
     "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
     "theme_key_points": [
       "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
@@ -11625,7 +11598,17 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action"
+    "theme_id": "Enforcement action",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_key_points": [
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   },
   {
     "id": "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
@@ -11650,6 +11633,56 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action"
+    "theme_id": "Enforcement action",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_key_points": [
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+  },
+  {
+    "id": "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/conclusion-of-gambling-commission-settlement/9810791",
+    "title": "Rank Group: Conclusion of Gambling Commission settlement",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-10-07T08:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-07T10:18:31.526506+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Rank Group"
+    ],
+    "canonical_entities": [
+      "Rank"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A major UK operator's regulatory settlement with the Gambling Commission signals compliance risk and potential financial impact investors and regulators will track.",
+    "category": "Enforcement action",
+    "cluster_id": "f600a9055b87e368",
+    "status": "seen",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 58,
+    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_key_points": [
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
   }
 ]
