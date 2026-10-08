@@ -665,60 +665,211 @@ def inject_css() -> None:
         }
         /* White sidebar with a hairline edge; the feed's filters live here. */
         [data-testid="stSidebar"] { border-right: 1px solid #e7e7e7; }
-        /* One left edge for everything (title, fields, headings, ticks) and
-           an even rhythm: 24px above each section, 6px rows. */
-        .st-key-sb-filters { gap: 0; }
-        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stTextInput"],
-        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stMultiSelect"] { padding: 0; }
-        .st-key-sb-filters-head { justify-content: space-between; margin-bottom: 12px; }
-        .st-key-sb-filters-head button { padding: 0; min-height: 0; }
-        /* Space above each section sits on its container as padding: as a
-           margin on the heading it collapsed out of the container and pushed
-           the heading into the control below. */
-        .st-key-sb-filters [data-testid="stElementContainer"]:has(.fp-head) { padding-top: 24px; }
-        /* Streamlit gives markdown text a -16px bottom margin, which ran each
-           heading into the control below it. */
-        .st-key-sb-filters [data-testid="stMarkdownContainer"]:has(.fp-head) { margin-bottom: 0; }
-        [data-testid="stSidebar"] .fp-head {
-            margin: 0;
-            padding: 16px 0 8px 0;
-            border-top: 1px solid #e7e7e7;
+        /* ── Sidebar filters (Ren's Playground, frame 2374:1266) ─────
+           Collapsible sections with a bold 16px heading and the arrow on the
+           right; cobalt square checkboxes; a slider with its value in bold
+           above the thumb; Company / entity as a search field with the chosen
+           companies listed underneath. One left edge throughout. */
+        .st-key-sb-filters { gap: 4px; }
+        /* The title sits in the sidebar's top strip, level with the collapse
+           button (which is on the right), with Clear all beside it. Fixed
+           height, and Clear all is always there (hidden when there's nothing
+           to clear), so setting a filter never shifts the sidebar. */
+        .st-key-sb-filters-head {
+            justify-content: flex-start;
+            gap: 16px;
+            height: 32px;
+            margin-top: calc(var(--sb-head-top, 14px) - var(--sb-content-top, 76px));
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1000000;
         }
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] {
-            padding: 6px 0;
-            align-items: flex-start;
+        .st-key-sb-filters-head,
+        .st-key-sb-filters-head > * { max-height: 32px; }
+        .st-key-sb-filters-head button { padding: 0; min-height: 0; height: 32px; }
+        .st-key-sb-filters-head button:disabled { visibility: hidden; }
+        .st-key-sb-filters-head [data-testid="stMarkdownContainer"],
+        .st-key-sb-filters-head [data-testid="stMarkdown"] { margin: 0; }
+        .st-key-sb-filters-head [data-testid="stElementContainer"] { align-self: center; }
+        [data-testid="stSidebarHeader"] { pointer-events: none; }
+        [data-testid="stSidebarHeader"] button { pointer-events: auto; }
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stTextInput"] { padding: 0 0 8px 0; }
+
+        /* Sections */
+        .st-key-sb-filters [class*="st-key-sec-"] details {
+            border: none;
+            background: transparent;
         }
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] > div,
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] > div > span {
-            align-items: flex-start;
+        .st-key-sb-filters [class*="st-key-sec-"] summary {
+            padding: 8px 0 4px 0;
+            background: transparent;
         }
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] p {
-            font-size: 0.9375rem;
-            line-height: 1.35;
-            white-space: normal;
+        .st-key-sb-filters [class*="st-key-sec-"] summary:hover { background: transparent; }
+        .st-key-sb-filters [class*="st-key-sec-"] summary > span {
+            flex-direction: row-reverse;
+            justify-content: space-between;
         }
-        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stIconMaterial"] { margin-top: 1px; }
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"]:hover { background: transparent; }
-        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"]:hover p { color: var(--pa-cobalt); }
-        /* Company dropdown: square, outlined like the search field; chosen
-           companies as grey chips. */
-        .st-key-sb-filters [data-baseweb="select"] > div {
-            min-height: 40px;
-            border: 1px solid #cccccc;
-            border-radius: 0;
-            background: var(--pa-paper);
-        }
-        .st-key-sb-filters [data-baseweb="select"] > div:focus-within { border-color: var(--pa-cobalt); }
-        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"] > span > span {
-            background: #e7e7e7 !important;
-            color: var(--pa-ink) !important;
+        .st-key-sb-filters [class*="st-key-sec-"] summary p {
             font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--pa-ink);
         }
-        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"] > span > span * {
-            color: var(--pa-ink) !important;
+        .st-key-sb-filters [class*="st-key-sec-"] summary [data-testid="stIconMaterial"] {
+            font-size: 24px;
+            color: var(--pa-ink);
         }
+        .st-key-sb-filters [data-testid="stExpanderDetails"] { padding: 4px 0 12px 0; }
+        .st-key-sb-filters [data-testid="stExpanderDetails"] [data-testid="stVerticalBlock"] { gap: 4px; }
+
+        /* Checkboxes: square, outlined grey when off, cobalt when on. */
+        .st-key-sb-filters [data-testid="stCheckbox"] label {
+            align-items: center;
+            gap: 8px;
+            min-height: 28px;
+        }
+        .st-key-sb-filters [data-testid="stCheckbox"] label > div:first-of-type {
+            width: 18px;
+            height: 18px;
+            margin: 3px;
+            flex-shrink: 0;
+            border-radius: 0;
+        }
+        .st-key-sb-filters [data-testid="stCheckbox"] p,
+        .st-key-sb-filters [data-testid="stRadio"] p {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            line-height: 1.35;
+            color: var(--pa-ink);
+        }
+
+        /* Slider: value in bold ink above a 16px cobalt thumb, 0 and 100 at
+           the ends in bold at half opacity. */
+        .st-key-sb-filters [data-testid="stSlider"] [role="slider"] {
+            width: 16px;
+            height: 16px;
+        }
+        .st-key-sb-filters [data-testid="stSliderThumbValue"] p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--pa-ink);
+        }
+        .st-key-sb-filters [data-testid="stSliderTickBar"] p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--pa-ink);
+            opacity: 0.5;
+        }
+
+        /* Company / entity: a search field (the multiselect, its chips hidden)
+           and the chosen companies as logo rows with a remove button. */
+        .st-key-sb-filters [data-testid="stMultiSelect"] [data-testid="stMultiSelectTagsContainer"] > span {
+            display: none;
+        }
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"]::before {
+            content: "search";
+            font-family: "Material Symbols Rounded";
+            font-size: 22px;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.45);
+            margin-right: 6px;
+        }
+        .st-key-sb-filters [data-testid="stMultiSelect"] input {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+        }
+        [class*="st-key-co-row-"] {
+            justify-content: space-between;
+            gap: 8px;
+            padding: 6px 0 2px 0;
+        }
+        .co-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            min-width: 0;
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            color: var(--pa-ink);
+        }
+        .co-row .sc-logo { width: 20px; height: 20px; font-size: 0.5rem; }
+        .co-row .sc-logo-person svg { width: 15px; height: 15px; }
+        .co-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        [class*="st-key-co-row-"] button { padding: 0; min-height: 0; }
+        [class*="st-key-co-row-"] button,
+        [class*="st-key-co-row-"] [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.6) !important; font-size: 20px; }
+        [class*="st-key-co-row-"] button:hover,
+        [class*="st-key-co-row-"] button:hover [data-testid="stIconMaterial"] { color: var(--pa-ink) !important; }
+
+        /* ── Matching the frame's details ───────────────────────── */
+        /* Labels regular, not the sidebar's bold widget-label style. */
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stCheckbox"] label p,
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stRadio"] label p {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        /* No rule under a section heading. */
+        .st-key-sb-filters [class*="st-key-sec-"] summary,
+        .st-key-sb-filters [class*="st-key-sec-"] details[open] summary { border: none; box-shadow: none; }
+        .st-key-sb-filters [class*="st-key-sec-"] [data-testid="stExpanderDetails"] { border: none; }
+        /* A filled drop-down arrow, as in the frame, turned right when closed. */
+        .st-key-sb-filters [class*="st-key-sec-"] summary [data-testid="stIconMaterial"] { display: none; }
+        .st-key-sb-filters [class*="st-key-sec-"] summary > span::before {
+            content: "arrow_drop_down";
+            font-family: "Material Symbols Rounded";
+            font-size: 24px;
+            line-height: 1;
+            color: var(--pa-ink);
+            transition: transform var(--dur-fast) var(--ease);
+        }
+        .st-key-sb-filters [class*="st-key-sec-"] details:not([open]) summary > span::before { transform: rotate(-90deg); }
+        /* Radio rows share the checkbox rhythm. */
+        .st-key-sb-filters [data-testid="stRadio"] [role="radiogroup"] { gap: 4px; }
+        .st-key-sb-filters [data-testid="stRadio"] label { min-height: 28px; align-items: center; gap: 8px; }
+        /* Slider: full-width track, 0 and 100 always shown. */
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stSlider"] { padding-left: 0; padding-right: 0; }
+        .st-key-sb-filters [data-testid="stSliderTickBar"] { opacity: 1 !important; visibility: visible !important; }
+        /* Company field: icon inline, no drop-down arrow, 32px like the frame. */
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"] {
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 0;
+        }
+        .st-key-sb-filters [data-testid="stMultiSelect"] [role="group"] > button { display: none; }
+        /* Streamlit drops the placeholder once something is chosen; the
+           chosen companies are listed below instead, so keep the prompt. */
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"]:has(> span):not(:focus-within)::after {
+            content: "Search by company";
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.45);
+            pointer-events: none;
+        }
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"]:has(> span):not(:focus-within) input {
+            width: 0;
+            min-width: 0;
+            padding: 0;
+        }
+        .st-key-sb-filters [data-testid="stMultiSelect"] [role="group"] { min-height: 32px; }
+        /* Search icons in grey, as in the frame. */
+        .st-key-sb-filters [data-testid="stTextInputRootElement"] [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.45); }
+
+        /* The dropdown list (rendered at page level): the menu style. */
+        [data-baseweb="popover"] [role="listbox"] {
+            border-radius: 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        [data-baseweb="popover"] [role="option"] {
+            padding: 8px 12px;
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+        }
+
         /* The watchlist form, in the same plain style below a hairline. */
-        [data-testid="stSidebar"] [data-testid="stExpander"] {
+        [data-testid="stSidebar"] [data-testid="stExpander"]:not(.st-key-sb-filters *) {
             margin-top: 24px;
             padding-top: 16px;
             border-top: 1px solid #e7e7e7;
@@ -732,6 +883,7 @@ def inject_css() -> None:
             font-family: var(--pa-font-data);
             font-weight: 700;
             font-size: 1.25rem;
+            line-height: 32px;
             color: var(--pa-ink);
         }
         .st-key-sb-filters-head button p {
@@ -1220,16 +1372,20 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 SORT_RECENT = "Most recent"
 SORT_SCORE = "Highest score"
 DEFAULT_MIN_SCORE = 40
-SCORE_PRESETS = [(0, "Any score"), (40, "40+ · medium and high"), (70, "70+ · high only")]
-DATE_PRESETS = [(None, "All time"), (30, "Last 30 days"), (7, "Last 7 days")]
+DATE_PRESETS = {"All time": None, "Last 30 days": 30, "Last 7 days": 7}
 
-# Filter state, kept outside the widgets so the menus can be custom lists.
-# Sources and types store what's switched OFF, so a source or type that
-# appears later is included automatically (the old widgets needed keys built
-# from the option set to manage that).
-F_SEARCH, F_SORT = "f_search", "f_sort"
-F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES = "f_sources_off", "f_types_off", "f_companies"
-F_SCORE, F_DAYS = "f_min_score", "f_days"
+# Filter state. Sources and categories are one checkbox each, keyed by name
+# (default on), so a source or category that appears later starts ticked.
+F_SEARCH, F_SORT, F_COMPANIES = "f_search", "f_sort", "f_companies"
+F_SCORE, F_PUBLISHED = "f_min_score", "f_published"
+
+
+def _src_key(source: str) -> str:
+    return f"f_src_{source}"
+
+
+def _cat_key(category: str) -> str:
+    return f"f_cat_{category}"
 
 
 def _set_sort(option: str) -> None:
@@ -1237,28 +1393,22 @@ def _set_sort(option: str) -> None:
     st.session_state["pop-sort"] = False  # close the menu once a choice is made
 
 
-def _toggle(state_key: str, value: str) -> None:
-    current = set(st.session_state.get(state_key, []))
-    current ^= {value}
-    st.session_state[state_key] = sorted(current)
+def _remove_company(name: str) -> None:
+    st.session_state[F_COMPANIES] = [c for c in st.session_state.get(F_COMPANIES, []) if c != name]
 
 
-def _set_all(state_key: str, values: list[str]) -> None:
-    st.session_state[state_key] = list(values)
-
-
-def _set_value(state_key: str, value) -> None:
-    st.session_state[state_key] = value
-
-
-def _clear_filters() -> None:
+def _clear_filters(sources: list[str], categories: list[str]) -> None:
+    # Every widget is set back to its default value: removing a widget's key
+    # leaves its old value showing.
     state = st.session_state
-    # Widgets are set back to empty: removing their keys left the old text
-    # showing in the search box.
     state[F_SEARCH] = ""
     state[F_COMPANIES] = []
-    for key in (F_SOURCES_OFF, F_TYPES_OFF, F_SCORE, F_DAYS):
-        state.pop(key, None)
+    state[F_SCORE] = DEFAULT_MIN_SCORE
+    state[F_PUBLISHED] = "All time"
+    for s in sources:
+        state[_src_key(s)] = True
+    for c in categories:
+        state[_cat_key(c)] = True
 
 
 def _check_row(key: str, label: str, on: bool, on_click, args: tuple) -> None:
@@ -1280,11 +1430,13 @@ def _filter_options(scored: list[dict]) -> dict:
     # picking "Entain Holdings (UK) Limited" also matches signals that named
     # it "Entain".
     entity_counts = Counter(e for s in scored for e in signal_entities(s))
+    category_counts = Counter(s.get("canonical_category") or "Other" for s in scored)
     return {
-        "sources": sorted({s["source"] for s in scored}),
-        "types": sorted({s["signal_type"] for s in scored if s.get("signal_type")}),
+        "sources": sorted({s["source"] for s in scored}, key=lambda s: _source_name(s).lower()),
+        # Busiest categories first, as on the cards.
+        "categories": [c for c, _ in category_counts.most_common()],
         "entity_counts": entity_counts,
-        "entities": sorted(entity_counts, key=str.lower),
+        "entities": sorted(entity_counts, key=lambda e: (-entity_counts[e], e.lower())),
         "dates": [datetime.fromisoformat(s["published_at"]).date() for s in scored],
     }
 
@@ -1293,18 +1445,17 @@ def _criteria(opts: dict) -> dict:
     """The current filter choices, read from session state."""
     state = st.session_state
     return {
-        "sources_off": set(state.get(F_SOURCES_OFF, [])) & set(opts["sources"]),
-        "types_off": set(state.get(F_TYPES_OFF, [])) & set(opts["types"]),
+        "sources_off": {s for s in opts["sources"] if not state.get(_src_key(s), True)},
+        "categories_off": {c for c in opts["categories"] if not state.get(_cat_key(c), True)},
         "companies": [c for c in state.get(F_COMPANIES, []) if c in opts["entity_counts"]],
         "min_score": state.get(F_SCORE, DEFAULT_MIN_SCORE),
-        "days": state.get(F_DAYS),
+        "days": DATE_PRESETS.get(state.get(F_PUBLISHED, "All time")),
         "search": (state.get(F_SEARCH) or "").strip().lower(),
     }
 
 
 def _filter_signals(scored: list[dict], dates: list, crit: dict) -> list[dict]:
-    """Signals matching the criteria, in their incoming (newest-first) order.
-    Shared by the feed and the dialog's live "Show N signals" count."""
+    """Signals matching the criteria, in their incoming (newest-first) order."""
     today = datetime.now(timezone.utc).date()
     start_date = today - timedelta(days=crit["days"]) if crit["days"] is not None else None
     companies = set(crit["companies"])
@@ -1312,7 +1463,7 @@ def _filter_signals(scored: list[dict], dates: list, crit: dict) -> list[dict]:
     for signal, pub_date in zip(scored, dates):
         if signal["source"] in crit["sources_off"]:
             continue
-        if signal.get("signal_type") in crit["types_off"]:
+        if (signal.get("canonical_category") or "Other") in crit["categories_off"]:
             continue
         if signal["newsworthiness_score"] < crit["min_score"]:
             continue
@@ -1342,71 +1493,78 @@ def _source_name(s: str) -> str:
     return SOURCE_NAMES.get(s, (s.replace("_", " ").title(), ""))[0]
 
 
-def _type_name(t: str) -> str:
-    return t.replace("_", " ").capitalize()
-
-
 def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
-    """Feed filters in the sidebar (white, after the Ren's Playground menu
-    style): Search, Company (a type-to-filter dropdown), then Source, Score
-    and Date presets, and Signal type as ticked rows. Only rendered while the Feed
-    tab is open, so the sidebar never offers filters a tab ignores. Sort sits
-    above the feed itself."""
+    """Feed filters in the sidebar, after Ren's Playground frame 2374:1266:
+    collapsible sections (bold heading, drop-down arrow) of cobalt
+    checkboxes for Sources and Categories, a Minimum score slider, and a
+    Company / entity search whose chosen companies list underneath with
+    their logos and a ✕. Native widgets throughout, so every control is
+    reliable and keyboard-accessible. Only rendered beside the Feed."""
     opts = _filter_options(scored)
+    state = st.session_state
+    # Defaults go into state before the widgets render, so each widget has
+    # one source of truth (its key) and Clear all can reset it.
+    state.setdefault(F_SCORE, DEFAULT_MIN_SCORE)
+    state.setdefault(F_PUBLISHED, "All time")
+    for s in opts["sources"]:
+        state.setdefault(_src_key(s), True)
+    for c in opts["categories"]:
+        state.setdefault(_cat_key(c), True)
+    # A chosen company that has left the data would break the widget.
+    if F_COMPANIES in state:
+        state[F_COMPANIES] = [c for c in state[F_COMPANIES] if c in opts["entity_counts"]]
     crit = _criteria(opts)
     active = bool(
-        crit["search"] or crit["companies"] or crit["sources_off"] or crit["types_off"]
+        crit["search"] or crit["companies"] or crit["sources_off"] or crit["categories_off"]
         or crit["min_score"] != DEFAULT_MIN_SCORE or crit["days"] is not None
     )
 
-    # Most-mentioned first, so likely picks lead the dropdown; drop any
-    # chosen company that has left the data before the widget sees it.
-    company_options = sorted(opts["entities"], key=lambda e: (-opts["entity_counts"][e], e.lower()))
-    if F_COMPANIES in st.session_state:
-        st.session_state[F_COMPANIES] = [
-            c for c in st.session_state[F_COMPANIES] if c in opts["entity_counts"]
-        ]
+    def section(title: str, key: str):
+        return st.expander(title, expanded=True, key=key)
 
     with st.sidebar:
         with st.container(key="sb-filters-head", horizontal=True, vertical_alignment="center"):
             st.markdown('<div class="sb-title">Filters</div>', unsafe_allow_html=True)
-            if active:
-                st.button("Clear all", key="clear-filters", type="tertiary", on_click=_clear_filters)
+            # Always rendered, hidden while nothing is set: appearing would
+            # otherwise change the row and shift everything below it.
+            st.button("Clear all", key="clear-filters", type="tertiary", disabled=not active,
+                      on_click=_clear_filters, args=(opts["sources"], opts["categories"]))
         with st.container(key="sb-filters"):
             st.text_input(
-                "Search",
-                placeholder="Search signals",
-                label_visibility="collapsed",
-                icon=":material/search:",
-                key=F_SEARCH,
+                "Search", placeholder="Search signals", label_visibility="collapsed",
+                icon=":material/search:", key=F_SEARCH,
             )
-            st.markdown('<div class="fp-head">Company / Entity</div>', unsafe_allow_html=True)
-            # Native multiselect: it filters as you type, with no Enter needed.
-            st.multiselect(
-                "Company / Entity",
-                company_options,
-                key=F_COMPANIES,
-                placeholder="Any company",
-                label_visibility="collapsed",
-            )
-            st.markdown('<div class="fp-head">Source</div>', unsafe_allow_html=True)
-            for s in opts["sources"]:
-                _check_row(f"src-{s}", _source_name(s), s not in crit["sources_off"],
-                           _toggle, (F_SOURCES_OFF, s))
-            st.markdown('<div class="fp-head">Score</div>', unsafe_allow_html=True)
-            for value, label in SCORE_PRESETS:
-                _check_row(f"scr-{value}", label, value == crit["min_score"],
-                           _set_value, (F_SCORE, value))
-            st.markdown('<div class="fp-head">Published</div>', unsafe_allow_html=True)
-            for value, label in DATE_PRESETS:
-                _check_row(f"dts-{value or 'all'}", label, value == crit["days"],
-                           _set_value, (F_DAYS, value))
-            st.markdown('<div class="fp-head">Signal type</div>', unsafe_allow_html=True)
-            for t in opts["types"]:
-                _check_row(f"typ-{t}", _type_name(t), t not in crit["types_off"],
-                           _toggle, (F_TYPES_OFF, t))
+            with section("Sources", "sec-sources"):
+                for s in opts["sources"]:
+                    st.checkbox(_source_name(s), key=_src_key(s))
+            with section("Categories", "sec-categories"):
+                for c in opts["categories"]:
+                    st.checkbox(c, key=_cat_key(c))
+            with section("Minimum score", "sec-score"):
+                st.slider("Minimum score", 0, 100, key=F_SCORE, label_visibility="collapsed")
+            with section("Company / entity", "sec-company"):
+                # Native multiselect for live type-ahead and "Select N
+                # matches"; its chips are hidden and the choices are listed
+                # underneath with logos instead, as in the design.
+                st.multiselect(
+                    "Company / entity", opts["entities"], key=F_COMPANIES,
+                    placeholder="Search by company", label_visibility="collapsed",
+                )
+                for i, name in enumerate(crit["companies"]):
+                    with st.container(key=f"co-row-{i}", horizontal=True,
+                                      vertical_alignment="center"):
+                        st.markdown(
+                            f'<div class="co-row">{_company_logo(name)}'
+                            f'<span class="co-name">{html.escape(name)}</span></div>',
+                            unsafe_allow_html=True,
+                        )
+                        st.button("", key=f"co-rm-{i}", icon=":material/close:", type="tertiary",
+                                  help=f"Remove {name}", on_click=_remove_company, args=(name,))
+            with section("Published", "sec-published"):
+                st.radio("Published", list(DATE_PRESETS), key=F_PUBLISHED,
+                         label_visibility="collapsed")
 
-    sort_order = st.session_state.get(F_SORT, SORT_RECENT)
+    sort_order = state.get(F_SORT, SORT_RECENT)
     filtered = _filter_signals(scored, opts["dates"], crit)
     if sort_order == SORT_SCORE:
         filtered.sort(key=lambda s: s["newsworthiness_score"], reverse=True)
