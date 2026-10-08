@@ -46,6 +46,7 @@ companies:
     company_number: "07495895"
     aliases: ["GoCardless"]
 
+# WISE is Wise Group plc, the listed parent of Wise Payments Limited.
 tickers:
   WISE: "Wise"
   PAY: "PayPoint"
@@ -60,7 +61,7 @@ categories:
     pattern: 'consumer duty|redress|ombudsman|\bfos\b|complaint|remediation'
     before: "Enforcement action"
   - name: "Authorisation and permissions"
-    pattern: 'authoris|variation of permission|\bvop\b|e-money licen|registration|permission'
+    pattern: 'authorisation (granted|withdrawn|refused|application)|\bfca authoris|variation of permission|\bvop\b|e-money licen|\bpermissions?\b|fca register|cancel(led|lation of) (authorisation|permission)'
     before: "Enforcement action"
 
 signal_type_fallback:
@@ -81,6 +82,8 @@ sources:
     sleep_seconds: 0.6
     lookback_days: 365
   gazette:
+    # "payments" alone matches ~30k insolvency notices on boilerplate.
+    keywords: ["fintech", "e-money", "open banking"]
     results_per_term: 20
     sleep_seconds: 1.0
   dcms:

@@ -163,6 +163,7 @@ COMPANY_DOMAINS = {
     "Klarna Financial Services UK": "klarna.com",
     "Ladbrokes": "ladbrokes.com",
     "Ladbrokes Coral Group": "ladbrokes.com",
+    "Ministry of Housing, Communities and Local Government": "gov.uk",
     "Monzo": "monzo.com",
     "Monzo Bank": "monzo.com",
     "Revolut": "revolut.com",
@@ -170,7 +171,6 @@ COMPANY_DOMAINS = {
     "Starling Bank": "starlingbank.com",
     "Wise": "wise.com",
     "Wise Payments": "wise.com",
-    "Ministry of Housing, Communities and Local Government": "gov.uk",
     # Regulators and trade bodies, as named in signals; the same sites the
     # source logos were checked against.
     "Gambling Commission": "gamblingcommission.gov.uk",

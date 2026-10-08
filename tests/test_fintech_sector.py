@@ -1,5 +1,6 @@
 import re
 
+import pytest
 from src.categories import canonical_category, taxonomy
 from src.cluster import is_excluded
 from src.sectors import PROMPT_FIELDS, load_sector
@@ -40,3 +41,15 @@ def test_fintech_regulators_are_excluded_but_not_in_gambling():
     for body in ("Payment Systems Regulator", "Financial Ombudsman Service", "Bank of England"):
         assert is_excluded(body, FINTECH)
         assert not is_excluded(body)  # gambling default unchanged
+
+
+@pytest.mark.parametrize("title", [
+    "Annual report: authorised share capital",
+    "Wise annual results authorised for issue",
+    "Merger: authorised firm acquisition",
+    "Confirmation statement registration",
+    "Company registration change",
+    "Authorised director appointment",
+])
+def test_routine_items_do_not_route_to_authorisation(title):
+    assert canonical_category(title, sector=FINTECH) != "Authorisation and permissions"
