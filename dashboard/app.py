@@ -868,43 +868,6 @@ def inject_css() -> None:
             font-size: 1rem;
         }
 
-        /* The watchlist form, in the same plain style below a hairline. */
-        [data-testid="stSidebar"] [data-testid="stExpander"]:not(.st-key-sb-filters *) {
-            margin-top: 24px;
-            padding-top: 16px;
-            border-top: 1px solid #e7e7e7;
-        }
-        [data-testid="stSidebar"] [data-testid="stExpander"] details {
-            border: none;
-            background: transparent;
-        }
-        [data-testid="stSidebar"] [data-testid="stExpander"] summary { padding-left: 0; padding-right: 0; }
-        .sb-title {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-            font-size: 1.25rem;
-            line-height: 32px;
-            color: var(--pa-ink);
-        }
-        .st-key-sb-filters-head button p {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-            font-size: 0.875rem;
-            color: var(--pa-cobalt) !important;
-        }
-        .st-key-feed-filters [data-testid="stCaptionContainer"] { margin: 0; }
-        [data-testid="stSidebar"] label p {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-            font-size: 0.8125rem;
-        }
-        [data-testid="stSidebar"] h2 {
-            font-family: var(--pa-font-heading);
-            text-transform: uppercase;
-            font-size: 1.25rem;
-        }
-        [data-baseweb="tag"] { border-radius: 0 !important; }
-
         /* ── Feed filter bar (Ren's Playground, frame 2371:835) ──────
            Controls are plain (icon + "Label: **Value**") until opened, then
            #e7e7e7. Menus are white with a 0 4px 12px shadow; rows are 8x12px,
@@ -1021,6 +984,85 @@ def inject_css() -> None:
             color: var(--pa-muted);
         }
         .fp-head.fp-first { border-top: none; padding-top: 4px; }
+
+        .sb-title {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1.25rem;
+            line-height: 32px;
+            color: var(--pa-ink);
+        }
+        .st-key-sb-filters-head button p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: var(--pa-cobalt) !important;
+        }
+        .st-key-feed-filters [data-testid="stCaptionContainer"] { margin: 0; }
+        [data-testid="stSidebar"] label p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.8125rem;
+        }
+        [data-testid="stSidebar"] h2 {
+            font-family: var(--pa-font-heading);
+            text-transform: uppercase;
+            font-size: 1.25rem;
+        }
+        [data-baseweb="tag"] { border-radius: 0 !important; }
+
+        /* ── Header action: Add to watchlist ─────────────────────────
+           PA outline button (Media Briefings Button.astro "outline"): 2px ink
+           border, square, Press Sans bold; fills ink on hover. */
+        .st-key-header-actions { margin-bottom: 12px; }
+        .st-key-open-watchlist button {
+            min-height: 40px;
+            padding: 8px 16px;
+            border: 2px solid var(--pa-ink);
+            border-radius: 0;
+            background: transparent;
+            color: var(--pa-ink);
+        }
+        .st-key-open-watchlist button p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.9375rem;
+        }
+        .st-key-open-watchlist button:hover { background: var(--pa-ink); color: var(--pa-paper); }
+        .st-key-open-watchlist button:hover p,
+        .st-key-open-watchlist button:hover [data-testid="stIconMaterial"] { color: var(--pa-paper); }
+        .st-key-open-watchlist button:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+
+        /* The watchlist dialog: square, Press Sans, white fields with a #ccc
+           outline, a cobalt primary button. */
+        [data-testid="stDialog"] [role="dialog"] { border-radius: 0; }
+        [data-testid="stDialog"] [role="dialog"] h2 {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1.375rem;
+        }
+        [data-testid="stDialog"] label p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.875rem;
+        }
+        [data-testid="stDialog"] [data-testid="stTextInputRootElement"],
+        [data-testid="stDialog"] [data-testid="stTextAreaRootElement"] {
+            border: 1px solid #cccccc;
+            border-radius: 0;
+            background: var(--pa-paper);
+        }
+        [data-testid="stDialog"] [data-testid="stTextInputRootElement"]:focus-within,
+        [data-testid="stDialog"] [data-testid="stTextAreaRootElement"]:focus-within { border-color: var(--pa-cobalt); }
+        [data-testid="stDialog"] [data-testid="stFormSubmitButton"] button {
+            min-height: 44px;
+            padding: 10px 20px;
+            border-radius: 0;
+        }
+        [data-testid="stDialog"] [data-testid="stFormSubmitButton"] button p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+        }
 
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
@@ -2275,34 +2317,57 @@ def add_operator_to_watchlist(
     resp.raise_for_status()
 
 
-def render_watchlist_form() -> None:
-    with st.sidebar.expander("Add a company to the watchlist"):
-        with st.form("add_operator_form", clear_on_submit=True):
-            name = st.text_input("Company name")
-            company_number = st.text_input(
-                "Companies House number (optional)",
-                help="If you don't have this, we'll still monitor the name "
-                "for Gazette insolvency notices, but not Companies House filings.",
-            )
-            aliases = st.text_input("Aliases / trading names (comma-separated, optional)")
-            notes = st.text_area("Notes (optional)")
-            submitted = st.form_submit_button("Add to watchlist")
+def _watchlist_configured() -> bool:
+    try:
+        return bool(st.secrets.get("GITHUB_TOKEN"))
+    except Exception:
+        return False
 
-            if submitted:
-                if not name.strip():
-                    st.error("Company name is required.")
-                else:
-                    try:
-                        add_operator_to_watchlist(
-                            name.strip(), company_number.strip(), aliases, notes.strip()
-                        )
-                        st.success(
-                            f"Added {name} — it'll be picked up on the next pipeline run."
-                        )
-                    except Exception:
-                        st.error(
-                            "Couldn't save that addition — please flag it to the team."
-                        )
+
+@st.dialog("Add a company to the watchlist", width="medium")
+def _watchlist_dialog() -> None:
+    """The watchlist form, opened from the header. Adds the company to
+    config/user_watchlist.yaml via GitHub; the pipeline picks it up on its
+    next run."""
+    configured = _watchlist_configured()
+    if not configured:
+        st.info(
+            "Saving to the watchlist isn't set up here: add a GITHUB_TOKEN "
+            "with write access to the repo to Streamlit's secrets."
+        )
+    with st.form("add_operator_form", clear_on_submit=True, border=False):
+        name = st.text_input("Company name")
+        company_number = st.text_input(
+            "Companies House number (optional)",
+            help="If you don't have this, we'll still monitor the name "
+            "for Gazette insolvency notices, but not Companies House filings.",
+        )
+        aliases = st.text_input("Aliases / trading names (comma-separated, optional)")
+        notes = st.text_area("Notes (optional)")
+        submitted = st.form_submit_button(
+            "Add to watchlist", type="primary", disabled=not configured
+        )
+
+    if submitted:
+        if not name.strip():
+            st.error("Company name is required.")
+        else:
+            try:
+                add_operator_to_watchlist(
+                    name.strip(), company_number.strip(), aliases, notes.strip()
+                )
+                st.success(f"Added {name} — it'll be picked up on the next pipeline run.")
+                if st.button("Done", key="watchlist-done"):
+                    st.rerun()
+            except Exception:
+                st.error("Couldn't save that addition — please flag it to the team.")
+
+
+def _watchlist_button() -> None:
+    """Header action: opens the watchlist form. Secondary (outlined), so it
+    doesn't compete with the feed."""
+    if st.button("Add to watchlist", key="open-watchlist", icon=":material/add:"):
+        _watchlist_dialog()
 
 
 # Fragments: a card click or the quiet toggle reruns only its own tab, not
@@ -2329,6 +2394,8 @@ def main() -> None:
     with title_col:
         render_masthead()
     with status_col:
+        with st.container(key="header-actions", horizontal=True, horizontal_alignment="right"):
+            _watchlist_button()
         render_health_strip(load_run_status())
 
     signals = load_signals()
@@ -2349,7 +2416,6 @@ def main() -> None:
     if themes_tab.open:
         with themes_tab:
             _themes_fragment(signals)
-    render_watchlist_form()
 
 
 main()
