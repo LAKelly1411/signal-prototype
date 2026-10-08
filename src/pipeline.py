@@ -22,8 +22,8 @@ from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
 from src.score import (
-    CLUSTER_SUMMARY_VERSION,
-    THEME_SUMMARY_VERSION,
+    cluster_summary_version,
+    theme_summary_version,
     build_client,
     score_signal,
     summarize_cluster,
@@ -235,7 +235,7 @@ def run() -> None:
     for cluster_id, members in by_cluster.items():
         # Cache key covers both cluster membership and prompt wording, so
         # either changing invalidates it and triggers a re-summary.
-        cache_key = f"{cluster_id}:{CLUSTER_SUMMARY_VERSION}"
+        cache_key = f"{cluster_id}:{cluster_summary_version()}"
         if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
         verdict = summarize_cluster(members, client=client)
@@ -258,7 +258,7 @@ def run() -> None:
         members_hash = hashlib.sha256(
             "|".join(sorted(m["id"] for m in members)).encode("utf-8")
         ).hexdigest()[:12]
-        cache_key = f"{theme}:{members_hash}:{THEME_SUMMARY_VERSION}"
+        cache_key = f"{theme}:{members_hash}:{theme_summary_version()}"
         if any(m.get("theme_summary_for") == cache_key for m in members):
             continue
         verdict = summarize_theme(theme, members, client=client)

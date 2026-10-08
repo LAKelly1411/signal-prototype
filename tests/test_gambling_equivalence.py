@@ -18,15 +18,27 @@ BASE = json.loads(Path("tests/fixtures/gambling_baseline.json").read_text(encodi
 NOW = datetime.fromisoformat(BASE["now"])
 
 
-def test_prompts_are_identical():
-    assert score.SYSTEM_PROMPT == BASE["prompts"]["system"]
-    assert score.CLUSTER_SYSTEM_PROMPT == BASE["prompts"]["cluster"]
-    assert score.THEME_SYSTEM_PROMPT == BASE["prompts"]["theme"]
+@pytest.mark.parametrize("explicit", [False, True])
+def test_prompts_are_identical(explicit):
+    sector = load_sector("gambling") if explicit else None
+    assert score.system_prompt(sector) == BASE["prompts"]["system"]
+    assert score.cluster_prompt(sector) == BASE["prompts"]["cluster"]
+    assert score.theme_prompt(sector) == BASE["prompts"]["theme"]
 
 
 def test_summary_versions_are_identical():
-    assert score.CLUSTER_SUMMARY_VERSION == BASE["versions"]["cluster"]
-    assert score.THEME_SUMMARY_VERSION == BASE["versions"]["theme"]
+    assert score.cluster_summary_version() == BASE["versions"]["cluster"]
+    assert score.theme_summary_version() == BASE["versions"]["theme"]
+
+
+def test_other_sectors_get_their_own_wording_and_versions():
+    from src.sectors import PROMPT_FIELDS, Sector
+    fintech = Sector(slug="fintech", name="Fintech", brief="b", sources={"gazette": {}},
+                     prompt={**{f: f"<{f}>" for f in PROMPT_FIELDS},
+                             "newsroom": "B2B fintech newsroom"})
+    assert "B2B fintech newsroom" in score.system_prompt(fintech)
+    assert "gambling" not in score.system_prompt(fintech).lower()
+    assert score.cluster_summary_version(fintech) != score.cluster_summary_version()
 
 
 def test_taxonomy_is_identical():

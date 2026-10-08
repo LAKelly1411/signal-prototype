@@ -66,13 +66,13 @@ def main() -> None:
 
     baseline = {
         "prompts": {
-            "system": score.SYSTEM_PROMPT,
-            "cluster": score.CLUSTER_SYSTEM_PROMPT,
-            "theme": score.THEME_SYSTEM_PROMPT,
+            "system": score.system_prompt(),
+            "cluster": score.cluster_prompt(),
+            "theme": score.theme_prompt(),
         },
         "versions": {
-            "cluster": score.CLUSTER_SUMMARY_VERSION,
-            "theme": score.THEME_SUMMARY_VERSION,
+            "cluster": score.cluster_summary_version(),
+            "theme": score.theme_summary_version(),
         },
         "taxonomy": categories.taxonomy(),
         "category_inputs": category_inputs,
