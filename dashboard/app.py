@@ -1,5 +1,4 @@
 import base64
-import hashlib
 import html
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -666,11 +665,69 @@ def inject_css() -> None:
         }
         /* White sidebar with a hairline edge; the feed's filters live here. */
         [data-testid="stSidebar"] { border-right: 1px solid #e7e7e7; }
-        [data-testid="stSidebar"] button[kind="tertiary"],
-        [data-testid="stSidebar"] [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]) { padding: 6px 12px; }
+        /* One left edge for everything (title, fields, headings, ticks) and
+           an even rhythm: 24px above each section, 6px rows. */
         .st-key-sb-filters { gap: 0; }
-        .st-key-sb-filters [data-testid="stTextInput"] { padding: 0 0 8px 0; }
-        .st-key-sb-filters-head { justify-content: space-between; margin-bottom: 8px; }
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stTextInput"],
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stMultiSelect"] { padding: 0; }
+        .st-key-sb-filters-head { justify-content: space-between; margin-bottom: 12px; }
+        .st-key-sb-filters-head button { padding: 0; min-height: 0; }
+        /* Space above each section sits on its container as padding: as a
+           margin on the heading it collapsed out of the container and pushed
+           the heading into the control below. */
+        .st-key-sb-filters [data-testid="stElementContainer"]:has(.fp-head) { padding-top: 24px; }
+        /* Streamlit gives markdown text a -16px bottom margin, which ran each
+           heading into the control below it. */
+        .st-key-sb-filters [data-testid="stMarkdownContainer"]:has(.fp-head) { margin-bottom: 0; }
+        [data-testid="stSidebar"] .fp-head {
+            margin: 0;
+            padding: 16px 0 8px 0;
+            border-top: 1px solid #e7e7e7;
+        }
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] {
+            padding: 6px 0;
+            align-items: flex-start;
+        }
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] > div,
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] > div > span {
+            align-items: flex-start;
+        }
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"] p {
+            font-size: 0.9375rem;
+            line-height: 1.35;
+            white-space: normal;
+        }
+        [data-testid="stSidebar"] .st-key-sb-filters [data-testid="stIconMaterial"] { margin-top: 1px; }
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"]:hover { background: transparent; }
+        [data-testid="stSidebar"] .st-key-sb-filters button[kind="tertiary"]:hover p { color: var(--pa-cobalt); }
+        /* Company dropdown: square, outlined like the search field; chosen
+           companies as grey chips. */
+        .st-key-sb-filters [data-baseweb="select"] > div {
+            min-height: 40px;
+            border: 1px solid #cccccc;
+            border-radius: 0;
+            background: var(--pa-paper);
+        }
+        .st-key-sb-filters [data-baseweb="select"] > div:focus-within { border-color: var(--pa-cobalt); }
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"] > span > span {
+            background: #e7e7e7 !important;
+            color: var(--pa-ink) !important;
+            font-family: var(--pa-font-data);
+        }
+        .st-key-sb-filters [data-testid="stMultiSelectTagsContainer"] > span > span * {
+            color: var(--pa-ink) !important;
+        }
+        /* The watchlist form, in the same plain style below a hairline. */
+        [data-testid="stSidebar"] [data-testid="stExpander"] {
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid #e7e7e7;
+        }
+        [data-testid="stSidebar"] [data-testid="stExpander"] details {
+            border: none;
+            background: transparent;
+        }
+        [data-testid="stSidebar"] [data-testid="stExpander"] summary { padding-left: 0; padding-right: 0; }
         .sb-title {
             font-family: var(--pa-font-data);
             font-weight: 700;
@@ -812,43 +869,6 @@ def inject_css() -> None:
             color: var(--pa-muted);
         }
         .fp-head.fp-first { border-top: none; padding-top: 4px; }
-
-        /* Company picker rows: logo + name, a tick when chosen; the whole row
-           is an invisible button, as on the pattern cards. */
-        [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]) {
-            position: relative;
-            padding: 8px 12px;
-            cursor: pointer;
-        }
-        [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]):hover { background: var(--pa-surface); }
-        /* Streamlit pulls markdown blocks up with a negative margin, which
-           collapsed these rows to 26px. */
-        [class*="st-key-pick-"] [data-testid="stElementContainer"],
-        [class*="st-key-pick-"] [data-testid="stMarkdown"],
-        [class*="st-key-pick-"] [data-testid="stMarkdownContainer"] { margin: 0; }
-        .pick-row {
-            min-height: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-family: var(--pa-font-data);
-            font-size: 1rem;
-            color: var(--pa-ink);
-        }
-        .pick-row .sc-logo { width: 20px; height: 20px; font-size: 0.5rem; }
-        .pick-row .sc-logo-person svg { width: 15px; height: 15px; }
-        .pick-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .pick-check { color: var(--pa-cobalt); font-weight: 700; visibility: hidden; }
-        [class*="st-key-pick-"][class*="-on"] .pick-check { visibility: visible; }
-        [class*="st-key-pick-btn-"] {
-            position: absolute;
-            inset: 0;
-            margin: 0;
-            z-index: 2;
-        }
-        [class*="st-key-pick-btn-"] [data-testid="stButton"],
-        [class*="st-key-pick-btn-"] [data-testid="stButton"] > *,
-        [class*="st-key-pick-btn-"] button { width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
@@ -1200,8 +1220,7 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 SORT_RECENT = "Most recent"
 SORT_SCORE = "Highest score"
 DEFAULT_MIN_SCORE = 40
-COMPANY_ROWS = 5  # matches listed in the company picker before "refine search"
-SCORE_PRESETS = [(0, "All scores"), (40, "40+ · medium and high"), (70, "70+ · high only")]
+SCORE_PRESETS = [(0, "Any score"), (40, "40+ · medium and high"), (70, "70+ · high only")]
 DATE_PRESETS = [(None, "All time"), (30, "Last 30 days"), (7, "Last 7 days")]
 
 # Filter state, kept outside the widgets so the menus can be custom lists.
@@ -1210,7 +1229,7 @@ DATE_PRESETS = [(None, "All time"), (30, "Last 30 days"), (7, "Last 7 days")]
 # from the option set to manage that).
 F_SEARCH, F_SORT = "f_search", "f_sort"
 F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES = "f_sources_off", "f_types_off", "f_companies"
-F_SCORE, F_COMPANY_QUERY, F_DAYS = "f_min_score", "f_company_query", "f_days"
+F_SCORE, F_DAYS = "f_min_score", "f_days"
 
 
 def _set_sort(option: str) -> None:
@@ -1232,18 +1251,14 @@ def _set_value(state_key: str, value) -> None:
     st.session_state[state_key] = value
 
 
-def _add_companies(names: list[str]) -> None:
-    current = set(st.session_state.get(F_COMPANIES, []))
-    st.session_state[F_COMPANIES] = sorted(current | set(names), key=str.lower)
-
-
-def _clear_filters(keys: list[str]) -> None:
-    for key in keys:
-        st.session_state.pop(key, None)
-
-
-def _slug(text: str) -> str:
-    return hashlib.md5(text.encode("utf-8")).hexdigest()[:10]
+def _clear_filters() -> None:
+    state = st.session_state
+    # Widgets are set back to empty: removing their keys left the old text
+    # showing in the search box.
+    state[F_SEARCH] = ""
+    state[F_COMPANIES] = []
+    for key in (F_SOURCES_OFF, F_TYPES_OFF, F_SCORE, F_DAYS):
+        state.pop(key, None)
 
 
 def _check_row(key: str, label: str, on: bool, on_click, args: tuple) -> None:
@@ -1257,63 +1272,6 @@ def _check_row(key: str, label: str, on: bool, on_click, args: tuple) -> None:
         on_click=on_click,
         args=args,
     )
-
-
-def _company_picker(all_entities: list[str], counts: Counter) -> None:
-    """Search, 'Select N matches', then matching companies with their logos.
-    Each row is HTML (a logo can't go in a button label) with an invisible
-    button stretched over it, as on the pattern cards."""
-    selected = set(st.session_state.get(F_COMPANIES, []))
-    query = st.text_input(
-        "Find a company",
-        key=F_COMPANY_QUERY,
-        placeholder="Search companies",
-        label_visibility="collapsed",
-        icon=":material/search:",
-    ).strip().lower()
-    # Most-mentioned first, so the company you probably mean leads the list.
-    matches = sorted(
-        (e for e in all_entities if query in e.lower()), key=lambda e: (-counts[e], e.lower())
-    ) if query else []
-    pool = matches if query else sorted(all_entities, key=lambda e: -counts[e])
-    if query and matches:
-        st.button(
-            f"Select **{len(matches)}** {'match' if len(matches) == 1 else 'matches'}",
-            key="co-select-matches",
-            type="tertiary",
-            on_click=_add_companies,
-            args=(matches,),
-        )
-    if selected:
-        st.button(
-            f"Clear **{len(selected)}** selected",
-            key="co-clear",
-            type="tertiary",
-            on_click=_set_all,
-            args=(F_COMPANIES, []),
-        )
-    # Chosen companies first, so they stay in reach while browsing.
-    rows = sorted(pool[: COMPANY_ROWS * 4], key=lambda e: (e not in selected,))[:COMPANY_ROWS]
-    if query and not matches:
-        st.caption("No companies match.")
-    for name in rows:
-        on = name in selected
-        with st.container(key=f"pick-{_slug(name)}-{'on' if on else 'off'}"):
-            st.markdown(
-                f'<div class="pick-row">{_company_logo(name)}'
-                f'<span class="pick-name">{html.escape(name)}</span>'
-                f'<span class="pick-check" aria-hidden="true">✓</span></div>',
-                unsafe_allow_html=True,
-            )
-            st.button(
-                f"{'Remove' if on else 'Add'} {name}",
-                key=f"pick-btn-{_slug(name)}",
-                width="stretch",
-                on_click=_toggle,
-                args=(F_COMPANIES, name),
-            )
-    if len(pool) > COMPANY_ROWS:
-        st.caption(f"{len(pool) - COMPANY_ROWS} more — type to narrow the list.")
 
 
 def _filter_options(scored: list[dict]) -> dict:
@@ -1390,8 +1348,8 @@ def _type_name(t: str) -> str:
 
 def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     """Feed filters in the sidebar (white, after the Ren's Playground menu
-    style): Search, then Company (searchable, with logos), Source, Score and
-    Date presets, and Signal type as ticked rows. Only rendered while the Feed
+    style): Search, Company (a type-to-filter dropdown), then Source, Score
+    and Date presets, and Signal type as ticked rows. Only rendered while the Feed
     tab is open, so the sidebar never offers filters a tab ignores. Sort sits
     above the feed itself."""
     opts = _filter_options(scored)
@@ -1401,26 +1359,36 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
         or crit["min_score"] != DEFAULT_MIN_SCORE or crit["days"] is not None
     )
 
+    # Most-mentioned first, so likely picks lead the dropdown; drop any
+    # chosen company that has left the data before the widget sees it.
+    company_options = sorted(opts["entities"], key=lambda e: (-opts["entity_counts"][e], e.lower()))
+    if F_COMPANIES in st.session_state:
+        st.session_state[F_COMPANIES] = [
+            c for c in st.session_state[F_COMPANIES] if c in opts["entity_counts"]
+        ]
+
     with st.sidebar:
         with st.container(key="sb-filters-head", horizontal=True, vertical_alignment="center"):
             st.markdown('<div class="sb-title">Filters</div>', unsafe_allow_html=True)
             if active:
-                st.button(
-                    "Clear all", key="clear-filters", type="tertiary",
-                    on_click=_clear_filters,
-                    args=([F_SEARCH, F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES, F_SCORE,
-                           F_DAYS, F_COMPANY_QUERY],),
-                )
+                st.button("Clear all", key="clear-filters", type="tertiary", on_click=_clear_filters)
         with st.container(key="sb-filters"):
             st.text_input(
                 "Search",
-                placeholder="Search",
+                placeholder="Search signals",
                 label_visibility="collapsed",
                 icon=":material/search:",
                 key=F_SEARCH,
             )
             st.markdown('<div class="fp-head">Company / Entity</div>', unsafe_allow_html=True)
-            _company_picker(opts["entities"], opts["entity_counts"])
+            # Native multiselect: it filters as you type, with no Enter needed.
+            st.multiselect(
+                "Company / Entity",
+                company_options,
+                key=F_COMPANIES,
+                placeholder="Any company",
+                label_visibility="collapsed",
+            )
             st.markdown('<div class="fp-head">Source</div>', unsafe_allow_html=True)
             for s in opts["sources"]:
                 _check_row(f"src-{s}", _source_name(s), s not in crit["sources_off"],
