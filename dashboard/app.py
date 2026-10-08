@@ -8,6 +8,14 @@ import requests
 import streamlit as st
 import yaml
 
+from dashboard.brand import (
+    ENTITY_ICON,
+    LINK_ICON,
+    PA_LOGO_SVG,
+    SOURCE_LOGOS,
+    SOURCE_NAMES,
+    category_icon,
+)
 from src.cluster import (
     MIN_THEME_COMPANIES,
     SIGNIFICANT_SCORE,
@@ -22,31 +30,6 @@ st.set_page_config(page_title="Sector Signal", layout="wide")
 GITHUB_OWNER = "LAKelly1411"
 GITHUB_REPO = "signal-prototype"
 USER_WATCHLIST_PATH = "config/user_watchlist.yaml"
-
-# The Press Association mark (PRESS / ASSOC / IATION), lifted from the PA Media
-# Briefings site's PressAssociationLogo.astro. Inline so it follows currentColor.
-# It is a wordmark, not an icon: below ~32px the three lines stop resolving.
-PA_LOGO_SVG = (
-    '<svg class="pa-logo" viewBox="0 0 346 346" fill="currentColor" '
-    'xmlns="http://www.w3.org/2000/svg" aria-hidden="true">'
-    '<path d="M35.6978 18.292H26.3412V49.6632H35.9377C40.6879 49.6632 42.3673 48.1188 42.5113 42.4237V25.242C42.3673 19.8365 40.448 18.2438 35.6978 18.2438M42.7512 65.8797H26.3412V107.193H3.26172V2.02734H42.7512C59.8329 2.02734 65.4948 8.06026 65.4948 23.2149V43.9199C65.4948 58.8815 59.4011 65.8797 42.7512 65.8797Z"/>'
-    '<path d="M116.164 25.242C116.164 19.9813 114.245 18.292 109.639 18.292H98.9383V46.2848H109.639C114.245 46.2848 116.164 44.7404 116.164 39.3349V25.2902V25.242ZM123.746 54.4896V55.2618C133.342 56.5649 137.181 61.2464 137.852 71.1404C138.332 78.0903 139.004 93.1485 139.244 96.7683C139.628 102.029 140.923 104.973 142.555 106.517V107.193H119.331C117.556 106.179 116.788 103.332 116.5 99.2297C116.021 91.7489 115.925 81.2757 115.589 73.5536C115.349 67.762 113.909 62.8391 108.151 62.8391H98.8423V107.193H75.7148V2.02734H118.132C134.686 2.02734 139.052 8.54289 139.052 23.3114V36.6804C139.052 47.4914 134.782 53.0899 123.698 54.4896"/>'
-    '<path d="M205.028 2.02734V19.933H174.031V45.8022H200.325V62.5013H174.031V89.2874H205.267V107.193H151.047V2.02734H205.028Z"/>'
-    '<path d="M249.316 147.155C249.316 139.578 247.829 135.234 241.303 135.234C234.778 135.234 233.29 139.578 233.29 147.155V198.411C233.29 205.988 234.778 210.332 241.303 210.332C247.829 210.332 249.316 205.988 249.316 198.411V147.155ZM273.739 194.357C273.739 218.392 261.456 227.513 241.303 227.513C221.151 227.513 208.867 218.392 208.867 194.357V151.306C208.867 127.27 221.151 118.149 241.303 118.149C261.456 118.149 273.739 127.27 273.739 151.306V194.357Z"/>'
-    '<path d="M249.316 265.641C249.316 258.064 247.829 253.72 241.303 253.72C234.778 253.72 233.29 258.064 233.29 265.641V316.897C233.29 324.474 234.778 328.818 241.303 328.818C247.829 328.818 249.316 324.474 249.316 316.897V265.641ZM273.739 312.795C273.739 336.83 261.456 345.952 241.303 345.952C221.151 345.952 208.867 336.83 208.867 312.795V269.744C208.867 245.709 221.151 236.587 241.303 236.587C261.456 236.587 273.739 245.709 273.739 269.744V312.795Z"/>'
-    '<path d="M25.4301 238.469H3.07031V343.973H25.4301V238.469Z"/>'
-    '<path d="M99.8516 238.469H166.403V256.375H144.715V343.973H121.636V256.375H99.8516V238.469Z"/>'
-    '<path d="M197.688 344.021L174.609 343.973V238.469H197.688V344.021Z"/>'
-    '<path d="M282.328 238.469H306.799L323.593 295.517H324.073V238.469H343.122V343.973H321.626L301.905 278.383H301.281V343.973H282.328V238.469Z"/>'
-    '<path d="M211.172 70.7058H232.429V83.6887C232.429 90.4455 236.027 92.3761 242.409 92.3761C248.791 92.3761 251.718 90.1077 251.766 82.5786C251.766 76.2078 249.51 72.7811 243.752 68.9683C236.459 64.1903 231.373 60.8601 223.264 54.7789C217.554 50.4835 211.604 43.1474 211.604 28.041C211.604 12.9346 220.673 0 241.833 0C262.993 0 272.542 5.35723 272.542 23.1181V34.267H251.67V25.8692C251.67 19.7397 247.735 17.23 242.361 17.23C236.987 17.23 232.716 19.5949 232.716 25.6761C232.716 31.7573 237.035 35.0392 243.369 39.2381C250.806 44.1127 254.884 46.188 263.137 53.0414C269.231 58.1091 274.749 66.2173 274.749 79.6345C274.749 100.098 261.65 109.654 242.409 109.654C223.168 109.654 211.22 101.063 211.22 84.4126V70.8023L211.172 70.7058Z"/>'
-    '<path d="M281.512 70.7058H302.768V83.6887C302.768 90.4455 306.367 92.3761 312.748 92.3761C319.13 92.3761 322.057 90.1077 322.105 82.5786C322.105 76.2078 319.85 72.7811 314.092 68.9683C306.798 64.1903 301.712 60.8601 293.603 54.7789C287.941 50.4835 281.944 43.1474 281.944 28.041C281.944 12.9346 290.964 0 312.172 0C333.381 0 342.881 5.35723 342.881 23.1181V34.267H322.009V25.8692C322.009 19.7397 318.074 17.23 312.7 17.23C307.326 17.23 303.056 19.5949 303.056 25.6761C303.056 31.7573 307.374 35.0392 313.708 39.2381C321.145 44.1127 325.224 46.188 333.477 53.0414C339.57 58.1091 345.088 66.2173 345.088 79.6345C345.088 100.098 331.989 109.654 312.748 109.654C293.507 109.654 281.56 101.063 281.56 84.4126V70.8023L281.512 70.7058Z"/>'
-    '<path d="M45.9191 225.583H69.9583L51.1492 120.031H18.7131L0 225.583H20.5365L23.4634 204.733H42.9442L45.9191 225.583ZM25.7186 188.951L32.1962 143.197H34.2114L40.737 188.951H25.7665H25.7186Z"/>'
-    '<path d="M81.9075 343.973H105.946L87.1375 238.469H54.7014L35.9883 343.973H56.5248L59.4517 323.171H78.9325L81.9075 343.973ZM61.6589 307.438L68.1365 261.684H70.1518L76.6774 307.438H61.6589Z"/>'
-    '<path d="M344.512 182.966V194.357C344.512 218.392 334.627 227.513 314.475 227.513C294.322 227.513 282.039 218.392 282.039 194.357V151.306C282.039 127.27 294.322 118.149 314.475 118.149C334.627 118.149 344.512 127.27 344.512 151.306V161.055H322.44C322.44 161.055 322.44 154.732 322.44 147.203C322.44 139.674 320.952 135.282 314.427 135.282C307.901 135.282 306.414 139.626 306.414 147.203V198.459C306.414 206.036 307.901 210.38 314.427 210.38C320.952 210.38 323.159 206.036 323.159 198.459C323.159 190.882 323.303 187.455 323.159 182.966H344.464H344.512Z"/>'
-    '<path d="M139.582 188.372H160.838V201.355C160.838 208.112 163.717 210.042 170.05 210.042C176.384 210.042 178.639 207.774 178.639 200.245C178.639 193.874 177.104 189.675 171.346 185.91C164.053 181.132 158.966 177.802 150.857 171.721C145.196 167.426 139.917 160.814 139.917 145.755C139.917 130.697 148.266 117.714 169.475 117.714C190.683 117.714 199.464 123.072 199.464 140.833V151.981H178.591V143.584C178.591 137.454 175.424 134.944 170.002 134.944C164.58 134.944 161.078 137.309 161.078 143.39C161.078 149.472 165.396 152.754 171.73 156.952C179.167 161.827 183.246 163.902 191.499 170.756C197.592 175.823 201.623 183.932 201.623 197.349C201.623 217.813 189.243 227.369 170.002 227.369C150.761 227.369 139.582 218.778 139.582 202.127V188.517V188.372Z"/>'
-    '<path d="M71.6367 188.372H92.8929V201.355C92.8929 208.112 95.7718 210.042 102.106 210.042C108.439 210.042 110.694 207.774 110.694 200.245C110.694 193.874 109.159 189.675 103.401 185.91C96.1077 181.132 91.0216 177.802 82.9126 171.721C77.2506 167.426 71.9726 160.814 71.9726 145.755C71.9726 130.697 80.3215 117.714 101.53 117.714C122.738 117.714 131.519 123.072 131.519 140.833V151.981H110.646V143.584C110.646 137.454 107.48 134.944 102.058 134.944C96.6355 134.944 93.1328 137.309 93.1328 143.39C93.1328 149.472 97.4512 152.754 103.785 156.952C111.222 161.827 115.301 163.902 123.554 170.756C129.647 175.823 133.678 183.932 133.678 197.349C133.678 217.813 121.298 227.369 102.058 227.369C82.8166 227.369 71.6367 218.778 71.6367 202.127V188.517V188.372Z"/>'
-    "</svg>"
-)
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp in PA ink:
 # outline -> sunken grey -> solid ink, light->dark mapping low->high newsworthiness.
@@ -113,16 +96,17 @@ def theme_heat_tier(heat: float) -> tuple[str, str, str]:
 
 
 def inject_css() -> None:
-    # PA brand, after the PA Media Briefings site (pa-tokens.css + brand-bridge.css):
-    # square corners, no shadows, separation by fill and hairlines, cobalt only on
-    # things you can click. Three faces with fixed jobs — condensed caps for
-    # headings and labels, Frame Text serif for reading copy, Press Sans for UI
-    # and data. The Google Fonts below are the stand-ins pa-tokens.css itself
-    # lists, used wherever the PA CDN won't serve the real faces.
+    # PA brand: tokens from the PA Media Briefings site (pa-tokens.css), layout
+    # from the Sector Signal Figma design (Ren's Playground, frame 2363:521).
+    # Square corners, cobalt only on things you can click, signal cards as white
+    # panels with a soft shadow. Press Sans throughout; the condensed face is
+    # kept for the masthead lockup. The Google Fonts below are the stand-ins
+    # pa-tokens.css itself lists, used wherever the PA CDN won't serve the real
+    # faces.
     st.markdown(
         """
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&family=Oswald:wght@700&display=swap');
 
         :root {
             --pa-ink: #000000;
@@ -136,7 +120,7 @@ def inject_css() -> None:
             --pa-border: rgba(0, 0, 0, 0.2);
             --pa-hairline: rgba(0, 0, 0, 0.1);
             --pa-font-heading: 'Press Sans Condensed', Oswald, 'Arial Narrow', sans-serif;
-            --pa-font-body: 'Frame Text', Newsreader, Georgia, 'Times New Roman', serif;
+            --pa-font-body: var(--pa-font-data);
             --pa-font-data: 'Press Sans', Archivo, Arial, Helvetica, sans-serif;
         }
 
@@ -209,112 +193,150 @@ def inject_css() -> None:
             margin: 0;
         }
 
-        /* ── Section label: 32x4 cobalt bar over condensed caps ────── */
+        /* ── Section heading (Figma 2363:543): Press Sans Bold 24, sentence case */
         .section-label {
-            font-family: var(--pa-font-heading);
+            font-family: var(--pa-font-data);
             font-weight: 700;
-            font-size: 1.25rem;
-            line-height: 1;
-            text-transform: uppercase;
-            letter-spacing: 0.01em;
+            font-size: 1.5rem;
+            line-height: 1.2;
             color: var(--pa-ink);
-            margin: 2rem 0 0.25rem 0;
-            padding: 0;
-        }
-        .section-label::before {
-            content: "";
-            display: block;
-            width: 32px;
-            height: 4px;
-            background: var(--pa-cobalt);
-            margin-bottom: 0.625rem;
+            margin: 2.5rem 0 1.75rem 0;
         }
 
-        /* ── Signal card: ItemCard — no box, hairlines between ─────── */
+        /* ── Signal card (Figma 2363:505) ─────────────────────────── */
         .signal-card {
-            padding: 1.25rem 0;
-            border-top: 1px solid var(--pa-border);
+            background: var(--pa-paper);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            padding: 16px 24px 23px 24px;
+            margin: 0 0 24px 0;
+            font-family: var(--pa-font-data);
+            color: var(--pa-ink);
         }
-        .signal-card-header {
+        .sc-head {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
-            gap: 1rem;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            min-height: 36px;
         }
-        .signal-title {
-            font-family: var(--pa-font-heading);
-            font-weight: 700;
-            font-size: 1.25rem;
-            line-height: 1.25;
-            color: var(--pa-ink);
+        .sc-source {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 1rem;
+            min-width: 0;
         }
-        .score-badge {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-            font-size: 0.75rem;
-            line-height: 1.4;
-            padding: 0.2em 0.6em;
-            border: 1px solid var(--pa-ink);
-            white-space: nowrap;
+        .sc-logo {
+            width: 24px;
+            height: 24px;
             flex-shrink: 0;
+            margin-right: 1px;
+            object-fit: cover;
         }
-        .signal-meta {
-            font-family: var(--pa-font-data);
+        .sc-logo-initials {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #1f1f1f;
+            color: var(--pa-paper);
             font-weight: 700;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            color: var(--pa-muted);
-            margin: 0.5rem 0 0 0;
+            font-size: 0.625rem;
+            letter-spacing: 0.02em;
         }
-        .signal-why {
-            font-family: var(--pa-font-body);
-            font-size: 1.0625rem;
-            line-height: 1.6;
-            color: var(--pa-ink);
-            margin-top: 0.625rem;
+        .sc-logo-sm { font-size: 0.5rem; }
+        .sc-source-name { font-weight: 700; white-space: nowrap; }
+        .sc-sep { opacity: 0.2; }
+        .sc-time { white-space: nowrap; }
+        .sc-relevance {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 79, 255, 0.05);
+            padding: 8px 12px;
+            font-size: 1rem;
+            white-space: nowrap;
         }
-        .signal-tags {
-            margin-top: 0.625rem;
+        .sc-ring { flex-shrink: 0; }
+        .sc-title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.2;
+            margin-top: 12px;
+        }
+        .sc-body {
+            font-size: 1rem;
+            line-height: 24px;
+            max-width: 724px;
+            margin-top: 8px;
+        }
+        .sc-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 12px;
+            margin-top: 18px;
+        }
+        .sc-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 6px;
+            gap: 10px;
         }
-        /* Tags are deliberately never cobalt: they aren't clickable. */
-        .tag-chip {
-            display: inline-block;
-            background: var(--pa-surface);
-            color: var(--pa-ink);
-            font-family: var(--pa-font-heading);
+        .sc-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            height: 20px;
+            padding-right: 5px;
             font-weight: 700;
-            font-size: 0.8rem;
-            line-height: 1.3;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            padding: 3px 8px;
+            font-size: 0.875rem;
+            line-height: 1;
+            color: #1f1f1f;
+            white-space: nowrap;
         }
-        .tag-chip.category { background: var(--pa-newsprint); }
-        .tag-chip.pattern { background: var(--pa-ink); color: var(--pa-paper); }
+        .sc-tag-icon {
+            display: inline-flex;
+            width: 20px;
+            height: 20px;
+            color: var(--pa-paper);
+        }
+        .sc-tag-entity { background: rgba(31, 31, 31, 0.1); }
+        .sc-tag-entity .sc-tag-icon { background: #1f1f1f; }
+        .sc-tag-category { background: rgba(253, 134, 33, 0.1); }
+        /* Figma's gavel is ink on orange, not white. */
+        .sc-tag-category .sc-tag-icon { background: #fd8621; color: var(--pa-ink); }
+        .sc-tag-more { background: rgba(31, 31, 31, 0.1); padding-left: 5px; }
+        .sc-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: #1f1f1f !important;
+            text-decoration: none !important;
+            white-space: nowrap;
+        }
+        .sc-link:hover { color: var(--pa-cobalt) !important; }
         .pattern-badge {
-            margin-top: 0.625rem;
+            margin-top: 12px;
             font-family: var(--pa-font-data);
-            font-size: 0.8125rem;
-            font-weight: 700;
+            font-size: 0.875rem;
             color: var(--pa-muted);
         }
-        .signal-link {
-            display: inline-block;
-            margin-top: 0.75rem;
+        /* Pattern verdict chips reuse the card's tag shape. */
+        .signal-tags { margin-top: 0.25rem; display: flex; flex-wrap: wrap; gap: 10px; }
+        .tag-chip {
+            display: inline-flex;
+            align-items: center;
+            height: 20px;
+            padding: 0 6px;
+            background: rgba(31, 31, 31, 0.1);
+            color: #1f1f1f;
             font-family: var(--pa-font-data);
             font-weight: 700;
-            font-size: 0.8125rem;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            color: var(--pa-cobalt) !important;
-            text-decoration: none !important;
+            font-size: 0.875rem;
         }
-        .signal-link:hover { text-decoration: underline !important; color: var(--pa-cobalt-hover) !important; }
-        .estimated-date { font-style: italic; text-transform: none; }
+        .tag-chip.pattern { background: #1f1f1f; color: var(--pa-paper); }
 
         /* ── Freshness strip: PA status badge ─────────────────────── */
         .health-strip {
@@ -389,34 +411,34 @@ def inject_css() -> None:
             font-family: var(--pa-font-data);
             color: var(--pa-muted);
         }
-        [data-testid="stTabs"] [role="tablist"] { gap: 0.25rem; }
+        /* Tabs (Figma 2363:635): underline style, bold when active. Streamlit
+           draws the cobalt underline itself from primaryColor. */
         [data-testid="stTab"] {
-            padding: 0.5rem 0.875rem;
+            min-width: 117px;
+            justify-content: center;
+            padding: 10px;
         }
-        [data-testid="stTab"]:hover { background: var(--pa-surface); }
         [data-testid="stTab"] p {
-            font-family: var(--pa-font-heading);
-            font-weight: 700;
+            font-family: var(--pa-font-data);
+            font-weight: 400;
             font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
             color: var(--pa-ink);
         }
-        /* Active tab as an ink block, like the masthead wordmark. */
-        [data-testid="stTab"][aria-selected="true"],
-        [data-testid="stTab"][aria-selected="true"]:hover { background: var(--pa-ink); }
-        [data-testid="stTab"][aria-selected="true"] p { color: var(--pa-paper); }
+        [data-testid="stTab"][aria-selected="true"] p { font-weight: 700; }
         /* PA fields: white with an ink hairline, never the grey card fill. */
         [data-testid="stTextInputRootElement"],
         [data-testid="stTextAreaRootElement"] {
             background: var(--pa-paper);
             border-color: var(--pa-ink);
         }
-        [data-testid="stExpander"] details {
+        /* Pattern and theme rows take the signal card's panel treatment. */
+        [data-testid="stMain"] [data-testid="stExpander"] details {
             border: none;
-            background: var(--pa-surface);
+            background: var(--pa-paper);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            margin-bottom: 8px;
         }
-        [data-testid="stExpander"] details summary:hover { background: var(--pa-sunken); }
+        [data-testid="stExpander"] details summary:hover { background: rgba(0, 79, 255, 0.05); }
         [data-testid="stExpander"] summary p {
             font-family: var(--pa-font-data);
             font-weight: 700;
@@ -508,25 +530,89 @@ def safe_url(url: str) -> str:
     return html.escape(url, quote=True)
 
 
+# How the newsworthiness tier reads on the card's relevance pill.
+RELEVANCE_LABELS = {"High": "Highly relevant", "Medium": "Relevant", "Low": "Low relevance"}
+
+# Cards show this many company tags before collapsing the rest into "+N more".
+MAX_ENTITY_TAGS = 4
+
+
+def _relative_time(published_at: str, now: datetime) -> str:
+    """'2 hours ago' when the source gave a time, otherwise a day-level phrase.
+    Many collectors only know the date, stored as midnight UTC — reading that
+    as "14 hours ago" would invent a precision the data doesn't have."""
+    dt = datetime.fromisoformat(published_at)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    if (dt.hour, dt.minute, dt.second) != (0, 0, 0):
+        age = (now - dt).total_seconds()
+        if 0 <= age < 24 * 3600:
+            return _humanise_age(age)
+    days = (now.date() - dt.date()).days
+    if days <= 0:
+        return "Today"
+    if days == 1:
+        return "Yesterday"
+    if days < 7:
+        return f"{days} days ago"
+    return f"{dt.day} {dt:%b %Y}"
+
+
+def _source_logo(source: str) -> str:
+    logo = SOURCE_LOGOS.get(source)
+    if logo:
+        return f'<img class="sc-logo" src="{logo}" alt="">'
+    initials = SOURCE_NAMES.get(source, (source, source[:3].upper()))[1]
+    size = "sc-logo-sm" if len(initials) > 2 else ""
+    return f'<span class="sc-logo sc-logo-initials {size}">{html.escape(initials)}</span>'
+
+
+def _relevance_ring(score: int) -> str:
+    """Donut showing the score as a share of 100, as in the Figma relevance pill:
+    a 20% cobalt track with the cobalt arc running clockwise from 12 o'clock."""
+    radius = 7.5
+    circumference = 2 * 3.141592653589793 * radius
+    arc = circumference * max(0, min(score, 100)) / 100
+    return (
+        '<svg class="sc-ring" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">'
+        f'<circle cx="10" cy="10" r="{radius}" fill="none" stroke="#004FFF" '
+        'stroke-opacity="0.2" stroke-width="5"/>'
+        f'<circle cx="10" cy="10" r="{radius}" fill="none" stroke="#004FFF" stroke-width="5" '
+        f'stroke-dasharray="{arc:.2f} {circumference:.2f}" transform="rotate(-90 10 10)"/>'
+        "</svg>"
+    )
+
+
 def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
-    label, bg, fg = score_tier(signal["newsworthiness_score"])
-    why_it_matters = html.escape(signal.get("why_it_matters") or "")
+    score = signal["newsworthiness_score"]
+    label = score_tier(score)[0]
+    now = datetime.now(timezone.utc)
 
-    category = signal.get("category")
-    entities = signal.get("entities") or []
-    tags_html = ""
-    if category or entities:
-        chips = []
-        if category:
-            chips.append(f'<span class="tag-chip category">{html.escape(category)}</span>')
-        chips.extend(f'<span class="tag-chip">{html.escape(e)}</span>' for e in entities)
-        tags_html = f'<div class="signal-tags">{"".join(chips)}</div>'
-
-    date_html = signal["published_at"][:10]
+    source = signal["source"]
+    source_name = SOURCE_NAMES.get(source, (source.replace("_", " ").title(), ""))[0]
+    when = _relative_time(signal["published_at"], now)
     if signal.get("published_at_estimated"):
         # The source gave no usable date, so this is the ingest time standing
         # in — say so rather than presenting a guess as fact.
-        date_html = f'<span class="estimated-date">{date_html} (date estimated)</span>'
+        when += " (date estimated)"
+
+    # Canonical names, so a company appears once however the source spelled it.
+    entities = signal_entities(signal)
+    tags = [
+        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{ENTITY_ICON}</span>'
+        f"{html.escape(e)}</span>"
+        for e in entities[:MAX_ENTITY_TAGS]
+    ]
+    if len(entities) > MAX_ENTITY_TAGS:
+        tags.append(
+            f'<span class="sc-tag sc-tag-more">+{len(entities) - MAX_ENTITY_TAGS} more</span>'
+        )
+    category = signal.get("canonical_category") or signal.get("category")
+    if category:
+        tags.append(
+            f'<span class="sc-tag sc-tag-category"><span class="sc-tag-icon">'
+            f"{category_icon(category)}</span>{html.escape(category)}</span>"
+        )
 
     pattern_html = ""
     cluster_id = signal.get("cluster_id")
@@ -539,25 +625,26 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
             f"heat {heat:.0f} ({heat_label}) — see Patterns tab</div>"
         )
 
+    # One line of HTML: indented, blank-line-separated markup risks being read
+    # as a Markdown code block.
     st.markdown(
-        f"""
-        <div class="signal-card">
-          <div class="signal-card-header">
-            <span class="signal-title">{html.escape(signal['title'])}</span>
-            <span class="score-badge" style="background:{bg};color:{fg};">
-              {signal['newsworthiness_score']} &middot; {label}
-            </span>
-          </div>
-          <div class="signal-meta">
-            {html.escape(signal['source'])} &middot; {date_html}
-          </div>
-          {tags_html}
-          <div class="signal-why">{why_it_matters}</div>
-          {pattern_html}
-          <a class="signal-link" href="{safe_url(signal['source_url'])}"
-             target="_blank" rel="noopener noreferrer">Source &rarr;</a>
-        </div>
-        """,
+        '<div class="signal-card">'
+        '<div class="sc-head">'
+        f'<div class="sc-source">{_source_logo(source)}'
+        f'<span class="sc-source-name">{html.escape(source_name)}</span>'
+        '<span class="sc-sep" aria-hidden="true">|</span>'
+        f'<span class="sc-time">{html.escape(when)}</span></div>'
+        f'<div class="sc-relevance">{_relevance_ring(score)}'
+        f"<span><b>{RELEVANCE_LABELS[label]}</b> ({score}%)</span></div>"
+        "</div>"
+        f'<div class="sc-title">{html.escape(signal["title"])}</div>'
+        f'<div class="sc-body">{html.escape(signal.get("why_it_matters") or "")}</div>'
+        f"{pattern_html}"
+        '<div class="sc-foot">'
+        f'<div class="sc-tags">{"".join(tags)}</div>'
+        f'<a class="sc-link" href="{safe_url(signal["source_url"])}" '
+        f'target="_blank" rel="noopener noreferrer">Source {LINK_ICON}</a>'
+        "</div></div>",
         unsafe_allow_html=True,
     )
 
