@@ -210,8 +210,15 @@ def list_sector_slugs(config_dir: Path | None = None) -> list[str]:
 def read_index() -> dict[str, dict]:
     if not INDEX_PATH.exists():
         return {}
-    with open(INDEX_PATH, "r", encoding="utf-8") as f:
-        return {e["slug"]: e for e in json.load(f)}
+    try:
+        with open(INDEX_PATH, "r", encoding="utf-8") as f:
+            entries = json.load(f)
+    except json.JSONDecodeError as exc:
+        # The index is derived state; every run rebuilds it, so a corrupt
+        # file must never stop the sectors from running.
+        logger.warning("Ignoring unreadable sector index %s: %s", INDEX_PATH, exc)
+        return {}
+    return {e["slug"]: e for e in entries}
 
 
 def _write_index(index: dict[str, dict]) -> None:
@@ -231,8 +238,12 @@ def update_index(slug: str, **fields) -> None:
 
 def refresh_index(slugs: list[str]) -> None:
     """Make sure every configured sector has an entry; new ones start as
-    setting_up until their first run lands."""
+    setting_up until their first run lands. Entries whose config file has
+    gone are dropped."""
     index = read_index()
+    for slug in list(index):
+        if not (CONFIG_DIR / f"{slug}.yaml").exists():
+            del index[slug]
     for slug in slugs:
         if slug in index:
             continue

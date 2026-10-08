@@ -270,3 +270,12 @@ def test_no_migration_without_an_old_store(repo, monkeypatch):
     write(repo, "gambling")
     repo.feeds["gambling"] = [item(1)]
     assert pipeline.main([]) == 0
+
+
+def test_a_corrupt_index_does_not_stop_the_run(repo):
+    write(repo, "alpha")
+    repo.feeds["alpha"] = [item(1)]
+    repo.data.mkdir()
+    (repo.data / "sectors.json").write_text("{not json", encoding="utf-8")
+    assert pipeline.main([]) == 0
+    assert sectors.read_index()["alpha"]["status"] == "ready"

@@ -152,6 +152,28 @@ class TestIndex:
         assert index["broken"]["status"] == "error" and index["broken"]["error"]
         assert index["fintech"]["status"] == "setting_up"
 
+    def test_corrupt_index_is_treated_as_empty(self, tmp_path, monkeypatch, caplog):
+        monkeypatch.setattr(sectors, "INDEX_PATH", tmp_path / "sectors.json")
+        monkeypatch.setattr(sectors, "CONFIG_DIR", tmp_path)
+        (tmp_path / "sectors.json").write_text('[{"slug": "gambl', encoding="utf-8")
+        with caplog.at_level("WARNING"):
+            assert sectors.read_index() == {}
+        assert "unreadable sector index" in caplog.text
+        write(tmp_path, "fintech.yaml", MINIMAL)
+        sectors.refresh_index(["fintech"])
+        assert set(sectors.read_index()) == {"fintech"}
+
+    def test_refresh_index_drops_sectors_whose_config_is_gone(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(sectors, "INDEX_PATH", tmp_path / "sectors.json")
+        monkeypatch.setattr(sectors, "CONFIG_DIR", tmp_path)
+        write(tmp_path, "fintech.yaml", MINIMAL)
+        sectors.update_index("retired", status="ready", signal_count=4)
+        sectors.update_index("fintech", status="ready", signal_count=2)
+        sectors.refresh_index(["fintech"])
+        index = sectors.read_index()
+        assert set(index) == {"fintech"}
+        assert index["fintech"]["signal_count"] == 2  # kept as it was
+
 
 def test_known_sources_match_the_registry():
     from src.pipeline import COLLECTORS
