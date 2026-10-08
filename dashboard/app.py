@@ -720,17 +720,17 @@ def inject_css() -> None:
 
         /* Search fields: 1px #ccc outline, no fill. */
         .st-key-feed-filters [data-testid="stTextInputRootElement"],
-        [data-testid="stPopoverBody"] [data-testid="stTextInputRootElement"] {
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stTextInputRootElement"] {
             min-height: 40px;
             border: 1px solid #cccccc;
             border-radius: 0;
             background: var(--pa-paper);
         }
         .st-key-feed-filters [data-testid="stTextInputRootElement"]:focus-within,
-        [data-testid="stPopoverBody"] [data-testid="stTextInputRootElement"]:focus-within {
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stTextInputRootElement"]:focus-within {
             border-color: var(--pa-cobalt);
         }
-        .st-key-feed-filters input, [data-testid="stPopoverBody"] input {
+        .st-key-feed-filters input, :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) input {
             font-family: var(--pa-font-data);
             font-size: 1rem;
         }
@@ -753,41 +753,37 @@ def inject_css() -> None:
             border-radius: 0;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
-        [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"] { gap: 0; }
-        [data-testid="stPopoverBody"] [data-testid="stTextInput"] { padding: 8px; }
-        [data-testid="stPopoverBody"] [data-testid="stSlider"],
-        [data-testid="stPopoverBody"] [data-testid="stDateInput"] { padding: 12px; }
-        [data-testid="stPopoverBody"] [data-testid="stCaptionContainer"] { padding: 4px 12px 8px; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stVerticalBlock"] { gap: 0; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stTextInput"] { padding: 8px; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stSlider"],
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stDateInput"] { padding: 12px; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stCaptionContainer"] { padding: 4px 12px 8px; }
 
         /* Menu rows: ticked lists (sort, source, type) and plain actions. */
-        [data-testid="stPopoverBody"] button[kind="tertiary"] {
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"] {
             justify-content: flex-start;
             min-height: 0;
             padding: 8px 12px;
             border-radius: 0;
         }
-        [data-testid="stPopoverBody"] button[kind="tertiary"] > div,
-        [data-testid="stPopoverBody"] button[kind="tertiary"] > div > span { justify-content: flex-start; gap: 8px; }
-        [data-testid="stPopoverBody"] button[kind="tertiary"]:hover { background: var(--pa-surface); }
-        [data-testid="stPopoverBody"] button[kind="tertiary"] p {
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"] > div,
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"] > div > span { justify-content: flex-start; gap: 8px; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"]:hover { background: var(--pa-surface); }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"] p {
             font-family: var(--pa-font-data);
             font-size: 1rem;
             color: var(--pa-ink);
             text-align: left;
         }
-        [data-testid="stPopoverBody"] button[kind="tertiary"] p strong { font-weight: 700; }
-        [data-testid="stPopoverBody"] [data-testid="stIconMaterial"] { color: var(--pa-cobalt); font-size: 20px; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) button[kind="tertiary"] p strong { font-weight: 700; }
+        :is([data-testid="stPopoverBody"], [data-testid="stDialog"]) [data-testid="stIconMaterial"] { color: var(--pa-cobalt); font-size: 20px; }
         [class*="st-key-sortopt-"][class*="-off"] [data-testid="stIconMaterial"],
         [class*="st-key-src-"][class*="-off"] [data-testid="stIconMaterial"],
         [class*="st-key-typ-"][class*="-off"] [data-testid="stIconMaterial"],
         [class*="st-key-scr-"][class*="-off"] [data-testid="stIconMaterial"],
         [class*="st-key-dts-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
 
-        /* The Filters menu: one panel, sections divided by hairlines. */
-        [data-testid="stPopoverBody"]:has(.fp-head) {
-            width: 360px;
-            max-height: min(640px, 80vh) !important;
-        }
+        /* Filter sections, divided by hairlines. */
         .fp-head {
             padding: 12px 12px 4px 12px;
             border-top: 1px solid #e7e7e7;
@@ -796,7 +792,7 @@ def inject_css() -> None:
             font-weight: 700;
             color: var(--pa-muted);
         }
-        [data-testid="stPopoverBody"] [data-testid="stElementContainer"]:first-child .fp-head { border-top: none; }
+        .fp-head.fp-first { border-top: none; padding-top: 4px; }
 
         /* Active filters as chips under the bar, each with a close icon. */
         .st-key-feed-chips { gap: 8px; margin: 4px 0 0 0; }
@@ -853,6 +849,58 @@ def inject_css() -> None:
         [class*="st-key-pick-btn-"] [data-testid="stButton"],
         [class*="st-key-pick-btn-"] [data-testid="stButton"] > *,
         [class*="st-key-pick-btn-"] button { width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+
+        /* The Filters button: plain like the other controls until hovered. */
+        .st-key-open-filters button {
+            min-height: 40px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 0;
+            background: transparent;
+        }
+        .st-key-open-filters button:hover { background: #e7e7e7; }
+        .st-key-open-filters button p { font-family: var(--pa-font-data); font-size: 1rem; }
+        .st-key-open-filters button p strong { font-weight: 700; }
+        .st-key-open-filters [data-testid="stIconMaterial"] { font-size: 20px; }
+
+        /* Filters dialog: square, Press Sans, a footer that applies. */
+        [data-testid="stDialog"] [role="dialog"] {
+            border-radius: 0;
+            padding-bottom: 0;
+            max-height: 88vh;
+            overflow-y: auto;
+        }
+        /* Denser rows in the dialog than in a menu. */
+        [data-testid="stDialog"] button[kind="tertiary"] { padding: 6px 12px; }
+        [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]) { padding: 6px 12px; }
+        [data-testid="stDialog"] [role="dialog"] h2,
+        [data-testid="stDialog"] [role="dialog"] [data-testid="stHeading"] h2 {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        /* The footer stays in view while the dialog scrolls. Its layout
+           wrapper is the sticky element: the footer itself is exactly its
+           wrapper's height, which leaves sticky nowhere to move. */
+        [data-testid="stLayoutWrapper"]:has(> .st-key-fd-footer) {
+            position: sticky;
+            bottom: 0;
+            z-index: 2;
+        }
+        .st-key-fd-footer {
+            justify-content: space-between;
+            margin: 16px -1.5rem 0 -1.5rem;
+            padding: 12px 1.5rem;
+            border-top: 1px solid #e7e7e7;
+            background: var(--pa-paper);
+        }
+        .st-key-fd-apply button {
+            min-height: 44px;
+            padding: 10px 20px;
+            border-radius: 0;
+        }
+        .st-key-fd-apply button p { font-family: var(--pa-font-data); font-weight: 700; font-size: 1rem; }
+        .st-key-fd-clear button p { font-family: var(--pa-font-data); font-weight: 700; color: var(--pa-cobalt) !important; }
 
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
@@ -1320,83 +1368,163 @@ def _company_picker(all_entities: list[str], counts: Counter) -> None:
         st.caption(f"{len(pool) - COMPANY_ROWS} more — type to narrow the list.")
 
 
-def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
-    """The Feed's filter bar: Search, one Filters menu, Sort — calm at rest.
-    The menu (styled after Ren's Playground, frame 2371:835) holds Company
-    (searchable, with logos), Source, Score and Date presets, and Type.
-    Whatever is active shows as removable chips under the bar, so the bar
-    itself never has to say "All selected"."""
-    sources = sorted({s["source"] for s in scored})
-    signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
+def _filter_options(scored: list[dict]) -> dict:
+    """What the filters can choose from, derived from the scored signals."""
     # Canonical names, so one option covers every spelling of a company —
     # picking "Entain Holdings (UK) Limited" also matches signals that named
     # it "Entain".
     entity_counts = Counter(e for s in scored for e in signal_entities(s))
-    all_entities = sorted(entity_counts, key=str.lower)
-    published_dates = [datetime.fromisoformat(s["published_at"]).date() for s in scored]
+    return {
+        "sources": sorted({s["source"] for s in scored}),
+        "types": sorted({s["signal_type"] for s in scored if s.get("signal_type")}),
+        "entity_counts": entity_counts,
+        "entities": sorted(entity_counts, key=str.lower),
+        "dates": [datetime.fromisoformat(s["published_at"]).date() for s in scored],
+    }
 
+
+def _criteria(opts: dict) -> dict:
+    """The current filter choices, read from session state."""
     state = st.session_state
-    sources_off = set(state.get(F_SOURCES_OFF, [])) & set(sources)
-    types_off = set(state.get(F_TYPES_OFF, [])) & set(signal_types)
-    companies = [c for c in state.get(F_COMPANIES, []) if c in entity_counts]
-    min_score = state.get(F_SCORE, DEFAULT_MIN_SCORE)
-    days = state.get(F_DAYS)
-    sort_order = state.get(F_SORT, SORT_RECENT)
+    return {
+        "sources_off": set(state.get(F_SOURCES_OFF, [])) & set(opts["sources"]),
+        "types_off": set(state.get(F_TYPES_OFF, [])) & set(opts["types"]),
+        "companies": [c for c in state.get(F_COMPANIES, []) if c in opts["entity_counts"]],
+        "min_score": state.get(F_SCORE, DEFAULT_MIN_SCORE),
+        "days": state.get(F_DAYS),
+        "search": (state.get(F_SEARCH) or "").strip().lower(),
+    }
 
-    def source_name(s: str) -> str:
-        return SOURCE_NAMES.get(s, (s.replace("_", " ").title(), ""))[0]
 
-    def type_name(t: str) -> str:
-        return t.replace("_", " ").capitalize()
+def _filter_signals(scored: list[dict], dates: list, crit: dict) -> list[dict]:
+    """Signals matching the criteria, in their incoming (newest-first) order.
+    Shared by the feed and the dialog's live "Show N signals" count."""
+    today = datetime.now(timezone.utc).date()
+    start_date = today - timedelta(days=crit["days"]) if crit["days"] is not None else None
+    companies = set(crit["companies"])
+    out = []
+    for signal, pub_date in zip(scored, dates):
+        if signal["source"] in crit["sources_off"]:
+            continue
+        if signal.get("signal_type") in crit["types_off"]:
+            continue
+        if signal["newsworthiness_score"] < crit["min_score"]:
+            continue
+        if start_date and pub_date < start_date:
+            continue
+        if companies and not set(signal_entities(signal)) & companies:
+            continue
+        if crit["search"]:
+            # Search both spellings so "Entain" finds signals stored under
+            # the full legal name and vice versa.
+            haystack = " ".join(
+                [
+                    signal.get("title", ""),
+                    signal.get("why_it_matters") or "",
+                    signal.get("category") or "",
+                    " ".join(signal.get("entities", [])),
+                    " ".join(signal_entities(signal)),
+                ]
+            ).lower()
+            if crit["search"] not in haystack:
+                continue
+        out.append(signal)
+    return out
+
+
+def _source_name(s: str) -> str:
+    return SOURCE_NAMES.get(s, (s.replace("_", " ").title(), ""))[0]
+
+
+def _type_name(t: str) -> str:
+    return t.replace("_", " ").capitalize()
+
+
+def _close_dialog() -> None:
+    st.rerun()
+
+
+@st.dialog("Filters", width="large", on_dismiss="rerun")
+def _filters_dialog(scored: list[dict]) -> None:
+    """All the filters in one dialog: Company (the logo picker) on the left,
+    the ticked lists on the right, and a footer that applies them with a live
+    count. Changes here rerun only the dialog; the feed updates on close
+    (the button, the ✕ or Escape)."""
+    opts = _filter_options(scored)
+    crit = _criteria(opts)
+
+    # Balanced columns: Company, Score and Published (5 + 3 + 3 rows) beside
+    # Source and Signal type (8 + 6).
+    left, right = st.columns([1, 1], gap="large")
+    with left:
+        st.markdown('<div class="fp-head fp-first">Company / Entity</div>', unsafe_allow_html=True)
+        _company_picker(opts["entities"], opts["entity_counts"])
+        st.markdown('<div class="fp-head">Score</div>', unsafe_allow_html=True)
+        for value, label in SCORE_PRESETS:
+            _check_row(f"scr-{value}", label, value == crit["min_score"],
+                       _set_value, (F_SCORE, value))
+        st.markdown('<div class="fp-head">Published</div>', unsafe_allow_html=True)
+        for value, label in DATE_PRESETS:
+            _check_row(f"dts-{value or 'all'}", label, value == crit["days"],
+                       _set_value, (F_DAYS, value))
+    with right:
+        st.markdown('<div class="fp-head fp-first">Source</div>', unsafe_allow_html=True)
+        for s in opts["sources"]:
+            _check_row(f"src-{s}", _source_name(s), s not in crit["sources_off"],
+                       _toggle, (F_SOURCES_OFF, s))
+        st.markdown('<div class="fp-head">Signal type</div>', unsafe_allow_html=True)
+        for t in opts["types"]:
+            _check_row(f"typ-{t}", _type_name(t), t not in crit["types_off"],
+                       _toggle, (F_TYPES_OFF, t))
+
+    count = len(_filter_signals(scored, opts["dates"], crit))
+    with st.container(key="fd-footer", horizontal=True, vertical_alignment="center"):
+        st.button(
+            "Clear all", key="fd-clear", type="tertiary",
+            on_click=_clear_filters,
+            args=([F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES, F_SCORE, F_DAYS, F_COMPANY_QUERY],),
+        )
+        if st.button(
+            f"Show {count} signal{'s' if count != 1 else ''}",
+            key="fd-apply", type="primary",
+        ):
+            _close_dialog()
+
+
+def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
+    """The Feed's filter bar: Search, Filters and Sort — calm at rest. Filters
+    opens a dialog (styled after Ren's Playground, frame 2371:835) holding
+    Company (searchable, with logos), Source, Score and Date presets, and
+    Type. Whatever is active shows as removable chips under the bar, so the
+    bar itself never has to say "All selected"."""
+    opts = _filter_options(scored)
+    crit = _criteria(opts)
+    sources, signal_types = opts["sources"], opts["types"]
+    sort_order = st.session_state.get(F_SORT, SORT_RECENT)
 
     def summary(on: list[str], total: int) -> str:
         return on[0] if len(on) == 1 else f"{len(on)} of {total}"
 
-    on_sources = [source_name(s) for s in sources if s not in sources_off]
-    on_types = [type_name(t) for t in signal_types if t not in types_off]
     active_count = sum(
-        [bool(companies), bool(sources_off), min_score != DEFAULT_MIN_SCORE,
-         days is not None, bool(types_off)]
+        [bool(crit["companies"]), bool(crit["sources_off"]),
+         crit["min_score"] != DEFAULT_MIN_SCORE, crit["days"] is not None,
+         bool(crit["types_off"])]
     )
 
     with st.container(key="feed-filters", horizontal=True, vertical_alignment="center"):
-        search_query = st.text_input(
+        st.text_input(
             "Search",
             placeholder="Search",
             label_visibility="collapsed",
             icon=":material/search:",
             key=F_SEARCH,
             width=304,
-        ).strip().lower()
-
-        with st.popover(
+        )
+        if st.button(
             f"Filters · **{active_count}**" if active_count else "Filters",
-            icon=":material/tune:",
-            key="pop-filters",
+            icon=":material/tune:", key="open-filters",
         ):
-            st.markdown('<div class="fp-head">Company</div>', unsafe_allow_html=True)
-            _company_picker(all_entities, entity_counts)
-
-            st.markdown('<div class="fp-head">Source</div>', unsafe_allow_html=True)
-            for s in sources:
-                _check_row(f"src-{s}", source_name(s), s not in sources_off,
-                           _toggle, (F_SOURCES_OFF, s))
-
-            st.markdown('<div class="fp-head">Score</div>', unsafe_allow_html=True)
-            for value, label in SCORE_PRESETS:
-                _check_row(f"scr-{value}", label, value == min_score,
-                           _set_value, (F_SCORE, value))
-
-            st.markdown('<div class="fp-head">Published</div>', unsafe_allow_html=True)
-            for value, label in DATE_PRESETS:
-                _check_row(f"dts-{value or 'all'}", label, value == days,
-                           _set_value, (F_DAYS, value))
-
-            st.markdown('<div class="fp-head">Signal type</div>', unsafe_allow_html=True)
-            for t in signal_types:
-                _check_row(f"typ-{t}", type_name(t), t not in types_off,
-                           _toggle, (F_TYPES_OFF, t))
-
+            _filters_dialog(scored)
         with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:",
                         key="pop-sort"):
             for option in (SORT_RECENT, SORT_SCORE):
@@ -1405,20 +1533,23 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
 
     # Active filters as chips, each removable; only when something is set.
     chips = []
-    for name in companies:
+    for name in crit["companies"]:
         chips.append((f"chip-co-{_slug(name)}", f"Company: **{name}**",
                       _toggle, (F_COMPANIES, name)))
-    if sources_off:
-        chips.append(("chip-src", f"Source: **{summary(on_sources, len(sources))}**",
+    if crit["sources_off"]:
+        on = [_source_name(s) for s in sources if s not in crit["sources_off"]]
+        chips.append(("chip-src", f"Source: **{summary(on, len(sources))}**",
                       _set_all, (F_SOURCES_OFF, [])))
-    if min_score != DEFAULT_MIN_SCORE:
-        chips.append(("chip-scr", f"Score: **{min_score}+**" if min_score else "Score: **All**",
+    if crit["min_score"] != DEFAULT_MIN_SCORE:
+        chips.append(("chip-scr",
+                      f"Score: **{crit['min_score']}+**" if crit["min_score"] else "Score: **All**",
                       _set_value, (F_SCORE, DEFAULT_MIN_SCORE)))
-    if days is not None:
-        chips.append(("chip-dts", f"Published: **last {days} days**",
+    if crit["days"] is not None:
+        chips.append(("chip-dts", f"Published: **last {crit['days']} days**",
                       _set_value, (F_DAYS, None)))
-    if types_off:
-        chips.append(("chip-typ", f"Type: **{summary(on_types, len(signal_types))}**",
+    if crit["types_off"]:
+        on = [_type_name(t) for t in signal_types if t not in crit["types_off"]]
+        chips.append(("chip-typ", f"Type: **{summary(on, len(signal_types))}**",
                       _set_all, (F_TYPES_OFF, [])))
     if chips:
         with st.container(key="feed-chips", horizontal=True, vertical_alignment="center"):
@@ -1432,46 +1563,9 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
                        F_COMPANY_QUERY],),
             )
 
-    selected_sources = [s for s in sources if s not in sources_off]
-    selected_types = [t for t in signal_types if t not in types_off]
-    selected_entities = companies
-    today = datetime.now(timezone.utc).date()
-    start_date = today - timedelta(days=days) if days is not None else min(published_dates)
-    end_date = max(max(published_dates), today)
-
-    filtered = []
-    for signal, pub_date in zip(scored, published_dates):
-        if signal["source"] not in selected_sources:
-            continue
-        if signal.get("signal_type") not in selected_types:
-            continue
-        if signal["newsworthiness_score"] < min_score:
-            continue
-        if not (start_date <= pub_date <= end_date):
-            continue
-        if selected_entities and not set(signal_entities(signal)) & set(
-            selected_entities
-        ):
-            continue
-        if search_query:
-            # Search both spellings so "Entain" finds signals stored under
-            # the full legal name and vice versa.
-            haystack = " ".join(
-                [
-                    signal.get("title", ""),
-                    signal.get("why_it_matters") or "",
-                    signal.get("category") or "",
-                    " ".join(signal.get("entities", [])),
-                    " ".join(signal_entities(signal)),
-                ]
-            ).lower()
-            if search_query not in haystack:
-                continue
-        filtered.append(signal)
-
+    filtered = _filter_signals(scored, opts["dates"], crit)
     if sort_order == SORT_SCORE:
         filtered.sort(key=lambda s: s["newsworthiness_score"], reverse=True)
-
     return filtered, sort_order
 
 
