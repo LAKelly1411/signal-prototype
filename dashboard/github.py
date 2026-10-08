@@ -96,12 +96,17 @@ def save_sector(gh: GitHub, config: dict, index_entry: dict, today: str) -> Save
         return SaveResult(False, False, False, MSG_NOT_SAVED)
 
     indexed = False
-    current = None
+    index_absent = False
     try:
         current = gh.get_file("data/sectors.json")
-        if current is not None:
+        if current is None:
+            index_absent = True
+        else:
             text, sha = current
-            index = [e for e in json.loads(text) if isinstance(e, dict) and e.get("slug") != slug]
+            entries = json.loads(text)
+            if not isinstance(entries, list):
+                raise GitHubError("data/sectors.json is not a list")
+            index = [e for e in entries if isinstance(e, dict) and e.get("slug") != slug]
             index.append(index_entry)
             index.sort(key=lambda e: e.get("slug", ""))
             gh.put_file("data/sectors.json", json.dumps(index, indent=2, ensure_ascii=False),
@@ -118,7 +123,7 @@ def save_sector(gh: GitHub, config: dict, index_entry: dict, today: str) -> Save
 
     if not dispatched:
         message = MSG_NOT_DISPATCHED
-    elif not indexed and current is not None:
+    elif not indexed and not index_absent:
         message = MSG_NOT_INDEXED
     else:
         message = ""

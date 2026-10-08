@@ -92,8 +92,37 @@ def test_existing_config_stops_everything():
 def test_config_put_failure_stops_index_and_dispatch():
     http = FakeHTTP({("PUT", CFG_PATH): resp(500)})
     result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
-    assert not result.saved and not result.dispatched
-    assert all(not u.endswith(IDX_PATH) for _, u, _ in http.calls if _ == "PUT")
+    assert not result.saved and not result.indexed and not result.dispatched
+    assert result.message == "We couldn't save the sector. Please try again."
+    assert [m for m, _, _ in http.calls] == ["GET", "PUT"]
+
+
+def test_config_put_422_race_stops_everything():
+    http = FakeHTTP({("PUT", CFG_PATH): resp(422)})
+    result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
+    assert not result.saved and not result.indexed and not result.dispatched
+    assert result.message == "We couldn't save the sector. Please try again."
+    assert [m for m, _, _ in http.calls] == ["GET", "PUT"]
+
+
+def test_index_get_failure_reports_not_indexed():
+    http = FakeHTTP({("PUT", CFG_PATH): resp(201), ("GET", IDX_PATH): resp(500),
+                     ("POST", DISPATCH): resp(204)})
+    result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
+    assert result.saved and not result.indexed and result.dispatched
+    assert result.message == "Saved. It will appear in the menu after the next update."
+
+
+def test_non_list_index_is_not_overwritten():
+    http = FakeHTTP({
+        ("PUT", CFG_PATH): resp(201),
+        ("GET", IDX_PATH): resp(200, {"content": b64(json.dumps({"a": 1})), "sha": "abc"}),
+        ("POST", DISPATCH): resp(204),
+    })
+    result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
+    assert result.saved and not result.indexed and result.dispatched
+    assert result.message == "Saved. It will appear in the menu after the next update."
+    assert not any(m == "PUT" and u.endswith(IDX_PATH) for m, u, _ in http.calls)
 
 
 def test_index_conflict_still_dispatches():
