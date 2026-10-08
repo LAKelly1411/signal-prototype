@@ -33,6 +33,8 @@ def test_fintech_categories_route_before_enforcement():
     assert canonical_category("APP fraud reimbursement", sector=FINTECH) == "Fraud and APP scams"
     assert canonical_category("Consumer Duty review", sector=FINTECH) == "Consumer Duty and redress"
     assert canonical_category("Variation of permission", sector=FINTECH) == "Authorisation and permissions"
+    assert canonical_category("Revolut receives UK banking licence", sector=FINTECH) == "Authorisation and permissions"
+    assert canonical_category("Revolut enters mobilisation", sector=FINTECH) == "Authorisation and permissions"
     t = taxonomy(FINTECH)
     assert "Licence action" not in t and t[-1] == "Other"
 

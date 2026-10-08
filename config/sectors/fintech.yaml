@@ -61,7 +61,7 @@ categories:
     pattern: 'consumer duty|redress|ombudsman|\bfos\b|complaint|remediation'
     before: "Enforcement action"
   - name: "Authorisation and permissions"
-    pattern: 'authorisation (granted|withdrawn|refused|application)|\bfca authoris|variation of permission|\bvop\b|e-money licen|\bpermissions?\b|fca register|cancel(led|lation of) (authorisation|permission)'
+    pattern: 'authorisation (granted|withdrawn|refused|application)|\bfca authoris|variation of permission|\bvop\b|e-money licen|banking licen|mobilisation|\bpermissions?\b|fca register|cancel(led|lation of) (authorisation|permission)'
     before: "Enforcement action"
 
 signal_type_fallback:
@@ -90,7 +90,7 @@ sources:
     # The collector searches any GOV.UK department's publications; HM Treasury
     # owns payments and fintech policy.
     organisation: "hm-treasury"
-    keywords: ["fintech", "payments", "open banking", "buy now pay later"]
+    keywords: ["fintech", "open banking", "buy now pay later"]
     results_per_term: 20
   parliament:
     keywords: ["fintech", "buy now pay later", "open banking", "payment services"]
