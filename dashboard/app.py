@@ -13,6 +13,8 @@ from dashboard.brand import (
     COMPANY_DOMAINS,
     ENTITY_ICON,
     LINK_ICON,
+    PEOPLE,
+    PERSON_ICON,
     PA_LOGO_SVG,
     SOURCE_DOMAINS,
     SOURCE_LOGOS,
@@ -234,6 +236,7 @@ def inject_css() -> None:
             letter-spacing: 0.02em;
         }
         .sc-logo-sm { font-size: 0.5rem; }
+        .sc-logo-person svg { width: 18px; height: 18px; }
         .sc-source-name { font-weight: 700; white-space: nowrap; }
         .sc-sep { opacity: 0.2; }
         .sc-time { white-space: nowrap; }
@@ -318,7 +321,11 @@ def inject_css() -> None:
         [class*="st-key-pcard-"], [class*="st-key-tcard-"] {
             background: var(--pa-paper);
             box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
-            padding: 16px 24px 20px 24px;
+            /* The selected card's cobalt edge (Figma 2363:687): every card has
+               the 4px border, transparent until selected, and 4px less left
+               padding, so selecting one never shifts its content. */
+            border-left: 4px solid transparent;
+            padding: 16px 24px 20px 20px;
             margin-bottom: 16px;
             gap: 0;
         }
@@ -360,13 +367,13 @@ def inject_css() -> None:
         .tl-svg { display: block; width: 100%; height: 100%; overflow: visible; }
         .tl-line {
             fill: none;
-            stroke: var(--pa-cobalt);
+            stroke: url(#tl-heat);
             stroke-width: 2px;
             stroke-linejoin: round;
             stroke-linecap: round;
             vector-effect: non-scaling-stroke;
         }
-        .tl-area { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
+        .tl-area { fill: url(#tl-heat); fill-opacity: 0.1; stroke: none; }
         /* Hover layer: a column per week, above the card's click overlay so
            list cards get tooltips too (the page script forwards clicks). */
         .tl-cols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
@@ -457,7 +464,7 @@ def inject_css() -> None:
             cursor: inherit;
         }
         [class*="st-key-pcard-"]:has(button:focus-visible),
-        [class*="st-key-tcard-"]:has(button:focus-visible) { outline-color: var(--pa-cobalt-hover); }
+        [class*="st-key-tcard-"]:has(button:focus-visible) { outline-color: var(--pa-cobalt); }
 
         /* ── Preview pane ──────────────────────────────────────────
            Fixed to the window's right edge at full height, apart from the
@@ -656,6 +663,7 @@ def inject_css() -> None:
                 transform var(--dur) var(--ease),
                 box-shadow var(--dur) var(--ease),
                 border-color var(--dur) var(--ease),
+                border-left-color var(--dur) var(--ease),
                 outline-color var(--dur) var(--ease);
             outline: 2px solid transparent;
         }
@@ -671,7 +679,7 @@ def inject_css() -> None:
             transition-duration: var(--dur-fast);
         }
         [class*="st-key-pcard-"]:has(button:disabled),
-        [class*="st-key-tcard-"]:has(button:disabled) { outline-color: var(--pa-cobalt); }
+        [class*="st-key-tcard-"]:has(button:disabled) { border-left-color: var(--pa-cobalt); }
         /* Signals inside the pane are bordered, not shadowed: they darken
            their border instead of lifting. */
         [class*="st-key-signals-panel-"] .signal-card:hover {
@@ -850,6 +858,16 @@ def _source_logo(source: str) -> str:
 
 
 _COMPANY_DOMAINS = {match_key(name): domain for name, domain in COMPANY_DOMAINS.items()}
+_PEOPLE = {match_key(name) for name in PEOPLE}
+
+
+def _is_person(name: str) -> bool:
+    return match_key(name) in _PEOPLE
+
+
+def _entity_icon(name: str) -> str:
+    """Person or organisation icon for an entity tag."""
+    return PERSON_ICON if _is_person(name) else ENTITY_ICON
 
 
 def _logo_dev_img(domain: str, token: str) -> str:
@@ -862,7 +880,10 @@ def _logo_dev_img(domain: str, token: str) -> str:
 
 def _company_logo(name: str) -> str:
     """A company's logo from logo.dev when its website is known (see
-    COMPANY_DOMAINS), otherwise an initials tile."""
+    COMPANY_DOMAINS), a person icon for a named person, otherwise an initials
+    tile."""
+    if _is_person(name):
+        return f'<span class="sc-logo sc-logo-initials sc-logo-person">{PERSON_ICON}</span>'
     token = _logo_dev_token()
     domain = _COMPANY_DOMAINS.get(match_key(name))
     if token and domain:
@@ -902,7 +923,7 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
     # Canonical names, so a company appears once however the source spelled it.
     entities = signal_entities(signal)
     tags = [
-        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{ENTITY_ICON}</span>'
+        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{_entity_icon(e)}</span>'
         f"{html.escape(e)}</span>"
         for e in entities[:MAX_ENTITY_TAGS]
     ]
@@ -1170,6 +1191,11 @@ def _date_span(members: list[dict]) -> str:
 
 SPARK_WEEKS = 13  # weekly buckets across the ~90-day clustering window
 SPARK_HEIGHT = 56  # px; the line's peak sits a little under the top
+# The line's colour at zero; it warms to cobalt with activity. The palest grey
+# that still clears 3:1 against white for a graphical mark.
+SPARK_COLD = "#8a8a8a"
+# How much cobalt the line has already reached at one signal.
+SPARK_WARM_SHARE = 0.7
 
 # Shared y-axis tops: even, so the midline label is a whole number too.
 _NICE_SCALES = (2, 4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100)
@@ -1205,7 +1231,8 @@ def _week_range(start: datetime) -> str:
 
 def _timeline(members: list[dict], now: datetime, scale: int) -> str:
     """Sparkline of signals per week across the clustering window, today at the
-    right: a 2px cobalt line over a 10% wash, an end-dot on this week. Shows at
+    right: a 2px line over a 10% wash, an end-dot on this week. The line runs
+    grey at zero and warms to cobalt as activity rises. Shows at
     a glance whether a pattern is a burst this week or a slow build over months.
 
     Every card on a tab shares one y-axis (`scale`, from the tab's busiest
@@ -1217,6 +1244,24 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
     tooltip with the week and its count. Pure CSS, so it's instant."""
     counts = _weekly_counts(members, now)
     top = 4  # headroom so the line's cap and the end-dot aren't clipped
+
+    # Heat: grey at zero; clearly blue from the first signal (SPARK_WARM_SHARE
+    # of cobalt), deepening to full cobalt at the tab's busiest week. Any
+    # activity reads as blue; more activity reads as deeper blue.
+    def share(c: float) -> float:
+        if c <= 0:
+            return 0.0
+        if scale <= 1:
+            return 1.0
+        return SPARK_WARM_SHARE + (1 - SPARK_WARM_SHARE) * (min(c, scale) - 1) / (scale - 1)
+
+    def heat(c: float) -> str:
+        return f"color-mix(in srgb, var(--pa-cobalt) {share(c) * 100:.0f}%, {SPARK_COLD})"
+
+    def mix_hex(f: float) -> str:
+        cold = [int(SPARK_COLD[i:i + 2], 16) for i in (1, 3, 5)]
+        warm = (0x00, 0x4F, 0xFF)
+        return "#" + "".join(f"{round(c + (w - c) * f):02x}" for c, w in zip(cold, warm))
     step = 100 / (SPARK_WEEKS - 1)
 
     def y(c: float) -> float:
@@ -1238,7 +1283,8 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
         columns.append(
             f'<div class="tl-col" style="left:{x0:.2f}%;width:{x1 - x0:.2f}%">'
             f'<span class="tl-guide" style="left:{at:.1f}%"></span>'
-            f'<span class="tl-hdot" style="left:{at:.1f}%;bottom:{bottom:.1f}%"></span>'
+            f'<span class="tl-hdot" style="left:{at:.1f}%;bottom:{bottom:.1f}%;'
+            f'background:{heat(c)}"></span>'
             f'<span class="tl-tip{edge}" style="left:{at:.1f}%;bottom:calc({bottom:.1f}% + 14px)">'
             f"<span>{_week_range(ws)}</span>"
             f"<b>{c} signal{'s' if c != 1 else ''}</b></span>"
@@ -1263,11 +1309,20 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
         '<div class="tl-track">'
         f'<svg class="tl-svg" viewBox="0 0 100 {SPARK_HEIGHT}" preserveAspectRatio="none" '
         'aria-hidden="true">'
+        # Heat runs up the chart in user space, so a given height is the same
+        # colour on every card: grey on the baseline, blue by one signal,
+        # full cobalt at the scale top.
+        f'<defs><linearGradient id="tl-heat" gradientUnits="userSpaceOnUse" '
+        f'x1="0" y1="{SPARK_HEIGHT}" x2="0" y2="{top}">'
+        f'<stop offset="0" stop-color="{SPARK_COLD}"/>'
+        f'<stop offset="{1 / scale:.3f}" stop-color="{mix_hex(SPARK_WARM_SHARE)}"/>'
+        '<stop offset="1" stop-color="#004FFF"/>'
+        "</linearGradient></defs>"
         f"{grid}"
         f'<path class="tl-area" d="{area}"/>'
         f'<path class="tl-line" d="{line}"/>'
         "</svg>"
-        f'<span class="tl-dot" style="bottom:{end_bottom:.1f}%"></span>'
+        f'<span class="tl-dot" style="bottom:{end_bottom:.1f}%;background:{heat(counts[-1])}"></span>'
         f'<div class="tl-cols">{"".join(columns)}</div>'
         "</div>"
         f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>This week</span></div>'
@@ -1278,7 +1333,7 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
 def _company_tags(companies: list[str], limit: int | None = MAX_COMPANY_TAGS) -> list[str]:
     shown = companies if limit is None else companies[:limit]
     tags = [
-        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{ENTITY_ICON}</span>'
+        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{_entity_icon(c)}</span>'
         f"{html.escape(c)}</span>"
         for c in shown
     ]

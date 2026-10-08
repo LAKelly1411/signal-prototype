@@ -74,6 +74,7 @@ def _svg(path: str, viewbox: str, size: int) -> str:
 
 LINK_ICON = _svg(LINK_16, "0 0 16 16", 16)
 ENTITY_ICON = _svg(CORPORATE_FARE_20, "0 0 20 20", 20)
+PERSON_ICON = _svg(_MS["person"], "0 -960 960 960", 20)
 
 # One icon per canonical category (src/categories.py TAXONOMY).
 _CATEGORY_ICON_NAMES = {
@@ -161,6 +162,66 @@ COMPANY_DOMAINS = {
     "Rank": "rank.com",
     "Rank Group": "rank.com",
     "William Hill": "williamhill.com",
+}
+
+# Named people, so they get a person icon rather than a company's building or
+# initials. Entities carry no type, and the shape of a name can't tell "Ruth
+# Evans" from "St Leger" (a race) or "Charles H Hill" (CHARLES H HILL LIMITED),
+# so this list was reviewed by hand against the signals that name each one.
+# The lasting fix is for the pipeline to ask Claude for each entity's type.
+PEOPLE = {
+    "Abouleyazid Mustafa Lubna",
+    "Alexandra Butler",
+    "Ann Allen",
+    "Annie Hampson",
+    "Anthony Francis Lane",
+    "Anya Hurlbert",
+    "Ayeni Ibukun Samson",
+    "Baroness Morgan",
+    "Clare Anderson",
+    "Edgar Wright",
+    "Elizabeth Karlsen",
+    "Ganan Kanagathurai",
+    "Hakan Kousetta",
+    "Helen Williams",
+    "James Twining",
+    "Jane Tranter",
+    "Janice Lane",
+    "John Healey",
+    "Judith Donovan",
+    "Katie Town",
+    "Lance Batchelor",
+    "Laura Miele",
+    "Lisa Nandy",
+    "Louie French",
+    "Mark Herbert",
+    "Marshall Manson",
+    "Maxwell Taylor",
+    "Monica Chadha",
+    "Mukesh Sharma",
+    "Pamela Taylor",
+    "Priya Guha",
+    "Rachel Reeves",
+    "Rebecca Crook",
+    "Rhodri Lewis",
+    "Richard Harris",
+    "Rosalind Polly Blakesley",
+    "Ruth Evans",
+    "Ryan Prince",
+    "Sanjeev Gupta",
+    "Sarah Fox",
+    "Sarah Gardner",
+    "Simon Cox",
+    "Song Liang",
+    "Stephen Deuchar",
+    "Stephen Dimmick",
+    "Sue Young",
+    "Tanya Cordrey",
+    "Tim Miller",
+    "Tom Solomon",
+    "Toufic Machnouk",
+    "Vicky Foxcroft",
+    "Zura Adam Galgerud",
 }
 
 SOURCE_NAMES = {
