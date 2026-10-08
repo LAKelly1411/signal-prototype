@@ -215,13 +215,17 @@ def inject_css() -> None:
         [class*="st-key-sectoropt-"] button > div > span { width: 100%; }
         [class*="st-key-sectoropt-"] [data-testid="stMarkdownContainer"] { flex: 1; }
         [class*="st-key-sectoropt-"] button p span { float: right; margin-left: 1.5rem; }
-        [class*="st-key-sectoropt-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+        /* Matched at the start of a class token, so no slug can collide. */
+        :is([class^="st-key-sectoropt-off-"], [class*=" st-key-sectoropt-off-"]) [data-testid="stIconMaterial"] { visibility: hidden; }
         /* "New sector" is a teaser for the premium add-on: visibly not clickable. */
         .st-key-sector-new button:disabled p,
         .st-key-sector-new button:disabled [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.45); }
         .st-key-sector-new button:disabled:hover { background: transparent; }
         /* Clear of the standfirst, which ends in markdown's -16px margin. */
         .st-key-sector-state, .st-key-sector-notice { margin-top: 1.5rem; }
+        /* Streamlit's element wrappers set visibility themselves, so every
+           descendant is hidden, not just the container. */
+        .st-key-health-reserve, .st-key-health-reserve * { visibility: hidden !important; }
         .sector-notice {
             font-family: var(--pa-font-data);
             font-size: 0.875rem;
@@ -1319,8 +1323,8 @@ def _sector_switcher(entries: list[dict], current: dict) -> None:
         for entry in entries:
             note = data.sector_note(entry)
             label = entry.get("name", entry["slug"]) + (f"  :gray[{note}]" if note else "")
-            _check_row(f"sectoropt-{entry['slug']}", label,
-                       entry["slug"] == current["slug"], _select_sector, (entry["slug"],))
+            _check_row(f"sectoropt-{entry['slug']}", label, entry["slug"] == current["slug"],
+                       _select_sector, (entry["slug"],), state_first=True)
         st.divider()
         st.button("New sector  :blue-background[PREMIUM]", key="sector-new",
                   icon=":material/add:", type="tertiary", width="stretch", disabled=True,
@@ -1639,11 +1643,21 @@ def _clear_filters(sources: list[str], categories: list[str]) -> None:
         state[_cat_key(c)] = True
 
 
-def _check_row(key: str, label: str, on: bool, on_click, args: tuple) -> None:
-    """A menu row with a cobalt tick when on (styled in inject_css)."""
+def _check_row(key: str, label: str, on: bool, on_click, args: tuple,
+               *, state_first: bool = False) -> None:
+    """A menu row with a cobalt tick when on (styled in inject_css). The key
+    gets the state appended (<key>-on), or with state_first inserted after the
+    first segment (sectoropt-on-<slug>), for keys ending in free text such as
+    a slug that might itself contain "-off"."""
+    state = "on" if on else "off"
+    if state_first:
+        prefix, _, rest = key.partition("-")
+        full_key = f"{prefix}-{state}-{rest}"
+    else:
+        full_key = f"{key}-{state}"
     st.button(
         label,
-        key=f"{key}-{'on' if on else 'off'}",
+        key=full_key,
         icon=":material/check:",
         type="tertiary",
         width="stretch",
@@ -2466,16 +2480,23 @@ def _humanise_age(delta_seconds: float) -> str:
     return f"{days} day{'s' if days != 1 else ''} ago"
 
 
-def render_health_strip(status: dict | None) -> None:
+def render_health_strip(status: dict | None, reserve: bool = False) -> None:
     """Freshness and source health at a glance. Without this a scraper whose
     page layout moved just goes quiet, and the feed looks like a slow news
-    week rather than a broken collector."""
-    if not status:
-        return
+    week rather than a broken collector.
 
-    try:
-        finished = datetime.fromisoformat(status["finished_at"])
-    except (KeyError, ValueError):
+    With reserve, a missing or unreadable status still takes the strip's
+    room (see _reserve_health_strip), so switching sectors doesn't move the
+    page."""
+    finished = None
+    if status:
+        try:
+            finished = datetime.fromisoformat(status["finished_at"])
+        except (KeyError, ValueError, TypeError):
+            pass
+    if finished is None:
+        if reserve:
+            _reserve_health_strip()
         return
 
     age = (datetime.now(timezone.utc) - finished).total_seconds()
@@ -2507,6 +2528,16 @@ def render_health_strip(status: dict | None) -> None:
     if failing:
         with st.expander("Which sources returned nothing?"):
             st.write(", ".join(sorted(failing)))
+
+
+def _reserve_health_strip() -> None:
+    """An invisible strip (two lines, as a strip with a detail usually wraps
+    to) and expander: the same boxes as a real status, so the bottom-aligned
+    header sits where it does for a sector that has one."""
+    with st.container(key="health-reserve"):
+        st.markdown('<div class="health-strip"><span>&nbsp;<br>&nbsp;</span></div>',
+                    unsafe_allow_html=True)
+        st.expander("Which sources returned nothing?")
 
 
 def _github_headers() -> dict:
@@ -2751,7 +2782,7 @@ def main() -> None:
     with status_col:
         with st.container(key="header-actions", horizontal=True, horizontal_alignment="right"):
             _watchlist_button()
-        render_health_strip(load_run_status(slug, legacy))
+        render_health_strip(load_run_status(slug, legacy), reserve=not legacy)
 
     name = current.get("name", slug)
     try:

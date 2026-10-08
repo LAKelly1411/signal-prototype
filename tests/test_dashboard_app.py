@@ -119,7 +119,7 @@ def test_switching_clears_filters(monkeypatch):
     at = app().run()
     at.session_state["f_min_score"] = 70
     at.session_state["wl_name"] = "Half-typed Ltd"
-    at.button(key="sectoropt-fintech-off").click().run()
+    at.button(key="sectoropt-off-fintech").click().run()
     assert not at.exception
     assert at.session_state["sector"] == "fintech"
     assert "f_min_score" not in at.session_state or at.session_state["f_min_score"] != 70
@@ -144,3 +144,33 @@ def test_legacy_when_base_unset(monkeypatch):
     serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=GAMBLING)})
     at = app(base=None).run()
     assert not at.exception and at.tabs
+
+
+def _expander_labels(at):
+    return [e.proto.label for e in at.get("expander")]
+
+
+def test_missing_run_status_reserves_the_strip(monkeypatch):
+    # No run_status.json for any sector: the header column still gets the
+    # strip's (hidden) boxes, so switching sectors doesn't move the page.
+    serve(monkeypatch, sector_routes())
+    at = app({"sector": "energy"}).run()
+    assert not at.exception
+    assert "Which sources returned nothing?" in _expander_labels(at)
+
+
+def test_legacy_without_run_status_reserves_nothing(monkeypatch):
+    serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=GAMBLING)})
+    at = app(base=None).run()
+    assert not at.exception
+    assert "Which sources returned nothing?" not in _expander_labels(at)
+
+
+def test_sector_row_keys_put_the_state_before_the_slug(monkeypatch):
+    # A slug may contain "-off"; the tick CSS keys off the state segment.
+    index = INDEX + [{"slug": "offshore-off", "name": "Offshore", "status": "setting_up"}]
+    serve(monkeypatch, sector_routes(index))
+    at = app().run()
+    assert not at.exception
+    assert at.button(key="sectoropt-on-gambling")
+    assert at.button(key="sectoropt-off-offshore-off")
