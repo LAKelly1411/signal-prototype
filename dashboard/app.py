@@ -10,6 +10,7 @@ import streamlit as st
 import yaml
 
 from dashboard.brand import (
+    COMPANY_DOMAINS,
     ENTITY_ICON,
     LINK_ICON,
     PA_LOGO_SVG,
@@ -19,6 +20,7 @@ from dashboard.brand import (
     category_icon,
     icon,
 )
+from src.entities import match_key
 from src.cluster import (
     CLUSTER_WINDOW_DAYS,
     MIN_THEME_COMPANIES,
@@ -838,17 +840,34 @@ def _source_logo(source: str) -> str:
     token = _logo_dev_token()
     domain = SOURCE_DOMAINS.get(source)
     if token and domain:
-        src = html.escape(
-            f"https://img.logo.dev/{domain}?token={token}&size=48&format=png&retina=true",
-            quote=True,
-        )
-        return f'<img class="sc-logo" src="{src}" alt="" loading="lazy">'
+        return _logo_dev_img(domain, token)
     logo = SOURCE_LOGOS.get(source)
     if logo:
         return f'<img class="sc-logo" src="{logo}" alt="">'
     initials = SOURCE_NAMES.get(source, (source, source[:3].upper()))[1]
     size = "sc-logo-sm" if len(initials) > 2 else ""
     return f'<span class="sc-logo sc-logo-initials {size}">{html.escape(initials)}</span>'
+
+
+_COMPANY_DOMAINS = {match_key(name): domain for name, domain in COMPANY_DOMAINS.items()}
+
+
+def _logo_dev_img(domain: str, token: str) -> str:
+    src = html.escape(
+        f"https://img.logo.dev/{domain}?token={token}&size=48&format=png&retina=true",
+        quote=True,
+    )
+    return f'<img class="sc-logo" src="{src}" alt="" loading="lazy">'
+
+
+def _company_logo(name: str) -> str:
+    """A company's logo from logo.dev when its website is known (see
+    COMPANY_DOMAINS), otherwise an initials tile."""
+    token = _logo_dev_token()
+    domain = _COMPANY_DOMAINS.get(match_key(name))
+    if token and domain:
+        return _logo_dev_img(domain, token)
+    return f'<span class="sc-logo sc-logo-initials">{html.escape(_initials(name))}</span>'
 
 
 def _relevance_ring(score: int) -> str:
@@ -1511,10 +1530,7 @@ def render_patterns(signals: list[dict]) -> None:
             Group(
                 id=cluster_id,
                 key=f"pcard-{cluster_id}",
-                tile_html=(
-                    '<span class="sc-logo sc-logo-initials">'
-                    f"{html.escape(_initials(primary))}</span>"
-                ),
+                tile_html=_company_logo(primary),
                 title=primary,
                 tier=heat_tier(heat)[0],
                 summary=verdict["summary"],

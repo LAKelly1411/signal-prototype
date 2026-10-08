@@ -133,6 +133,36 @@ SOURCE_DOMAINS = {
     "parliament": "parliament.uk",
 }
 
+# Websites for companies that title patterns, for logo.dev lookups. Curated,
+# not guessed: logo.dev's lookup-by-name returned confident but wrong logos for
+# about half the pattern titles (a bike shop for "T33 Gaming", a wine merchant
+# for "St Leger"), so only companies whose site was checked to return their own
+# logo are listed. Keys are matched on match_key, so legal suffixes and
+# "The ..." don't matter. Anyone not listed keeps an initials tile.
+COMPANY_DOMAINS = {
+    "Allwyn": "allwyn.co.uk",
+    "bet365": "bet365.com",
+    "bet365 Group": "bet365.com",
+    "Betfair": "betfair.com",
+    "Coral": "coral.co.uk",
+    "Entain": "entaingroup.com",
+    "Entain Holdings (UK)": "entaingroup.com",
+    "evoke": "evokeplc.com",
+    "Evolution": "evolution.com",
+    "Evolution Malta": "evolution.com",
+    "Evolution Malta Holding": "evolution.com",
+    "Flutter": "flutter.com",
+    "Flutter Entertainment": "flutter.com",
+    "Grosvenor Casinos": "grosvenorcasinos.com",
+    "Ladbrokes": "ladbrokes.com",
+    "Ladbrokes Coral Group": "ladbrokes.com",
+    "Ministry of Housing, Communities and Local Government": "gov.uk",
+    "QuinnBet": "quinnbet.com",
+    "Rank": "rank.com",
+    "Rank Group": "rank.com",
+    "William Hill": "williamhill.com",
+}
+
 SOURCE_NAMES = {
     "asa": ("Advertising Standards Authority", "ASA"),
     "bgc": ("Betting and Gaming Council", "BGC"),
