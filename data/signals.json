@@ -279,48 +279,6 @@
     "theme_summary_for": "Policy and legislation:31f2393912c6:067ec139"
   },
   {
-    "id": "580086b86d577a19722828763a9da6af7438f2a9056bde43532c65bbfbd0008a",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/gamlg-annual-conference-john-pierce-speech",
-    "title": "GAMLG Annual Conference - John Pierce speech",
-    "raw_summary": "This speech was delivered by Director of Enforcement John Pierce at the Gambling Anti-Money Laundering Group (GAMLG) Annual Conference on 10 June 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
-    "published_at": "2026-06-10T00:00:00+00:00",
-    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "GAMLG",
-      "John Pierce"
-    ],
-    "newsworthiness_score": 40,
-    "why_it_matters": "Signals the Gambling Commission's enforcement priorities on anti-money laundering, useful for operators assessing compliance risk.",
-    "category": "AML policy commentary",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "GAMLG",
-      "John Pierce"
-    ],
-    "canonical_category": "AML and compliance failures",
-    "theme_id": null,
-    "cluster_summary": "Two overlapping reports cover the same GAMLG annual conference on anti-money laundering standards, with the Gambling Commission's John Pierce giving a policy speech and the BGC promoting the event. No enforcement action or regulatory change accompanies either.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 15,
-    "cluster_summary_for": "49489f6e63c776ae:cecdc011",
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
-    "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
-  },
-  {
     "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
     "source": "companies_house",
     "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
@@ -1070,48 +1028,6 @@
     "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139"
   },
   {
-    "id": "f0b89b82b96f08717f7096c7f8f0bce55c46e6ea618d1085cfc8ea88cce9449d",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/dribble-media-ltd-a26-1324908-dribble-media-ltd.html",
-    "title": "Dribble Media Ltd t/a Midnite",
-    "raw_summary": "Not upheld / Social media (influencer or affiliate ad): A TikTok post on Mia Mon’s account promoting an online betting platform didn’t feature someone who was likely to be of strong appeal to under-18s.",
-    "published_at": "2026-06-10T00:00:00+00:00",
-    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Dribble Media Ltd",
-      "Midnite",
-      "Mia Mon"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "ASA cleared a Midnite influencer ad of under-18 appeal concerns, offering a precedent for gambling affiliate marketing standards.",
-    "category": "advertising compliance",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Dribble Media",
-      "Midnite",
-      "Mia Mon"
-    ],
-    "canonical_category": "Advertising ruling",
-    "theme_id": null,
-    "cluster_summary": "Midnite's advertising drew ASA scrutiny twice in three months: a June ruling cleared an influencer ad of under-18 appeal concerns, but by August the ASA upheld multiple complaints against separate Midnite ads for linking gambling to escapism and harm.",
-    "cluster_pattern_type": "escalation",
-    "cluster_coherent": true,
-    "cluster_significance": 45,
-    "cluster_summary_for": "ad4c360870e770ba:cecdc011",
-    "theme_summary": "The ASA upheld complaints against Videoslots' Mr Vegas brand and BoyleSports within four weeks, both citing content likely to appeal to under-18s or encourage harmful betting patterns. Parliamentary questions on streaming ads and gambling advertising followed the same period, while DCMS opened a consultation on banning unlicensed sponsorship on 15 July.",
-    "theme_key_points": [
-      "ASA cleared Midnite's influencer ad on 10 June but upheld against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful-betting concerns",
-      "DCMS consultation launched 15 July targets sponsorship deals with unlicensed operators, a wider structural move beyond single-ad rulings",
-      "Three separate written parliamentary questions on gambling advertising and streaming filed between 30 June and 1 July",
-      "Scrutiny has moved from individual ASA case decisions toward policy-level consultation within a seven-week span"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:3e692317aca4:067ec139"
-  },
-  {
     "id": "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
     "source": "parliament",
     "source_id": "1922654",
@@ -1542,26 +1458,6 @@
       "Department of Health and Social Care"
     ],
     "canonical_category": "Player protection",
-    "theme_id": null
-  },
-  {
-    "id": "bd9c548141cbc867bcb6ab13d0a345e853753bd6e3b09dc4bd184c26cbdc2c2a",
-    "source": "parliament",
-    "source_id": "1915049",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-10/8935",
-    "title": "Written question: Drugs: Side Effects",
-    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, how many Yellow Card reports have (a) listed pramipexole, ropinirole, rotigotine and cabergoline as a suspected medicine and (b) included any reaction term relating to impulse control disorders, in\nA: The information requested on dopamine agonists is not held centrally nor held in the format requested and could only be obtained at disproportionate cost.Dopamine agonists encompass a range of medicines authorised for the management of Parkinson’s disease...",
-    "published_at": "2026-06-10T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029405+00:00",
-    "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": 5,
-    "why_it_matters": "This concerns drug side-effect reporting, not gambling, so it has negligible relevance to UK gambling industry journalists.",
-    "category": "unrelated health policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [],
-    "canonical_category": "Policy and legislation",
     "theme_id": null
   },
   {
@@ -2083,39 +1979,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Licence action:6fbadee3929b:067ec139"
-  },
-  {
-    "id": "e690266b90eb7fc049db042c49851878100c36cb3a971ed1d963c311aff27f77",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/327",
-    "title": "Western Social Club",
-    "raw_summary": "Sanction: Financial penalty",
-    "published_at": "2026-06-10T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.923253+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Western Social Club"
-    ],
-    "newsworthiness_score": 55,
-    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, useful for tracking enforcement trends against smaller operators.",
-    "category": "AML/compliance enforcement",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Western Social Club"
-    ],
-    "canonical_category": "AML and compliance failures",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission issued financial penalties against seven operators between June and August 2026, ranging from small clubs to charity lotteries to Gibraltar-licensed remote betting firms. Petfre and QuinnBet drew the largest sums, £900,000 and £609,104 respectively, for regulatory failures.",
-    "theme_key_points": [
-      "Penalties landed roughly every two to three weeks: June 10, 19, 30; July 9, 31; August 20.",
-      "Petfre (Gibraltar) fined £900,000 on 30 June, the largest sum in the run.",
-      "QuinnBet (Gibraltar) settled for £609,104 on 20 August, covering penalty and costs.",
-      "Enforcement reached beyond mainstream betting to a charity lottery operator, Concern Worldwide UK, and social clubs Western Social Club and Holland Park Leisure."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:4cb45bc1d606:067ec139"
   },
   {
     "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
@@ -3384,44 +3247,6 @@
     "theme_summary_for": "Corporate filing:35878b75c0be:067ec139"
   },
   {
-    "id": "f4c59b7ec0173da1a83c254c28dd73351eb2d7d7094f1995e90ed2d8c71a3b86",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/notification-of-transactions-by-pdmr/9609745",
-    "title": "evoke: Notification of Transactions by PDMR",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-06-09T15:30:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926403+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Routine director dealing disclosure offers minor insight into insider sentiment at evoke, parent of 888 and William Hill.",
-    "category": "PDMR share dealing",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Evoke, parent of William Hill and 888, is moving through a formal scheme of arrangement: timing announced in early July, scheme document published July 21, and court and general meeting approvals confirmed August 17, pointing towards completion of a corporate restructuring or takeover. Routine PDMR dealings, voting rights notices and H1 results run alongside as background noise.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
-    "cluster_summary_for": "ef4de6040ee057c2:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, while Flutter and evoke (William Hill's parent) posted periodic holdings disclosures over the same period. Evoke's run culminated in a court-approved scheme of arrangement in mid-August, marking the one filing with real structural weight.",
-    "theme_key_points": [
-      "Entain filed at least nine TR-1 major holdings notifications between 10 June and 27 August 2026.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) confirms a scheme of arrangement affecting its ownership structure.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices in June (15th, 26th, 30th).",
-      "Evoke also filed routine PDMR dealing and Total Voting Rights disclosures, alongside four shareholding notices from June to August."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:16d237327ee3:067ec139"
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -4321,16 +4146,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
@@ -4639,16 +4463,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
@@ -4678,16 +4501,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
@@ -4764,7 +4586,7 @@
       "Dench eGaming Solutions"
     ],
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action",
+    "theme_id": null,
     "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
     "theme_key_points": [
       "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
@@ -5839,16 +5661,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
@@ -6152,16 +5973,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
@@ -7628,16 +7448,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
@@ -7663,16 +7482,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
@@ -9154,16 +8972,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
@@ -10314,16 +10131,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
@@ -10578,16 +10394,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
@@ -11436,16 +11251,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
@@ -11471,16 +11285,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   },
   {
     "id": "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
@@ -11511,15 +11324,14 @@
     "cluster_coherent": true,
     "cluster_significance": 58,
     "cluster_summary_for": "f600a9055b87e368:cecdc011",
-    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
     "theme_key_points": [
-      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
-      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
-      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
-      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
-      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
+      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
+      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
+      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139"
+    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
   }
 ]
