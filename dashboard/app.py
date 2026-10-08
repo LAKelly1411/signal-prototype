@@ -367,13 +367,17 @@ def inject_css() -> None:
         .tl-svg { display: block; width: 100%; height: 100%; overflow: visible; }
         .tl-line {
             fill: none;
-            stroke: url(#tl-heat);
+            stroke: var(--pa-cobalt);
             stroke-width: 2px;
             stroke-linejoin: round;
             stroke-linecap: round;
             vector-effect: non-scaling-stroke;
         }
-        .tl-area { fill: url(#tl-heat); fill-opacity: 0.1; stroke: none; }
+        .tl-area { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
+        /* Quiet stretches (no signals either side) in grey: the palest grey
+           that still clears 3:1 against white for a graphical mark. */
+        .tl-line.tl-line-quiet { stroke: #8a8a8a; }
+        .tl-dot.tl-quiet, .tl-hdot.tl-quiet { background: #8a8a8a; }
         /* Hover layer: a column per week, above the card's click overlay so
            list cards get tooltips too (the page script forwards clicks). */
         .tl-cols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
@@ -1191,11 +1195,6 @@ def _date_span(members: list[dict]) -> str:
 
 SPARK_WEEKS = 13  # weekly buckets across the ~90-day clustering window
 SPARK_HEIGHT = 56  # px; the line's peak sits a little under the top
-# The line's colour at zero; it warms to cobalt with activity. The palest grey
-# that still clears 3:1 against white for a graphical mark.
-SPARK_COLD = "#8a8a8a"
-# How much cobalt the line has already reached at one signal.
-SPARK_WARM_SHARE = 0.7
 
 # Shared y-axis tops: even, so the midline label is a whole number too.
 _NICE_SCALES = (2, 4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100)
@@ -1231,45 +1230,51 @@ def _week_range(start: datetime) -> str:
 
 def _timeline(members: list[dict], now: datetime, scale: int) -> str:
     """Sparkline of signals per week across the clustering window, today at the
-    right: a 2px line over a 10% wash, an end-dot on this week. The line runs
-    grey at zero and warms to cobalt as activity rises. Shows at
-    a glance whether a pattern is a burst this week or a slow build over months.
+    right: a 2px line over a 10% wash, an end-dot on this week. Shows at a
+    glance whether a pattern is a burst this week or a slow build over months.
 
-    Every card on a tab shares one y-axis (`scale`, from the tab's busiest
-    week), marked by faint gridlines at half and full height, so a peak of one
-    signal no longer looks as big as a peak of fifteen. No axis numbers: the
-    hover tooltip gives exact counts.
+    Every card on a tab shares one y-axis (`scale`, the tab's busiest week,
+    marked by a faint gridline), so heights compare across cards. The axis is
+    square-root: counts are heavily skewed (on Themes one wave peaks at 36 a
+    week while most peak at 2-3), and on a linear axis a week of 2 drew at 5%
+    height, indistinguishable from the baseline. Square root keeps the order
+    and the outlier tallest while small counts stay readable. No axis numbers:
+    the hover tooltip gives exact counts.
+
+    Two colours, no blend: segments grey where both weeks are empty, cobalt
+    wherever a week has signals.
 
     Hovering snaps to the nearest week: a dot on the line, a faint guide and a
     tooltip with the week and its count. Pure CSS, so it's instant."""
     counts = _weekly_counts(members, now)
     top = 4  # headroom so the line's cap and the end-dot aren't clipped
-
-    # Heat: grey at zero; clearly blue from the first signal (SPARK_WARM_SHARE
-    # of cobalt), deepening to full cobalt at the tab's busiest week. Any
-    # activity reads as blue; more activity reads as deeper blue.
-    def share(c: float) -> float:
-        if c <= 0:
-            return 0.0
-        if scale <= 1:
-            return 1.0
-        return SPARK_WARM_SHARE + (1 - SPARK_WARM_SHARE) * (min(c, scale) - 1) / (scale - 1)
-
-    def heat(c: float) -> str:
-        return f"color-mix(in srgb, var(--pa-cobalt) {share(c) * 100:.0f}%, {SPARK_COLD})"
-
-    def mix_hex(f: float) -> str:
-        cold = [int(SPARK_COLD[i:i + 2], 16) for i in (1, 3, 5)]
-        warm = (0x00, 0x4F, 0xFF)
-        return "#" + "".join(f"{round(c + (w - c) * f):02x}" for c, w in zip(cold, warm))
     step = 100 / (SPARK_WEEKS - 1)
 
     def y(c: float) -> float:
-        return SPARK_HEIGHT - min(c, scale) / scale * (SPARK_HEIGHT - top)
+        return SPARK_HEIGHT - (min(c, scale) / scale) ** 0.5 * (SPARK_HEIGHT - top)
 
     points = [(i * step, y(c)) for i, c in enumerate(counts)]
-    line = "M" + " L".join(f"{x:.2f},{yy:.2f}" for x, yy in points)
-    area = f"{line} L100,{SPARK_HEIGHT} L0,{SPARK_HEIGHT} Z"
+
+    def path(pts: list[tuple[float, float]]) -> str:
+        return "M" + " L".join(f"{x:.2f},{yy:.2f}" for x, yy in pts)
+
+    # Runs of consecutive segments sharing a state, each drawn as one path.
+    runs: list[tuple[bool, list[tuple[float, float]]]] = []
+    for i in range(SPARK_WEEKS - 1):
+        active = counts[i] > 0 or counts[i + 1] > 0
+        if runs and runs[-1][0] == active:
+            runs[-1][1].append(points[i + 1])
+        else:
+            runs.append((active, [points[i], points[i + 1]]))
+    # Grey first so cobalt sits on top where the two meet.
+    lines = "".join(
+        f'<path class="{"tl-line" if active else "tl-line tl-line-quiet"}" d="{path(pts)}"/>'
+        for active, pts in sorted(runs, key=lambda r: r[0])
+    )
+    area = f"{path(points)} L100,{SPARK_HEIGHT} L0,{SPARK_HEIGHT} Z"
+
+    def dot_class(c: int) -> str:
+        return "" if c > 0 else " tl-quiet"
 
     week_starts = [now - timedelta(days=7 * (SPARK_WEEKS - i)) for i in range(SPARK_WEEKS)]
     columns = []
@@ -1283,8 +1288,7 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
         columns.append(
             f'<div class="tl-col" style="left:{x0:.2f}%;width:{x1 - x0:.2f}%">'
             f'<span class="tl-guide" style="left:{at:.1f}%"></span>'
-            f'<span class="tl-hdot" style="left:{at:.1f}%;bottom:{bottom:.1f}%;'
-            f'background:{heat(c)}"></span>'
+            f'<span class="tl-hdot{dot_class(c)}" style="left:{at:.1f}%;bottom:{bottom:.1f}%"></span>'
             f'<span class="tl-tip{edge}" style="left:{at:.1f}%;bottom:calc({bottom:.1f}% + 14px)">'
             f"<span>{_week_range(ws)}</span>"
             f"<b>{c} signal{'s' if c != 1 else ''}</b></span>"
@@ -1299,30 +1303,16 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
     )
     end_bottom = (SPARK_HEIGHT - points[-1][1]) / SPARK_HEIGHT * 100
     start = week_starts[0]
-
-    grid = "".join(
-        f'<line class="tl-grid" x1="0" x2="100" y1="{y(v):.2f}" y2="{y(v):.2f}"/>'
-        for v in (scale / 2, scale)
-    )
     return (
         f'<div class="tl" role="img" aria-label="{html.escape(label, quote=True)}">'
         '<div class="tl-track">'
         f'<svg class="tl-svg" viewBox="0 0 100 {SPARK_HEIGHT}" preserveAspectRatio="none" '
         'aria-hidden="true">'
-        # Heat runs up the chart in user space, so a given height is the same
-        # colour on every card: grey on the baseline, blue by one signal,
-        # full cobalt at the scale top.
-        f'<defs><linearGradient id="tl-heat" gradientUnits="userSpaceOnUse" '
-        f'x1="0" y1="{SPARK_HEIGHT}" x2="0" y2="{top}">'
-        f'<stop offset="0" stop-color="{SPARK_COLD}"/>'
-        f'<stop offset="{1 / scale:.3f}" stop-color="{mix_hex(SPARK_WARM_SHARE)}"/>'
-        '<stop offset="1" stop-color="#004FFF"/>'
-        "</linearGradient></defs>"
-        f"{grid}"
+        f'<line class="tl-grid" x1="0" x2="100" y1="{y(scale):.2f}" y2="{y(scale):.2f}"/>'
         f'<path class="tl-area" d="{area}"/>'
-        f'<path class="tl-line" d="{line}"/>'
+        f"{lines}"
         "</svg>"
-        f'<span class="tl-dot" style="bottom:{end_bottom:.1f}%;background:{heat(counts[-1])}"></span>'
+        f'<span class="tl-dot{dot_class(counts[-1])}" style="bottom:{end_bottom:.1f}%"></span>'
         f'<div class="tl-cols">{"".join(columns)}</div>'
         "</div>"
         f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>This week</span></div>'
