@@ -23,6 +23,7 @@ from dashboard.brand import (
     category_icon,
     icon,
 )
+from dashboard import data
 from src.entities import match_key
 from src.cluster import (
     CLUSTER_WINDOW_DAYS,
@@ -37,9 +38,6 @@ st.set_page_config(page_title="Sector Signal", layout="wide")
 
 GITHUB_OWNER = "LAKelly1411"
 GITHUB_REPO = "signal-prototype"
-# The pipeline reads dashboard additions from the gambling sector's user file
-# (src/sectors.py merges its "operators" key).
-USER_WATCHLIST_PATH = "config/sectors/gambling.user.yaml"
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp in PA ink:
 # outline -> sunken grey -> solid ink, light->dark mapping low->high newsworthiness.
@@ -178,6 +176,36 @@ def inject_css() -> None:
             letter-spacing: 0.005em;
             color: var(--pa-ink);
             margin: 0.75rem 0 0.5rem 0;
+        }
+        /* The sector switcher: the popover's trigger set as the page title. */
+        .st-key-pop-sector [data-testid="stPopoverButton"] {
+            border: none;
+            background: transparent;
+            padding: 0;
+            height: 3.6rem;
+            min-height: 3.6rem;
+            margin: 0.75rem 0 0.5rem 0;
+            justify-content: flex-start;
+        }
+        .st-key-pop-sector [data-testid="stPopoverButton"] p {
+            font-family: var(--pa-font-heading);
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 1.0833;
+            letter-spacing: 0.005em;
+            color: var(--pa-ink);
+            white-space: nowrap;
+        }
+        .st-key-pop-sector [data-testid="stPopoverButton"]:hover p { color: var(--pa-cobalt); }
+        [data-testid="stPopoverBody"]:has([class*="st-key-sectoropt-"]) { min-width: 320px; }
+        [class*="st-key-sectoropt-"] button p span { float: right; margin-left: 1.5rem; }
+        .sector-notice {
+            font-family: var(--pa-font-data);
+            font-size: 0.875rem;
+            color: #5c5c5c;
+            border-left: 4px solid var(--pa-ink);
+            padding: 4px 12px;
+            margin: 0 0 8px 0;
         }
         .pa-standfirst {
             font-family: var(--pa-font-body);
@@ -1240,30 +1268,44 @@ def inject_css() -> None:
     )
 
 
-def render_masthead(show_intro: bool = True) -> None:
+def render_masthead(entries: list[dict] | None = None, current: dict | None = None) -> None:
     """PA lockup — the mark beside the product name set as two ink blocks, as on
-    the Media Briefings header — then kicker, title and standfirst."""
-    intro = ""
-    if show_intro:
-        intro = (
-            '<span class="pa-kicker">Gambling &amp; gaming</span>'
-            '<div class="pa-title">Sector Signal</div>'
-            '<p class="pa-standfirst">Sector signals, scored for newsworthiness.</p>'
-        )
+    the Media Briefings header — then the sector switcher and standfirst. The
+    login page passes nothing and gets the lockup alone."""
     st.markdown(
         '<div class="pa-masthead"><div class="pa-lockup">'
         f"{PA_LOGO_SVG}"
         '<span class="pa-wordmark"><span>Sector</span><span>Signal</span></span>'
-        f'</div>{intro}<span class="pa-font-warm" aria-hidden="true">a<b>a</b></span></div>',
+        '</div><span class="pa-font-warm" aria-hidden="true">a<b>a</b></span></div>',
         unsafe_allow_html=True,
     )
+    if entries is None or current is None:
+        return
+    st.markdown('<span class="pa-kicker">Sector</span>', unsafe_allow_html=True)
+    _sector_switcher(entries, current)
+    st.markdown('<p class="pa-standfirst">Sector signals, scored for newsworthiness.</p>',
+                unsafe_allow_html=True)
+
+
+def _sector_switcher(entries: list[dict], current: dict) -> None:
+    """The sector name, set as the page title, opening a menu of sectors."""
+    with st.popover(current.get("name", current["slug"]), key="pop-sector"):
+        for entry in entries:
+            note = data.sector_note(entry)
+            label = entry.get("name", entry["slug"]) + (f"  :gray[{note}]" if note else "")
+            _check_row(f"sectoropt-{entry['slug']}", label,
+                       entry["slug"] == current["slug"], _select_sector, (entry["slug"],))
+        st.divider()
+        st.button("New sector  :blue-background[PREMIUM]", key="sector-new",
+                  icon=":material/add:", type="tertiary", width="stretch", disabled=True,
+                  help="Creating sectors arrives with the premium add-on.")
 
 
 def check_password() -> bool:
     if st.session_state.get("authenticated"):
         return True
 
-    render_masthead(show_intro=False)
+    render_masthead()
     password = st.text_input("Password", type="password")
     if password:
         if password == st.secrets["DASHBOARD_PASSWORD"]:
@@ -1274,26 +1316,58 @@ def check_password() -> bool:
     return False
 
 
-@st.cache_data(ttl=600)
-def load_signals() -> list[dict]:
-    resp = requests.get(st.secrets["DATA_RAW_URL"], timeout=20)
-    resp.raise_for_status()
-    return resp.json()
-
-
-@st.cache_data(ttl=600)
-def load_run_status() -> dict | None:
-    """Pipeline health, published next to the signals file. Absent on older
-    data or if the URL isn't configured — the strip just hides itself."""
-    url = st.secrets.get("RUN_STATUS_RAW_URL")
-    if not url:
-        return None
+def _secret(name: str) -> str | None:
     try:
-        resp = requests.get(url, timeout=20)
-        resp.raise_for_status()
-        return resp.json()
+        return st.secrets.get(name)
     except Exception:
         return None
+
+
+@st.cache_data(ttl=600)
+def load_index() -> list[dict] | None:
+    return data.load_index(_secret("DATA_BASE_URL"))
+
+
+@st.cache_data(ttl=600)
+def load_signals(slug: str, legacy: bool) -> list[dict]:
+    if legacy:
+        return data.load_legacy_signals(st.secrets["DATA_RAW_URL"])
+    return data.load_signals(_secret("DATA_BASE_URL"), slug)
+
+
+@st.cache_data(ttl=600)
+def load_run_status(slug: str, legacy: bool) -> dict | None:
+    """Pipeline health, published next to the signals file. Absent on older
+    data or if the URL isn't configured — the strip just hides itself."""
+    if legacy:
+        return data.load_legacy_status(_secret("RUN_STATUS_RAW_URL"))
+    return data.load_run_status(_secret("DATA_BASE_URL"), slug)
+
+
+@st.cache_resource
+def sector_rules(slug: str):
+    return data.sector_rules(slug)
+
+
+SECTOR = "sector"  # session-state key: the slug being shown
+
+
+def _select_sector(slug: str) -> None:
+    """Switcher callback: show another sector, starting from clean filters.
+    Filter, sort and watchlist-form state is all keyed f_* / wl_*, and none of
+    it means anything in another sector (different sources, categories and
+    companies)."""
+    st.query_params["sector"] = slug
+    for key in [k for k in st.session_state if str(k).startswith(("f_", "wl_"))]:
+        del st.session_state[key]
+
+
+def _current_slug() -> str:
+    return st.session_state.get(SECTOR, data.GAMBLING)
+
+
+def _current_sector_name() -> str:
+    return st.session_state.get("sector_name", "this sector")
 
 
 def safe_url(url: str) -> str:
@@ -2125,6 +2199,13 @@ _RESIZE_SCRIPT = """
           if (btn && btn.getAttribute("aria-expanded") === "true") btn.click();
         }, 0);
       }
+      // Close the sector menu once a sector is chosen.
+      if (e.target.closest && e.target.closest('[class*="st-key-sectoropt-"] button')) {
+        setTimeout(() => {
+          const btn = doc.querySelector('.st-key-pop-sector [data-testid="stPopoverButton"]');
+          if (btn && btn.getAttribute("aria-expanded") === "true") btn.click();
+        }, 0);
+      }
       // The sparkline's hover layer sits above a card's click overlay; a click
       // on it still means "select this card".
       const col = e.target.closest && e.target.closest(".tl-col");
@@ -2188,7 +2269,7 @@ def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
         _group_card(group, now, group.id == selected, state_key)
 
 
-def render_patterns(signals: list[dict]) -> None:
+def render_patterns(signals: list[dict], sector) -> None:
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
     grouped = group_by_cluster(scored)
 
@@ -2239,7 +2320,7 @@ def render_patterns(signals: list[dict]) -> None:
         # multi-company cluster is named after whoever it's actually about.
         # The rest become tags instead of a "+3 more" that hides them.
         counts = Counter(e for m in members for e in signal_entities(m))
-        companies = [n for n, _ in counts.most_common() if not is_excluded(n)]
+        companies = [n for n, _ in counts.most_common() if not is_excluded(n, sector)]
         primary = companies[0] if companies else "Unnamed pattern"
 
         sources = {m["source"] for m in members}
@@ -2277,7 +2358,7 @@ _DIRECTION_TAGS = {
 }
 
 
-def render_themes(signals: list[dict]) -> None:
+def render_themes(signals: list[dict], sector) -> None:
     """Patterns across companies rather than about one. A run of small
     operators being wound up is a sector story that company clustering can
     never see, because every signal names someone different."""
@@ -2301,7 +2382,7 @@ def render_themes(signals: list[dict]) -> None:
     )
 
     themes = sorted(
-        ((compute_theme_heat(members), theme, members)
+        ((compute_theme_heat(members, sector=sector), theme, members)
          for theme, members in grouped.items()),
         reverse=True,
         key=lambda t: t[0],
@@ -2309,7 +2390,7 @@ def render_themes(signals: list[dict]) -> None:
 
     groups = []
     for heat, theme, members in themes:
-        counts = Counter(e for m in members for e in signal_entities(m) if not is_excluded(e))
+        counts = Counter(e for m in members for e in signal_entities(m) if not is_excluded(e, sector))
         companies = [n for n, _ in counts.most_common()]
         company_word = "company" if len(companies) == 1 else "companies"
 
@@ -2406,7 +2487,7 @@ def _github_headers() -> dict:
 def _fetch_user_watchlist() -> tuple[dict, str | None]:
     url = (
         f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
-        f"/contents/{USER_WATCHLIST_PATH}"
+        f"/contents/{data.user_watchlist_path(_current_slug())}"
     )
     resp = requests.get(url, headers=_github_headers(), timeout=20)
     if resp.status_code == 404:
@@ -2414,15 +2495,15 @@ def _fetch_user_watchlist() -> tuple[dict, str | None]:
     resp.raise_for_status()
     payload = resp.json()
     content = base64.b64decode(payload["content"]).decode("utf-8")
-    data = yaml.safe_load(content) or {"operators": []}
-    return data, payload["sha"]
+    watchlist = yaml.safe_load(content) or {"operators": []}
+    return watchlist, payload["sha"]
 
 
 def add_operator_to_watchlist(
     name: str, company_number: str, aliases: str, notes: str
 ) -> None:
-    data, sha = _fetch_user_watchlist()
-    data.setdefault("operators", []).append(
+    watchlist, sha = _fetch_user_watchlist()
+    watchlist.setdefault("operators", []).append(
         {
             "name": name,
             "company_number": company_number or None,
@@ -2430,12 +2511,12 @@ def add_operator_to_watchlist(
             "notes": notes,
         }
     )
-    new_content = yaml.safe_dump(data, sort_keys=False, allow_unicode=True)
+    new_content = yaml.safe_dump(watchlist, sort_keys=False, allow_unicode=True)
     encoded = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
 
     url = (
         f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
-        f"/contents/{USER_WATCHLIST_PATH}"
+        f"/contents/{data.user_watchlist_path(_current_slug())}"
     )
     body = {
         "message": f"Add {name} to watchlist via dashboard",
@@ -2532,8 +2613,9 @@ def _submit_watchlist() -> None:
 @st.dialog("Add a company to the watchlist", width="medium")
 def _watchlist_dialog() -> None:
     """Three steps: an illustrated intro, the form, then confirmation. The
-    form adds the company to config/sectors/gambling.user.yaml via GitHub; the
-    pipeline picks it up on its next run."""
+    form adds the company to the current sector's user file
+    (config/sectors/<slug>.user.yaml) via GitHub; the pipeline picks it up on
+    its next run."""
     step = st.session_state.get(WL_STEP, "intro")
 
     if step == "intro":
@@ -2542,8 +2624,9 @@ def _watchlist_dialog() -> None:
             '<div class="wl-headline">Keep an eye on a company</div>'
             '<p class="wl-copy">Add a company you care about and we\'ll keep watch for news '
             "about it. New signals will show up in your feed as they happen.</p>"
-            '<p class="wl-copy wl-muted">All you need is its name. If you know its Companies '
-            "House number, add that too for fuller coverage.</p>",
+            f'<p class="wl-copy wl-muted">It\'s added to {html.escape(_current_sector_name())}. '
+            "All you need is its name. If you know its Companies House number, add that "
+            "too for fuller coverage.</p>",
             unsafe_allow_html=True,
         )
         st.button("Get started", key="wl-start", type="primary", width="stretch",
@@ -2602,13 +2685,13 @@ def _watchlist_button() -> None:
 # the whole app. Without them every click rebuilt all three tabs (~930 KB,
 # 212 signal cards) to change one selection.
 @st.fragment
-def _patterns_fragment(signals: list[dict]) -> None:
-    render_patterns(signals)
+def _patterns_fragment(signals: list[dict], sector) -> None:
+    render_patterns(signals, sector)
 
 
 @st.fragment
-def _themes_fragment(signals: list[dict]) -> None:
-    render_themes(signals)
+def _themes_fragment(signals: list[dict], sector) -> None:
+    render_themes(signals, sector)
 
 
 def main() -> None:
@@ -2616,17 +2699,49 @@ def main() -> None:
     st.html(_RESIZE_SCRIPT, unsafe_allow_javascript=True)
     if not check_password():
         return
+    index = load_index()
+    legacy = index is None
+    entries = data.order_index(data.LEGACY_INDEX if legacy else index)
+    if not entries:
+        entries = data.LEGACY_INDEX
+        legacy = True
+    slug = data.pick_sector(entries, st.query_params.get("sector"))
+    current = next(e for e in entries if e["slug"] == slug)
+    st.session_state[SECTOR] = slug
+    st.session_state["sector_name"] = current.get("name", slug)
+    sector = sector_rules(slug)
+
     # Title on the left and pipeline health on the right, rather than
     # stacked, so the feed starts higher up the page.
     title_col, status_col = st.columns([3, 2], vertical_alignment="bottom")
     with title_col:
-        render_masthead()
+        render_masthead(entries, current)
     with status_col:
         with st.container(key="header-actions", horizontal=True, horizontal_alignment="right"):
             _watchlist_button()
-        render_health_strip(load_run_status())
+        render_health_strip(load_run_status(slug, legacy))
 
-    signals = load_signals()
+    name = current.get("name", slug)
+    try:
+        signals = load_signals(slug, legacy)
+    except data.DataError:
+        _empty_block("Not available yet",
+                     f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
+        return
+
+    state = data.view_state(current, signals)
+    if state == "setting_up":
+        _empty_block("Setting up", f"We're gathering the first signals for {name}. "
+                     "This usually takes under an hour.")
+        return
+    if state == "error_empty":
+        _empty_block("Not available yet",
+                     f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
+        return
+    if state == "error_with_data":
+        with st.container(key="sector-notice"):
+            st.markdown('<p class="sector-notice">The last update didn\'t finish. '
+                        "Showing the latest data we have.</p>", unsafe_allow_html=True)
     # Only the open tab renders (on_change="rerun" gives each tab .open), so
     # the sidebar's feed filters appear only beside the Feed, and hidden tabs
     # cost nothing.
@@ -2645,10 +2760,10 @@ def main() -> None:
             render_feed(signals)
     if patterns_tab.open:
         with patterns_tab:
-            _patterns_fragment(signals)
+            _patterns_fragment(signals, sector)
     if themes_tab.open:
         with themes_tab:
-            _themes_fragment(signals)
+            _themes_fragment(signals, sector)
 
 
 main()
