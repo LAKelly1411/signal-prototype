@@ -7,7 +7,6 @@ from urllib.parse import urlparse
 
 import requests
 import streamlit as st
-import streamlit.components.v1 as components
 import yaml
 
 from dashboard.brand import (
@@ -375,7 +374,8 @@ def inject_css() -> None:
             position: relative;
             cursor: pointer;
         }
-        [class*="st-key-pcard-"][class*="-sel"], [class*="st-key-tcard-"][class*="-sel"] { cursor: default; }
+        [class*="st-key-pcard-"]:has(button:disabled),
+        [class*="st-key-tcard-"]:has(button:disabled) { cursor: default; }
         [class*="st-key-pcard-"] [data-testid="stElementContainer"]:has([data-testid="stButton"]),
         [class*="st-key-tcard-"] [data-testid="stElementContainer"]:has([data-testid="stButton"]) {
             position: absolute;
@@ -478,24 +478,31 @@ def inject_css() -> None:
         [class*="st-key-signals-panel-"] .sc-relevance { font-size: 0.8125rem; }
         [class*="st-key-signals-panel-"] .sc-relevance { padding: 4px 8px; }
         [class*="st-key-signals-panel-"] .sc-foot { flex-wrap: wrap; }
-        /* The resize script's zero-height component shouldn't add a gap. */
-        [data-testid="stElementContainer"]:has(> iframe[srcdoc*="paPreviewResize"]) {
-            position: absolute;
-            height: 0;
-            overflow: hidden;
-        }
+        /* The resize script's st.html block shouldn't add a gap. */
+        [data-testid="stElementContainer"]:has([data-testid="stHtml"] script) { display: none; }
         @media (max-width: 767px) {
+            /* Phones: a sheet along the bottom of the screen. */
             [data-testid="stLayoutWrapper"]:has(> [class*="st-key-signals-panel-"]) {
-                position: static;
+                top: auto;
+                left: 0;
                 width: 100%;
+                height: 55vh;
             }
-            [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) { padding-right: 0; }
-            [class*="st-key-signals-panel-"] { height: auto; border-left: none; border-top: 1px solid #cccccc; }
+            [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) {
+                padding-right: 0;
+                padding-bottom: 55vh;
+            }
+            [class*="st-key-signals-panel-"] {
+                border-left: none;
+                border-top: 1px solid #cccccc;
+                padding: 1.25rem 1rem 2rem 1rem;
+                box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
+            }
             .sp-resize { display: none; }
-            /* Inline under its card on phones, so the card's details would
-               repeat directly above; just the signals show. */
+            /* The selected card is in view above the sheet, so the sheet
+               leads with its signals rather than repeating the card. */
             [class*="st-key-signals-panel-"] .group-card-full { display: none; }
-            [class*="st-key-signals-panel-"] .sp-section { margin-top: 0; }
+            [class*="st-key-signals-panel-"] .sp-section { margin-top: 0; padding-top: 0; border-top: none; }
         }
 
         /* ── Freshness strip: PA status badge ─────────────────────── */
@@ -601,8 +608,8 @@ def inject_css() -> None:
             transform: translateY(0) scale(0.995);
             transition-duration: var(--dur-fast);
         }
-        [class*="st-key-pcard-"][class*="-sel"],
-        [class*="st-key-tcard-"][class*="-sel"] { outline-color: var(--pa-cobalt); }
+        [class*="st-key-pcard-"]:has(button:disabled),
+        [class*="st-key-tcard-"]:has(button:disabled) { outline-color: var(--pa-cobalt); }
         /* Signals inside the pane are bordered, not shadowed: they darken
            their border instead of lifting. */
         [class*="st-key-signals-panel-"] .signal-card:hover {
@@ -617,25 +624,16 @@ def inject_css() -> None:
             transition: color var(--dur-fast) var(--ease), background-color var(--dur-fast) var(--ease);
         }
 
-        /* The pane slides in when it opens and again when the selection
-           changes (it's keyed by selection, so it remounts). Fill mode is
+        /* The pane slides in when the tab opens. Switching selection updates
+           it in place, instantly: nothing waits on an animation. Fill mode is
            "backwards", not "both": a transform left on the pane after the
-           animation would capture its fixed resize handle, and one left on
-           the cards would block their hover lift. */
+           animation would capture its fixed resize handle. */
         @keyframes pa-pane-in {
             from { opacity: 0; transform: translateX(24px); }
             to { opacity: 1; transform: translateX(0); }
         }
-        @keyframes pa-rise {
-            from { opacity: 0; transform: translateY(8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
         [class*="st-key-signals-panel-"] {
             animation: pa-pane-in var(--dur-slow) var(--ease) backwards;
-        }
-        [class*="st-key-signals-panel-"] .signal-card {
-            animation: pa-rise var(--dur-slow) var(--ease) backwards;
-            animation-delay: 120ms;
         }
         /* Timeline ticks grow from the baseline, staggered left to right. */
         @keyframes pa-tick-grow {
@@ -1184,7 +1182,10 @@ def _group_html(group: Group, now: datetime, full: bool) -> str:
 
 def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> None:
     """A pattern or theme in the list. Clicking it fills the preview pane."""
-    with st.container(key=f"{group.key}{'-sel' if selected else ''}"):
+    # The key never changes, so selecting a card updates its button in place
+    # instead of remounting the card. CSS styles the selected card from the
+    # button's disabled state.
+    with st.container(key=group.key):
         st.markdown(_group_html(group, now, full=False), unsafe_allow_html=True)
         # Stretched invisibly over the whole card (see inject_css), so a click
         # anywhere on it selects it. The label is for screen readers.
@@ -1202,18 +1203,17 @@ def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> 
         )
 
 
-# Lets the reader drag the preview pane's left edge. Streamlit can't run
-# scripts from Markdown, so this rides in a zero-height component, whose iframe
-# is same-origin with the app and can reach the page. It sets --preview-width,
-# which sizes both the pane and the room the main column leaves for it, and
-# remembers the width in localStorage. Streamlit replaces the iframe on
-# re-render, and handlers owned by a discarded iframe stop firing, so each new
-# iframe removes its predecessor's handlers and installs its own.
+# Lets the reader drag the preview pane's left edge. Injected once per page
+# with st.html (scripts allowed) and installs delegated listeners, so it
+# survives Streamlit re-rendering the pane. Sets --preview-width, which sizes
+# both the pane and the room the main column leaves for it, and remembers the
+# width in localStorage. Re-running replaces the previous run's handlers rather
+# than stacking them.
 _RESIZE_SCRIPT = """
 <script>
 (() => {
-  const win = window.parent;
-  const doc = win.document;
+  const win = window;
+  const doc = document;
   const root = doc.documentElement;
   const KEY = "sector-signal-preview-width";
   const clamp = (px) => Math.max(320, Math.min(px, win.innerWidth * 0.7));
@@ -1261,10 +1261,11 @@ def _preview_pane(key: str, group: Group, now: datetime) -> None:
     """The selected pattern or theme in full, then its source signals, in a
     pane fixed to the window's right edge (see inject_css), apart from the
     title and the list. Only the active tab is in the DOM, so the pane appears
-    on Patterns and Themes and nowhere else."""
-    # Keyed by selection, so choosing another card remounts the pane and its
-    # entrance animation plays again.
-    with st.container(key=f"{key}-{group.key}"):
+    on Patterns and Themes and nowhere else. On phones it's a sheet along the
+    bottom of the screen."""
+    # Same key and same place in the page for every selection, so switching
+    # cards updates the pane's contents in place rather than rebuilding it.
+    with st.container(key=key):
         st.markdown(
             '<div class="sp-resize" role="separator" aria-orientation="vertical" '
             'aria-label="Resize preview" tabindex="0"></div>'
@@ -1274,7 +1275,6 @@ def _preview_pane(key: str, group: Group, now: datetime) -> None:
         )
         for m in sorted(group.members, key=lambda m: m["published_at"], reverse=True):
             render_card(m)
-    components.html(_RESIZE_SCRIPT, height=0)
 
 
 def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
@@ -1285,10 +1285,9 @@ def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
     selected = st.session_state.get(state_key)
     if selected not in ids:
         selected = ids[0]
+    _preview_pane(pane_key, next(g for g in groups if g.id == selected), now)
     for group in groups:
         _group_card(group, now, group.id == selected, state_key)
-        if group.id == selected:
-            _preview_pane(pane_key, group, now)
 
 
 def render_patterns(signals: list[dict]) -> None:
@@ -1584,8 +1583,22 @@ def render_watchlist_form() -> None:
                         )
 
 
+# Fragments: clicking a card or the quiet toggle reruns only its own tab, not
+# the whole app. Without them every click rebuilt all three tabs (~930 KB,
+# 212 signal cards) to change one selection.
+@st.fragment
+def _patterns_fragment(signals: list[dict]) -> None:
+    render_patterns(signals)
+
+
+@st.fragment
+def _themes_fragment(signals: list[dict]) -> None:
+    render_themes(signals)
+
+
 def main() -> None:
     inject_css()
+    st.html(_RESIZE_SCRIPT, unsafe_allow_javascript=True)
     if not check_password():
         return
     render_watchlist_form()
@@ -1603,9 +1616,9 @@ def main() -> None:
     with feed_tab:
         render_feed(signals)
     with patterns_tab:
-        render_patterns(signals)
+        _patterns_fragment(signals)
     with themes_tab:
-        render_themes(signals)
+        _themes_fragment(signals)
 
 
 main()
