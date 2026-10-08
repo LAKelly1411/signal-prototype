@@ -1,14 +1,17 @@
+import argparse
 import hashlib
 import json
 import logging
 import os
+import shutil
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
 
-from src import cluster, store
+from src import cluster, sectors, store
 from src.entities import build_alias_map
 from src.collectors.asa import ASACollector
 from src.collectors.bgc import BGCCollector
@@ -20,7 +23,13 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
-from src.sectors import Sector, load_sector
+from src.sectors import (
+    Sector,
+    list_sector_slugs,
+    load_sector,
+    refresh_index,
+    update_index,
+)
 from src.score import (
     cluster_summary_version,
     theme_summary_version,
@@ -33,7 +42,10 @@ from src.score import (
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-RUN_STATUS_PATH = Path("data/run_status.json")
+# The deployed dashboard still reads these; written after every gambling run
+# until stage 2 points it at data/gambling/.
+COMPAT_SIGNALS_PATH = Path("data/signals.json")
+COMPAT_STATUS_PATH = Path("data/run_status.json")
 
 
 DEFAULT_USER_AGENT = "Signal-Prototype/0.1"
@@ -137,7 +149,7 @@ def build_collectors(sector: Sector) -> list:
     return collectors
 
 
-def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
+def write_run_status(status: dict, path: Path) -> None:
     """Publish what the run actually did, so a silently broken scraper shows
     up in the dashboard instead of only in an Actions log nobody reads."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -145,13 +157,18 @@ def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
         json.dump(status, f, indent=2, ensure_ascii=False)
 
 
-def run() -> None:
-    load_dotenv()
+def write_compat_copy(sector: Sector) -> None:
+    COMPAT_SIGNALS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(sector.signals_path, COMPAT_SIGNALS_PATH)
+    shutil.copyfile(sector.run_status_path, COMPAT_STATUS_PATH)
+
+
+def run_sector(sector: Sector, client) -> dict:
+    """One sector, end to end: collect, score, cluster, summarise, save.
+    Everything it reads and writes lives under data/<slug>/."""
     started_at = datetime.now(timezone.utc)
-    sector = load_sector("gambling")
     collectors = build_collectors(sector)
     alias_map = build_alias_map(sector.companies)
-    client = build_client()
 
     raw_items = []
     source_status: dict[str, dict] = {}
@@ -163,7 +180,8 @@ def run() -> None:
             # One source's unexpected failure shouldn't take every other
             # source down with it — log it and move on.
             logger.exception(
-                "Collector %s failed — skipping, other sources unaffected", name
+                "[%s] Collector %s failed — skipping, other sources unaffected",
+                sector.slug, name,
             )
             source_status[name] = {"items": 0, "ok": False, "error": True}
             continue
@@ -175,43 +193,51 @@ def run() -> None:
             "ok": bool(collected),
             "error": False,
         }
-    logger.info("Collected %d raw items", len(raw_items))
+    logger.info("[%s] Collected %d raw items", sector.slug, len(raw_items))
 
     new_signals_by_id = {}
     for item in raw_items:
         signal = to_signal(item)
+        signal["sector"] = sector.slug
         new_signals_by_id[signal["id"]] = signal
 
-    existing = store.load()
+    existing = store.load(sector.signals_path)
     merged, added = store.merge_new(
-        existing, list(new_signals_by_id.values()), store.load_archived_ids()
+        existing,
+        list(new_signals_by_id.values()),
+        store.load_archived_ids(sector.archive_ids_path),
     )
+    for s in merged:
+        s.setdefault("sector", sector.slug)
 
     unscored = [s for s in merged if s.get("newsworthiness_score") is None]
     logger.info(
-        "%d new signals, %d unscored total (including retries of prior failures)",
-        len(added), len(unscored),
+        "[%s] %d new signals, %d unscored total (including retries of prior failures)",
+        sector.slug, len(added), len(unscored),
     )
 
     for signal in unscored:
-        score_signal(signal, client=client, alias_map=alias_map)
+        score_signal(signal, client=client, alias_map=alias_map, sector=sector)
 
-    cluster.assign_clusters(merged, alias_map=alias_map)
-    cluster.assign_themes(merged, alias_map=alias_map)
+    cluster.assign_clusters(merged, alias_map=alias_map, sector=sector)
+    cluster.assign_themes(merged, alias_map=alias_map, sector=sector)
     by_cluster = defaultdict(list)
     for s in merged:
         if s.get("cluster_id"):
             by_cluster[s["cluster_id"]].append(s)
     themes = {s["theme_id"] for s in merged if s.get("theme_id")}
-    logger.info("%d clusters and %d themes formed", len(by_cluster), len(themes))
+    logger.info(
+        "[%s] %d clusters and %d themes formed", sector.slug, len(by_cluster), len(themes)
+    )
 
+    cluster_version = cluster_summary_version(sector)
     for cluster_id, members in by_cluster.items():
         # Cache key covers both cluster membership and prompt wording, so
         # either changing invalidates it and triggers a re-summary.
-        cache_key = f"{cluster_id}:{cluster_summary_version()}"
+        cache_key = f"{cluster_id}:{cluster_version}"
         if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
-        verdict = summarize_cluster(members, client=client)
+        verdict = summarize_cluster(members, client=client, sector=sector)
         if verdict:
             for m in members:
                 m["cluster_summary"] = verdict["summary"]
@@ -225,16 +251,17 @@ def run() -> None:
         if s.get("theme_id"):
             by_theme[s["theme_id"]].append(s)
 
+    theme_version = theme_summary_version(sector)
     for theme, members in by_theme.items():
         # theme_id is stable, but membership isn't, so the cache key covers
         # who is in it as well as the prompt wording.
         members_hash = hashlib.sha256(
             "|".join(sorted(m["id"] for m in members)).encode("utf-8")
         ).hexdigest()[:12]
-        cache_key = f"{theme}:{members_hash}:{theme_summary_version()}"
+        cache_key = f"{theme}:{members_hash}:{theme_version}"
         if any(m.get("theme_summary_for") == cache_key for m in members):
             continue
-        verdict = summarize_theme(theme, members, client=client)
+        verdict = summarize_theme(theme, members, client=client, sector=sector)
         if verdict:
             for m in members:
                 m["theme_summary"] = verdict["summary"]
@@ -242,29 +269,80 @@ def run() -> None:
                 m["theme_direction"] = verdict["direction"]
                 m["theme_summary_for"] = cache_key
 
-    live = store.save(merged)
+    live = store.save(
+        merged,
+        path=sector.signals_path,
+        archive_dir=sector.archive_dir,
+        ids_path=sector.archive_ids_path,
+    )
     logger.info(
-        "Store now holds %d live signals (%d archived this run)",
-        len(live), len(merged) - len(live),
+        "[%s] Store now holds %d live signals (%d archived this run)",
+        sector.slug, len(live), len(merged) - len(live),
     )
 
-    write_run_status(
-        {
-            "started_at": started_at.isoformat(),
-            "finished_at": datetime.now(timezone.utc).isoformat(),
-            "sources": source_status,
-            "healthy_sources": sum(1 for s in source_status.values() if s["ok"]),
-            "total_sources": len(source_status),
-            "raw_items": len(raw_items),
-            "new_signals": len(added),
-            "unscored": sum(
-                1 for s in live if s.get("newsworthiness_score") is None
-            ),
-            "live_signals": len(live),
-            "clusters": len(by_cluster),
-        }
+    status = {
+        "sector": sector.slug,
+        "started_at": started_at.isoformat(),
+        "finished_at": datetime.now(timezone.utc).isoformat(),
+        "sources": source_status,
+        "healthy_sources": sum(1 for s in source_status.values() if s["ok"]),
+        "total_sources": len(source_status),
+        "raw_items": len(raw_items),
+        "new_signals": len(added),
+        "unscored": sum(1 for s in live if s.get("newsworthiness_score") is None),
+        "live_signals": len(live),
+        "clusters": len(by_cluster),
+    }
+    write_run_status(status, sector.run_status_path)
+    return status
+
+
+def main(argv: list[str] | None = None) -> int:
+    """Run every sector (or just --sector). Exit 0 when all succeed, 1 when
+    any sector failed, 2 for an unknown --sector."""
+    parser = argparse.ArgumentParser(
+        description="Collect, score and cluster signals per sector."
     )
+    parser.add_argument("--sector", help="run just this sector (default: every sector)")
+    args = parser.parse_args(argv)
+
+    load_dotenv()
+    available = list_sector_slugs()
+    if args.sector and args.sector not in available:
+        print(
+            f"No sector config named {args.sector!r} "
+            f"(available: {', '.join(available)})",
+            file=sys.stderr,
+        )
+        return 2
+    slugs = [args.sector] if args.sector else available
+    refresh_index(available)
+
+    client = build_client()
+    failed = False
+    for slug in slugs:
+        try:
+            sector = load_sector(slug)
+            status = run_sector(sector, client)
+            update_index(
+                slug, name=sector.name, brief=sector.brief, created_at=sector.created_at,
+                status="ready", last_run_at=status["finished_at"],
+                signal_count=status["live_signals"], error=None,
+            )
+            if slug == "gambling":
+                write_compat_copy(sector)
+        except Exception as exc:  # isolate: one sector's failure never stops the rest
+            failed = True
+            logger.exception("[%s] Sector run failed", slug)
+            now = datetime.now(timezone.utc).isoformat()
+            # Read at call time, not import time, so a patched data dir applies.
+            write_run_status(
+                {"sector": slug, "finished_at": now, "error": str(exc)},
+                sectors.DATA_DIR / slug / "run_status.json",
+            )
+            update_index(slug, status="error", error=str(exc), last_run_at=now)
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    run()
+    sys.exit(main())
