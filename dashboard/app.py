@@ -360,8 +360,51 @@ def inject_css() -> None:
             vector-effect: non-scaling-stroke;
         }
         .tl-area { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
-        .tl-hits rect { fill: transparent; }
-        .tl-hits rect:hover { fill: rgba(0, 79, 255, 0.06); }
+        /* Hover layer: a column per week, above the card's click overlay so
+           list cards get tooltips too (the page script forwards clicks). */
+        .tl-cols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
+        .tl-col { position: absolute; top: 0; bottom: 0; cursor: crosshair; }
+        .tl-guide, .tl-hdot, .tl-tip { position: absolute; opacity: 0; pointer-events: none; }
+        .tl-guide {
+            top: 8px;
+            bottom: 0;
+            width: 1px;
+            background: rgba(0, 79, 255, 0.25);
+            transform: translateX(-0.5px);
+        }
+        .tl-hdot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--pa-cobalt);
+            box-shadow: 0 0 0 2px var(--pa-paper);
+            transform: translate(-50%, 50%);
+        }
+        .tl-tip {
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            padding: 8px 12px;
+            background: #1f1f1f;
+            color: var(--pa-paper);
+            font-family: var(--pa-font-data);
+            font-size: 0.8125rem;
+            line-height: 1.25;
+            white-space: nowrap;
+            transform: translate(-50%, 4px);
+        }
+        .tl-tip b { font-size: 0.9375rem; font-weight: 700; }
+        .tl-tip.tl-tip-start { transform: translate(-12px, 4px); }
+        .tl-tip.tl-tip-end { transform: translate(calc(-100% + 12px), 4px); }
+        .tl-col:hover .tl-guide,
+        .tl-col:hover .tl-hdot { opacity: 1; }
+        .tl-col:hover .tl-tip { opacity: 1; transform: translate(-50%, 0); }
+        .tl-col:hover .tl-tip.tl-tip-start { transform: translate(-12px, 0); }
+        .tl-col:hover .tl-tip.tl-tip-end { transform: translate(calc(-100% + 12px), 0); }
+        .tl-guide, .tl-hdot, .tl-tip {
+            transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+        }
         .tl-dot {
             position: absolute;
             right: 0;
@@ -1118,13 +1161,23 @@ def _weekly_counts(members: list[dict], now: datetime) -> list[int]:
     return counts
 
 
+def _week_range(start: datetime) -> str:
+    """'18–24 Aug 2026', or '28 Jul – 3 Aug 2026' across a month boundary."""
+    end = start + timedelta(days=6)
+    if start.month == end.month:
+        return f"{start.day}–{end.day} {end:%b %Y}"
+    if start.year == end.year:
+        return f"{start.day} {start:%b} – {end.day} {end:%b %Y}"
+    return f"{start.day} {start:%b %Y} – {end.day} {end:%b %Y}"
+
+
 def _timeline(members: list[dict], now: datetime) -> str:
     """Sparkline of signals per week across the clustering window, today at the
     right: a 2px cobalt line over a 10% wash, an end-dot on this week. Shows at
     a glance whether a pattern is a burst this week or a slow build over months.
     Scaled per card, as sparklines are; the meta line carries the counts.
-    Each week is a hover target with its count (reachable in the preview pane;
-    in the list the whole card is the click target)."""
+    Hovering snaps to the nearest week: a dot on the line, a faint guide and a
+    tooltip with the week and its count. Pure CSS, so it's instant."""
     counts = _weekly_counts(members, now)
     peak = max(max(counts), 1)
     top = 4  # headroom so the line's cap and the end-dot aren't clipped
@@ -1138,12 +1191,23 @@ def _timeline(members: list[dict], now: datetime) -> str:
     area = f"{line} L100,{SPARK_HEIGHT} L0,{SPARK_HEIGHT} Z"
 
     week_starts = [now - timedelta(days=7 * (SPARK_WEEKS - i)) for i in range(SPARK_WEEKS)]
-    targets = "".join(
-        f'<rect x="{max(0, i * step - step / 2):.2f}" y="0" '
-        f'width="{step if 0 < i < SPARK_WEEKS - 1 else step / 2:.2f}" height="{SPARK_HEIGHT}">'
-        f"<title>w/c {ws.day} {ws:%b}: {c} signal{'s' if c != 1 else ''}</title></rect>"
-        for i, (ws, c) in enumerate(zip(week_starts, counts))
-    )
+    columns = []
+    for i, ((x, yy), ws, c) in enumerate(zip(points, week_starts, counts)):
+        # Each week owns the band halfway to its neighbours; the dot, guide and
+        # tooltip sit at the week's point within that band.
+        x0, x1 = max(0.0, x - step / 2), min(100.0, x + step / 2)
+        at = (x - x0) / (x1 - x0) * 100
+        bottom = (SPARK_HEIGHT - yy) / SPARK_HEIGHT * 100
+        edge = " tl-tip-start" if i < 2 else " tl-tip-end" if i > SPARK_WEEKS - 3 else ""
+        columns.append(
+            f'<div class="tl-col" style="left:{x0:.2f}%;width:{x1 - x0:.2f}%">'
+            f'<span class="tl-guide" style="left:{at:.1f}%"></span>'
+            f'<span class="tl-hdot" style="left:{at:.1f}%;bottom:{bottom:.1f}%"></span>'
+            f'<span class="tl-tip{edge}" style="left:{at:.1f}%;bottom:calc({bottom:.1f}% + 14px)">'
+            f"<span>{_week_range(ws)}</span>"
+            f"<b>{c} signal{'s' if c != 1 else ''}</b></span>"
+            "</div>"
+        )
 
     peak_week = week_starts[counts.index(max(counts))]
     label = (
@@ -1160,9 +1224,9 @@ def _timeline(members: list[dict], now: datetime) -> str:
         'aria-hidden="true">'
         f'<path class="tl-area" d="{area}"/>'
         f'<path class="tl-line" d="{line}"/>'
-        f'<g class="tl-hits">{targets}</g>'
         "</svg>"
         f'<span class="tl-dot" style="bottom:{end_bottom:.1f}%"></span>'
+        f'<div class="tl-cols">{"".join(columns)}</div>'
         "</div>"
         f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>This week</span></div>'
         "</div>"
@@ -1257,7 +1321,8 @@ def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> 
         )
 
 
-# Lets the reader drag the preview pane's left edge. Injected once per page
+# Lets the reader drag the preview pane's left edge, and forwards clicks on a
+# list card's sparkline to the card. Injected once per page
 # with st.html (scripts allowed) and installs delegated listeners, so it
 # survives Streamlit re-rendering the pane. Sets --preview-width, which sizes
 # both the pane and the room the main column leaves for it, and remembers the
@@ -1291,6 +1356,14 @@ _RESIZE_SCRIPT = """
       dragging = false;
       doc.body.classList.remove("sp-resizing");
       save();
+    },
+    click: (e) => {
+      // The sparkline's hover layer sits above a card's click overlay; a click
+      // on it still means "select this card".
+      const col = e.target.closest && e.target.closest(".tl-col");
+      const card = col && col.closest('[class*="st-key-pcard-"], [class*="st-key-tcard-"]');
+      const btn = card && card.querySelector("button");
+      if (btn && !btn.disabled) btn.click();
     },
     keydown: (e) => {
       if (!e.target.closest || !e.target.closest(".sp-resize")) return;
