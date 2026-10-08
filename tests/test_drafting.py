@@ -66,7 +66,10 @@ class TestSlugs:
         ("Gambling & gaming", "gambling-gaming"),
         ("  UK  Water -- Utilities ", "uk-water-utilities"),
         ("!!!", "sector"),
-        ("Ä" * 3, "sector"),
+        ("Ä" * 3, "aaa"),
+        ("日本語", "sector"),
+        ("Café", "cafe"),
+        ("Société Générale", "societe-generale"),
         ("x" * 80, "x" * 40),
     ])
     def test_slugify(self, name, expected):
@@ -265,3 +268,60 @@ def test_slugify_never_returns_invalid_slug():
     from src.sectors import SLUG_RE
     for name in ["a" * 39 + "-b", "a" * 39 + " b", "x-" * 30, "\n", "ab\n"]:
         assert SLUG_RE.fullmatch(drafting.slugify(name))
+
+
+class TestNamesMatch:
+    @pytest.mark.parametrize("registered,drafted,expected", [
+        ("BPX HOLDINGS LTD", "BP plc", False),
+        ("SHELLFISH TRADERS LTD", "Shell", False),
+        ("OCTOPUS THE ENERGY LTD", "The Co Ltd", False),
+        ("OCTOPUS ENERGY LIMITED", "Octopus Energy", True),
+        ("OCTOPUS ENERGY LIMITED", "Octopus Energy Group", True),
+        ("BP plc", "BP", True),
+        ("XY LTD", "XY HOLDINGS XY", False),
+    ])
+    def test_names_match(self, registered, drafted, expected):
+        assert drafting._names_match(registered, drafted) is expected
+
+
+class TestJunkValues:
+    def norm(self, **over):
+        return drafting.normalise_draft(proposal(**over), set(), now=NOW)
+
+    def test_blank_aliases_dropped(self):
+        cos = [{"name": f"Co {i} Ltd", "aliases": ["", "  ", " A "]} for i in range(3)]
+        assert self.norm(companies=cos)["companies"][0]["aliases"] == ["A"]
+
+    def test_blank_excluded_bodies_dropped(self):
+        assert self.norm(excluded_bodies=["", "  ", "Ofgem"])["excluded_bodies"] == ["ofgem"]
+
+    def test_fallback_keeps_only_str_pairs(self):
+        cats = [{"name": "Ok", "pattern": "ok", "before": "Enforcement action"}]
+        fb = {"regulatory": "Ok", "a": ["Ok"], "b": 3, 5: "Ok"}
+        assert self.norm(categories=cats, signal_type_fallback=fb)["signal_type_fallback"] == {"regulatory": "Ok"}
+
+    def test_bad_tickers_dropped(self):
+        t = {"CNA": "Centrica", "": "x", "X": "", "Y": 5, 7: "Z"}
+        assert self.norm(tickers=t)["tickers"] == {"CNA": "Centrica"}
+
+    def test_category_named_like_core_rule_dropped(self):
+        cats = [{"name": "Enforcement action", "pattern": "x", "before": "Enforcement action"},
+                {"name": "Ok", "pattern": "ok", "before": "Enforcement action"}]
+        assert [c["name"] for c in self.norm(categories=cats)["categories"]] == ["Ok"]
+
+
+class TestCutOff:
+    def test_max_tokens_feedback_and_limit(self):
+        client = FakeClient(proposal(), proposal())
+        orig = client._create
+        def create(**kw):
+            r = orig(**kw)
+            if len(client.requests) == 1:
+                r.stop_reason = "max_tokens"
+            return r
+        client.messages = SimpleNamespace(create=create)
+        d = drafting.draft_sector("UK energy suppliers", set(), client, None, now=NOW)
+        assert d.slug == "energy-retail"
+        assert client.requests[0]["max_tokens"] == 8000
+        assert "cut off" in client.requests[1]["messages"][-1]["content"]
+        assert "concise" in client.requests[1]["messages"][-1]["content"]

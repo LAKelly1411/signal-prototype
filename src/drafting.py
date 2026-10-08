@@ -9,8 +9,10 @@ No Streamlit here: dashboard/app.py calls draft_sector and shows the result.
 
 from __future__ import annotations
 
+import logging
 import os
 import re
+import unicodedata
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,11 +21,13 @@ import requests
 
 from src.categories import CORE_RULE_NAMES
 from src.entities import match_key
-from src.sectors import PROMPT_FIELDS, SLUG_RE, SectorConfigError, parse_sector
+from src.sectors import CONFIG_DIR, PROMPT_FIELDS, SLUG_RE, SectorConfigError, parse_sector
 
 GENERIC_SOURCES = ("companies_house", "gazette", "dcms", "parliament", "asa",
                    "insolvency_service", "lse_rns")
 MAX_PATTERN = 200
+MAX_TOKENS = 8000
+log = logging.getLogger(__name__)
 MIN_COMPANIES, MAX_COMPANIES = 3, 12
 MIN_DESCRIPTION, MAX_DESCRIPTION = 10, 300
 NUMBER_RE = re.compile(r"[0-9A-Z]{8}")
@@ -56,7 +60,7 @@ class Draft:
 
 
 def slugify(name: str) -> str:
-    text = str(name).encode("ascii", "ignore").decode()
+    text = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode()
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:40].strip("-")
     return slug if slug and SLUG_RE.fullmatch(slug) else "sector"
 
@@ -91,7 +95,16 @@ class CompaniesHouse:
 
 def _names_match(a: str, b: str) -> bool:
     ka, kb = match_key(a), match_key(b)
-    return bool(ka and kb) and (ka == kb or ka in kb or kb in ka)
+    if not (ka and kb):
+        return False
+    if ka == kb:
+        return True
+    wa, wb = ka.split(), kb.split()
+    short, long_ = (wa, wb) if len(wa) <= len(wb) else (wb, wa)
+    if len(" ".join(short)) < 3 or short == ["the"]:
+        return False
+    n = len(short)
+    return any(long_[i:i + n] == short for i in range(len(long_) - n + 1))
 
 
 def verify_companies(companies: list[dict], ch: CompaniesHouse | None) -> list[dict]:
@@ -143,7 +156,8 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
         companies.append({
             "name": c["name"].strip(),
             "company_number": c.get("company_number"),
-            "aliases": [a for a in aliases if isinstance(a, str)] if isinstance(aliases, list) else [],
+            "aliases": [a.strip() for a in aliases if isinstance(a, str) and a.strip()]
+                       if isinstance(aliases, list) else [],
         })
     companies = companies[:MAX_COMPANIES]
     _require(len(companies) >= MIN_COMPANIES, f"need at least {MIN_COMPANIES} companies")
@@ -152,7 +166,8 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
     for cat in raw.get("categories", []):
         if not (isinstance(cat, dict) and isinstance(cat.get("name"), str)
                 and isinstance(cat.get("pattern"), str) and len(cat["pattern"]) <= MAX_PATTERN
-                and cat.get("before") in CORE_RULE_NAMES):
+                and cat.get("before") in CORE_RULE_NAMES
+                and cat["name"].strip() and cat["name"] not in CORE_RULE_NAMES):
             continue
         try:
             re.compile(cat["pattern"], re.I)
@@ -160,7 +175,7 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
             continue
         categories.append({"name": cat["name"], "pattern": cat["pattern"], "before": cat["before"]})
     allowed = CORE_RULE_NAMES | {c["name"] for c in categories} | {"Other"}
-    fallback = {k: v for k, v in raw.get("signal_type_fallback", {}).items() if v in allowed}
+    fallback = {k: v for k, v in raw.get("signal_type_fallback", {}).items() if isinstance(k, str) and isinstance(v, str) and v in allowed}
 
     sources = {}
     for key in raw.get("sources", []):
@@ -180,15 +195,17 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
         "prompt": {k: prompt.get(k) for k in PROMPT_FIELDS},
         "keywords": [k for k in raw.get("keywords", []) if isinstance(k, str) and k.strip()],
         "companies": companies,
-        "tickers": {str(k): str(v) for k, v in raw.get("tickers", {}).items()},
+        "tickers": {k.strip(): v.strip() for k, v in raw.get("tickers", {}).items()
+                    if isinstance(k, str) and isinstance(v, str) and k.strip() and v.strip()},
         "categories": categories,
         "signal_type_fallback": fallback,
-        "excluded_bodies": [b.lower() for b in raw.get("excluded_bodies", []) if isinstance(b, str)],
+        "excluded_bodies": [b.strip().lower() for b in raw.get("excluded_bodies", [])
+                            if isinstance(b, str) and b.strip()],
         "sources": sources,
     }
 
 
-_EXAMPLE = Path("config/sectors/gambling.yaml")
+_EXAMPLE = CONFIG_DIR / "gambling.yaml"
 
 PROPOSE_SECTOR_TOOL = {
     "name": "propose_sector",
@@ -224,7 +241,11 @@ PROPOSE_SECTOR_TOOL = {
 
 
 def _system_prompt() -> str:
-    example = _EXAMPLE.read_text(encoding="utf-8") if _EXAMPLE.exists() else ""
+    if _EXAMPLE.exists():
+        example = _EXAMPLE.read_text(encoding="utf-8")
+    else:
+        log.warning("worked example %s is missing; drafting without it", _EXAMPLE)
+        example = ""
     return (
         "You design sector configs for Sector Signal, a B2B newsroom tool that collects UK "
         "regulatory, corporate and parliamentary items about one industry and scores them for "
@@ -259,16 +280,18 @@ def draft_sector(description: str, existing_slugs: set[str], client,
     if not (MIN_DESCRIPTION <= len(description) <= MAX_DESCRIPTION):
         raise ValueError(f"description must be {MIN_DESCRIPTION}-{MAX_DESCRIPTION} characters")
     model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
-    messages = [{"role": "user", "content": f"Industry to track: {description}"}]
     request = f"Industry to track: {description}"
     last_error = None
     for _ in range(2):
         response = client.messages.create(
-            model=model, max_tokens=4000, system=_system_prompt(),
+            model=model, max_tokens=MAX_TOKENS, system=_system_prompt(),
             messages=[{"role": "user", "content": request}],
             tools=[PROPOSE_SECTOR_TOOL], tool_choice={"type": "tool", "name": "propose_sector"},
         )
         try:
+            if getattr(response, "stop_reason", None) == "max_tokens":
+                raise ValueError("the response was cut off before it finished; "
+                                 "be more concise (fewer companies, shorter prompt text)")
             config = normalise_draft(_tool_input(response), existing_slugs, now=now)
             rows = verify_companies(config["companies"], ch)
             config["companies"] = [{k: v for k, v in r.items() if k != "verified"} for r in rows]
