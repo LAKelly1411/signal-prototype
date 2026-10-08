@@ -5,12 +5,12 @@ import os
 
 import anthropic
 
-from src.categories import TAXONOMY, canonical_category
+from src.categories import canonical_category, taxonomy
 from src.entities import canonicalise
 
 logger = logging.getLogger(__name__)
 
-_CATEGORY_LIST = "\n".join(f"  - {c}" for c in TAXONOMY)
+_CATEGORY_LIST = "\n".join(f"  - {c}" for c in taxonomy())
 
 SYSTEM_PROMPT = (
     "You are a signal-scoring assistant for a B2B gambling-industry newsroom. "

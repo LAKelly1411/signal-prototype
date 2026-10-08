@@ -76,7 +76,7 @@ LINK_ICON = _svg(LINK_16, "0 0 16 16", 16)
 ENTITY_ICON = _svg(CORPORATE_FARE_20, "0 0 20 20", 20)
 PERSON_ICON = _svg(_MS["person"], "0 -960 960 960", 20)
 
-# One icon per canonical category (src/categories.py TAXONOMY).
+# One icon per canonical category (src/categories.py taxonomy()).
 _CATEGORY_ICON_NAMES = {
     "AML and compliance failures": 'policy',
     "Advertising ruling": 'campaign',

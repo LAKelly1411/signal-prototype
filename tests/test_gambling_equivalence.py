@@ -12,6 +12,7 @@ import pytest
 
 from src import categories, cluster, score
 from src.entities import build_alias_map
+from src.sectors import load_sector
 
 BASE = json.loads(Path("tests/fixtures/gambling_baseline.json").read_text(encoding="utf-8"))
 NOW = datetime.fromisoformat(BASE["now"])
@@ -29,12 +30,15 @@ def test_summary_versions_are_identical():
 
 
 def test_taxonomy_is_identical():
-    assert categories.TAXONOMY == BASE["taxonomy"]
+    gambling = load_sector("gambling")
+    assert categories.taxonomy() == BASE["taxonomy"]
+    assert categories.taxonomy(gambling) == BASE["taxonomy"]
 
 
 def test_categories_are_identical():
-    got = [categories.canonical_category(*i) for i in BASE["category_inputs"]]
-    assert got == BASE["categories"]
+    gambling = load_sector("gambling")
+    assert [categories.canonical_category(*i) for i in BASE["category_inputs"]] == BASE["categories"]
+    assert [categories.canonical_category(*i, sector=gambling) for i in BASE["category_inputs"]] == BASE["categories"]
 
 
 def test_exclusions_are_identical():
