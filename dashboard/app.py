@@ -756,7 +756,43 @@ def inject_css() -> None:
         [data-testid="stPopoverBody"] [data-testid="stIconMaterial"] { color: var(--pa-cobalt); font-size: 20px; }
         [class*="st-key-sortopt-"][class*="-off"] [data-testid="stIconMaterial"],
         [class*="st-key-src-"][class*="-off"] [data-testid="stIconMaterial"],
-        [class*="st-key-typ-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+        [class*="st-key-typ-"][class*="-off"] [data-testid="stIconMaterial"],
+        [class*="st-key-scr-"][class*="-off"] [data-testid="stIconMaterial"],
+        [class*="st-key-dts-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+
+        /* The Filters menu: one panel, sections divided by hairlines. */
+        [data-testid="stPopoverBody"]:has(.fp-head) {
+            width: 360px;
+            max-height: min(640px, 80vh) !important;
+        }
+        .fp-head {
+            padding: 12px 12px 4px 12px;
+            border-top: 1px solid #e7e7e7;
+            font-family: var(--pa-font-data);
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: var(--pa-muted);
+        }
+        [data-testid="stPopoverBody"] [data-testid="stElementContainer"]:first-child .fp-head { border-top: none; }
+
+        /* Active filters as chips under the bar, each with a close icon. */
+        .st-key-feed-chips { gap: 8px; margin: 4px 0 0 0; }
+        .st-key-feed-chips [data-testid="stBaseButton-secondary"] {
+            min-height: 32px;
+            padding: 4px 8px 4px 10px;
+            border: none;
+            border-radius: 0;
+            background: #e7e7e7;
+            color: var(--pa-ink);
+        }
+        .st-key-feed-chips [data-testid="stBaseButton-secondary"]:hover { background: var(--pa-sunken); }
+        .st-key-feed-chips [data-testid="stBaseButton-secondary"] p {
+            font-family: var(--pa-font-data);
+            font-size: 0.875rem;
+            font-weight: 400;
+        }
+        .st-key-feed-chips [data-testid="stBaseButton-secondary"] p strong { font-weight: 700; }
+        .st-key-feed-chips [data-testid="stIconMaterial"] { font-size: 16px; }
 
         /* Company picker rows: logo + name, a tick when chosen; the whole row
            is an invisible button, as on the pattern cards. */
@@ -1124,7 +1160,9 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 SORT_RECENT = "Most recent"
 SORT_SCORE = "Highest score"
 DEFAULT_MIN_SCORE = 40
-COMPANY_ROWS = 8  # matches listed in the company picker before "refine search"
+COMPANY_ROWS = 5  # matches listed in the company picker before "refine search"
+SCORE_PRESETS = [(0, "All scores"), (40, "40+ · medium and high"), (70, "70+ · high only")]
+DATE_PRESETS = [(None, "All time"), (30, "Last 30 days"), (7, "Last 7 days")]
 
 # Filter state, kept outside the widgets so the menus can be custom lists.
 # Sources and types store what's switched OFF, so a source or type that
@@ -1132,7 +1170,7 @@ COMPANY_ROWS = 8  # matches listed in the company picker before "refine search"
 # from the option set to manage that).
 F_SEARCH, F_SORT = "f_search", "f_sort"
 F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES = "f_sources_off", "f_types_off", "f_companies"
-F_SCORE, F_COMPANY_QUERY = "f_min_score", "f_company_query"
+F_SCORE, F_COMPANY_QUERY, F_DAYS = "f_min_score", "f_company_query", "f_days"
 
 
 def _set_sort(option: str) -> None:
@@ -1148,6 +1186,10 @@ def _toggle(state_key: str, value: str) -> None:
 
 def _set_all(state_key: str, values: list[str]) -> None:
     st.session_state[state_key] = list(values)
+
+
+def _set_value(state_key: str, value) -> None:
+    st.session_state[state_key] = value
 
 
 def _add_companies(names: list[str]) -> None:
@@ -1235,10 +1277,11 @@ def _company_picker(all_entities: list[str], counts: Counter) -> None:
 
 
 def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
-    """The Feed's filter bar (after Ren's Playground, frame 2371:835): search,
-    then a menu per filter whose label carries its current value in bold,
-    and sort on the right. Menus are ticked lists; Company is searchable with
-    logos. Lives in the Feed tab because it only ever filtered the feed."""
+    """The Feed's filter bar: Search, one Filters menu, Sort — calm at rest.
+    The menu (styled after Ren's Playground, frame 2371:835) holds Company
+    (searchable, with logos), Source, Score and Date presets, and Type.
+    Whatever is active shows as removable chips under the bar, so the bar
+    itself never has to say "All selected"."""
     sources = sorted({s["source"] for s in scored})
     signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
     # Canonical names, so one option covers every spelling of a company —
@@ -1247,17 +1290,13 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     entity_counts = Counter(e for s in scored for e in signal_entities(s))
     all_entities = sorted(entity_counts, key=str.lower)
     published_dates = [datetime.fromisoformat(s["published_at"]).date() for s in scored]
-    min_date, max_date = min(published_dates), max(published_dates)
-    # Keyed on the bounds so the range resets to the full span whenever new
-    # data extends it, rather than quietly falling behind.
-    dates_key = f"date_range_{min_date}_{max_date}"
 
     state = st.session_state
     sources_off = set(state.get(F_SOURCES_OFF, [])) & set(sources)
     types_off = set(state.get(F_TYPES_OFF, [])) & set(signal_types)
     companies = [c for c in state.get(F_COMPANIES, []) if c in entity_counts]
     min_score = state.get(F_SCORE, DEFAULT_MIN_SCORE)
-    cur_dates = state.get(dates_key, (min_date, max_date))
+    days = state.get(F_DAYS)
     sort_order = state.get(F_SORT, SORT_RECENT)
 
     def source_name(s: str) -> str:
@@ -1267,30 +1306,13 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
         return t.replace("_", " ").capitalize()
 
     def summary(on: list[str], total: int) -> str:
-        if len(on) == total:
-            return "All selected"
-        if not on:
-            return "None"
         return on[0] if len(on) == 1 else f"{len(on)} of {total}"
 
-    dates_all = (
-        not isinstance(cur_dates, tuple)
-        or len(cur_dates) != 2
-        or tuple(cur_dates) == (min_date, max_date)
-    )
-    dates_label = (
-        "All time"
-        if dates_all
-        else f"{cur_dates[0].day} {cur_dates[0]:%b} – {cur_dates[1].day} {cur_dates[1]:%b}"
-    )
-    company_label = (
-        "All selected" if not companies
-        else companies[0] if len(companies) == 1
-        else f"{len(companies)} selected"
-    )
-    active = bool(
-        state.get(F_SEARCH) or sources_off or types_off or companies
-        or min_score != DEFAULT_MIN_SCORE or not dates_all
+    on_sources = [source_name(s) for s in sources if s not in sources_off]
+    on_types = [type_name(t) for t in signal_types if t not in types_off]
+    active_count = sum(
+        [bool(companies), bool(sources_off), min_score != DEFAULT_MIN_SCORE,
+         days is not None, bool(types_off)]
     )
 
     with st.container(key="feed-filters", horizontal=True, vertical_alignment="center"):
@@ -1303,71 +1325,75 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
             width=304,
         ).strip().lower()
 
-        on_sources = [source_name(s) for s in sources if s not in sources_off]
         with st.popover(
-            f"Source: **{summary(on_sources, len(sources))}**",
-            icon=":material/rss_feed:", key="pop-source",
+            f"Filters · **{active_count}**" if active_count else "Filters",
+            icon=":material/tune:",
+            key="pop-filters",
         ):
+            st.markdown('<div class="fp-head">Company</div>', unsafe_allow_html=True)
+            _company_picker(all_entities, entity_counts)
+
+            st.markdown('<div class="fp-head">Source</div>', unsafe_allow_html=True)
             for s in sources:
                 _check_row(f"src-{s}", source_name(s), s not in sources_off,
                            _toggle, (F_SOURCES_OFF, s))
-            if sources_off:
-                st.button("Select all", key="src-all", type="tertiary",
-                          on_click=_set_all, args=(F_SOURCES_OFF, []))
 
-        on_types = [type_name(t) for t in signal_types if t not in types_off]
-        with st.popover(
-            f"Type: **{summary(on_types, len(signal_types))}**",
-            icon=":material/category:", key="pop-type",
-        ):
+            st.markdown('<div class="fp-head">Score</div>', unsafe_allow_html=True)
+            for value, label in SCORE_PRESETS:
+                _check_row(f"scr-{value}", label, value == min_score,
+                           _set_value, (F_SCORE, value))
+
+            st.markdown('<div class="fp-head">Published</div>', unsafe_allow_html=True)
+            for value, label in DATE_PRESETS:
+                _check_row(f"dts-{value or 'all'}", label, value == days,
+                           _set_value, (F_DAYS, value))
+
+            st.markdown('<div class="fp-head">Signal type</div>', unsafe_allow_html=True)
             for t in signal_types:
                 _check_row(f"typ-{t}", type_name(t), t not in types_off,
                            _toggle, (F_TYPES_OFF, t))
-            if types_off:
-                st.button("Select all", key="typ-all", type="tertiary",
-                          on_click=_set_all, args=(F_TYPES_OFF, []))
 
-        with st.popover(
-            f"Company / Entity: **{company_label}**",
-            icon=":material/corporate_fare:", key="pop-company",
-        ):
-            _company_picker(all_entities, entity_counts)
-
-        with st.popover(f"Score: **{min_score}+**", icon=":material/speed:", key="pop-score"):
-            # Defaults to 40 (Medium+) rather than 0 so a busy day doesn't bury
-            # higher-value signals under Low-tier noise; still adjustable to 0.
-            st.slider("Minimum score", 0, 100, DEFAULT_MIN_SCORE, key=F_SCORE)
-
-        with st.popover(f"Dates: **{dates_label}**", icon=":material/calendar_month:",
-                        key="pop-dates"):
-            date_range = st.date_input(
-                "Date range",
-                value=(min_date, max_date),
-                min_value=min_date,
-                max_value=max_date,
-                key=dates_key,
-            )
-
-        if active:
-            st.button(
-                "Clear filters", key="clear-filters", type="tertiary",
-                on_click=_clear_filters,
-                args=([F_SEARCH, F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES, F_SCORE,
-                       F_COMPANY_QUERY, dates_key],),
-            )
         with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:",
                         key="pop-sort"):
             for option in (SORT_RECENT, SORT_SCORE):
                 _check_row(f"sortopt-{option.split()[0].lower()}", option,
                            option == sort_order, _set_sort, (option,))
 
+    # Active filters as chips, each removable; only when something is set.
+    chips = []
+    for name in companies:
+        chips.append((f"chip-co-{_slug(name)}", f"Company: **{name}**",
+                      _toggle, (F_COMPANIES, name)))
+    if sources_off:
+        chips.append(("chip-src", f"Source: **{summary(on_sources, len(sources))}**",
+                      _set_all, (F_SOURCES_OFF, [])))
+    if min_score != DEFAULT_MIN_SCORE:
+        chips.append(("chip-scr", f"Score: **{min_score}+**" if min_score else "Score: **All**",
+                      _set_value, (F_SCORE, DEFAULT_MIN_SCORE)))
+    if days is not None:
+        chips.append(("chip-dts", f"Published: **last {days} days**",
+                      _set_value, (F_DAYS, None)))
+    if types_off:
+        chips.append(("chip-typ", f"Type: **{summary(on_types, len(signal_types))}**",
+                      _set_all, (F_TYPES_OFF, [])))
+    if chips:
+        with st.container(key="feed-chips", horizontal=True, vertical_alignment="center"):
+            for key, label, fn, args in chips:
+                st.button(label, key=key, icon=":material/close:", icon_position="right",
+                          on_click=fn, args=args)
+            st.button(
+                "Clear all", key="clear-filters", type="tertiary",
+                on_click=_clear_filters,
+                args=([F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES, F_SCORE, F_DAYS,
+                       F_COMPANY_QUERY],),
+            )
+
     selected_sources = [s for s in sources if s not in sources_off]
     selected_types = [t for t in signal_types if t not in types_off]
     selected_entities = companies
-    if isinstance(date_range, tuple) and len(date_range) == 2:
-        start_date, end_date = date_range
-    else:
-        start_date, end_date = min_date, max_date
+    today = datetime.now(timezone.utc).date()
+    start_date = today - timedelta(days=days) if days is not None else min(published_dates)
+    end_date = max(max(published_dates), today)
 
     filtered = []
     for signal, pub_date in zip(scored, published_dates):
