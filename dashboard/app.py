@@ -21,7 +21,8 @@ from dashboard.brand import (
     category_icon,
     icon,
 )
-from dashboard import data, github
+from dashboard import data, github, new_sector
+from src import drafting, sectors
 from src.entities import match_key
 from src.cluster import (
     CLUSTER_WINDOW_DAYS,
@@ -1322,9 +1323,14 @@ def _sector_switcher(entries: list[dict], current: dict) -> None:
             _check_row(f"sectoropt-{entry['slug']}", label, entry["slug"] == current["slug"],
                        _select_sector, (entry["slug"],), state_first=True)
         st.divider()
-        st.button("New sector  :blue-background[PREMIUM]", key="sector-new",
-                  icon=":material/add:", type="tertiary", width="stretch", disabled=True,
-                  help="Creating sectors arrives with the premium add-on.")
+        at_cap = len(entries) >= MAX_SECTORS
+        st.button("Sector limit reached" if at_cap else "New sector  :blue-background[PREMIUM]",
+                  key="sector-new", icon=":material/add:", type="tertiary", width="stretch",
+                  disabled=at_cap,
+                  help="Contact us to add more sectors." if at_cap else None,
+                  on_click=_open_new_sector)
+        if st.session_state.get("ns_open"):
+            _new_sector_dialog()
 
 
 def check_password() -> bool:
@@ -2728,6 +2734,258 @@ def _watchlist_dialog() -> None:
         st.error(st.session_state["wl_error"])
 
 
+# The new-sector dialog: a premium upsell, a demo unlock, a description that
+# Claude drafts into a sector config, a review form, then the save. The unlock
+# lives in session state only, so a reload locks creation again.
+MAX_SECTORS, MAX_DRAFTS = 10, 5
+
+# Same flat PA language as the watchlist illustration: a sector switcher card
+# with three sector rows, the new one cobalt-edged with a "+" badge and a
+# PREMIUM tag block.
+_NEW_SECTOR_ILLUSTRATION = """
+<svg viewBox="0 0 360 176" width="100%" role="img" aria-label="A sector menu with a new premium sector being added" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="360" height="176" fill="#e5e3d3"/>
+  <rect x="24" y="24" width="44" height="44" fill="#8DDBFF"/>
+  <rect x="296" y="128" width="40" height="28" fill="#000"/>
+  <rect x="88" y="22" width="192" height="134" fill="#fff"/>
+  <rect x="88" y="22" width="192" height="24" fill="#000"/>
+  <rect x="100" y="31" width="44" height="6" fill="#fff"/>
+  <rect x="100" y="58" width="12" height="12" fill="#000"/>
+  <rect x="120" y="60" width="88" height="7" fill="#000"/>
+  <rect x="100" y="84" width="12" height="12" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="120" y="86" width="70" height="7" fill="#000"/>
+  <rect x="100" y="106" width="168" height="2" fill="#dedad9"/>
+  <rect x="88" y="114" width="192" height="32" fill="#f2f6ff"/>
+  <rect x="88" y="114" width="4" height="32" fill="#004FFF"/>
+  <rect x="100" y="126" width="64" height="7" fill="#004FFF"/>
+  <rect x="172" y="122" width="52" height="15" fill="#8DDBFF"/>
+  <rect x="179" y="128" width="38" height="4" fill="#004FFF"/>
+  <rect x="256" y="104" width="36" height="36" fill="#004FFF"/>
+  <rect x="272" y="112" width="4" height="20" fill="#fff"/>
+  <rect x="264" y="120" width="20" height="4" fill="#fff"/>
+</svg>
+"""
+
+_NS_DESCRIPTION_LENGTH = "Please describe the industry in 10 to 300 characters."
+_NS_DRAFT_FAILED = "We couldn't draft that one. Try describing it differently."
+_NS_NO_ANTHROPIC = "Drafting isn't switched on here yet."
+_NS_NO_GITHUB = "Saving isn't switched on here yet."
+_NS_DRAFT_LIMIT = "You've reached the demo's draft limit."
+
+
+def _open_new_sector() -> None:
+    st.session_state["ns_open"] = True
+    st.session_state["ns_step"] = "upsell" if not st.session_state.get("premium_unlocked") else "describe"
+    st.session_state.pop("ns_error", None)
+
+
+def _close_new_sector() -> None:
+    """Dismissed with the X or Escape: stop re-opening it on every rerun."""
+    st.session_state.pop("ns_open", None)
+
+
+def _ns_go(step: str) -> None:
+    st.session_state["ns_step"] = step
+    st.session_state.pop("ns_error", None)
+
+
+def _unlock() -> None:
+    st.session_state["premium_unlocked"] = True
+    _ns_go("describe")
+
+
+def _anthropic_client():
+    key = _secret("ANTHROPIC_API_KEY")
+    if not key:
+        return None
+    import anthropic
+    return anthropic.Anthropic(api_key=key, max_retries=2)
+
+
+def _companies_house():
+    key = _secret("COMPANIES_HOUSE_API_KEY")
+    return drafting.CompaniesHouse(key) if key else None
+
+
+def _existing_slugs() -> set[str]:
+    """Every slug a new sector must not take: the remote index, the configs
+    in this checkout, and sectors created earlier this session."""
+    try:
+        index = load_index() or []
+    except data.IndexUnavailable:
+        index = []
+    pending = [p["slug"] for p in st.session_state.get("pending_sectors", [])]
+    return ({e.get("slug") for e in index if isinstance(e, dict)}
+            | set(sectors.list_sector_slugs()) | set(pending))
+
+
+_NS_REVIEW_KEYS = ("ns_name", "ns_brief", "ns_keywords", "ns_companies", "ns_companies_value")
+
+
+def _run_draft() -> None:
+    """Draft from the description. Any failure (bad draft, API or network
+    error) becomes the friendly copy; the user stays on the describe step."""
+    state = st.session_state
+    client = _anthropic_client()
+    if client is None:
+        state["ns_error"] = _NS_NO_ANTHROPIC
+        return
+    if state.get("ns_drafts_used", 0) >= MAX_DRAFTS:
+        state["ns_error"] = _NS_DRAFT_LIMIT
+        return
+    state["ns_drafts_used"] = state.get("ns_drafts_used", 0) + 1
+    try:
+        draft = drafting.draft_sector(state.get("ns_description", ""), _existing_slugs(),
+                                      client, _companies_house())
+    except ValueError:
+        state["ns_error"] = _NS_DESCRIPTION_LENGTH
+        return
+    except Exception:
+        state["ns_error"] = _NS_DRAFT_FAILED
+        return
+    state["ns_draft"] = draft
+    # A fresh draft starts a fresh form: drop the previous one's widget values.
+    for key in [*_NS_REVIEW_KEYS, *(f"ns_src_{s}" for s in drafting.GENERIC_SOURCES)]:
+        state.pop(key, None)
+    _ns_go("review")
+
+
+def _run_create() -> None:
+    """Apply the review edits, re-verify company numbers, validate, save."""
+    state = st.session_state
+    draft = state["ns_draft"]
+    config = new_sector.apply_review(
+        draft.config,
+        name=state.get("ns_name", draft.config["name"]),
+        brief=state.get("ns_brief", draft.config["brief"]),
+        keywords=state.get("ns_keywords", draft.config["keywords"]),
+        companies=state.get("ns_companies_value") or draft.companies,
+        sources=[s for s in drafting.GENERIC_SOURCES
+                 if state.get(f"ns_src_{s}", s in draft.config["sources"])],
+    )
+    try:
+        # Re-verify: an edited number must be confirmed again before it's saved.
+        rows = drafting.verify_companies(config["companies"], _companies_house())
+        config["companies"] = [{k: v for k, v in r.items() if k != "verified"} for r in rows]
+        sectors.parse_sector(config, config["slug"])
+    except Exception:
+        state["ns_error"] = github.MSG_NOT_SAVED
+        return
+    entry = {"slug": config["slug"], "name": config["name"], "brief": config["brief"],
+             "created_at": config["created_at"], "status": "setting_up"}
+    now = datetime.now(timezone.utc)
+    result = github.save_sector(github.GitHub(_secret("GITHUB_TOKEN")), config, entry,
+                                f"{now.day} {now:%B %Y}")
+    if not result.saved:
+        state["ns_error"] = result.message
+        return
+    state.setdefault("pending_sectors", []).append(entry)
+    state["ns_result"] = {"name": config["name"], "slug": config["slug"], "message": result.message}
+    load_index.clear()
+    _ns_go("done")
+
+
+def _finish_new_sector() -> None:
+    """Done: show the new sector and close the dialog. The draft counter
+    survives, so closing and reopening doesn't reset the demo's limit."""
+    result = st.session_state.get("ns_result") or {}
+    if result.get("slug"):
+        _select_sector(result["slug"])
+    for key in [k for k in st.session_state if str(k).startswith("ns_") and k != "ns_drafts_used"]:
+        del st.session_state[key]
+
+
+@st.dialog("New sector", width="medium", on_dismiss=_close_new_sector)
+def _new_sector_dialog() -> None:
+    state = st.session_state
+    step = state.get("ns_step", "upsell")
+
+    if step == "upsell":
+        st.markdown(
+            f'<div class="wl-illustration">{_NEW_SECTOR_ILLUSTRATION}</div>'
+            '<div class="wl-headline">Track any industry</div>'
+            '<p class="wl-copy">Add a sector of your own, with its own sources, companies and '
+            "scoring. New sectors are part of the premium add-on.</p>",
+            unsafe_allow_html=True,
+        )
+        st.button("Unlock for demo", key="ns-unlock", type="primary", width="stretch", on_click=_unlock)
+        sales = _secret("SALES_EMAIL")
+        if sales:
+            st.link_button("Talk to us", f"mailto:{sales}?subject=Sector%20Signal%20premium%20sectors",
+                           type="tertiary", width="stretch")
+        return
+
+    if step == "done":
+        result = state.get("ns_result", {})
+        name = html.escape(result.get("name", "Your sector"))
+        st.markdown(
+            '<div class="wl-headline">Sector created</div>'
+            f'<p class="wl-copy">{name} is being set up. We\'re gathering the first signals; '
+            "this usually takes under an hour.</p>"
+            + (f'<p class="wl-copy wl-muted">{html.escape(result["message"])}</p>'
+               if result.get("message") else ""),
+            unsafe_allow_html=True,
+        )
+        st.button("Done", key="ns-done", type="primary", width="stretch", on_click=_finish_new_sector)
+        return
+
+    if step == "describe":
+        drafting_on = bool(_secret("ANTHROPIC_API_KEY"))
+        if not drafting_on:
+            st.info(_NS_NO_ANTHROPIC)
+        used = state.get("ns_drafts_used", 0)
+        st.text_area("Which industry should we track?", key="ns_description", max_chars=300,
+                     placeholder="e.g. UK energy suppliers and the regulators around them")
+        # Drafted in the script body, not a callback, so the spinner shows
+        # while Claude works (a callback runs before anything renders).
+        if st.button("Draft it", key="ns-draft", type="primary", width="stretch",
+                     disabled=used >= MAX_DRAFTS or not drafting_on):
+            with st.spinner("Drafting your sector…", show_time=True):
+                _run_draft()
+            st.rerun()  # the dialog reopens (ns_open) at the new step
+        if used >= MAX_DRAFTS:
+            st.caption(_NS_DRAFT_LIMIT)
+        if state.get("ns_error"):
+            st.error(state["ns_error"])
+        return
+
+    # Review
+    draft = state["ns_draft"]
+    cfg = draft.config
+    st.text_input("Name", value=cfg["name"], key="ns_name")
+    st.text_input("One-line description", value=cfg["brief"], key="ns_brief")
+    st.multiselect("Keywords", options=cfg["keywords"], default=cfg["keywords"],
+                   accept_new_options=True, key="ns_keywords")
+    rows = [{"Name": c["name"], "Companies House number": c.get("company_number") or "",
+             "Verified": "✓" if c.get("verified") else "–"} for c in draft.companies]
+    edited = st.data_editor(rows, key="ns_companies", num_rows="dynamic", width="stretch",
+                            disabled=["Verified"], hide_index=True)
+    state["ns_companies_value"] = [
+        {"name": r.get("Name"), "company_number": r.get("Companies House number"),
+         "aliases": next((c.get("aliases", []) for c in draft.companies if c["name"] == r.get("Name")), [])}
+        for r in (edited.to_dict("records") if hasattr(edited, "to_dict") else edited)
+    ]
+    st.markdown("**Sources**")
+    for s in drafting.GENERIC_SOURCES:
+        st.checkbox(_source_name(s), value=s in cfg["sources"], key=f"ns_src_{s}")
+    with st.expander("Advanced", key="ns-advanced"):
+        st.caption("How Claude will score this sector. Shown for reference.")
+        st.json({"prompt": cfg["prompt"], "categories": cfg["categories"],
+                 "excluded_bodies": cfg["excluded_bodies"], "tickers": cfg["tickers"]}, expanded=False)
+    can_save = bool(_secret("GITHUB_TOKEN"))
+    if not can_save:
+        st.info(_NS_NO_GITHUB)
+    if st.button("Create sector", key="ns-create", type="primary", width="stretch",
+                 disabled=not can_save):
+        with st.spinner("Creating your sector…"):
+            _run_create()
+        st.rerun()
+    st.button("Start over", key="ns-restart", type="tertiary", width="stretch",
+              on_click=_ns_go, args=("describe",))
+    if state.get("ns_error"):
+        st.error(state["ns_error"])
+
+
 def _watchlist_button() -> None:
     """Header action: opens the watchlist dialog at its intro. Secondary
     (outlined), so it doesn't compete with the feed."""
@@ -2758,6 +3016,7 @@ def main() -> None:
         index = load_index()
     except data.IndexUnavailable:
         index = None  # this run only: the failure isn't cached
+    index = new_sector.merge_pending(index, st.session_state.get("pending_sectors", []))
     legacy = index is None
     entries = data.order_index(data.LEGACY_INDEX if legacy else index)
     if not entries:

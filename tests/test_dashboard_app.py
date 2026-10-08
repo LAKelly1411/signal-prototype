@@ -126,10 +126,10 @@ def test_switching_clears_filters(monkeypatch):
     assert "wl_name" not in at.session_state or at.session_state["wl_name"] == ""
 
 
-def test_new_sector_row_is_disabled(monkeypatch):
+def test_new_sector_row_is_enabled_below_the_cap(monkeypatch):
     serve(monkeypatch, sector_routes())
     at = app().run()
-    assert at.button(key="sector-new").disabled
+    assert not at.button(key="sector-new").disabled
 
 
 def test_falls_back_to_legacy_without_index(monkeypatch):
@@ -245,3 +245,156 @@ def test_index_server_error_falls_back_for_this_run(monkeypatch):
     serve(monkeypatch, routes)
     at = app().run()
     assert not at.exception and at.tabs
+
+
+from src import drafting as drafting_mod  # noqa: E402
+from dashboard import github as github_mod  # noqa: E402
+
+DRAFT = drafting_mod.Draft(
+    slug="energy-retail",
+    config={"slug": "energy-retail", "name": "Energy retail", "brief": "UK energy.",
+            "created_at": "2026-10-08T12:00:00+00:00",
+            "prompt": {f: "x" for f in __import__("src.sectors", fromlist=["PROMPT_FIELDS"]).PROMPT_FIELDS},
+            "keywords": ["energy"], "companies": [
+                {"name": "Octopus Energy Limited", "company_number": "09263424", "aliases": []},
+                {"name": "OVO Energy Ltd", "company_number": None, "aliases": []},
+                {"name": "E.ON UK plc", "company_number": None, "aliases": []}],
+            "tickers": {}, "categories": [], "signal_type_fallback": {}, "excluded_bodies": [],
+            "sources": {"gazette": {"results_per_term": 20, "sleep_seconds": 1.0}}},
+    companies=[{"name": "Octopus Energy Limited", "company_number": "09263424", "aliases": [], "verified": True},
+               {"name": "OVO Energy Ltd", "company_number": None, "aliases": [], "verified": False},
+               {"name": "E.ON UK plc", "company_number": None, "aliases": [], "verified": False}],
+)
+
+
+def creation_app(monkeypatch, *, anthropic=True, token=True, save=None, draft=None):
+    serve(monkeypatch, sector_routes())
+    monkeypatch.setattr(drafting_mod, "draft_sector", draft or (lambda *a, **k: DRAFT))
+    saved = []
+
+    def fake_save(gh, config, entry, today):
+        saved.append((config, entry))
+        return save or github_mod.SaveResult(True, True, True, "")
+    monkeypatch.setattr(github_mod, "save_sector", fake_save)
+    at = app()
+    if anthropic:
+        at.secrets["ANTHROPIC_API_KEY"] = "k"
+    if token:
+        at.secrets["GITHUB_TOKEN"] = "t"
+    return at, saved
+
+
+def _to_review(at):
+    at.run()
+    at.button(key="sector-new").click().run()
+    at.button(key="ns-unlock").click().run()
+    at.text_area(key="ns_description").input("UK energy suppliers and their regulators").run()
+    at.button(key="ns-draft").click().run()
+
+
+def test_full_creation_flow(monkeypatch):
+    at, saved = creation_app(monkeypatch)
+    at.run()
+    at.button(key="sector-new").click().run()
+    assert any("Track any industry" in m.value for m in at.markdown)
+    at.button(key="ns-unlock").click().run()
+    at.text_area(key="ns_description").input("UK energy suppliers and their regulators").run()
+    at.button(key="ns-draft").click().run()
+    assert not at.exception
+    assert at.text_input(key="ns_name").value == "Energy retail"
+    at.button(key="ns-create").click().run()
+    assert not at.exception
+    assert saved and saved[0][1]["status"] == "setting_up"
+    assert saved[0][0]["companies"][0]["company_number"] is None  # no CH key: re-verify clears it
+    body = " ".join(html.unescape(m.value) for m in at.markdown)
+    assert "Energy retail is being set up. We're gathering the first signals; " \
+        "this usually takes under an hour." in body
+    at.button(key="ns-done").click().run()
+    assert not at.exception
+    assert at.session_state["sector"] == "energy-retail"
+    assert "We're gathering the first signals for Energy retail." in " ".join(
+        html.unescape(m.value) for m in at.markdown)
+    assert not any(b.key == "ns-done" for b in at.button)  # the dialog closed
+
+
+def test_unlock_is_per_session(monkeypatch):
+    at, _ = creation_app(monkeypatch)
+    at.run()
+    at.button(key="sector-new").click().run()
+    at.button(key="ns-unlock").click().run()
+    assert at.session_state["premium_unlocked"] is True
+    fresh, _ = creation_app(monkeypatch)
+    fresh.run()
+    assert "premium_unlocked" not in fresh.session_state or not fresh.session_state["premium_unlocked"]
+
+
+def test_no_anthropic_key_disables_drafting(monkeypatch):
+    at, _ = creation_app(monkeypatch, anthropic=False)
+    at.run()
+    at.button(key="sector-new").click().run()
+    at.button(key="ns-unlock").click().run()
+    assert at.button(key="ns-draft").disabled
+    assert any("Drafting isn't switched on here yet." in i.value for i in at.info)
+
+
+def test_draft_limit(monkeypatch):
+    at, _ = creation_app(monkeypatch)
+    at.session_state["ns_drafts_used"] = 5
+    at.session_state["premium_unlocked"] = True
+    at.run()
+    at.button(key="sector-new").click().run()
+    assert at.button(key="ns-draft").disabled
+    assert any("You've reached the demo's draft limit." in c.value for c in at.caption)
+
+
+def test_sector_cap_disables_the_row(monkeypatch):
+    index = [{"slug": f"s{i}", "name": f"S{i}", "status": "ready"} for i in range(9)] + INDEX[:1]
+    serve(monkeypatch, sector_routes(index))
+    at = app().run()
+    btn = at.button(key="sector-new")
+    assert btn.disabled and "Sector limit reached" in btn.proto.label
+
+
+def test_save_failure_keeps_the_review(monkeypatch):
+    at, _ = creation_app(monkeypatch, save=github_mod.SaveResult(False, False, False,
+                                                                 "We couldn't save the sector. Please try again."))
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert any("We couldn't save the sector. Please try again." in e.value for e in at.error)
+    assert at.session_state["ns_step"] == "review"
+
+
+def test_partial_save_message_is_shown_on_done(monkeypatch):
+    msg = "Saved. It will appear in the menu after the next update."
+    at, _ = creation_app(monkeypatch, save=github_mod.SaveResult(True, False, False, msg))
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert not at.exception
+    assert msg in _body(at)
+
+
+@pytest.mark.parametrize("exc", [drafting_mod.DraftError("bad"), RuntimeError("api down"),
+                                 requests.ConnectionError("no network")])
+def test_draft_failure_shows_the_message(monkeypatch, exc):
+    def boom(*a, **k):
+        raise exc
+    at, _ = creation_app(monkeypatch, draft=boom)
+    _to_review(at)
+    assert not at.exception
+    assert any("We couldn't draft that one. Try describing it differently." in e.value for e in at.error)
+    assert at.session_state["ns_step"] == "describe"
+
+
+def test_short_description_shows_the_length_message(monkeypatch):
+    def too_short(*a, **k):
+        raise ValueError("description must be 10-300 characters")
+    at, _ = creation_app(monkeypatch, draft=too_short)
+    _to_review(at)
+    assert any("Please describe the industry in 10 to 300 characters." in e.value for e in at.error)
+
+
+def test_no_github_token_disables_create(monkeypatch):
+    at, _ = creation_app(monkeypatch, token=False)
+    _to_review(at)
+    assert at.button(key="ns-create").disabled
+    assert any("Saving isn't switched on here yet." in i.value for i in at.info)
