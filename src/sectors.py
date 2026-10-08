@@ -6,6 +6,7 @@ the hand-curated file. Data for each sector lives under data/<slug>/."""
 from __future__ import annotations
 
 import json
+import logging
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -17,6 +18,8 @@ DATA_DIR = Path("data")
 INDEX_PATH = DATA_DIR / "sectors.json"
 
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+
+logger = logging.getLogger(__name__)
 
 # Sector wording slotted into the Claude prompts; see src/score.py.
 PROMPT_FIELDS = (
@@ -190,10 +193,18 @@ def load_sector(slug: str, config_dir: Path | None = None) -> Sector:
 
 
 def list_sector_slugs(config_dir: Path | None = None) -> list[str]:
+    """Slugs of every sector config. A file whose stem isn't a valid slug is
+    skipped: the slug becomes a path under data/, so `..yaml` must never run."""
     config_dir = config_dir or CONFIG_DIR
-    return sorted(
-        p.stem for p in config_dir.glob("*.yaml") if not p.name.endswith(".user.yaml")
-    )
+    slugs = []
+    for p in sorted(config_dir.glob("*.yaml")):
+        if p.name.endswith(".user.yaml"):
+            continue
+        if not SLUG_RE.match(p.stem):
+            logger.warning("Skipping %s: %r is not a valid sector slug", p, p.stem)
+            continue
+        slugs.append(p.stem)
+    return slugs
 
 
 def read_index() -> dict[str, dict]:
@@ -229,6 +240,6 @@ def refresh_index(slugs: list[str]) -> None:
             sector = load_sector(slug)
             index[slug] = {"slug": slug, "name": sector.name, "brief": sector.brief,
                            "created_at": sector.created_at, "status": "setting_up"}
-        except SectorConfigError as exc:
+        except Exception as exc:  # any unreadable config is that sector's error, not the run's
             index[slug] = {"slug": slug, "status": "error", "error": str(exc)}
     _write_index(index)

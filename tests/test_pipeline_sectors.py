@@ -153,3 +153,53 @@ def test_existing_signals_are_kept_and_not_rescored(repo):
     assert len(alpha) == 1
     # Second run: nothing new to score; summaries are cached.
     assert len(repo.client.systems) == calls_first
+
+
+def test_an_unreadable_config_does_not_stop_the_rest(repo):
+    # Invalid UTF-8 raises UnicodeDecodeError, not SectorConfigError.
+    write(repo, "alpha")
+    (repo.config / "garbled.yaml").write_bytes(b"slug: garbled\nname: \xff\xfe\n")
+    repo.feeds["alpha"] = [item(1)]
+    assert pipeline.main([]) == 1
+    assert (repo.data / "alpha" / "signals.json").exists()
+    index = sectors.read_index()
+    assert index["alpha"]["status"] == "ready"
+    assert index["garbled"]["status"] == "error"
+
+
+def test_a_failed_compat_copy_keeps_the_good_status(repo, monkeypatch):
+    write(repo, "gambling")
+    repo.feeds["gambling"] = [item(1)]
+    def broken_copy(sector):
+        raise OSError("disk full")
+    monkeypatch.setattr(pipeline, "write_compat_copy", broken_copy)
+    assert pipeline.main(["--sector", "gambling"]) == 1
+    status = json.loads((repo.data / "gambling" / "run_status.json").read_text())
+    assert "error" not in status and status["live_signals"] == 1
+    entry = sectors.read_index()["gambling"]
+    assert entry["status"] == "ready" and entry["error"] is None
+
+
+def test_a_config_whose_name_is_not_a_slug_never_runs(repo):
+    write(repo, "alpha")
+    (repo.config / "..yaml").write_text("slug: x\n", encoding="utf-8")
+    repo.feeds["alpha"] = [item(1)]
+    assert pipeline.main([]) == 0
+    assert not (repo.data / "run_status.json").exists()
+    assert not (repo.data / "signals.json").exists()
+    assert set(sectors.read_index()) == {"alpha"}
+    assert pipeline.main(["--sector", ".."]) == 2
+
+
+def test_cluster_summaries_are_cached_across_runs(repo):
+    # Two items naming the same company form a cluster, so the first run
+    # summarises it; the second run has nothing new and must reuse that.
+    write(repo, "alpha")
+    repo.feeds["alpha"] = [item(1), item(2)]
+    pipeline.main([])
+    alpha = json.loads((repo.data / "alpha" / "signals.json").read_text())
+    assert all(s.get("cluster_summary_for") for s in alpha)
+    calls_first = len(repo.client.systems)
+    assert calls_first > 2  # two scores plus at least one summary
+    pipeline.main([])
+    assert len(repo.client.systems) == calls_first

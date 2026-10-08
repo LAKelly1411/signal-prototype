@@ -117,6 +117,13 @@ class TestListing:
         write(tmp_path, "gambling.yaml", {**MINIMAL, "slug": "gambling"})
         assert list_sector_slugs(config_dir=tmp_path) == ["fintech", "gambling"]
 
+    def test_skips_stems_that_are_not_valid_slugs(self, tmp_path):
+        # The slug becomes a path under data/, so `..yaml` must never list.
+        write(tmp_path, "fintech.yaml", MINIMAL)
+        for name in ("..yaml", "Bad_Name.yaml", "-x.yaml"):
+            write(tmp_path, name, MINIMAL)
+        assert list_sector_slugs(config_dir=tmp_path) == ["fintech"]
+
 
 class TestIndex:
     def test_update_index_merges_fields(self, tmp_path, monkeypatch):
@@ -134,6 +141,16 @@ class TestIndex:
         sectors.refresh_index(["fintech"])
         entry = sectors.read_index()["fintech"]
         assert entry["status"] == "setting_up" and entry["name"] == "Fintech"
+
+    def test_refresh_index_records_any_load_failure_and_continues(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(sectors, "INDEX_PATH", tmp_path / "sectors.json")
+        monkeypatch.setattr(sectors, "CONFIG_DIR", tmp_path)
+        (tmp_path / "broken.yaml").write_bytes(b"slug: broken\nname: \xff\xfe\n")
+        write(tmp_path, "fintech.yaml", MINIMAL)
+        sectors.refresh_index(["broken", "fintech"])
+        index = sectors.read_index()
+        assert index["broken"]["status"] == "error" and index["broken"]["error"]
+        assert index["fintech"]["status"] == "setting_up"
 
 
 def test_known_sources_match_the_registry():

@@ -329,8 +329,6 @@ def main(argv: list[str] | None = None) -> int:
                 status="ready", last_run_at=status["finished_at"],
                 signal_count=status["live_signals"], error=None,
             )
-            if slug == "gambling":
-                write_compat_copy(sector)
         except Exception as exc:  # isolate: one sector's failure never stops the rest
             failed = True
             logger.exception("[%s] Sector run failed", slug)
@@ -341,6 +339,15 @@ def main(argv: list[str] | None = None) -> int:
                 sectors.DATA_DIR / slug / "run_status.json",
             )
             update_index(slug, status="error", error=str(exc), last_run_at=now)
+            continue
+        if slug == "gambling":
+            # Kept apart from the run above: the sector's own data and status
+            # are good, so a failed copy must not relabel them as an error.
+            try:
+                write_compat_copy(sector)
+            except Exception:
+                failed = True
+                logger.exception("[%s] Writing the compatibility copy failed", slug)
     return 1 if failed else 0
 
 
