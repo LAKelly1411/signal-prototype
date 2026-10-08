@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import base64
 import json
+import logging
 from dataclasses import dataclass
 
 import requests
@@ -18,6 +19,8 @@ REPO = "signal-prototype"
 BRANCH = "main"
 WORKFLOW = "pipeline.yml"
 API = f"https://api.github.com/repos/{OWNER}/{REPO}"
+
+logger = logging.getLogger(__name__)
 
 MSG_NOT_SAVED = "We couldn't save the sector. Please try again."
 MSG_NOT_INDEXED = "Saved. It will appear in the menu after the next update."
@@ -56,6 +59,9 @@ class GitHub:
         if sha:
             body["sha"] = sha
         resp = self.http.put(f"{API}/contents/{path}", headers=self.headers, json=body, timeout=20)
+        if create_only and resp.status_code == 422:
+            # Created by someone else between the check and the PUT.
+            raise FileExists(path)
         if resp.status_code >= 400:
             raise GitHubError(f"PUT {path}: {resp.status_code}")
 
@@ -72,6 +78,7 @@ class SaveResult:
     indexed: bool
     dispatched: bool
     message: str
+    exists: bool = False  # step 1 failed because the config file already exists
 
 
 def sector_yaml(config: dict, today: str) -> str:
@@ -92,7 +99,11 @@ def save_sector(gh: GitHub, config: dict, index_entry: dict, today: str) -> Save
     try:
         gh.put_file(f"config/sectors/{slug}.yaml", sector_yaml(config, today),
                     f"Add the {config['name']} sector via dashboard", create_only=True)
+    except FileExists:
+        logger.warning("sector config %s already exists", slug)
+        return SaveResult(False, False, False, MSG_NOT_SAVED, exists=True)
     except Exception:
+        logger.exception("saving the %s sector config failed", slug)
         return SaveResult(False, False, False, MSG_NOT_SAVED)
 
     indexed = False
@@ -113,12 +124,14 @@ def save_sector(gh: GitHub, config: dict, index_entry: dict, today: str) -> Save
                         f"List the {config['name']} sector", sha=sha)
             indexed = True
     except Exception:
+        logger.exception("adding %s to the sector index failed", slug)
         indexed = False
 
     try:
         gh.dispatch_workflow({"sector": ""})
         dispatched = True
     except Exception:
+        logger.exception("starting the pipeline run for %s failed", slug)
         dispatched = False
 
     if not dispatched:

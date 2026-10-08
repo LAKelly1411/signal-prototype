@@ -86,6 +86,7 @@ def test_existing_config_stops_everything():
     result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
     assert not result.saved and not result.indexed and not result.dispatched
     assert result.message == "We couldn't save the sector. Please try again."
+    assert result.exists
     assert [m for m, _, _ in http.calls] == ["GET"]
 
 
@@ -94,6 +95,7 @@ def test_config_put_failure_stops_index_and_dispatch():
     result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
     assert not result.saved and not result.indexed and not result.dispatched
     assert result.message == "We couldn't save the sector. Please try again."
+    assert not result.exists
     assert [m for m, _, _ in http.calls] == ["GET", "PUT"]
 
 
@@ -102,6 +104,7 @@ def test_config_put_422_race_stops_everything():
     result = github.save_sector(github.GitHub("t", http=http), CONFIG, ENTRY, "d")
     assert not result.saved and not result.indexed and not result.dispatched
     assert result.message == "We couldn't save the sector. Please try again."
+    assert result.exists  # created between the check and the PUT
     assert [m for m, _, _ in http.calls] == ["GET", "PUT"]
 
 
@@ -174,3 +177,24 @@ def test_invalid_slug_never_touches_github(slug):
     result = github.save_sector(github.GitHub("t", http=http), {**CONFIG, "slug": slug}, ENTRY, "d")
     assert not result.saved and result.message == "We couldn't save the sector. Please try again."
     assert http.calls == []
+
+
+def test_swallowed_failures_are_logged_without_the_token(caplog):
+    http = FakeHTTP({
+        ("PUT", CFG_PATH): resp(201),
+        ("GET", IDX_PATH): resp(500),
+        ("POST", DISPATCH): resp(403),
+    })
+    with caplog.at_level("ERROR", logger="dashboard.github"):
+        github.save_sector(github.GitHub("secret-token", http=http), CONFIG, ENTRY, "d")
+    errors = [r for r in caplog.records if r.levelname == "ERROR"]
+    assert len(errors) == 2 and all(r.exc_info for r in errors)
+    assert "secret-token" not in caplog.text
+
+
+def test_config_failure_is_logged(caplog):
+    http = FakeHTTP({("PUT", CFG_PATH): resp(500)})
+    with caplog.at_level("ERROR", logger="dashboard.github"):
+        github.save_sector(github.GitHub("secret-token", http=http), CONFIG, ENTRY, "d")
+    assert [r.exc_info is not None for r in caplog.records if r.levelname == "ERROR"] == [True]
+    assert "secret-token" not in caplog.text
