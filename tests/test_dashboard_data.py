@@ -114,7 +114,19 @@ class TestSelection:
         entries = [{"slug": "gambling"}, {"slug": "../x"}, {"slug": "Bad"}, {"name": "no slug"}]
         assert [e["slug"] for e in data.order_index(entries)] == ["gambling"]
 
-    @pytest.mark.parametrize("requested", [None, "", "nope", "../x", "GAMBLING", "fintech/"])
+    def test_order_drops_non_dict_entries(self):
+        entries = ["gambling", None, 3, {"slug": "fintech"}]
+        assert [e["slug"] for e in data.order_index(entries)] == ["fintech"]
+
+    def test_all_invalid_index_orders_to_empty(self):
+        assert data.order_index(["gambling", None]) == []
+        assert data.order_index([{"slug": "../x"}, {"slug": "Bad"}]) == []
+
+    def test_pick_sector_on_empty_raises_value_error(self):
+        with pytest.raises(ValueError):
+            data.pick_sector([], "gambling")
+
+    @pytest.mark.parametrize("requested", [None, "", "nope", "../x", "GAMBLING", "fintech/", "gambling\n"])
     def test_unknown_request_falls_back_to_gambling(self, requested):
         assert data.pick_sector(data.order_index(INDEX), requested) == "gambling"
 
@@ -156,7 +168,23 @@ class TestRulesAndPaths:
     def test_watchlist_path(self):
         assert data.user_watchlist_path("fintech") == "config/sectors/fintech.user.yaml"
 
-    @pytest.mark.parametrize("slug", ["../gambling", "Fintech", "", "a/b"])
+    @pytest.mark.parametrize("slug", ["../gambling", "Fintech", "", "a/b", "gambling\n"])
     def test_watchlist_path_rejects_bad_slugs(self, slug):
         with pytest.raises(ValueError):
             data.user_watchlist_path(slug)
+
+    def test_sector_rules_guards_an_invalid_slug(self):
+        assert data.sector_rules("../gambling").slug == "gambling"
+        assert data.sector_rules("gambling\n").slug == "gambling"
+
+
+class TestSinkGuards:
+    def test_load_signals_rejects_invalid_slug_without_fetching(self, web):
+        with pytest.raises(data.DataError):
+            data.load_signals(BASE, "../gambling")
+        assert web.calls == []
+
+    def test_load_run_status_rejects_invalid_slug_without_fetching(self, web):
+        web.routes[BASE + "../gambling/run_status.json"] = Resp(payload={"live_signals": 1})
+        assert data.load_run_status(BASE, "../gambling") is None
+        assert web.calls == []

@@ -56,6 +56,8 @@ def load_index(base_url: str | None) -> list[dict] | None:
 def load_signals(base_url: str, slug: str) -> list[dict]:
     """A sector's live signals. Not there yet (404) is an empty list: the
     sector is still setting up."""
+    if not _is_slug(slug):
+        raise DataError(f"Not a sector slug: {slug!r}")
     url = f"{base_url}{slug}/signals.json"
     try:
         resp = requests.get(url, timeout=20)
@@ -68,6 +70,8 @@ def load_signals(base_url: str, slug: str) -> list[dict]:
 
 
 def load_run_status(base_url: str, slug: str) -> dict | None:
+    if not _is_slug(slug):
+        return None
     try:
         return _get_json(f"{base_url}{slug}/run_status.json")
     except Exception:
@@ -92,14 +96,21 @@ def load_legacy_status(url: str | None) -> dict | None:
 
 def order_index(entries: list[dict]) -> list[dict]:
     """Gambling first (the original sector), then alphabetical by slug. Entries
-    without a valid slug are dropped: a slug ends up in URLs and file paths."""
-    valid = [e for e in entries if _is_slug(e.get("slug"))]
+    without a valid slug are dropped: a slug ends up in URLs and file paths.
+    Non-dict entries (a malformed remote index) are dropped too. The result can
+    be empty; the caller then substitutes LEGACY_INDEX."""
+    valid = [e for e in entries if isinstance(e, dict) and _is_slug(e.get("slug"))]
     return sorted(valid, key=lambda e: (e["slug"] != GAMBLING, e["slug"]))
 
 
 def pick_sector(entries: list[dict], requested: str | None) -> str:
     """The sector to show: the requested one if it's listed, else gambling,
-    else the first. Only ever returns a slug from the index."""
+    else the first. Only ever returns a slug from the index.
+
+    Expects entries from order_index. An empty list raises ValueError: the
+    caller replaces an empty ordered index with LEGACY_INDEX before calling."""
+    if not entries:
+        raise ValueError("no sectors")
     slugs = [e["slug"] for e in entries]
     if requested in slugs:
         return requested
@@ -129,7 +140,9 @@ def view_state(entry: dict, signals: list[dict]) -> str:
 def sector_rules(slug: str):
     """The sector's config, for exclusions and theme heat. A sector listed in
     the index but without a config in this deploy falls back to gambling's
-    rules rather than breaking the page."""
+    rules rather than breaking the page. An invalid slug gets gambling's rules too."""
+    if not _is_slug(slug):
+        return load_sector(GAMBLING)
     try:
         return load_sector(slug)
     except SectorConfigError:
