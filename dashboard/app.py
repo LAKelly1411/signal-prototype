@@ -1,4 +1,5 @@
 import html
+import logging
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
@@ -34,6 +35,8 @@ from src.cluster import (
 )
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
+
+logger = logging.getLogger(__name__)
 
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp in PA ink:
@@ -1320,7 +1323,8 @@ def inject_css() -> None:
     )
 
 
-def render_masthead(entries: list[dict] | None = None, current: dict | None = None) -> None:
+def render_masthead(entries: list[dict] | None = None, current: dict | None = None,
+                    at_cap: bool = False) -> None:
     """PA lockup — the mark beside the product name set as two ink blocks, as on
     the Media Briefings header — then the sector switcher and standfirst. The
     login page passes nothing and gets the lockup alone."""
@@ -1337,13 +1341,15 @@ def render_masthead(entries: list[dict] | None = None, current: dict | None = No
     # masthead block did before the switcher (kicker, 12px, title, 8px, standfirst).
     with st.container(key="pa-intro", gap=None):
         st.markdown('<span class="pa-kicker">Sector</span>', unsafe_allow_html=True)
-        _sector_switcher(entries, current)
+        _sector_switcher(entries, current, at_cap)
         st.markdown('<p class="pa-standfirst">Sector signals, scored for newsworthiness.</p>',
                     unsafe_allow_html=True)
 
 
-def _sector_switcher(entries: list[dict], current: dict) -> None:
-    """The sector name, set as the page title, opening a menu of sectors."""
+def _sector_switcher(entries: list[dict], current: dict, at_cap: bool) -> None:
+    """The sector name, set as the page title, opening a menu of sectors.
+    at_cap comes from every known slug (see _slug_union), not just the menu's
+    entries, which are the single legacy sector when the index is missing."""
     with st.popover(data.display_name(current), key="pop-sector"):
         for entry in entries:
             note = data.sector_note(entry)
@@ -1351,7 +1357,6 @@ def _sector_switcher(entries: list[dict], current: dict) -> None:
             _check_row(f"sectoropt-{entry['slug']}", label, entry["slug"] == current["slug"],
                        _select_sector, (entry["slug"],), state_first=True)
         st.divider()
-        at_cap = len(entries) >= MAX_SECTORS
         st.button("Sector limit reached" if at_cap else "New sector  :blue-background[PREMIUM]",
                   key="sector-new", icon=":material/add:", type="tertiary", width="stretch",
                   disabled=at_cap,
@@ -2827,7 +2832,7 @@ def _anthropic_client():
     if not key:
         return None
     import anthropic
-    return anthropic.Anthropic(api_key=key, max_retries=2)
+    return anthropic.Anthropic(api_key=key, max_retries=1, timeout=60)
 
 
 def _companies_house():
@@ -2835,16 +2840,22 @@ def _companies_house():
     return drafting.CompaniesHouse(key) if key else None
 
 
-def _existing_slugs() -> set[str]:
-    """Every slug a new sector must not take: the remote index, the configs
-    in this checkout, and sectors created earlier this session."""
-    try:
-        index = load_index() or []
-    except data.IndexUnavailable:
-        index = []
+def _slug_union(index: list[dict] | None) -> set[str]:
+    """Every known sector: the remote index (None if it couldn't be loaded),
+    the configs in this checkout, and sectors created earlier this session.
+    Both the menu's cap and the save's cap count this, so they agree."""
     pending = [p["slug"] for p in st.session_state.get("pending_sectors", [])]
-    return ({e.get("slug") for e in index if isinstance(e, dict)}
-            | set(sectors.list_sector_slugs()) | set(pending))
+    slugs = {e.get("slug") for e in index or [] if isinstance(e, dict)}
+    return {s for s in slugs if isinstance(s, str)} | set(sectors.list_sector_slugs()) | set(pending)
+
+
+def _existing_slugs() -> set[str]:
+    """Every slug a new sector must not take (and the sectors the cap counts)."""
+    try:
+        index = load_index()
+    except Exception:
+        index = None
+    return _slug_union(index)
 
 
 _NS_REVIEW_KEYS = ("ns_name", "ns_brief", "ns_keywords", "ns_companies")
@@ -2866,15 +2877,18 @@ def _run_draft() -> None:
         existing, ch = _existing_slugs(), _companies_house()
         client = _anthropic_client()
     except Exception:
+        logger.exception("setting up the sector draft failed")
         state["ns_error"] = _NS_DRAFT_FAILED
         return
     state["ns_drafts_used"] = state.get("ns_drafts_used", 0) + 1
     try:
         draft = drafting.draft_sector(state.get("ns_description", ""), existing, client, ch)
     except ValueError:
+        logger.exception("the sector description was rejected")
         state["ns_error"] = _NS_DESCRIPTION_LENGTH
         return
     except Exception:
+        logger.exception("drafting the sector failed")
         state["ns_error"] = _NS_DRAFT_FAILED
         return
     state["ns_draft"] = draft
@@ -2886,8 +2900,14 @@ def _run_draft() -> None:
     _ns_go("review")
 
 
+_NS_SECTOR_LIMIT = "Contact us to add more sectors."
+_NS_NAME_TAKEN = "That name was just taken. Please try again."
+
+
 def _run_create() -> None:
-    """Apply the review edits, re-verify company numbers, validate, save."""
+    """Apply the review edits, check the cap and the form, re-verify company
+    numbers, validate, save. If another session takes the slug meanwhile,
+    re-slug and retry once."""
     state = st.session_state
     draft = state["ns_draft"]
     config = new_sector.apply_review(
@@ -2899,25 +2919,51 @@ def _run_create() -> None:
         sources=[s for s in drafting.GENERIC_SOURCES
                  if state.get(f"ns_src_{s}", s in draft.config["sources"])],
     )
+    problem = new_sector.review_problem(config)
+    if problem:
+        state["ns_error"] = problem
+        return
     try:
+        existing = _existing_slugs()
+        # The menu's row is only a hint; this is the cap that holds.
+        if len(existing) >= MAX_SECTORS:
+            state["ns_error"] = _NS_SECTOR_LIMIT
+            return
+        if config["name"] != draft.config["name"]:
+            config["slug"] = drafting.unique_slug(config["name"], existing)
         # Re-verify: an edited number must be confirmed again before it's saved.
         rows = drafting.verify_companies(config["companies"], _companies_house())
         config["companies"] = [{k: v for k, v in r.items() if k != "verified"} for r in rows]
         sectors.parse_sector(config, config["slug"])
     except Exception:
+        logger.exception("preparing the new sector for saving failed")
         state["ns_error"] = github.MSG_NOT_SAVED
         return
-    entry = {"slug": config["slug"], "name": config["name"], "brief": config["brief"],
-             "created_at": config["created_at"], "status": "setting_up"}
     now = datetime.now(timezone.utc)
-    result = github.save_sector(github.GitHub(_secret("GITHUB_TOKEN")), config, entry,
-                                f"{now.day} {now:%B %Y}")
+    gh = github.GitHub(_secret("GITHUB_TOKEN"))
+
+    def save() -> tuple[dict, github.SaveResult]:
+        entry = {"slug": config["slug"], "name": config["name"], "brief": config["brief"],
+                 "created_at": config["created_at"], "status": "setting_up"}
+        return entry, github.save_sector(gh, config, entry, f"{now.day} {now:%B %Y}")
+
+    entry, result = save()
+    if not result.saved and result.exists:
+        # Another session took the slug while this one was in review.
+        config["slug"] = drafting.unique_slug(config["name"], existing | {config["slug"]})
+        entry, result = save()
+        if not result.saved and result.exists:
+            state["ns_error"] = _NS_NAME_TAKEN
+            return
     if not result.saved:
+        logger.error("saving the %s sector failed: %s", config["slug"], result.message)
         state["ns_error"] = result.message
         return
     state.setdefault("pending_sectors", []).append(entry)
     state["ns_result"] = {"name": config["name"], "slug": config["slug"], "message": result.message}
     load_index.clear()
+    # Show it now, so dismissing the Created step with X or Escape lands on it too.
+    _select_sector(config["slug"])
     _ns_go("done")
 
 
@@ -3065,6 +3111,7 @@ def main() -> None:
     except data.IndexUnavailable:
         index = None  # this run only: the failure isn't cached
     index = new_sector.merge_pending(index, st.session_state.get("pending_sectors", []))
+    at_cap = len(_slug_union(index)) >= MAX_SECTORS
     legacy = index is None
     entries = data.order_index(data.LEGACY_INDEX if legacy else index)
     if not entries:
@@ -3080,7 +3127,7 @@ def main() -> None:
     # stacked, so the feed starts higher up the page.
     title_col, status_col = st.columns([3, 2], vertical_alignment="bottom")
     with title_col:
-        render_masthead(entries, current)
+        render_masthead(entries, current, at_cap)
     with status_col:
         with st.container(key="header-actions", horizontal=True, horizontal_alignment="right"):
             _watchlist_button()

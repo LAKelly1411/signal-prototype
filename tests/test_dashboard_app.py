@@ -273,7 +273,9 @@ def creation_app(monkeypatch, *, anthropic=True, token=True, save=None, draft=No
     saved = []
 
     def fake_save(gh, config, entry, today):
-        saved.append((config, entry))
+        saved.append((dict(config), entry))
+        if callable(save):
+            return save(len(saved))
         return save or github_mod.SaveResult(True, True, True, "")
     monkeypatch.setattr(github_mod, "save_sector", fake_save)
     at = app()
@@ -453,3 +455,150 @@ def test_review_table_ticks_only_verified_numbers(monkeypatch):
     assert not at.exception
     assert table(at)[0] == {"Name": "Octopus Energy Limited",
                             "Companies House number": "12345678", "Verified": "–"}
+
+
+def _at_review(at, **state):
+    """Straight to the review step, as if a draft had just come back."""
+    at.session_state["premium_unlocked"] = True
+    at.session_state["ns_open"] = True
+    at.session_state["ns_step"] = "review"
+    at.session_state["ns_draft"] = DRAFT
+    at.session_state["ns_company_rows"] = [dict(c) for c in DRAFT.config["companies"]]
+    for key, value in state.items():
+        at.session_state[key] = value
+    return at.run()
+
+
+def _checkout_slugs():
+    from src.sectors import list_sector_slugs
+    return list_sector_slugs()
+
+
+def _pending(n):
+    return [{"slug": f"p{i}", "name": f"P{i}", "status": "setting_up"} for i in range(n)]
+
+
+def test_create_refuses_at_the_cap_even_when_the_index_fails(monkeypatch):
+    at, saved = creation_app(monkeypatch)
+    serve(monkeypatch, {BASE + "sectors.json": Resp(500), LEGACY_SIGNALS: Resp(payload=GAMBLING)})
+    # The checkout's configs plus enough created this session to reach ten.
+    _at_review(at, pending_sectors=_pending(10 - len(_checkout_slugs())))
+    assert at.button(key="sector-new").disabled  # the menu counts the same union
+    at.button(key="ns-create").click().run()
+    assert not at.exception
+    assert any("Contact us to add more sectors." in e.value for e in at.error)
+    assert saved == []
+
+
+def test_create_below_the_cap_with_a_failed_index_still_saves(monkeypatch):
+    at, saved = creation_app(monkeypatch)
+    serve(monkeypatch, {BASE + "sectors.json": Resp(500), LEGACY_SIGNALS: Resp(payload=GAMBLING)})
+    _at_review(at, pending_sectors=_pending(9 - len(_checkout_slugs())))
+    assert not at.button(key="sector-new").disabled
+    at.button(key="ns-create").click().run()
+    assert len(saved) == 1
+
+
+@pytest.mark.parametrize("state,message", [
+    ({"ns_keywords": []}, "Add at least one keyword."),
+    ({"ns_company_rows": DRAFT.config["companies"][:2]}, "Keep between 3 and 12 companies."),
+    ({f"ns_src_{s}": False for s in drafting_mod.GENERIC_SOURCES}, "Choose at least one source."),
+])
+def test_incomplete_review_is_not_saved(monkeypatch, state, message):
+    at, saved = creation_app(monkeypatch)
+    _to_review(at)
+    for key, value in state.items():
+        at.session_state[key] = value
+    at.run()
+    at.button(key="ns-create").click().run()
+    assert any(message in e.value for e in at.error)
+    assert saved == [] and at.session_state["ns_step"] == "review"
+
+
+def test_slug_taken_mid_review_retries_with_the_next_slug(monkeypatch):
+    def save(attempt):
+        if attempt == 1:
+            return github_mod.SaveResult(False, False, False, github_mod.MSG_NOT_SAVED, exists=True)
+        return github_mod.SaveResult(True, True, True, "")
+    at, saved = creation_app(monkeypatch, save=save)
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert not at.exception
+    assert [c["slug"] for c, _ in saved] == ["energy-retail", "energy-retail-2"]
+    assert saved[1][1]["slug"] == "energy-retail-2"
+    assert at.session_state["ns_step"] == "done"
+    assert at.session_state["ns_result"]["slug"] == "energy-retail-2"
+
+
+def test_slug_taken_twice_asks_to_try_again(monkeypatch):
+    taken = github_mod.SaveResult(False, False, False, github_mod.MSG_NOT_SAVED, exists=True)
+    at, saved = creation_app(monkeypatch, save=lambda attempt: taken)
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert len(saved) == 2
+    assert any("That name was just taken. Please try again." in e.value for e in at.error)
+    assert at.session_state["ns_step"] == "review"
+
+
+def test_other_save_failures_are_not_retried(monkeypatch):
+    at, saved = creation_app(monkeypatch, save=github_mod.SaveResult(False, False, False,
+                                                                     github_mod.MSG_NOT_SAVED))
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert len(saved) == 1
+    assert any(github_mod.MSG_NOT_SAVED in e.value for e in at.error)
+
+
+@pytest.mark.parametrize("name,slug", [("Wind power", "wind-power"), ("Gambling", "gambling-2"),
+                                       ("Energy retail", "energy-retail")])
+def test_renamed_in_review_gets_a_fresh_unique_slug(monkeypatch, name, slug):
+    at, saved = creation_app(monkeypatch)  # the index already has gambling
+    _to_review(at)
+    at.text_input(key="ns_name").input(name).run()
+    at.button(key="ns-create").click().run()
+    assert not at.exception
+    assert saved[0][0]["slug"] == slug and saved[0][1]["slug"] == slug
+
+
+def test_saved_sector_is_selected_before_done(monkeypatch):
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    assert at.query_params["sector"] == ["energy-retail"]
+    # Dismissed with X or Escape rather than Done: the page is already on it.
+    at.session_state["ns_open"] = False
+    at.run()
+    assert not at.exception
+    assert at.session_state["sector"] == "energy-retail"
+
+
+def test_anthropic_client_retries_once_with_a_timeout(monkeypatch):
+    import anthropic
+    calls = []
+    monkeypatch.setattr(anthropic, "Anthropic", lambda **kw: calls.append(kw) or object())
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    assert calls == [{"api_key": "k", "max_retries": 1, "timeout": 60}]
+
+
+def test_draft_failure_is_logged(monkeypatch, caplog):
+    def boom(*a, **k):
+        raise RuntimeError("api down")
+    at, _ = creation_app(monkeypatch, draft=boom)
+    with caplog.at_level("ERROR"):
+        _to_review(at)
+    records = [r for r in caplog.records if r.levelname == "ERROR" and r.exc_info]
+    assert records and "api down" in caplog.text
+
+
+def test_create_failure_is_logged(monkeypatch, caplog):
+    at, saved = creation_app(monkeypatch)
+    _to_review(at)
+
+    def broken(*a, **k):
+        raise RuntimeError("bad config")
+    monkeypatch.setattr(drafting_mod, "verify_companies", broken)
+    with caplog.at_level("ERROR"):
+        at.button(key="ns-create").click().run()
+    assert saved == []
+    assert any(r.exc_info and "bad config" in str(r.exc_info[1]) for r in caplog.records)
