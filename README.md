@@ -7,10 +7,17 @@ Gambling/gaming sector signal monitoring prototype.
 ```
 pip install -r requirements.txt
 cp .env.example .env
-python -m scripts.migrate_to_sectors   # once, after pulling this change
 python -m src.pipeline                 # every sector
 python -m src.pipeline --sector gambling
 ```
+
+The move from the old single-sector layout (`data/signals.json`,
+`data/archive/`) into `data/gambling/` happens automatically: the first
+pipeline run that includes gambling after this change is merged migrates the
+data it finds, then runs as normal. To migrate a local checkout by hand,
+`python -m scripts.migrate_to_sectors` (add `--dry-run` to preview) does the
+same move; it is safe to re-run, and warns rather than changes anything if
+`data/gambling/` is older than `data/signals.json`.
 
 Dashboard: `dashboard/app.py` (Streamlit).
 
@@ -41,9 +48,16 @@ copy, kept for the deployed dashboard until stage 2.
 ## Sectors
 
 One file per sector in `config/sectors/<slug>.yaml`;
-`config/sectors/gambling.yaml` is the worked example. Companies added from the
-dashboard go in `config/sectors/<slug>.user.yaml`. Each sector's run makes its
-own Claude calls, so every sector adds to the cost of a run.
+`config/sectors/gambling.yaml` is the worked example. Additions live beside a
+sector's config in `config/sectors/<slug>.user.yaml`; for now the dashboard's
+watchlist form writes `config/sectors/gambling.user.yaml` only (other sectors
+arrive in stage 2). Each sector's run makes its own Claude calls, so every
+sector adds to the cost of a run.
+
+The Pipeline workflow takes an optional `sector` input; empty runs every
+sector. GitHub keeps at most one pending run per concurrency group, so a newer
+queued dispatch replaces an older queued one, and the all-sectors run covers
+every sector anyway.
 
 To add `canonical_entities` to signals scored before canonicalisation existed
 (no API calls, no re-scoring):
