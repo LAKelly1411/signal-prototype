@@ -140,3 +140,7 @@ def category_of(signal: dict) -> str:
     return canonical_category(
         signal.get("category"), signal.get("title", ""), signal.get("signal_type")
     )
+
+# Temporary: Task 3 replaces this with the real core-rule set.
+CORE_RULE_NAMES = {AML, DISQUALIFICATION, INSOLVENCY, ENFORCEMENT, MERGER, SHAREHOLDING,
+                   BOARD, TAX, CONSULTATION, RESULTS, CORPORATE_FILING, POLICY}

@@ -1,0 +1,139 @@
+# The gambling sector. Hand-curated; dashboard additions go to
+# gambling.user.yaml so the app never edits this file.
+slug: gambling
+name: Gambling & gaming
+brief: >-
+  A B2B newsroom covering the UK gambling and gaming sector: operators,
+  suppliers, affiliates and the regulators around them.
+
+# Sector wording slotted into the Claude prompts (src/score.py). These are
+# today's exact phrases: changing any of them changes every score.
+prompt:
+  newsroom: B2B gambling-industry newsroom
+  coverage: the UK gambling and gaming sector
+  audience: specialist B2B gambling audience
+  materiality: A small operator's confirmation statement can matter here even if it would never make national news.
+  key_players: operators, suppliers or affiliates
+  entity_hint: operator or company names mentioned
+  company_word: operator
+  significance_audience: specialist gambling newsroom
+  theme_scope: the UK gambling sector
+
+# Default search terms for keyword sources; a source's own `keywords` wins.
+keywords: ["gambling", "betting", "bookmaker", "casino", "bingo", "gaming"]
+
+companies:
+  - name: "bet365 Group Limited"
+    company_number: "04241161"
+    aliases: ["bet365", "Hillside"]
+    notes: "Clean single group entity. Privately held (Denise Coates)."
+  - name: "Entain Holdings (UK) Limited"
+    company_number: "11159638"
+    aliases: ["Ladbrokes", "Coral", "bwin", "partypoker", "Gala", "Entain"]
+    notes: "Entain plc itself is Isle of Man registered and shows at CH only as overseas company FC037925. Track the UK holding co, 11159638, for real filings."
+  - name: "Ladbrokes Coral Group Limited"
+    company_number: "00566221"
+    aliases: ["Ladbrokes", "Coral"]
+    notes: "Group entity under Entain. Operating co is Ladbrokes Betting & Gaming Limited, 00775667."
+  - name: "William Hill Limited"
+    company_number: "04212563"
+    aliases: ["William Hill", "888", "Mr Green", "evoke"]
+    notes: "Principal group entity. Long-standing operating co is William Hill Organization Limited, 00278208. Parent evoke being acquired by Bally's Intralot (agreed 5 June 2026)."
+  - name: "Betfair Limited"
+    company_number: "05140986"
+    aliases: ["Betfair", "Paddy Power", "Flutter"]
+    notes: "Flutter UK entity. Sky Bet files under Bonne Terre Limited and Paddy Power GB retail under Power Leisure Bookmakers Limited, both still to resolve. Flutter plc is Irish-domiciled, NYSE-listed, so no standard UK accounts."
+
+tickers:
+  ENT: "Entain"
+  FLTR: "Flutter Entertainment"
+  EVOK: "evoke"
+  RNK: "Rank Group"
+
+# Gambling-only categories, on top of the core set in src/categories.py.
+# `before` places each rule ahead of a core rule; listed order is kept, so
+# these four sit between Insolvency and Enforcement action, as before.
+categories:
+  - name: "Illegal gambling"
+    pattern: "illegal|black market|unlicensed|untaxed"
+    before: "Enforcement action"
+  - name: "Advertising ruling"
+    pattern: 'advertis|\basa\b|marketing standard|promotion'
+    before: "Enforcement action"
+  - name: "Player protection"
+    pattern: "social responsib|player protect|safer gambling|problem gambling|self.?exclu|affordability|harm"
+    before: "Enforcement action"
+  - name: "Licence action"
+    pattern: "licen[cs]e|licensing"
+    before: "Enforcement action"
+
+signal_type_fallback:
+  regulatory: "Licence action"
+
+# Gambling bodies that anchor nothing; generic UK institutions are excluded
+# for every sector in src/cluster.py.
+excluded_bodies:
+  - "gambling commission"
+  - "ukgc"
+  - "dcms"
+  - "department for culture, media and sport"
+  - "department for culture media and sport"
+  - "department for digital, culture, media and sport"
+  - "department for digital culture media and sport"
+  - "dcms select committee"
+  - "betting and gaming council"
+  - "bgc"
+  - "illegal gambling taskforce"
+  - "british horseracing authority"
+  - "bha"
+  - "horserace betting levy board"
+  - "gamble aware"
+  - "gambleaware"
+  - "gamcare"
+
+# Collectors in pipeline order. Present = enabled.
+sources:
+  gambling_commission:
+    listing_pages:
+      - url: "https://www.gamblingcommission.gov.uk/news"
+        signal_type: regulatory
+      - url: "https://www.gamblingcommission.gov.uk/news/enforcement-action"
+        signal_type: enforcement
+      - url: "https://www.gamblingcommission.gov.uk/public-register/regulatory-actions/full"
+        signal_type: enforcement
+  companies_house:
+    items_per_page: 25
+    sleep_seconds: 0.6   # politeness between watchlist companies, well within the 600 req/5min limit
+    # The API returns the most recent N filings whatever their age, so without a
+    # date bound the first run back-fills a decade of routine accounts and
+    # confirmation statements — each paying for a scoring call and padding out
+    # the company's cluster with nothing to report.
+    lookback_days: 365
+  gazette:
+    results_per_term: 20
+    sleep_seconds: 1.0
+  dcms:
+    organisation: "department-for-culture-media-and-sport"
+    keywords: ["gambling", "betting"]
+    results_per_term: 20
+  parliament:
+    keywords: ["gambling", "betting"]
+    results_per_term: 20
+  asa:
+    keywords: ["gambling", "betting"]
+  bgc:
+    pages: 2
+  insolvency_service:
+    sleep_seconds: 1.0
+  lse_rns:
+    # Routine corporate-action announcements, matched case-insensitively as
+    # substrings of the RNS headline. These accounted for roughly half of all
+    # RNS items and scored in the teens and twenties — pure cluster volume with
+    # no story in them. Delete a line to start collecting that kind again.
+    skip_titles:
+      - "holding(s) in company"
+      - "notification of major holdings"
+      - "director/pdmr shareholding"
+      - "transaction in own shares"
+      - "total voting rights"
+      - "block listing"
