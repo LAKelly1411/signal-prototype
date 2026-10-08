@@ -1,0 +1,86 @@
+[
+ {
+  "id": "fintech-0",
+  "source": "fca",
+  "source_id": null,
+  "source_url": "https://www.fca.org.uk/news/0",
+  "title": "Monzo fined over financial crime controls",
+  "raw_summary": "Monzo fined over financial crime controls.",
+  "published_at": "2026-07-01T00:00:00+00:00",
+  "ingested_at": "2026-07-01T09:00:00+00:00",
+  "signal_type": "regulatory",
+  "entities": [
+   "Monzo Bank Limited"
+  ],
+  "newsworthiness_score": 81,
+  "why_it_matters": "Matters to payments firms: Monzo fined over financial crime controls.",
+  "category": "Enforcement action",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Monzo Bank Limited"
+  ],
+  "canonical_category": "Enforcement action",
+  "theme_id": null,
+  "theme_summary": null,
+  "theme_key_points": [],
+  "theme_direction": null,
+  "theme_summary_for": null
+ },
+ {
+  "id": "fintech-1",
+  "source": "fca",
+  "source_id": null,
+  "source_url": "https://www.fca.org.uk/news/1",
+  "title": "FCA publishes APP fraud reimbursement data",
+  "raw_summary": "FCA publishes APP fraud reimbursement data.",
+  "published_at": "2026-07-02T00:00:00+00:00",
+  "ingested_at": "2026-07-02T09:00:00+00:00",
+  "signal_type": "regulatory",
+  "entities": [
+   "Revolut Ltd"
+  ],
+  "newsworthiness_score": 64,
+  "why_it_matters": "Matters to payments firms: FCA publishes APP fraud reimbursement data.",
+  "category": "Fraud and APP scams",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Revolut Ltd"
+  ],
+  "canonical_category": "Fraud and APP scams",
+  "theme_id": null,
+  "theme_summary": null,
+  "theme_key_points": [],
+  "theme_direction": null,
+  "theme_summary_for": null
+ },
+ {
+  "id": "fintech-2",
+  "source": "fca",
+  "source_id": null,
+  "source_url": "https://www.fca.org.uk/news/2",
+  "title": "Wise authorisation variation granted",
+  "raw_summary": "Wise authorisation variation granted.",
+  "published_at": "2026-07-03T00:00:00+00:00",
+  "ingested_at": "2026-07-03T09:00:00+00:00",
+  "signal_type": "regulatory",
+  "entities": [
+   "Wise Payments Limited"
+  ],
+  "newsworthiness_score": 45,
+  "why_it_matters": "Matters to payments firms: Wise authorisation variation granted.",
+  "category": "Authorisation and permissions",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Wise Payments Limited"
+  ],
+  "canonical_category": "Authorisation and permissions",
+  "theme_id": null,
+  "theme_summary": null,
+  "theme_key_points": [],
+  "theme_direction": null,
+  "theme_summary_for": null
+ }
+]
