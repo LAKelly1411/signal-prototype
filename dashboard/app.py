@@ -4,6 +4,7 @@ import html
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from urllib.parse import urlparse
 
 import requests
@@ -240,7 +241,29 @@ def inject_css() -> None:
         .sc-logo-person svg { width: 18px; height: 18px; }
         .sc-source-name { font-weight: 700; white-space: nowrap; }
         .sc-sep { opacity: 0.2; }
-        .sc-time { white-space: nowrap; }
+        .sc-time { position: relative; white-space: nowrap; cursor: default; }
+        /* Exact date on hover/focus, in the sparkline tooltip's dark grey. */
+        .sc-time-tip {
+            position: absolute;
+            left: 50%;
+            bottom: calc(100% + 8px);
+            z-index: 5;
+            padding: 8px 12px;
+            background: #1f1f1f;
+            color: var(--pa-paper);
+            font-family: var(--pa-font-data);
+            font-size: 0.8125rem;
+            font-weight: 400;
+            line-height: 1.25;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transform: translate(-50%, 4px);
+            transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+        }
+        .sc-time:hover .sc-time-tip,
+        .sc-time:focus-visible .sc-time-tip { opacity: 1; transform: translate(-50%, 0); }
+        .sc-time:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
         .sc-relevance {
             display: inline-flex;
             align-items: center;
@@ -1029,6 +1052,24 @@ def _logo_dev_token() -> str | None:
     return token if token and token.startswith("pk_") else None
 
 
+try:
+    _UK = ZoneInfo("Europe/London")
+except Exception:  # no tz database available: fall back to UTC
+    _UK = timezone.utc
+
+
+def _full_date(published_at: str) -> str:
+    """The exact date for the relative-time tooltip, with the UK time when
+    the source gave one (date-only signals are stored as midnight UTC)."""
+    dt = datetime.fromisoformat(published_at)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    if (dt.hour, dt.minute, dt.second) == (0, 0, 0):
+        return f"{dt:%A} {dt.day} {dt:%B %Y}"
+    local = dt.astimezone(_UK)
+    return f"{local:%A} {local.day} {local:%B %Y}, {local:%H:%M}"
+
+
 def _source_logo(source: str) -> str:
     token = _logo_dev_token()
     domain = SOURCE_DOMAINS.get(source)
@@ -1100,10 +1141,12 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
     source = signal["source"]
     source_name = SOURCE_NAMES.get(source, (source.replace("_", " ").title(), ""))[0]
     when = _relative_time(signal["published_at"], now)
+    exact = _full_date(signal["published_at"])
     if signal.get("published_at_estimated"):
         # The source gave no usable date, so this is the ingest time standing
         # in — say so rather than presenting a guess as fact.
         when += " (date estimated)"
+        exact += " · estimated from when we collected it"
 
     # Canonical names, so a company appears once however the source spelled it.
     entities = signal_entities(signal)
@@ -1141,7 +1184,8 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
         f'<div class="sc-source">{_source_logo(source)}'
         f'<span class="sc-source-name">{html.escape(source_name)}</span>'
         '<span class="sc-sep" aria-hidden="true">|</span>'
-        f'<span class="sc-time">{html.escape(when)}</span></div>'
+        f'<span class="sc-time" tabindex="0">{html.escape(when)}'
+        f'<span class="sc-time-tip" role="tooltip">{html.escape(exact)}</span></span></div>'
         f'<div class="sc-relevance">{_relevance_ring(score)}'
         f"<span><b>{RELEVANCE_LABELS[label]}</b> ({score}%)</span></div>"
         "</div>"
