@@ -158,6 +158,15 @@ COMPANY_DOMAINS = {
     "Ladbrokes": "ladbrokes.com",
     "Ladbrokes Coral Group": "ladbrokes.com",
     "Ministry of Housing, Communities and Local Government": "gov.uk",
+    # Regulators and trade bodies, as named in signals; the same sites the
+    # source logos were checked against.
+    "Gambling Commission": "gamblingcommission.gov.uk",
+    "Betting and Gaming Council": "bettingandgamingcouncil.com",
+    "BGC": "bettingandgamingcouncil.com",
+    "Advertising Standards Authority": "asa.org.uk",
+    "ASA": "asa.org.uk",
+    "Department for Culture, Media and Sport": "gov.uk",
+    "DCMS": "gov.uk",
     "QuinnBet": "quinnbet.com",
     "Rank": "rank.com",
     "Rank Group": "rank.com",

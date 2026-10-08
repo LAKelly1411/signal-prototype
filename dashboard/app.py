@@ -1,4 +1,5 @@
 import base64
+import hashlib
 import html
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -653,54 +654,62 @@ def inject_css() -> None:
         }
         [data-baseweb="tag"] { border-radius: 0 !important; }
 
-        /* ── Feed filter bar ───────────────────────────────────────
-           Grey square controls whose label carries the current value (bold),
-           opening white menus with a soft shadow; sort on the right, its
-           choices ticked in cobalt. After the sort control in Ren's
-           Playground. */
-        .st-key-feed-filters { gap: 8px; margin: 0.5rem 0 0.25rem 0; }
-        .st-key-feed-filters [data-testid="stPopoverButton"],
-        .st-key-feed-filters [data-testid="stTextInputRootElement"] {
-            min-height: 44px;
-            border: 1px solid transparent;
-            border-radius: 0;
-            background: var(--pa-surface);
-            box-shadow: none;
-        }
-        .st-key-feed-filters [data-testid="stPopoverButton"] {
-            padding: 0 16px;
-            color: var(--pa-ink);
-        }
-        .st-key-feed-filters [data-testid="stPopoverButton"]:hover { background: var(--pa-sunken); }
-        .st-key-feed-filters [data-testid="stPopoverButton"]:focus-visible { border-color: var(--pa-cobalt); }
-        .st-key-feed-filters [data-testid="stPopoverButton"] p {
-            font-family: var(--pa-font-data);
-            font-size: 0.9375rem;
-            font-weight: 400;
-            white-space: nowrap;
-        }
-        /* Controls keep their natural width; when the row runs out of room it
-           wraps instead of squeezing labels until their text is clipped. */
+        /* ── Feed filter bar (Ren's Playground, frame 2371:835) ──────
+           Controls are plain (icon + "Label: **Value**") until opened, then
+           #e7e7e7. Menus are white with a 0 4px 12px shadow; rows are 8x12px,
+           16px Press Sans; chosen options carry a cobalt tick. */
+        .st-key-feed-filters { gap: 4px; margin: 0.5rem 0 0.25rem 0; }
         .st-key-feed-filters [data-testid="stPopover"],
         .st-key-feed-filters [data-testid="stPopover"] > div,
         .st-key-feed-filters [data-testid="stPopoverButton"],
         .st-key-feed-filters [data-testid="stPopoverButton"] > div,
         .st-key-feed-filters [data-testid="stPopoverButton"] > div > div { flex-shrink: 0; }
+        .st-key-feed-filters [data-testid="stPopoverButton"] {
+            min-height: 40px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            box-shadow: none;
+            color: var(--pa-ink);
+        }
+        .st-key-feed-filters [data-testid="stPopoverButton"]:hover,
+        .st-key-feed-filters [data-testid="stPopoverButton"][aria-expanded="true"] { background: #e7e7e7; }
+        .st-key-feed-filters [data-testid="stPopoverButton"]:focus-visible { outline: 2px solid var(--pa-cobalt); }
+        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stIconMaterial"] { font-size: 20px; }
+        .st-key-feed-filters [data-testid="stPopoverButton"] p {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+        .st-key-feed-filters [data-testid="stPopoverButton"] p strong { font-weight: 700; }
         /* Streamlit sizes the label box 5px under its text (every label, any
            length), and clips it. Let the last few pixels run into the
-           button's 16px padding rather than cut the value off. */
+           button's padding rather than cut the value off. */
         .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"],
         .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"] p {
             overflow: visible;
             text-overflow: clip;
         }
-        .st-key-feed-filters [data-testid="stPopoverButton"] p strong { font-weight: 700; }
-        /* No chevron: the grey control already reads as a menu. */
+        /* No chevron: the open state's grey says it's a menu. */
         .st-key-feed-filters [data-testid="stPopoverButton"] > div > div:last-child:not(:first-child):has([data-testid="stIconMaterial"]) { display: none; }
-        .st-key-feed-filters [data-testid="stTextInputRootElement"]:focus-within { border-color: var(--pa-cobalt); }
-        .st-key-feed-filters [data-testid="stTextInputRootElement"] input {
+
+        /* Search fields: 1px #ccc outline, no fill. */
+        .st-key-feed-filters [data-testid="stTextInputRootElement"],
+        [data-testid="stPopoverBody"] [data-testid="stTextInputRootElement"] {
+            min-height: 40px;
+            border: 1px solid #cccccc;
+            border-radius: 0;
+            background: var(--pa-paper);
+        }
+        .st-key-feed-filters [data-testid="stTextInputRootElement"]:focus-within,
+        [data-testid="stPopoverBody"] [data-testid="stTextInputRootElement"]:focus-within {
+            border-color: var(--pa-cobalt);
+        }
+        .st-key-feed-filters input, [data-testid="stPopoverBody"] input {
             font-family: var(--pa-font-data);
-            font-size: 0.9375rem;
+            font-size: 1rem;
         }
         .st-key-pop-sort { margin-left: auto; }
         .st-key-clear-filters button p {
@@ -709,27 +718,82 @@ def inject_css() -> None:
             font-size: 0.875rem;
             color: var(--pa-cobalt);
         }
+
         [data-testid="stPopoverBody"] {
+            min-width: 264px;
+            /* Streamlit fixes the height when the menu opens; the company
+               list changes as you type, so let it grow (within its cap). */
+            height: auto !important;
+            margin-top: 8px;
+            padding: 0;
             border: none;
             border-radius: 0;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-            padding: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
-        /* Sort menu: left-aligned rows, the tick only on the chosen one. */
-        [class*="st-key-sortopt-"] button {
-            padding: 10px 12px;
+        [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"] { gap: 0; }
+        [data-testid="stPopoverBody"] [data-testid="stTextInput"] { padding: 8px; }
+        [data-testid="stPopoverBody"] [data-testid="stSlider"],
+        [data-testid="stPopoverBody"] [data-testid="stDateInput"] { padding: 12px; }
+        [data-testid="stPopoverBody"] [data-testid="stCaptionContainer"] { padding: 4px 12px 8px; }
+
+        /* Menu rows: ticked lists (sort, source, type) and plain actions. */
+        [data-testid="stPopoverBody"] button[kind="tertiary"] {
+            justify-content: flex-start;
+            min-height: 0;
+            padding: 8px 12px;
             border-radius: 0;
         }
-        [class*="st-key-sortopt-"] button > div,
-        [class*="st-key-sortopt-"] button > div > span { justify-content: flex-start; gap: 12px; }
-        [class*="st-key-sortopt-"] button:hover { background: var(--pa-surface); }
-        [class*="st-key-sortopt-"] button p {
+        [data-testid="stPopoverBody"] button[kind="tertiary"] > div,
+        [data-testid="stPopoverBody"] button[kind="tertiary"] > div > span { justify-content: flex-start; gap: 8px; }
+        [data-testid="stPopoverBody"] button[kind="tertiary"]:hover { background: var(--pa-surface); }
+        [data-testid="stPopoverBody"] button[kind="tertiary"] p {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            color: var(--pa-ink);
+            text-align: left;
+        }
+        [data-testid="stPopoverBody"] button[kind="tertiary"] p strong { font-weight: 700; }
+        [data-testid="stPopoverBody"] [data-testid="stIconMaterial"] { color: var(--pa-cobalt); font-size: 20px; }
+        [class*="st-key-sortopt-"][class*="-off"] [data-testid="stIconMaterial"],
+        [class*="st-key-src-"][class*="-off"] [data-testid="stIconMaterial"],
+        [class*="st-key-typ-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+
+        /* Company picker rows: logo + name, a tick when chosen; the whole row
+           is an invisible button, as on the pattern cards. */
+        [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]) {
+            position: relative;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        [class*="st-key-pick-"]:not([class*="st-key-pick-btn-"]):hover { background: var(--pa-surface); }
+        /* Streamlit pulls markdown blocks up with a negative margin, which
+           collapsed these rows to 26px. */
+        [class*="st-key-pick-"] [data-testid="stElementContainer"],
+        [class*="st-key-pick-"] [data-testid="stMarkdown"],
+        [class*="st-key-pick-"] [data-testid="stMarkdownContainer"] { margin: 0; }
+        .pick-row {
+            min-height: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
             font-family: var(--pa-font-data);
             font-size: 1rem;
             color: var(--pa-ink);
         }
-        [class*="st-key-sortopt-"] [data-testid="stIconMaterial"] { color: var(--pa-cobalt); }
-        [class*="st-key-sortopt-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+        .pick-row .sc-logo { width: 20px; height: 20px; font-size: 0.5rem; }
+        .pick-row .sc-logo-person svg { width: 15px; height: 15px; }
+        .pick-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .pick-check { color: var(--pa-cobalt); font-weight: 700; visibility: hidden; }
+        [class*="st-key-pick-"][class*="-on"] .pick-check { visibility: visible; }
+        [class*="st-key-pick-btn-"] {
+            position: absolute;
+            inset: 0;
+            margin: 0;
+            z-index: 2;
+        }
+        [class*="st-key-pick-btn-"] [data-testid="stButton"],
+        [class*="st-key-pick-btn-"] [data-testid="stButton"] > *,
+        [class*="st-key-pick-btn-"] button { width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
@@ -1060,11 +1124,35 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 SORT_RECENT = "Most recent"
 SORT_SCORE = "Highest score"
 DEFAULT_MIN_SCORE = 40
+COMPANY_ROWS = 8  # matches listed in the company picker before "refine search"
+
+# Filter state, kept outside the widgets so the menus can be custom lists.
+# Sources and types store what's switched OFF, so a source or type that
+# appears later is included automatically (the old widgets needed keys built
+# from the option set to manage that).
+F_SEARCH, F_SORT = "f_search", "f_sort"
+F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES = "f_sources_off", "f_types_off", "f_companies"
+F_SCORE, F_COMPANY_QUERY = "f_min_score", "f_company_query"
 
 
 def _set_sort(option: str) -> None:
-    st.session_state["f_sort"] = option
+    st.session_state[F_SORT] = option
     st.session_state["pop-sort"] = False  # close the menu once a choice is made
+
+
+def _toggle(state_key: str, value: str) -> None:
+    current = set(st.session_state.get(state_key, []))
+    current ^= {value}
+    st.session_state[state_key] = sorted(current)
+
+
+def _set_all(state_key: str, values: list[str]) -> None:
+    st.session_state[state_key] = list(values)
+
+
+def _add_companies(names: list[str]) -> None:
+    current = set(st.session_state.get(F_COMPANIES, []))
+    st.session_state[F_COMPANIES] = sorted(current | set(names), key=str.lower)
 
 
 def _clear_filters(keys: list[str]) -> None:
@@ -1072,47 +1160,105 @@ def _clear_filters(keys: list[str]) -> None:
         st.session_state.pop(key, None)
 
 
-def _summary(selected: list, options: list, all_label: str = "All") -> str:
-    if not selected or len(selected) == len(options):
-        return all_label if selected else "None"
-    if len(selected) == 1:
-        return str(selected[0])
-    return f"{len(selected)} of {len(options)}"
+def _slug(text: str) -> str:
+    return hashlib.md5(text.encode("utf-8")).hexdigest()[:10]
+
+
+def _check_row(key: str, label: str, on: bool, on_click, args: tuple) -> None:
+    """A menu row with a cobalt tick when on (styled in inject_css)."""
+    st.button(
+        label,
+        key=f"{key}-{'on' if on else 'off'}",
+        icon=":material/check:",
+        type="tertiary",
+        width="stretch",
+        on_click=on_click,
+        args=args,
+    )
+
+
+def _company_picker(all_entities: list[str], counts: Counter) -> None:
+    """Search, 'Select N matches', then matching companies with their logos.
+    Each row is HTML (a logo can't go in a button label) with an invisible
+    button stretched over it, as on the pattern cards."""
+    selected = set(st.session_state.get(F_COMPANIES, []))
+    query = st.text_input(
+        "Find a company",
+        key=F_COMPANY_QUERY,
+        placeholder="Search companies",
+        label_visibility="collapsed",
+        icon=":material/search:",
+    ).strip().lower()
+    # Most-mentioned first, so the company you probably mean leads the list.
+    matches = sorted(
+        (e for e in all_entities if query in e.lower()), key=lambda e: (-counts[e], e.lower())
+    ) if query else []
+    pool = matches if query else sorted(all_entities, key=lambda e: -counts[e])
+    if query and matches:
+        st.button(
+            f"Select **{len(matches)}** {'match' if len(matches) == 1 else 'matches'}",
+            key="co-select-matches",
+            type="tertiary",
+            on_click=_add_companies,
+            args=(matches,),
+        )
+    if selected:
+        st.button(
+            f"Clear **{len(selected)}** selected",
+            key="co-clear",
+            type="tertiary",
+            on_click=_set_all,
+            args=(F_COMPANIES, []),
+        )
+    # Chosen companies first, so they stay in reach while browsing.
+    rows = sorted(pool[: COMPANY_ROWS * 4], key=lambda e: (e not in selected,))[:COMPANY_ROWS]
+    if query and not matches:
+        st.caption("No companies match.")
+    for name in rows:
+        on = name in selected
+        with st.container(key=f"pick-{_slug(name)}-{'on' if on else 'off'}"):
+            st.markdown(
+                f'<div class="pick-row">{_company_logo(name)}'
+                f'<span class="pick-name">{html.escape(name)}</span>'
+                f'<span class="pick-check" aria-hidden="true">✓</span></div>',
+                unsafe_allow_html=True,
+            )
+            st.button(
+                f"{'Remove' if on else 'Add'} {name}",
+                key=f"pick-btn-{_slug(name)}",
+                width="stretch",
+                on_click=_toggle,
+                args=(F_COMPANIES, name),
+            )
+    if len(pool) > COMPANY_ROWS:
+        st.caption(f"{len(pool) - COMPANY_ROWS} more — type to narrow the list.")
 
 
 def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
-    """The Feed's filter bar: search, then one menu per filter whose label
-    shows its current value, and sort on the right. Lives in the Feed tab
-    because it only ever filtered the feed; in the sidebar it looked as if it
-    applied to Patterns and Themes too."""
+    """The Feed's filter bar (after Ren's Playground, frame 2371:835): search,
+    then a menu per filter whose label carries its current value in bold,
+    and sort on the right. Menus are ticked lists; Company is searchable with
+    logos. Lives in the Feed tab because it only ever filtered the feed."""
     sources = sorted({s["source"] for s in scored})
     signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
     # Canonical names, so one option covers every spelling of a company —
     # picking "Entain Holdings (UK) Limited" also matches signals that named
     # it "Entain".
-    all_entities = sorted({e for s in scored for e in signal_entities(s)}, key=str.lower)
+    entity_counts = Counter(e for s in scored for e in signal_entities(s))
+    all_entities = sorted(entity_counts, key=str.lower)
     published_dates = [datetime.fromisoformat(s["published_at"]).date() for s in scored]
     min_date, max_date = min(published_dates), max(published_dates)
+    # Keyed on the bounds so the range resets to the full span whenever new
+    # data extends it, rather than quietly falling behind.
+    dates_key = f"date_range_{min_date}_{max_date}"
 
-    # Keyed on the current option set / bounds so each widget resets to "all"
-    # whenever new sources, types or dates show up — otherwise Streamlit keeps
-    # a session's original default forever, silently hiding anything added
-    # after the browser tab was first opened.
-    keys = {
-        "search": "f_search",
-        "sources": f"sources_{','.join(sources)}",
-        "types": f"types_{','.join(signal_types)}",
-        "entities": "f_entities",
-        "score": "f_min_score",
-        "dates": f"date_range_{min_date}_{max_date}",
-    }
     state = st.session_state
-    cur_sources = state.get(keys["sources"], sources)
-    cur_types = state.get(keys["types"], signal_types)
-    cur_entities = state.get(keys["entities"], [])
-    cur_score = state.get(keys["score"], DEFAULT_MIN_SCORE)
-    cur_dates = state.get(keys["dates"], (min_date, max_date))
-    sort_order = state.get("f_sort", SORT_RECENT)
+    sources_off = set(state.get(F_SOURCES_OFF, [])) & set(sources)
+    types_off = set(state.get(F_TYPES_OFF, [])) & set(signal_types)
+    companies = [c for c in state.get(F_COMPANIES, []) if c in entity_counts]
+    min_score = state.get(F_SCORE, DEFAULT_MIN_SCORE)
+    cur_dates = state.get(dates_key, (min_date, max_date))
+    sort_order = state.get(F_SORT, SORT_RECENT)
 
     def source_name(s: str) -> str:
         return SOURCE_NAMES.get(s, (s.replace("_", " ").title(), ""))[0]
@@ -1120,90 +1266,104 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
     def type_name(t: str) -> str:
         return t.replace("_", " ").capitalize()
 
+    def summary(on: list[str], total: int) -> str:
+        if len(on) == total:
+            return "All selected"
+        if not on:
+            return "None"
+        return on[0] if len(on) == 1 else f"{len(on)} of {total}"
+
     dates_all = (
         not isinstance(cur_dates, tuple)
         or len(cur_dates) != 2
         or tuple(cur_dates) == (min_date, max_date)
     )
     dates_label = (
-        "All"
+        "All time"
         if dates_all
         else f"{cur_dates[0].day} {cur_dates[0]:%b} – {cur_dates[1].day} {cur_dates[1]:%b}"
     )
+    company_label = (
+        "All selected" if not companies
+        else companies[0] if len(companies) == 1
+        else f"{len(companies)} selected"
+    )
     active = bool(
-        state.get(keys["search"])
-        or len(cur_sources) != len(sources)
-        or len(cur_types) != len(signal_types)
-        or cur_entities
-        or cur_score != DEFAULT_MIN_SCORE
-        or not dates_all
+        state.get(F_SEARCH) or sources_off or types_off or companies
+        or min_score != DEFAULT_MIN_SCORE or not dates_all
     )
 
     with st.container(key="feed-filters", horizontal=True, vertical_alignment="center"):
         search_query = st.text_input(
             "Search",
-            placeholder="Search signals…",
+            placeholder="Search",
             label_visibility="collapsed",
             icon=":material/search:",
-            key=keys["search"],
-            width=260,
+            key=F_SEARCH,
+            width=304,
         ).strip().lower()
 
+        on_sources = [source_name(s) for s in sources if s not in sources_off]
         with st.popover(
-            f"Source: **{_summary([source_name(s) for s in cur_sources], sources)}**",
-            key="pop-source",
+            f"Source: **{summary(on_sources, len(sources))}**",
+            icon=":material/rss_feed:", key="pop-source",
         ):
-            selected_sources = st.multiselect(
-                "Source", sources, default=sources, key=keys["sources"],
-                format_func=source_name,
-            )
+            for s in sources:
+                _check_row(f"src-{s}", source_name(s), s not in sources_off,
+                           _toggle, (F_SOURCES_OFF, s))
+            if sources_off:
+                st.button("Select all", key="src-all", type="tertiary",
+                          on_click=_set_all, args=(F_SOURCES_OFF, []))
+
+        on_types = [type_name(t) for t in signal_types if t not in types_off]
         with st.popover(
-            f"Type: **{_summary([type_name(t) for t in cur_types], signal_types)}**",
-            key="pop-type",
+            f"Type: **{summary(on_types, len(signal_types))}**",
+            icon=":material/category:", key="pop-type",
         ):
-            selected_types = st.multiselect(
-                "Signal type", signal_types, default=signal_types, key=keys["types"],
-                format_func=type_name,
-            )
+            for t in signal_types:
+                _check_row(f"typ-{t}", type_name(t), t not in types_off,
+                           _toggle, (F_TYPES_OFF, t))
+            if types_off:
+                st.button("Select all", key="typ-all", type="tertiary",
+                          on_click=_set_all, args=(F_TYPES_OFF, []))
+
         with st.popover(
-            f"Company: **{_summary(cur_entities, all_entities, 'Any') if cur_entities else 'Any'}**",
-            key="pop-company",
+            f"Company / Entity: **{company_label}**",
+            icon=":material/corporate_fare:", key="pop-company",
         ):
-            selected_entities = st.multiselect(
-                "Company / entity", all_entities, key=keys["entities"],
-                placeholder="Any company",
-                help="Leave empty to include all companies.",
-            )
-        with st.popover(f"Score: **{cur_score}+**", key="pop-score"):
+            _company_picker(all_entities, entity_counts)
+
+        with st.popover(f"Score: **{min_score}+**", icon=":material/speed:", key="pop-score"):
             # Defaults to 40 (Medium+) rather than 0 so a busy day doesn't bury
             # higher-value signals under Low-tier noise; still adjustable to 0.
-            min_score = st.slider("Minimum score", 0, 100, DEFAULT_MIN_SCORE, key=keys["score"])
-        with st.popover(f"Dates: **{dates_label}**", key="pop-dates"):
+            st.slider("Minimum score", 0, 100, DEFAULT_MIN_SCORE, key=F_SCORE)
+
+        with st.popover(f"Dates: **{dates_label}**", icon=":material/calendar_month:",
+                        key="pop-dates"):
             date_range = st.date_input(
                 "Date range",
                 value=(min_date, max_date),
                 min_value=min_date,
                 max_value=max_date,
-                key=keys["dates"],
+                key=dates_key,
             )
+
         if active:
             st.button(
                 "Clear filters", key="clear-filters", type="tertiary",
-                on_click=_clear_filters, args=(list(keys.values()),),
+                on_click=_clear_filters,
+                args=([F_SEARCH, F_SOURCES_OFF, F_TYPES_OFF, F_COMPANIES, F_SCORE,
+                       F_COMPANY_QUERY, dates_key],),
             )
-        with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:", key="pop-sort"):
+        with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:",
+                        key="pop-sort"):
             for option in (SORT_RECENT, SORT_SCORE):
-                on = option == sort_order
-                st.button(
-                    option,
-                    key=f"sortopt-{option.split()[0].lower()}-{'on' if on else 'off'}",
-                    icon=":material/check:",
-                    type="tertiary",
-                    width="stretch",
-                    on_click=_set_sort,
-                    args=(option,),
-                )
+                _check_row(f"sortopt-{option.split()[0].lower()}", option,
+                           option == sort_order, _set_sort, (option,))
 
+    selected_sources = [s for s in sources if s not in sources_off]
+    selected_types = [t for t in signal_types if t not in types_off]
+    selected_entities = companies
     if isinstance(date_range, tuple) and len(date_range) == 2:
         start_date, end_date = date_range
     else:
