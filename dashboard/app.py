@@ -1,4 +1,3 @@
-import base64
 import html
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -6,7 +5,6 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from urllib.parse import urlparse
 
-import requests
 import streamlit as st
 import yaml
 
@@ -23,7 +21,7 @@ from dashboard.brand import (
     category_icon,
     icon,
 )
-from dashboard import data
+from dashboard import data, github
 from src.entities import match_key
 from src.cluster import (
     CLUSTER_WINDOW_DAYS,
@@ -36,8 +34,6 @@ from src.cluster import (
 
 st.set_page_config(page_title="Sector Signal", layout="wide")
 
-GITHUB_OWNER = "LAKelly1411"
-GITHUB_REPO = "signal-prototype"
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp in PA ink:
 # outline -> sunken grey -> solid ink, light->dark mapping low->high newsworthiness.
@@ -2556,26 +2552,14 @@ def _reserve_health_strip() -> None:
         st.expander("Which sources returned nothing?")
 
 
-def _github_headers() -> dict:
-    return {
-        "Authorization": f"token {st.secrets['GITHUB_TOKEN']}",
-        "Accept": "application/vnd.github+json",
-    }
-
-
 def _fetch_user_watchlist() -> tuple[dict, str | None]:
-    url = (
-        f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
-        f"/contents/{data.user_watchlist_path(_current_slug())}"
-    )
-    resp = requests.get(url, headers=_github_headers(), timeout=20)
-    if resp.status_code == 404:
+    gh = github.GitHub(st.secrets["GITHUB_TOKEN"])
+    found = gh.get_file(data.user_watchlist_path(_current_slug()))
+    if found is None:
         return {"operators": []}, None
-    resp.raise_for_status()
-    payload = resp.json()
-    content = base64.b64decode(payload["content"]).decode("utf-8")
+    content, sha = found
     watchlist = yaml.safe_load(content) or {"operators": []}
-    return watchlist, payload["sha"]
+    return watchlist, sha
 
 
 def add_operator_to_watchlist(
@@ -2591,21 +2575,13 @@ def add_operator_to_watchlist(
         }
     )
     new_content = yaml.safe_dump(watchlist, sort_keys=False, allow_unicode=True)
-    encoded = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
-
-    url = (
-        f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}"
-        f"/contents/{data.user_watchlist_path(_current_slug())}"
+    gh = github.GitHub(st.secrets["GITHUB_TOKEN"])
+    gh.put_file(
+        data.user_watchlist_path(_current_slug()),
+        new_content,
+        f"Add {name} to watchlist via dashboard",
+        sha=sha,
     )
-    body = {
-        "message": f"Add {name} to watchlist via dashboard",
-        "content": encoded,
-        "branch": "main",
-    }
-    if sha:
-        body["sha"] = sha
-    resp = requests.put(url, headers=_github_headers(), json=body, timeout=20)
-    resp.raise_for_status()
 
 
 def _watchlist_configured() -> bool:
