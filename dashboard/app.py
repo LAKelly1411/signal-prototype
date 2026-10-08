@@ -1,11 +1,13 @@
 import base64
 import html
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
 
 import requests
 import streamlit as st
+import streamlit.components.v1 as components
 import yaml
 
 from dashboard.brand import (
@@ -16,8 +18,10 @@ from dashboard.brand import (
     SOURCE_LOGOS,
     SOURCE_NAMES,
     category_icon,
+    icon,
 )
 from src.cluster import (
+    CLUSTER_WINDOW_DAYS,
     MIN_THEME_COMPANIES,
     SIGNIFICANT_SCORE,
     compute_heat,
@@ -41,7 +45,7 @@ SCORE_TIERS = [
     (0, "Low", "#ffffff", "#000000"),
 ]
 
-# Same ramp, scaled to the heat slider's range rather than a 0-100 score.
+# Same ramp for cluster heat. Shown only as words (ACTIVITY_LABELS).
 # Calibrated against the observed spread once heat stopped counting routine
 # filings: there's a clear break at 60 between the busy half of the clusters
 # and the quiet half, and 90 isolates the handful worth interrupting someone
@@ -52,11 +56,6 @@ HEAT_TIERS = [
     (0, "Low", "#ffffff", "#000000"),
 ]
 
-# Heat is unbounded in principle, but sits well under this in practice; a
-# higher ceiling would leave most of the slider's travel unusable. It filters
-# on a minimum, so anything above the ceiling still shows.
-HEAT_SLIDER_MAX = 120
-
 # Theme heat is on its own scale — it rewards breadth across companies rather
 # than source diversity, so a sector-wide wave scores far above any single
 # company's cluster. Calibrated separately for that reason.
@@ -65,17 +64,6 @@ THEME_HEAT_TIERS = [
     (130, "Medium", "#dedad9", "#000000"),
     (0, "Low", "#ffffff", "#000000"),
 ]
-
-# How Claude's own read of a cluster is shown. Anything not listed falls back
-# to a plain chip.
-PATTERN_TYPE_LABELS = {
-    "escalation": "Escalating",
-    "wave": "Sector-wide",
-    "developing_story": "Developing",
-    "routine": "Routine",
-    "unrelated": "Unrelated",
-}
-
 
 def _tier(value: float, tiers: list[tuple[float, str, str, str]]) -> tuple[str, str, str]:
     for threshold, label, bg, fg in tiers:
@@ -126,7 +114,7 @@ def inject_css() -> None:
         }
 
         /* ── Masthead ─────────────────────────────────────────────── */
-        .pa-masthead { margin: 0 0 1.5rem 0; }
+        .pa-masthead { margin: 0; }
         /* Chrome won't fetch a fallback webface by itself once the face ahead of
            it in the stack fails, so the UI stand-in is requested explicitly. */
         .pa-font-warm {
@@ -145,7 +133,7 @@ def inject_css() -> None:
             align-items: center;
             gap: 7px;
             color: var(--pa-ink);
-            margin-bottom: 2rem;
+            margin-bottom: 1.25rem;
         }
         .pa-logo {
             width: var(--lockup-size);
@@ -324,20 +312,191 @@ def inject_css() -> None:
             font-size: 0.875rem;
             color: var(--pa-muted);
         }
-        /* Pattern verdict chips reuse the card's tag shape. */
-        .signal-tags { margin-top: 0.25rem; display: flex; flex-wrap: wrap; gap: 10px; }
-        .tag-chip {
-            display: inline-flex;
-            align-items: center;
-            height: 20px;
-            padding: 0 6px;
-            background: rgba(31, 31, 31, 0.1);
-            color: #1f1f1f;
+        .sc-tag-plain { padding-left: 6px; padding-right: 6px; }
+
+        /* ── Pattern / theme cards: the signal card's anatomy ────── */
+        [class*="st-key-pcard-"], [class*="st-key-tcard-"] {
+            background: var(--pa-paper);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            padding: 16px 24px 20px 24px;
+            margin-bottom: 16px;
+            gap: 0;
+        }
+        .gc-title {
             font-family: var(--pa-font-data);
             font-weight: 700;
-            font-size: 0.875rem;
+            font-size: 1.5rem;
+            line-height: 1.2;
         }
-        .tag-chip.pattern { background: #1f1f1f; color: var(--pa-paper); }
+        .gc-theme-tile {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #fd8621;
+            color: var(--pa-ink);
+        }
+        .gc-theme-tile svg { width: 18px; height: 18px; }
+        .group-card .sc-body { margin-top: 12px; }
+        .gc-meta {
+            margin-top: 12px;
+            font-family: var(--pa-font-data);
+            font-size: 0.875rem;
+            color: var(--pa-muted);
+        }
+        .gc-tags { margin-top: 16px; }
+        /* Timeline: one tick per signal over the 90-day window. */
+        .tl { margin-top: 12px; }
+        .tl-track {
+            position: relative;
+            height: 32px;
+            border-bottom: 1px solid var(--pa-border);
+        }
+        /* Cobalt in the relevance ring's two tones: solid for signals that
+           count toward heat, the ring's 20% track for the ones that don't. */
+        .tl-tick {
+            position: absolute;
+            bottom: 0;
+            width: 6px;
+            margin-left: -3px;
+            background: var(--pa-cobalt);
+        }
+        .tl-tick.tl-quiet { background: rgba(0, 79, 255, 0.2); }
+        .tl-axis {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4px;
+            font-family: var(--pa-font-data);
+            font-size: 0.75rem;
+            color: var(--pa-muted);
+        }
+        /* The whole card is the click target: its button is stretched over
+           the card and made invisible. Focus shows as the card's outline. */
+        [class*="st-key-pcard-"], [class*="st-key-tcard-"] {
+            position: relative;
+            cursor: pointer;
+        }
+        [class*="st-key-pcard-"][class*="-sel"], [class*="st-key-tcard-"][class*="-sel"] { cursor: default; }
+        [class*="st-key-pcard-"] [data-testid="stElementContainer"]:has([data-testid="stButton"]),
+        [class*="st-key-tcard-"] [data-testid="stElementContainer"]:has([data-testid="stButton"]) {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            margin: 0;
+        }
+        [class*="st-key-pcard-"] [data-testid="stButton"],
+        [class*="st-key-tcard-"] [data-testid="stButton"],
+        [class*="st-key-pcard-"] [data-testid="stButton"] > *,
+        [class*="st-key-tcard-"] [data-testid="stButton"] > * { width: 100%; height: 100%; }
+        [class*="st-key-pcard-"] [data-testid="stButton"] button,
+        [class*="st-key-tcard-"] [data-testid="stButton"] button {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: inherit;
+        }
+        [class*="st-key-pcard-"]:has(button:focus-visible),
+        [class*="st-key-tcard-"]:has(button:focus-visible) { outline-color: var(--pa-cobalt-hover); }
+
+        /* ── Preview pane ──────────────────────────────────────────
+           Fixed to the window's right edge at full height, apart from the
+           title and the list, which move over for it. White, with a grey rule
+           on its left edge that doubles as the drag-to-resize handle. */
+        :root { --preview-width: min(34rem, 38vw); }
+        [data-testid="stLayoutWrapper"]:has(> [class*="st-key-signals-panel-"]) {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: var(--preview-width);
+            z-index: 999990;
+        }
+        [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) {
+            padding-right: var(--preview-width);
+        }
+        [class*="st-key-signals-panel-"] {
+            position: relative;
+            height: 100%;
+            overflow-y: auto;
+            background: var(--pa-paper);
+            border-left: 1px solid #cccccc;
+            padding: 2rem 1.75rem 3rem 1.75rem;
+            gap: 0;
+        }
+        .sp-resize {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: calc(var(--preview-width) - 4px);
+            width: 8px;
+            cursor: col-resize;
+            z-index: 999991;
+        }
+        .sp-resize:hover, .sp-resize:focus-visible, body.sp-resizing .sp-resize {
+            background: linear-gradient(to right, transparent 3px, var(--pa-cobalt) 3px, var(--pa-cobalt) 5px, transparent 5px);
+            outline: none;
+        }
+        body.sp-resizing { cursor: col-resize; user-select: none; }
+        .group-card-full .gc-tags { margin-top: 16px; }
+        .gc-points { list-style: none; margin: 12px 0 0 0; padding: 0; }
+        .gc-points li {
+            position: relative;
+            padding-left: 1.25rem;
+            margin-bottom: 0.5rem;
+            font-family: var(--pa-font-data);
+            font-size: 0.9375rem;
+            line-height: 1.5;
+        }
+        .gc-points li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.55em;
+            width: 8px;
+            height: 8px;
+            background: var(--pa-cobalt);
+        }
+        .sp-section {
+            margin: 2rem 0 1rem 0;
+            padding-top: 1.5rem;
+            border-top: 1px solid #cccccc;
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1.125rem;
+        }
+        /* Source signals: white cards on a white pane, so a grey border
+           separates them instead of the list's shadow. They're narrower than
+           the feed's, so they tighten up. */
+        [class*="st-key-signals-panel-"] .signal-card {
+            box-shadow: none;
+            border: 1px solid #cccccc;
+            padding: 12px 16px 16px 16px;
+            margin-bottom: 12px;
+        }
+        [class*="st-key-signals-panel-"] .sc-title { font-size: 1.0625rem; }
+        [class*="st-key-signals-panel-"] .sc-body { font-size: 0.875rem; line-height: 1.5; }
+        [class*="st-key-signals-panel-"] .sc-source,
+        [class*="st-key-signals-panel-"] .sc-relevance { font-size: 0.8125rem; }
+        [class*="st-key-signals-panel-"] .sc-relevance { padding: 4px 8px; }
+        [class*="st-key-signals-panel-"] .sc-foot { flex-wrap: wrap; }
+        /* The resize script's zero-height component shouldn't add a gap. */
+        [data-testid="stElementContainer"]:has(> iframe[srcdoc*="paPreviewResize"]) {
+            position: absolute;
+            height: 0;
+            overflow: hidden;
+        }
+        @media (max-width: 767px) {
+            [data-testid="stLayoutWrapper"]:has(> [class*="st-key-signals-panel-"]) {
+                position: static;
+                width: 100%;
+            }
+            [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) { padding-right: 0; }
+            [class*="st-key-signals-panel-"] { height: auto; border-left: none; border-top: 1px solid #cccccc; }
+            .sp-resize { display: none; }
+            /* Inline under its card on phones, so the card's details would
+               repeat directly above; just the signals show. */
+            [class*="st-key-signals-panel-"] .group-card-full { display: none; }
+            [class*="st-key-signals-panel-"] .sp-section { margin-top: 0; }
+        }
 
         /* ── Freshness strip: PA status badge ─────────────────────── */
         .health-strip {
@@ -355,58 +514,11 @@ def inject_css() -> None:
         .health-warn { background: #fffaeb; color: #b54708; }
         .health-bad { background: #fef3f2; color: #b3261e; }
 
-        /* ── Pattern / theme read-outs: newsprint panel, ink kicker ── */
-        .cluster-summary {
-            background: var(--pa-newsprint);
-            padding: 1.25rem 1.5rem;
-            margin: 0.5rem 0 1rem 0;
-            font-family: var(--pa-font-body);
-            font-size: 1.0625rem;
-            line-height: 1.6;
-            color: var(--pa-ink);
-        }
-        .cluster-summary-label {
-            display: table;
-            background: var(--pa-ink);
-            color: var(--pa-paper);
-            font-family: var(--pa-font-heading);
-            font-weight: 700;
-            font-size: 0.875rem;
-            line-height: 1.2;
-            text-transform: uppercase;
-            padding: 3px 7px;
-            margin-bottom: 0.75rem;
-        }
-        .theme-points { list-style: none; margin: 0.875rem 0 0 0; padding: 0; }
-        .theme-points li {
-            position: relative;
-            padding-left: 1.25rem;
-            margin-bottom: 0.5rem;
-        }
-        .theme-points li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0.6em;
-            width: 8px;
-            height: 8px;
-            background: var(--pa-cobalt);
-        }
-        .direction-chip {
-            display: inline-block;
-            font-family: var(--pa-font-data);
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.2em 0.6em;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-        }
-        .direction-building { background: #fffaeb; color: #b54708; }
-        .direction-steady   { background: var(--pa-surface); color: var(--pa-ink); }
-        .direction-easing   { background: #ecfdf3; color: #15803d; }
-
         /* ── Streamlit chrome, pulled into the PA idiom ───────────── */
-        [data-testid="stMainBlockContainer"] { max-width: 65rem; padding-top: 3rem; }
+        [data-testid="stMainBlockContainer"] {
+            max-width: 90rem;
+            padding: 2rem clamp(1rem, 3vw, 2.5rem) 4rem;
+        }
         [data-testid="stHeader"] { background: transparent; }
         [data-testid="stCaptionContainer"] p {
             font-family: var(--pa-font-data);
@@ -414,6 +526,7 @@ def inject_css() -> None:
         }
         /* Tabs (Figma 2363:635): underline style, bold when active. Streamlit
            draws the cobalt underline itself from primaryColor. */
+        [data-testid="stTabs"] { margin-top: 1.5rem; }
         [data-testid="stTab"] {
             min-width: 117px;
             justify-content: center;
@@ -456,6 +569,93 @@ def inject_css() -> None:
             font-size: 1.25rem;
         }
         [data-baseweb="tag"] { border-radius: 0 !important; }
+
+        /* ── Motion ─────────────────────────────────────────────────
+           PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
+           cubic-bezier(0.2, 0, 0, 1)). Movement is small, a lift of a couple
+           of pixels, so it reads as polish rather than animation. */
+        :root {
+            --ease: cubic-bezier(0.2, 0, 0, 1);
+            --dur-fast: 150ms;
+            --dur: 250ms;
+            --dur-slow: 400ms;
+        }
+        .signal-card,
+        [class*="st-key-pcard-"],
+        [class*="st-key-tcard-"] {
+            transition:
+                transform var(--dur) var(--ease),
+                box-shadow var(--dur) var(--ease),
+                border-color var(--dur) var(--ease),
+                outline-color var(--dur) var(--ease);
+            outline: 2px solid transparent;
+        }
+        .signal-card:hover,
+        [class*="st-key-pcard-"]:hover,
+        [class*="st-key-tcard-"]:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
+        }
+        [class*="st-key-pcard-"]:active,
+        [class*="st-key-tcard-"]:active {
+            transform: translateY(0) scale(0.995);
+            transition-duration: var(--dur-fast);
+        }
+        [class*="st-key-pcard-"][class*="-sel"],
+        [class*="st-key-tcard-"][class*="-sel"] { outline-color: var(--pa-cobalt); }
+        /* Signals inside the pane are bordered, not shadowed: they darken
+           their border instead of lifting. */
+        [class*="st-key-signals-panel-"] .signal-card:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: #8a8a8a;
+        }
+        .sc-link, .sc-link svg,
+        [data-testid="stTab"] p,
+        [data-testid="stButton"] button p,
+        [data-testid="stExpander"] summary {
+            transition: color var(--dur-fast) var(--ease), background-color var(--dur-fast) var(--ease);
+        }
+
+        /* The pane slides in when it opens and again when the selection
+           changes (it's keyed by selection, so it remounts). Fill mode is
+           "backwards", not "both": a transform left on the pane after the
+           animation would capture its fixed resize handle, and one left on
+           the cards would block their hover lift. */
+        @keyframes pa-pane-in {
+            from { opacity: 0; transform: translateX(24px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes pa-rise {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        [class*="st-key-signals-panel-"] {
+            animation: pa-pane-in var(--dur-slow) var(--ease) backwards;
+        }
+        [class*="st-key-signals-panel-"] .signal-card {
+            animation: pa-rise var(--dur-slow) var(--ease) backwards;
+            animation-delay: 120ms;
+        }
+        /* Timeline ticks grow from the baseline, staggered left to right. */
+        @keyframes pa-tick-grow {
+            from { transform: scaleY(0); }
+            to { transform: scaleY(1); }
+        }
+        .tl-tick {
+            transform-origin: bottom;
+            animation: pa-tick-grow var(--dur-slow) var(--ease) backwards;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation: none !important;
+                transition: none !important;
+            }
+            .signal-card:hover,
+            [class*="st-key-pcard-"]:hover,
+            [class*="st-key-tcard-"]:hover { transform: none; }
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -637,11 +837,10 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
     cluster_id = signal.get("cluster_id")
     if cluster_info and cluster_id in cluster_info:
         heat, count = cluster_info[cluster_id]
-        heat_label = heat_tier(heat)[0]
         pattern_html = (
             '<div class="pattern-badge">'
             f"Part of a pattern &middot; {count} signals &middot; "
-            f"heat {heat:.0f} ({heat_label}) — see Patterns tab</div>"
+            f"{ACTIVITY_LABELS[heat_tier(heat)[0]]} — see Patterns tab</div>"
         )
 
     # One line of HTML: indented, blank-line-separated markup risks being read
@@ -783,19 +982,6 @@ def _build_cluster_info(scored: list[dict]) -> dict[str, tuple[float, int]]:
     }
 
 
-def cluster_label(members: list[dict]) -> str:
-    """Name a cluster after the company it's actually about. Institutions are
-    skipped: a cluster titled "Gambling Commission" says nothing, since the
-    regulator is named in most of the feed."""
-    counts = Counter(e for m in members for e in signal_entities(m))
-    companies = [(name, n) for name, n in counts.most_common() if not is_excluded(name)]
-    if not companies:
-        return "Unnamed cluster"
-    primary = companies[0][0]
-    others = len(companies) - 1
-    return f"{primary} +{others} more" if others else primary
-
-
 def _date_bucket(pub_date, today) -> str:
     delta = (today - pub_date).days
     if delta <= 0:
@@ -869,6 +1055,238 @@ def _cluster_verdict(members: list[dict]) -> dict:
     }
 
 
+# Heat is an unbounded score that means nothing on its own, so readers only ever
+# see its tier, as a word. The ring repeats the tier in steps, never quite
+# closed, since a full ring reads as an empty circle.
+ACTIVITY_LABELS = {"High": "Very active", "Medium": "Active", "Low": "Quiet"}
+_ACTIVITY_RING = {"High": 90, "Medium": 60, "Low": 30}
+
+# Only the unusual pattern types earn a tag; "developing story" is the default
+# for most clusters, so labelling it tells the reader nothing.
+NOTABLE_PATTERN_TYPES = {"escalation": "Escalating", "wave": "Sector-wide"}
+
+# How many co-named companies a pattern or theme card lists before "+N more".
+MAX_COMPANY_TAGS = 3
+
+
+def _activity_pill(tier: str) -> str:
+    return (
+        f'<div class="sc-relevance">{_relevance_ring(_ACTIVITY_RING[tier])}'
+        f"<span><b>{ACTIVITY_LABELS[tier]}</b></span></div>"
+    )
+
+
+def _date_span(members: list[dict]) -> str:
+    dates = sorted(datetime.fromisoformat(m["published_at"]).date() for m in members)
+    first, last = dates[0], dates[-1]
+    if first == last:
+        return f"{last.day} {last:%b}"
+    return f"{first.day} {first:%b} – {last.day} {last:%b}"
+
+
+def _timeline(members: list[dict], now: datetime) -> str:
+    """One tick per signal across the clustering window, today at the right.
+    Height follows the signal's score; ticks below the significance bar are
+    pale, as heat ignores them. Shows at a glance whether a pattern is a burst
+    this week or a slow build over months."""
+    start = now - timedelta(days=CLUSTER_WINDOW_DAYS)
+    span = CLUSTER_WINDOW_DAYS * 86400
+    ticks = []
+    for m in sorted(members, key=lambda m: m["published_at"]):
+        dt = datetime.fromisoformat(m["published_at"])
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        x = max(0.0, min(100.0, (dt - start).total_seconds() / span * 100))
+        score = m.get("newsworthiness_score") or 0
+        height = 6 + round(score / 100 * 26)
+        quiet = " tl-quiet" if score < SIGNIFICANT_SCORE else ""
+        delay = min(len(ticks) * 20, 400)
+        ticks.append(
+            f'<span class="tl-tick{quiet}" '
+            f'style="left:{x:.2f}%;height:{height}px;animation-delay:{delay}ms"></span>'
+        )
+    label = (
+        f"{len(members)} signals over the last {CLUSTER_WINDOW_DAYS} days, "
+        f"latest {_date_span(members[-1:])}"
+    )
+    return (
+        f'<div class="tl" role="img" aria-label="{html.escape(label, quote=True)}">'
+        f'<div class="tl-track">{"".join(ticks)}</div>'
+        f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>Today</span></div>'
+        "</div>"
+    )
+
+
+def _company_tags(companies: list[str], limit: int | None = MAX_COMPANY_TAGS) -> list[str]:
+    shown = companies if limit is None else companies[:limit]
+    tags = [
+        f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{ENTITY_ICON}</span>'
+        f"{html.escape(c)}</span>"
+        for c in shown
+    ]
+    if len(companies) > len(shown):
+        tags.append(f'<span class="sc-tag sc-tag-more">+{len(companies) - len(shown)} more</span>')
+    return tags
+
+
+def _flag_tag(text: str, icon_name: str | None, accent: bool) -> str:
+    style = "sc-tag-category" if accent else "sc-tag-entity"
+    icon_html = f'<span class="sc-tag-icon">{icon(icon_name)}</span>' if icon_name else ""
+    pad = "" if icon_name else " sc-tag-plain"
+    return f'<span class="sc-tag {style}{pad}">{icon_html}{html.escape(text)}</span>'
+
+
+def _initials(name: str) -> str:
+    words = [w for w in name.replace("(", " ").split() if w[:1].isalnum()]
+    return "".join(w[0] for w in words[:2]).upper() or "?"
+
+
+@dataclass
+class Group:
+    """A pattern or a theme, as both the list card and the preview pane show it."""
+
+    id: str
+    key: str
+    tile_html: str
+    title: str
+    tier: str
+    summary: str | None
+    meta: str
+    members: list[dict]
+    flags: list[str]
+    companies: list[str]
+    key_points: list[str] = field(default_factory=list)
+
+
+def _group_html(group: Group, now: datetime, full: bool) -> str:
+    """The card body. The list card trims the company tags; the preview pane
+    shows everything, including a theme's key points."""
+    points = ""
+    if full and group.key_points:
+        items = "".join(f"<li>{html.escape(str(p))}</li>" for p in group.key_points)
+        points = f'<ul class="gc-points">{items}</ul>'
+    tags = group.flags + _company_tags(group.companies, None if full else MAX_COMPANY_TAGS)
+    return (
+        f'<div class="group-card{" group-card-full" if full else ""}">'
+        '<div class="sc-head">'
+        f'<div class="sc-source">{group.tile_html}'
+        f'<span class="gc-title">{html.escape(group.title)}</span></div>'
+        f"{_activity_pill(group.tier)}"
+        "</div>"
+        + (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "")
+        + points
+        + f'<div class="gc-meta">{html.escape(group.meta)}</div>'
+        f"{_timeline(group.members, now)}"
+        + (f'<div class="sc-tags gc-tags">{"".join(tags)}</div>' if tags else "")
+        + "</div>"
+    )
+
+
+def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> None:
+    """A pattern or theme in the list. Clicking it fills the preview pane."""
+    with st.container(key=f"{group.key}{'-sel' if selected else ''}"):
+        st.markdown(_group_html(group, now, full=False), unsafe_allow_html=True)
+        # Stretched invisibly over the whole card (see inject_css), so a click
+        # anywhere on it selects it. The label is for screen readers.
+        st.button(
+            f"{group.title}, showing in preview" if selected else f"Preview {group.title}",
+            key=f"view-{group.key}",
+            type="tertiary",
+            disabled=selected,
+            on_click=st.session_state.__setitem__,
+            args=(state_key, group.id),
+        )
+
+
+# Lets the reader drag the preview pane's left edge. Streamlit can't run
+# scripts from Markdown, so this rides in a zero-height component, whose iframe
+# is same-origin with the app and can reach the page. It sets --preview-width,
+# which sizes both the pane and the room the main column leaves for it, and
+# remembers the width in localStorage. Streamlit replaces the iframe on
+# re-render, and handlers owned by a discarded iframe stop firing, so each new
+# iframe removes its predecessor's handlers and installs its own.
+_RESIZE_SCRIPT = """
+<script>
+(() => {
+  const win = window.parent;
+  const doc = win.document;
+  const root = doc.documentElement;
+  const KEY = "sector-signal-preview-width";
+  const clamp = (px) => Math.max(320, Math.min(px, win.innerWidth * 0.7));
+  const apply = (px) => root.style.setProperty("--preview-width", clamp(px) + "px");
+  const current = () => doc.querySelector('[class*="st-key-signals-panel-"]')
+    .getBoundingClientRect().width;
+  const save = () => { try { win.localStorage.setItem(KEY, current()); } catch (e) {} };
+  try { const saved = parseFloat(win.localStorage.getItem(KEY)); if (saved) apply(saved); } catch (e) {}
+
+  let dragging = false;
+  const handlers = {
+    pointerdown: (e) => {
+      if (!e.target.closest || !e.target.closest(".sp-resize")) return;
+      dragging = true;
+      doc.body.classList.add("sp-resizing");
+      e.preventDefault();
+    },
+    pointermove: (e) => { if (dragging) apply(win.innerWidth - e.clientX); },
+    pointerup: () => {
+      if (!dragging) return;
+      dragging = false;
+      doc.body.classList.remove("sp-resizing");
+      save();
+    },
+    keydown: (e) => {
+      if (!e.target.closest || !e.target.closest(".sp-resize")) return;
+      const step = { ArrowLeft: 32, ArrowRight: -32 }[e.key];
+      if (!step) return;
+      apply(current() + step);
+      save();
+      e.preventDefault();
+    },
+  };
+  for (const [type, fn] of Object.entries(win.__paPreviewResize || {})) {
+    doc.removeEventListener(type, fn);
+  }
+  for (const [type, fn] of Object.entries(handlers)) doc.addEventListener(type, fn);
+  win.__paPreviewResize = handlers;
+})();
+</script>
+"""
+
+
+def _preview_pane(key: str, group: Group, now: datetime) -> None:
+    """The selected pattern or theme in full, then its source signals, in a
+    pane fixed to the window's right edge (see inject_css), apart from the
+    title and the list. Only the active tab is in the DOM, so the pane appears
+    on Patterns and Themes and nowhere else."""
+    # Keyed by selection, so choosing another card remounts the pane and its
+    # entrance animation plays again.
+    with st.container(key=f"{key}-{group.key}"):
+        st.markdown(
+            '<div class="sp-resize" role="separator" aria-orientation="vertical" '
+            'aria-label="Resize preview" tabindex="0"></div>'
+            f"{_group_html(group, now, full=True)}"
+            f'<div class="sp-section">Signals ({len(group.members)})</div>',
+            unsafe_allow_html=True,
+        )
+        for m in sorted(group.members, key=lambda m: m["published_at"], reverse=True):
+            render_card(m)
+    components.html(_RESIZE_SCRIPT, height=0)
+
+
+def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
+    """The list of cards plus the preview of the selected one, falling back
+    to the first when nothing is chosen yet or the choice dropped out of view."""
+    now = datetime.now(timezone.utc)
+    ids = [g.id for g in groups]
+    selected = st.session_state.get(state_key)
+    if selected not in ids:
+        selected = ids[0]
+    for group in groups:
+        _group_card(group, now, group.id == selected, state_key)
+        if group.id == selected:
+            _preview_pane(pane_key, group, now)
+
+
 def render_patterns(signals: list[dict]) -> None:
     scored = [s for s in signals if s.get("newsworthiness_score") is not None]
     grouped = group_by_cluster(scored)
@@ -880,103 +1298,85 @@ def render_patterns(signals: list[dict]) -> None:
         )
         return
 
-    heat_threshold = st.slider("Minimum heat score", 0, HEAT_SLIDER_MAX, 50)
-
     # Clusters are formed on a shared company name, so some are coincidence.
     # Claude is asked to say which; those are dropped outright — a cluster the
     # model has called unrelated is noise the reader shouldn't have to sift.
     coherent = [m for m in grouped.values() if _cluster_verdict(m)["coherent"]]
+    clusters = sorted(
+        ((compute_heat(members), members) for members in coherent),
+        key=lambda pair: pair[0],
+        reverse=True,
+    )
 
-    clusters = [(compute_heat(members), members) for members in coherent]
-    clusters = [c for c in clusters if c[0] >= heat_threshold]
-    clusters.sort(key=lambda pair: pair[0], reverse=True)
-
-    st.caption(f"{len(clusters)} of {len(coherent)} clusters meet the heat threshold.")
+    show_quiet = st.toggle(
+        "Show quieter patterns",
+        help="Includes quiet patterns and routine runs of filings.",
+    )
+    if not show_quiet:
+        clusters = [
+            (heat, members)
+            for heat, members in clusters
+            if heat_tier(heat)[0] != "Low"
+            and _cluster_verdict(members)["pattern_type"] != "routine"
+        ]
+    st.caption(
+        f"All {len(clusters)} patterns."
+        if show_quiet
+        else f"{len(clusters)} active patterns of {len(coherent)}."
+    )
 
     if not clusters:
-        st.info("No clusters meet the current heat threshold.")
+        st.info("No active patterns right now — switch on quieter patterns to see the rest.")
         return
 
+    groups = []
     for heat, members in clusters:
+        verdict = _cluster_verdict(members)
         cluster_id = members[0]["cluster_id"]
-        members_sorted = sorted(members, key=lambda m: m["published_at"], reverse=True)
-        sources = sorted({m["source"] for m in members})
-        source_word = "source" if len(sources) == 1 else "sources"
-
-        # Heat counts only signals above the significance bar, so the header
-        # says the same thing — otherwise a cluster padded with routine
-        # filings reads as far busier than its heat implies.
-        significant = sum(
-            1
-            for m in members
-            if (m.get("newsworthiness_score") or 0) >= SIGNIFICANT_SCORE
-        )
-        signal_text = (
-            f"{significant} of {len(members)} signals"
-            if significant != len(members)
-            else f"{len(members)} signals"
-        )
 
         # Most-mentioned company rather than alphabetically-first, so a
-        # multi-company cluster is labelled by whoever it's actually about.
-        label = cluster_label(members)
+        # multi-company cluster is named after whoever it's actually about.
+        # The rest become tags instead of a "+3 more" that hides them.
+        counts = Counter(e for m in members for e in signal_entities(m))
+        companies = [n for n, _ in counts.most_common() if not is_excluded(n)]
+        primary = companies[0] if companies else "Unnamed pattern"
 
-        pub_dates = sorted(
-            datetime.fromisoformat(m["published_at"]).date() for m in members
-        )
-        span_days = (pub_dates[-1] - pub_dates[0]).days
-        span_text = "in a single day" if span_days == 0 else f"over {span_days} days"
+        sources = {m["source"] for m in members}
+        flags = []
+        pattern_type = verdict["pattern_type"]
+        if pattern_type in NOTABLE_PATTERN_TYPES:
+            flags.append(_flag_tag(NOTABLE_PATTERN_TYPES[pattern_type], "trending_up", True))
+        elif pattern_type == "routine":
+            flags.append(_flag_tag("Routine filings", None, False))
 
-        heat_label = heat_tier(heat)[0]
-        verdict = _cluster_verdict(members)
-        summary = verdict["summary"]
-
-        # Pattern type lives inside rather than in the header: nearly every
-        # cluster is a developing story, so leading with it pushed the company
-        # name rightwards and told the reader nothing that distinguishes one
-        # row from the next.
-        header = (
-            f"{label} — heat {heat:.0f} ({heat_label}) · {signal_text} · "
-            f"{len(sources)} {source_word} · {span_text}"
-        )
-
-        with st.expander(header):
-            chips = []
-            pattern_type = PATTERN_TYPE_LABELS.get(
-                verdict["pattern_type"], verdict["pattern_type"]
+        groups.append(
+            Group(
+                id=cluster_id,
+                key=f"pcard-{cluster_id}",
+                tile_html=(
+                    '<span class="sc-logo sc-logo-initials">'
+                    f"{html.escape(_initials(primary))}</span>"
+                ),
+                title=primary,
+                tier=heat_tier(heat)[0],
+                summary=verdict["summary"],
+                meta=(
+                    f"{len(members)} signals · {len(sources)} "
+                    f"{'source' if len(sources) == 1 else 'sources'} · {_date_span(members)}"
+                ),
+                members=members,
+                flags=flags,
+                companies=companies[1:],
             )
-            if pattern_type:
-                chips.append(
-                    f'<span class="tag-chip pattern">{html.escape(pattern_type)}</span>'
-                )
-            if verdict["significance"] is not None:
-                chips.append(
-                    '<span class="tag-chip">Significance '
-                    f'{verdict["significance"]}</span>'
-                )
-            if chips:
-                st.markdown(
-                    f'<div class="signal-tags">{"".join(chips)}</div>',
-                    unsafe_allow_html=True,
-                )
+        )
+    _render_groups(groups, "pattern_selected", "signals-panel-patterns")
 
-            if summary:
-                st.markdown(
-                    f"""
-                    <div class="cluster-summary">
-                      <span class="cluster-summary-label">Signal</span>
-                      {html.escape(summary)}
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
-            show_all = st.checkbox(
-                f"Show all {len(members)} signals",
-                key=f"show_signals_{cluster_id}",
-            )
-            if show_all:
-                for m in members_sorted:
-                    render_card(m)
+
+_DIRECTION_TAGS = {
+    "building": ("Building", "trending_up", True),
+    "steady": ("Steady", "trending_flat", False),
+    "easing": ("Easing", "trending_down", False),
+}
 
 
 def render_themes(signals: list[dict]) -> None:
@@ -1009,78 +1409,39 @@ def render_themes(signals: list[dict]) -> None:
         key=lambda t: t[0],
     )
 
+    groups = []
     for heat, theme, members in themes:
-        companies = sorted(
-            {e for m in members for e in signal_entities(m) if not is_excluded(e)},
-            key=str.lower,
-        )
-        members_sorted = sorted(members, key=lambda m: m["published_at"], reverse=True)
-        heat_label = theme_heat_tier(heat)[0]
-
-        pub_dates = sorted(
-            datetime.fromisoformat(m["published_at"]).date() for m in members
-        )
-        span_days = (pub_dates[-1] - pub_dates[0]).days
+        counts = Counter(e for m in members for e in signal_entities(m) if not is_excluded(e))
+        companies = [n for n, _ in counts.most_common()]
         company_word = "company" if len(companies) == 1 else "companies"
 
-        summary = next(
-            (m.get("theme_summary") for m in members if m.get("theme_summary")), None
-        )
-        key_points = next(
-            (m.get("theme_key_points") for m in members if m.get("theme_key_points")),
-            [],
-        )
-        direction = next(
-            (m.get("theme_direction") for m in members if m.get("theme_direction")),
-            None,
-        )
+        def first(field_name: str, default=None):
+            return next((m.get(field_name) for m in members if m.get(field_name)), default)
 
-        with st.expander(
-            f"{theme} — heat {heat:.0f} ({heat_label}) · {len(members)} signals · "
-            f"{len(companies)} {company_word} · over {span_days} days"
-        ):
-            if summary:
-                points_html = ""
-                if key_points:
-                    items = "".join(
-                        f"<li>{html.escape(str(p))}</li>" for p in key_points
-                    )
-                    points_html = f'<ul class="theme-points">{items}</ul>'
-                st.markdown(
-                    f"""
-                    <div class="cluster-summary">
-                      <span class="cluster-summary-label">What's happening</span>
-                      {html.escape(summary)}
-                      {points_html}
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+        # Whether the wave is building or fading is the story, so it leads the
+        # tags; the timeline shows the same thing as shape.
+        direction = first("theme_direction")
+        flags = [_flag_tag(*_DIRECTION_TAGS[direction])] if direction in _DIRECTION_TAGS else []
 
-            # Monthly counts are the point of a theme: whether the wave is
-            # building or fading is the story, not any single signal.
-            per_month = Counter(m["published_at"][:7] for m in members)
-            trend = " · ".join(
-                f"{month}: {count}" for month, count in sorted(per_month.items())
+        groups.append(
+            Group(
+                id=theme,
+                key=f"tcard-{theme}",
+                tile_html=f'<span class="sc-logo gc-theme-tile">{category_icon(theme)}</span>',
+                title=theme,
+                tier=theme_heat_tier(heat)[0],
+                summary=first("theme_summary"),
+                meta=(
+                    f"{len(members)} signals · {len(companies)} {company_word} · "
+                    f"{_date_span(members)}"
+                ),
+                members=members,
+                flags=flags,
+                companies=companies,
+                key_points=first("theme_key_points", []),
             )
-            direction_html = ""
-            if direction in ("building", "steady", "easing"):
-                direction_html = (
-                    f' &nbsp;<span class="direction-chip direction-{direction}">'
-                    f"{html.escape(direction)}</span>"
-                )
-            st.markdown(f"**By month** — {trend}{direction_html}", unsafe_allow_html=True)
-
-            shown = ", ".join(companies[:12])
-            if len(companies) > 12:
-                shown += f", and {len(companies) - 12} more"
-            st.markdown(f"**Companies** — {shown}")
-
-            if st.checkbox(
-                f"Show all {len(members)} signals", key=f"show_theme_{theme}"
-            ):
-                for m in members_sorted:
-                    render_card(m)
+        )
+    _render_groups(groups, "theme_selected", "signals-panel-themes")
 
 
 def _humanise_age(delta_seconds: float) -> str:
@@ -1225,9 +1586,13 @@ def main() -> None:
         return
     render_watchlist_form()
 
-    render_masthead()
-
-    render_health_strip(load_run_status())
+    # Title on the left and pipeline health on the right, rather than
+    # stacked, so the feed starts higher up the page.
+    title_col, status_col = st.columns([3, 2], vertical_alignment="bottom")
+    with title_col:
+        render_masthead()
+    with status_col:
+        render_health_strip(load_run_status())
 
     signals = load_signals()
     feed_tab, patterns_tab, themes_tab = st.tabs(["Feed", "Patterns", "Themes"])
