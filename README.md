@@ -119,6 +119,11 @@ an update; already-scored signals aren't re-scored, so the extra cost is
 collection time rather than Claude calls. Each new sector adds its own Claude
 calls to every later run.
 
+The dashboard deploy must follow `main`, so that it picks up each commit there.
+The dashboard reads a created sector's rules (categories, companies) from
+`config/sectors/<slug>.yaml` in its own checkout; a deploy on another branch
+never gets that file and falls back to gambling's rules for the new sector.
+
 Anyone with the dashboard password can create sectors in the demo; there is
 no separate permission.
 
@@ -131,7 +136,8 @@ pipeline posts there on failure; without it the alert step is skipped).
 GitHub Actions **variable**: `ANTHROPIC_MODEL` (not a secret, so the model in
 use is visible without opening settings).
 
-Streamlit secrets: `DASHBOARD_PASSWORD`, `GITHUB_TOKEN` and `DATA_BASE_URL`
+Streamlit secrets: `DASHBOARD_PASSWORD`, `GITHUB_TOKEN` (contents read/write
+**and** actions write on this repo; see Creating a sector) and `DATA_BASE_URL`
 — the raw prefix of the repo's `data/` folder, ending in `/`, for example
 `https://raw.githubusercontent.com/LAKelly1411/signal-prototype/main/data/`.
 The dashboard reads `sectors.json` and each sector's `<slug>/signals.json` and
