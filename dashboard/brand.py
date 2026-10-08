@@ -110,6 +110,21 @@ def _data_uri(filename: str) -> str:
 # gets an initials tile in the same 24px slot.
 SOURCE_LOGOS = {"gambling_commission": _data_uri("gambling_commission.png")}
 
+# Website per source, for logo.dev lookups. Each was checked to return a real
+# logo; Companies House and DCMS both resolve to the GOV.UK crown, which is
+# accurate if not distinctive. LSE RNS uses the LSEG mark, which reads at 24px
+# where the London Stock Exchange crest doesn't.
+SOURCE_DOMAINS = {
+    "asa": "asa.org.uk",
+    "bgc": "bettingandgamingcouncil.com",
+    "companies_house": "companieshouse.gov.uk",
+    "dcms": "gov.uk",
+    "gambling_commission": "gamblingcommission.gov.uk",
+    "gazette": "thegazette.co.uk",
+    "lse_rns": "lseg.com",
+    "parliament": "parliament.uk",
+}
+
 SOURCE_NAMES = {
     "asa": ("Advertising Standards Authority", "ASA"),
     "bgc": ("Betting and Gaming Council", "BGC"),

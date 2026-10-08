@@ -12,6 +12,7 @@ from dashboard.brand import (
     ENTITY_ICON,
     LINK_ICON,
     PA_LOGO_SVG,
+    SOURCE_DOMAINS,
     SOURCE_LOGOS,
     SOURCE_NAMES,
     category_icon,
@@ -558,7 +559,25 @@ def _relative_time(published_at: str, now: datetime) -> str:
     return f"{dt.day} {dt:%b %Y}"
 
 
+def _logo_dev_token() -> str | None:
+    """Publishable logo.dev key, if configured. Only pk_ keys: the token ends up
+    in every page's image URLs, so a secret sk_ key must never be used here."""
+    try:
+        token = st.secrets.get("LOGO_DEV_TOKEN")
+    except Exception:
+        return None
+    return token if token and token.startswith("pk_") else None
+
+
 def _source_logo(source: str) -> str:
+    token = _logo_dev_token()
+    domain = SOURCE_DOMAINS.get(source)
+    if token and domain:
+        src = html.escape(
+            f"https://img.logo.dev/{domain}?token={token}&size=48&format=png&retina=true",
+            quote=True,
+        )
+        return f'<img class="sc-logo" src="{src}" alt="" loading="lazy">'
     logo = SOURCE_LOGOS.get(source)
     if logo:
         return f'<img class="sc-logo" src="{logo}" alt="">'
