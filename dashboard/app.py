@@ -1058,6 +1058,40 @@ def inject_css() -> None:
         }
         [data-testid="stDialog"] [data-testid="stTextInputRootElement"]:focus-within,
         [data-testid="stDialog"] [data-testid="stTextAreaRootElement"]:focus-within { border-color: var(--pa-cobalt); }
+        /* Watchlist intro: illustration, headline, copy, primary action. */
+        .wl-illustration svg { display: block; }
+        .wl-illustration { margin: 0 0 20px 0; }
+        .wl-headline {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.2;
+            color: var(--pa-ink);
+            margin-bottom: 8px;
+        }
+        .wl-copy {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            line-height: 1.5;
+            color: var(--pa-ink);
+            margin: 0 0 12px 0;
+        }
+        .wl-copy.wl-muted { color: var(--pa-muted); font-size: 0.9375rem; }
+        [data-testid="stDialog"] .st-key-wl-start button,
+        [data-testid="stDialog"] .st-key-watchlist-done button {
+            min-height: 44px;
+            padding: 10px 20px;
+            border-radius: 0;
+        }
+        [data-testid="stDialog"] .st-key-wl-start button p,
+        [data-testid="stDialog"] .st-key-watchlist-done button p,
+        [data-testid="stDialog"] .st-key-wl-back button p,
+        [data-testid="stDialog"] .st-key-wl-another button p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+        }
+        [data-testid="stDialog"] .st-key-wl-back button { padding: 0; min-height: 0; }
+        .st-key-wl-done-actions { justify-content: flex-end; align-items: center; gap: 16px; }
         [data-testid="stDialog"] [data-testid="stFormSubmitButton"] button {
             min-height: 44px;
             padding: 10px 20px;
@@ -2328,49 +2362,148 @@ def _watchlist_configured() -> bool:
         return False
 
 
+# Watchlist dialog steps: an illustrated intro, the form, then confirmation.
+WL_STEP = "wl_step"
+
+# On-brand illustration for the intro: flat and square in the PA language
+# (no shadows, cobalt and ink, newsprint and light-blue accents). A watchlist
+# card with company rows, the new row marked with the selected-card cobalt
+# edge, a "+" badge and a sparkline.
+_WATCHLIST_ILLUSTRATION = """
+<svg viewBox="0 0 360 176" width="100%" role="img" aria-label="A watchlist with a new company being added" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="360" height="176" fill="#e5e3d3"/>
+  <rect x="24" y="118" width="54" height="34" fill="#8DDBFF"/>
+  <rect x="300" y="24" width="36" height="36" fill="#000"/>
+  <path d="M308 50 L314 42 L320 46 L328 34" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="88" y="22" width="192" height="134" fill="#fff"/>
+  <rect x="88" y="22" width="192" height="24" fill="#000"/>
+  <rect x="100" y="31" width="52" height="6" fill="#fff"/>
+  <rect x="100" y="58" width="18" height="18" fill="#000"/>
+  <rect x="126" y="60" width="78" height="6" fill="#000"/>
+  <rect x="126" y="70" width="52" height="4" fill="#dedad9"/>
+  <polyline points="224,72 236,64 246,68 258,60 268,62" fill="none" stroke="#004FFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="100" y="86" width="18" height="18" fill="#8DDBFF"/>
+  <rect x="126" y="88" width="64" height="6" fill="#000"/>
+  <rect x="126" y="98" width="88" height="4" fill="#dedad9"/>
+  <polyline points="224,100 236,98 246,96 258,99 268,92" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="88" y="114" width="192" height="32" fill="#f2f6ff"/>
+  <rect x="88" y="114" width="4" height="32" fill="#004FFF"/>
+  <rect x="100" y="121" width="18" height="18" fill="#004FFF"/>
+  <rect x="126" y="123" width="72" height="6" fill="#004FFF"/>
+  <rect x="126" y="133" width="44" height="4" fill="#8DDBFF"/>
+  <rect x="256" y="104" width="36" height="36" fill="#004FFF"/>
+  <rect x="272" y="112" width="4" height="20" fill="#fff"/>
+  <rect x="264" y="120" width="20" height="4" fill="#fff"/>
+</svg>
+"""
+
+
+def _wl_go(step: str) -> None:
+    st.session_state[WL_STEP] = step
+
+
+def _open_watchlist() -> None:
+    st.session_state[WL_STEP] = "intro"
+    st.session_state.pop("wl_error", None)
+
+
+_WL_FIELDS = ("wl_name", "wl_number", "wl_aliases", "wl_notes")
+
+
+def _submit_watchlist() -> None:
+    """Form submit callback: validate, save, then move to the confirmation
+    (or keep the form with an error). Steps change in callbacks, so the
+    dialog never needs an explicit rerun."""
+    state = st.session_state
+    name = (state.get("wl_name") or "").strip()
+    if not name:
+        state["wl_error"] = "Company name is required."
+        return
+    try:
+        add_operator_to_watchlist(
+            name,
+            (state.get("wl_number") or "").strip(),
+            state.get("wl_aliases") or "",
+            (state.get("wl_notes") or "").strip(),
+        )
+    except Exception:
+        state["wl_error"] = "Couldn't save that addition — please flag it to the team."
+        return
+    state["wl_added"] = name
+    state.pop("wl_error", None)
+    for key in _WL_FIELDS:
+        state[key] = ""
+    state[WL_STEP] = "done"
+
+
 @st.dialog("Add a company to the watchlist", width="medium")
 def _watchlist_dialog() -> None:
-    """The watchlist form, opened from the header. Adds the company to
-    config/user_watchlist.yaml via GitHub; the pipeline picks it up on its
-    next run."""
+    """Three steps: an illustrated intro, the form, then confirmation. The
+    form adds the company to config/user_watchlist.yaml via GitHub; the
+    pipeline picks it up on its next run."""
+    step = st.session_state.get(WL_STEP, "intro")
+
+    if step == "intro":
+        st.markdown(
+            f'<div class="wl-illustration">{_WATCHLIST_ILLUSTRATION}</div>'
+            '<div class="wl-headline">Track a company</div>'
+            '<p class="wl-copy">Add an operator or company and Sector Signal will watch '
+            "for it from the next pipeline run: Gazette insolvency notices by name and, "
+            "with a Companies House number, its filings too. Its signals then appear in "
+            "the feed and its patterns alongside everyone else's.</p>"
+            '<p class="wl-copy wl-muted">You\'ll need the company name. The Companies House '
+            "number and any trading names are optional.</p>",
+            unsafe_allow_html=True,
+        )
+        st.button("Get started", key="wl-start", type="primary", on_click=_wl_go, args=("form",))
+        return
+
+    if step == "done":
+        added = st.session_state.get("wl_added", "the company")
+        st.markdown(
+            '<div class="wl-headline">Added to the watchlist</div>'
+            f'<p class="wl-copy"><b>{html.escape(added)}</b> will be picked up on the next '
+            "pipeline run. Its signals will show in the feed as they come in.</p>",
+            unsafe_allow_html=True,
+        )
+        with st.container(key="wl-done-actions", horizontal=True):
+            st.button("Add another", key="wl-another", type="tertiary",
+                      on_click=_wl_go, args=("form",))
+            if st.button("Done", key="watchlist-done", type="primary"):
+                st.rerun()  # a full rerun closes the dialog
+        return
+
+    st.button("Back", key="wl-back", icon=":material/arrow_back:", type="tertiary",
+              on_click=_wl_go, args=("intro",))
     configured = _watchlist_configured()
     if not configured:
         st.info(
             "Saving to the watchlist isn't set up here: add a GITHUB_TOKEN "
             "with write access to the repo to Streamlit's secrets."
         )
-    with st.form("add_operator_form", clear_on_submit=True, border=False):
-        name = st.text_input("Company name")
-        company_number = st.text_input(
+    with st.form("add_operator_form", border=False):
+        st.text_input("Company name", key="wl_name")
+        st.text_input(
             "Companies House number (optional)",
+            key="wl_number",
             help="If you don't have this, we'll still monitor the name "
             "for Gazette insolvency notices, but not Companies House filings.",
         )
-        aliases = st.text_input("Aliases / trading names (comma-separated, optional)")
-        notes = st.text_area("Notes (optional)")
-        submitted = st.form_submit_button(
-            "Add to watchlist", type="primary", disabled=not configured
+        st.text_input("Aliases / trading names (comma-separated, optional)", key="wl_aliases")
+        st.text_area("Notes (optional)", key="wl_notes")
+        st.form_submit_button(
+            "Add to watchlist", type="primary", disabled=not configured,
+            on_click=_submit_watchlist,
         )
-
-    if submitted:
-        if not name.strip():
-            st.error("Company name is required.")
-        else:
-            try:
-                add_operator_to_watchlist(
-                    name.strip(), company_number.strip(), aliases, notes.strip()
-                )
-                st.success(f"Added {name} — it'll be picked up on the next pipeline run.")
-                if st.button("Done", key="watchlist-done"):
-                    st.rerun()
-            except Exception:
-                st.error("Couldn't save that addition — please flag it to the team.")
+    if st.session_state.get("wl_error"):
+        st.error(st.session_state["wl_error"])
 
 
 def _watchlist_button() -> None:
-    """Header action: opens the watchlist form. Secondary (outlined), so it
-    doesn't compete with the feed."""
-    if st.button("Add to watchlist", key="open-watchlist", icon=":material/add:"):
+    """Header action: opens the watchlist dialog at its intro. Secondary
+    (outlined), so it doesn't compete with the feed."""
+    if st.button("Add to watchlist", key="open-watchlist", icon=":material/add:",
+                 on_click=_open_watchlist):
         _watchlist_dialog()
 
 
