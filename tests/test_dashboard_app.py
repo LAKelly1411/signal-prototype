@@ -174,3 +174,45 @@ def test_sector_row_keys_put_the_state_before_the_slug(monkeypatch):
     assert not at.exception
     assert at.button(key="sectoropt-on-gambling")
     assert at.button(key="sectoropt-off-offshore-off")
+
+
+def _body(at):
+    return html.unescape(" ".join(m.value for m in at.markdown))
+
+
+def test_errored_run_status_shows_failed_not_healthy(monkeypatch):
+    index = [dict(INDEX[0], status="error")] + INDEX[1:]
+    routes = sector_routes(index)
+    routes[BASE + "gambling/run_status.json"] = Resp(payload={
+        "sector": "gambling", "finished_at": "2099-01-01T00:00:00+00:00", "error": "boom"})
+    serve(monkeypatch, routes)
+    at = app().run()
+    assert not at.exception
+    body = _body(at)
+    assert "Last update failed" in body
+    assert "all sources healthy" not in body
+    assert "The last update didn't finish." in body
+
+
+NOT_AVAILABLE = "We couldn't load Fintech & payments yet. We'll try again on the next scheduled update."
+
+
+def test_signals_500_shows_not_available(monkeypatch):
+    routes = sector_routes()
+    routes[BASE + "fintech/signals.json"] = Resp(500)
+    serve(monkeypatch, routes)
+    at = app({"sector": "fintech"}).run()
+    assert not at.exception
+    body = _body(at)
+    assert "Not available yet" in body and NOT_AVAILABLE in body
+
+
+def test_error_status_without_signals_shows_not_available(monkeypatch):
+    index = [INDEX[0], dict(INDEX[1], status="error")] + INDEX[2:]
+    routes = sector_routes(index)
+    del routes[BASE + "fintech/signals.json"]
+    serve(monkeypatch, routes)
+    at = app({"sector": "fintech"}).run()
+    assert not at.exception
+    body = _body(at)
+    assert "Not available yet" in body and NOT_AVAILABLE in body

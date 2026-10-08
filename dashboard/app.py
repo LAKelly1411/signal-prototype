@@ -2503,6 +2503,15 @@ def render_health_strip(status: dict | None, reserve: bool = False) -> None:
     healthy = status.get("healthy_sources", 0)
     total = status.get("total_sources", 0)
 
+    if "error" in status:
+        # A failed run writes no source counts; don't read that as healthy.
+        st.markdown(
+            f'<div class="health-strip health-bad">Last update failed · '
+            f"{_humanise_age(age)}</div>",
+            unsafe_allow_html=True,
+        )
+        return
+
     if age > 12 * 3600:
         css, detail = "health-bad", "pipeline may have stopped running"
     elif healthy < total:
