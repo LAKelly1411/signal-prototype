@@ -22,7 +22,6 @@ from dashboard.brand import (
 from src.cluster import (
     CLUSTER_WINDOW_DAYS,
     MIN_THEME_COMPANIES,
-    SIGNIFICANT_SCORE,
     compute_heat,
     compute_theme_heat,
     is_excluded,
@@ -343,23 +342,36 @@ def inject_css() -> None:
             color: var(--pa-muted);
         }
         .gc-tags { margin-top: 16px; }
-        /* Timeline: one tick per signal over the 90-day window. */
+        /* Sparkline (dataviz mark specs): 2px line, round join/cap; 10% wash;
+           >=8px end-dot with a 2px surface ring; hairline baseline. */
         .tl { margin-top: 12px; }
         .tl-track {
             position: relative;
             height: 32px;
             border-bottom: 1px solid var(--pa-border);
         }
-        /* Cobalt in the relevance ring's two tones: solid for signals that
-           count toward heat, the ring's 20% track for the ones that don't. */
-        .tl-tick {
-            position: absolute;
-            bottom: 0;
-            width: 6px;
-            margin-left: -3px;
-            background: var(--pa-cobalt);
+        .tl-svg { display: block; width: 100%; height: 100%; overflow: visible; }
+        .tl-line {
+            fill: none;
+            stroke: var(--pa-cobalt);
+            stroke-width: 2px;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+            vector-effect: non-scaling-stroke;
         }
-        .tl-tick.tl-quiet { background: rgba(0, 79, 255, 0.2); }
+        .tl-area { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
+        .tl-hits rect { fill: transparent; }
+        .tl-hits rect:hover { fill: rgba(0, 79, 255, 0.06); }
+        .tl-dot {
+            position: absolute;
+            right: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--pa-cobalt);
+            box-shadow: 0 0 0 2px var(--pa-paper);
+            transform: translate(50%, 50%);
+        }
         .tl-axis {
             display: flex;
             justify-content: space-between;
@@ -635,14 +647,21 @@ def inject_css() -> None:
         [class*="st-key-signals-panel-"] {
             animation: pa-pane-in var(--dur-slow) var(--ease) backwards;
         }
-        /* Timeline ticks grow from the baseline, staggered left to right. */
-        @keyframes pa-tick-grow {
-            from { transform: scaleY(0); }
-            to { transform: scaleY(1); }
+        /* List sparklines draw in when the tab opens. The pane's doesn't
+           animate: it changes with every selection, which should be instant. */
+        /* A left-to-right reveal rather than a stroke-dash draw: dashes are
+           measured in screen space under non-scaling-stroke, so a pathLength
+           dash leaves gaps in the line. */
+        @keyframes pa-reveal {
+            from { clip-path: inset(0 100% 0 0); }
+            to { clip-path: inset(0 0 0 0); }
         }
-        .tl-tick {
-            transform-origin: bottom;
-            animation: pa-tick-grow var(--dur-slow) var(--ease) backwards;
+        @keyframes pa-fade-in { from { opacity: 0; } to { opacity: 1; } }
+        .group-card:not(.group-card-full) .tl-svg {
+            animation: pa-reveal 600ms var(--ease) backwards;
+        }
+        .group-card:not(.group-card-full) .tl-dot {
+            animation: pa-fade-in var(--dur) var(--ease) 500ms backwards;
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -1082,35 +1101,70 @@ def _date_span(members: list[dict]) -> str:
     return f"{first.day} {first:%b} – {last.day} {last:%b}"
 
 
-def _timeline(members: list[dict], now: datetime) -> str:
-    """One tick per signal across the clustering window, today at the right.
-    Height follows the signal's score; ticks below the significance bar are
-    pale, as heat ignores them. Shows at a glance whether a pattern is a burst
-    this week or a slow build over months."""
-    start = now - timedelta(days=CLUSTER_WINDOW_DAYS)
-    span = CLUSTER_WINDOW_DAYS * 86400
-    ticks = []
-    for m in sorted(members, key=lambda m: m["published_at"]):
+SPARK_WEEKS = 13  # weekly buckets across the ~90-day clustering window
+SPARK_HEIGHT = 32  # px; the line's peak sits a little under the top
+
+
+def _weekly_counts(members: list[dict], now: datetime) -> list[int]:
+    """Signals per week, oldest first; the last bucket is the past 7 days."""
+    counts = [0] * SPARK_WEEKS
+    for m in members:
         dt = datetime.fromisoformat(m["published_at"])
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        x = max(0.0, min(100.0, (dt - start).total_seconds() / span * 100))
-        score = m.get("newsworthiness_score") or 0
-        height = 6 + round(score / 100 * 26)
-        quiet = " tl-quiet" if score < SIGNIFICANT_SCORE else ""
-        delay = min(len(ticks) * 20, 400)
-        ticks.append(
-            f'<span class="tl-tick{quiet}" '
-            f'style="left:{x:.2f}%;height:{height}px;animation-delay:{delay}ms"></span>'
-        )
-    label = (
-        f"{len(members)} signals over the last {CLUSTER_WINDOW_DAYS} days, "
-        f"latest {_date_span(members[-1:])}"
+        weeks_ago = int((now - dt).total_seconds() // (7 * 86400))
+        if 0 <= weeks_ago < SPARK_WEEKS:
+            counts[SPARK_WEEKS - 1 - weeks_ago] += 1
+    return counts
+
+
+def _timeline(members: list[dict], now: datetime) -> str:
+    """Sparkline of signals per week across the clustering window, today at the
+    right: a 2px cobalt line over a 10% wash, an end-dot on this week. Shows at
+    a glance whether a pattern is a burst this week or a slow build over months.
+    Scaled per card, as sparklines are; the meta line carries the counts.
+    Each week is a hover target with its count (reachable in the preview pane;
+    in the list the whole card is the click target)."""
+    counts = _weekly_counts(members, now)
+    peak = max(max(counts), 1)
+    top = 4  # headroom so the line's cap and the end-dot aren't clipped
+    step = 100 / (SPARK_WEEKS - 1)
+
+    def y(c: int) -> float:
+        return SPARK_HEIGHT - c / peak * (SPARK_HEIGHT - top)
+
+    points = [(i * step, y(c)) for i, c in enumerate(counts)]
+    line = "M" + " L".join(f"{x:.2f},{yy:.2f}" for x, yy in points)
+    area = f"{line} L100,{SPARK_HEIGHT} L0,{SPARK_HEIGHT} Z"
+
+    week_starts = [now - timedelta(days=7 * (SPARK_WEEKS - i)) for i in range(SPARK_WEEKS)]
+    targets = "".join(
+        f'<rect x="{max(0, i * step - step / 2):.2f}" y="0" '
+        f'width="{step if 0 < i < SPARK_WEEKS - 1 else step / 2:.2f}" height="{SPARK_HEIGHT}">'
+        f"<title>w/c {ws.day} {ws:%b}: {c} signal{'s' if c != 1 else ''}</title></rect>"
+        for i, (ws, c) in enumerate(zip(week_starts, counts))
     )
+
+    peak_week = week_starts[counts.index(max(counts))]
+    label = (
+        f"Signals per week over the last {SPARK_WEEKS} weeks: "
+        f"{', '.join(map(str, counts))}. Peak {max(counts)} in the week of "
+        f"{peak_week.day} {peak_week:%b}; {counts[-1]} this week."
+    )
+    end_bottom = (SPARK_HEIGHT - points[-1][1]) / SPARK_HEIGHT * 100
+    start = week_starts[0]
     return (
         f'<div class="tl" role="img" aria-label="{html.escape(label, quote=True)}">'
-        f'<div class="tl-track">{"".join(ticks)}</div>'
-        f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>Today</span></div>'
+        '<div class="tl-track">'
+        f'<svg class="tl-svg" viewBox="0 0 100 {SPARK_HEIGHT}" preserveAspectRatio="none" '
+        'aria-hidden="true">'
+        f'<path class="tl-area" d="{area}"/>'
+        f'<path class="tl-line" d="{line}"/>'
+        f'<g class="tl-hits">{targets}</g>'
+        "</svg>"
+        f'<span class="tl-dot" style="bottom:{end_bottom:.1f}%"></span>'
+        "</div>"
+        f'<div class="tl-axis"><span>{start.day} {start:%b}</span><span>This week</span></div>'
         "</div>"
     )
 
