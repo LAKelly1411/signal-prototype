@@ -1,0 +1,106 @@
+# The fintech and payments sector. Hand-curated; dashboard additions go to
+# fintech.user.yaml so the app never edits this file.
+slug: fintech
+name: Fintech & payments
+brief: >-
+  A B2B newsroom covering UK fintech and payments: banks and e-money firms,
+  payment processors, lenders and the regulators around them.
+
+prompt:
+  newsroom: B2B fintech and payments newsroom
+  coverage: the UK fintech and payments sector
+  audience: specialist B2B fintech audience
+  materiality: A small payments firm's change of permissions can matter here even if it would never make national news.
+  key_players: banks, payment firms, lenders or platforms
+  entity_hint: firm or company names mentioned
+  company_word: firm
+  significance_audience: specialist fintech newsroom
+  theme_scope: the UK fintech and payments sector
+
+keywords: ["fintech", "payments", "e-money", "open banking", "buy now pay later", "neobank"]
+
+# Names and numbers verified against Companies House (all Active).
+companies:
+  - name: "Monzo Bank Limited"
+    company_number: "09446231"
+    aliases: ["Monzo"]
+  - name: "Revolut Ltd"
+    company_number: "08804411"
+    aliases: ["Revolut"]
+  - name: "Starling Bank Limited"
+    company_number: "09092149"
+    aliases: ["Starling"]
+  - name: "Wise Payments Limited"
+    company_number: "07209813"
+    aliases: ["Wise", "TransferWise"]
+  - name: "Klarna Financial Services UK Limited"
+    company_number: "14290857"
+    aliases: ["Klarna"]
+  - name: "Checkout Ltd"
+    company_number: "08037323"
+    aliases: ["Checkout.com"]
+  - name: "ClearBank Limited"
+    company_number: "09736376"
+    aliases: ["ClearBank"]
+  - name: "GoCardless Ltd"
+    company_number: "07495895"
+    aliases: ["GoCardless"]
+
+tickers:
+  WISE: "Wise"
+  PAY: "PayPoint"
+
+# Fintech-only categories, on top of the core set. Listed order is kept,
+# all ahead of Enforcement action.
+categories:
+  - name: "Fraud and APP scams"
+    pattern: 'app fraud|authorised push payment|\bscams?\b|fraud|reimburse'
+    before: "Enforcement action"
+  - name: "Consumer Duty and redress"
+    pattern: 'consumer duty|redress|ombudsman|\bfos\b|complaint|remediation'
+    before: "Enforcement action"
+  - name: "Authorisation and permissions"
+    pattern: 'authoris|variation of permission|\bvop\b|e-money licen|registration|permission'
+    before: "Enforcement action"
+
+signal_type_fallback:
+  regulatory: "Authorisation and permissions"
+
+excluded_bodies:
+  - "prudential regulation authority"
+  - "pra"
+  - "payment systems regulator"
+  - "psr"
+  - "financial ombudsman service"
+  - "bank of england"
+  - "uk finance"
+
+sources:
+  companies_house:
+    items_per_page: 25
+    sleep_seconds: 0.6
+    lookback_days: 365
+  gazette:
+    results_per_term: 20
+    sleep_seconds: 1.0
+  dcms:
+    # The collector searches any GOV.UK department's publications; HM Treasury
+    # owns payments and fintech policy.
+    organisation: "hm-treasury"
+    keywords: ["fintech", "payments", "open banking", "buy now pay later"]
+    results_per_term: 20
+  parliament:
+    keywords: ["fintech", "buy now pay later", "open banking", "payment services"]
+    results_per_term: 20
+  asa:
+    keywords: ["buy now pay later", "payments", "fintech"]
+  insolvency_service:
+    sleep_seconds: 1.0
+  lse_rns:
+    skip_titles:
+      - "holding(s) in company"
+      - "notification of major holdings"
+      - "director/pdmr shareholding"
+      - "transaction in own shares"
+      - "total voting rights"
+      - "block listing"
