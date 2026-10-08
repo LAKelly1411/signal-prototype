@@ -344,10 +344,15 @@ def inject_css() -> None:
         .gc-tags { margin-top: 16px; }
         /* Sparkline (dataviz mark specs): 2px line, round join/cap; 10% wash;
            >=8px end-dot with a 2px surface ring; hairline baseline. */
-        .tl { margin-top: 12px; }
+        .tl { margin-top: 16px; }
+        .tl-grid {
+            stroke: rgba(0, 0, 0, 0.08);
+            stroke-width: 1px;
+            vector-effect: non-scaling-stroke;
+        }
         .tl-track {
             position: relative;
-            height: 32px;
+            height: 56px;
             border-bottom: 1px solid var(--pa-border);
         }
         .tl-svg { display: block; width: 100%; height: 100%; overflow: visible; }
@@ -1145,7 +1150,15 @@ def _date_span(members: list[dict]) -> str:
 
 
 SPARK_WEEKS = 13  # weekly buckets across the ~90-day clustering window
-SPARK_HEIGHT = 32  # px; the line's peak sits a little under the top
+SPARK_HEIGHT = 56  # px; the line's peak sits a little under the top
+
+# Shared y-axis tops: even, so the midline label is a whole number too.
+_NICE_SCALES = (2, 4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100)
+
+
+def _nice_scale(peak: int) -> int:
+    """The smallest clean axis top at or above a tab's busiest week."""
+    return next((n for n in _NICE_SCALES if n >= peak), -(-peak // 20) * 20)
 
 
 def _weekly_counts(members: list[dict], now: datetime) -> list[int]:
@@ -1171,20 +1184,24 @@ def _week_range(start: datetime) -> str:
     return f"{start.day} {start:%b %Y} – {end.day} {end:%b %Y}"
 
 
-def _timeline(members: list[dict], now: datetime) -> str:
+def _timeline(members: list[dict], now: datetime, scale: int) -> str:
     """Sparkline of signals per week across the clustering window, today at the
     right: a 2px cobalt line over a 10% wash, an end-dot on this week. Shows at
     a glance whether a pattern is a burst this week or a slow build over months.
-    Scaled per card, as sparklines are; the meta line carries the counts.
+
+    Every card on a tab shares one y-axis (`scale`, from the tab's busiest
+    week), marked by faint gridlines at half and full height, so a peak of one
+    signal no longer looks as big as a peak of fifteen. No axis numbers: the
+    hover tooltip gives exact counts.
+
     Hovering snaps to the nearest week: a dot on the line, a faint guide and a
     tooltip with the week and its count. Pure CSS, so it's instant."""
     counts = _weekly_counts(members, now)
-    peak = max(max(counts), 1)
     top = 4  # headroom so the line's cap and the end-dot aren't clipped
     step = 100 / (SPARK_WEEKS - 1)
 
-    def y(c: int) -> float:
-        return SPARK_HEIGHT - c / peak * (SPARK_HEIGHT - top)
+    def y(c: float) -> float:
+        return SPARK_HEIGHT - min(c, scale) / scale * (SPARK_HEIGHT - top)
 
     points = [(i * step, y(c)) for i, c in enumerate(counts)]
     line = "M" + " L".join(f"{x:.2f},{yy:.2f}" for x, yy in points)
@@ -1217,11 +1234,17 @@ def _timeline(members: list[dict], now: datetime) -> str:
     )
     end_bottom = (SPARK_HEIGHT - points[-1][1]) / SPARK_HEIGHT * 100
     start = week_starts[0]
+
+    grid = "".join(
+        f'<line class="tl-grid" x1="0" x2="100" y1="{y(v):.2f}" y2="{y(v):.2f}"/>'
+        for v in (scale / 2, scale)
+    )
     return (
         f'<div class="tl" role="img" aria-label="{html.escape(label, quote=True)}">'
         '<div class="tl-track">'
         f'<svg class="tl-svg" viewBox="0 0 100 {SPARK_HEIGHT}" preserveAspectRatio="none" '
         'aria-hidden="true">'
+        f"{grid}"
         f'<path class="tl-area" d="{area}"/>'
         f'<path class="tl-line" d="{line}"/>'
         "</svg>"
@@ -1272,6 +1295,7 @@ class Group:
     flags: list[str]
     companies: list[str]
     key_points: list[str] = field(default_factory=list)
+    scale: int = 2  # the tab's shared sparkline y-axis top; set in _render_groups
 
 
 def _group_html(group: Group, now: datetime, full: bool) -> str:
@@ -1292,7 +1316,7 @@ def _group_html(group: Group, now: datetime, full: bool) -> str:
         + (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "")
         + points
         + f'<div class="gc-meta">{html.escape(group.meta)}</div>'
-        f"{_timeline(group.members, now)}"
+        f"{_timeline(group.members, now, group.scale)}"
         + (f'<div class="sc-tags gc-tags">{"".join(tags)}</div>' if tags else "")
         + "</div>"
     )
@@ -1408,6 +1432,10 @@ def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
     """The list of cards plus the preview of the selected one, falling back
     to the first when nothing is chosen yet or the choice dropped out of view."""
     now = datetime.now(timezone.utc)
+    # One y-axis for every sparkline on the tab, so heights compare across cards.
+    scale = _nice_scale(max(max(_weekly_counts(g.members, now)) for g in groups))
+    for group in groups:
+        group.scale = scale
     ids = [g.id for g in groups]
     selected = st.session_state.get(state_key)
     if selected not in ids:
