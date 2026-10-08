@@ -195,6 +195,26 @@ def inject_css() -> None:
             margin: 2.5rem 0 1.75rem 0;
         }
 
+        /* Empty states: a grey block with friendly copy, the width of a card. */
+        .empty-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 20px 24px;
+            margin: 0 0 24px 0;
+            background: #f3f3f3;
+            font-family: var(--pa-font-data);
+            color: var(--pa-ink);
+        }
+        .empty-icon {
+            font-family: "Material Symbols Rounded";
+            font-size: 24px;
+            line-height: 1;
+            color: var(--pa-muted);
+        }
+        .empty-title { font-weight: 700; font-size: 1rem; line-height: 1.4; }
+        .empty-body { font-size: 0.9375rem; line-height: 1.5; color: var(--pa-muted); margin-top: 2px; }
+
         /* ── Signal card (Figma 2363:505) ─────────────────────────── */
         .signal-card {
             background: var(--pa-paper);
@@ -649,6 +669,42 @@ def inject_css() -> None:
             color: var(--pa-ink);
         }
         [data-testid="stTab"][aria-selected="true"] p { font-weight: 700; }
+        /* A grey rule under the whole tab bar, as in the frame; the active
+           tab's cobalt underline sits on it. Hover tints the tab. */
+        [data-testid="stTabs"] [role="tablist"] { border-bottom: 1px solid #cccccc; }
+        [data-testid="stTabs"] [data-baseweb="tab-border"] { display: none; }
+        [data-testid="stTab"] { transition: background-color var(--dur-fast) var(--ease); }
+        [data-testid="stTab"]:hover { background: #f3f3f3; }
+        [data-testid="stTab"][aria-selected="true"]:hover { background: #f3f3f3; }
+        /* Sort, lifted onto the right end of the tab row: the slot sits just
+           above the tabs at zero height, and the control is placed over the
+           row's right edge, centred on it. */
+        .st-key-tabs-sort {
+            position: relative;
+            height: 0;
+            overflow: visible;
+            z-index: 10;
+        }
+        .st-key-tabs-sort [data-testid="stLayoutWrapper"]:has(> .st-key-pop-sort),
+        .st-key-tabs-sort > [data-testid="stElementContainer"],
+        .st-key-tabs-sort .st-key-pop-sort {
+            position: absolute;
+            right: 0;
+            top: var(--sort-top, 40px);
+        }
+        /* Same 40px as a tab, so the boxes match as well as the labels. */
+        .st-key-tabs-sort [data-testid="stPopoverButton"] {
+            height: 40px;
+            min-height: 40px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        /* The menu takes the button's width (set by the page script when
+           the button is clicked), so it lines up under it exactly. */
+        [data-testid="stPopoverBody"]:has([class*="st-key-sortopt-"]) {
+            min-width: 0;
+            width: var(--sort-menu-w, auto);
+        }
         /* PA fields: white with an ink hairline, never the grey card fill. */
         [data-testid="stTextInputRootElement"],
         [data-testid="stTextAreaRootElement"] {
@@ -877,12 +933,12 @@ def inject_css() -> None:
            #e7e7e7. Menus are white with a 0 4px 12px shadow; rows are 8x12px,
            16px Press Sans; chosen options carry a cobalt tick. */
         .st-key-feed-filters { gap: 4px; margin: 0.5rem 0 0.25rem 0; }
-        .st-key-feed-filters [data-testid="stPopover"],
-        .st-key-feed-filters [data-testid="stPopover"] > div,
-        .st-key-feed-filters [data-testid="stPopoverButton"],
-        .st-key-feed-filters [data-testid="stPopoverButton"] > div,
-        .st-key-feed-filters [data-testid="stPopoverButton"] > div > div { flex-shrink: 0; }
-        .st-key-feed-filters [data-testid="stPopoverButton"] {
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopover"],
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopover"] > div,
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"],
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] > div,
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] > div > div { flex-shrink: 0; }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] {
             min-height: 40px;
             padding: 8px 12px;
             border: none;
@@ -891,27 +947,23 @@ def inject_css() -> None:
             box-shadow: none;
             color: var(--pa-ink);
         }
-        .st-key-feed-filters [data-testid="stPopoverButton"]:hover,
-        .st-key-feed-filters [data-testid="stPopoverButton"][aria-expanded="true"] { background: #e7e7e7; }
-        .st-key-feed-filters [data-testid="stPopoverButton"]:focus-visible { outline: 2px solid var(--pa-cobalt); }
-        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stIconMaterial"] { font-size: 20px; }
-        .st-key-feed-filters [data-testid="stPopoverButton"] p {
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"]:hover,
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"][aria-expanded="true"] { background: #e7e7e7; }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"]:focus-visible { outline: 2px solid var(--pa-cobalt); }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] [data-testid="stIconMaterial"] { font-size: 20px; }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] p {
             font-family: var(--pa-font-data);
             font-size: 1rem;
             font-weight: 400;
             white-space: nowrap;
         }
-        .st-key-feed-filters [data-testid="stPopoverButton"] p strong { font-weight: 700; }
-        /* Streamlit sizes the label box 5px under its text (every label, any
-           length), and clips it. Let the last few pixels run into the
-           button's padding rather than cut the value off. */
-        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"],
-        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"] p {
-            overflow: visible;
-            text-overflow: clip;
-        }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] p strong { font-weight: 700; }
+        /* Streamlit pulls the button's content wrapper 5px right (margin-right
+           -5px, to tuck in the chevron we hide), which clipped labels and made
+           the right padding 5px narrower than the left. */
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] > div { margin-right: 0; }
         /* No chevron: the open state's grey says it's a menu. */
-        .st-key-feed-filters [data-testid="stPopoverButton"] > div > div:last-child:not(:first-child):has([data-testid="stIconMaterial"]) { display: none; }
+        :is(.st-key-feed-filters, .st-key-tabs-sort) [data-testid="stPopoverButton"] > div > div:last-child:not(:first-child):has([data-testid="stIconMaterial"]) { display: none; }
 
         /* Search fields: 1px #ccc outline, no fill. */
         .st-key-feed-filters [data-testid="stTextInputRootElement"],
@@ -1462,8 +1514,9 @@ def _cat_key(category: str) -> str:
 
 
 def _set_sort(option: str) -> None:
+    # The page script closes the menu once a choice is made: setting the
+    # popover's state from Python doesn't close it.
     st.session_state[F_SORT] = option
-    st.session_state["pop-sort"] = False  # close the menu once a choice is made
 
 
 def _remove_company(name: str) -> None:
@@ -1645,14 +1698,18 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
 
 
 def _feed_toolbar(shown: int, total: int, sort_order: str) -> None:
-    """The count on the left, Sort on the right, above the feed."""
+    """The count above the feed. (Sort sits in the tab row; see main.)"""
     with st.container(key="feed-filters", horizontal=True, vertical_alignment="center"):
         st.caption(f"Showing {shown} of {total} scored signals.")
-        with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:",
-                        key="pop-sort"):
-            for option in (SORT_RECENT, SORT_SCORE):
-                _check_row(f"sortopt-{option.split()[0].lower()}", option,
-                           option == sort_order, _set_sort, (option,))
+
+
+def _sort_control() -> None:
+    """Sort for the feed, placed at the right of the tab row."""
+    sort_order = st.session_state.get(F_SORT, SORT_RECENT)
+    with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:", key="pop-sort"):
+        for option in (SORT_RECENT, SORT_SCORE):
+            _check_row(f"sortopt-{option.split()[0].lower()}", option,
+                       option == sort_order, _set_sort, (option,))
 
 
 def group_by_cluster(scored: list[dict]) -> dict[str, list[dict]]:
@@ -1695,7 +1752,10 @@ def render_feed(signals: list[dict]) -> None:
     _feed_toolbar(len(filtered), len(scored), sort_order)
 
     if not filtered:
-        st.info("No signals match the current filters.")
+        _empty_block(
+            "No signals match your filters.",
+            "Try widening them, or use Clear all in the sidebar to start again.",
+        )
         return
 
     if sort_order != SORT_RECENT:
@@ -1713,11 +1773,38 @@ def render_feed(signals: list[dict]) -> None:
         buckets[_date_bucket(pub_date, today)].append(signal)
 
     for bucket in ["Today", "Yesterday", "This week", "Earlier"]:
-        if not buckets[bucket]:
+        # Today always shows, so a quiet morning reads as "nothing yet", not
+        # as a feed that starts at yesterday for no clear reason.
+        if not buckets[bucket] and bucket != "Today":
             continue
         st.markdown(f'<div class="section-label">{bucket}</div>', unsafe_allow_html=True)
+        if not buckets[bucket]:
+            today_unfiltered = any(
+                datetime.fromisoformat(s["published_at"]).date() >= today for s in scored
+            )
+            if today_unfiltered:
+                _empty_block(
+                    "Nothing from today matches your filters.",
+                    "Try widening them, or catch up on earlier signals below.",
+                )
+            else:
+                _empty_block(
+                    "Nothing new yet today.",
+                    "We check our sources throughout the day, so new signals will "
+                    "appear here as they come in.",
+                )
         for signal in buckets[bucket]:
             render_card(signal, cluster_info)
+
+
+def _empty_block(title: str, body: str) -> None:
+    """A friendly grey message block for an empty section or feed."""
+    st.markdown(
+        f'<div class="empty-block"><span class="empty-icon" aria-hidden="true">inbox</span>'
+        f'<div><div class="empty-title">{html.escape(title)}</div>'
+        f'<div class="empty-body">{html.escape(body)}</div></div></div>',
+        unsafe_allow_html=True,
+    )
 
 
 def _cluster_verdict(members: list[dict]) -> dict:
@@ -1988,8 +2075,9 @@ def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> 
         )
 
 
-# Lets the reader drag the preview pane's left edge, and forwards clicks on a
-# list card's sparkline to the card. Injected once per page
+# Lets the reader drag the preview pane's left edge, forwards clicks on a list
+# card's sparkline to the card, sizes the Sort menu to its button and closes
+# it once an option is chosen. Injected once per page
 # with st.html (scripts allowed) and installs delegated listeners, so it
 # survives Streamlit re-rendering the pane. Sets --preview-width, which sizes
 # both the pane and the room the main column leaves for it, and remembers the
@@ -2025,6 +2113,16 @@ _RESIZE_SCRIPT = """
       save();
     },
     click: (e) => {
+      // Size the Sort menu to its button.
+      const sortBtn = e.target.closest && e.target.closest('.st-key-pop-sort [data-testid="stPopoverButton"]');
+      if (sortBtn) root.style.setProperty("--sort-menu-w", sortBtn.getBoundingClientRect().width + "px");
+      // Close the Sort menu once an option is chosen.
+      if (e.target.closest && e.target.closest('[class*="st-key-sortopt-"] button')) {
+        setTimeout(() => {
+          const btn = doc.querySelector('.st-key-pop-sort [data-testid="stPopoverButton"]');
+          if (btn && btn.getAttribute("aria-expanded") === "true") btn.click();
+        }, 0);
+      }
       // The sparkline's hover layer sits above a card's click overlay; a click
       // on it still means "select this card".
       const col = e.target.closest && e.target.closest(".tl-col");
@@ -2530,10 +2628,15 @@ def main() -> None:
     # Only the open tab renders (on_change="rerun" gives each tab .open), so
     # the sidebar's feed filters appear only beside the Feed, and hidden tabs
     # cost nothing.
+    # A slot just above the tabs, positioned onto the right of the tab row
+    # (see inject_css); filled only on the Feed, the one tab Sort applies to.
+    sort_slot = st.container(key="tabs-sort")
     feed_tab, patterns_tab, themes_tab = st.tabs(
         ["Feed", "Patterns", "Themes"], key="tab", on_change="rerun"
     )
     if feed_tab.open:
+        with sort_slot:
+            _sort_control()
         with feed_tab:
             # Not a fragment: its filters are in the sidebar, which fragments
             # can't write to.
