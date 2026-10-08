@@ -2780,44 +2780,6 @@
     "theme_summary_for": "Shareholding disclosure:67d82544919c:067ec139"
   },
   {
-    "id": "6cc7c111af47724064e12098829166173de96d04d458f56fdf48c95ed2bff11a",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9611270",
-    "title": "Entain: TR-1: Notification of major holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-10T09:30:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926063+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
-    "category": "major shareholding notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Entain's routine LSE disclosure flow over June–August 2026 includes repeated TR-1 shareholding notifications, board/committee reshuffles, the agreed 20% divestment of its CEE business, BetMGM Q2 updates and interim results with an audit tender conclusion. Most items are standard listed-company reporting rather than a single unfolding event, though the CEE exit and board changes stand out as substantive.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 40,
-    "cluster_summary_for": "ddf6c2ebf3960bf4:cecdc011",
-    "theme_summary": "Entain has filed TR-1 major shareholding notifications almost weekly since June, with eight disclosures by 27 August. Flutter Entertainment and evoke logged parallel but sparser shareholding notices, while evoke's filings escalated in August to a scheme-of-arrangement court and general meeting result.",
-    "theme_key_points": [
-      "Entain filed TR-1 notices on 10, 11, 12, 19, 23, 25 June, then 4 and 27 August — eight in under three months",
-      "Evoke's 17 August 'Results of Court Meeting and General Meeting' scored 45, well above routine holding notices, pointing to a scheme of arrangement",
-      "Flutter Entertainment logged three separate holding notifications in June (15th, 26th, 30th) before falling quiet",
-      "Evoke also filed a Total Voting Rights update on 3 August and a further Holding(s) in Company notice on 26 August"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
