@@ -122,3 +122,12 @@ class TestSectorCategories:
 
     def test_ruleset_is_cached_per_slug(self):
         assert ruleset(_fintech()) is ruleset(_fintech())
+
+
+class TestRulesetCacheKey:
+    def test_same_slug_sectors_with_different_categories_get_different_rulesets(self):
+        a = _fintech()
+        b = _fintech(categories=[{"name": "Open banking", "pattern": "open banking",
+                                  "before": "Enforcement action"}])
+        assert "Crypto" in taxonomy(a) and "Open banking" not in taxonomy(a)
+        assert "Open banking" in taxonomy(b) and "Crypto" not in taxonomy(b)

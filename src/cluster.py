@@ -2,25 +2,18 @@ import hashlib
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
-from src.categories import OTHER, category_of
+from src.categories import OTHER, category_of, default_sector
 from src.entities import canonicalise, match_key
 
 # Regulators, government bodies and trade associations that get extracted as
 # "entities" simply because they're the authority being discussed, not the
 # subject of the signal. Clustering on these would just group "everything that
 # mentions the regulator" rather than surfacing company-specific patterns.
+# Generic UK institutions are excluded in every sector; each sector's config
+# adds its own regulators and trade bodies (excluded_bodies).
 # Matched against the canonical form, so both the bare and expanded names of
 # the same body need listing.
-EXCLUDED_ENTITIES = {
-    "gambling commission",
-    "ukgc",
-    "dcms",
-    "department for culture, media and sport",
-    "department for culture media and sport",
-    # DCMS's former name, still attached to older policy documents.
-    "department for digital, culture, media and sport",
-    "department for digital culture media and sport",
-    "dcms select committee",
+SHARED_EXCLUDED = frozenset({
     "hmrc",
     "hm revenue & customs",
     "hm revenue and customs",
@@ -29,9 +22,6 @@ EXCLUDED_ENTITIES = {
     "companies house",
     "the gazette",
     "gazette",
-    "betting and gaming council",
-    "bgc",
-    "illegal gambling taskforce",
     "advertising standards authority",
     "asa",
     "cap",
@@ -39,12 +29,6 @@ EXCLUDED_ENTITIES = {
     "insolvency service",
     "financial conduct authority",
     "fca",
-    "british horseracing authority",
-    "bha",
-    "horserace betting levy board",
-    "gamble aware",
-    "gambleaware",
-    "gamcare",
     "parliament",
     "uk parliament",
     "house of commons",
@@ -53,12 +37,27 @@ EXCLUDED_ENTITIES = {
     "uk government",
     "cabinet office",
     "home office",
-}
+})
+
+# Keyed on content, not slug alone, so same-slug sectors with different
+# excluded_bodies don't share a result.
+_EXCLUDED_BY_SECTOR: dict[tuple, frozenset[str]] = {}
 
 
-def is_excluded(name: str) -> bool:
+def excluded_entities(sector=None) -> frozenset[str]:
+    sector = sector or default_sector()
+    key = (sector.slug, tuple(sector.excluded_bodies))
+    cached = _EXCLUDED_BY_SECTOR.get(key)
+    if cached is None:
+        cached = SHARED_EXCLUDED | {b.strip().lower() for b in sector.excluded_bodies}
+        _EXCLUDED_BY_SECTOR[key] = cached
+    return cached
+
+
+def is_excluded(name: str, sector=None) -> bool:
     """True for institutions that shouldn't anchor or label a cluster."""
-    return match_key(name) in EXCLUDED_ENTITIES or name.strip().lower() in EXCLUDED_ENTITIES
+    excluded = excluded_entities(sector)
+    return match_key(name) in excluded or name.strip().lower() in excluded
 
 
 def signal_entities(signal: dict, alias_map: dict[str, str] | None = None) -> list[str]:
@@ -135,6 +134,7 @@ def assign_clusters(
     window_days: int = CLUSTER_WINDOW_DAYS,
     now: datetime | None = None,
     alias_map: dict[str, str] | None = None,
+    sector=None,
 ) -> None:
     """Recomputed fresh every run: sets cluster_id on signals that share a
     named entity with at least one other signal published within the rolling
@@ -177,14 +177,14 @@ def assign_clusters(
     bridging = [
         idx
         for idx, s in enumerate(eligible)
-        if len([e for e in signal_entities(s, alias_map) if not is_excluded(e)])
+        if len([e for e in signal_entities(s, alias_map) if not is_excluded(e, sector)])
         <= MAX_BRIDGING_ENTITIES
     ]
 
     entity_to_indices: dict[str, list[int]] = defaultdict(list)
     for idx in bridging:
         for entity in signal_entities(eligible[idx], alias_map):
-            if is_excluded(entity):
+            if is_excluded(entity, sector):
                 continue
             entity_to_indices[_normalize_entity(entity)].append(idx)
 
@@ -221,6 +221,7 @@ def assign_themes(
     now: datetime | None = None,
     min_companies: int = MIN_THEME_COMPANIES,
     alias_map: dict[str, str] | None = None,
+    sector=None,
 ) -> None:
     """Group signals by what happened rather than who it happened to.
 
@@ -250,7 +251,7 @@ def assign_themes(
             continue
         if _parse_date(s["published_at"]) < cutoff:
             continue
-        theme = category_of(s)
+        theme = category_of(s, sector)
         if theme == OTHER:
             continue
         by_theme[theme].append(s)
@@ -260,7 +261,7 @@ def assign_themes(
             _normalize_entity(e)
             for m in members
             for e in signal_entities(m, alias_map)
-            if not is_excluded(e)
+            if not is_excluded(e, sector)
         }
         if len(companies) < min_companies:
             continue
@@ -273,6 +274,7 @@ def compute_theme_heat(
     now: datetime | None = None,
     window_days: int = CLUSTER_WINDOW_DAYS,
     alias_map: dict[str, str] | None = None,
+    sector=None,
 ) -> float:
     """Heat for a theme. Breadth replaces source diversity: what makes a wave
     interesting is how many separate companies it touches, not how many feeds
@@ -282,7 +284,7 @@ def compute_theme_heat(
         _normalize_entity(e)
         for m in members
         for e in signal_entities(m, alias_map)
-        if not is_excluded(e)
+        if not is_excluded(e, sector)
     }
     best_score = max((m.get("newsworthiness_score") or 0) for m in members)
     most_recent = max(_parse_date(m["published_at"]) for m in members)

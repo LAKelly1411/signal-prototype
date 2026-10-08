@@ -51,7 +51,7 @@ def main() -> None:
     ] + EXTRA_CATEGORY_INPUTS
     entities = sorted(
         {e for s in signals for e in (s.get("entities") or []) + (s.get("canonical_entities") or [])}
-        | set(cluster.EXCLUDED_ENTITIES)
+        | set(cluster.excluded_entities())
         | {"Entain", "bet365 Group Limited", "Rank Group", "HM Treasury", "The Gazette"}
     )
     now = max(cluster._parse_date(s["published_at"]) for s in signals) + timedelta(days=1)
@@ -74,7 +74,7 @@ def main() -> None:
             "cluster": score.CLUSTER_SUMMARY_VERSION,
             "theme": score.THEME_SUMMARY_VERSION,
         },
-        "taxonomy": categories.TAXONOMY,
+        "taxonomy": categories.taxonomy(),
         "category_inputs": category_inputs,
         "categories": [categories.canonical_category(*i) for i in category_inputs],
         "entities": entities,

@@ -42,16 +42,26 @@ def test_categories_are_identical():
 
 
 def test_exclusions_are_identical():
+    gambling = load_sector("gambling")
     assert [cluster.is_excluded(e) for e in BASE["entities"]] == BASE["excluded"]
+    assert [cluster.is_excluded(e, gambling) for e in BASE["entities"]] == BASE["excluded"]
 
 
-def test_clusters_and_themes_are_identical():
+@pytest.mark.parametrize("explicit", [False, True])
+def test_clusters_and_themes_are_identical(explicit):
+    sector = load_sector("gambling") if explicit else None
     working = copy.deepcopy(BASE["signals"])
     alias_map = build_alias_map(BASE["alias_operators"])
-    cluster.assign_clusters(working, now=NOW, alias_map=alias_map)
-    cluster.assign_themes(working, now=NOW, alias_map=alias_map)
+    cluster.assign_clusters(working, now=NOW, alias_map=alias_map, sector=sector)
+    cluster.assign_themes(working, now=NOW, alias_map=alias_map, sector=sector)
     assert {s["id"]: s.get("cluster_id") for s in working} == BASE["cluster_ids"]
     assert {s["id"]: s.get("theme_id") for s in working} == BASE["theme_ids"]
+    by_theme = {}
+    for s in working:
+        if s.get("theme_id"):
+            by_theme.setdefault(s["theme_id"], []).append(s)
+    assert {t: cluster.compute_theme_heat(m, now=NOW, alias_map=alias_map, sector=sector)
+            for t, m in by_theme.items()} == pytest.approx(BASE["theme_heat"])
 
 
 def test_collectors_are_identical(monkeypatch):

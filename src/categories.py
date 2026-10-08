@@ -108,12 +108,19 @@ def default_sector():
     return load_sector("gambling")
 
 
-_RULESETS: dict[str, Ruleset] = {}
+# Keyed on the sector's category content, not slug alone, so same-slug
+# sectors with different categories don't share a ruleset.
+_RULESETS: dict[tuple, Ruleset] = {}
 
 
 def ruleset(sector=None) -> Ruleset:
     sector = sector or default_sector()
-    cached = _RULESETS.get(sector.slug)
+    key = (
+        sector.slug,
+        tuple((c["name"], c["pattern"], c["before"]) for c in sector.categories),
+        tuple(sorted(sector.signal_type_fallback.items())),
+    )
+    cached = _RULESETS.get(key)
     if cached is not None:
         return cached
     rules = list(_CORE_RULES)
@@ -126,7 +133,7 @@ def ruleset(sector=None) -> Ruleset:
         rules=rules,
         fallback={**_CORE_FALLBACK, **sector.signal_type_fallback},
     )
-    _RULESETS[sector.slug] = built
+    _RULESETS[key] = built
     return built
 
 
