@@ -60,11 +60,13 @@ class TestLoadIndex:
 
     def test_bad_json_means_fallback(self, web):
         web.routes[BASE + "sectors.json"] = Resp(text="{not json")
-        assert data.load_index(BASE) is None
+        with pytest.raises(data.IndexUnavailable):
+            data.load_index(BASE)
 
     def test_wrong_shape_means_fallback(self, web):
         web.routes[BASE + "sectors.json"] = Resp(payload={"slug": "gambling"})
-        assert data.load_index(BASE) is None
+        with pytest.raises(data.IndexUnavailable):
+            data.load_index(BASE)
 
 
 class TestLoadSignals:
@@ -72,8 +74,8 @@ class TestLoadSignals:
         web.routes[BASE + "fintech/signals.json"] = Resp(payload=[{"id": "a"}])
         assert data.load_signals(BASE, "fintech") == [{"id": "a"}]
 
-    def test_404_is_empty_not_an_error(self, web):
-        assert data.load_signals(BASE, "fintech") == []
+    def test_404_is_none_not_an_error(self, web):
+        assert data.load_signals(BASE, "fintech") is None
 
     def test_other_failures_raise_data_error(self, web):
         web.routes[BASE + "fintech/signals.json"] = Resp(500)
@@ -147,8 +149,9 @@ class TestSelection:
 class TestViewState:
     @pytest.mark.parametrize("entry,signals,expected", [
         ({"status": "ready"}, [{"id": "a"}], "ready"),
-        ({"status": "ready"}, [], "setting_up"),          # index says ready, file not there yet
-        ({"status": "setting_up"}, [], "setting_up"),
+        ({"status": "ready"}, None, "setting_up"),        # index says ready, file not there yet
+        ({"status": "ready"}, [], "empty"),
+        ({"status": "setting_up"}, None, "setting_up"),
         ({"status": "setting_up"}, [{"id": "a"}], "ready"),
         ({"status": "error"}, [{"id": "a"}], "error_with_data"),
         ({"status": "error"}, [], "error_empty"),
@@ -202,3 +205,43 @@ class TestBaseNormalisation:
 
     def test_blank_base_is_unset(self, web):
         assert data.load_index("  ") is None
+
+
+class TestIndexFailures:
+    def test_server_error_raises_not_none(self, web):
+        web.routes[BASE + "sectors.json"] = Resp(500)
+        with pytest.raises(data.IndexUnavailable):
+            data.load_index(BASE)
+
+
+class TestDisplayName:
+    @pytest.mark.parametrize("entry,expected", [
+        ({"slug": "fintech", "name": "Fintech & payments"}, "Fintech & payments"),
+        ({"slug": "energy"}, "energy"),
+        ({"slug": "energy", "name": ""}, "energy"),
+        ({"slug": "energy", "name": 42}, "42"),
+        ({"slug": "x", "name": "*Energy* [x](javascript:alert(1))"},
+         r"\*Energy\* \[x\]\(javascript\:alert\(1\)\)"),
+        ({"slug": "x", "name": "a_b `c` #d ~e |f >g :h"},
+         r"a\_b \`c\` \#d \~e \|f \>g \:h"),
+    ])
+    def test_escapes_markdown(self, entry, expected):
+        assert data.display_name(entry) == expected
+
+    def test_plain_name_is_unescaped(self):
+        assert data.plain_name({"slug": "x", "name": 42}) == "42"
+        assert data.plain_name({"slug": "x", "name": "*A*"}) == "*A*"
+
+
+class TestEmptyState:
+    @pytest.mark.parametrize("entry,signals,expected", [
+        ({"status": "ready"}, [], "empty"),
+        ({"status": "ready"}, None, "setting_up"),
+        ({"status": "setting_up"}, None, "setting_up"),
+        ({"status": "setting_up"}, [], "empty"),
+        ({"status": "error"}, None, "error_empty"),
+        ({"status": "error"}, [], "error_empty"),
+        ({"status": "ready"}, [{"id": "a"}], "ready"),
+    ])
+    def test_states(self, entry, signals, expected):
+        assert data.view_state(entry, signals) == expected

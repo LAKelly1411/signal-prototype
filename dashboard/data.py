@@ -23,6 +23,28 @@ GAMBLING = "gambling"
 LEGACY_INDEX = [{"slug": GAMBLING, "name": "Gambling & gaming", "status": "ready"}]
 
 
+# Characters Streamlit renders as markdown (or directives) in labels.
+MD_SPECIAL = set("\\*_`[]():#~|>")
+
+
+class IndexUnavailable(Exception):
+    """The sector index exists but couldn't be read (network, server or bad
+    JSON). Raised so the cached loader doesn't cache the failure."""
+
+
+def plain_name(entry: dict) -> str:
+    """A sector's name as text, falling back to the slug. Unescaped: for
+    contexts that html.escape it."""
+    name = entry.get("name")
+    return str(name) if name not in (None, "") else str(entry.get("slug", ""))
+
+
+def display_name(entry: dict) -> str:
+    """A sector's name, safe to put in a Streamlit label: coerced to text,
+    falling back to the slug, with markdown characters escaped."""
+    return "".join("\\" + ch if ch in MD_SPECIAL else ch for ch in plain_name(entry))
+
+
 class DataError(Exception):
     """A sector's signals couldn't be loaded (other than not existing yet)."""
 
@@ -46,31 +68,40 @@ def _base(url: str | None) -> str | None:
 
 
 def load_index(base_url: str | None) -> list[dict] | None:
-    """The sector index, or None to mean "use the legacy single file"."""
+    """The sector index; None means "use the legacy single file" (unset, or
+    no index on main yet). Any other failure raises IndexUnavailable, so the
+    app falls back for that run only rather than caching it for ten minutes."""
     base_url = _base(base_url)
     if not base_url:
         return None
+    url = base_url + "sectors.json"
     try:
-        index = _get_json(base_url + "sectors.json")
-    except Exception:
+        resp = requests.get(url, timeout=20)
+    except Exception as exc:
+        raise IndexUnavailable(f"Couldn't reach {url}: {exc}") from exc
+    if resp.status_code == 404:
         logger.info("No sector index at %s — using the legacy data file", base_url)
         return None
+    try:
+        resp.raise_for_status()
+        index = resp.json()
+    except Exception as exc:
+        raise IndexUnavailable(f"Couldn't read {url}: {exc}") from exc
     if not isinstance(index, list):
-        logger.warning("Sector index is not a list — using the legacy data file")
-        return None
+        raise IndexUnavailable(f"{url} is not a list")
     return index
 
 
-def load_signals(base_url: str, slug: str) -> list[dict]:
-    """A sector's live signals. Not there yet (404) is an empty list: the
-    sector is still setting up."""
+def load_signals(base_url: str, slug: str) -> list[dict] | None:
+    """A sector's live signals. None means the file isn't there yet (404);
+    [] means the sector ran and found nothing."""
     if not _is_slug(slug):
         raise DataError(f"Not a sector slug: {slug!r}")
     url = f"{_base(base_url)}{slug}/signals.json"
     try:
         resp = requests.get(url, timeout=20)
         if resp.status_code == 404:
-            return []
+            return None
         resp.raise_for_status()
         return resp.json()
     except Exception as exc:
@@ -138,11 +169,14 @@ def sector_note(entry: dict) -> str:
     return str(count) if count is not None else ""
 
 
-def view_state(entry: dict, signals: list[dict]) -> str:
-    """What the page shows under the header for this sector."""
+def view_state(entry: dict, signals: list[dict] | None) -> str:
+    """What the page shows under the header for this sector. signals is None
+    when the sector's file doesn't exist yet."""
     if entry.get("status") == "error":
         return "error_with_data" if signals else "error_empty"
-    return "ready" if signals else "setting_up"
+    if signals is None:
+        return "setting_up"
+    return "ready" if signals else "empty"
 
 
 def sector_rules(slug: str):
@@ -156,6 +190,15 @@ def sector_rules(slug: str):
     except SectorConfigError:
         logger.warning("No usable config for sector %r — using gambling's rules", slug)
         return load_sector(GAMBLING)
+
+
+def load_sector_or_none(slug: str):
+    if not _is_slug(slug):
+        return None
+    try:
+        return load_sector(slug)
+    except SectorConfigError:
+        return None
 
 
 def user_watchlist_path(slug: str) -> str:

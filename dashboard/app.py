@@ -1319,10 +1319,10 @@ def render_masthead(entries: list[dict] | None = None, current: dict | None = No
 
 def _sector_switcher(entries: list[dict], current: dict) -> None:
     """The sector name, set as the page title, opening a menu of sectors."""
-    with st.popover(current.get("name", current["slug"]), key="pop-sector"):
+    with st.popover(data.display_name(current), key="pop-sector"):
         for entry in entries:
             note = data.sector_note(entry)
-            label = entry.get("name", entry["slug"]) + (f"  :gray[{note}]" if note else "")
+            label = data.display_name(entry) + (f"  :gray[{note}]" if note else "")
             _check_row(f"sectoropt-{entry['slug']}", label, entry["slug"] == current["slug"],
                        _select_sector, (entry["slug"],), state_first=True)
         st.divider()
@@ -1374,9 +1374,16 @@ def load_run_status(slug: str, legacy: bool) -> dict | None:
     return data.load_run_status(_secret("DATA_BASE_URL"), slug)
 
 
-@st.cache_resource
+@st.cache_data(ttl=600, show_spinner=False)
+def _cached_rules(slug: str):
+    return data.load_sector_or_none(slug)
+
+
 def sector_rules(slug: str):
-    return data.sector_rules(slug)
+    """The sector's config, refreshed every ten minutes so a newly created
+    sector's rules are picked up. A missing config falls back to gambling's
+    rules without caching that fallback."""
+    return _cached_rules(slug) or data.sector_rules(data.GAMBLING)
 
 
 SECTOR = "sector"  # session-state key: the slug being shown
@@ -2771,7 +2778,10 @@ def main() -> None:
     st.html(_RESIZE_SCRIPT, unsafe_allow_javascript=True)
     if not check_password():
         return
-    index = load_index()
+    try:
+        index = load_index()
+    except data.IndexUnavailable:
+        index = None  # this run only: the failure isn't cached
     legacy = index is None
     entries = data.order_index(data.LEGACY_INDEX if legacy else index)
     if not entries:
@@ -2780,7 +2790,7 @@ def main() -> None:
     slug = data.pick_sector(entries, st.query_params.get("sector"))
     current = next(e for e in entries if e["slug"] == slug)
     st.session_state[SECTOR] = slug
-    st.session_state["sector_name"] = current.get("name", slug)
+    st.session_state["sector_name"] = data.plain_name(current)  # HTML contexts escape it
     sector = sector_rules(slug)
 
     # Title on the left and pipeline health on the right, rather than
@@ -2793,7 +2803,7 @@ def main() -> None:
             _watchlist_button()
         render_health_strip(load_run_status(slug, legacy), reserve=not legacy)
 
-    name = current.get("name", slug)
+    name = data.plain_name(current)  # html.escape'd blocks
     try:
         signals = load_signals(slug, legacy)
     except data.DataError:
@@ -2805,6 +2815,10 @@ def main() -> None:
     if state == "setting_up":
         _sector_state_block("Setting up", f"We're gathering the first signals for {name}. "
                             "This usually takes under an hour.")
+        return
+    if state == "empty":
+        _sector_state_block("No signals yet", f"{name} is set up, but nothing has come "
+                            "through yet. New signals will appear here as they're found.")
         return
     if state == "error_empty":
         _sector_state_block("Not available yet",

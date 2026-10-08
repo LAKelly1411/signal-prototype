@@ -216,3 +216,32 @@ def test_error_status_without_signals_shows_not_available(monkeypatch):
     assert not at.exception
     body = _body(at)
     assert "Not available yet" in body and NOT_AVAILABLE in body
+
+
+def test_markdown_in_a_sector_name_renders_literally(monkeypatch):
+    index = INDEX + [{"slug": "odd", "name": "*Odd* [x](javascript:alert(1))", "status": "ready"}]
+    serve(monkeypatch, sector_routes(index))
+    at = app().run()
+    assert not at.exception
+    labels = [b.proto.label for b in at.button if b.key and "sectoropt" in b.key]
+    odd = [label for label in labels if "Odd" in label]
+    assert odd and r"\*Odd\*" in odd[0] and "*Odd*" not in odd[0].replace(r"\*Odd\*", "")
+
+
+def test_ready_sector_with_empty_file_shows_no_signals_yet(monkeypatch):
+    routes = sector_routes()
+    routes[BASE + "fintech/signals.json"] = Resp(payload=[])
+    serve(monkeypatch, routes)
+    at = app({"sector": "fintech"}).run()
+    assert not at.exception
+    body = " ".join(html.unescape(m.value) for m in at.markdown)
+    assert "Fintech & payments is set up, but nothing has come through yet." in body
+
+
+def test_index_server_error_falls_back_for_this_run(monkeypatch):
+    routes = sector_routes()
+    routes[BASE + "sectors.json"] = Resp(500)
+    routes[LEGACY_SIGNALS] = Resp(payload=GAMBLING)
+    serve(monkeypatch, routes)
+    at = app().run()
+    assert not at.exception and at.tabs
