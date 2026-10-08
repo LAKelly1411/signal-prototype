@@ -6,7 +6,6 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
 from dotenv import load_dotenv
 
 from src import cluster, store
@@ -21,6 +20,7 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
+from src.sectors import Sector, load_sector
 from src.score import (
     cluster_summary_version,
     theme_summary_version,
@@ -36,131 +36,104 @@ logger = logging.getLogger(__name__)
 RUN_STATUS_PATH = Path("data/run_status.json")
 
 
-def load_sources(path: str = "config/sources.yaml") -> dict:
-    with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+DEFAULT_USER_AGENT = "Signal-Prototype/0.1"
 
 
-def _load_operators_file(path: str) -> list[dict]:
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f)
-    except FileNotFoundError:
-        return []
-    return (data or {}).get("operators", []) or []
+def _ua(settings: dict) -> str:
+    return settings.get("user_agent", DEFAULT_USER_AGENT)
 
 
-def load_watchlist(
-    seed_path: str = "config/watchlist.yaml",
-    user_path: str = "config/user_watchlist.yaml",
-) -> list[dict]:
-    """Curated seed list, plus any self-service additions from the
-    dashboard. The user file may not exist yet — that's fine, not an error."""
-    return _load_operators_file(seed_path) + _load_operators_file(user_path)
+def _keywords(sector: Sector, settings: dict) -> list[str]:
+    # A source's own keywords win; otherwise the sector's defaults.
+    return list(settings.get("keywords", sector.keywords))
 
 
-def build_collectors(sources: dict) -> list:
+def _gambling_commission(sector, s):
+    return GamblingCommissionCollector(listing_pages=s["listing_pages"], user_agent=_ua(s))
+
+
+def _companies_house(sector, s):
+    api_key = os.environ.get("COMPANIES_HOUSE_API_KEY")
+    if not api_key:
+        logger.warning("COMPANIES_HOUSE_API_KEY not set — skipping Companies House collector")
+        return None
+    return CompaniesHouseCollector(
+        api_key=api_key,
+        operators=sector.companies,
+        items_per_page=s.get("items_per_page", 25),
+        sleep_seconds=s.get("sleep_seconds", 0.6),
+        lookback_days=s.get("lookback_days", 365),
+        categories=s.get("categories"),
+    )
+
+
+def _gazette(sector, s):
+    return GazetteCollector(
+        search_terms=_keywords(sector, s) + [c["name"] for c in sector.companies],
+        user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20),
+        sleep_seconds=s.get("sleep_seconds", 1.0),
+    )
+
+
+def _dcms(sector, s):
+    kwargs = {"organisation": s["organisation"]} if "organisation" in s else {}
+    return DCMSCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20), **kwargs,
+    )
+
+
+def _parliament(sector, s):
+    return ParliamentCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20),
+    )
+
+
+def _asa(sector, s):
+    return ASACollector(keywords=_keywords(sector, s), user_agent=_ua(s))
+
+
+def _bgc(sector, s):
+    return BGCCollector(user_agent=_ua(s), pages=s.get("pages", 2))
+
+
+def _insolvency_service(sector, s):
+    return InsolvencyServiceCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        sleep_seconds=s.get("sleep_seconds", 1.0),
+    )
+
+
+def _lse_rns(sector, s):
+    return LSERNSCollector(
+        tickers=dict(s.get("tickers", sector.tickers)), user_agent=_ua(s),
+        skip_titles=s.get("skip_titles"),
+    )
+
+
+# Build order matters: it sets the order raw items, and so new signals, arrive.
+COLLECTORS = {
+    "gambling_commission": _gambling_commission,
+    "companies_house": _companies_house,
+    "gazette": _gazette,
+    "dcms": _dcms,
+    "parliament": _parliament,
+    "asa": _asa,
+    "bgc": _bgc,
+    "insolvency_service": _insolvency_service,
+    "lse_rns": _lse_rns,
+}
+
+
+def build_collectors(sector: Sector) -> list:
     collectors = []
-    watchlist = load_watchlist()
-
-    gc_config = sources.get("gambling_commission", {})
-    if gc_config.get("enabled"):
-        collectors.append(
-            GamblingCommissionCollector(
-                listing_pages=gc_config["listing_pages"],
-                user_agent=gc_config["user_agent"],
-            )
-        )
-
-    ch_config = sources.get("companies_house", {})
-    if ch_config.get("enabled"):
-        api_key = os.environ.get("COMPANIES_HOUSE_API_KEY")
-        if not api_key:
-            logger.warning(
-                "COMPANIES_HOUSE_API_KEY not set — skipping Companies House collector"
-            )
-        else:
-            collectors.append(
-                CompaniesHouseCollector(
-                    api_key=api_key,
-                    operators=watchlist,
-                    items_per_page=ch_config.get("items_per_page", 25),
-                    sleep_seconds=ch_config.get("sleep_seconds", 0.6),
-                    lookback_days=ch_config.get("lookback_days", 365),
-                    categories=ch_config.get("categories"),
-                )
-            )
-
-    gz_config = sources.get("gazette", {})
-    if gz_config.get("enabled"):
-        watchlist_names = [op["name"] for op in watchlist]
-        collectors.append(
-            GazetteCollector(
-                search_terms=gz_config.get("keywords", []) + watchlist_names,
-                user_agent=gz_config["user_agent"],
-                results_per_term=gz_config.get("results_per_term", 20),
-                sleep_seconds=gz_config.get("sleep_seconds", 1.0),
-            )
-        )
-
-    dcms_config = sources.get("dcms", {})
-    if dcms_config.get("enabled"):
-        collectors.append(
-            DCMSCollector(
-                keywords=dcms_config.get("keywords", []),
-                user_agent=dcms_config["user_agent"],
-                results_per_term=dcms_config.get("results_per_term", 20),
-            )
-        )
-
-    parliament_config = sources.get("parliament", {})
-    if parliament_config.get("enabled"):
-        collectors.append(
-            ParliamentCollector(
-                keywords=parliament_config.get("keywords", []),
-                user_agent=parliament_config["user_agent"],
-                results_per_term=parliament_config.get("results_per_term", 20),
-            )
-        )
-
-    asa_config = sources.get("asa", {})
-    if asa_config.get("enabled"):
-        collectors.append(
-            ASACollector(
-                keywords=asa_config.get("keywords", []),
-                user_agent=asa_config["user_agent"],
-            )
-        )
-
-    bgc_config = sources.get("bgc", {})
-    if bgc_config.get("enabled"):
-        collectors.append(
-            BGCCollector(
-                user_agent=bgc_config["user_agent"],
-                pages=bgc_config.get("pages", 2),
-            )
-        )
-
-    insolvency_config = sources.get("insolvency_service", {})
-    if insolvency_config.get("enabled"):
-        collectors.append(
-            InsolvencyServiceCollector(
-                keywords=insolvency_config.get("keywords", []),
-                user_agent=insolvency_config["user_agent"],
-                sleep_seconds=insolvency_config.get("sleep_seconds", 1.0),
-            )
-        )
-
-    lse_config = sources.get("lse_rns", {})
-    if lse_config.get("enabled"):
-        collectors.append(
-            LSERNSCollector(
-                tickers=lse_config.get("tickers", {}),
-                user_agent=lse_config["user_agent"],
-                skip_titles=lse_config.get("skip_titles"),
-            )
-        )
-
+    for key, build in COLLECTORS.items():
+        if key in sector.sources:
+            collector = build(sector, sector.sources[key])
+            if collector is not None:
+                collectors.append(collector)
     return collectors
 
 
@@ -175,9 +148,9 @@ def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
 def run() -> None:
     load_dotenv()
     started_at = datetime.now(timezone.utc)
-    sources = load_sources()
-    collectors = build_collectors(sources)
-    alias_map = build_alias_map(load_watchlist())
+    sector = load_sector("gambling")
+    collectors = build_collectors(sector)
+    alias_map = build_alias_map(sector.companies)
     client = build_client()
 
     raw_items = []

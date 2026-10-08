@@ -78,8 +78,16 @@ def test_clusters_and_themes_are_identical(explicit):
 
 def test_collectors_are_identical(monkeypatch):
     monkeypatch.setenv("COMPANIES_HOUSE_API_KEY", "baseline-test-key")
-    from src.pipeline import build_collectors, load_sources
+    from src.pipeline import build_collectors
     from tests.fixtures.make_gambling_baseline import collector_snapshot
 
-    got = [collector_snapshot(c) for c in build_collectors(load_sources())]
-    assert got == BASE["collectors"]
+    got = [collector_snapshot(c) for c in build_collectors(load_sector("gambling"))]
+    assert [c["class"] for c in got] == [c["class"] for c in BASE["collectors"]]
+    for new, old in zip(got, BASE["collectors"]):
+        # Every recorded attribute is unchanged; DCMS gains `organisation`,
+        # set to the department it used to hard-code.
+        extra = set(new["attrs"]) - set(old["attrs"])
+        assert {k: new["attrs"][k] for k in old["attrs"]} == old["attrs"], new["class"]
+        assert extra <= {"organisation"}
+        if extra:
+            assert new["attrs"]["organisation"] == "department-for-culture-media-and-sport"

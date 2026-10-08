@@ -13,15 +13,24 @@ logger = logging.getLogger(__name__)
 
 
 class DCMSCollector(Collector):
-    def __init__(self, keywords: list[str], user_agent: str, results_per_term: int = 20):
+    def __init__(
+        self,
+        keywords: list[str],
+        user_agent: str,
+        results_per_term: int = 20,
+        organisation: str = ORGANISATION_SLUG,
+    ):
         self.keywords = keywords
         self.headers = {"User-Agent": user_agent}
         self.results_per_term = results_per_term
+        # Which GOV.UK department's publications to search; DCMS for gambling,
+        # e.g. hm-treasury for a fintech sector.
+        self.organisation = organisation
 
     def _search(self, term: str) -> list[dict]:
         params = {
             "q": term,
-            "filter_organisations": ORGANISATION_SLUG,
+            "filter_organisations": self.organisation,
             "count": self.results_per_term,
             "order": "-public_timestamp",
         }

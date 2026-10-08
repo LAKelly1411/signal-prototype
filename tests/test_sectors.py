@@ -134,3 +134,8 @@ class TestIndex:
         sectors.refresh_index(["fintech"])
         entry = sectors.read_index()["fintech"]
         assert entry["status"] == "setting_up" and entry["name"] == "Fintech"
+
+
+def test_known_sources_match_the_registry():
+    from src.pipeline import COLLECTORS
+    assert tuple(COLLECTORS) == sectors.KNOWN_SOURCES

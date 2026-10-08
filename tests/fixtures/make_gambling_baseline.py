@@ -1,3 +1,4 @@
+# Historical: generated the fixture from the pre-sector code (commit before Task 2). Only collector_snapshot is still imported.
 """Records what today's (pre-sector) code does for gambling, so the sector
 refactor can prove it changed nothing. Run once, before the refactor:
 
@@ -12,7 +13,8 @@ from pathlib import Path
 
 from src import categories, cluster, score, store
 from src.entities import build_alias_map
-from src.pipeline import build_collectors, load_sources, load_watchlist
+from src.pipeline import build_collectors
+from src.sectors import load_sector
 
 OUT = Path("tests/fixtures/gambling_baseline.json")
 
@@ -43,7 +45,8 @@ def collector_snapshot(collector) -> dict:
 def main() -> None:
     os.environ.setdefault("COMPANIES_HOUSE_API_KEY", "baseline-test-key")
     signals = [s for s in store.load() if s.get("newsworthiness_score") is not None]
-    operators = load_watchlist()
+    sector = load_sector("gambling")
+    operators = sector.companies
     alias_map = build_alias_map(operators)
 
     category_inputs = [
@@ -88,7 +91,7 @@ def main() -> None:
             t: cluster.compute_theme_heat(m, now=now, alias_map=alias_map)
             for t, m in by_theme.items()
         },
-        "collectors": [collector_snapshot(c) for c in build_collectors(load_sources())],
+        "collectors": [collector_snapshot(c) for c in build_collectors(sector)],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(baseline, indent=1, ensure_ascii=False), encoding="utf-8")

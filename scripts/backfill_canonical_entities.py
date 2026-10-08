@@ -14,7 +14,7 @@ from collections import Counter, defaultdict
 from src import cluster, store
 from src.categories import canonical_category
 from src.entities import build_alias_map, canonicalise
-from src.pipeline import load_watchlist
+from src.sectors import load_sector
 
 
 def summarise(signals: list[dict], alias_map: dict, use_canonical: bool) -> dict:
@@ -57,7 +57,7 @@ def main() -> None:
     args = parser.parse_args()
 
     signals = store.load()
-    alias_map = build_alias_map(load_watchlist())
+    alias_map = build_alias_map(load_sector("gambling").companies)
 
     before = summarise(signals, alias_map, use_canonical=False)
 
