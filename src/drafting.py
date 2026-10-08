@@ -126,6 +126,41 @@ def verify_companies(companies: list[dict], ch: CompaniesHouse | None) -> list[d
     return out
 
 
+def _has_nested_quantifier(pattern: str) -> bool:
+    """True if a group containing + or * is itself quantified (+, * or {),
+    as in (a+)+ or (ab*)*: the shape that backtracks catastrophically."""
+    stack: list[bool] = []  # per open group: does it contain + or *?
+    i, n = 0, len(pattern)
+    while i < n:
+        ch = pattern[i]
+        if ch == "\\":
+            i += 2
+            continue
+        if ch == "[":  # a character class: its + and * are literal
+            j = i + 1
+            if j < n and pattern[j] == "^":
+                j += 1
+            if j < n and pattern[j] == "]":
+                j += 1
+            while j < n and pattern[j] != "]":
+                j += 2 if pattern[j] == "\\" else 1
+            i = j + 1
+            continue
+        if ch == "(":
+            stack.append(False)
+        elif ch == ")" and stack:
+            inner = stack.pop()
+            following = pattern[i + 1] if i + 1 < n else ""
+            if inner and following and following in "+*{":
+                return True
+            if inner and stack:
+                stack[-1] = True
+        elif ch in "+*" and stack:
+            stack[-1] = True
+        i += 1
+    return False
+
+
 def _require(cond: bool, message: str) -> None:
     if not cond:
         raise ValueError(message)
@@ -167,7 +202,8 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
         if not (isinstance(cat, dict) and isinstance(cat.get("name"), str)
                 and isinstance(cat.get("pattern"), str) and len(cat["pattern"]) <= MAX_PATTERN
                 and cat.get("before") in CORE_RULE_NAMES
-                and cat["name"].strip() and cat["name"] not in CORE_RULE_NAMES):
+                and cat["name"].strip() and cat["name"] not in CORE_RULE_NAMES
+                and not _has_nested_quantifier(cat["pattern"])):
             continue
         try:
             re.compile(cat["pattern"], re.I)
@@ -181,10 +217,16 @@ def normalise_draft(raw: dict, existing: set[str], now: datetime | None = None) 
     for key in raw.get("sources", []):
         if key in GENERIC_SOURCES and key not in sources:
             sources[key] = dict(DEFAULT_SOURCE_SETTINGS[key])
-    _require(bool(sources), "at least one generic source is required")
+    # dcms searches one GOV.UK organisation; without a valid one it would
+    # quietly search DCMS itself, so drop the source instead.
     org = raw.get("dcms_organisation")
-    if "dcms" in sources and isinstance(org, str) and re.fullmatch(r"[a-z0-9-]{3,80}", org):
-        sources["dcms"]["organisation"] = org
+    if "dcms" in sources:
+        if isinstance(org, str) and re.fullmatch(r"[a-z0-9-]{3,80}", org):
+            sources["dcms"]["organisation"] = org
+        else:
+            del sources["dcms"]
+    _require(bool(sources), "at least one generic source is required "
+                            "(dcms counts only with a valid dcms_organisation)")
 
     now = now or datetime.now(timezone.utc)
     return {
@@ -256,6 +298,9 @@ def _system_prompt() -> str:
         f"- companies: {MIN_COMPANIES}-{MAX_COMPANIES} of the most important UK companies, using registered "
         "names. Give company_number only if you are certain of it; otherwise null.\n"
         f"- sources: choose from {', '.join(GENERIC_SOURCES)} only.\n"
+        "- dcms_organisation: the GOV.UK organisation slug whose publications the dcms source "
+        "searches (e.g. department-for-energy-security-and-net-zero). Required if you choose dcms; "
+        "without it dcms is dropped.\n"
         f"- categories: 2-4 industry-specific ones; each pattern a short case-insensitive regex "
         f"(at most {MAX_PATTERN} characters) that won't match routine corporate filings; before must be one "
         f"of: {', '.join(sorted(CORE_RULE_NAMES))}.\n"

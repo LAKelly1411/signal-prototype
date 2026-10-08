@@ -325,3 +325,42 @@ class TestCutOff:
         assert client.requests[0]["max_tokens"] == 8000
         assert "cut off" in client.requests[1]["messages"][-1]["content"]
         assert "concise" in client.requests[1]["messages"][-1]["content"]
+
+
+class TestDcmsOrganisation:
+    def test_system_prompt_names_the_required_organisation(self):
+        prompt = drafting._system_prompt()
+        assert "dcms_organisation" in prompt
+        assert "Required if you choose dcms" in prompt
+
+    @pytest.mark.parametrize("org", [None, "", "Not A Slug!", 7])
+    def test_dcms_without_a_valid_organisation_is_dropped(self, org):
+        raw = proposal()
+        if org is None:
+            del raw["dcms_organisation"]
+        else:
+            raw["dcms_organisation"] = org
+        cfg = drafting.normalise_draft(raw, set(), now=NOW)
+        assert set(cfg["sources"]) == {"companies_house", "gazette"}
+
+    def test_dcms_alone_without_organisation_is_invalid(self):
+        raw = proposal(sources=["dcms"])
+        del raw["dcms_organisation"]
+        with pytest.raises(ValueError, match="dcms_organisation"):
+            drafting.normalise_draft(raw, set(), now=NOW)
+
+
+class TestNestedQuantifiers:
+    @pytest.mark.parametrize("pattern", ["(a+)+$", "(ab*)*", "(x+y){2,}", "((a+)b)+", "(?:a|b+)*"])
+    def test_nested_quantifier_categories_are_dropped(self, pattern):
+        cats = [{"name": "Bad", "pattern": pattern, "before": "Enforcement action"},
+                {"name": "Ok", "pattern": "ok", "before": "Enforcement action"}]
+        cfg = drafting.normalise_draft(proposal(categories=cats), set(), now=NOW)
+        assert [c["name"] for c in cfg["categories"]] == ["Ok"]
+
+    @pytest.mark.parametrize("pattern", ["price cap|tariff", "(price|tariff)s?", "(a+)b", "[(a+)]+",
+                                         r"\(a+\)+", "licen[cs]e (revoked|suspended)+"])
+    def test_safe_patterns_are_kept(self, pattern):
+        cats = [{"name": "Ok", "pattern": pattern, "before": "Enforcement action"}]
+        cfg = drafting.normalise_draft(proposal(categories=cats), set(), now=NOW)
+        assert [c["pattern"] for c in cfg["categories"]] == [pattern]
