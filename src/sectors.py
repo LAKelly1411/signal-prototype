@@ -182,6 +182,15 @@ def _build(path: Path, raw: dict, user: dict, user_path: Path) -> Sector:
     )
 
 
+def parse_sector(raw: dict, slug: str) -> Sector:
+    """Validate a sector config held in memory (e.g. a Claude draft) with the
+    same rules as a file on disk. Errors name the file it would be saved as."""
+    if not isinstance(raw, dict):
+        raise SectorConfigError(CONFIG_DIR / f"{slug}.yaml", "yaml", "top level must be a mapping")
+    path = CONFIG_DIR / f"{slug}.yaml"
+    return _build(path, raw, {}, CONFIG_DIR / f"{slug}.user.yaml")
+
+
 def load_sector(slug: str, config_dir: Path | None = None) -> Sector:
     config_dir = config_dir or CONFIG_DIR
     path = config_dir / f"{slug}.yaml"

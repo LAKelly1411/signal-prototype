@@ -178,3 +178,27 @@ class TestIndex:
 def test_known_sources_match_the_registry():
     from src.pipeline import COLLECTORS
     assert tuple(COLLECTORS) == sectors.KNOWN_SOURCES
+
+
+class TestParseSector:
+    def test_valid_dict(self):
+        s = sectors.parse_sector(dict(MINIMAL), "fintech")
+        assert s.slug == "fintech" and s.companies == []
+
+    def test_slug_mismatch(self):
+        with pytest.raises(SectorConfigError, match="slug"):
+            sectors.parse_sector({**MINIMAL, "slug": "other"}, "fintech")
+
+    def test_same_errors_as_load_sector(self):
+        bad = {**MINIMAL, "sources": {"fca_scraper": {}}}
+        with pytest.raises(SectorConfigError, match="fca_scraper"):
+            sectors.parse_sector(bad, "fintech")
+
+    def test_unquoted_number_rejected(self):
+        bad = {**MINIMAL, "companies": [{"name": "X Ltd", "company_number": 4241161}]}
+        with pytest.raises(SectorConfigError, match="company_number"):
+            sectors.parse_sector(bad, "fintech")
+
+    def test_error_names_the_virtual_file(self):
+        with pytest.raises(SectorConfigError, match="fintech.yaml"):
+            sectors.parse_sector({k: v for k, v in MINIMAL.items() if k != "brief"}, "fintech")
