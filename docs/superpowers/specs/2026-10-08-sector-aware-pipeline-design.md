@@ -64,10 +64,21 @@ form will write to it in stage 2, so the app never edits the hand-curated file.
 ```yaml
 slug: gambling                      # [a-z0-9-]+, must match the filename
 name: Gambling & gaming
-brief: >                            # the newsroom context in every Claude prompt
+brief: >                            # one-line description (index, dashboard)
   A B2B newsroom covering the UK gambling and gaming sector: operators,
   suppliers, affiliates and the regulators around them.
-keywords: [gambling, betting, bookmaker, casino, bingo, gaming]
+prompt:                             # sector wording slotted into the Claude prompts
+  newsroom: B2B gambling-industry newsroom
+  coverage: the UK gambling and gaming sector
+  audience: specialist B2B gambling audience
+  materiality: A small operator's confirmation statement can matter here even if it would never make national news.
+  key_players: operators, suppliers or affiliates
+  entity_hint: operator or company names mentioned
+  company_word: operator
+  significance_audience: specialist gambling newsroom
+  theme_scope: the UK gambling sector
+keywords: [gambling, betting, bookmaker, casino, bingo, gaming]   # default for keyword sources;
+                                                                  # a source's own `keywords` overrides
 companies:                          # was config/watchlist.yaml "operators"
   - name: bet365 Group Limited
     company_number: "04241161"
@@ -206,7 +217,7 @@ their signal volume.
 | Module | Change |
 |---|---|
 | `src/sectors.py` (new) | `Sector` dataclass, `load_sector(slug)`, `list_sectors()`, validation, merging the `.user.yaml` additions, `write_index()`. Holds the shared institution list and core categories. |
-| `src/score.py` | `SYSTEM_PROMPT`, `CLUSTER_SYSTEM_PROMPT` and `THEME_SYSTEM_PROMPT` become templates taking `sector.brief` and the sector's category list. Gambling's brief is chosen so the rendered gambling prompts are **byte-identical** to today's. Summary cache versions keep hashing the rendered prompt text, so they come out per-sector naturally. Model selection stays in score.py, unchanged. |
+| `src/score.py` | `SYSTEM_PROMPT`, `CLUSTER_SYSTEM_PROMPT` and `THEME_SYSTEM_PROMPT` become templates filled from `sector.prompt` (the nine wording fragments) and the sector's category list. Gambling's fragments are today's exact phrases, so the rendered gambling prompts are **byte-identical** to today's. Summary cache versions keep hashing the rendered prompt text, so they come out per-sector naturally. Model selection stays in score.py, unchanged. |
 | `src/categories.py` | `canonical_category(category, title, signal_type, sector)` matches against core plus sector categories and rules, in the same priority order as today. `category_of(signal, sector)`. The gambling categories and rules move to `gambling.yaml`. Module-level names stay for the core categories. |
 | `src/cluster.py` | `is_excluded(name, sector=None)` checks the shared list plus the sector's bodies. `assign_clusters` and `assign_themes` take the sector. `sector=None` keeps today's gambling list for callers that haven't migrated (the dashboard, in stage 1 only). |
 | `src/pipeline.py` | A `COLLECTORS` registry (source key → builder taking the sector and that source's settings) replaces the if-chain. Adds `run_sector(sector)`, `run_all()` and a `--sector` argument parser. Watchlist loading moves to `Sector.companies`. Writes the compatibility copy after gambling. |
@@ -216,7 +227,7 @@ their signal volume.
 | `scripts/backfill_canonical_entities.py` | Gains `--sector` (default `gambling`) and uses the sector's paths. |
 | `scripts/migrate_to_sectors.py` (new) | Moves `data/signals.json`, the archive and the run status into `data/gambling/` and adds `sector: gambling`, without re-scoring. It is idempotent, has `--dry-run` and writes the index. |
 | `config/sources.yaml`, `config/watchlist.yaml`, `config/user_watchlist.yaml` | Folded into `config/sectors/gambling.yaml` and `gambling.user.yaml`. The old files are deleted in the same change. |
-| `dashboard/app.py` | No change in stage 1. Its `is_excluded` calls rely on the `sector=None` gambling default. |
+| `dashboard/app.py` | One change: the watchlist form's file path becomes `config/sectors/gambling.user.yaml`, because the old `config/user_watchlist.yaml` is folded into it and would otherwise be silently ignored. The loader accepts the form's existing `operators` key as well as `companies`. The `is_excluded` calls rely on the `sector=None` gambling default. |
 
 ## 4. Error handling
 
