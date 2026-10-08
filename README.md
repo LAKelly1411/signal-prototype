@@ -7,7 +7,9 @@ Gambling/gaming sector signal monitoring prototype.
 ```
 pip install -r requirements.txt
 cp .env.example .env
-python -m src.pipeline
+python -m scripts.migrate_to_sectors   # once, after pulling this change
+python -m src.pipeline                 # every sector
+python -m src.pipeline --sector gambling
 ```
 
 Dashboard: `dashboard/app.py` (Streamlit).
@@ -21,16 +23,27 @@ python -m pytest tests/ -q
 
 ## Data files
 
-The pipeline writes three things under `data/`, all committed:
+Each sector writes under `data/<slug>/`, all committed:
 
-- `signals.json` — the live store, holding the last `RETENTION_DAYS` (120) of
-  signals. This is what the dashboard downloads.
-- `archive/signals-YYYY.json` — signals past the retention window, split by
-  published year. Append-only.
-- `archive/ids.json` — ids of everything archived, so a source that still
-  lists an old item can't cause it to be re-ingested and re-scored.
-- `run_status.json` — what the last run did, per collector. Drives the
-  dashboard's freshness strip.
+- `data/<slug>/signals.json` — the live store, holding the last
+  `RETENTION_DAYS` (120) of signals.
+- `data/<slug>/archive/signals-YYYY.json` — signals past the retention window,
+  split by published year. Append-only.
+- `data/<slug>/archive/ids.json` — ids of everything archived, so a source that
+  still lists an old item can't cause it to be re-ingested and re-scored.
+- `data/<slug>/run_status.json` — what the last run did, per collector.
+  Drives the dashboard's freshness strip.
+- `data/sectors.json` — the index of sectors.
+
+`data/signals.json` and `data/run_status.json` are a gambling compatibility
+copy, kept for the deployed dashboard until stage 2.
+
+## Sectors
+
+One file per sector in `config/sectors/<slug>.yaml`;
+`config/sectors/gambling.yaml` is the worked example. Companies added from the
+dashboard go in `config/sectors/<slug>.user.yaml`. Each sector's run makes its
+own Claude calls, so every sector adds to the cost of a run.
 
 To add `canonical_entities` to signals scored before canonicalisation existed
 (no API calls, no re-scoring):

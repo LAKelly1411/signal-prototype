@@ -8,7 +8,7 @@ the variants down to one canonical name per company.
 
 Two mechanisms, in order:
 
-1. The watchlist. `config/watchlist.yaml` already carries an `aliases` list per
+1. The watchlist. the sector config (`config/sectors/gambling.yaml`) already carries an `aliases` list per
    operator ("bwin", "partypoker", "Gala" → Entain); that is editorial
    knowledge no amount of string manipulation would recover.
 2. A legal-suffix stripper for everything off the watchlist, so the long tail

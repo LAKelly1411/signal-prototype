@@ -37,7 +37,9 @@ st.set_page_config(page_title="Sector Signal", layout="wide")
 
 GITHUB_OWNER = "LAKelly1411"
 GITHUB_REPO = "signal-prototype"
-USER_WATCHLIST_PATH = "config/user_watchlist.yaml"
+# The pipeline reads dashboard additions from the gambling sector's user file
+# (src/sectors.py merges its "operators" key).
+USER_WATCHLIST_PATH = "config/sectors/gambling.user.yaml"
 
 # Score is a magnitude bucketed into tiers, so it gets an ordinal ramp in PA ink:
 # outline -> sunken grey -> solid ink, light->dark mapping low->high newsworthiness.
@@ -2530,7 +2532,7 @@ def _submit_watchlist() -> None:
 @st.dialog("Add a company to the watchlist", width="medium")
 def _watchlist_dialog() -> None:
     """Three steps: an illustrated intro, the form, then confirmation. The
-    form adds the company to config/user_watchlist.yaml via GitHub; the
+    form adds the company to config/sectors/gambling.user.yaml via GitHub; the
     pipeline picks it up on its next run."""
     step = st.session_state.get(WL_STEP, "intro")
 
