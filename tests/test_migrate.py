@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.migrate_to_sectors import migrate
+from src.migrate import migrate
 
 
 @pytest.fixture(autouse=True)
@@ -75,7 +75,7 @@ def test_top_level_compat_files_are_untouched(tmp_path):
 
 
 def test_crash_before_marker_is_redone(tmp_path, monkeypatch):
-    from scripts import migrate_to_sectors as m
+    from src import migrate as m
     from src import sectors
     seed(tmp_path)
     real_write = m._write
@@ -105,9 +105,10 @@ def test_marker_written_but_old_archive_left_is_cleaned_up(tmp_path):
     from src import sectors
     seed(tmp_path)
     migrate(tmp_path)
-    # Recreate the crash state: marker and target copy exist, old archive remains.
+    # Recreate the crash state: marker and full target copy exist, and the
+    # old archive, with the same content, remains.
     (tmp_path / "archive").mkdir()
-    (tmp_path / "archive" / "signals-2025.json").write_text("[]")
+    (tmp_path / "archive" / "signals-2025.json").write_text(json.dumps([{"id": "z", "published_at": "2025-01-01"}]))
     (tmp_path / "archive" / "ids.json").write_text('["z"]')
     assert migrate(tmp_path, dry_run=True)["status"] == "migrated"
     assert (tmp_path / "archive").exists()  # dry run changes nothing
@@ -115,3 +116,83 @@ def test_marker_written_but_old_archive_left_is_cleaned_up(tmp_path):
     assert not (tmp_path / "archive").exists()
     assert sectors.read_index()["gambling"]["status"] == "ready"
     assert migrate(tmp_path)["status"] == "already migrated"
+
+
+def test_old_layout_that_moved_on_is_recopied_not_deleted(tmp_path):
+    """Reviewer's reproduction: main keeps running after the first migrate,
+    then the old layout comes back with newer data. Nothing may be lost."""
+    seed(tmp_path)
+    x = {"id": "x", "published_at": "2026-01-01"}
+    (tmp_path / "archive" / "signals-2026.json").write_text(json.dumps([x]))
+    (tmp_path / "archive" / "ids.json").write_text(json.dumps(["z", "x"]))
+    migrate(tmp_path)
+    # Main moves on: a new live signal, one newly archived into the existing
+    # 2026 file, ids updated, and data/archive present again.
+    live = json.loads((tmp_path / "signals.json").read_text())
+    live.append({"id": "c", "published_at": "2026-09-03T00:00:00+00:00", "newsworthiness_score": 70})
+    (tmp_path / "signals.json").write_text(json.dumps(live))
+    (tmp_path / "archive").mkdir()
+    (tmp_path / "archive" / "signals-2025.json").write_text(json.dumps([{"id": "z", "published_at": "2025-01-01"}]))
+    (tmp_path / "archive" / "signals-2026.json").write_text(json.dumps([x, {"id": "y", "published_at": "2026-02-01"}]))
+    (tmp_path / "archive" / "ids.json").write_text(json.dumps(["z", "x", "y"]))
+
+    assert migrate(tmp_path)["status"] == "migrated"
+    moved = json.loads((tmp_path / "gambling" / "signals.json").read_text())
+    assert [s["id"] for s in moved] == ["a", "b", "c"]
+    assert all(s["sector"] == "gambling" for s in moved)
+    arch = tmp_path / "gambling" / "archive"
+    assert [s["id"] for s in json.loads((arch / "signals-2026.json").read_text())] == ["x", "y"]
+    assert [s["id"] for s in json.loads((arch / "signals-2025.json").read_text())] == ["z"]
+    assert json.loads((arch / "ids.json").read_text()) == ["z", "x", "y"]
+    assert not (tmp_path / "archive").exists()
+
+
+def test_changed_record_in_old_archive_is_recopied(tmp_path):
+    seed(tmp_path)
+    migrate(tmp_path)
+    (tmp_path / "archive").mkdir()
+    changed = [{"id": "z", "published_at": "2025-01-01", "newsworthiness_score": 90}]
+    (tmp_path / "archive" / "signals-2025.json").write_text(json.dumps(changed))
+    (tmp_path / "archive" / "ids.json").write_text('["z"]')
+    assert migrate(tmp_path)["status"] == "migrated"
+    arch = json.loads((tmp_path / "gambling" / "archive" / "signals-2025.json").read_text())
+    assert arch == [{**changed[0], "sector": "gambling"}]
+    assert not (tmp_path / "archive").exists()
+
+
+def test_stale_target_is_reported_and_left_alone(tmp_path):
+    seed(tmp_path)
+    migrate(tmp_path)
+    # A merge brings in a newer top-level store; no old archive this time.
+    live = json.loads((tmp_path / "signals.json").read_text())
+    live += [{"id": "c", "published_at": "2026-09-03"}, {"id": "d", "published_at": "2026-09-04"}]
+    (tmp_path / "signals.json").write_text(json.dumps(live))
+    before = {p: p.read_bytes() for p in tmp_path.rglob("*") if p.is_file()}
+    report = migrate(tmp_path)
+    assert report["status"] == "stale" and report["stale_ids"] == 2
+    assert before == {p: p.read_bytes() for p in tmp_path.rglob("*") if p.is_file()}
+
+
+def test_ids_archived_in_target_are_not_stale(tmp_path):
+    seed(tmp_path)
+    migrate(tmp_path)
+    live = json.loads((tmp_path / "signals.json").read_text())
+    live.append({"id": "z", "published_at": "2025-01-01"})  # archived in the target
+    (tmp_path / "signals.json").write_text(json.dumps(live))
+    assert migrate(tmp_path)["status"] == "already migrated"
+
+
+def test_script_warns_on_stale(tmp_path, monkeypatch, capsys):
+    from scripts import migrate_to_sectors as script
+    seed(tmp_path)
+    migrate(tmp_path)
+    live = json.loads((tmp_path / "signals.json").read_text())
+    live.append({"id": "c", "published_at": "2026-09-03"})
+    (tmp_path / "signals.json").write_text(json.dumps(live))
+    monkeypatch.chdir(tmp_path.parent)
+    monkeypatch.setattr("sys.argv", ["migrate_to_sectors"])
+    monkeypatch.setattr(script, "migrate", lambda dry_run: migrate(tmp_path, dry_run=dry_run))
+    script.main()
+    out = capsys.readouterr()
+    assert '"status": "stale"' in out.out
+    assert "WARNING" in out.err and "1 signal id(s)" in out.err

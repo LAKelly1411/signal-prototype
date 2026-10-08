@@ -12,6 +12,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from src import cluster, sectors, store
+from src.migrate import migrate
 from src.entities import build_alias_map
 from src.collectors.asa import ASACollector
 from src.collectors.bgc import BGCCollector
@@ -297,6 +298,22 @@ def run_sector(sector: Sector, client) -> dict:
     return status
 
 
+def migrate_old_layout() -> None:
+    """First run after the sector change: move the old single-sector data
+    into data/gambling/. Runs only while the gambling store doesn't exist yet,
+    so it acts on whatever data/signals.json holds at that moment."""
+    data_dir = sectors.DATA_DIR
+    if (data_dir / "gambling" / "signals.json").exists():
+        return
+    if not (data_dir / "signals.json").exists():
+        return
+    report = migrate(data_dir)
+    logger.info(
+        "Migrated the old data layout into %s: %s, %d live and %d archived signals",
+        data_dir / "gambling", report["status"], report["signals"], report["archived"],
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     """Run every sector (or just --sector). Exit 0 when all succeed, 1 when
     any sector failed, 2 for an unknown --sector."""
@@ -316,6 +333,8 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 2
     slugs = [args.sector] if args.sector else available
+    if "gambling" in slugs:
+        migrate_old_layout()
     refresh_index(available)
 
     client = build_client()

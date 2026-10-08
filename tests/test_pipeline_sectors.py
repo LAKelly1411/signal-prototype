@@ -203,3 +203,70 @@ def test_cluster_summaries_are_cached_across_runs(repo):
     assert calls_first > 2  # two scores plus at least one summary
     pipeline.main([])
     assert len(repo.client.systems) == calls_first
+
+
+def old_layout(repo):
+    """The pre-sector layout: data/signals.json, run_status.json and
+    data/archive/, with no data/gambling/ yet. Built from a real gambling run
+    so the signals carry every field the pipeline expects."""
+    import shutil
+    write(repo, "gambling")
+    repo.feeds["gambling"] = [item(1)]
+    assert pipeline.main(["--sector", "gambling"]) == 0
+    shutil.rmtree(repo.data / "gambling")
+    (repo.data / "sectors.json").unlink()
+    old = json.loads((repo.data / "signals.json").read_text())
+    for s in old:
+        s.pop("sector", None)
+    (repo.data / "signals.json").write_text(json.dumps(old))
+    (repo.data / "archive").mkdir()
+    (repo.data / "archive" / "signals-2025.json").write_text(json.dumps([{"id": "old", "published_at": "2025-01-01"}]))
+    (repo.data / "archive" / "ids.json").write_text(json.dumps(["old"]))
+    repo.feeds["gambling"] = [item(1), item(2)]
+    return [s["id"] for s in old]
+
+
+def test_first_run_migrates_the_old_layout(repo):
+    old_ids = old_layout(repo)
+    assert pipeline.main([]) == 0
+    live = json.loads((repo.data / "gambling" / "signals.json").read_text())
+    assert set(old_ids) < {s["id"] for s in live} and len(live) == 2
+    arch = repo.data / "gambling" / "archive"
+    assert json.loads((arch / "ids.json").read_text()) == ["old"]
+    assert json.loads((arch / "signals-2025.json").read_text())[0]["sector"] == "gambling"
+    assert not (repo.data / "archive").exists()
+    assert sectors.read_index()["gambling"]["status"] == "ready"
+
+
+def test_sector_flag_gambling_also_migrates(repo):
+    old_layout(repo)
+    assert pipeline.main(["--sector", "gambling"]) == 0
+    assert (repo.data / "gambling" / "archive" / "ids.json").exists()
+    assert not (repo.data / "archive").exists()
+
+
+def test_another_sector_alone_does_not_migrate(repo):
+    old_layout(repo)
+    write(repo, "alpha")
+    assert pipeline.main(["--sector", "alpha"]) == 0
+    assert not (repo.data / "gambling").exists()
+    assert (repo.data / "archive" / "ids.json").exists()
+
+
+def test_no_migration_once_the_gambling_store_exists(repo, monkeypatch):
+    write(repo, "gambling")
+    repo.feeds["gambling"] = [item(1)]
+    assert pipeline.main([]) == 0
+    def must_not_run(data_dir):
+        raise AssertionError("migrate called")
+    monkeypatch.setattr(pipeline, "migrate", must_not_run)
+    assert pipeline.main([]) == 0
+
+
+def test_no_migration_without_an_old_store(repo, monkeypatch):
+    def must_not_run(data_dir):
+        raise AssertionError("migrate called")
+    monkeypatch.setattr(pipeline, "migrate", must_not_run)
+    write(repo, "gambling")
+    repo.feeds["gambling"] = [item(1)]
+    assert pipeline.main([]) == 0
