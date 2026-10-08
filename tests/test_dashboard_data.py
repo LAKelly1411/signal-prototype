@@ -188,3 +188,17 @@ class TestSinkGuards:
         web.routes[BASE + "../gambling/run_status.json"] = Resp(payload={"live_signals": 1})
         assert data.load_run_status(BASE, "../gambling") is None
         assert web.calls == []
+
+
+class TestBaseNormalisation:
+    @pytest.mark.parametrize("base", [BASE, BASE.rstrip("/")])
+    def test_index_signals_and_status_work_with_or_without_slash(self, web, base):
+        web.routes[BASE + "sectors.json"] = Resp(payload=INDEX)
+        web.routes[BASE + "fintech/signals.json"] = Resp(payload=[{"id": "a"}])
+        web.routes[BASE + "fintech/run_status.json"] = Resp(payload={"ok": 1})
+        assert data.load_index(base) == INDEX
+        assert data.load_signals(base, "fintech") == [{"id": "a"}]
+        assert data.load_run_status(base, "fintech") == {"ok": 1}
+
+    def test_blank_base_is_unset(self, web):
+        assert data.load_index("  ") is None

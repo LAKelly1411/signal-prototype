@@ -38,8 +38,16 @@ def _get_json(url: str):
     return resp.json()
 
 
+def _base(url: str | None) -> str | None:
+    """DATA_BASE_URL with exactly one trailing slash, or None when unset."""
+    if not url or not url.strip():
+        return None
+    return url.strip().rstrip("/") + "/"
+
+
 def load_index(base_url: str | None) -> list[dict] | None:
     """The sector index, or None to mean "use the legacy single file"."""
+    base_url = _base(base_url)
     if not base_url:
         return None
     try:
@@ -58,7 +66,7 @@ def load_signals(base_url: str, slug: str) -> list[dict]:
     sector is still setting up."""
     if not _is_slug(slug):
         raise DataError(f"Not a sector slug: {slug!r}")
-    url = f"{base_url}{slug}/signals.json"
+    url = f"{_base(base_url)}{slug}/signals.json"
     try:
         resp = requests.get(url, timeout=20)
         if resp.status_code == 404:
@@ -73,7 +81,7 @@ def load_run_status(base_url: str, slug: str) -> dict | None:
     if not _is_slug(slug):
         return None
     try:
-        return _get_json(f"{base_url}{slug}/run_status.json")
+        return _get_json(f"{_base(base_url)}{slug}/run_status.json")
     except Exception:
         return None
 
