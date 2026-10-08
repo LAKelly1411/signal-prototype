@@ -398,3 +398,39 @@ def test_no_github_token_disables_create(monkeypatch):
     _to_review(at)
     assert at.button(key="ns-create").disabled
     assert any("Saving isn't switched on here yet." in i.value for i in at.info)
+
+
+def test_client_construction_error_shows_draft_failed(monkeypatch):
+    import anthropic
+
+    def broken(*a, **k):
+        raise RuntimeError("bad client")
+    monkeypatch.setattr(anthropic, "Anthropic", broken)
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    assert not at.exception
+    assert any("We couldn't draft that one. Try describing it differently." in e.value for e in at.error)
+
+
+def test_one_draft_counts_once_on_a_cold_cache(monkeypatch):
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    assert at.session_state["ns_drafts_used"] == 1
+
+
+def test_review_table_ticks_only_verified_numbers(monkeypatch):
+    def table(at):
+        return at.get("dataframe")[0].value.to_dict("records")
+
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    assert [r["Verified"] for r in table(at)] == ["✓", "–", "–"]
+    # An edit folded into the canonical rows (what the editor's on_change
+    # does; AppTest can't drive the editor itself) clears the tick.
+    rows = [dict(r) for r in at.session_state["ns_company_rows"]]
+    rows[0]["company_number"] = "12345678"
+    at.session_state["ns_company_rows"] = rows
+    at.run()
+    assert not at.exception
+    assert table(at)[0] == {"Name": "Octopus Energy Limited",
+                            "Companies House number": "12345678", "Verified": "–"}

@@ -1355,7 +1355,7 @@ def _secret(name: str) -> str | None:
         return None
 
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=600, show_spinner=False)
 def load_index() -> list[dict] | None:
     return data.load_index(_secret("DATA_BASE_URL"))
 
@@ -2819,24 +2819,30 @@ def _existing_slugs() -> set[str]:
             | set(sectors.list_sector_slugs()) | set(pending))
 
 
-_NS_REVIEW_KEYS = ("ns_name", "ns_brief", "ns_keywords", "ns_companies", "ns_companies_value")
+_NS_REVIEW_KEYS = ("ns_name", "ns_brief", "ns_keywords", "ns_companies")
 
 
 def _run_draft() -> None:
     """Draft from the description. Any failure (bad draft, API or network
     error) becomes the friendly copy; the user stays on the describe step."""
     state = st.session_state
-    client = _anthropic_client()
-    if client is None:
+    if not _secret("ANTHROPIC_API_KEY"):
         state["ns_error"] = _NS_NO_ANTHROPIC
         return
     if state.get("ns_drafts_used", 0) >= MAX_DRAFTS:
         state["ns_error"] = _NS_DRAFT_LIMIT
         return
+    # Everything that could pause (cached index load, client setup) happens
+    # before the draft is counted, so one click is never counted twice.
+    try:
+        existing, ch = _existing_slugs(), _companies_house()
+        client = _anthropic_client()
+    except Exception:
+        state["ns_error"] = _NS_DRAFT_FAILED
+        return
     state["ns_drafts_used"] = state.get("ns_drafts_used", 0) + 1
     try:
-        draft = drafting.draft_sector(state.get("ns_description", ""), _existing_slugs(),
-                                      client, _companies_house())
+        draft = drafting.draft_sector(state.get("ns_description", ""), existing, client, ch)
     except ValueError:
         state["ns_error"] = _NS_DESCRIPTION_LENGTH
         return
@@ -2847,6 +2853,8 @@ def _run_draft() -> None:
     # A fresh draft starts a fresh form: drop the previous one's widget values.
     for key in [*_NS_REVIEW_KEYS, *(f"ns_src_{s}" for s in drafting.GENERIC_SOURCES)]:
         state.pop(key, None)
+    state["ns_company_rows"] = [{k: v for k, v in c.items() if k != "verified"}
+                                for c in draft.companies]
     _ns_go("review")
 
 
@@ -2859,7 +2867,7 @@ def _run_create() -> None:
         name=state.get("ns_name", draft.config["name"]),
         brief=state.get("ns_brief", draft.config["brief"]),
         keywords=state.get("ns_keywords", draft.config["keywords"]),
-        companies=state.get("ns_companies_value") or draft.companies,
+        companies=state.get("ns_company_rows", draft.companies),
         sources=[s for s in drafting.GENERIC_SOURCES
                  if state.get(f"ns_src_{s}", s in draft.config["sources"])],
     )
@@ -2883,6 +2891,16 @@ def _run_create() -> None:
     state["ns_result"] = {"name": config["name"], "slug": config["slug"], "message": result.message}
     load_index.clear()
     _ns_go("done")
+
+
+def _apply_company_edits() -> None:
+    """Data editor callback: fold its change set into ns_company_rows, then
+    drop the editor's own state. The table's data changes with the fold, so
+    it redraws from the new rows, Verified ticks recomputed."""
+    state = st.session_state
+    state["ns_company_rows"] = new_sector.apply_editor_changes(
+        state.get("ns_company_rows", []), state.get("ns_companies"))
+    state.pop("ns_companies", None)
 
 
 def _finish_new_sector() -> None:
@@ -2956,15 +2974,12 @@ def _new_sector_dialog() -> None:
     st.text_input("One-line description", value=cfg["brief"], key="ns_brief")
     st.multiselect("Keywords", options=cfg["keywords"], default=cfg["keywords"],
                    accept_new_options=True, key="ns_keywords")
-    rows = [{"Name": c["name"], "Companies House number": c.get("company_number") or "",
-             "Verified": "✓" if c.get("verified") else "–"} for c in draft.companies]
-    edited = st.data_editor(rows, key="ns_companies", num_rows="dynamic", width="stretch",
-                            disabled=["Verified"], hide_index=True)
-    state["ns_companies_value"] = [
-        {"name": r.get("Name"), "company_number": r.get("Companies House number"),
-         "aliases": next((c.get("aliases", []) for c in draft.companies if c["name"] == r.get("Name")), [])}
-        for r in (edited.to_dict("records") if hasattr(edited, "to_dict") else edited)
-    ]
+    # The table is drawn from ns_company_rows; each edit is folded back into
+    # it (see _apply_company_edits) so the Verified column can follow edits.
+    st.data_editor(new_sector.editor_rows(state.get("ns_company_rows", []), draft.companies),
+                   key="ns_companies", num_rows="dynamic", width="stretch",
+                   disabled=[new_sector.VERIFIED_COL], hide_index=True,
+                   on_change=_apply_company_edits)
     st.markdown("**Sources**")
     for s in drafting.GENERIC_SOURCES:
         st.checkbox(_source_name(s), value=s in cfg["sources"], key=f"ns_src_{s}")
