@@ -91,3 +91,9 @@ def test_collectors_are_identical(monkeypatch):
         assert extra <= {"organisation"}
         if extra:
             assert new["attrs"]["organisation"] == "department-for-culture-media-and-sport"
+
+
+def test_the_baseline_recorder_refuses_to_run():
+    from tests.fixtures.make_gambling_baseline import main
+    with pytest.raises(SystemExit, match="4e8ea12"):
+        main()

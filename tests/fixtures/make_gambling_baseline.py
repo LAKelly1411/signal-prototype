@@ -1,37 +1,14 @@
-# Historical: generated the fixture from the pre-sector code (commit before Task 2). Only collector_snapshot is still imported.
-"""Records what today's (pre-sector) code does for gambling, so the sector
-refactor can prove it changed nothing. Run once, before the refactor:
+"""Historical: gambling_baseline.json was recorded from the pre-sector code at
+commit 4e8ea12, so the sector refactor could prove it changed nothing. Running
+the recorder against today's code would record the refactor against itself, so
+main() refuses. To regenerate, check out 4e8ea12 and run it there:
 
     .venv/bin/python -m tests.fixtures.make_gambling_baseline
+
+Only collector_snapshot is still used, by tests/test_gambling_equivalence.py.
 """
 
-import copy
 import json
-import os
-from datetime import timedelta
-from pathlib import Path
-
-from src import categories, cluster, score, store
-from src.entities import build_alias_map
-from src.pipeline import build_collectors
-from src.sectors import load_sector
-
-OUT = Path("tests/fixtures/gambling_baseline.json")
-
-# Labels and titles that exercise every rule and the fallbacks, on top of
-# whatever the live store holds.
-EXTRA_CATEGORY_INPUTS = [
-    ["AML/licence enforcement", "", None],
-    ["illegal gambling enforcement", "", None],
-    ["ASA ruling - irresponsible advertising", "", None],
-    ["safer gambling", "", None],
-    ["personal licence revocation", "", None],
-    ["", "Publication of the Scheme Document", None],
-    [None, "Untitled", "regulatory"],
-    [None, "Untitled", "insolvency"],
-    ["", "", None],
-    ["nonsense label", "some title", None],
-]
 
 
 def collector_snapshot(collector) -> dict:
@@ -43,60 +20,11 @@ def collector_snapshot(collector) -> dict:
 
 
 def main() -> None:
-    os.environ.setdefault("COMPANIES_HOUSE_API_KEY", "baseline-test-key")
-    signals = [s for s in store.load() if s.get("newsworthiness_score") is not None]
-    sector = load_sector("gambling")
-    operators = sector.companies
-    alias_map = build_alias_map(operators)
-
-    category_inputs = [
-        [s.get("category"), s.get("title", ""), s.get("signal_type")] for s in signals
-    ] + EXTRA_CATEGORY_INPUTS
-    entities = sorted(
-        {e for s in signals for e in (s.get("entities") or []) + (s.get("canonical_entities") or [])}
-        | set(cluster.excluded_entities())
-        | {"Entain", "bet365 Group Limited", "Rank Group", "HM Treasury", "The Gazette"}
+    raise SystemExit(
+        "Refusing to run: tests/fixtures/gambling_baseline.json was recorded from "
+        "the pre-sector code at commit 4e8ea12. Regenerate it only by checking "
+        "that commit out and running this script there."
     )
-    now = max(cluster._parse_date(s["published_at"]) for s in signals) + timedelta(days=1)
-
-    working = copy.deepcopy(signals)
-    cluster.assign_clusters(working, now=now, alias_map=alias_map)
-    cluster.assign_themes(working, now=now, alias_map=alias_map)
-    by_theme: dict[str, list[dict]] = {}
-    for s in working:
-        if s.get("theme_id"):
-            by_theme.setdefault(s["theme_id"], []).append(s)
-
-    baseline = {
-        "prompts": {
-            "system": score.system_prompt(),
-            "cluster": score.cluster_prompt(),
-            "theme": score.theme_prompt(),
-        },
-        "versions": {
-            "cluster": score.cluster_summary_version(),
-            "theme": score.theme_summary_version(),
-        },
-        "taxonomy": categories.taxonomy(),
-        "category_inputs": category_inputs,
-        "categories": [categories.canonical_category(*i) for i in category_inputs],
-        "entities": entities,
-        "excluded": [cluster.is_excluded(e) for e in entities],
-        "now": now.isoformat(),
-        "signals": signals,
-        "alias_operators": operators,
-        "cluster_ids": {s["id"]: s.get("cluster_id") for s in working},
-        "theme_ids": {s["id"]: s.get("theme_id") for s in working},
-        "theme_heat": {
-            t: cluster.compute_theme_heat(m, now=now, alias_map=alias_map)
-            for t, m in by_theme.items()
-        },
-        "collectors": [collector_snapshot(c) for c in build_collectors(sector)],
-    }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(baseline, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {OUT}: {len(signals)} signals, {len(category_inputs)} category inputs, "
-          f"{len(entities)} entities, {len(baseline['collectors'])} collectors")
 
 
 if __name__ == "__main__":
