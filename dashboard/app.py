@@ -348,7 +348,7 @@ def inject_css() -> None:
                the 4px border, transparent until selected, and 4px less left
                padding, so selecting one never shifts its content. */
             border-left: 4px solid transparent;
-            padding: 16px 24px 20px 20px;
+            padding: 16px 24px 24px 20px;
             margin-bottom: 16px;
             gap: 0;
         }
@@ -374,6 +374,10 @@ def inject_css() -> None:
             color: var(--pa-muted);
         }
         .gc-tags { margin-top: 16px; }
+        /* Streamlit's -16px margin on markdown text ate the card's bottom
+           padding, leaving the tags 4px from the edge. */
+        [class*="st-key-pcard-"] [data-testid="stMarkdownContainer"],
+        [class*="st-key-tcard-"] [data-testid="stMarkdownContainer"] { margin-bottom: 0; }
         /* Sparkline (dataviz mark specs): 2px line, round join/cap; 10% wash;
            >=8px end-dot with a 2px surface ring; hairline baseline. */
         .tl { margin-top: 16px; }
