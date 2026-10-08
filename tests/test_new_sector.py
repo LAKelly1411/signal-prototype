@@ -1,4 +1,9 @@
-from dashboard.new_sector import apply_editor_changes, apply_review, editor_rows, merge_pending
+import pytest
+
+from dashboard import new_sector
+from dashboard.new_sector import (apply_editor_changes, apply_review, editor_rows, merge_pending,
+                                  review_problem)
+from src import drafting
 from src.sectors import PROMPT_FIELDS, parse_sector
 
 CONFIG = {
@@ -95,3 +100,37 @@ def test_apply_editor_changes_accepts_string_row_indexes():
     rows = [{"name": "A Ltd", "company_number": None, "aliases": []}]
     out = apply_editor_changes(rows, {"edited_rows": {"0": {"Name": "Z Ltd"}}})
     assert out[0]["name"] == "Z Ltd"
+
+
+THREE = [{"name": f"Company {i} Ltd", "company_number": None} for i in range(3)]
+
+
+def reviewed(**over):
+    kw = {"name": "E", "brief": "b", "keywords": ["energy"], "companies": THREE, "sources": ["gazette"]}
+    kw.update(over)
+    return apply_review(CONFIG, **kw)
+
+
+def test_review_problem_accepts_a_complete_review():
+    assert review_problem(reviewed()) is None
+
+
+@pytest.mark.parametrize("over,message", [
+    ({"keywords": []}, "Add at least one keyword."),
+    ({"keywords": ["  "]}, "Add at least one keyword."),
+    ({"companies": THREE[:2]}, "Keep between 3 and 12 companies."),
+    ({"companies": THREE + [{"name": "Company 0 Limited"}]}, None),     # deduped back to 3
+    ({"companies": THREE[:2] + [{"name": "Company 1 Limited"}]}, "Keep between 3 and 12 companies."),
+    ({"sources": []}, "Choose at least one source."),
+    ({"sources": ["gambling_commission"]}, "Choose at least one source."),
+])
+def test_review_problem_names_what_is_missing(over, message):
+    assert review_problem(reviewed(**over)) == message
+
+
+def test_one_company_limit_shared_with_drafting():
+    assert not hasattr(new_sector, "MAX_COMPANIES") or new_sector.MAX_COMPANIES is drafting.MAX_COMPANIES
+    many = [{"name": f"Company {i} Ltd"} for i in range(drafting.MAX_COMPANIES + 5)]
+    out = reviewed(companies=many)
+    assert len(out["companies"]) == drafting.MAX_COMPANIES
+    assert review_problem(out) is None

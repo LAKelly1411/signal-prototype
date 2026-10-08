@@ -2,10 +2,8 @@
 
 from __future__ import annotations
 
-from src.drafting import DEFAULT_SOURCE_SETTINGS, GENERIC_SOURCES
+from src.drafting import DEFAULT_SOURCE_SETTINGS, GENERIC_SOURCES, MAX_COMPANIES, MIN_COMPANIES
 from src.entities import match_key
-
-MAX_COMPANIES = 12
 
 # The review form's company table: its column names, mapped to config keys.
 NAME_COL, NUMBER_COL, VERIFIED_COL = "Name", "Companies House number", "Verified"
@@ -35,6 +33,18 @@ def apply_review(config: dict, *, name: str, brief: str, keywords: list[str],
     out["sources"] = {s: dict(config["sources"].get(s, DEFAULT_SOURCE_SETTINGS[s]))
                       for s in sources if s in GENERIC_SOURCES}
     return out
+
+
+def review_problem(config: dict) -> str | None:
+    """What stops the reviewed config (apply_review's output) being saved, in
+    the form's words; None if it can be saved."""
+    if not config.get("keywords"):
+        return "Add at least one keyword."
+    if not MIN_COMPANIES <= len(config.get("companies") or []) <= MAX_COMPANIES:
+        return f"Keep between {MIN_COMPANIES} and {MAX_COMPANIES} companies."
+    if not config.get("sources"):
+        return "Choose at least one source."
+    return None
 
 
 def merge_pending(index: list[dict] | None, pending: list[dict]) -> list[dict] | None:
