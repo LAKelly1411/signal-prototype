@@ -31,6 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        id: run
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Not a secret — a repo variable, so the model in use is visible
@@ -43,7 +44,10 @@ jobs:
         run: |
           if [ -n "$SECTOR" ]; then python -m src.pipeline --sector "$SECTOR"; else python -m src.pipeline; fi
 
+      # Runs even when a sector failed, so the sectors that succeeded still
+      # land; the failed run step still fails the job and fires the alert.
       - name: Commit updated signals
+        if: ${{ !cancelled() && (steps.run.outcome == 'success' || steps.run.outcome == 'failure') }}
         env:
           SECTOR: ${{ inputs.sector }}
         run: |
@@ -53,6 +57,9 @@ jobs:
           # and the gambling compat copy; data/*.db stays gitignored.
           git add data
           git diff --staged --quiet || git commit -m "Update signals${SECTOR:+ ($SECTOR)} [skip ci]"
+          # A config commit (e.g. a dashboard watchlist addition) may have
+          # landed during the run; replay ours on top so the push isn't rejected.
+          git pull --rebase
           git push
 
       - name: Alert on failure
