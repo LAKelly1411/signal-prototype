@@ -103,7 +103,12 @@ fallback simply hides the freshness strip.
 1. Merge.
 2. Let the pipeline run once on main. This creates `data/gambling/` and
    `data/sectors.json`.
-3. Set `DATA_BASE_URL` in Streamlit Cloud.
+3. Set `DATA_BASE_URL` in Streamlit Cloud (with or without a trailing slash).
+
+Note: `config/sectors/fintech.yaml` ships with this change, so the first
+scheduled (all-sectors) pipeline run after merge also runs fintech for the
+first time. That makes paid Claude calls to score its backlog. Review its
+counts, clusters and themes after that run.
 
 Follow-up, once that's live: remove the compatibility copy
 (`data/signals.json`, `data/run_status.json`), the old `DATA_RAW_URL` /
