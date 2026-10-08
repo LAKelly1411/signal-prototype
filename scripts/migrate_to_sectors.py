@@ -32,47 +32,69 @@ def _tag(signals: list[dict]) -> list[dict]:
     return signals
 
 
+def _finish(data_dir: Path, signal_count: int) -> None:
+    """Final steps, after the commit marker: drop the old archive and index."""
+    old_archive = data_dir / "archive"
+    if old_archive.exists():
+        shutil.rmtree(old_archive)
+    from src import sectors
+    sectors.update_index(SLUG, name="Gambling & gaming", status="ready",
+                         signal_count=signal_count,
+                         last_run_at=datetime.now(timezone.utc).isoformat(), error=None)
+
+
 def migrate(data_dir: Path = Path("data"), dry_run: bool = False) -> dict:
     target = data_dir / SLUG
+    old_archive = data_dir / "archive"
+    year_files = sorted(old_archive.glob("signals-*.json")) if old_archive.exists() else []
+    old_ids = old_archive / "ids.json"
+
+    # target/signals.json is the commit marker: it is written last, after every
+    # other target file, so its presence means the copy is complete.
     if (target / "signals.json").exists():
-        return {"status": "already migrated", "signals": 0, "archived": 0, "files": []}
+        if not old_archive.exists():
+            return {"status": "already migrated", "signals": 0, "archived": 0, "files": []}
+        needed = [target / "archive" / p.name for p in year_files]
+        if old_ids.exists():
+            needed.append(target / "archive" / "ids.json")
+        if all(p.exists() for p in needed):
+            # Interrupted after the marker: finish the cleanup only.
+            count = len(_read(target / "signals.json"))
+            if not dry_run:
+                _finish(data_dir, count)
+            return {"status": "migrated", "signals": count, "archived": 0, "files": []}
+        # Marker present but the copy is incomplete: redo it (copies overwrite).
+
     old_signals = data_dir / "signals.json"
     if not old_signals.exists():
         return {"status": "nothing to migrate", "signals": 0, "archived": 0, "files": []}
 
     signals = _tag(_read(old_signals))
-    files = [target / "signals.json"]
+    files = []
     archived = 0
-    old_archive = data_dir / "archive"
-    year_files = sorted(old_archive.glob("signals-*.json")) if old_archive.exists() else []
 
-    if not dry_run:
-        _write(target / "signals.json", signals)
     for year_file in year_files:
         batch = _tag(_read(year_file))
         archived += len(batch)
         files.append(target / "archive" / year_file.name)
         if not dry_run:
             _write(target / "archive" / year_file.name, batch)
-    if (old_archive / "ids.json").exists():
+    if old_ids.exists():
         files.append(target / "archive" / "ids.json")
         if not dry_run:
-            shutil.copyfile(old_archive / "ids.json", target / "archive" / "ids.json")
+            (target / "archive").mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(old_ids, target / "archive" / "ids.json")
     old_status = data_dir / "run_status.json"
     if old_status.exists():
         files.append(target / "run_status.json")
         if not dry_run:
             _write(target / "run_status.json", {**_read(old_status), "sector": SLUG})
-
+    files.append(target / "signals.json")
     if not dry_run:
-        # The top-level signals.json/run_status.json stay as the dashboard's
-        # compatibility copy; the old archive now lives under data/gambling/.
-        if old_archive.exists():
-            shutil.rmtree(old_archive)
-        from src import sectors
-        sectors.update_index(SLUG, name="Gambling & gaming", status="ready",
-                             signal_count=len(signals),
-                             last_run_at=datetime.now(timezone.utc).isoformat(), error=None)
+        _write(target / "signals.json", signals)  # commit marker, last
+        # The top-level signals.json/run_status.json stay untouched as the
+        # dashboard's compatibility copy.
+        _finish(data_dir, len(signals))
 
     return {"status": "migrated", "signals": len(signals), "archived": archived,
             "files": [str(f) for f in files]}

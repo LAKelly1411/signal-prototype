@@ -65,3 +65,53 @@ def test_dry_run_writes_nothing(tmp_path):
 
 def test_nothing_to_migrate(tmp_path):
     assert migrate(tmp_path)["status"] == "nothing to migrate"
+
+
+def test_top_level_compat_files_are_untouched(tmp_path):
+    seed(tmp_path)
+    before = {n: (tmp_path / n).read_bytes() for n in ("signals.json", "run_status.json")}
+    migrate(tmp_path)
+    assert before == {n: (tmp_path / n).read_bytes() for n in before}
+
+
+def test_crash_before_marker_is_redone(tmp_path, monkeypatch):
+    from scripts import migrate_to_sectors as m
+    from src import sectors
+    seed(tmp_path)
+    real_write = m._write
+
+    def crashing(path, payload):
+        if path == tmp_path / "gambling" / "signals.json":
+            raise RuntimeError("boom")
+        real_write(path, payload)
+
+    monkeypatch.setattr(m, "_write", crashing)
+    with pytest.raises(RuntimeError):
+        migrate(tmp_path)
+    monkeypatch.setattr(m, "_write", real_write)
+    assert not (tmp_path / "gambling" / "signals.json").exists()
+    assert (tmp_path / "archive").exists()  # not removed before the marker
+
+    assert migrate(tmp_path)["status"] == "migrated"
+    assert (tmp_path / "gambling" / "signals.json").exists()
+    assert json.loads((tmp_path / "gambling" / "archive" / "ids.json").read_text()) == ["z"]
+    assert (tmp_path / "gambling" / "archive" / "signals-2025.json").exists()
+    assert (tmp_path / "gambling" / "run_status.json").exists()
+    assert not (tmp_path / "archive").exists()
+    assert sectors.read_index()["gambling"]["status"] == "ready"
+
+
+def test_marker_written_but_old_archive_left_is_cleaned_up(tmp_path):
+    from src import sectors
+    seed(tmp_path)
+    migrate(tmp_path)
+    # Recreate the crash state: marker and target copy exist, old archive remains.
+    (tmp_path / "archive").mkdir()
+    (tmp_path / "archive" / "signals-2025.json").write_text("[]")
+    (tmp_path / "archive" / "ids.json").write_text('["z"]')
+    assert migrate(tmp_path, dry_run=True)["status"] == "migrated"
+    assert (tmp_path / "archive").exists()  # dry run changes nothing
+    assert migrate(tmp_path)["status"] == "migrated"
+    assert not (tmp_path / "archive").exists()
+    assert sectors.read_index()["gambling"]["status"] == "ready"
+    assert migrate(tmp_path)["status"] == "already migrated"
