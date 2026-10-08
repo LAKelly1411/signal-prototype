@@ -317,6 +317,25 @@ def test_full_creation_flow(monkeypatch):
     assert not any(b.key == "ns-done" for b in at.button)  # the dialog closed
 
 
+def test_done_reruns_the_whole_app(monkeypatch):
+    # Done sits inside the dialog, and a widget in a dialog reruns only the
+    # dialog (it's a fragment): without a full rerun the dialog redraws at the
+    # upsell and the page stays on the old sector. AppTest always reruns the
+    # whole script, so check that Done asks for an app-scope rerun.
+    at, _ = creation_app(monkeypatch)
+    _to_review(at)
+    at.button(key="ns-create").click().run()
+    scopes, real = [], st.rerun
+
+    def spy(*args, **kwargs):
+        scopes.append(kwargs.get("scope", "app"))
+        return real(*args, **kwargs)
+    monkeypatch.setattr(st, "rerun", spy)
+    at.button(key="ns-done").click().run()
+    assert not at.exception
+    assert scopes == ["app"]
+
+
 def test_unlock_is_per_session(monkeypatch):
     at, _ = creation_app(monkeypatch)
     at.run()

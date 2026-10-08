@@ -214,10 +214,11 @@ def inject_css() -> None:
         [class*="st-key-sectoropt-"] button p span { float: right; margin-left: 1.5rem; }
         /* Matched at the start of a class token, so no slug can collide. */
         :is([class^="st-key-sectoropt-off-"], [class*=" st-key-sectoropt-off-"]) [data-testid="stIconMaterial"] { visibility: hidden; }
-        /* "New sector" is a teaser for the premium add-on: visibly not clickable. */
-        .st-key-sector-new button:disabled p,
-        .st-key-sector-new button:disabled [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.45); }
-        .st-key-sector-new button:disabled:hover { background: transparent; }
+        /* At the sector limit the row is visibly not clickable. Scoped to the
+           popover so it outranks the menu's own row styles further down. */
+        [data-testid="stPopoverBody"] .st-key-sector-new button:disabled p,
+        [data-testid="stPopoverBody"] .st-key-sector-new button:disabled [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.45); }
+        [data-testid="stPopoverBody"] .st-key-sector-new button:disabled:hover { background: transparent; }
         /* Clear of the standfirst, which ends in markdown's -16px margin. */
         .st-key-sector-state, .st-key-sector-notice { margin-top: 1.5rem; }
         /* Streamlit's element wrappers set visibility themselves, so every
@@ -1141,7 +1142,8 @@ def inject_css() -> None:
             color: var(--pa-ink);
         }
         .st-key-open-watchlist button p,
-        [data-testid="stDialog"] [data-testid^="stBaseButton-"] p {
+        [data-testid="stDialog"] [data-testid^="stBaseButton-"] p,
+        [data-testid="stDialog"] [data-testid^="stBaseLinkButton-"] p {
             font-family: var(--pa-font-data);
             font-weight: 700;
             font-size: 1rem;
@@ -1149,7 +1151,8 @@ def inject_css() -> None:
         }
         .st-key-open-watchlist [data-testid="stIconMaterial"],
         [data-testid="stDialog"] [data-testid^="stBaseButton-"] [data-testid="stIconMaterial"] { font-size: 20px; }
-        [data-testid="stDialog"] [data-testid^="stBaseButton-tertiary"] { padding: 0; min-height: 0; }
+        [data-testid="stDialog"] :is([data-testid^="stBaseButton-tertiary"],
+                                     [data-testid^="stBaseLinkButton-tertiary"]) { padding: 0; min-height: 0; }
         /* Field text at the same 16px as the rest of the app. */
         [data-testid="stDialog"] input,
         [data-testid="stDialog"] textarea {
@@ -1201,6 +1204,31 @@ def inject_css() -> None:
             margin: 0 0 12px 0;
         }
         .wl-copy.wl-muted { color: var(--pa-muted); font-size: 0.9375rem; }
+        /* New-sector review: group labels styled as field labels, the
+           keywords field outlined like the text fields, and source
+           checkboxes in regular weight under their bold group label. */
+        .ns-label {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: var(--pa-ink);
+            margin: 0;
+        }
+        [data-testid="stDialog"] .st-key-ns_keywords [role="group"] {
+            border: 1px solid #cccccc;
+            border-radius: 0;
+            background: var(--pa-paper);
+        }
+        [data-testid="stDialog"] .st-key-ns_keywords [role="group"]:focus-within { border-color: var(--pa-cobalt); }
+        [data-testid="stDialog"] [data-testid="stCheckbox"] label p {
+            font-weight: 400;
+            font-size: 0.9375rem;
+        }
+        /* The new-sector dialog opens from the switcher menu; the menu's
+           layer sits above the dialog's, so hide it while a dialog is open. */
+        body:has([data-testid="stDialog"] [role="dialog"]) [data-testid="stPopoverBody"] {
+            display: none;
+        }
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
            cubic-bezier(0.2, 0, 0, 1)). Movement is small, a lift of a couple
@@ -2944,7 +2972,11 @@ def _new_sector_dialog() -> None:
                if result.get("message") else ""),
             unsafe_allow_html=True,
         )
-        st.button("Done", key="ns-done", type="primary", width="stretch", on_click=_finish_new_sector)
+        # A widget in a dialog reruns only the dialog, so Done asks for a
+        # full rerun: that closes the dialog and shows the new sector.
+        if st.button("Done", key="ns-done", type="primary", width="stretch"):
+            _finish_new_sector()
+            st.rerun()
         return
 
     if step == "describe":
@@ -2974,13 +3006,14 @@ def _new_sector_dialog() -> None:
     st.text_input("One-line description", value=cfg["brief"], key="ns_brief")
     st.multiselect("Keywords", options=cfg["keywords"], default=cfg["keywords"],
                    accept_new_options=True, key="ns_keywords")
+    st.markdown('<p class="ns-label">Companies</p>', unsafe_allow_html=True)
     # The table is drawn from ns_company_rows; each edit is folded back into
     # it (see _apply_company_edits) so the Verified column can follow edits.
     st.data_editor(new_sector.editor_rows(state.get("ns_company_rows", []), draft.companies),
                    key="ns_companies", num_rows="dynamic", width="stretch",
                    disabled=[new_sector.VERIFIED_COL], hide_index=True,
                    on_change=_apply_company_edits)
-    st.markdown("**Sources**")
+    st.markdown('<p class="ns-label">Sources</p>', unsafe_allow_html=True)
     for s in drafting.GENERIC_SOURCES:
         st.checkbox(_source_name(s), value=s in cfg["sources"], key=f"ns_src_{s}")
     with st.expander("Advanced", key="ns-advanced"):

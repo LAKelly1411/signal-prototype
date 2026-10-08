@@ -77,6 +77,51 @@ python -m scripts.backfill_canonical_entities --dry-run   # report only
 python -m scripts.backfill_canonical_entities
 ```
 
+### Creating a sector (premium demo)
+
+The switcher's last row, **New sector** (tagged PREMIUM), opens a dialog:
+
+1. **Upsell.** "Track any industry", with **Unlock for demo** and, if
+   `SALES_EMAIL` is set, a **Talk to us** mail link.
+2. **Describe.** One sentence on the industry (10 to 300 characters), then
+   **Draft it**: Claude drafts a sector config (name, brief, keywords,
+   companies, sources, scoring prompt and categories) and Companies House
+   checks each drafted company number.
+3. **Review.** Edit the name, brief, keywords, companies (up to 12; a number
+   keeps its Verified tick only while it matches a confirmed one, and every
+   number is re-checked on create) and sources. **Advanced** shows the scoring
+   setup for reference.
+4. **Create.** Saves the sector and starts a run. **Done** shows the new
+   sector's "Setting up" block until its first signals arrive.
+
+The unlock lasts only for the browser session: a reload locks creation again.
+
+Streamlit secrets it uses:
+
+- `ANTHROPIC_API_KEY` (required for drafting; without it the dialog says
+  drafting isn't switched on). `ANTHROPIC_MODEL`, if set, overrides the
+  default model (`claude-sonnet-5`).
+- `GITHUB_TOKEN` (required for saving): contents read/write **and** actions
+  write on this repo, since creation commits files and dispatches a workflow.
+- `COMPANIES_HOUSE_API_KEY` (optional). Without it nothing can be verified,
+  so no company number is saved.
+- `SALES_EMAIL` (optional), for the **Talk to us** link.
+
+Limits: at most 10 sectors (the row then reads "Sector limit reached") and 5
+drafts per browser session.
+
+Creating commits `config/sectors/<slug>.yaml` and the new `data/sectors.json`
+entry straight to `main`, because the pipeline and the dashboard both read from
+`main`, then dispatches the Pipeline workflow with `sector` empty: an
+all-sectors run. A single-sector dispatch could replace a queued scheduled
+run (one pending run per concurrency group), and the other sectors would miss
+an update; already-scored signals aren't re-scored, so the extra cost is
+collection time rather than Claude calls. Each new sector adds its own Claude
+calls to every later run.
+
+Anyone with the dashboard password can create sectors in the demo; there is
+no separate permission.
+
 ## Configuration
 
 GitHub Actions **secrets**: `ANTHROPIC_API_KEY`, `COMPANIES_HOUSE_API_KEY`,
