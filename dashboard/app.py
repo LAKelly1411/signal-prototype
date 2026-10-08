@@ -483,7 +483,10 @@ def inject_css() -> None:
             width: var(--preview-width);
             z-index: 999990;
         }
-        [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) {
+        /* Only when the pane is in the visible tab: as fragments, Patterns and
+           Themes stay mounted (hidden) while Feed shows, and matching any
+           pane squeezed the Feed for a pane nobody could see. */
+        [data-testid="stMain"]:has([role="tabpanel"] [class*="st-key-signals-panel-"]) {
             padding-right: var(--preview-width);
         }
         [class*="st-key-signals-panel-"] {
@@ -561,7 +564,7 @@ def inject_css() -> None:
                 width: 100%;
                 height: 55vh;
             }
-            [data-testid="stMain"]:has([class*="st-key-signals-panel-"]) {
+            [data-testid="stMain"]:has([role="tabpanel"] [class*="st-key-signals-panel-"]) {
                 padding-right: 0;
                 padding-bottom: 55vh;
             }
@@ -649,6 +652,84 @@ def inject_css() -> None:
             font-size: 1.25rem;
         }
         [data-baseweb="tag"] { border-radius: 0 !important; }
+
+        /* ── Feed filter bar ───────────────────────────────────────
+           Grey square controls whose label carries the current value (bold),
+           opening white menus with a soft shadow; sort on the right, its
+           choices ticked in cobalt. After the sort control in Ren's
+           Playground. */
+        .st-key-feed-filters { gap: 8px; margin: 0.5rem 0 0.25rem 0; }
+        .st-key-feed-filters [data-testid="stPopoverButton"],
+        .st-key-feed-filters [data-testid="stTextInputRootElement"] {
+            min-height: 44px;
+            border: 1px solid transparent;
+            border-radius: 0;
+            background: var(--pa-surface);
+            box-shadow: none;
+        }
+        .st-key-feed-filters [data-testid="stPopoverButton"] {
+            padding: 0 16px;
+            color: var(--pa-ink);
+        }
+        .st-key-feed-filters [data-testid="stPopoverButton"]:hover { background: var(--pa-sunken); }
+        .st-key-feed-filters [data-testid="stPopoverButton"]:focus-visible { border-color: var(--pa-cobalt); }
+        .st-key-feed-filters [data-testid="stPopoverButton"] p {
+            font-family: var(--pa-font-data);
+            font-size: 0.9375rem;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+        /* Controls keep their natural width; when the row runs out of room it
+           wraps instead of squeezing labels until their text is clipped. */
+        .st-key-feed-filters [data-testid="stPopover"],
+        .st-key-feed-filters [data-testid="stPopover"] > div,
+        .st-key-feed-filters [data-testid="stPopoverButton"],
+        .st-key-feed-filters [data-testid="stPopoverButton"] > div,
+        .st-key-feed-filters [data-testid="stPopoverButton"] > div > div { flex-shrink: 0; }
+        /* Streamlit sizes the label box 5px under its text (every label, any
+           length), and clips it. Let the last few pixels run into the
+           button's 16px padding rather than cut the value off. */
+        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"],
+        .st-key-feed-filters [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"] p {
+            overflow: visible;
+            text-overflow: clip;
+        }
+        .st-key-feed-filters [data-testid="stPopoverButton"] p strong { font-weight: 700; }
+        /* No chevron: the grey control already reads as a menu. */
+        .st-key-feed-filters [data-testid="stPopoverButton"] > div > div:last-child:not(:first-child):has([data-testid="stIconMaterial"]) { display: none; }
+        .st-key-feed-filters [data-testid="stTextInputRootElement"]:focus-within { border-color: var(--pa-cobalt); }
+        .st-key-feed-filters [data-testid="stTextInputRootElement"] input {
+            font-family: var(--pa-font-data);
+            font-size: 0.9375rem;
+        }
+        .st-key-pop-sort { margin-left: auto; }
+        .st-key-clear-filters button p {
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: var(--pa-cobalt);
+        }
+        [data-testid="stPopoverBody"] {
+            border: none;
+            border-radius: 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+            padding: 8px;
+        }
+        /* Sort menu: left-aligned rows, the tick only on the chosen one. */
+        [class*="st-key-sortopt-"] button {
+            padding: 10px 12px;
+            border-radius: 0;
+        }
+        [class*="st-key-sortopt-"] button > div,
+        [class*="st-key-sortopt-"] button > div > span { justify-content: flex-start; gap: 12px; }
+        [class*="st-key-sortopt-"] button:hover { background: var(--pa-surface); }
+        [class*="st-key-sortopt-"] button p {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
+            color: var(--pa-ink);
+        }
+        [class*="st-key-sortopt-"] [data-testid="stIconMaterial"] { color: var(--pa-cobalt); }
+        [class*="st-key-sortopt-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
 
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
@@ -976,69 +1057,157 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
     )
 
 
+SORT_RECENT = "Most recent"
+SORT_SCORE = "Highest score"
+DEFAULT_MIN_SCORE = 40
+
+
+def _set_sort(option: str) -> None:
+    st.session_state["f_sort"] = option
+    st.session_state["pop-sort"] = False  # close the menu once a choice is made
+
+
+def _clear_filters(keys: list[str]) -> None:
+    for key in keys:
+        st.session_state.pop(key, None)
+
+
+def _summary(selected: list, options: list, all_label: str = "All") -> str:
+    if not selected or len(selected) == len(options):
+        return all_label if selected else "None"
+    if len(selected) == 1:
+        return str(selected[0])
+    return f"{len(selected)} of {len(options)}"
+
+
 def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
-    st.sidebar.header("Filters")
-
-    search_query = st.sidebar.text_input(
-        "Search", placeholder="Search title, summary, entities…"
-    ).strip().lower()
-
-    # Keyed on the current option set so the widget resets to "all selected"
-    # whenever a new source or signal type shows up — otherwise Streamlit
-    # keeps a session's original default forever, silently hiding anything
-    # added after the browser tab was first opened.
+    """The Feed's filter bar: search, then one menu per filter whose label
+    shows its current value, and sort on the right. Lives in the Feed tab
+    because it only ever filtered the feed; in the sidebar it looked as if it
+    applied to Patterns and Themes too."""
     sources = sorted({s["source"] for s in scored})
-    selected_sources = st.sidebar.multiselect(
-        "Source", sources, default=sources, key=f"sources_{','.join(sources)}"
-    )
-
     signal_types = sorted({s["signal_type"] for s in scored if s.get("signal_type")})
-    selected_types = st.sidebar.multiselect(
-        "Signal type",
-        signal_types,
-        default=signal_types,
-        key=f"types_{','.join(signal_types)}",
-    )
-
     # Canonical names, so one option covers every spelling of a company —
     # picking "Entain Holdings (UK) Limited" also matches signals that named
     # it "Entain".
-    all_entities = sorted(
-        {e for s in scored for e in signal_entities(s)}, key=str.lower
-    )
-    selected_entities = st.sidebar.multiselect(
-        "Company / entity",
-        all_entities,
-        help="Leave empty to include all companies.",
-    )
-
-    # Defaults to 40 (Medium+) rather than 0 so a busy day doesn't bury
-    # higher-value signals under Low-tier noise; still adjustable down to 0.
-    min_score = st.sidebar.slider("Minimum score", 0, 100, 40)
-
-    published_dates = [
-        datetime.fromisoformat(s["published_at"]).date() for s in scored
-    ]
+    all_entities = sorted({e for s in scored for e in signal_entities(s)}, key=str.lower)
+    published_dates = [datetime.fromisoformat(s["published_at"]).date() for s in scored]
     min_date, max_date = min(published_dates), max(published_dates)
-    date_range = st.sidebar.date_input(
-        "Date range",
-        value=(min_date, max_date),
-        min_value=min_date,
-        max_value=max_date,
-        # Keyed on the current bounds so the widget resets to the full
-        # range whenever new data extends it — otherwise Streamlit keeps
-        # whatever range was selected when the browser session started,
-        # which quietly falls behind as the store picks up new signals.
-        key=f"date_range_{min_date}_{max_date}",
+
+    # Keyed on the current option set / bounds so each widget resets to "all"
+    # whenever new sources, types or dates show up — otherwise Streamlit keeps
+    # a session's original default forever, silently hiding anything added
+    # after the browser tab was first opened.
+    keys = {
+        "search": "f_search",
+        "sources": f"sources_{','.join(sources)}",
+        "types": f"types_{','.join(signal_types)}",
+        "entities": "f_entities",
+        "score": "f_min_score",
+        "dates": f"date_range_{min_date}_{max_date}",
+    }
+    state = st.session_state
+    cur_sources = state.get(keys["sources"], sources)
+    cur_types = state.get(keys["types"], signal_types)
+    cur_entities = state.get(keys["entities"], [])
+    cur_score = state.get(keys["score"], DEFAULT_MIN_SCORE)
+    cur_dates = state.get(keys["dates"], (min_date, max_date))
+    sort_order = state.get("f_sort", SORT_RECENT)
+
+    def source_name(s: str) -> str:
+        return SOURCE_NAMES.get(s, (s.replace("_", " ").title(), ""))[0]
+
+    def type_name(t: str) -> str:
+        return t.replace("_", " ").capitalize()
+
+    dates_all = (
+        not isinstance(cur_dates, tuple)
+        or len(cur_dates) != 2
+        or tuple(cur_dates) == (min_date, max_date)
     )
+    dates_label = (
+        "All"
+        if dates_all
+        else f"{cur_dates[0].day} {cur_dates[0]:%b} – {cur_dates[1].day} {cur_dates[1]:%b}"
+    )
+    active = bool(
+        state.get(keys["search"])
+        or len(cur_sources) != len(sources)
+        or len(cur_types) != len(signal_types)
+        or cur_entities
+        or cur_score != DEFAULT_MIN_SCORE
+        or not dates_all
+    )
+
+    with st.container(key="feed-filters", horizontal=True, vertical_alignment="center"):
+        search_query = st.text_input(
+            "Search",
+            placeholder="Search signals…",
+            label_visibility="collapsed",
+            icon=":material/search:",
+            key=keys["search"],
+            width=260,
+        ).strip().lower()
+
+        with st.popover(
+            f"Source: **{_summary([source_name(s) for s in cur_sources], sources)}**",
+            key="pop-source",
+        ):
+            selected_sources = st.multiselect(
+                "Source", sources, default=sources, key=keys["sources"],
+                format_func=source_name,
+            )
+        with st.popover(
+            f"Type: **{_summary([type_name(t) for t in cur_types], signal_types)}**",
+            key="pop-type",
+        ):
+            selected_types = st.multiselect(
+                "Signal type", signal_types, default=signal_types, key=keys["types"],
+                format_func=type_name,
+            )
+        with st.popover(
+            f"Company: **{_summary(cur_entities, all_entities, 'Any') if cur_entities else 'Any'}**",
+            key="pop-company",
+        ):
+            selected_entities = st.multiselect(
+                "Company / entity", all_entities, key=keys["entities"],
+                placeholder="Any company",
+                help="Leave empty to include all companies.",
+            )
+        with st.popover(f"Score: **{cur_score}+**", key="pop-score"):
+            # Defaults to 40 (Medium+) rather than 0 so a busy day doesn't bury
+            # higher-value signals under Low-tier noise; still adjustable to 0.
+            min_score = st.slider("Minimum score", 0, 100, DEFAULT_MIN_SCORE, key=keys["score"])
+        with st.popover(f"Dates: **{dates_label}**", key="pop-dates"):
+            date_range = st.date_input(
+                "Date range",
+                value=(min_date, max_date),
+                min_value=min_date,
+                max_value=max_date,
+                key=keys["dates"],
+            )
+        if active:
+            st.button(
+                "Clear filters", key="clear-filters", type="tertiary",
+                on_click=_clear_filters, args=(list(keys.values()),),
+            )
+        with st.popover(f"Sort by: **{sort_order}**", icon=":material/swap_vert:", key="pop-sort"):
+            for option in (SORT_RECENT, SORT_SCORE):
+                on = option == sort_order
+                st.button(
+                    option,
+                    key=f"sortopt-{option.split()[0].lower()}-{'on' if on else 'off'}",
+                    icon=":material/check:",
+                    type="tertiary",
+                    width="stretch",
+                    on_click=_set_sort,
+                    args=(option,),
+                )
+
     if isinstance(date_range, tuple) and len(date_range) == 2:
         start_date, end_date = date_range
     else:
         start_date, end_date = min_date, max_date
-
-    sort_order = st.sidebar.radio(
-        "Sort by", ["Newest first", "Highest score first"], horizontal=True
-    )
 
     filtered = []
     for signal, pub_date in zip(scored, published_dates):
@@ -1070,7 +1239,7 @@ def apply_filters(scored: list[dict]) -> tuple[list[dict], str]:
                 continue
         filtered.append(signal)
 
-    if sort_order == "Highest score first":
+    if sort_order == SORT_SCORE:
         filtered.sort(key=lambda s: s["newsworthiness_score"], reverse=True)
 
     return filtered, sort_order
@@ -1119,7 +1288,7 @@ def render_feed(signals: list[dict]) -> None:
         st.info("No signals match the current filters.")
         return
 
-    if sort_order != "Newest first":
+    if sort_order != SORT_RECENT:
         for signal in filtered:
             render_card(signal, cluster_info)
         return
@@ -1799,9 +1968,15 @@ def render_watchlist_form() -> None:
                         )
 
 
-# Fragments: clicking a card or the quiet toggle reruns only its own tab, not
+# Fragments: a filter change, a card click or the quiet toggle reruns only its
+# own tab, not
 # the whole app. Without them every click rebuilt all three tabs (~930 KB,
 # 212 signal cards) to change one selection.
+@st.fragment
+def _feed_fragment(signals: list[dict]) -> None:
+    render_feed(signals)
+
+
 @st.fragment
 def _patterns_fragment(signals: list[dict]) -> None:
     render_patterns(signals)
@@ -1830,7 +2005,7 @@ def main() -> None:
     signals = load_signals()
     feed_tab, patterns_tab, themes_tab = st.tabs(["Feed", "Patterns", "Themes"])
     with feed_tab:
-        render_feed(signals)
+        _feed_fragment(signals)
     with patterns_tab:
         _patterns_fragment(signals)
     with themes_tab:
