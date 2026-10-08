@@ -1019,18 +1019,36 @@ def inject_css() -> None:
            PA outline button (Media Briefings Button.astro "outline"): 2px ink
            border, square, Press Sans bold; fills ink on hover. */
         .st-key-header-actions { margin-bottom: 12px; }
-        .st-key-open-watchlist button {
-            min-height: 40px;
-            padding: 8px 16px;
-            border: 2px solid var(--pa-ink);
+        /* One action-button size everywhere: 44px tall, 20px side padding,
+           Press Sans bold 16px. Primary is cobalt (theme); the header's
+           secondary is the PA outline. Links share the label style. */
+        .st-key-open-watchlist button,
+        [data-testid="stDialog"] [data-testid^="stBaseButton-primary"],
+        [data-testid="stDialog"] [data-testid^="stBaseButton-secondary"] {
+            min-height: 44px;
+            padding: 0 20px;
             border-radius: 0;
+        }
+        .st-key-open-watchlist button {
+            border: 2px solid var(--pa-ink);
             background: transparent;
             color: var(--pa-ink);
         }
-        .st-key-open-watchlist button p {
+        .st-key-open-watchlist button p,
+        [data-testid="stDialog"] [data-testid^="stBaseButton-"] p {
             font-family: var(--pa-font-data);
             font-weight: 700;
-            font-size: 0.9375rem;
+            font-size: 1rem;
+            line-height: 1.25;
+        }
+        .st-key-open-watchlist [data-testid="stIconMaterial"],
+        [data-testid="stDialog"] [data-testid^="stBaseButton-"] [data-testid="stIconMaterial"] { font-size: 20px; }
+        [data-testid="stDialog"] [data-testid^="stBaseButton-tertiary"] { padding: 0; min-height: 0; }
+        /* Field text at the same 16px as the rest of the app. */
+        [data-testid="stDialog"] input,
+        [data-testid="stDialog"] textarea {
+            font-family: var(--pa-font-data);
+            font-size: 1rem;
         }
         .st-key-open-watchlist button:hover { background: var(--pa-ink); color: var(--pa-paper); }
         .st-key-open-watchlist button:hover p,
@@ -1077,31 +1095,6 @@ def inject_css() -> None:
             margin: 0 0 12px 0;
         }
         .wl-copy.wl-muted { color: var(--pa-muted); font-size: 0.9375rem; }
-        [data-testid="stDialog"] .st-key-wl-start button,
-        [data-testid="stDialog"] .st-key-watchlist-done button {
-            min-height: 44px;
-            padding: 10px 20px;
-            border-radius: 0;
-        }
-        [data-testid="stDialog"] .st-key-wl-start button p,
-        [data-testid="stDialog"] .st-key-watchlist-done button p,
-        [data-testid="stDialog"] .st-key-wl-back button p,
-        [data-testid="stDialog"] .st-key-wl-another button p {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-        }
-        [data-testid="stDialog"] .st-key-wl-back button { padding: 0; min-height: 0; }
-        .st-key-wl-done-actions { justify-content: flex-end; align-items: center; gap: 16px; }
-        [data-testid="stDialog"] [data-testid="stFormSubmitButton"] button {
-            min-height: 44px;
-            padding: 10px 20px;
-            border-radius: 0;
-        }
-        [data-testid="stDialog"] [data-testid="stFormSubmitButton"] button p {
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-        }
-
         /* ── Motion ─────────────────────────────────────────────────
            PA's easing and durations (pa-tokens.css motion: 150/250/400ms,
            cubic-bezier(0.2, 0, 0, 1)). Movement is small, a lift of a couple
@@ -2417,7 +2410,7 @@ def _submit_watchlist() -> None:
     state = st.session_state
     name = (state.get("wl_name") or "").strip()
     if not name:
-        state["wl_error"] = "Company name is required."
+        state["wl_error"] = "Please add the company's name."
         return
     try:
         add_operator_to_watchlist(
@@ -2427,7 +2420,7 @@ def _submit_watchlist() -> None:
             (state.get("wl_notes") or "").strip(),
         )
     except Exception:
-        state["wl_error"] = "Couldn't save that addition — please flag it to the team."
+        state["wl_error"] = "Something went wrong and we couldn't add it. Please try again, or let the team know."
         return
     state["wl_added"] = name
     state.pop("wl_error", None)
@@ -2446,54 +2439,52 @@ def _watchlist_dialog() -> None:
     if step == "intro":
         st.markdown(
             f'<div class="wl-illustration">{_WATCHLIST_ILLUSTRATION}</div>'
-            '<div class="wl-headline">Track a company</div>'
-            '<p class="wl-copy">Add an operator or company and Sector Signal will watch '
-            "for it from the next pipeline run: Gazette insolvency notices by name and, "
-            "with a Companies House number, its filings too. Its signals then appear in "
-            "the feed and its patterns alongside everyone else's.</p>"
-            '<p class="wl-copy wl-muted">You\'ll need the company name. The Companies House '
-            "number and any trading names are optional.</p>",
+            '<div class="wl-headline">Keep an eye on a company</div>'
+            '<p class="wl-copy">Add a company you care about and we\'ll keep watch for news '
+            "about it. New signals will show up in your feed as they happen.</p>"
+            '<p class="wl-copy wl-muted">All you need is its name. If you know its Companies '
+            "House number, add that too for fuller coverage.</p>",
             unsafe_allow_html=True,
         )
-        st.button("Get started", key="wl-start", type="primary", on_click=_wl_go, args=("form",))
+        st.button("Get started", key="wl-start", type="primary", width="stretch",
+                  on_click=_wl_go, args=("form",))
         return
 
     if step == "done":
         added = st.session_state.get("wl_added", "the company")
         st.markdown(
-            '<div class="wl-headline">Added to the watchlist</div>'
-            f'<p class="wl-copy"><b>{html.escape(added)}</b> will be picked up on the next '
-            "pipeline run. Its signals will show in the feed as they come in.</p>",
+            '<div class="wl-headline">You\'re all set</div>'
+            f'<p class="wl-copy">We\'ll start watching <b>{html.escape(added)}</b> shortly. '
+            "New signals will appear in your feed as they come in.</p>",
             unsafe_allow_html=True,
         )
-        with st.container(key="wl-done-actions", horizontal=True):
-            st.button("Add another", key="wl-another", type="tertiary",
-                      on_click=_wl_go, args=("form",))
-            if st.button("Done", key="watchlist-done", type="primary"):
-                st.rerun()  # a full rerun closes the dialog
+        if st.button("Done", key="watchlist-done", type="primary", width="stretch"):
+            st.rerun()  # a full rerun closes the dialog
+        st.button("Add another company", key="wl-another", type="tertiary", width="stretch",
+                  on_click=_wl_go, args=("form",))
         return
 
     st.button("Back", key="wl-back", icon=":material/arrow_back:", type="tertiary",
               on_click=_wl_go, args=("intro",))
     configured = _watchlist_configured()
     if not configured:
-        st.info(
-            "Saving to the watchlist isn't set up here: add a GITHUB_TOKEN "
-            "with write access to the repo to Streamlit's secrets."
-        )
+        # Technical detail for whoever sets it up: needs a GITHUB_TOKEN with
+        # write access to the repo in Streamlit's secrets.
+        st.info("Adding companies isn't switched on here yet. Ask the team to connect it.")
     with st.form("add_operator_form", border=False):
-        st.text_input("Company name", key="wl_name")
+        st.text_input("Company name", key="wl_name", placeholder="e.g. Example Gaming Ltd")
         st.text_input(
             "Companies House number (optional)",
             key="wl_number",
-            help="If you don't have this, we'll still monitor the name "
-            "for Gazette insolvency notices, but not Companies House filings.",
+            help="Optional. It helps us pick up official filings too.",
         )
-        st.text_input("Aliases / trading names (comma-separated, optional)", key="wl_aliases")
-        st.text_area("Notes (optional)", key="wl_notes")
+        st.text_input("Other names it goes by (optional)", key="wl_aliases",
+                      placeholder="Separate names with commas")
+        st.text_area("Notes (optional)", key="wl_notes",
+                     placeholder="Anything that helps the team, e.g. why it matters")
         st.form_submit_button(
             "Add to watchlist", type="primary", disabled=not configured,
-            on_click=_submit_watchlist,
+            width="stretch", on_click=_submit_watchlist,
         )
     if st.session_state.get("wl_error"):
         st.error(st.session_state["wl_error"])
