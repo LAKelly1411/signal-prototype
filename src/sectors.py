@@ -117,7 +117,7 @@ def _build(path: Path, raw: dict, user: dict, user_path: Path) -> Sector:
             raise SectorConfigError(path, key, "is required")
 
     slug = raw["slug"]
-    if slug != path.stem or not SLUG_RE.match(str(slug)):
+    if slug != path.stem or not isinstance(slug, str) or not SLUG_RE.fullmatch(slug):
         raise SectorConfigError(path, "slug", f"must match the filename ({path.stem}) and be [a-z0-9-]")
 
     prompt = raw["prompt"]
@@ -185,6 +185,8 @@ def _build(path: Path, raw: dict, user: dict, user_path: Path) -> Sector:
 def parse_sector(raw: dict, slug: str) -> Sector:
     """Validate a sector config held in memory (e.g. a Claude draft) with the
     same rules as a file on disk. Errors name the file it would be saved as."""
+    if not isinstance(slug, str) or not SLUG_RE.fullmatch(slug):
+        raise SectorConfigError(CONFIG_DIR / "invalid.yaml", "slug", f"not a sector slug: {slug!r}")
     if not isinstance(raw, dict):
         raise SectorConfigError(CONFIG_DIR / f"{slug}.yaml", "yaml", "top level must be a mapping")
     path = CONFIG_DIR / f"{slug}.yaml"
@@ -209,7 +211,7 @@ def list_sector_slugs(config_dir: Path | None = None) -> list[str]:
     for p in sorted(config_dir.glob("*.yaml")):
         if p.name.endswith(".user.yaml"):
             continue
-        if not SLUG_RE.match(p.stem):
+        if not SLUG_RE.fullmatch(p.stem):
             logger.warning("Skipping %s: %r is not a valid sector slug", p, p.stem)
             continue
         slugs.append(p.stem)

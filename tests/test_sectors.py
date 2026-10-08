@@ -202,3 +202,21 @@ class TestParseSector:
     def test_error_names_the_virtual_file(self):
         with pytest.raises(SectorConfigError, match="fintech.yaml"):
             sectors.parse_sector({k: v for k, v in MINIMAL.items() if k != "brief"}, "fintech")
+
+    @pytest.mark.parametrize("slug", ["a/b", "../x", "B", "b\n"])
+    def test_rejects_invalid_slug_argument(self, slug):
+        with pytest.raises(SectorConfigError, match="slug"):
+            sectors.parse_sector({**MINIMAL, "slug": slug}, slug)
+
+
+def test_build_rejects_trailing_newline_slug():
+    # Same slug on both sides, so only the regex can reject it.
+    path = Path("config/sectors/b\n.yaml")
+    with pytest.raises(SectorConfigError, match="slug"):
+        sectors._build(path, {**MINIMAL, "slug": "b\n"}, {}, path)
+
+
+def test_list_skips_trailing_newline_filename(tmp_path):
+    write(tmp_path, "fintech.yaml", MINIMAL)
+    (tmp_path / "b\n.yaml").write_text(yaml.safe_dump({**MINIMAL, "slug": "b\n"}), encoding="utf-8")
+    assert list_sector_slugs(config_dir=tmp_path) == ["fintech"]
