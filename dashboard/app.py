@@ -1193,6 +1193,10 @@ def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> 
             key=f"view-{group.key}",
             type="tertiary",
             disabled=selected,
+            # Stretch, not the default "content": a content-width button only
+            # covered a label-length strip at the card's left edge, so clicks
+            # on the rest of the card did nothing.
+            width="stretch",
             on_click=st.session_state.__setitem__,
             args=(state_key, group.id),
         )
