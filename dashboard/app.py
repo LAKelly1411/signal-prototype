@@ -182,12 +182,23 @@ def inject_css() -> None:
             border: none;
             background: transparent;
             padding: 0;
-            height: 3.6rem;
-            min-height: 3.6rem;
+            /* One title line (3rem x 1.0833), fixed so switching never moves the page. */
+            height: 3.25rem;
+            min-height: 3.25rem;
             margin: 0.75rem 0 0.5rem 0;
             justify-content: flex-start;
+            max-width: 100%;
         }
+        /* A name too long for the column is cut with an ellipsis rather than
+           wrapping (which would move the page) or running into the health strip. */
+        .st-key-pop-sector [data-testid="stPopoverButton"] > div > div,
+        .st-key-pop-sector [data-testid="stPopoverButton"] [data-testid="stMarkdownContainer"] { min-width: 0; }
+        /* Streamlit pulls this row 5px right (margin-right: -5px), which made
+           the button 5px narrower than its label; undone so the row fits. */
+        .st-key-pop-sector [data-testid="stPopoverButton"] > div { min-width: 0; margin-right: 0; max-width: 100%; }
         .st-key-pop-sector [data-testid="stPopoverButton"] p {
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-family: var(--pa-font-heading);
             font-weight: 700;
             font-size: 3rem;
@@ -198,7 +209,19 @@ def inject_css() -> None:
         }
         .st-key-pop-sector [data-testid="stPopoverButton"]:hover p { color: var(--pa-cobalt); }
         [data-testid="stPopoverBody"]:has([class*="st-key-sectoropt-"]) { min-width: 320px; }
+        [data-testid="stPopoverBody"]:has([class*="st-key-sectoropt-"]) hr { margin: 4px 0; }
+        /* The label fills the row, so the muted note can sit at its right edge. */
+        [class*="st-key-sectoropt-"] button > div,
+        [class*="st-key-sectoropt-"] button > div > span { width: 100%; }
+        [class*="st-key-sectoropt-"] [data-testid="stMarkdownContainer"] { flex: 1; }
         [class*="st-key-sectoropt-"] button p span { float: right; margin-left: 1.5rem; }
+        [class*="st-key-sectoropt-"][class*="-off"] [data-testid="stIconMaterial"] { visibility: hidden; }
+        /* "New sector" is a teaser for the premium add-on: visibly not clickable. */
+        .st-key-sector-new button:disabled p,
+        .st-key-sector-new button:disabled [data-testid="stIconMaterial"] { color: rgba(0, 0, 0, 0.45); }
+        .st-key-sector-new button:disabled:hover { background: transparent; }
+        /* Clear of the standfirst, which ends in markdown's -16px margin. */
+        .st-key-sector-state, .st-key-sector-notice { margin-top: 1.5rem; }
         .sector-notice {
             font-family: var(--pa-font-data);
             font-size: 0.875rem;
@@ -1281,10 +1304,13 @@ def render_masthead(entries: list[dict] | None = None, current: dict | None = No
     )
     if entries is None or current is None:
         return
-    st.markdown('<span class="pa-kicker">Sector</span>', unsafe_allow_html=True)
-    _sector_switcher(entries, current)
-    st.markdown('<p class="pa-standfirst">Sector signals, scored for newsworthiness.</p>',
-                unsafe_allow_html=True)
+    # No gap between these three: the CSS margins space them as the single
+    # masthead block did before the switcher (kicker, 12px, title, 8px, standfirst).
+    with st.container(key="pa-intro", gap=None):
+        st.markdown('<span class="pa-kicker">Sector</span>', unsafe_allow_html=True)
+        _sector_switcher(entries, current)
+        st.markdown('<p class="pa-standfirst">Sector signals, scored for newsworthiness.</p>',
+                    unsafe_allow_html=True)
 
 
 def _sector_switcher(entries: list[dict], current: dict) -> None:
@@ -1881,6 +1907,12 @@ def _empty_block(title: str, body: str) -> None:
         f'<div class="empty-body">{html.escape(body)}</div></div></div>',
         unsafe_allow_html=True,
     )
+
+
+def _sector_state_block(title: str, body: str) -> None:
+    """The block shown instead of the tabs when a sector has nothing to show."""
+    with st.container(key="sector-state"):
+        _empty_block(title, body)
 
 
 def _cluster_verdict(members: list[dict]) -> dict:
@@ -2725,18 +2757,18 @@ def main() -> None:
     try:
         signals = load_signals(slug, legacy)
     except data.DataError:
-        _empty_block("Not available yet",
-                     f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
+        _sector_state_block("Not available yet",
+                            f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
         return
 
     state = data.view_state(current, signals)
     if state == "setting_up":
-        _empty_block("Setting up", f"We're gathering the first signals for {name}. "
-                     "This usually takes under an hour.")
+        _sector_state_block("Setting up", f"We're gathering the first signals for {name}. "
+                            "This usually takes under an hour.")
         return
     if state == "error_empty":
-        _empty_block("Not available yet",
-                     f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
+        _sector_state_block("Not available yet",
+                            f"We couldn't load {name} yet. We'll try again on the next scheduled update.")
         return
     if state == "error_with_data":
         with st.container(key="sector-notice"):

@@ -49,10 +49,20 @@ copy, kept for the deployed dashboard until stage 2.
 
 One file per sector in `config/sectors/<slug>.yaml`;
 `config/sectors/gambling.yaml` is the worked example. Additions live beside a
-sector's config in `config/sectors/<slug>.user.yaml`; for now the dashboard's
-watchlist form writes `config/sectors/gambling.user.yaml` only (other sectors
-arrive in stage 2). Each sector's run makes its own Claude calls, so every
-sector adds to the cost of a run.
+sector's config in `config/sectors/<slug>.user.yaml`; the dashboard's
+watchlist form writes to the file of the sector it is showing. Each sector's
+run makes its own Claude calls, so every sector adds to the cost of a run.
+
+Current sectors:
+
+- **Gambling & gaming** (`gambling`).
+- **Fintech & payments** (`fintech`). Run it with
+  `python -m src.pipeline --sector fintech`, or dispatch the Pipeline workflow
+  with `sector` set to `fintech`. Its first run scores everything it collects,
+  so it makes paid Claude calls.
+
+The dashboard lists the sectors in `data/sectors.json` in a switcher on the
+page title; `?sector=<slug>` opens one directly.
 
 The Pipeline workflow takes an optional `sector` input; empty runs every
 sector. GitHub keeps at most one pending run per concurrency group, so a newer
@@ -76,6 +86,25 @@ pipeline posts there on failure; without it the alert step is skipped).
 GitHub Actions **variable**: `ANTHROPIC_MODEL` (not a secret, so the model in
 use is visible without opening settings).
 
-Streamlit secrets: `DASHBOARD_PASSWORD`, `DATA_RAW_URL`, `GITHUB_TOKEN`, and
-`RUN_STATUS_RAW_URL` — the raw URL of `data/run_status.json`. If it isn't set
-the dashboard simply hides the freshness strip.
+Streamlit secrets: `DASHBOARD_PASSWORD`, `GITHUB_TOKEN` and `DATA_BASE_URL`
+— the raw prefix of the repo's `data/` folder, ending in `/`, for example
+`https://raw.githubusercontent.com/LAKelly1411/signal-prototype/main/data/`.
+The dashboard reads `sectors.json` and each sector's `<slug>/signals.json` and
+`<slug>/run_status.json` from there.
+
+`DATA_RAW_URL` and `RUN_STATUS_RAW_URL` (the raw URLs of `data/signals.json`
+and `data/run_status.json`) are now only the fallback: the dashboard uses them,
+as a single gambling sector, while `DATA_BASE_URL` is unset or
+`data/sectors.json` doesn't exist on main yet. Without `RUN_STATUS_RAW_URL` the
+fallback simply hides the freshness strip.
+
+### Deploying the sector switcher
+
+1. Merge.
+2. Let the pipeline run once on main. This creates `data/gambling/` and
+   `data/sectors.json`.
+3. Set `DATA_BASE_URL` in Streamlit Cloud.
+
+Follow-up, once that's live: remove the compatibility copy
+(`data/signals.json`, `data/run_status.json`), the old `DATA_RAW_URL` /
+`RUN_STATUS_RAW_URL` secrets and the dashboard's fallback to them.
