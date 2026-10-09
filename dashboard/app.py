@@ -648,6 +648,7 @@ def inject_css() -> None:
         }
         .sp-list { list-style: none; margin: 0; padding: 0; font-family: var(--pa-font-data); }
         .sp-row {
+            position: relative;
             display: grid;
             grid-template-columns: 3.75rem 1fr;
             margin: 0;
@@ -659,18 +660,30 @@ def inject_css() -> None:
             color: #6b6b6b;
             white-space: nowrap;
         }
-        /* Each row's content carries its stretch of rail as a left border,
-           with padding (not margin) between rows so the line runs unbroken
-           from the first dot to the last. The rail starts at the first dot. */
+        /* The rail: one segment per row, each running 1px past its row's
+           bottom so neighbours overlap. Rows sit on fractional pixel
+           positions, and touching edges (a border per row) left a hairline
+           gap where two met. The first segment starts at its dot, the last
+           stops at its dot, and a lone signal has none. Centred on the dots
+           (which sit centred on the content column's left edge). */
+        .sp-row::before {
+            content: "";
+            position: absolute;
+            left: calc(3.75rem - 1px);
+            top: 0;
+            bottom: -1px;
+            width: 1px;
+            background: #d8d6cc;
+        }
+        .sp-row:first-child::before { top: 9px; }
+        .sp-row:last-child::before { bottom: auto; height: 10px; }
+        .sp-row:first-child:last-child::before { display: none; }
         .sp-main {
             position: relative;
             min-width: 0;
             padding: 0 0 2rem 1.25rem;
-            border-left: 1px solid #d8d6cc;
         }
-        .sp-row:first-child .sp-main { border-image: linear-gradient(transparent 6px, #d8d6cc 6px) 1; }
-        .sp-row:last-child .sp-main { padding-bottom: 0; border-image: linear-gradient(#d8d6cc 10px, transparent 10px) 1; }
-        .sp-row:only-child .sp-main { border-left-color: transparent; border-image: none; }
+        .sp-row:last-child .sp-main { padding-bottom: 0; }
         .sp-row + .sp-row .sp-main::after {
             content: "";
             position: absolute;
@@ -689,6 +702,7 @@ def inject_css() -> None:
             height: 7px;
             border-radius: 50%;
             background: #b9b7ad;
+            z-index: 1;
             transition: background var(--dur-fast, 120ms) var(--ease, ease);
         }
         .sp-row:hover .sp-main::before { background: var(--pa-cobalt); }
@@ -2218,7 +2232,7 @@ def _signal_rows_html(members: list[dict], now: datetime) -> str:
             meta.append(f'<span class="sp-rel" title="{score}% relevant">'
                         f'{_relevance_ring(score)}{score}%</span>')
         rows.append(
-            f'<li class="sp-row"{week_attr}>'
+            f'<div class="sp-row" role="listitem"{week_attr}>'
             f'<time class="sp-date" title="{html.escape(exact, quote=True)}">{html.escape(date)}</time>'
             '<div class="sp-main">'
             f'<a class="sp-title" href="{safe_url(m["source_url"])}" target="_blank" '
@@ -2226,9 +2240,11 @@ def _signal_rows_html(members: list[dict], now: datetime) -> str:
             + (f'<div class="sp-body">{html.escape(m["why_it_matters"])}</div>'
                if m.get("why_it_matters") else "")
             + f'<div class="sp-meta">{'<span class="sp-dot">·</span>'.join(meta)}</div>'
-            "</div></li>"
+            "</div></div>"
         )
-    return f'<ol class="sp-list">{"".join(rows)}</ol>'
+    # Plain divs with list roles, not <ol>/<li>: Streamlit's Markdown styles
+    # give list items margins and an indent that broke the rail at each row.
+    return f'<div class="sp-list" role="list">{"".join(rows)}</div>'
 
 
 def _week_range(start: datetime) -> str:
