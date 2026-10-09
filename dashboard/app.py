@@ -520,11 +520,11 @@ def inject_css() -> None:
         .tl-tip b { font-size: 0.9375rem; font-weight: 700; }
         .tl-tip.tl-tip-start { transform: translate(-12px, 4px); }
         .tl-tip.tl-tip-end { transform: translate(calc(-100% + 12px), 4px); }
-        .tl-col:hover .tl-guide,
-        .tl-col:hover .tl-hdot { opacity: 1; }
-        .tl-col:hover .tl-tip { opacity: 1; transform: translate(-50%, 0); }
-        .tl-col:hover .tl-tip.tl-tip-start { transform: translate(-12px, 0); }
-        .tl-col:hover .tl-tip.tl-tip-end { transform: translate(calc(-100% + 12px), 0); }
+        .tl-col:is(:hover, .tl-on) .tl-guide,
+        .tl-col:is(:hover, .tl-on) .tl-hdot { opacity: 1; }
+        .tl-col:is(:hover, .tl-on) .tl-tip { opacity: 1; transform: translate(-50%, 0); }
+        .tl-col:is(:hover, .tl-on) .tl-tip.tl-tip-start { transform: translate(-12px, 0); }
+        .tl-col:is(:hover, .tl-on) .tl-tip.tl-tip-end { transform: translate(calc(-100% + 12px), 0); }
         .tl-guide, .tl-hdot, .tl-tip {
             transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
         }
@@ -577,8 +577,9 @@ def inject_css() -> None:
 
         /* ── Preview pane ──────────────────────────────────────────
            Fixed to the window's right edge at full height, apart from the
-           title and the list, which move over for it. White, with a grey rule
-           on its left edge that doubles as the drag-to-resize handle. */
+           title and the list, which move over for it. White, lifted off the
+           page with the cards' drop shadow; its left edge is the
+           drag-to-resize handle, and a × in the corner closes it. */
         :root { --preview-width: min(34rem, 38vw); }
         [data-testid="stLayoutWrapper"]:has(> [class*="st-key-signals-panel-"]) {
             position: fixed;
@@ -599,10 +600,87 @@ def inject_css() -> None:
             height: 100%;
             overflow-y: auto;
             background: var(--pa-paper);
-            border-left: 1px solid #cccccc;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
             padding: 2rem 1.75rem 3rem 1.75rem;
             gap: 0;
         }
+        /* The pane's head (summary and sparkline) sticks to the top while the
+           timeline scrolls under it. The pane's own 2rem top padding is pulled
+           back so the head sits flush, with a hairline shadow once stuck. */
+        /* Sticky goes on Streamlit's wrapper around the container: the
+           container itself is only as tall as its wrapper, so it has nowhere
+           to stick within it. */
+        [data-testid="stLayoutWrapper"]:has(> [class*="st-key-sp-head-"]) {
+            position: sticky;
+            top: -2rem;
+            z-index: 4;
+            margin: -2rem -1.75rem 0 -1.75rem;
+            /* Full bleed: the wrapper is width:100% by default, so the
+               negative side margins alone wouldn't widen it. */
+            width: calc(100% + 3.5rem) !important;
+            max-width: none;
+        }
+        [class*="st-key-sp-head-"] {
+            position: relative;
+            background: var(--pa-paper);
+            /* Markdown's -16px bottom margin would otherwise let the last tag
+               row hang below the head's white background. */
+            padding: 2rem 1.75rem 2rem 1.75rem;
+            box-shadow: 0 6px 12px -8px rgba(0, 0, 0, 0.18);
+            gap: 0;
+        }
+        /* Room on the right of the title row for the close button. */
+        [class*="st-key-sp-head-"] .group-card-full .sc-head { padding-right: 2.5rem; }
+        /* The close button, in the head's top-right corner. */
+        [class*="st-key-sp-close-"] {
+            position: absolute;
+            top: 1.25rem;
+            right: 1rem;
+            width: auto;
+            z-index: 2;
+        }
+        /* The timeline: a rail down the left of the pane's signals, with a dot
+           per signal. Each card draws its own stretch of rail, through the gap
+           below it, so the rail runs unbroken from the first dot to the last. */
+        [class*="st-key-signals-panel-"] .signal-card[data-week],
+        [class*="st-key-signals-panel-"] .signal-card {
+            position: relative;
+            margin-left: 28px;
+        }
+        [class*="st-key-signals-panel-"] .signal-card::before {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 26px;
+            bottom: -50px;
+            width: 2px;
+            background: #dedad9;
+        }
+        [class*="st-key-signals-panel-"] [data-testid="stElementContainer"]:last-child .signal-card::before {
+            display: none;
+        }
+        [class*="st-key-signals-panel-"] .signal-card::after {
+            content: "";
+            position: absolute;
+            left: -25px;
+            top: 20px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--pa-paper);
+            border: 2px solid var(--pa-cobalt);
+            box-sizing: border-box;
+        }
+        [class*="st-key-signals-panel-"] .signal-card:hover::after { background: var(--pa-cobalt); }
+        [class*="st-key-sp-close-"] button {
+            min-height: 32px;
+            height: 32px;
+            width: 32px;
+            padding: 0;
+            justify-content: center;
+            color: var(--pa-ink);
+        }
+        [class*="st-key-sp-close-"] button:hover { background: #f3f3f3; color: var(--pa-ink); }
         .sp-resize {
             position: fixed;
             top: 0;
@@ -1574,7 +1652,10 @@ def _relevance_ring(score: int) -> str:
     )
 
 
-def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
+def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None,
+                week: int | None = None) -> None:
+    """One signal. week is its index on the preview pane's sparkline, so
+    hovering the card can light up that week (see _RESIZE_SCRIPT)."""
     score = signal["newsworthiness_score"]
     label = score_tier(score)[0]
     now = datetime.now(timezone.utc)
@@ -1619,8 +1700,9 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 
     # One line of HTML: indented, blank-line-separated markup risks being read
     # as a Markdown code block.
+    week_attr = f' data-week="{week}"' if week is not None else ""
     st.markdown(
-        '<div class="signal-card">'
+        f'<div class="signal-card"{week_attr}>'
         '<div class="sc-head">'
         f'<div class="sc-source">{_source_logo(source)}'
         f'<span class="sc-source-name">{html.escape(source_name)}</span>'
@@ -2048,6 +2130,16 @@ def _weekly_counts(members: list[dict], now: datetime) -> list[int]:
     return counts
 
 
+def _week_index(signal: dict, now: datetime) -> int | None:
+    """The signal's column on a sparkline (oldest week 0), or None if it's
+    older than the sparkline reaches. Same bucketing as _weekly_counts."""
+    dt = datetime.fromisoformat(signal["published_at"])
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    weeks_ago = int((now - dt).total_seconds() // (7 * 86400))
+    return SPARK_WEEKS - 1 - weeks_ago if 0 <= weeks_ago < SPARK_WEEKS else None
+
+
 def _week_range(start: datetime) -> str:
     """'18–24 Aug 2026', or '28 Jul – 3 Aug 2026' across a month boundary."""
     end = start + timedelta(days=6)
@@ -2116,7 +2208,7 @@ def _timeline(members: list[dict], now: datetime, scale: int) -> str:
         bottom = (SPARK_HEIGHT - yy) / SPARK_HEIGHT * 100
         edge = " tl-tip-start" if i < 2 else " tl-tip-end" if i > SPARK_WEEKS - 3 else ""
         columns.append(
-            f'<div class="tl-col" style="left:{x0:.2f}%;width:{x1 - x0:.2f}%">'
+            f'<div class="tl-col" data-week="{i}" style="left:{x0:.2f}%;width:{x1 - x0:.2f}%">'
             f'<span class="tl-guide" style="left:{at:.1f}%"></span>'
             f'<span class="tl-hdot{dot_class(c)}" style="left:{at:.1f}%;bottom:{bottom:.1f}%"></span>'
             f'<span class="tl-tip{edge}" style="left:{at:.1f}%;bottom:calc({bottom:.1f}% + 14px)">'
@@ -2301,6 +2393,16 @@ _RESIZE_SCRIPT = """
       const btn = card && card.querySelector("button");
       if (btn && !btn.disabled) btn.click();
     },
+    // Hovering a signal in the preview pane lights up its week on the pane's
+    // sparkline: the same dot, guide and tooltip as hovering the line itself.
+    mouseover: (e) => {
+      const card = e.target.closest && e.target.closest('[class*="st-key-signals-panel-"] .signal-card[data-week]');
+      const pane = card && card.closest('[class*="st-key-signals-panel-"]');
+      doc.querySelectorAll(".tl-col.tl-on").forEach((c) => c.classList.remove("tl-on"));
+      if (!pane) return;
+      const col = pane.querySelector(`.tl-col[data-week="${card.dataset.week}"]`);
+      if (col) col.classList.add("tl-on");
+    },
     keydown: (e) => {
       if (!e.target.closest || !e.target.closest(".sp-resize")) return;
       const step = { ArrowLeft: 32, ArrowRight: -32 }[e.key];
@@ -2320,7 +2422,7 @@ _RESIZE_SCRIPT = """
 """
 
 
-def _preview_pane(key: str, group: Group, now: datetime) -> None:
+def _preview_pane(key: str, group: Group, now: datetime, state_key: str) -> None:
     """The selected pattern or theme in full, then its source signals, in a
     pane fixed to the window's right edge (see inject_css), apart from the
     title and the list. Only the active tab is in the DOM, so the pane appears
@@ -2331,30 +2433,38 @@ def _preview_pane(key: str, group: Group, now: datetime) -> None:
     with st.container(key=key):
         st.markdown(
             '<div class="sp-resize" role="separator" aria-orientation="vertical" '
-            'aria-label="Resize preview" tabindex="0"></div>'
-            f"{_group_html(group, now, full=True)}"
-            f'<div class="sp-section">Signals ({len(group.members)})</div>',
+            'aria-label="Resize preview" tabindex="0"></div>',
             unsafe_allow_html=True,
         )
+        # The summary and sparkline stay pinned while the signals scroll under
+        # them, with the close button in their corner.
+        with st.container(key=f"sp-head-{state_key}"):
+            st.button("", key=f"sp-close-{state_key}", icon=":material/close:", type="tertiary",
+                      help="Close preview", on_click=st.session_state.pop, args=(state_key, None))
+            st.markdown(_group_html(group, now, full=True), unsafe_allow_html=True)
+        st.markdown(f'<div class="sp-section">Timeline ({len(group.members)})</div>',
+                    unsafe_allow_html=True)
+        # Newest first, as a timeline: a rail down the left with a dot per
+        # signal. Hovering a signal lights up its week on the sparkline above.
         for m in sorted(group.members, key=lambda m: m["published_at"], reverse=True):
-            render_card(m)
+            render_card(m, week=_week_index(m, now))
 
 
 def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
-    """The list of cards plus the preview of the selected one, falling back
-    to the first when nothing is chosen yet or the choice dropped out of view."""
+    """The list of cards, plus the preview of the selected one. Nothing is
+    selected when the tab opens, so the pane only appears once a card is
+    clicked; it closes again with its × or when the choice drops out of view."""
     now = datetime.now(timezone.utc)
     # One y-axis for every sparkline on the tab, so heights compare across cards.
     scale = _nice_scale(max(max(_weekly_counts(g.members, now)) for g in groups))
     for group in groups:
         group.scale = scale
-    ids = [g.id for g in groups]
     selected = st.session_state.get(state_key)
-    if selected not in ids:
-        selected = ids[0]
-    _preview_pane(pane_key, next(g for g in groups if g.id == selected), now)
+    current = next((g for g in groups if g.id == selected), None)
+    if current is not None:
+        _preview_pane(pane_key, current, now, state_key)
     for group in groups:
-        _group_card(group, now, group.id == selected, state_key)
+        _group_card(group, now, current is not None and group.id == selected, state_key)
 
 
 def render_patterns(signals: list[dict], sector) -> None:

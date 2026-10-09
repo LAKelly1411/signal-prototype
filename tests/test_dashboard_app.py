@@ -631,3 +631,35 @@ def test_create_failure_is_logged(monkeypatch, caplog):
         at.button(key="ns-create").click().run()
     assert saved == []
     assert any(r.exc_info and "bad config" in str(r.exc_info[1]) for r in caplog.records)
+
+
+FULL_SIGNALS = json.loads(Path("data/signals.json").read_text())
+
+
+@pytest.mark.parametrize("tab,card_prefix,state_key", [
+    ("Patterns", "view-pcard-", "pattern_selected"),
+    ("Themes", "view-tcard-", "theme_selected"),
+])
+def test_preview_opens_on_click_and_closes(monkeypatch, tab, card_prefix, state_key):
+    serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=FULL_SIGNALS)})
+    at = app(base=None).run()
+    at.session_state["tab"] = tab
+    at.run()
+    assert not at.exception
+    close_key = f"sp-close-{state_key}"
+    cards = [b for b in at.button if b.key and b.key.startswith(card_prefix)]
+    assert cards, "the full data should have at least one group"
+    # Opening the tab doesn't open the preview.
+    assert state_key not in at.session_state or at.session_state[state_key] is None
+    assert not [b for b in at.button if b.key == close_key]
+    # AppTest resets the tab widget to its default on each run, so the tab is
+    # set again before every run.
+    cards[0].click()
+    at.session_state["tab"] = tab
+    at.run()
+    assert [b for b in at.button if b.key == close_key]
+    at.button(key=close_key).click()
+    at.session_state["tab"] = tab
+    at.run()
+    assert not at.exception
+    assert not [b for b in at.button if b.key == close_key]
