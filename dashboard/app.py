@@ -1,3 +1,4 @@
+import hashlib
 import html
 import logging
 from collections import Counter, defaultdict
@@ -1658,21 +1659,45 @@ def inject_css() -> None:
         /* Full bleed: the sign-in page drops Streamlit's page width and
            padding, so the cobalt panel runs to the window's edges. */
         [data-testid="stMainBlockContainer"]:has(.st-key-login) { max-width: none; padding: 0; }
-        [data-testid="stHeader"]:has(~ * .st-key-login), .stApp:has(.st-key-login) [data-testid="stHeader"] { background: transparent; }
+        .stApp:has(.st-key-login) [data-testid="stHeader"] { display: none; }
+        .stApp:has(.st-key-login) [data-testid="stMain"] { padding-top: 0; }
+        /* The invisible style and script elements above the page would
+           otherwise each leave a gap above the panel. */
+        [data-testid="stMainBlockContainer"]:has(.st-key-login) > [data-testid="stVerticalBlock"] { gap: 0; }
+        [data-testid="stMainBlockContainer"]:has(.st-key-login) [data-testid="stElementContainer"]:has(> [data-testid="stHtml"]),
+        [data-testid="stMainBlockContainer"]:has(.st-key-login) [data-testid="stElementContainer"]:has(style:only-child) { display: none; }
         .st-key-login { min-height: 100vh; justify-content: center; }
-        .st-key-login [data-testid="stHorizontalBlock"] { align-items: stretch; min-height: 100vh; }
-        .st-key-login [data-testid="stColumn"]:last-child { display: flex; align-items: center; }
+        /* The hero is a window tall by itself; centring the columns against
+           it puts the form in the middle of the white half. */
+        .st-key-login [data-testid="stHorizontalBlock"] { align-items: center !important; min-height: 100vh; }
+
+        .st-key-login [data-testid="stColumn"] { margin-top: 0; }
+        /* The form's column is a window tall with the form centred in it
+           (centring the columns themselves doesn't hold in Streamlit's
+           wrapping flex row). */
+        .st-key-login [data-testid="stColumn"]:last-child {
+            height: 100vh !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+        }
+        .st-key-login [data-testid="stColumn"]:last-child > [data-testid="stVerticalBlock"] { justify-content: center !important; }
+        /* Exactly one window tall: the words at the top, the illustration
+           anchored to the bottom and shrinking to fit what's left. */
         .login-hero {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            gap: 1.25rem;
-            height: 100%;
-            min-height: 100vh;
-            padding: 4rem clamp(2rem, 6vw, 6rem);
+            justify-content: space-between;
+            gap: 2rem;
+            height: 100vh;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+            padding: clamp(2.5rem, 8vh, 6rem) clamp(2rem, 6vw, 6rem) 0;
             background: var(--pa-cobalt);
             color: var(--pa-paper);
         }
+        .login-hero-text { display: flex; flex-direction: column; gap: 1.25rem; }
         .login-hero .pa-kicker { width: fit-content; }
         /* Scoped to the hero so it outranks Streamlit's own h1 sizing. */
         .login-hero h1.login-headline {
@@ -1687,7 +1712,95 @@ def inject_css() -> None:
             color: var(--pa-paper) !important;
         }
         .login-hero p.login-lede { margin: 0; max-width: 32rem; font-size: 1.25rem; line-height: 1.5; color: rgba(255, 255, 255, 0.88); }
-        .login-art { width: 100%; max-width: 34rem; height: auto; margin-top: 2rem; }
+        /* The illustration fills the panel's width and moves: tiles breathe,
+           the line draws itself, the dot arrives and pulses. */
+        /* Full bleed along the bottom of the panel, no padding: the grid is
+           cropped at the edges as if zoomed in. */
+        .login-art {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            height: 46vh;
+        }
+        .la-still { display: none; }
+        .la-cell { animation: la-breathe 4s ease-in-out infinite alternate; }
+        @keyframes la-breathe {
+            from { opacity: 0.45; }
+            to { opacity: 1; }
+        }
+        /* The line's layer: stretched over the grid, revealed left to right
+           (a clip, not a dash: dashes go wrong under non-scaling strokes). */
+        .login-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 46vh;
+            overflow: visible;
+            clip-path: inset(-10% 100% -10% 0);
+            animation: la-reveal 2.6s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+        }
+        @keyframes la-reveal { to { clip-path: inset(-10% -10% -10% 0); } }
+        .la-line, .la-line-still {
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 5;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+            vector-effect: non-scaling-stroke;
+        }
+        /* Zero-length strokes with round caps: circles at any stretch. */
+        .la-dot, .la-dot-still, .la-ring {
+            stroke: #ffffff;
+            stroke-linecap: round;
+            vector-effect: non-scaling-stroke;
+        }
+        .la-dot, .la-dot-still { stroke-width: 18px; }
+        .la-mark { opacity: 0; }
+        .la-tip {
+            position: absolute;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            width: max-content;
+            padding: 8px 12px;
+            background: var(--pa-ink);
+            color: var(--pa-paper);
+            font-family: var(--pa-font-data);
+            font-size: 0.8125rem;
+            line-height: 1.3;
+            transform: translateX(-50%);
+            opacity: 0;
+            pointer-events: none;
+        }
+        .la-tip b { font-size: 1rem; }
+        .la-tip::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -6px;
+            width: 12px;
+            height: 12px;
+            background: var(--pa-ink);
+            transform: translateX(-50%) rotate(45deg);
+        }
+        .la-ring { stroke-width: 18px; opacity: 0; animation: la-pulse 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+        @keyframes la-pulse {
+            0% { opacity: 0.55; stroke-width: 18px; }
+            100% { opacity: 0; stroke-width: 64px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .la-cell { animation: none; }
+            .login-line { animation: none; clip-path: none; }
+            .la-move-tips { display: none; }
+            .la-move { display: none; }
+            .la-still { display: inline; }
+        }
         .st-key-login-form { width: 100%; max-width: 24rem; margin: 0 auto; padding: 2rem; gap: 1rem; }
         .login-title {
             margin-top: 2.5rem;
@@ -1702,8 +1815,8 @@ def inject_css() -> None:
         .st-key-login-form [data-testid="stFormSubmitButton"] button { min-height: 48px; }
         .st-key-login-form [data-testid="stFormSubmitButton"] button p { font-weight: 700; font-size: 1rem; }
         @media (max-width: 760px) {
-            .login-hero { min-height: auto; padding: 2rem 1.5rem; }
-            .login-art { display: none; }
+            .login-hero { height: auto; padding: 2rem 1.5rem 2rem 1.5rem; }
+            .login-art, .login-line, .la-move-tips { display: none; }
             .st-key-login-form { padding: 1.5rem 0; }
         }
         </style>
@@ -1755,35 +1868,131 @@ def _sector_switcher(entries: list[dict], current: dict, at_cap: bool) -> None:
             _new_sector_dialog()
 
 
+CYCLE, START = 15, 2.9  # login art: seconds per loop of the line, and when it starts
+
+
 def _login_art() -> str:
-    """The sign-in page's illustration: a heat map of news by week in cobalt
-    tints, with a rising signal line and its latest point in white. Fixed
-    pattern (no randomness), so it's the same on every load."""
-    cols, rows, size, gap = 14, 6, 22, 4
-    shades = ("rgba(255,255,255,0.10)", "rgba(255,255,255,0.22)",
-              "rgba(255,255,255,0.38)", "rgba(255,255,255,0.62)")
+    """The sign-in page's illustration, filling the bottom of the cobalt panel
+    edge to edge: a heat map of news by week whose tiles breathe on staggered
+    rhythms, and a jagged signal line that draws itself in, then keeps moving
+    between different sets of values, with a pulsing dot riding its end.
+    Deterministic, so it's the same on every load; a still version shows for
+    anyone who prefers reduced motion (see inject_css)."""
+    cols, rows, size, gap = 26, 9, 34, 6
+    width, height = cols * (size + gap) - gap, rows * (size + gap) - gap
+
+    def noise(*k: int) -> float:
+        """A repeatable, well-spread 0-1 value from integers (no randomness)."""
+        digest = hashlib.blake2b(repr(k).encode(), digest_size=4).digest()
+        return int.from_bytes(digest, "big") / 0xFFFFFFFF
+
     cells = []
     for r in range(rows):
         for c in range(cols):
-            # Quieter early weeks, busier late ones, with a little rhythm.
-            level = min(3, max(0, (c * 3 + (r * 5 + c * 7) % 6) // 11))
-            cells.append(f'<rect x="{c * (size + gap)}" y="{r * (size + gap)}" '
-                         f'width="{size}" height="{size}" fill="{shades[level]}"/>')
-    width, height = cols * (size + gap) - gap, rows * (size + gap) - gap
-    pts = [(0, 118), (52, 104), (104, 112), (156, 86), (208, 92), (260, 64),
-           (312, 70), (338, 30)]
-    line = " ".join(f"{x},{y}" for x, y in pts)
-    end_x, end_y = pts[-1]
-    return (
-        f'<svg class="login-art" viewBox="-4 -4 {width + 8} {height + 8}" role="img" '
-        'aria-label="A heat map of news by week with a rising signal line">'
-        + "".join(cells)
-        + f'<polyline points="{line}" fill="none" stroke="#ffffff" stroke-width="3" '
-        'stroke-linejoin="round" stroke-linecap="round"/>'
-        f'<circle cx="{end_x}" cy="{end_y}" r="7" fill="#ffffff"/>'
-        f'<circle cx="{end_x}" cy="{end_y}" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2"/>'
+            base = 0.06 + 0.42 * (c / (cols - 1)) * (0.45 + 0.55 * noise(r, c, 1))
+            dur = 3 + noise(r, c, 2) * 4
+            delay = noise(r, c, 3) * 6
+            cells.append(
+                f'<rect class="la-cell" x="{c * (size + gap)}" y="{r * (size + gap)}" '
+                f'width="{size}" height="{size}" fill="#ffffff" fill-opacity="{base:.2f}" '
+                f'style="animation-duration:{dur:.1f}s;animation-delay:-{delay:.2f}s"/>'
+            )
+
+    # Four takes on the same rising story, each jagged in its own way; the
+    # line morphs between them so the values keep changing.
+    n_pts = 19
+    step = width * 0.93 / (n_pts - 1)  # stop short of the edge so the dot shows
+
+    def take(seed: int) -> list[tuple[float, float]]:
+        pts = []
+        for i in range(n_pts):
+            trend = 0.12 + 0.62 * (i / (n_pts - 1))
+            jag = (noise(seed, i) - 0.5) * 0.5
+            v = min(0.92, max(0.06, trend + jag))
+            pts.append((round(i * step, 1), round(height - v * height, 1)))
+        return pts
+
+    takes = [take(s) for s in (11, 23, 37, 51)]
+    takes.append(takes[0])  # loop back to the start
+    as_points = [" ".join(f"{x},{y}" for x, y in p) for p in takes]
+    splines = ";".join(["0.45 0 0.55 1"] * (len(takes) - 1))
+    times = ";".join(f"{i / (len(takes) - 1):.3f}" for i in range(len(takes)))
+
+    def anim(attr: str, values: str) -> str:
+        return (f'<animate attributeName="{attr}" dur="{CYCLE}s" begin="{START}s" repeatCount="indefinite" '
+                f'calcMode="spline" keyTimes="{times}" keySplines="{splines}" values="{values}"/>')
+
+    # Three highlighted peaks: each in turn pulses and shows a read-out, as if
+    # the dashboard were pointing at a moment. They ride the line as it morphs.
+    first = takes[0]
+    candidates = sorted(range(3, n_pts - 1), key=lambda i: first[i][1])  # highest first (smallest y)
+    picks: list[int] = []
+    for i in candidates:
+        if all(abs(i - j) >= 4 for j in picks):
+            picks.append(i)
+        if len(picks) == 3:
+            break
+    picks.sort()
+
+    today = datetime.now(timezone.utc).date()
+    markers, tips, keyframes = [], [], []
+    for k, i in enumerate(picks):
+        ys = [p[i][1] for p in takes]
+        x = first[i][0]
+        y_values = ";".join(str(y) for y in ys)
+        dot = f'x1="{x}" x2="{x}" y1="{ys[0]}" y2="{ys[0]}"'
+        markers.append(
+            f'<g class="la-mark la-mark-{k}">'
+            f'<line class="la-ring" {dot}>{anim("y1", y_values)}{anim("y2", y_values)}</line>'
+            f'<line class="la-dot" {dot}>{anim("y1", y_values)}{anim("y2", y_values)}</line>'
+            "</g>"
+        )
+        # The read-out follows its point's height with the same timing and
+        # easing as the line, and shows during its turn in the cycle.
+        week = today - timedelta(weeks=n_pts - 1 - i)
+        count = round(6 + (1 - ys[0] / height) * 40)
+        stops = len(ys) - 1
+        moves = " ".join(
+            f"{j / stops * 100:.1f}% {{ bottom: calc(46vh * {1 - y / height:.3f} + 22px); }}"
+            for j, y in enumerate(ys)
+        )
+        lo, hi = k / len(picks) * 100, (k / len(picks) + 0.26) * 100
+        keyframes.append(
+            f"@keyframes la-tip-move-{k} {{ {moves} }} "
+            f"@keyframes la-show-{k} {{ 0%, {max(lo - 0.1, 0):.1f}% {{ opacity: 0; }} "
+            f"{lo + 2:.1f}%, {hi - 2:.1f}% {{ opacity: 1; }} {hi:.1f}%, 100% {{ opacity: 0; }} }} "
+            f".la-tip-{k} {{ left: {x / width * 100:.2f}%; "
+            f"bottom: calc(46vh * {1 - ys[0] / height:.3f} + 22px); "
+            f"animation: la-tip-move-{k} {CYCLE}s ease-in-out {START}s infinite, "
+            f"la-show-{k} {CYCLE}s linear {START}s infinite; }} "
+            f".la-mark-{k} {{ animation: la-show-{k} {CYCLE}s linear {START}s infinite; }}"
+        )
+        tips.append(
+            f'<div class="la-tip la-tip-{k}" aria-hidden="true">'
+            f"<span>Week of {week.day} {week:%b}</span><b>{count} signals</b></div>"
+        )
+
+    # The grid is cropped to fill the panel ("slice"); the line sits on its own
+    # layer stretched to the panel ("none") so all of it always shows. Strokes
+    # don't scale with the stretch, and the dots and pulses are zero-length
+    # strokes with round caps, so they stay circles.
+    grid = (f'<svg class="login-art" viewBox="0 0 {width} {height}" preserveAspectRatio="xMinYMax slice" '
+            f'aria-hidden="true">{"".join(cells)}</svg>')
+    still_dots = "".join(
+        f'<line class="la-dot-still" x1="{first[i][0]}" x2="{first[i][0]}" y1="{first[i][1]}" y2="{first[i][1]}"/>'
+        for i in picks
+    )
+    line = (
+        f'<svg class="login-line" viewBox="0 0 {width} {height}" preserveAspectRatio="none" '
+        'role="img" aria-label="A rising, shifting signal line with its busiest weeks highlighted">'
+        '<g class="la-move">'
+        f'<polyline class="la-line" pathLength="1" points="{as_points[0]}">{anim("points", ";".join(as_points))}</polyline>'
+        f'{"".join(markers)}'
+        "</g>"
+        f'<g class="la-still"><polyline class="la-line-still" points="{as_points[0]}"/>{still_dots}</g>'
         "</svg>"
     )
+    return f'<style>{" ".join(keyframes)}</style>{grid}{line}<div class="la-move-tips">{"".join(tips)}</div>'
 
 
 def check_password() -> bool:
@@ -1796,11 +2005,11 @@ def check_password() -> bool:
         hero, form = st.columns([1.15, 1], gap=None, vertical_alignment="center")
         with hero:
             st.markdown(
-                '<div class="login-hero">'
+                '<div class="login-hero"><div class="login-hero-text">'
                 '<span class="pa-kicker ink">Sector Signal</span>'
                 '<h1 class="login-headline">Spot the story before it breaks.</h1>'
                 '<p class="login-lede">Regulators, filings, Parliament and the markets, '
-                "watched around the clock and scored for newsworthiness.</p>"
+                "watched around the clock and scored for newsworthiness.</p></div>"
                 f"{_login_art()}"
                 "</div>",
                 unsafe_allow_html=True,
