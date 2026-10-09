@@ -639,39 +639,76 @@ def inject_css() -> None:
             width: auto;
             z-index: 2;
         }
-        /* The timeline: a rail down the left of the pane's signals, with a dot
-           per signal. Each card draws its own stretch of rail, through the gap
-           below it, so the rail runs unbroken from the first dot to the last. */
-        [class*="st-key-signals-panel-"] .signal-card[data-week],
-        [class*="st-key-signals-panel-"] .signal-card {
+        /* The pane's signals: a quiet list on off-white under the white,
+           pinned head. A date column, then a light rail with a small grey
+           dot per signal (cobalt on hover, when its week lights up on the
+           sparkline), and hairlines between rows. */
+        [class*="st-key-signals-panel-"] {
+            background: color-mix(in srgb, var(--pa-newsprint) 30%, var(--pa-paper));
+        }
+        .sp-list { list-style: none; margin: 0; padding: 0; font-family: var(--pa-font-data); }
+        .sp-row {
+            display: grid;
+            grid-template-columns: 3.75rem 1fr;
+            margin: 0;
+            padding: 0;
+        }
+        .sp-date {
+            padding-top: 2px;
+            font-size: 0.8125rem;
+            color: #6b6b6b;
+            white-space: nowrap;
+        }
+        .sp-main {
             position: relative;
-            margin-left: 28px;
+            min-width: 0;
+            padding: 0 0 1rem 1.25rem;
+            margin-bottom: 1rem;
+            border-left: 1px solid #d8d6cc;
         }
-        [class*="st-key-signals-panel-"] .signal-card::before {
+        .sp-row:last-child .sp-main { margin-bottom: 0; border-left-color: transparent; }
+        .sp-row + .sp-row .sp-main::after {
             content: "";
             position: absolute;
-            left: -20px;
-            top: 26px;
-            bottom: -50px;
-            width: 2px;
-            background: #dedad9;
+            left: 1.25rem;
+            right: 0;
+            top: -1rem;
+            border-top: 1px solid #e3e1d8;
         }
-        [class*="st-key-signals-panel-"] [data-testid="stElementContainer"]:last-child .signal-card::before {
-            display: none;
-        }
-        [class*="st-key-signals-panel-"] .signal-card::after {
+        .sp-main::before {
             content: "";
             position: absolute;
-            left: -25px;
-            top: 20px;
-            width: 12px;
-            height: 12px;
+            left: -4px;
+            top: 6px;
+            width: 7px;
+            height: 7px;
             border-radius: 50%;
-            background: var(--pa-paper);
-            border: 2px solid var(--pa-cobalt);
-            box-sizing: border-box;
+            background: #b9b7ad;
+            transition: background var(--dur-fast, 120ms) var(--ease, ease);
         }
-        [class*="st-key-signals-panel-"] .signal-card:hover::after { background: var(--pa-cobalt); }
+        .sp-row:hover .sp-main::before { background: var(--pa-cobalt); }
+        /* Scoped to the pane so it outranks Streamlit's own link colour
+           and underline. */
+        [class*="st-key-signals-panel-"] a.sp-title {
+            display: block;
+            font-weight: 700;
+            font-size: 0.9375rem;
+            line-height: 1.35;
+            color: var(--pa-ink);
+            text-decoration: none;
+        }
+        [class*="st-key-signals-panel-"] a.sp-title:hover { color: var(--pa-cobalt); text-decoration: underline; }
+        .sp-body {
+            margin-top: 4px;
+            font-size: 0.8125rem;
+            line-height: 1.45;
+            color: var(--pa-muted);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .sp-meta { margin-top: 6px; font-size: 0.75rem; color: #6b6b6b; }
         [class*="st-key-sp-close-"] button {
             min-height: 32px;
             height: 32px;
@@ -714,13 +751,16 @@ def inject_css() -> None:
             height: 8px;
             background: var(--pa-cobalt);
         }
+        /* "Signals (7)": a small label over the list; the pinned head's
+           shadow already separates the two. */
         .sp-section {
-            margin: 2rem 0 1rem 0;
-            padding-top: 1.5rem;
-            border-top: 1px solid #cccccc;
+            margin: 1.5rem 0 1rem 0;
             font-family: var(--pa-font-data);
             font-weight: 700;
-            font-size: 1.125rem;
+            font-size: 0.8125rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #6b6b6b;
         }
         /* Source signals: white cards on a white pane, so a grey border
            separates them instead of the list's shadow. They're narrower than
@@ -1652,10 +1692,7 @@ def _relevance_ring(score: int) -> str:
     )
 
 
-def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None,
-                week: int | None = None) -> None:
-    """One signal. week is its index on the preview pane's sparkline, so
-    hovering the card can light up that week (see _RESIZE_SCRIPT)."""
+def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None = None) -> None:
     score = signal["newsworthiness_score"]
     label = score_tier(score)[0]
     now = datetime.now(timezone.utc)
@@ -1700,9 +1737,8 @@ def render_card(signal: dict, cluster_info: dict[str, tuple[float, int]] | None 
 
     # One line of HTML: indented, blank-line-separated markup risks being read
     # as a Markdown code block.
-    week_attr = f' data-week="{week}"' if week is not None else ""
     st.markdown(
-        f'<div class="signal-card"{week_attr}>'
+        '<div class="signal-card">'
         '<div class="sc-head">'
         f'<div class="sc-source">{_source_logo(source)}'
         f'<span class="sc-source-name">{html.escape(source_name)}</span>'
@@ -2140,6 +2176,41 @@ def _week_index(signal: dict, now: datetime) -> int | None:
     return SPARK_WEEKS - 1 - weeks_ago if 0 <= weeks_ago < SPARK_WEEKS else None
 
 
+def _signal_rows_html(members: list[dict], now: datetime) -> str:
+    """The preview pane's signals as a quiet list, newest first: the date on
+    the left, then the title (linking to the source), a two-line summary and
+    one grey line of source, category and relevance. No company tags: the
+    company is the pane's subject. Each row carries its sparkline week, so
+    hovering it lights that week up (see _RESIZE_SCRIPT)."""
+    rows = []
+    for m in sorted(members, key=lambda m: m["published_at"], reverse=True):
+        dt = datetime.fromisoformat(m["published_at"])
+        date = f"{dt.day} {dt:%b}" + (f" {dt:%Y}" if dt.year != now.year else "")
+        exact = _full_date(m["published_at"])
+        if m.get("published_at_estimated"):
+            date, exact = f"~{date}", exact + " · estimated from when we collected it"
+        week = _week_index(m, now)
+        week_attr = f' data-week="{week}"' if week is not None else ""
+        meta = [_source_name(m["source"])]
+        category = m.get("canonical_category") or m.get("category")
+        if category:
+            meta.append(category)
+        if m.get("newsworthiness_score") is not None:
+            meta.append(f'{m["newsworthiness_score"]}% relevant')
+        rows.append(
+            f'<li class="sp-row"{week_attr}>'
+            f'<time class="sp-date" title="{html.escape(exact, quote=True)}">{html.escape(date)}</time>'
+            '<div class="sp-main">'
+            f'<a class="sp-title" href="{safe_url(m["source_url"])}" target="_blank" '
+            f'rel="noopener noreferrer">{html.escape(m["title"])}</a>'
+            + (f'<div class="sp-body">{html.escape(m["why_it_matters"])}</div>'
+               if m.get("why_it_matters") else "")
+            + f'<div class="sp-meta">{" · ".join(html.escape(x) for x in meta)}</div>'
+            "</div></li>"
+        )
+    return f'<ol class="sp-list">{"".join(rows)}</ol>'
+
+
 def _week_range(start: datetime) -> str:
     """'18–24 Aug 2026', or '28 Jul – 3 Aug 2026' across a month boundary."""
     end = start + timedelta(days=6)
@@ -2396,7 +2467,7 @@ _RESIZE_SCRIPT = """
     // Hovering a signal in the preview pane lights up its week on the pane's
     // sparkline: the same dot, guide and tooltip as hovering the line itself.
     mouseover: (e) => {
-      const card = e.target.closest && e.target.closest('[class*="st-key-signals-panel-"] .signal-card[data-week]');
+      const card = e.target.closest && e.target.closest('[class*="st-key-signals-panel-"] .sp-row[data-week]');
       const pane = card && card.closest('[class*="st-key-signals-panel-"]');
       doc.querySelectorAll(".tl-col.tl-on").forEach((c) => c.classList.remove("tl-on"));
       if (!pane) return;
@@ -2442,12 +2513,11 @@ def _preview_pane(key: str, group: Group, now: datetime, state_key: str) -> None
             st.button("", key=f"sp-close-{state_key}", icon=":material/close:", type="tertiary",
                       help="Close preview", on_click=st.session_state.pop, args=(state_key, None))
             st.markdown(_group_html(group, now, full=True), unsafe_allow_html=True)
-        st.markdown(f'<div class="sp-section">Timeline ({len(group.members)})</div>',
-                    unsafe_allow_html=True)
-        # Newest first, as a timeline: a rail down the left with a dot per
-        # signal. Hovering a signal lights up its week on the sparkline above.
-        for m in sorted(group.members, key=lambda m: m["published_at"], reverse=True):
-            render_card(m, week=_week_index(m, now))
+        st.markdown(
+            f'<div class="sp-section">Signals ({len(group.members)})</div>'
+            f"{_signal_rows_html(group.members, now)}",
+            unsafe_allow_html=True,
+        )
 
 
 def _render_groups(groups: list[Group], state_key: str, pane_key: str) -> None:
