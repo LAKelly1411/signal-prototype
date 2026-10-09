@@ -1758,12 +1758,15 @@ def inject_css() -> None:
         @keyframes la-scroll { to { transform: translateX(var(--shift)); } }
         .la-track-line { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
         /* The heat map's tiles, one column per week on the track. */
-        .la-heat { position: absolute; inset: 0; }
+        /* Square tiles: sized and stacked by the column pitch (the track's
+           width over its columns, via container units), from the bottom up;
+           whatever rises past the area's top is clipped. */
+        .la-heat { position: absolute; inset: 0; overflow: hidden; container-type: inline-size; }
         .la-heat .la-cell {
             position: absolute;
-            width: calc(100% / var(--cols) - 6px);
-            height: calc(100% / var(--rows) - 6px);
-            margin-top: 3px;
+            bottom: calc(var(--r) * 100cqw / var(--cols) + 3px);
+            width: calc(100cqw / var(--cols) - 6px);
+            aspect-ratio: 1;
             background: rgba(255, 255, 255, var(--a));
             transform: translateX(-50%);
             animation: la-breathe 4s ease-in-out infinite alternate;
@@ -1925,28 +1928,26 @@ def _login_art() -> str:
         values.append(min(0.9, max(0.08, wave + (noise(7, i) - 0.5) * 0.5)))
     track = values + values + values[:1]  # end where the next loop begins
 
-    # The heat map is the same weeks: one column per week, travelling with the
-    # line. Tiles under the line glow, brighter the busier the week and the
-    # lower the tile; above it they're faint. Each breathes on its own beat,
-    # and now and then one sparks light blue, like a signal arriving.
-    rows = 8
+    # The heat map travels with the line, one column per week, but has its own
+    # pattern: some weeks run hot, some cool, varying tile by tile. Square
+    # tiles stacked up from the bottom; each breathes on its own beat, and now
+    # and then one sparks light blue, like a signal arriving.
+    rows = 14
     cells = []
     for i in range(2 * n):
-        v = values[i % n]
+        w = i % n
+        warmth = 0.25 + 0.75 * noise(w, 8)  # how hot this week runs overall
         for r in range(rows):
-            h = (rows - r - 0.5) / rows  # tile centre, 0 at the bottom
-            if h < v:
-                alpha = 0.16 + 0.5 * v * (1 - h / v * 0.6)
-            else:
-                alpha = 0.05 + 0.05 * noise(i % n, r, 4)
-            dur = 3 + noise(i % n, r, 2) * 4
-            delay = noise(i % n, r, 3) * 6
+            fade = 1 - r / rows * 0.75  # hotter near the bottom edge
+            alpha = 0.05 + 0.5 * warmth * fade * (0.35 + 0.65 * noise(w, r, 4))
+            dur = 3 + noise(w, r, 2) * 4
+            delay = noise(w, r, 3) * 6
             spark = ""
-            if h < v and noise(i % n, r, 5) > 0.86:
-                spark = (f'<span class="la-spark" style="animation-duration:{5 + noise(i % n, r, 6) * 6:.1f}s;'
-                         f'animation-delay:-{noise(i % n, r, 7) * 9:.2f}s"></span>')
+            if noise(w, r, 5) > 0.9 and r < rows * 0.7:
+                spark = (f'<span class="la-spark" style="animation-duration:{5 + noise(w, r, 6) * 6:.1f}s;'
+                         f'animation-delay:-{noise(w, r, 7) * 9:.2f}s"></span>')
             cells.append(
-                f'<span class="la-cell" style="left:{(i + 0.5) * 100 / (2 * n + 1):.3f}%;top:{r * 100 / rows:.3f}%;'
+                f'<span class="la-cell" style="left:{(i + 0.5) * 100 / (2 * n + 1):.3f}%;--r:{r};'
                 f'--a:{alpha:.2f};animation-duration:{dur:.1f}s;animation-delay:-{delay:.2f}s">{spark}</span>'
             )
     heat = f'<div class="la-heat" style="--cols:{2 * n + 1};--rows:{rows}">{"".join(cells)}</div>'
