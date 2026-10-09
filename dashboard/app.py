@@ -646,53 +646,54 @@ def inject_css() -> None:
         [class*="st-key-signals-panel-"] {
             background: color-mix(in srgb, var(--pa-newsprint) 30%, var(--pa-paper));
         }
-        .sp-list { list-style: none; margin: 0; padding: 0; font-family: var(--pa-font-data); }
-        .sp-row {
+        .sp-list { margin: 0; padding: 0; font-family: var(--pa-font-data); }
+        /* Each signal is a tile: invisible until hovered (white on the
+           off-white list) or opened. The side padding is pulled back with a
+           negative margin so the content doesn't move. */
+        .sp-item {
             position: relative;
+            margin: 0 -0.75rem;
+            padding: 0.875rem 0.75rem;
+            transition: background var(--dur-fast, 120ms) var(--ease, ease);
+        }
+        .sp-item + .sp-item { border-top: 1px solid #e3e1d8; }
+        .sp-item:hover, .sp-item[open] { background: var(--pa-paper); }
+        /* The rail: one segment per signal, each reaching 1px up over the
+           hairline above, so it runs unbroken. It starts at the first dot and
+           stops at the last; a lone signal has none. Centred on the dots. */
+        .sp-item::before {
+            content: "";
+            position: absolute;
+            left: calc(0.75rem + 3.75rem - 1px);
+            top: -1px;
+            bottom: 0;
+            width: 1px;
+            background: #d8d6cc;
+        }
+        .sp-item:first-child::before { top: 23px; }
+        .sp-item:last-child::before { bottom: auto; height: 24px; }
+        .sp-item:first-child:last-child::before { display: none; }
+        .sp-row {
             display: grid;
             grid-template-columns: 3.75rem 1fr;
-            margin: 0;
-            padding: 0;
+            cursor: pointer;
+            list-style: none;
         }
+        .sp-row::-webkit-details-marker { display: none; }
+        .sp-row::marker { content: ""; }
+        .sp-row:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
         .sp-date {
             padding-top: 2px;
             font-size: 0.8125rem;
             color: #6b6b6b;
             white-space: nowrap;
         }
-        /* The rail: one segment per row, each running 1px past its row's
-           bottom so neighbours overlap. Rows sit on fractional pixel
-           positions, and touching edges (a border per row) left a hairline
-           gap where two met. The first segment starts at its dot, the last
-           stops at its dot, and a lone signal has none. Centred on the dots
-           (which sit centred on the content column's left edge). */
-        .sp-row::before {
-            content: "";
-            position: absolute;
-            left: calc(3.75rem - 1px);
-            top: 0;
-            bottom: -1px;
-            width: 1px;
-            background: #d8d6cc;
-        }
-        .sp-row:first-child::before { top: 9px; }
-        .sp-row:last-child::before { bottom: auto; height: 10px; }
-        .sp-row:first-child:last-child::before { display: none; }
         .sp-main {
             position: relative;
+            display: block;
             min-width: 0;
-            padding: 0 0 2rem 1.25rem;
+            padding-left: 1.25rem;
         }
-        .sp-row:last-child .sp-main { padding-bottom: 0; }
-        .sp-row + .sp-row .sp-main::after {
-            content: "";
-            position: absolute;
-            left: 1.25rem;
-            right: 0;
-            top: -1rem;
-            border-top: 1px solid #e3e1d8;
-        }
-        .sp-row + .sp-row .sp-main, .sp-row + .sp-row .sp-date { padding-top: 0; }
         .sp-main::before {
             content: "";
             position: absolute;
@@ -705,28 +706,58 @@ def inject_css() -> None:
             z-index: 1;
             transition: background var(--dur-fast, 120ms) var(--ease, ease);
         }
-        .sp-row:hover .sp-main::before { background: var(--pa-cobalt); }
-        /* Scoped to the pane so it outranks Streamlit's own link colour
-           and underline. */
-        [class*="st-key-signals-panel-"] a.sp-title {
+        .sp-item:hover .sp-main::before, .sp-item[open] .sp-main::before { background: var(--pa-cobalt); }
+        .sp-title {
             display: block;
             font-weight: 700;
             font-size: 0.9375rem;
             line-height: 1.35;
             color: var(--pa-ink);
-            text-decoration: none;
         }
-        [class*="st-key-signals-panel-"] a.sp-title:hover { color: var(--pa-cobalt); text-decoration: underline; }
         .sp-body {
+            display: -webkit-box;
             margin-top: 4px;
             font-size: 0.8125rem;
             line-height: 1.45;
             color: var(--pa-muted);
-            display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
+        .sp-item[open] .sp-body { display: block; -webkit-line-clamp: unset; }
+        /* The opened part: companies named, the exact date, the source link,
+           lined up under the content column. */
+        .sp-more {
+            margin: 10px 0 0 calc(3.75rem + 1.25rem);
+            font-size: 0.75rem;
+            color: #6b6b6b;
+        }
+        /* Everything in the opened part matches the grey meta line above it:
+           12px text, 16px icons (as the source logo), regular weight. */
+        .sp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+        .sp-tags .sc-tag {
+            height: 16px;
+            gap: 5px;
+            padding-right: 5px;
+            font-weight: 400;
+            font-size: 0.75rem;
+            color: #464646;
+        }
+        .sp-tags .sc-tag-icon { width: 16px; height: 16px; }
+        .sp-tags .sc-tag-icon svg, .sp-tags .sc-tag-icon img { width: 12px; height: 12px; margin: auto; }
+        .sp-when { margin-bottom: 8px; }
+        [class*="st-key-signals-panel-"] a.sp-open {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-family: var(--pa-font-data);
+            font-weight: 400;
+            font-size: 0.75rem;
+            color: var(--pa-cobalt);
+            text-decoration: none;
+        }
+        [class*="st-key-signals-panel-"] a.sp-open svg { width: 12px; height: 12px; }
+        [class*="st-key-signals-panel-"] a.sp-open:hover { text-decoration: underline; }
         .sp-meta {
             display: flex;
             flex-wrap: wrap;
@@ -2207,13 +2238,16 @@ def _week_index(signal: dict, now: datetime) -> int | None:
     return SPARK_WEEKS - 1 - weeks_ago if 0 <= weeks_ago < SPARK_WEEKS else None
 
 
-def _signal_rows_html(members: list[dict], now: datetime) -> str:
+def _signal_rows_html(members: list[dict], now: datetime, group_id: str = "") -> str:
     """The preview pane's signals as a quiet list, newest first: the date on
-    the left, then the title (linking to the source), a two-line summary and
-    one grey line of source, category and relevance. No company tags: the
-    company is the pane's subject. Each row carries its sparkline week, so
-    hovering it lights that week up (see _RESIZE_SCRIPT)."""
+    the left, then the title, a two-line summary and one grey line of source,
+    category and relevance. Hovering a row lifts it as a white tile and lights
+    its week on the sparkline (see _RESIZE_SCRIPT). Clicking it opens it in
+    place, with the full summary, the companies and people named, the exact
+    date and the source link; opening another closes it (<details name=…>),
+    all in the browser with no rerun."""
     rows = []
+    group = html.escape(f"sp-{group_id}", quote=True)
     for m in sorted(members, key=lambda m: m["published_at"], reverse=True):
         dt = datetime.fromisoformat(m["published_at"])
         date = f"{dt.day} {dt:%b}" + (f" {dt:%Y}" if dt.year != now.year else "")
@@ -2231,19 +2265,34 @@ def _signal_rows_html(members: list[dict], now: datetime) -> str:
         if score is not None:
             meta.append(f'<span class="sp-rel" title="{score}% relevant">'
                         f'{_relevance_ring(score)}{score}%</span>')
-        rows.append(
-            f'<div class="sp-row" role="listitem"{week_attr}>'
-            f'<time class="sp-date" title="{html.escape(exact, quote=True)}">{html.escape(date)}</time>'
-            '<div class="sp-main">'
-            f'<a class="sp-title" href="{safe_url(m["source_url"])}" target="_blank" '
-            f'rel="noopener noreferrer">{html.escape(m["title"])}</a>'
-            + (f'<div class="sp-body">{html.escape(m["why_it_matters"])}</div>'
-               if m.get("why_it_matters") else "")
-            + f'<div class="sp-meta">{'<span class="sp-dot">·</span>'.join(meta)}</div>'
-            "</div></div>"
+        entities = signal_entities(m)
+        tags = "".join(
+            f'<span class="sc-tag sc-tag-entity"><span class="sc-tag-icon">{_entity_icon(e)}</span>'
+            f"{html.escape(e)}</span>"
+            for e in entities
         )
-    # Plain divs with list roles, not <ol>/<li>: Streamlit's Markdown styles
-    # give list items margins and an indent that broke the rail at each row.
+        more = (
+            '<div class="sp-more">'
+            + (f'<div class="sp-tags">{tags}</div>' if tags else "")
+            + f'<div class="sp-when">{html.escape(exact)}</div>'
+            f'<a class="sp-open" href="{safe_url(m["source_url"])}" target="_blank" '
+            f'rel="noopener noreferrer">Open source {LINK_ICON}</a>'
+            "</div>"
+        )
+        rows.append(
+            f'<details class="sp-item" name="{group}"{week_attr}>'
+            '<summary class="sp-row">'
+            f'<time class="sp-date" title="{html.escape(exact, quote=True)}">{html.escape(date)}</time>'
+            '<span class="sp-main">'
+            f'<span class="sp-title">{html.escape(m["title"])}</span>'
+            + (f'<span class="sp-body">{html.escape(m["why_it_matters"])}</span>'
+               if m.get("why_it_matters") else "")
+            + f'<span class="sp-meta">{'<span class="sp-dot">·</span>'.join(meta)}</span>'
+            "</span></summary>"
+            f"{more}</details>"
+        )
+    # Plain elements with list roles, not <ol>/<li>: Streamlit's Markdown
+    # styles give list items margins and an indent that broke the rail.
     return f'<div class="sp-list" role="list">{"".join(rows)}</div>'
 
 
@@ -2503,7 +2552,7 @@ _RESIZE_SCRIPT = """
     // Hovering a signal in the preview pane lights up its week on the pane's
     // sparkline: the same dot, guide and tooltip as hovering the line itself.
     mouseover: (e) => {
-      const card = e.target.closest && e.target.closest('[class*="st-key-signals-panel-"] .sp-row[data-week]');
+      const card = e.target.closest && e.target.closest('[class*="st-key-signals-panel-"] .sp-item[data-week]');
       const pane = card && card.closest('[class*="st-key-signals-panel-"]');
       doc.querySelectorAll(".tl-col.tl-on").forEach((c) => c.classList.remove("tl-on"));
       if (!pane) return;
@@ -2551,7 +2600,7 @@ def _preview_pane(key: str, group: Group, now: datetime, state_key: str) -> None
             st.markdown(_group_html(group, now, full=True), unsafe_allow_html=True)
         st.markdown(
             f'<div class="sp-section">Signals ({len(group.members)})</div>'
-            f"{_signal_rows_html(group.members, now)}",
+            f"{_signal_rows_html(group.members, now, group.id)}",
             unsafe_allow_html=True,
         )
 
