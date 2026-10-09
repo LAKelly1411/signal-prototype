@@ -1743,10 +1743,8 @@ def inject_css() -> None:
             height: 46vh;
             /* Clipped at the sides only (by the clip, not overflow), so a
                read-out over a high week can rise above the line's area. */
-            clip-path: inset(-60% 100% 0 0);
-            animation: la-reveal 2.4s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+            clip-path: inset(-60% 0 0 0);
         }
-        @keyframes la-reveal { to { clip-path: inset(-60% 0 0 0); } }
         .la-track {
             position: absolute;
             left: 0;
@@ -1832,7 +1830,6 @@ def inject_css() -> None:
         }
         @media (prefers-reduced-motion: reduce) {
             .la-cell, .la-spark, .la-track { animation: none; }
-            .login-line { animation: none; clip-path: none; }
             .la-at { display: none; }
         }
         .st-key-login-form { width: 100%; max-width: 24rem; margin: 0 auto; padding: 2rem; gap: 1rem; }
