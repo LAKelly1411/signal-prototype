@@ -333,7 +333,11 @@ def draft_sector(description: str, existing_slugs: set[str], client,
         response = client.messages.create(
             model=model, max_tokens=MAX_TOKENS, system=_system_prompt(),
             messages=[{"role": "user", "content": request}],
-            tools=[PROPOSE_SECTOR_TOOL], tool_choice={"type": "tool", "name": "propose_sector"},
+            # "auto", not a forced tool: models that think before answering
+            # (Sonnet 5.5 on Bedrock) reject tool_choice "tool"/"any". The
+            # system prompt asks for exactly one propose_sector call, and a
+            # reply without one counts as a failed attempt (_tool_input).
+            tools=[PROPOSE_SECTOR_TOOL], tool_choice={"type": "auto"},
         )
         try:
             if getattr(response, "stop_reason", None) == "max_tokens":

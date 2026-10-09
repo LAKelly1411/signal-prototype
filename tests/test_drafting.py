@@ -183,7 +183,9 @@ class TestDraftSector:
         assert "verified" not in d.config["companies"][0]
         assert d.companies[0]["verified"] is True
         req = client.requests[0]
-        assert req["tool_choice"] == {"type": "tool", "name": "propose_sector"}
+        # Not forced: thinking models on Bedrock reject a forced tool choice.
+        assert req["tool_choice"] == {"type": "auto"}
+        assert req["tools"][0]["name"] == "propose_sector"
         assert "UK energy suppliers" in req["messages"][0]["content"]
 
     def test_retries_once_then_succeeds(self):
