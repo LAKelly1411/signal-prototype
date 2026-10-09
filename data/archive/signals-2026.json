@@ -6619,5 +6619,106 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:8045086b984a:067ec139"
+  },
+  {
+    "id": "07ce9193c790b9bea80f7e5c745da5c6f03530353f6538d67e17cc4a83d0ce9f",
+    "source": "gazette",
+    "source_id": "5150671",
+    "source_url": "https://www.thegazette.co.uk/notice/5150671",
+    "title": "CAPITAL D’EXPLORATION LIMITED",
+    "raw_summary": "Notices to Creditors: …Curtis House, Elms Square, Bury New Road, Whitefield, Manchester, M45 7TA Principal trading address: Game Keep, 112A High Street, Long Crendon, Aylesbury, Buckinghamshire HP18 9AN …",
+    "published_at": "2026-06-11T01:03:05+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Capital D'Exploration Limited",
+      "Game Keep"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A creditors' notice for a small retail trader with no clear gambling-sector link offers little relevance to industry journalists.",
+    "category": "insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Capital D'Exploration",
+      "Game Keep"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "4dd982238080fd39b1c6e7b9042dcdfd3a4b99f6cebecd0b6402d303275975cb",
+    "source": "parliament",
+    "source_id": "1915419",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-11/9219",
+    "title": "Written question: Drugs: Side Effects",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what information his Department holds on (a) the likelihood of patients who develop one dopamine agonist-associated impulse control disorder developing additional impulse control disorders and (b) \nA: The information requested on dopamine agonists is not held centrally nor held in the format requested and could only be obtained at disproportionate cost.Dopamine agonists encompass a range of medicines authorised for the management of Parkinson’s disease...",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029399+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Concerns dopamine agonist medicines and impulse control disorders, not gambling operators, so minimal relevance to gambling newsroom.",
+    "category": "public health/medicines policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "db7be69d57624e7955cbe57ea9413194d7fc6e7a52ddc2c7bbd16d16a91ff6cd",
+    "source": "parliament",
+    "source_id": "1915399",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-11/9199",
+    "title": "Written question: Drugs: Side Effects",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the potential financial impact of dopamine agonist-related impulse control disorders on those experiencing such disorders, including through (a) gambling-\nA: The information requested on dopamine agonists is not held centrally nor held in the format requested and could only be obtained at disproportionate cost.Dopamine agonists encompass a range of medicines authorised for the management of Parkinson’s disease...",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029402+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department of Health and Social Care"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Highlights lack of government data on medication-induced gambling harm, relevant to gambling-related harm policy debates but minor news value.",
+    "category": "gambling-harm health policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Department of Health and Social Care"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "6d87f0f9a48a11c756429d4fddba8fd1580289d5613d6c0c81e0d0aed326c749",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/betting-and-gaming-industry-gathers-for-annual-gamlg-conference-to-strengthen-aml-and-ctf-standards",
+    "title": "BETTING AND GAMING INDUSTRY GATHERS FOR ANNUAL GAMLG CONFERENCE TO STRENGTHEN AML AND CTF STANDARDS",
+    "raw_summary": "",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926012+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "GAMLG",
+      "BGC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Signals ongoing industry focus on AML/CTF standards but contains no enforcement action or new regulatory change.",
+    "category": "industry conference",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "GAMLG",
+      "BGC"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null,
+    "cluster_summary": "Two overlapping reports cover the same GAMLG annual conference on anti-money laundering standards, with the Gambling Commission's John Pierce giving a policy speech and the BGC promoting the event. No enforcement action or regulatory change accompanies either.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "49489f6e63c776ae:cecdc011"
   }
 ]

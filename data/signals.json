@@ -779,32 +779,6 @@
     "theme_summary_for": "Insolvency:246ef5ef3731:067ec139"
   },
   {
-    "id": "07ce9193c790b9bea80f7e5c745da5c6f03530353f6538d67e17cc4a83d0ce9f",
-    "source": "gazette",
-    "source_id": "5150671",
-    "source_url": "https://www.thegazette.co.uk/notice/5150671",
-    "title": "CAPITAL D’EXPLORATION LIMITED",
-    "raw_summary": "Notices to Creditors: …Curtis House, Elms Square, Bury New Road, Whitefield, Manchester, M45 7TA Principal trading address: Game Keep, 112A High Street, Long Crendon, Aylesbury, Buckinghamshire HP18 9AN …",
-    "published_at": "2026-06-11T01:03:05+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Capital D'Exploration Limited",
-      "Game Keep"
-    ],
-    "newsworthiness_score": 5,
-    "why_it_matters": "A creditors' notice for a small retail trader with no clear gambling-sector link offers little relevance to industry journalists.",
-    "category": "insolvency notice",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Capital D'Exploration",
-      "Game Keep"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
     "source": "gazette",
     "source_id": "5163998",
@@ -980,16 +954,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 15,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
@@ -1415,50 +1388,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139"
-  },
-  {
-    "id": "4dd982238080fd39b1c6e7b9042dcdfd3a4b99f6cebecd0b6402d303275975cb",
-    "source": "parliament",
-    "source_id": "1915419",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-11/9219",
-    "title": "Written question: Drugs: Side Effects",
-    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what information his Department holds on (a) the likelihood of patients who develop one dopamine agonist-associated impulse control disorder developing additional impulse control disorders and (b) \nA: The information requested on dopamine agonists is not held centrally nor held in the format requested and could only be obtained at disproportionate cost.Dopamine agonists encompass a range of medicines authorised for the management of Parkinson’s disease...",
-    "published_at": "2026-06-11T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029399+00:00",
-    "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": 5,
-    "why_it_matters": "Concerns dopamine agonist medicines and impulse control disorders, not gambling operators, so minimal relevance to gambling newsroom.",
-    "category": "public health/medicines policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
-    "id": "db7be69d57624e7955cbe57ea9413194d7fc6e7a52ddc2c7bbd16d16a91ff6cd",
-    "source": "parliament",
-    "source_id": "1915399",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-11/9199",
-    "title": "Written question: Drugs: Side Effects",
-    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the potential financial impact of dopamine agonist-related impulse control disorders on those experiencing such disorders, including through (a) gambling-\nA: The information requested on dopamine agonists is not held centrally nor held in the format requested and could only be obtained at disproportionate cost.Dopamine agonists encompass a range of medicines authorised for the management of Parkinson’s disease...",
-    "published_at": "2026-06-11T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029402+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Department of Health and Social Care"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Highlights lack of government data on medication-induced gambling harm, relevant to gambling-related harm policy debates but minor news value.",
-    "category": "gambling-harm health policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Department of Health and Social Care"
-    ],
-    "canonical_category": "Player protection",
-    "theme_id": null
   },
   {
     "id": "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
@@ -2367,37 +2296,6 @@
     "theme_summary_for": "Illegal gambling:e2cbd436db67:067ec139"
   },
   {
-    "id": "6d87f0f9a48a11c756429d4fddba8fd1580289d5613d6c0c81e0d0aed326c749",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/betting-and-gaming-industry-gathers-for-annual-gamlg-conference-to-strengthen-aml-and-ctf-standards",
-    "title": "BETTING AND GAMING INDUSTRY GATHERS FOR ANNUAL GAMLG CONFERENCE TO STRENGTHEN AML AND CTF STANDARDS",
-    "raw_summary": "",
-    "published_at": "2026-06-11T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926012+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "GAMLG",
-      "BGC"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Signals ongoing industry focus on AML/CTF standards but contains no enforcement action or new regulatory change.",
-    "category": "industry conference",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "GAMLG",
-      "BGC"
-    ],
-    "canonical_category": "AML and compliance failures",
-    "theme_id": null,
-    "cluster_summary": "Two overlapping reports cover the same GAMLG annual conference on anti-money laundering standards, with the Gambling Commission's John Pierce giving a policy speech and the BGC promoting the event. No enforcement action or regulatory change accompanies either.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 15,
-    "cluster_summary_for": "49489f6e63c776ae:cecdc011"
-  },
-  {
     "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
     "source": "lse_rns",
     "source_id": null,
@@ -3224,18 +3122,18 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Rank Group's full-year trading update offers financial performance insight into a major UK bingo and casino operator ahead of results.",
     "category": "trading update",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_coherent": false,
+    "cluster_significance": 55,
     "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
     "theme_key_points": [
       "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
@@ -3263,10 +3161,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "A new CEO at a major listed casino and bingo operator could signal strategic shifts affecting UK gambling market direction.",
     "category": "leadership change",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank",
       "Richard Harris"
@@ -3274,17 +3172,17 @@
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
@@ -3970,16 +3868,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
@@ -4108,15 +4005,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
@@ -4425,15 +4322,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
@@ -4463,15 +4360,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
@@ -4576,18 +4473,18 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
     "category": "board/directorate change",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_coherent": false,
+    "cluster_significance": 55,
     "theme_summary": "Rank and Entain have each made two board or director changes since late July 2026, while the Gambling Commission has settled its own leadership question with Ruth Evans's appointment as Chair on 7 September, welcomed by the BGC the same day. Operator-level reshuffles are running alongside a regulator transition that follows a parliamentary question about the CEO appointments process.",
     "theme_key_points": [
       "Rank Group made board changes twice in three weeks: 24 July and 13 August 2026.",
@@ -4621,16 +4518,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
@@ -4660,16 +4556,15 @@
     "cluster_coherent": true,
     "cluster_significance": 30,
     "cluster_summary_for": "50b72ca3f3030631:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
@@ -5273,16 +5168,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
@@ -5414,15 +5308,15 @@
     "cluster_coherent": true,
     "cluster_significance": 62,
     "cluster_summary_for": "8edbc94ebca97265:cecdc011",
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
@@ -5548,16 +5442,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
@@ -5587,16 +5480,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
@@ -5623,15 +5515,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
@@ -5690,16 +5582,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
@@ -5935,15 +5826,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
@@ -5962,10 +5853,10 @@
     "newsworthiness_score": 38,
     "why_it_matters": "A new gambling minister signals potential shifts in regulatory priorities and policy direction affecting operators.",
     "category": "ministerial appointment",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "BGC",
       "Vicky Foxcroft"
@@ -5982,8 +5873,8 @@
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58
+    "cluster_coherent": false,
+    "cluster_significance": 55
   },
   {
     "id": "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
@@ -6013,15 +5904,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
@@ -6112,18 +6003,18 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
     "category": "board update",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_coherent": false,
+    "cluster_significance": 55,
     "theme_summary": "Rank and Entain have each made two board or director changes since late July 2026, while the Gambling Commission has settled its own leadership question with Ruth Evans's appointment as Chair on 7 September, welcomed by the BGC the same day. Operator-level reshuffles are running alongside a regulator transition that follows a parliamentary question about the CEO appointments process.",
     "theme_key_points": [
       "Rank Group made board changes twice in three weeks: 24 July and 13 August 2026.",
@@ -6150,27 +6041,27 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
     "category": "accounts filing",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
@@ -6200,15 +6091,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
@@ -6299,16 +6190,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
@@ -6340,16 +6230,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
@@ -6778,18 +6667,18 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine PDMR disclosure offers minor transparency on insider dealings at a major UK bookmaker but carries no operational impact.",
     "category": "director shareholding notification",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58
+    "cluster_coherent": false,
+    "cluster_significance": 55
   },
   {
     "id": "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
@@ -7038,16 +6927,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
@@ -7077,16 +6965,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
@@ -7410,15 +7297,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
@@ -7444,15 +7331,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
@@ -7720,16 +7607,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139",
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -7876,24 +7762,24 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual report and AGM notice from a major listed UK gambling operator, of limited standalone news value.",
     "category": "Corporate filing",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
@@ -8934,15 +8820,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
@@ -9032,16 +8918,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
@@ -9547,16 +9432,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139",
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -9863,16 +9747,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
@@ -9967,16 +9850,15 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "afbc0be7d4bddf1eee8b54913143431e385ef3d1a222a054f1b59ba8fb9ec389",
@@ -10093,15 +9975,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
@@ -10356,15 +10238,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
@@ -10496,15 +10378,15 @@
     "newsworthiness_score": 42,
     "why_it_matters": "The gambling minister's casino visit signals government engagement with the industry ahead of potential regulatory or tax policy decisions.",
     "category": "Policy and legislation",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
     "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
     "theme_key_points": [
       "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
@@ -10690,16 +10572,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
@@ -10811,16 +10692,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "f7018b3beb321f6557a329ef2edeb6b405281103bff7cbce1ae0c551ae4a69c4",
@@ -10903,16 +10783,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
@@ -10943,16 +10822,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
@@ -10987,16 +10865,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
@@ -11031,16 +10908,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
@@ -11075,16 +10951,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run continuously from mid-July through early October 2026, touching bookmakers, gaming machine operators, compliance firms and data suppliers. The pace quickens toward October, with five separate winding-up filings landing on 1 October alone.",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
     "theme_key_points": [
-      "MAB Bookmakers Limited, a licensed bookmaker, entered liquidation on 7 August.",
-      "Lysis Gaming Compliance Ltd faced repeated winding-up petition filings between 24 July and 26 August.",
-      "T33 Gaming Ltd moved from winding-up petition (4 September) to winding-up order (23 September).",
-      "Five companies filed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds), Carnaby Gaming Machines and Equusform follow-ups.",
-      "MGE Korea Limited had administrators appointed 14 September over a holding company tied to integrated gaming facilities."
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:eeb88ff26fb6:067ec139"
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
   },
   {
     "id": "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
@@ -11145,15 +11020,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
-    "theme_summary": "Routine corporate filings dominate the quarter across Entain, Flutter, Rank and evoke, with Rank's leadership change and full-year results standing out against a backdrop of standard governance and accounting disclosures.",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
     "theme_key_points": [
-      "Richard Harris appointed CEO of Rank Group, announced 13 July 2026",
-      "Rank published Final Results on 13 August, followed by AGM notice on 8 September",
-      "Entain concluded its audit tender on 13 August and filed Companies House accounts on 6 October",
-      "evoke (formerly 888/William Hill) released H1 2026 interim results on 12 August"
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:704c4ec2addb:067ec139"
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   },
   {
     "id": "6f3745bdc28dde3c868f6b03a77f40147be0bb9cd2b280e33e10ea55460cdcad",
@@ -11213,15 +11088,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
@@ -11247,15 +11122,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
   },
   {
     "id": "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
@@ -11277,23 +11152,180 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A major UK operator's regulatory settlement with the Gambling Commission signals compliance risk and potential financial impact investors and regulators will track.",
     "category": "Enforcement action",
-    "cluster_id": "f600a9055b87e368",
+    "cluster_id": "5891050c45edf76b",
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "cluster_summary": "Rank Group installs Richard Harris as CEO through 2026, alongside full-year results, board changes and an AGM notice, while also concluding a Gambling Commission settlement in October. The ministerial appointment signals are tangential, tied to a Grosvenor Casino visit rather than Rank's own corporate story.",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
     "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "f600a9055b87e368:cecdc011",
-    "theme_summary": "The Gambling Commission has run a steady enforcement cycle from July to October 2026, closing settlements against Evolution Malta (£4.75m), Grosvenor Casinos and Rank Group (£5m combined), alongside smaller penalties against Sladders, The Purple Gaming and named individuals. Action spans suppliers, land-based casinos and licence holders, with the election betting scandal still producing guilty pleas.",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
     "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) marks rare B2B supplier-level enforcement rather than operator-focused action",
-      "Rank Group and Grosvenor Casinos concluded settlements on the same day, 7 October, totalling £5m for land-based failures",
-      "Individual licence holders Anthony Francis Lane, Maxwell Taylor and Pamela Taylor faced personal fines and penalty-in-lieu payments through August-September",
-      "General election betting scandal produced further guilty pleas on 10 September, with a parliamentary question on insider betting the same day"
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:f6e0a9ffc5df:067ec139"
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
+  },
+  {
+    "id": "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/348",
+    "title": "5ve Guys Entertainments Ltd",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T06:18:38.540209+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "5ve Guys Entertainments Ltd"
+    ],
+    "canonical_entities": [
+      "5ve Guys Entertainments"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A financial penalty from the Gambling Commission signals compliance failings at this operator, relevant to industry risk monitoring.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "theme_summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
+    "theme_key_points": [
+      "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+      "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+      "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+      "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:2843194bf5c7:067ec139"
+  },
+  {
+    "id": "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+    "source": "gazette",
+    "source_id": "5226073",
+    "source_url": "https://www.thegazette.co.uk/notice/5226073",
+    "title": "CASINO MK LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …High Court of Justice (Chancery Division) Companies Court No CR-2026-006791 of 2026 In the Matter of CASINO MK LIMITED …",
+    "published_at": "2026-10-09T00:11:36+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T06:18:38.541054+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Casino MK Limited"
+    ],
+    "canonical_entities": [
+      "Casino MK"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A winding-up petition against a UK casino operator signals potential financial distress in the land-based gambling sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
+    "theme_key_points": [
+      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
+      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
+      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
+      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139"
+  },
+  {
+    "id": "130bba7c4f312b7b991b2f0f3d906fab5bf89ee4881f8da4c91f04cb264dc647",
+    "source": "gazette",
+    "source_id": "5227733",
+    "source_url": "https://www.thegazette.co.uk/notice/5227733",
+    "title": "BUILD A ROCKET BOY GAMES LTD.",
+    "raw_summary": "Appointment of Administrators: BUILD A ROCKET BOY GAMES LTD. …",
+    "published_at": "2026-10-09T01:07:20+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T06:18:38.541199+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Build A Rocket Boy Games Ltd"
+    ],
+    "canonical_entities": [
+      "Build A Rocket Boy Games"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "This is a video game studio administration, not a gambling operator, so limited relevance to the gambling sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a58504bb38f02aa9ae4d31d67b02d949cb86451ccc1db52c5f93a1ff40167bdf",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-sectors-economic-estimates-trade-2022-and-2023",
+    "title": "DCMS Sectors Economic Estimates: Trade, 2022 and 2023",
+    "raw_summary": "Official statistics estimating the contribution of DCMS sectors to the UK economy, measured by imports and exports of goods and services. ",
+    "published_at": "2026-10-08T15:45:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T06:18:38.541347+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Broad macroeconomic trade statistics across all DCMS sectors, with little direct or specific relevance to gambling operators.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "84d709950adaa9e9ee73dc279dda9b3f1b28216d458ba86c690850666e159bbb",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/result-of-agm/9814405",
+    "title": "Rank Group: Result of AGM",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-10-08T17:30:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T06:18:38.543275+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "canonical_entities": [
+      "Rank"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine AGM result disclosure from a major listed UK gambling operator, useful for governance tracking but low immediate impact.",
+    "category": "Corporate filing",
+    "cluster_id": "5891050c45edf76b",
+    "status": "seen",
+    "canonical_category": "Corporate filing",
+    "theme_id": "Corporate filing",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
+    "theme_key_points": [
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139"
   }
 ]
