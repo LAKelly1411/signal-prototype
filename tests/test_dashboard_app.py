@@ -665,6 +665,23 @@ def test_preview_opens_on_click_and_closes(monkeypatch, tab, card_prefix, state_
     assert not [b for b in at.button if b.key == close_key]
 
 
+def test_preview_puts_signals_first(monkeypatch):
+    serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=FULL_SIGNALS)})
+    at = app(base=None).run()
+    at.session_state["tab"] = "Themes"
+    at.run()
+    [b for b in at.button if b.key and b.key.startswith("view-tcard-")][0].click()
+    at.session_state["tab"] = "Themes"
+    at.run()
+    page = "".join(m.value for m in at.markdown)
+    pane = page[page.index('class="group-card group-card-full"'):]
+    head = pane[:pane.index('class="sp-about"')]
+    # The pinned head has no summary; it sits in the closed section, ahead of the signals.
+    assert 'class="sc-body"' not in head
+    assert '<details class="sp-about">' in pane
+    assert pane.index("sp-about") < pane.index('class="sp-section"')
+
+
 def test_insights_tab_renders(monkeypatch):
     serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=FULL_SIGNALS)})
     at = app(base=None).run()

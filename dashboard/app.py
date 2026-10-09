@@ -636,7 +636,8 @@ def inject_css() -> None:
         /* The close button, in the head's top-right corner. */
         [class*="st-key-sp-close-"] {
             position: absolute;
-            top: 1.25rem;
+            /* Centred on the title row, level with the title and the pill. */
+            top: 2.125rem;
             right: 1rem;
             width: auto;
             z-index: 2;
@@ -818,6 +819,42 @@ def inject_css() -> None:
         }
         /* "Signals (7)": a small label over the list; the pinned head's
            shadow already separates the two. */
+        .sp-about { margin-top: 1.25rem; border-bottom: 1px solid #e3e1da; }
+        .sp-about summary {
+            list-style: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.25rem 0 1rem 0;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--pa-ink);
+        }
+        .sp-about summary::-webkit-details-marker { display: none; }
+        .sp-about summary::before {
+            content: "";
+            width: 0.45rem;
+            height: 0.45rem;
+            border-right: 2px solid currentColor;
+            border-bottom: 2px solid currentColor;
+            transform: rotate(-45deg);
+            transition: transform 0.15s ease;
+        }
+        .sp-about[open] summary::before { transform: rotate(45deg); }
+        .sp-about summary:hover { color: var(--pa-cobalt); }
+        .sp-about summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+        .sp-about-body { padding-bottom: 1.25rem; }
+        .sp-about-body .sc-body { margin-top: 0; }
+        .sp-about-label {
+            margin: 1.25rem 0 0.5rem 0;
+            font-family: var(--pa-font-data);
+            font-weight: 700;
+            font-size: 0.8125rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #6b6b6b;
+        }
         .sp-section {
             margin: 1.5rem 0 1rem 0;
             font-family: var(--pa-font-data);
@@ -865,7 +902,8 @@ def inject_css() -> None:
             .sp-resize { display: none; }
             /* The selected card is in view above the sheet, so the sheet
                leads with its signals rather than repeating the card. */
-            [class*="st-key-signals-panel-"] .group-card-full { display: none; }
+            [class*="st-key-signals-panel-"] .group-card-full,
+            [class*="st-key-signals-panel-"] .sp-about { display: none; }
             [class*="st-key-signals-panel-"] .sp-section { margin-top: 0; padding-top: 0; border-top: none; }
         }
 
@@ -2666,6 +2704,7 @@ NOTABLE_PATTERN_TYPES = {"escalation": "Escalating", "wave": "Sector-wide"}
 
 # How many co-named companies a pattern or theme card lists before "+N more".
 MAX_COMPANY_TAGS = 3
+SP_COMPANY_TAGS = 5  # in the preview pane's pinned head
 
 
 def _activity_pill(tier: str) -> str:
@@ -2924,13 +2963,9 @@ class Group:
 
 
 def _group_html(group: Group, now: datetime, full: bool) -> str:
-    """The card body. The list card trims the company tags; the preview pane
-    shows everything, including a theme's key points."""
-    points = ""
-    if full and group.key_points:
-        items = "".join(f"<li>{html.escape(str(p))}</li>" for p in group.key_points)
-        points = f'<ul class="gc-points">{items}</ul>'
-    tags = group.flags + _company_tags(group.companies, None if full else MAX_COMPANY_TAGS)
+    """The card body. In the preview pane (full) it's the pinned head: the
+    summary moves into _about_html below it, so the signals start high up."""
+    tags = group.flags + _company_tags(group.companies, SP_COMPANY_TAGS if full else MAX_COMPANY_TAGS)
     return (
         f'<div class="group-card{" group-card-full" if full else ""}">'
         '<div class="sc-head">'
@@ -2938,13 +2973,32 @@ def _group_html(group: Group, now: datetime, full: bool) -> str:
         f'<span class="gc-title">{html.escape(group.title)}</span></div>'
         f"{_activity_pill(group.tier)}"
         "</div>"
-        + (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "")
-        + points
+        + (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary and not full else "")
         + f'<div class="gc-meta">{html.escape(group.meta)}</div>'
         f"{_timeline(group.members, now, group.scale)}"
         + (f'<div class="sc-tags gc-tags">{"".join(tags)}</div>' if tags else "")
         + "</div>"
     )
+
+
+def _about_html(group: Group) -> str:
+    """The pane's summary, key points and every company, folded away so the
+    signals come first. Opens on a click for anyone who wants the detail."""
+    points = ""
+    if group.key_points:
+        items = "".join(f"<li>{html.escape(str(p))}</li>" for p in group.key_points)
+        points = f'<ul class="gc-points">{items}</ul>'
+    companies = _company_tags(group.companies, None)
+    body = (
+        (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "")
+        + points
+        + (f'<div class="sp-about-label">Companies ({len(group.companies)})</div>'
+           f'<div class="sc-tags">{"".join(companies)}</div>' if companies else "")
+    )
+    if not body:
+        return ""
+    return ('<details class="sp-about"><summary>Summary and companies</summary>'
+            f'<div class="sp-about-body">{body}</div></details>')
 
 
 def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> None:
@@ -3082,6 +3136,7 @@ def _preview_pane(key: str, group: Group, now: datetime, state_key: str) -> None
                       help="Close preview", on_click=st.session_state.pop, args=(state_key, None))
             st.markdown(_group_html(group, now, full=True), unsafe_allow_html=True)
         st.markdown(
+            f"{_about_html(group)}"
             f'<div class="sp-section">Signals ({len(group.members)})</div>'
             f"{_signal_rows_html(group.members, now, group.id)}",
             unsafe_allow_html=True,
