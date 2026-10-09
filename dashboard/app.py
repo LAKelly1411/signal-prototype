@@ -1,4 +1,5 @@
 import hashlib
+import math
 import html
 import logging
 from collections import Counter, defaultdict
@@ -1731,39 +1732,78 @@ def inject_css() -> None:
             from { opacity: 0.45; }
             to { opacity: 1; }
         }
-        /* The line's layer: stretched over the grid, revealed left to right
-           (a clip, not a dash: dashes go wrong under non-scaling strokes). */
+        /* The timeline: revealed left to right on load, then its track (two
+           panels wide, the data twice over) slides left by one panel on a
+           loop, so the line runs end to end and never jumps. */
         .login-line {
             position: absolute;
             left: 0;
             right: 0;
             bottom: 0;
-            width: 100%;
             height: 46vh;
-            overflow: visible;
-            clip-path: inset(-10% 100% -10% 0);
-            animation: la-reveal 2.6s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+            /* Clipped at the sides only (by the clip, not overflow), so a
+               read-out over a high week can rise above the line's area. */
+            clip-path: inset(-60% 100% 0 0);
+            animation: la-reveal 2.4s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
         }
-        @keyframes la-reveal { to { clip-path: inset(-10% -10% -10% 0); } }
-        .la-line, .la-line-still {
+        @keyframes la-reveal { to { clip-path: inset(-60% 0 0 0); } }
+        .la-track {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 200%;
+            height: 100%;
+            animation: la-scroll 40s linear infinite;
+        }
+        @keyframes la-scroll { to { transform: translateX(var(--shift)); } }
+        .la-track-line { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+        /* The heat map's tiles, one column per week on the track. */
+        .la-heat { position: absolute; inset: 0; }
+        .la-heat .la-cell {
+            position: absolute;
+            width: calc(100% / var(--cols) - 6px);
+            height: calc(100% / var(--rows) - 6px);
+            margin-top: 3px;
+            background: rgba(255, 255, 255, var(--a));
+            transform: translateX(-50%);
+            animation: la-breathe 4s ease-in-out infinite alternate;
+            overflow: hidden;
+        }
+        .la-spark { position: absolute; inset: 0; background: #8DDBFF; opacity: 0; animation: la-spark 8s ease-out infinite; }
+        @keyframes la-spark {
+            0%, 86% { opacity: 0; }
+            90% { opacity: 0.95; }
+            100% { opacity: 0; }
+        }
+        .la-line {
             fill: none;
             stroke: #ffffff;
-            stroke-width: 5;
+            stroke-width: 4;
             stroke-linejoin: round;
             stroke-linecap: round;
             vector-effect: non-scaling-stroke;
         }
-        /* Zero-length strokes with round caps: circles at any stretch. */
-        .la-dot, .la-dot-still, .la-ring {
-            stroke: #ffffff;
-            stroke-linecap: round;
-            vector-effect: non-scaling-stroke;
+        /* A highlighted week: dot, pulse and read-out, riding the track. */
+        .la-at { position: absolute; width: 0; height: 0; opacity: 0; }
+        .la-point, .la-pulse {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            margin: -8px 0 0 -8px;
+            border-radius: 50%;
+            background: #ffffff;
         }
-        .la-dot, .la-dot-still { stroke-width: 18px; }
-        .la-mark { opacity: 0; }
+        .la-pulse { animation: la-pulse 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+        @keyframes la-pulse {
+            0% { opacity: 0.55; transform: scale(1); }
+            100% { opacity: 0; transform: scale(3.6); }
+        }
         .la-tip {
             position: absolute;
-            z-index: 2;
+            left: 0;
+            bottom: 20px;
             display: flex;
             flex-direction: column;
             gap: 2px;
@@ -1775,8 +1815,6 @@ def inject_css() -> None:
             font-size: 0.8125rem;
             line-height: 1.3;
             transform: translateX(-50%);
-            opacity: 0;
-            pointer-events: none;
         }
         .la-tip b { font-size: 1rem; }
         .la-tip::after {
@@ -1789,17 +1827,10 @@ def inject_css() -> None:
             background: var(--pa-ink);
             transform: translateX(-50%) rotate(45deg);
         }
-        .la-ring { stroke-width: 18px; opacity: 0; animation: la-pulse 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
-        @keyframes la-pulse {
-            0% { opacity: 0.55; stroke-width: 18px; }
-            100% { opacity: 0; stroke-width: 64px; }
-        }
         @media (prefers-reduced-motion: reduce) {
-            .la-cell { animation: none; }
+            .la-cell, .la-spark, .la-track { animation: none; }
             .login-line { animation: none; clip-path: none; }
-            .la-move-tips { display: none; }
-            .la-move { display: none; }
-            .la-still { display: inline; }
+            .la-at { display: none; }
         }
         .st-key-login-form { width: 100%; max-width: 24rem; margin: 0 auto; padding: 2rem; gap: 1rem; }
         .login-title {
@@ -1816,7 +1847,7 @@ def inject_css() -> None:
         .st-key-login-form [data-testid="stFormSubmitButton"] button p { font-weight: 700; font-size: 1rem; }
         @media (max-width: 760px) {
             .login-hero { height: auto; padding: 2rem 1.5rem 2rem 1.5rem; }
-            .login-art, .login-line, .la-move-tips { display: none; }
+            .login-art, .login-line { display: none; }
             .st-key-login-form { padding: 1.5rem 0; }
         }
         </style>
@@ -1868,131 +1899,106 @@ def _sector_switcher(entries: list[dict], current: dict, at_cap: bool) -> None:
             _new_sector_dialog()
 
 
-CYCLE, START = 15, 2.9  # login art: seconds per loop of the line, and when it starts
+SCROLL = 40  # login art: seconds for the timeline to travel one panel width
 
 
 def _login_art() -> str:
     """The sign-in page's illustration, filling the bottom of the cobalt panel
     edge to edge: a heat map of news by week whose tiles breathe on staggered
-    rhythms, and a jagged signal line that draws itself in, then keeps moving
-    between different sets of values, with a pulsing dot riding its end.
+    rhythms, and a jagged signal timeline that scrolls slowly from right to
+    left, end to end. Its busiest weeks carry a pulsing dot and a read-out
+    ("Week of 25 Sep, 39 signals") that fade in as they cross the panel and
+    travel with the line. The data repeats, so the loop is seamless.
     Deterministic, so it's the same on every load; a still version shows for
     anyone who prefers reduced motion (see inject_css)."""
-    cols, rows, size, gap = 26, 9, 34, 6
-    width, height = cols * (size + gap) - gap, rows * (size + gap) - gap
-
     def noise(*k: int) -> float:
         """A repeatable, well-spread 0-1 value from integers (no randomness)."""
         digest = hashlib.blake2b(repr(k).encode(), digest_size=4).digest()
         return int.from_bytes(digest, "big") / 0xFFFFFFFF
 
+    # One panel's worth of weekly values (a wave with jags), repeated twice
+    # side by side on a track two panels wide that slides left by one panel.
+    n = 22
+    values = []
+    for i in range(n):
+        wave = 0.45 + 0.18 * math.sin(i / n * 4 * math.pi)  # two gentle swells per loop
+        values.append(min(0.9, max(0.08, wave + (noise(7, i) - 0.5) * 0.5)))
+    track = values + values + values[:1]  # end where the next loop begins
+
+    # The heat map is the same weeks: one column per week, travelling with the
+    # line. Tiles under the line glow, brighter the busier the week and the
+    # lower the tile; above it they're faint. Each breathes on its own beat,
+    # and now and then one sparks light blue, like a signal arriving.
+    rows = 8
     cells = []
-    for r in range(rows):
-        for c in range(cols):
-            base = 0.06 + 0.42 * (c / (cols - 1)) * (0.45 + 0.55 * noise(r, c, 1))
-            dur = 3 + noise(r, c, 2) * 4
-            delay = noise(r, c, 3) * 6
+    for i in range(2 * n):
+        v = values[i % n]
+        for r in range(rows):
+            h = (rows - r - 0.5) / rows  # tile centre, 0 at the bottom
+            if h < v:
+                alpha = 0.16 + 0.5 * v * (1 - h / v * 0.6)
+            else:
+                alpha = 0.05 + 0.05 * noise(i % n, r, 4)
+            dur = 3 + noise(i % n, r, 2) * 4
+            delay = noise(i % n, r, 3) * 6
+            spark = ""
+            if h < v and noise(i % n, r, 5) > 0.86:
+                spark = (f'<span class="la-spark" style="animation-duration:{5 + noise(i % n, r, 6) * 6:.1f}s;'
+                         f'animation-delay:-{noise(i % n, r, 7) * 9:.2f}s"></span>')
             cells.append(
-                f'<rect class="la-cell" x="{c * (size + gap)}" y="{r * (size + gap)}" '
-                f'width="{size}" height="{size}" fill="#ffffff" fill-opacity="{base:.2f}" '
-                f'style="animation-duration:{dur:.1f}s;animation-delay:-{delay:.2f}s"/>'
+                f'<span class="la-cell" style="left:{(i + 0.5) * 100 / (2 * n + 1):.3f}%;top:{r * 100 / rows:.3f}%;'
+                f'--a:{alpha:.2f};animation-duration:{dur:.1f}s;animation-delay:-{delay:.2f}s">{spark}</span>'
             )
+    heat = f'<div class="la-heat" style="--cols:{2 * n + 1};--rows:{rows}">{"".join(cells)}</div>'
+    step = 100 / (2 * n + 1)  # % of the track per week (one column each)
+    pts = " ".join(f"{(i + 0.5) * step:.3f},{(1 - v) * 100:.2f}" for i, v in enumerate(track))
+    line = (f'<svg class="la-track-line" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">'
+            f'<polyline class="la-line" points="{pts}"/></svg>')
 
-    # Four takes on the same rising story, each jagged in its own way; the
-    # line morphs between them so the values keep changing.
-    n_pts = 19
-    step = width * 0.93 / (n_pts - 1)  # stop short of the edge so the dot shows
-
-    def take(seed: int) -> list[tuple[float, float]]:
-        pts = []
-        for i in range(n_pts):
-            trend = 0.12 + 0.62 * (i / (n_pts - 1))
-            jag = (noise(seed, i) - 0.5) * 0.5
-            v = min(0.92, max(0.06, trend + jag))
-            pts.append((round(i * step, 1), round(height - v * height, 1)))
-        return pts
-
-    takes = [take(s) for s in (11, 23, 37, 51)]
-    takes.append(takes[0])  # loop back to the start
-    as_points = [" ".join(f"{x},{y}" for x, y in p) for p in takes]
-    splines = ";".join(["0.45 0 0.55 1"] * (len(takes) - 1))
-    times = ";".join(f"{i / (len(takes) - 1):.3f}" for i in range(len(takes)))
-
-    def anim(attr: str, values: str) -> str:
-        return (f'<animate attributeName="{attr}" dur="{CYCLE}s" begin="{START}s" repeatCount="indefinite" '
-                f'calcMode="spline" keyTimes="{times}" keySplines="{splines}" values="{values}"/>')
-
-    # Three highlighted peaks: each in turn pulses and shows a read-out, as if
-    # the dashboard were pointing at a moment. They ride the line as it morphs.
-    first = takes[0]
-    candidates = sorted(range(3, n_pts - 1), key=lambda i: first[i][1])  # highest first (smallest y)
+    # The busiest weeks of the loop, spaced apart, get a dot and a read-out.
+    order = sorted(range(1, n - 1), key=lambda i: -values[i])
     picks: list[int] = []
-    for i in candidates:
-        if all(abs(i - j) >= 4 for j in picks):
+    for i in order:
+        if all(min(abs(i - j), n - abs(i - j)) >= 5 for j in picks):
             picks.append(i)
         if len(picks) == 3:
             break
-    picks.sort()
-
     today = datetime.now(timezone.utc).date()
-    markers, tips, keyframes = [], [], []
-    for k, i in enumerate(picks):
-        ys = [p[i][1] for p in takes]
-        x = first[i][0]
-        y_values = ";".join(str(y) for y in ys)
-        dot = f'x1="{x}" x2="{x}" y1="{ys[0]}" y2="{ys[0]}"'
-        markers.append(
-            f'<g class="la-mark la-mark-{k}">'
-            f'<line class="la-ring" {dot}>{anim("y1", y_values)}{anim("y2", y_values)}</line>'
-            f'<line class="la-dot" {dot}>{anim("y1", y_values)}{anim("y2", y_values)}</line>'
-            "</g>"
-        )
-        # The read-out follows its point's height with the same timing and
-        # easing as the line, and shows during its turn in the cycle.
-        week = today - timedelta(weeks=n_pts - 1 - i)
-        count = round(6 + (1 - ys[0] / height) * 40)
-        stops = len(ys) - 1
-        moves = " ".join(
-            f"{j / stops * 100:.1f}% {{ bottom: calc(46vh * {1 - y / height:.3f} + 22px); }}"
-            for j, y in enumerate(ys)
-        )
-        lo, hi = k / len(picks) * 100, (k / len(picks) + 0.26) * 100
-        keyframes.append(
-            f"@keyframes la-tip-move-{k} {{ {moves} }} "
-            f"@keyframes la-show-{k} {{ 0%, {max(lo - 0.1, 0):.1f}% {{ opacity: 0; }} "
-            f"{lo + 2:.1f}%, {hi - 2:.1f}% {{ opacity: 1; }} {hi:.1f}%, 100% {{ opacity: 0; }} }} "
-            f".la-tip-{k} {{ left: {x / width * 100:.2f}%; "
-            f"bottom: calc(46vh * {1 - ys[0] / height:.3f} + 22px); "
-            f"animation: la-tip-move-{k} {CYCLE}s ease-in-out {START}s infinite, "
-            f"la-show-{k} {CYCLE}s linear {START}s infinite; }} "
-            f".la-mark-{k} {{ animation: la-show-{k} {CYCLE}s linear {START}s infinite; }}"
-        )
-        tips.append(
-            f'<div class="la-tip la-tip-{k}" aria-hidden="true">'
-            f"<span>Week of {week.day} {week:%b}</span><b>{count} signals</b></div>"
-        )
+    marks, styles = [], []
+    shift = n / (2 * n + 1)
+    for copy in (0, 1):
+        for k, i in enumerate(sorted(picks)):
+            idx = copy * n + i
+            f = (idx + 0.5) * step / 100  # position along the track, 0-1
+            # The track slides by exactly n columns (a fraction `shift` of its
+            # width) per loop, so on screen, in panel widths, a point sits at
+            # 2(f - shift·t). Show it while it crosses the middle of the panel.
+            a, b = (f - 0.41) / shift, (f - 0.14) / shift
+            lo, hi = max(a, 0.0), min(b, 1.0)
+            name = f"la-show-{copy}-{k}"
+            if hi - lo > 0.04:
+                frames = (f"0%, {lo * 100:.2f}% {{ opacity: 0; }} {lo * 100 + 2:.2f}%, "
+                          f"{hi * 100 - 2:.2f}% {{ opacity: 1; }} {hi * 100:.2f}%, 100% {{ opacity: 0; }}")
+            else:
+                frames = "0%, 100% { opacity: 0; }"
+            styles.append(f"@keyframes {name} {{ {frames} }} "
+                          f".la-at-{copy}-{k} {{ animation: {name} {SCROLL}s linear infinite; }}")
+            week = today - timedelta(weeks=(n - i) % n)
+            count = round(6 + values[i] * 40)
+            marks.append(
+                f'<div class="la-at la-at-{copy}-{k}" style="left:{(idx + 0.5) * step:.3f}%;'
+                f'bottom:calc(46vh * {values[i]:.3f})">'
+                '<span class="la-pulse"></span><span class="la-point"></span>'
+                f'<span class="la-tip"><span>Week of {week.day} {week:%b}</span>'
+                f"<b>{count} signals</b></span></div>"
+            )
 
-    # The grid is cropped to fill the panel ("slice"); the line sits on its own
-    # layer stretched to the panel ("none") so all of it always shows. Strokes
-    # don't scale with the stretch, and the dots and pulses are zero-length
-    # strokes with round caps, so they stay circles.
-    grid = (f'<svg class="login-art" viewBox="0 0 {width} {height}" preserveAspectRatio="xMinYMax slice" '
-            f'aria-hidden="true">{"".join(cells)}</svg>')
-    still_dots = "".join(
-        f'<line class="la-dot-still" x1="{first[i][0]}" x2="{first[i][0]}" y1="{first[i][1]}" y2="{first[i][1]}"/>'
-        for i in picks
+    timeline = (
+        '<div class="login-line" role="img" aria-label="A scrolling timeline of signals per week, '
+        'with its busiest weeks highlighted">'
+        f'<div class="la-track" style="--shift:-{shift * 100:.4f}%">{heat}{line}{"".join(marks)}</div></div>'
     )
-    line = (
-        f'<svg class="login-line" viewBox="0 0 {width} {height}" preserveAspectRatio="none" '
-        'role="img" aria-label="A rising, shifting signal line with its busiest weeks highlighted">'
-        '<g class="la-move">'
-        f'<polyline class="la-line" pathLength="1" points="{as_points[0]}">{anim("points", ";".join(as_points))}</polyline>'
-        f'{"".join(markers)}'
-        "</g>"
-        f'<g class="la-still"><polyline class="la-line-still" points="{as_points[0]}"/>{still_dots}</g>'
-        "</svg>"
-    )
-    return f'<style>{" ".join(keyframes)}</style>{grid}{line}<div class="la-move-tips">{"".join(tips)}</div>'
+    return f'<style>{" ".join(styles)}</style>{timeline}'
 
 
 def check_password() -> bool:
