@@ -659,14 +659,18 @@ def inject_css() -> None:
             color: #6b6b6b;
             white-space: nowrap;
         }
+        /* Each row's content carries its stretch of rail as a left border,
+           with padding (not margin) between rows so the line runs unbroken
+           from the first dot to the last. The rail starts at the first dot. */
         .sp-main {
             position: relative;
             min-width: 0;
-            padding: 0 0 1rem 1.25rem;
-            margin-bottom: 1rem;
+            padding: 0 0 2rem 1.25rem;
             border-left: 1px solid #d8d6cc;
         }
-        .sp-row:last-child .sp-main { margin-bottom: 0; border-left-color: transparent; }
+        .sp-row:first-child .sp-main { border-image: linear-gradient(transparent 6px, #d8d6cc 6px) 1; }
+        .sp-row:last-child .sp-main { padding-bottom: 0; border-image: linear-gradient(#d8d6cc 10px, transparent 10px) 1; }
+        .sp-row:only-child .sp-main { border-left-color: transparent; border-image: none; }
         .sp-row + .sp-row .sp-main::after {
             content: "";
             position: absolute;
@@ -675,6 +679,7 @@ def inject_css() -> None:
             top: -1rem;
             border-top: 1px solid #e3e1d8;
         }
+        .sp-row + .sp-row .sp-main, .sp-row + .sp-row .sp-date { padding-top: 0; }
         .sp-main::before {
             content: "";
             position: absolute;
@@ -708,7 +713,19 @@ def inject_css() -> None:
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
-        .sp-meta { margin-top: 6px; font-size: 0.75rem; color: #6b6b6b; }
+        .sp-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 4px;
+            margin-top: 6px;
+            font-size: 0.75rem;
+            color: #6b6b6b;
+        }
+        .sp-dot { color: #b9b7ad; }
+        .sp-src, .sp-rel { display: inline-flex; align-items: center; gap: 5px; }
+        .sp-src .sc-logo { width: 16px; height: 16px; font-size: 0.4375rem; margin: 0; }
+        .sp-rel .sc-ring { width: 14px; height: 14px; }
         [class*="st-key-sp-close-"] button {
             min-height: 32px;
             height: 32px;
@@ -2191,12 +2208,15 @@ def _signal_rows_html(members: list[dict], now: datetime) -> str:
             date, exact = f"~{date}", exact + " · estimated from when we collected it"
         week = _week_index(m, now)
         week_attr = f' data-week="{week}"' if week is not None else ""
-        meta = [_source_name(m["source"])]
+        meta = [f'<span class="sp-src">{_source_logo(m["source"])}'
+                f'{html.escape(_source_name(m["source"]))}</span>']
         category = m.get("canonical_category") or m.get("category")
         if category:
-            meta.append(category)
-        if m.get("newsworthiness_score") is not None:
-            meta.append(f'{m["newsworthiness_score"]}% relevant')
+            meta.append(html.escape(category))
+        score = m.get("newsworthiness_score")
+        if score is not None:
+            meta.append(f'<span class="sp-rel" title="{score}% relevant">'
+                        f'{_relevance_ring(score)}{score}%</span>')
         rows.append(
             f'<li class="sp-row"{week_attr}>'
             f'<time class="sp-date" title="{html.escape(exact, quote=True)}">{html.escape(date)}</time>'
@@ -2205,7 +2225,7 @@ def _signal_rows_html(members: list[dict], now: datetime) -> str:
             f'rel="noopener noreferrer">{html.escape(m["title"])}</a>'
             + (f'<div class="sp-body">{html.escape(m["why_it_matters"])}</div>'
                if m.get("why_it_matters") else "")
-            + f'<div class="sp-meta">{" · ".join(html.escape(x) for x in meta)}</div>'
+            + f'<div class="sp-meta">{'<span class="sp-dot">·</span>'.join(meta)}</div>'
             "</div></li>"
         )
     return f'<ol class="sp-list">{"".join(rows)}</ol>'
