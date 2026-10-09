@@ -663,3 +663,15 @@ def test_preview_opens_on_click_and_closes(monkeypatch, tab, card_prefix, state_
     at.run()
     assert not at.exception
     assert not [b for b in at.button if b.key == close_key]
+
+
+def test_insights_tab_renders(monkeypatch):
+    serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=FULL_SIGNALS)})
+    at = app(base=None).run()
+    at.session_state["tab"] = "Insights"
+    at.run()
+    assert not at.exception
+    body = " ".join(m.value for m in at.markdown)
+    for title in ("Signals this week", "Signals per week", "What kind of news, week by week",
+                  "Companies in the news", "Theme momentum"):
+        assert title in body

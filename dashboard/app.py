@@ -22,7 +22,7 @@ from dashboard.brand import (
     category_icon,
     icon,
 )
-from dashboard import data, github, new_sector
+from dashboard import data, github, new_sector, overview
 from src import drafting, sectors
 from src.entities import match_key
 from src.cluster import (
@@ -1498,6 +1498,156 @@ def inject_css() -> None:
             [class*="st-key-pcard-"]:hover,
             [class*="st-key-tcard-"]:hover { transform: none; }
         }
+
+        /* ── Insights tab (dashboard/overview.py) ─────────────────────
+           Cards on the page's white, lifted with the cards' shadow; one
+           cobalt series; a cobalt light→dark ramp for magnitude; text in
+           ink and grey. */
+        .ov-tiles {
+            display: grid;
+            grid-template-columns: 1.4fr repeat(4, 1fr);
+            gap: 16px;
+            margin: 8px 0 24px 0;
+            font-family: var(--pa-font-data);
+        }
+        .ov-tile {
+            background: var(--pa-paper);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            padding: 16px 20px;
+        }
+        .ov-tile-label { font-size: 0.8125rem; color: #6b6b6b; }
+        .ov-tile-value { font-weight: 700; font-size: 2rem; line-height: 1.1; margin-top: 6px; color: var(--pa-ink); }
+        .ov-hero .ov-tile-value { font-size: 3rem; }
+        .ov-tile-note { font-size: 0.75rem; color: #6b6b6b; margin-top: 6px; }
+        .ov-card {
+            background: var(--pa-paper);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            padding: 20px 24px 16px 24px;
+            margin-bottom: 24px;
+            font-family: var(--pa-font-data);
+        }
+        .ov-card-head { margin-bottom: 16px; }
+        .ov-card-title { font-weight: 700; font-size: 1.125rem; color: var(--pa-ink); }
+        .ov-card-sub { font-size: 0.8125rem; color: #6b6b6b; margin-top: 2px; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+        .ov-empty { font-size: 0.875rem; color: #6b6b6b; padding: 8px 0 12px 0; }
+
+        /* Signals per week */
+        .ov-chart { display: grid; grid-template-columns: 2rem 1fr; height: 220px; padding-bottom: 22px; }
+        .ov-yaxis { position: relative; }
+        .ov-ytick {
+            position: absolute; right: 8px; transform: translateY(50%);
+            font-size: 0.6875rem; color: #6b6b6b; font-variant-numeric: tabular-nums;
+        }
+        .ov-plot { position: relative; }
+        .ov-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+        .ov-grid { stroke: #e8e6df; stroke-width: 1; vector-effect: non-scaling-stroke; }
+        .ov-base { stroke: #bdbbb2; stroke-width: 1; vector-effect: non-scaling-stroke; }
+        .ov-area { fill: rgba(0, 79, 255, 0.08); }
+        .ov-line { fill: none; stroke: var(--pa-cobalt); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+        .ov-mark, .ov-key-mark {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: var(--pa-cobalt); box-shadow: 0 0 0 2px var(--pa-paper);
+        }
+        .ov-mark { position: absolute; transform: translate(-50%, 50%); pointer-events: none; z-index: 2; }
+        .ov-key-mark { display: inline-block; margin: 0 2px; }
+        .ov-cols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
+        .ov-col { position: absolute; top: 0; bottom: 0; cursor: crosshair; }
+        .ov-guide, .ov-hdot, .ov-tip { position: absolute; opacity: 0; pointer-events: none; }
+        .ov-guide { top: 8px; bottom: 0; width: 1px; background: rgba(0, 79, 255, 0.25); }
+        .ov-hdot {
+            width: 10px; height: 10px; border-radius: 50%; background: var(--pa-cobalt);
+            box-shadow: 0 0 0 2px var(--pa-paper); transform: translate(-50%, 50%);
+        }
+        .ov-tip, .ov-cell-tip {
+            display: flex; flex-direction: column; gap: 2px;
+            width: max-content; max-width: 260px;
+            background: #1f1f1f; color: #ffffff; padding: 8px 10px;
+            font-size: 0.75rem; line-height: 1.35; z-index: 10;
+            transform: translate(-50%, 4px);
+        }
+        .ov-tip b, .ov-cell-tip b { font-size: 0.875rem; }
+        .ov-tip-story { color: #d9d9d9; }
+        .ov-tip.ov-tip-start { transform: translate(-12px, 4px); }
+        .ov-tip.ov-tip-end { transform: translate(calc(-100% + 12px), 4px); }
+        .ov-col:hover .ov-guide, .ov-col:hover .ov-hdot { opacity: 1; }
+        .ov-col:hover .ov-tip { opacity: 1; transform: translate(-50%, 0); }
+        .ov-col:hover .ov-tip.ov-tip-start { transform: translate(-12px, 0); }
+        .ov-col:hover .ov-tip.ov-tip-end { transform: translate(calc(-100% + 12px), 0); }
+        .ov-xaxis { position: absolute; left: 0; right: 0; bottom: -22px; height: 16px; }
+        .ov-xaxis span { position: absolute; font-size: 0.6875rem; color: #6b6b6b; transform: translateX(-2px); }
+
+        /* Category × week */
+        .ov-heat {
+            display: grid;
+            grid-template-columns: minmax(10rem, 13rem) repeat(var(--weeks), minmax(0, 1fr)) 2.5rem;
+            gap: 2px;
+            align-items: center;
+        }
+        .ov-hmonths, .ov-hrow { display: contents; }
+        .ov-hmonths span { font-size: 0.6875rem; color: #6b6b6b; padding-bottom: 4px; white-space: nowrap; overflow: visible; }
+        .ov-hname { display: flex; align-items: center; gap: 6px; min-width: 0; padding-right: 8px; font-size: 0.8125rem; color: var(--pa-ink); }
+        .ov-hicon { display: inline-flex; width: 16px; height: 16px; flex-shrink: 0; color: #6b6b6b; }
+        .ov-hicon svg { width: 16px; height: 16px; }
+        .ov-hlabel { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ov-cell { position: relative; height: 22px; cursor: default; }
+        .ov-cell:hover, .ov-cell:focus-visible { outline: 2px solid var(--pa-ink); outline-offset: -1px; z-index: 5; }
+        .ov-cell-tip {
+            position: absolute; bottom: calc(100% + 6px); left: 50%;
+            opacity: 0; pointer-events: none; transform: translate(-50%, 4px);
+        }
+        .ov-cell-tip.ov-tip-end { left: auto; right: -2px; transform: translate(0, 4px); }
+        .ov-cell:hover .ov-cell-tip, .ov-cell:focus-visible .ov-cell-tip { opacity: 1; transform: translate(-50%, 0); }
+        .ov-cell:hover .ov-cell-tip.ov-tip-end, .ov-cell:focus-visible .ov-cell-tip.ov-tip-end { transform: none; }
+        .ov-htotal { font-size: 0.8125rem; color: #6b6b6b; text-align: right; font-variant-numeric: tabular-nums; }
+        .ov-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; font-size: 0.75rem; color: #6b6b6b; }
+        .ov-legend-item { display: inline-flex; align-items: center; gap: 5px; }
+        .ov-legend-swatch { width: 14px; height: 14px; display: inline-block; }
+
+        /* Tables behind each chart */
+        .ov-table { margin-top: 12px; font-size: 0.8125rem; }
+        .ov-table summary { cursor: pointer; color: var(--pa-cobalt); font-weight: 700; font-size: 0.75rem; width: fit-content; }
+        .ov-table-scroll { overflow-x: auto; }
+        .ov-table table { border-collapse: collapse; margin-top: 8px; font-size: 0.75rem; }
+        .ov-table th, .ov-table td { padding: 4px 8px; border-bottom: 1px solid #e8e6df; text-align: left; white-space: nowrap; }
+
+        /* Companies in the news */
+        .ov-mhead, .ov-mrow {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 6rem 3.5rem 4.5rem;
+            align-items: center;
+            gap: 12px;
+        }
+        .ov-mhead { font-size: 0.6875rem; color: #6b6b6b; padding-bottom: 6px; border-bottom: 1px solid #e8e6df; }
+        .ov-mhead span:nth-child(n+3), .ov-mcount, .ov-mchange { text-align: right; }
+        .ov-mrow { padding: 8px 0; border-bottom: 1px solid #f0eee8; font-size: 0.875rem; }
+        .ov-mrow:last-child { border-bottom: none; }
+        .ov-mname { display: flex; align-items: center; gap: 8px; min-width: 0; font-weight: 700; color: var(--pa-ink); }
+        .ov-mname > span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ov-mname .sc-logo { width: 20px; height: 20px; font-size: 0.5rem; margin: 0; }
+        .ov-spark { width: 100%; height: 26px; }
+        .ov-spark polyline { fill: none; stroke: var(--pa-cobalt); stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+        .ov-mcount { font-weight: 700; font-variant-numeric: tabular-nums; }
+        .ov-mchange { font-size: 0.8125rem; color: #464646; font-variant-numeric: tabular-nums; }
+
+        /* Theme momentum */
+        .ov-trow {
+            display: grid;
+            grid-template-columns: minmax(0, 11rem) 1fr 5.5rem;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 0;
+            font-size: 0.875rem;
+        }
+        .ov-tname { font-weight: 700; color: var(--pa-ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ov-tbar { height: 10px; background: #f0eee8; }
+        .ov-tbar span { display: block; height: 100%; background: var(--pa-cobalt); border-radius: 0 4px 4px 0; }
+        .ov-tdir { font-size: 0.8125rem; color: #464646; text-align: right; }
+
+        @media (max-width: 900px) {
+            .ov-tiles { grid-template-columns: repeat(2, 1fr); }
+            .ov-hero { grid-column: 1 / -1; }
+            .ov-heat { grid-template-columns: 7.5rem repeat(var(--weeks), minmax(0, 1fr)) 2rem; }
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -2239,6 +2389,9 @@ def _week_index(signal: dict, now: datetime) -> int | None:
     return SPARK_WEEKS - 1 - weeks_ago if 0 <= weeks_ago < SPARK_WEEKS else None
 
 
+SP_DOT = '<span class="sp-dot">·</span>'
+
+
 def _signal_rows_html(members: list[dict], now: datetime, group_id: str = "") -> str:
     """The preview pane's signals as a quiet list, newest first: the date on
     the left, then the title, a two-line summary and one grey line of source,
@@ -2288,7 +2441,7 @@ def _signal_rows_html(members: list[dict], now: datetime, group_id: str = "") ->
             f'<span class="sp-title">{html.escape(m["title"])}</span>'
             + (f'<span class="sp-body">{html.escape(m["why_it_matters"])}</span>'
                if m.get("why_it_matters") else "")
-            + f'<span class="sp-meta">{'<span class="sp-dot">·</span>'.join(meta)}</span>'
+            + f'<span class="sp-meta">{SP_DOT.join(meta)}</span>'
             "</span></summary>"
             f"{more}</details>"
         )
@@ -3376,6 +3529,64 @@ def _watchlist_button() -> None:
 # Fragments: a card click or the quiet toggle reruns only its own tab, not
 # the whole app. Without them every click rebuilt all three tabs (~930 KB,
 # 212 signal cards) to change one selection.
+def _active_pattern_count(scored: list[dict]) -> int:
+    """Patterns the Patterns tab shows by default: coherent clusters that
+    aren't quiet and aren't routine runs of filings."""
+    count = 0
+    for members in group_by_cluster(scored).values():
+        verdict = _cluster_verdict(members)
+        if (verdict["coherent"] and heat_tier(compute_heat(members))[0] != "Low"
+                and verdict["pattern_type"] != "routine"):
+            count += 1
+    return count
+
+
+def render_insights(signals: list[dict], sector, status: dict | None) -> None:
+    """The sector at a glance (dashboard/overview.py builds the HTML)."""
+    scored = [s for s in signals if s.get("newsworthiness_score") is not None]
+    now = datetime.now(timezone.utc)
+
+    themes_by_id = defaultdict(list)
+    for s in scored:
+        if s.get("theme_id"):
+            themes_by_id[s["theme_id"]].append(s)
+    themes = sorted(
+        (
+            {
+                "name": theme,
+                "heat": compute_theme_heat(members, sector=sector),
+                "direction": next((m.get("theme_direction") for m in members
+                                   if m.get("theme_direction")), None),
+            }
+            for theme, members in themes_by_id.items()
+        ),
+        key=lambda t: -t["heat"],
+    )
+    healthy = total = None
+    if status and "error" not in status:
+        healthy, total = status.get("healthy_sources"), status.get("total_sources")
+
+    tiles = overview.headline_tiles(
+        scored, now, _active_pattern_count(scored),
+        sum(1 for t in themes if t["direction"] == "building"), healthy, total,
+    )
+    st.markdown(overview.tiles_html(tiles), unsafe_allow_html=True)
+    st.markdown(overview.weekly_volume_html(scored, now), unsafe_allow_html=True)
+    st.markdown(overview.category_heatmap_html(scored, now, category_icon), unsafe_allow_html=True)
+    movers = overview.company_movers(scored, now, signal_entities,
+                                     lambda e: is_excluded(e, sector))
+    left, right = st.columns(2, gap="medium")
+    with left:
+        st.markdown(overview.movers_html(movers, _company_logo), unsafe_allow_html=True)
+    with right:
+        st.markdown(overview.themes_html(themes[:8]), unsafe_allow_html=True)
+
+
+@st.fragment
+def _insights_fragment(signals: list[dict], sector, status: dict | None) -> None:
+    render_insights(signals, sector, status)
+
+
 @st.fragment
 def _patterns_fragment(signals: list[dict], sector) -> None:
     render_patterns(signals, sector)
@@ -3416,7 +3627,8 @@ def main() -> None:
     with status_col:
         with st.container(key="header-actions", horizontal=True, horizontal_alignment="right"):
             _watchlist_button()
-        render_health_strip(load_run_status(slug, legacy), reserve=not legacy)
+        run_status = load_run_status(slug, legacy)
+        render_health_strip(run_status, reserve=not legacy)
 
     name = data.plain_name(current)  # html.escape'd blocks
     try:
@@ -3449,8 +3661,8 @@ def main() -> None:
     # A slot just above the tabs, positioned onto the right of the tab row
     # (see inject_css); filled only on the Feed, the one tab Sort applies to.
     sort_slot = st.container(key="tabs-sort")
-    feed_tab, patterns_tab, themes_tab = st.tabs(
-        ["Feed", "Patterns", "Themes"], key="tab", on_change="rerun"
+    feed_tab, patterns_tab, themes_tab, insights_tab = st.tabs(
+        ["Feed", "Patterns", "Themes", "Insights"], key="tab", on_change="rerun"
     )
     if feed_tab.open:
         with sort_slot:
@@ -3465,6 +3677,9 @@ def main() -> None:
     if themes_tab.open:
         with themes_tab:
             _themes_fragment(signals, sector)
+    if insights_tab.open:
+        with insights_tab:
+            _insights_fragment(signals, sector, run_status)
 
 
 main()
