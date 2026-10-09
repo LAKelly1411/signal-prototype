@@ -572,6 +572,35 @@ def test_saved_sector_is_selected_before_done(monkeypatch):
     assert at.session_state["sector"] == "energy-retail"
 
 
+def test_bedrock_profile_drafts_without_an_api_key(monkeypatch):
+    import anthropic
+    calls, drafts = [], []
+    monkeypatch.setattr(anthropic, "AnthropicBedrock", lambda **kw: calls.append(kw) or object())
+    monkeypatch.setattr(anthropic, "Anthropic", lambda **kw: pytest.fail("direct API used"))
+    at, _ = creation_app(monkeypatch, anthropic=False,
+                         draft=lambda *a, **k: drafts.append(k.get("model")) or DRAFT)
+    at.secrets["BEDROCK_AWS_PROFILE"] = "aie-dev"
+    _to_review(at)
+    assert not at.exception
+    assert calls == [{"aws_profile": "aie-dev", "aws_region": "eu-west-1",
+                      "max_retries": 1, "timeout": 60}]
+    assert drafts == ["eu.anthropic.claude-sonnet-5-5"]
+    assert at.text_input(key="ns_name").value == "Energy retail"
+
+
+def test_bedrock_model_and_region_can_be_overridden(monkeypatch):
+    import anthropic
+    calls, drafts = [], []
+    monkeypatch.setattr(anthropic, "AnthropicBedrock", lambda **kw: calls.append(kw) or object())
+    at, _ = creation_app(monkeypatch, draft=lambda *a, **k: drafts.append(k.get("model")) or DRAFT)
+    at.secrets["BEDROCK_AWS_PROFILE"] = "aie-stage"
+    at.secrets["BEDROCK_AWS_REGION"] = "eu-central-1"
+    at.secrets["BEDROCK_MODEL"] = "eu.anthropic.claude-opus-5-5"
+    _to_review(at)
+    assert calls[0]["aws_profile"] == "aie-stage" and calls[0]["aws_region"] == "eu-central-1"
+    assert drafts == ["eu.anthropic.claude-opus-5-5"]
+
+
 def test_anthropic_client_retries_once_with_a_timeout(monkeypatch):
     import anthropic
     calls = []

@@ -318,13 +318,15 @@ def _tool_input(response) -> dict:
 
 
 def draft_sector(description: str, existing_slugs: set[str], client,
-                 ch: CompaniesHouse | None = None, now: datetime | None = None) -> Draft:
+                 ch: CompaniesHouse | None = None, now: datetime | None = None,
+                 model: str | None = None) -> Draft:
     """Draft, normalise, verify and validate a sector. One retry with the
-    validation error fed back; then DraftError."""
+    validation error fed back; then DraftError. model overrides the default,
+    e.g. a Bedrock inference profile id when the client is AnthropicBedrock."""
     description = (description or "").strip()
     if not (MIN_DESCRIPTION <= len(description) <= MAX_DESCRIPTION):
         raise ValueError(f"description must be {MIN_DESCRIPTION}-{MAX_DESCRIPTION} characters")
-    model = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
+    model = model or os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
     request = f"Industry to track: {description}"
     last_error = None
     for _ in range(2):

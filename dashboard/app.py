@@ -2827,12 +2827,30 @@ def _unlock() -> None:
     _ns_go("describe")
 
 
+BEDROCK_DEFAULT_MODEL = "eu.anthropic.claude-sonnet-5-5"
+
+
+def _drafting_on() -> bool:
+    return bool(_secret("BEDROCK_AWS_PROFILE") or _secret("ANTHROPIC_API_KEY"))
+
+
 def _anthropic_client():
+    """(client, model) for drafting, or (None, None) when it isn't set up.
+    Bedrock wins when BEDROCK_AWS_PROFILE is set: it signs requests with that
+    AWS CLI profile (run `aws sso login --profile <name>` first), so no
+    Anthropic key is needed. Otherwise ANTHROPIC_API_KEY talks to the API
+    directly with the default model."""
+    import anthropic
+    profile = _secret("BEDROCK_AWS_PROFILE")
+    if profile:
+        client = anthropic.AnthropicBedrock(
+            aws_profile=profile, aws_region=_secret("BEDROCK_AWS_REGION") or "eu-west-1",
+            max_retries=1, timeout=60)
+        return client, _secret("BEDROCK_MODEL") or BEDROCK_DEFAULT_MODEL
     key = _secret("ANTHROPIC_API_KEY")
     if not key:
-        return None
-    import anthropic
-    return anthropic.Anthropic(api_key=key, max_retries=1, timeout=60)
+        return None, None
+    return anthropic.Anthropic(api_key=key, max_retries=1, timeout=60), None
 
 
 def _companies_house():
@@ -2865,7 +2883,7 @@ def _run_draft() -> None:
     """Draft from the description. Any failure (bad draft, API or network
     error) becomes the friendly copy; the user stays on the describe step."""
     state = st.session_state
-    if not _secret("ANTHROPIC_API_KEY"):
+    if not _drafting_on():
         state["ns_error"] = _NS_NO_ANTHROPIC
         return
     if state.get("ns_drafts_used", 0) >= MAX_DRAFTS:
@@ -2875,14 +2893,15 @@ def _run_draft() -> None:
     # before the draft is counted, so one click is never counted twice.
     try:
         existing, ch = _existing_slugs(), _companies_house()
-        client = _anthropic_client()
+        client, model = _anthropic_client()
     except Exception:
         logger.exception("setting up the sector draft failed")
         state["ns_error"] = _NS_DRAFT_FAILED
         return
     state["ns_drafts_used"] = state.get("ns_drafts_used", 0) + 1
     try:
-        draft = drafting.draft_sector(state.get("ns_description", ""), existing, client, ch)
+        draft = drafting.draft_sector(state.get("ns_description", ""), existing, client, ch,
+                                      model=model)
     except ValueError:
         logger.exception("the sector description was rejected")
         state["ns_error"] = _NS_DESCRIPTION_LENGTH
@@ -3026,7 +3045,7 @@ def _new_sector_dialog() -> None:
         return
 
     if step == "describe":
-        drafting_on = bool(_secret("ANTHROPIC_API_KEY"))
+        drafting_on = _drafting_on()
         if not drafting_on:
             st.info(_NS_NO_ANTHROPIC)
         used = state.get("ns_drafts_used", 0)

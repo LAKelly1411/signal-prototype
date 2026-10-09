@@ -161,6 +161,19 @@ class TestVerify:
 
 
 class TestDraftSector:
+    def test_model_override_wins(self, monkeypatch):
+        monkeypatch.setenv("ANTHROPIC_MODEL", "from-env")
+        client = FakeClient(proposal())
+        drafting.draft_sector("UK energy suppliers", set(), client, None, now=NOW,
+                              model="eu.anthropic.claude-sonnet-5-5")
+        assert client.requests[0]["model"] == "eu.anthropic.claude-sonnet-5-5"
+
+    def test_model_defaults_to_env_then_sonnet(self, monkeypatch):
+        monkeypatch.delenv("ANTHROPIC_MODEL", raising=False)
+        client = FakeClient(proposal())
+        drafting.draft_sector("UK energy suppliers", set(), client, None, now=NOW)
+        assert client.requests[0]["model"] == "claude-sonnet-5"
+
     def test_happy_path(self):
         ch = FakeCH({"09263424": {"company_name": "OCTOPUS ENERGY LIMITED", "company_status": "active"}})
         client = FakeClient(proposal())

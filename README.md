@@ -98,9 +98,15 @@ The unlock lasts only for the browser session: a reload locks creation again.
 
 Streamlit secrets it uses:
 
-- `ANTHROPIC_API_KEY` (required for drafting; without it the dialog says
-  drafting isn't switched on). `ANTHROPIC_MODEL`, if set, overrides the
-  default model (`claude-sonnet-5`).
+- Drafting needs one of these (without either, the dialog says drafting
+  isn't switched on):
+  - `BEDROCK_AWS_PROFILE`: draft through AWS Bedrock, signed with that AWS
+    CLI profile (`aws sso login --profile <name>` first; no Anthropic key
+    needed). `BEDROCK_MODEL` overrides the inference profile (default
+    `eu.anthropic.claude-sonnet-5-5`), and `BEDROCK_AWS_REGION` the region
+    (default `eu-west-1`). Takes priority when set.
+  - `ANTHROPIC_API_KEY`: the Anthropic API directly. `ANTHROPIC_MODEL`, if
+    set, overrides the default model (`claude-sonnet-5`).
 - `GITHUB_TOKEN` (required for saving): contents read/write **and** actions
   write on this repo, since creation commits files and dispatches a workflow.
 - `COMPANIES_HOUSE_API_KEY` (optional). Without it nothing can be verified,
