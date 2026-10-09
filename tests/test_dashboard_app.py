@@ -675,11 +675,11 @@ def test_preview_puts_signals_first(monkeypatch):
     at.run()
     page = "".join(m.value for m in at.markdown)
     pane = page[page.index('class="group-card group-card-full"'):]
-    head = pane[:pane.index('class="sp-about"')]
-    # The pinned head has no summary; it sits in the closed section, ahead of the signals.
-    assert 'class="sc-body"' not in head
-    assert '<details class="sp-about">' in pane
-    assert pane.index("sp-about") < pane.index('class="sp-section"')
+    # The summary is behind the head's closed toggle, not open in the head.
+    before_toggle = pane[:pane.index('<details class="sp-toggle">')]
+    assert 'class="sc-body"' not in before_toggle
+    assert "Show summary" in pane and "gc-tags-all" in pane
+    assert pane.index("sp-toggle") < pane.index('class="sp-section"')
 
 
 def test_insights_tab_renders(monkeypatch):

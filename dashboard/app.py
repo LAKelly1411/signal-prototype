@@ -819,41 +819,42 @@ def inject_css() -> None:
         }
         /* "Signals (7)": a small label over the list; the pinned head's
            shadow already separates the two. */
-        .sp-about { margin-top: 1.25rem; border-bottom: 1px solid #e3e1da; }
-        .sp-about summary {
+        .sp-toggle summary {
             list-style: none;
             cursor: pointer;
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            padding: 0.25rem 0 1rem 0;
+            gap: 0.4rem;
+            margin-top: 6px;
             font-weight: 700;
-            font-size: 1rem;
-            color: var(--pa-ink);
+            font-size: 0.875rem;
+            color: var(--pa-cobalt);
         }
-        .sp-about summary::-webkit-details-marker { display: none; }
-        .sp-about summary::before {
+        .sp-toggle summary::-webkit-details-marker { display: none; }
+        .sp-toggle summary::after {
             content: "";
-            width: 0.45rem;
-            height: 0.45rem;
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-top: -0.2rem;
             border-right: 2px solid currentColor;
             border-bottom: 2px solid currentColor;
-            transform: rotate(-45deg);
-            transition: transform 0.15s ease;
+            transform: rotate(45deg);
         }
-        .sp-about[open] summary::before { transform: rotate(45deg); }
-        .sp-about summary:hover { color: var(--pa-cobalt); }
-        .sp-about summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
-        .sp-about-body { padding-bottom: 1.25rem; }
-        .sp-about-body .sc-body { margin-top: 0; }
-        .sp-about-label {
-            margin: 1.25rem 0 0.5rem 0;
-            font-family: var(--pa-font-data);
-            font-weight: 700;
-            font-size: 0.8125rem;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            color: #6b6b6b;
+        .sp-toggle[open] summary::after { margin-top: 0.2rem; transform: rotate(-135deg); }
+        .sp-toggle summary:hover { text-decoration: underline; }
+        .sp-toggle summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+        .sp-toggle .sp-toggle-close, .sp-toggle[open] .sp-toggle-open { display: none; }
+        .sp-toggle[open] .sp-toggle-close { display: inline; }
+        .sp-toggle .sc-body { margin-top: 12px; }
+        /* Trimmed company tags until the toggle opens, then all of them. */
+        .gc-tags-all { display: none; }
+        .group-card-full:has(.sp-toggle[open]) .gc-tags:not(.gc-tags-all) { display: none; }
+        .group-card-full:has(.sp-toggle[open]) .gc-tags-all { display: flex; }
+        /* Open, the head may be taller than the pane, so it stops sticking
+           and scrolls away like the rest. */
+        [data-testid="stLayoutWrapper"]:has(> [class*="st-key-sp-head-"] .sp-toggle[open]) {
+            position: relative;
+            top: 0;
         }
         .sp-section {
             margin: 1.5rem 0 1rem 0;
@@ -902,8 +903,7 @@ def inject_css() -> None:
             .sp-resize { display: none; }
             /* The selected card is in view above the sheet, so the sheet
                leads with its signals rather than repeating the card. */
-            [class*="st-key-signals-panel-"] .group-card-full,
-            [class*="st-key-signals-panel-"] .sp-about { display: none; }
+            [class*="st-key-signals-panel-"] .group-card-full { display: none; }
             [class*="st-key-signals-panel-"] .sp-section { margin-top: 0; padding-top: 0; border-top: none; }
         }
 
@@ -2963,9 +2963,15 @@ class Group:
 
 
 def _group_html(group: Group, now: datetime, full: bool) -> str:
-    """The card body. In the preview pane (full) it's the pinned head: the
-    summary moves into _about_html below it, so the signals start high up."""
+    """The card body. In the preview pane (full) it's the pinned head, kept
+    short so the signals start high up: the summary and key points sit behind
+    a toggle (_toggle_html), and opening it swaps the trimmed company tags for
+    all of them."""
     tags = group.flags + _company_tags(group.companies, SP_COMPANY_TAGS if full else MAX_COMPANY_TAGS)
+    tag_rows = f'<div class="sc-tags gc-tags">{"".join(tags)}</div>' if tags else ""
+    if full and len(group.companies) > SP_COMPANY_TAGS:
+        every = group.flags + _company_tags(group.companies, None)
+        tag_rows += f'<div class="sc-tags gc-tags gc-tags-all">{"".join(every)}</div>'
     return (
         f'<div class="group-card{" group-card-full" if full else ""}">'
         '<div class="sc-head">'
@@ -2975,30 +2981,29 @@ def _group_html(group: Group, now: datetime, full: bool) -> str:
         "</div>"
         + (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary and not full else "")
         + f'<div class="gc-meta">{html.escape(group.meta)}</div>'
-        f"{_timeline(group.members, now, group.scale)}"
-        + (f'<div class="sc-tags gc-tags">{"".join(tags)}</div>' if tags else "")
+        + (_toggle_html(group) if full else "")
+        + f"{_timeline(group.members, now, group.scale)}"
+        + tag_rows
         + "</div>"
     )
 
 
-def _about_html(group: Group) -> str:
-    """The pane's summary, key points and every company, folded away so the
-    signals come first. Opens on a click for anyone who wants the detail."""
+def _toggle_html(group: Group) -> str:
+    """The head's toggle. Open, it shows the summary and key points, and CSS
+    unpins the head (it may be taller than the pane) so it scrolls away."""
     points = ""
     if group.key_points:
         items = "".join(f"<li>{html.escape(str(p))}</li>" for p in group.key_points)
         points = f'<ul class="gc-points">{items}</ul>'
-    companies = _company_tags(group.companies, None)
-    body = (
-        (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "")
-        + points
-        + (f'<div class="sp-about-label">Companies ({len(group.companies)})</div>'
-           f'<div class="sc-tags">{"".join(companies)}</div>' if companies else "")
-    )
-    if not body:
+    body = (f'<div class="sc-body">{html.escape(group.summary)}</div>' if group.summary else "") + points
+    if not body and len(group.companies) <= SP_COMPANY_TAGS:
         return ""
-    return ('<details class="sp-about"><summary>Summary and companies</summary>'
-            f'<div class="sp-about-body">{body}</div></details>')
+    label = "Show summary" if body else "Show all companies"
+    return (
+        '<details class="sp-toggle">'
+        f'<summary><span class="sp-toggle-open">{label}</span><span class="sp-toggle-close">Show less</span></summary>'
+        f"{body}</details>"
+    )
 
 
 def _group_card(group: Group, now: datetime, selected: bool, state_key: str) -> None:
@@ -3136,7 +3141,6 @@ def _preview_pane(key: str, group: Group, now: datetime, state_key: str) -> None
                       help="Close preview", on_click=st.session_state.pop, args=(state_key, None))
             st.markdown(_group_html(group, now, full=True), unsafe_allow_html=True)
         st.markdown(
-            f"{_about_html(group)}"
             f'<div class="sp-section">Signals ({len(group.members)})</div>'
             f"{_signal_rows_html(group.members, now, group.id)}",
             unsafe_allow_html=True,
