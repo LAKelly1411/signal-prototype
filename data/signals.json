@@ -2640,44 +2640,6 @@
     "theme_summary_for": "Shareholding disclosure:e3b888483d41:067ec139"
   },
   {
-    "id": "dc74cd65b599eecd2ad7ff1aea65bf8eb22ad1442dd90885d814d03221f09c4b",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9613654",
-    "title": "Entain: TR-1: Notification of major holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-11T09:30:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926060+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or influence over Entain's strategic direction.",
-    "category": "major shareholding notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Entain's routine RNS flow over June-August 2026 combines recurring TR-1 shareholder notifications and board/committee changes with genuine strategic news: a 20% phased divestment of its CEE business and BetMGM's Q2 update ahead of interim results. Most filings are standard listed-company disclosure rather than a single unfolding event.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "fa02bb88ac23d284:cecdc011",
-    "theme_summary": "Entain, Flutter and evoke have all filed repeated TR-1 and holdings notifications since mid-June, with Entain alone logging seven such disclosures. Evoke's run culminated in an August 17 scheme of arrangement vote, marking the one filing that goes beyond routine shareholder movement.",
-    "theme_key_points": [
-      "Entain filed TR-1 notifications on eleven separate dates between June 11 and August 27",
-      "Evoke's Results of Court Meeting and General Meeting on August 17 scored highest (45), tied to a scheme of arrangement",
-      "Flutter logged three holdings notifications in June, none since June 30",
-      "Evoke followed its court meeting with a further holdings notice on August 26 and a Total Voting Rights filing on August 3"
-    ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Shareholding disclosure:67d82544919c:067ec139"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
