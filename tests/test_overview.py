@@ -52,6 +52,11 @@ class TestTiles:
 
 
 class TestVolume:
+    def test_only_75_plus_weeks_get_a_dot(self):
+        out = overview.weekly_volume_html([sig(0, score=74), sig(14, score=75)], NOW)
+        assert out.count('class="ov-mark"') == 1
+        assert "scoring 75% or more" in out
+
     def test_marks_high_relevance_weeks_and_escapes_titles(self):
         signals = [sig(0, score=80, title="<b>Big</b>"), sig(14), sig(15)]
         out = overview.weekly_volume_html(signals, NOW)
@@ -82,15 +87,23 @@ class TestHeatmap:
 
 
 class TestMovers:
-    def test_ranks_recent_and_excludes_regulators(self):
-        signals = ([sig(1, entities=["Entain", "Gambling Commission"])] * 3
-                   + [sig(40, entities=["Entain"])] * 5 + [sig(2, entities=["Rank"])])
+    def test_ranks_by_best_relevance_and_excludes_regulators(self):
+        signals = ([sig(1, score=30, entities=["Global Gaming Ventures", "Gambling Commission"])] * 4
+                   + [sig(2, score=78, entities=["Rank"])]
+                   + [sig(40, score=20, entities=["Global Gaming Ventures"])] * 5)
         movers = overview.company_movers(
             signals, NOW, lambda s: s["entities"], lambda e: e == "Gambling Commission")
-        assert [m["name"] for m in movers] == ["Entain", "Rank"]
-        assert movers[0]["count"] == 3 and movers[0]["change"] == -2
-        out = overview.movers_html(movers, lambda n: "")
-        assert "−2" in out and "+1" in out
+        assert [m["name"] for m in movers] == ["Rank", "Global Gaming Ventures"]
+        assert movers[0]["top"] == 78 and movers[0]["count"] == 1
+        assert movers[1]["count"] == 4 and movers[1]["change"] == -1
+        out = overview.movers_html(movers, lambda n: "", lambda s: "<ring>")
+        assert "78%" in out and "<ring>" in out and "−1" in out and "+1" in out
+
+    def test_ties_on_top_score_go_to_more_total_relevance(self):
+        signals = [sig(1, score=60, entities=["A"]), sig(1, score=60, entities=["B"]),
+                   sig(2, score=50, entities=["B"])]
+        movers = overview.company_movers(signals, NOW, lambda s: s["entities"], lambda e: False)
+        assert [m["name"] for m in movers] == ["B", "A"]
 
     def test_empty(self):
         assert "No companies named" in overview.movers_html([], lambda n: "")
@@ -98,7 +111,18 @@ class TestMovers:
 
 class TestThemes:
     def test_bars_scale_to_the_hottest_and_say_direction_in_words(self):
-        out = overview.themes_html([{"name": "Insolvency", "heat": 200, "direction": "building"},
-                                    {"name": "Tax", "heat": 50, "direction": None}])
+        out = overview.themes_html([
+            {"name": "Insolvency", "heat": 200, "direction": "building", "recent": 11, "prior": 5},
+            {"name": "Tax", "heat": 50, "direction": None}])
         assert "width:100.0%" in out and "width:25.0%" in out
-        assert "Building" in out and "—" in out
+        assert "Building" in out and "11 vs 5" in out and "—" in out
+
+    def test_trend_from_the_data(self):
+        def theme(recent, prior):
+            return [sig(5)] * recent + [sig(40)] * prior
+        assert overview.theme_trend(theme(11, 5), NOW) == ("building", 11, 5)
+        assert overview.theme_trend(theme(7, 39), NOW) == ("easing", 7, 39)
+        assert overview.theme_trend(theme(4, 4), NOW)[0] == "steady"
+        # Small numbers don't count as a trend.
+        assert overview.theme_trend(theme(2, 1), NOW)[0] == "steady"
+        assert overview.theme_trend(theme(1, 0), NOW)[0] == "steady"

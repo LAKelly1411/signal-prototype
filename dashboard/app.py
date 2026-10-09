@@ -1613,7 +1613,7 @@ def inject_css() -> None:
         /* Companies in the news */
         .ov-mhead, .ov-mrow {
             display: grid;
-            grid-template-columns: minmax(0, 1fr) 6rem 3.5rem 4.5rem;
+            grid-template-columns: minmax(0, 1fr) 5rem 3.75rem 3.25rem 3.75rem;
             align-items: center;
             gap: 12px;
         }
@@ -1627,12 +1627,15 @@ def inject_css() -> None:
         .ov-spark { width: 100%; height: 26px; }
         .ov-spark polyline { fill: none; stroke: var(--pa-cobalt); stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
         .ov-mcount { font-weight: 700; font-variant-numeric: tabular-nums; }
+        .ov-mtop { display: inline-flex; align-items: center; justify-content: flex-end; gap: 5px; font-size: 0.8125rem; font-variant-numeric: tabular-nums; }
+        .ov-mtop .sc-ring { width: 14px; height: 14px; }
+        .ov-tcounts { color: #6b6b6b; font-size: 0.75rem; margin-left: 2px; }
         .ov-mchange { font-size: 0.8125rem; color: #464646; font-variant-numeric: tabular-nums; }
 
         /* Theme momentum */
         .ov-trow {
             display: grid;
-            grid-template-columns: minmax(0, 11rem) 1fr 5.5rem;
+            grid-template-columns: minmax(0, 10rem) 1fr 7.5rem;
             align-items: center;
             gap: 12px;
             padding: 8px 0;
@@ -3550,18 +3553,14 @@ def render_insights(signals: list[dict], sector, status: dict | None) -> None:
     for s in scored:
         if s.get("theme_id"):
             themes_by_id[s["theme_id"]].append(s)
-    themes = sorted(
-        (
-            {
-                "name": theme,
-                "heat": compute_theme_heat(members, sector=sector),
-                "direction": next((m.get("theme_direction") for m in members
-                                   if m.get("theme_direction")), None),
-            }
-            for theme, members in themes_by_id.items()
-        ),
-        key=lambda t: -t["heat"],
-    )
+    themes = []
+    for theme, members in themes_by_id.items():
+        # Direction from the theme's own signals, not the summary's label,
+        # which reads "building" for almost every theme.
+        direction, recent, prior = overview.theme_trend(members, now)
+        themes.append({"name": theme, "heat": compute_theme_heat(members, sector=sector),
+                       "direction": direction, "recent": recent, "prior": prior})
+    themes.sort(key=lambda t: -t["heat"])
     healthy = total = None
     if status and "error" not in status:
         healthy, total = status.get("healthy_sources"), status.get("total_sources")
@@ -3577,7 +3576,7 @@ def render_insights(signals: list[dict], sector, status: dict | None) -> None:
                                      lambda e: is_excluded(e, sector))
     left, right = st.columns(2, gap="medium")
     with left:
-        st.markdown(overview.movers_html(movers, _company_logo), unsafe_allow_html=True)
+        st.markdown(overview.movers_html(movers, _company_logo, _relevance_ring), unsafe_allow_html=True)
     with right:
         st.markdown(overview.themes_html(themes[:8]), unsafe_allow_html=True)
 

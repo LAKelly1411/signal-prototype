@@ -21,6 +21,9 @@ from typing import Callable
 
 WEEKS = 18
 HIGH_SCORE = 70  # SCORE_TIERS' "High"
+# The weekly chart's dots mark only the stand-out weeks: at 70 most weeks
+# qualified, so the dot said little.
+MARK_SCORE = 75
 
 # Heat map: cobalt light→dark (passes monotone lightness, visible steps and a
 # light end that clears white), with empty cells a neutral grey.
@@ -163,7 +166,7 @@ def weekly_volume_html(signals: list[dict], now: datetime) -> str:
             f"<span>{html.escape(label)}</span><b>{c} signal{'s' if c != 1 else ''}</b>{story_html}"
             "</span></div>"
         )
-        if story and (story.get("newsworthiness_score") or 0) >= HIGH_SCORE:
+        if story and (story.get("newsworthiness_score") or 0) >= MARK_SCORE:
             marks.append(f'<span class="ov-mark" style="left:{x:.2f}%;bottom:{bottom:.1f}%"></span>')
 
     # Month labels along the bottom, at the first week starting in each month.
@@ -183,7 +186,7 @@ def weekly_volume_html(signals: list[dict], now: datetime) -> str:
         '<div class="ov-card">'
         '<div class="ov-card-head"><div class="ov-card-title">Signals per week</div>'
         f'<div class="ov-card-sub">{total:,} signals over {WEEKS} weeks · '
-        '<span class="ov-key-mark"></span> week with a high-relevance signal</div></div>'
+        f'<span class="ov-key-mark"></span> week with a signal scoring {MARK_SCORE}% or more</div></div>'
         f'<div class="ov-chart" role="img" aria-label="{html.escape(_volume_label(counts, starts), quote=True)}">'
         f'<div class="ov-yaxis">{ticks}</div>'
         '<div class="ov-plot">'
@@ -307,12 +310,15 @@ def category_heatmap_html(signals: list[dict], now: datetime,
 
 def company_movers(signals: list[dict], now: datetime, entities_of: Callable[[dict], list[str]],
                    excluded: Callable[[str], bool], limit: int = 8) -> list[dict]:
-    """Companies named most in the last 30 days (regulators and government
-    left out, as on Patterns), with the change against the 30 days before
-    and their weekly counts for a sparkline."""
+    """Companies behind the most relevant signals of the last 30 days
+    (regulators and government left out, as on Patterns): ranked by their
+    best relevance score, then by total relevance, so a big story outranks a
+    run of routine notices. Each carries its signal count, the change in that
+    count against the 30 days before, and weekly counts for a sparkline."""
     starts = week_starts(now)
     month_ago, two_months = now - timedelta(days=30), now - timedelta(days=60)
-    recent, before = Counter(), Counter()
+    scores: dict[str, list[int]] = defaultdict(list)
+    before = Counter()
     weekly: dict[str, list[int]] = defaultdict(lambda: [0] * WEEKS)
     for s in signals:
         names = {e for e in entities_of(s) if not excluded(e)}
@@ -320,14 +326,15 @@ def company_movers(signals: list[dict], now: datetime, entities_of: Callable[[di
         i = week_index(s, starts)
         for n in names:
             if dt > month_ago:
-                recent[n] += 1
+                scores[n].append(s.get("newsworthiness_score") or 0)
             elif dt > two_months:
                 before[n] += 1
             if i is not None:
                 weekly[n][i] += 1
+    ranked = sorted(scores.items(), key=lambda kv: (-max(kv[1]), -sum(kv[1]), kv[0]))
     return [
-        {"name": n, "count": c, "change": c - before[n], "weekly": weekly[n]}
-        for n, c in sorted(recent.items(), key=lambda kv: (-kv[1], kv[0]))[:limit]
+        {"name": n, "count": len(v), "top": max(v), "change": len(v) - before[n], "weekly": weekly[n]}
+        for n, v in ranked[:limit]
     ]
 
 
@@ -339,7 +346,8 @@ def _mini_spark(counts: list[int]) -> str:
             f'<polyline points="{pts}"/></svg>')
 
 
-def movers_html(movers: list[dict], logo_for: Callable[[str], str]) -> str:
+def movers_html(movers: list[dict], logo_for: Callable[[str], str],
+                ring_for: Callable[[int], str] = lambda score: "") -> str:
     if not movers:
         body = '<div class="ov-empty">No companies named in the last 30 days.</div>'
     else:
@@ -352,16 +360,18 @@ def movers_html(movers: list[dict], logo_for: Callable[[str], str]) -> str:
                 '<div class="ov-mrow">'
                 f'<span class="ov-mname">{logo_for(m["name"])}<span>{html.escape(m["name"])}</span></span>'
                 f"{_mini_spark(m['weekly'])}"
+                f'<span class="ov-mtop" title="Best relevance score">{ring_for(m["top"])}{m["top"]}%</span>'
                 f'<span class="ov-mcount">{m["count"]}</span>'
                 f'<span class="ov-mchange" title="Change vs the previous 30 days">{arrow_html}{word}</span>'
                 "</div>"
             )
         body = ('<div class="ov-mhead"><span>Company</span><span>18 weeks</span>'
-                '<span>30 days</span><span>Change</span></div>' + "".join(rows))
+                '<span>Top</span><span>Signals</span><span>Change</span></div>' + "".join(rows))
     return (
         '<div class="ov-card">'
         '<div class="ov-card-head"><div class="ov-card-title">Companies in the news</div>'
-        '<div class="ov-card-sub">Most-named companies in the last 30 days, against the 30 before.'
+        '<div class="ov-card-sub">Companies behind the most relevant signals of the last 30 days,'
+        " ranked by their best score. Change is in signals against the 30 days before."
         " Regulators and government bodies are left out.</div></div>"
         f"{body}</div>"
     )
@@ -370,6 +380,21 @@ def movers_html(movers: list[dict], logo_for: Callable[[str], str]) -> str:
 # ── Theme momentum ──────────────────────────────────────────────────────────
 
 DIRECTION_WORDS = {"building": ("Building", "↗"), "steady": ("Steady", "→"), "easing": ("Easing", "↘")}
+TREND_DAYS = 28
+
+
+def theme_trend(members: list[dict], now: datetime) -> tuple[str, int, int]:
+    """Which way a theme is heading, from its own signals: the last 28 days
+    against the 28 before. A change of at least 25% and two signals counts;
+    anything smaller is steady."""
+    recent_from, prior_from = now - timedelta(days=TREND_DAYS), now - timedelta(days=2 * TREND_DAYS)
+    recent = sum(1 for m in members if _dt(m) > recent_from)
+    prior = sum(1 for m in members if prior_from < _dt(m) <= recent_from)
+    if recent - prior >= 2 and recent >= prior * 1.25:
+        return "building", recent, prior
+    if prior - recent >= 2 and recent <= prior * 0.75:
+        return "easing", recent, prior
+    return "steady", recent, prior
 
 
 def themes_html(themes: list[dict]) -> str:
@@ -382,7 +407,9 @@ def themes_html(themes: list[dict]) -> str:
         rows = []
         for t in themes:
             word, arrow = DIRECTION_WORDS.get(t.get("direction") or "", ("", ""))
-            direction = f'<span aria-hidden="true">{arrow}</span> {word}' if word else "—"
+            counts = (f' <span class="ov-tcounts" title="Signals in the last 28 days vs the 28 before">'
+                      f'{t["recent"]} vs {t["prior"]}</span>') if "recent" in t else ""
+            direction = f'<span aria-hidden="true">{arrow}</span> {word}{counts}' if word else "—"
             rows.append(
                 '<div class="ov-trow">'
                 f'<span class="ov-tname">{html.escape(t["name"])}</span>'
@@ -394,6 +421,7 @@ def themes_html(themes: list[dict]) -> str:
     return (
         '<div class="ov-card">'
         '<div class="ov-card-head"><div class="ov-card-title">Theme momentum</div>'
-        '<div class="ov-card-sub">How hot each sector-wide theme is, and which way it is heading.</div></div>'
+        '<div class="ov-card-sub">How hot each sector-wide theme is, and which way it is heading:'
+        " signals in the last 28 days against the 28 before.</div></div>"
         f"{body}</div>"
     )
