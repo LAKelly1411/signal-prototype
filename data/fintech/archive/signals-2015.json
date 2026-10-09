@@ -1,0 +1,28 @@
+[
+  {
+    "id": "43f9b25f625d9fdc72a6785b0c90da628cc20b5dd5961cf244f8b9e0bcf30257",
+    "source": "gazette",
+    "source_id": "2375890",
+    "source_url": "https://www.thegazette.co.uk/notice/2375890",
+    "title": "INITIATIVE FOR SUPPORTED EMPLOYMENT (WALES) LIMITED",
+    "raw_summary": "Final Meetings: INITIATIVE FOR SUPPORTED EMPLOYMENT (WALES) LIMITED (Company Number 1836977 ) Previous Name of Company: Initiative for Specialised Employment (Wales) Limited Trading as: WISE Registered office: 63 Wal…",
+    "published_at": "2015-07-27T13:52:33+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594589+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Initiative for Supported Employment (Wales) Limited"
+    ],
+    "canonical_entities": [
+      "Initiative for Supported Employment"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "A small Welsh employment charity's insolvency wind-up has no relevance to UK fintech or payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

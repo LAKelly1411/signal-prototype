@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "6b75059a44a9b9b711280c1dcdd7b0c3ff86c044ff61adfce9eba3f51c733103",
+    "source": "companies_house",
+    "source_id": "MzUyNjI0MzUyMmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUyNjI0MzUyMmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2026-06-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593890+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director change at Monzo, a major UK digital bank, could signal leadership shifts worth tracking for governance context.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "eae1d0dfa5c15c998621cfdac046f84527b22bc21fa5a2ad2376ed777b4e5b29",
+    "source": "companies_house",
+    "source_id": "MzUyNjI0MzUyOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUyNjI0MzUyOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-06-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593895+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Director departures at a major UK digital bank can signal leadership shifts worth tracking for fintech sector watchers.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "b4c44e18bd44e9e171a63491156f1e1ce4b31d62a1b90a3386b6127e2093c005",
+    "source": "companies_house",
+    "source_id": "MzUyNjI0MzUyNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUyNjI0MzUyNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-06-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593899+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A new director appointment at Monzo signals leadership changes worth tracking at a major UK digital bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "811de45bfab856afec8c17e8fef02ebdd46035d1844181f5119edcfa6478a3a3",
+    "source": "companies_house",
+    "source_id": "MzUwNDc2MTI2NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUwNDc2MTI2NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-02-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593910+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director appointment at Monzo signals leadership changes at a major UK digital bank worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "505b092af9ca69a202ca5f2e0db4088d13df2f542cd45fd291fadef71dc7eb63",
+    "source": "companies_house",
+    "source_id": "MzUwNDUwNzYyMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUwNDUwNzYyMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-02-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593918+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director departure at Monzo, one of the UK's largest digital banks, could signal leadership shifts worth monitoring.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "2e56286a52f0f076f68a748a5e63929a5ec94874cb0ef1b04331d0fc513b59a4",
+    "source": "companies_house",
+    "source_id": "MzUxMjkzNDA3NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08804411/filing-history/MzUxMjkzNDA3NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Revolut Ltd: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2026-04-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593957+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Revolut Ltd"
+    ],
+    "canonical_entities": [
+      "Revolut Ltd"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Revolut's full accounts filing offers insight into the fintech giant's financial health ahead of its anticipated IPO scrutiny.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ddeba78b7a5fbd8e81588dd33bd9114265ffb65e276de223b7ab64022f17e173",
+    "source": "companies_house",
+    "source_id": "MzUwNzg3MTI1N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUwNzg3MTI1N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2026-03-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594027+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine annual confirmation statement filing with no substantive business or regulatory implications for the fintech sector.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "d2a99560c7e0e04d1971380dc4ed99e046304772f9484eebbec782964e25f29a",
+    "source": "companies_house",
+    "source_id": "MzUyNTU1MDU3OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07209813/filing-history/MzUyNTU1MDU3OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Wise Payments Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-06-05T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594056+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise Payments Limited"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director termination at Wise Payments signals leadership change worth tracking for a major UK fintech payments firm.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "fc6ec7c306c5a4d07ce9b10d64129f476e7e6ab615dfc87dddfa0fc3b32114d9",
+    "source": "companies_house",
+    "source_id": "MzUxMzg4NDQyMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07209813/filing-history/MzUxMzg4NDQyMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Wise Payments Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2026-04-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594062+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise Payments Limited"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine annual confirmation statement filing, a standard compliance requirement with no substantive news content.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "c077f8d93cbf3d057b055f41e4b9637f2ed4774fbeeb9fe4634bc4cdadb318ba",
+    "source": "companies_house",
+    "source_id": "MzUyMTAwNDUyN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14290857/filing-history/MzUyMTAwNDUyN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Klarna Financial Services UK Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-05-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594091+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "canonical_entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates, so it carries negligible news value for fintech watchers.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "40f59b9de277f15ae41f2af559685879a91123ed4313b3ec45b939968575f81e",
+    "source": "companies_house",
+    "source_id": "MzUxOTQwNzE1NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14290857/filing-history/MzUxOTQwNzE1NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Klarna Financial Services UK Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-05-01T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594101+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "canonical_entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at Klarna's UK entity is a routine governance update worth noting for BNPL sector tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "876637ea891ec5d99cf9ce4ce865b25f8138eb7a49b66d67d63d030640aa63e1",
+    "source": "companies_house",
+    "source_id": "MzQ5NzM3NTgyNGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14290857/filing-history/MzQ5NzM3NTgyNGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Klarna Financial Services UK Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-01-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594107+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "canonical_entities": [
+      "Klarna Financial Services UK Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A director departure at Klarna's UK regulated entity could signal leadership shifts at the major buy-now-pay-later provider.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "02b991c9b38261a6050d7edab30325a5cf3b94fb26bb22737ac0dd842f29d12a",
+    "source": "companies_house",
+    "source_id": "MzQ5ODk0MTk4NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08037323/filing-history/MzQ5ODk0MTk4NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Checkout Ltd: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-01-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594121+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Checkout Ltd"
+    ],
+    "canonical_entities": [
+      "Checkout Ltd"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates, unlikely to interest fintech journalists.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "11020e1dc643e7b417438665980484cd92f784db7dc0558d1265e6b97b83a498",
+    "source": "companies_house",
+    "source_id": "MzUxNjg4MjI3N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzUxNjg4MjI3N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2026-04-24T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594167+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Full accounts filing from a major UK clearing bank could reveal financial performance details relevant to fintech infrastructure watchers.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ac0e583cc743a64d6a9e90133b58ad201dc0a657efc881f5045989b9e19d4e4e",
+    "source": "companies_house",
+    "source_id": "MzUxNjAzODg0NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzUxNjAzODg0NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-04-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594173+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A new director appointment at ClearBank, a key UK clearing bank for fintechs, could signal strategic shifts worth monitoring.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "1c336f6fd84f58055528d23ad98514faa088c37e540de12d39b27cbbd46090b5",
+    "source": "companies_house",
+    "source_id": "MzQ5Nzc5MDY4N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzQ5Nzc5MDY4N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Address filed",
+    "raw_summary": "Type: AD01 · Description: Change registered office address company with date old address new address",
+    "published_at": "2026-01-06T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594179+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A routine registered office address change for ClearBank carries no direct business or regulatory significance.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "48b01fddd92ac6824d0f870f6223cfb1063247a0e8c45c01357043d6f308fb4c",
+    "source": "companies_house",
+    "source_id": "MzUxMzY0Mjk5MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07495895/filing-history/MzUxMzY0Mjk5MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "GoCardless Ltd: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2026-04-12T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594222+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "GoCardless Ltd"
+    ],
+    "canonical_entities": [
+      "GoCardless Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine annual accounts filing offers a data point on GoCardless's financial health for industry trackers.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "fc47bfcf4812b8c4fb187d14e1222fc37f1d06125e8685a5405192b2a9ffda68",
+    "source": "companies_house",
+    "source_id": "MzUwNjM1MjM3N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07495895/filing-history/MzUwNjM1MjM3N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "GoCardless Ltd: Persons with significant control filed",
+    "raw_summary": "Type: PSC02 · Description: Notification of a person with significant control",
+    "published_at": "2026-02-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594226+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "GoCardless Ltd"
+    ],
+    "canonical_entities": [
+      "GoCardless Ltd"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A change in significant control at payments firm GoCardless could signal ownership shifts worth tracking by fintech watchers.",
+    "category": "Shareholding disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "207c186ace24c7c928c079d7989f12ae77056778acfdcad7f2b321049e982023",
+    "source": "companies_house",
+    "source_id": "MzUwNjM1MTQzN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07495895/filing-history/MzUwNjM1MTQzN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "GoCardless Ltd: Persons with significant control filed",
+    "raw_summary": "Type: PSC09 · Description: Withdrawal of a person with significant control statement",
+    "published_at": "2026-02-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594229+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "GoCardless Ltd"
+    ],
+    "canonical_entities": [
+      "GoCardless Ltd"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A change in GoCardless's controlling interests could signal ownership restructuring at a major UK payments firm.",
+    "category": "Shareholding disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "49eca2449a191c8220846af45f0cdd7b5868bb9691551278b11fdeebc9d17e5b",
+    "source": "companies_house",
+    "source_id": "MzQ5OTc2Nzc5NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07495895/filing-history/MzQ5OTc2Nzc5NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "GoCardless Ltd: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2026-01-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594249+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "GoCardless Ltd"
+    ],
+    "canonical_entities": [
+      "GoCardless Ltd"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine annual compliance filing with no financial or operational detail, unlikely to interest fintech journalists.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "5262566a78099922f209c551696704461da2f70ebda26e43aea962b7bc551f9f",
+    "source": "gazette",
+    "source_id": "5122740",
+    "source_url": "https://www.thegazette.co.uk/notice/5122740",
+    "title": "ZERO FINTECH LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: 13818217 Name of Company: ZERO FINTECH LTD …",
+    "published_at": "2026-04-28T17:41:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594306+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Zero Fintech Ltd"
+    ],
+    "canonical_entities": [
+      "Zero Fintech"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A fintech firm's liquidation highlights sector attrition risk, though limited detail is available on its scale or client impact.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "32590ef3cb9eb8c74526cd8d953d947e49b6ba9149a971fe4e8f82c25b2f2212",
+    "source": "gazette",
+    "source_id": "5122739",
+    "source_url": "https://www.thegazette.co.uk/notice/5122739",
+    "title": "ZERO FINTECH LTD",
+    "raw_summary": "Resolutions for Winding-up: ZERO FINTECH LTD …",
+    "published_at": "2026-04-28T17:41:05+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594310+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Zero Fintech Ltd"
+    ],
+    "canonical_entities": [
+      "Zero Fintech"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A named fintech firm is being wound up, which may signal financial distress worth tracking in the sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "bdb2c32b7de92079fa55485a72e2e1869775476f08e7505e932854d01fc5aed2",
+    "source": "gazette",
+    "source_id": "5041328",
+    "source_url": "https://www.thegazette.co.uk/notice/5041328",
+    "title": "HOMES DESIGN LIMITED",
+    "raw_summary": "Meetings of Creditors: HOMES DESIGN LIMITED (Company Number 06242962 ) Registered office: Suite 501, Unit 2, 94A Wycliffe Road, Northampton, NN1 5JF Principal trading address: 40 Wise Lane, Mill Hill, London, NW7 2RE Notice…",
+    "published_at": "2026-01-23T17:31:43+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594568+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Homes Design Limited"
+    ],
+    "canonical_entities": [
+      "Homes Design"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A small, non-fintech design company's creditor meeting has no relevance to the UK fintech or payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "ebe2a81614e1b760f0f9b9e93aefb4b14a189554777689876463ba23a05bdce8",
+    "source": "gazette",
+    "source_id": "5119925",
+    "source_url": "https://www.thegazette.co.uk/notice/5119925",
+    "title": "ACCOUNTED LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …sultancy activities other than financial management , presented on Monday 16 March 2026, at 14:00 by …",
+    "published_at": "2026-04-24T00:11:36+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594606+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Accounted Ltd"
+    ],
+    "canonical_entities": [
+      "Accounted"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A winding-up petition against a management consultancy firm signals potential financial distress worth monitoring for creditor impact.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "c3248d8843f81b63e32a968f5f00b70f26d1b175c6868659fe9baaef61ce043a",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/new-concierge-service-and-visa-scheme-unveiled-to-help-britains-fastest-growing-firms-scale-and-attract-talent",
+    "title": "New concierge service and visa scheme unveiled to help Britain’s fastest-growing firms scale and attract talent",
+    "raw_summary": "Concierge service for business launched as part of mission to bring about the UK's first trillion-dollar firm.",
+    "published_at": "2026-06-09T08:46:06+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594652+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Government support schemes could indirectly affect fast-growing UK fintechs seeking talent and scaling assistance.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "1dd0745e46447e5aab598d8edd72168f87a13a0086ff409a6099dc1c66aca76c",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/commercial-credit-data-sharing-and-bank-referral-scheme-consultation-and-call-for-evidence",
+    "title": "Commercial Credit Data Sharing and Bank Referral Scheme: Consultation and Call for Evidence",
+    "raw_summary": "This consultation and call for evidence sets out proposals and issues for examination relating to the Commercial Credit Data Sharing scheme. ",
+    "published_at": "2026-05-11T08:30:06+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594655+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Commercial Credit Data Sharing scheme",
+      "Bank Referral Scheme"
+    ],
+    "canonical_entities": [
+      "Commercial Credit Data Sharing scheme",
+      "Bank Referral Scheme"
+    ],
+    "newsworthiness_score": 48,
+    "why_it_matters": "Proposed changes to SME credit data sharing and bank referral rules could reshape lending access and fintech data competition.",
+    "category": "Consultation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Consultation",
+    "theme_id": null
+  },
+  {
+    "id": "b1e084dcc5d300be318683e35e711edeb90ce337af07485cbbd3786321cb9a6b",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/hm-treasury-and-financial-conduct-authority-performance-reviews",
+    "title": "HM Treasury and Financial Conduct Authority Performance Reviews",
+    "raw_summary": "Records of the meetings between the Economic Secretary to the Treasury and the Chief Executive of the Financial Conduct Authority (FCA) to discuss the FCA’s performance.",
+    "published_at": "2026-04-28T08:46:09+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594658+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "HM Treasury",
+      "Financial Conduct Authority"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "Financial Conduct Authority"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Scrutiny of FCA performance by Treasury could signal future regulatory priorities affecting fintech oversight.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "79954585af17949b5d0652db3c5e28ef87dc680ca270ea9ed722c507d218399e",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/hm-treasury-and-prudential-regulation-authority-performance-reviews",
+    "title": "HM Treasury and Prudential Regulation Authority Performance Reviews",
+    "raw_summary": "Records of the meetings between the Economic Secretary to the Treasury and the Chief Executive of the Prudential Regulation Authority (PRA) to discuss the PRA’s performance.",
+    "published_at": "2026-04-28T08:46:03+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594664+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "Prudential Regulation Authority"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "Prudential Regulation Authority"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Routine oversight records offer limited insight into PRA accountability but little direct impact on fintech firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "bd3c1d8ab17ead63b20867278a3dd71bcec0afd3442573e530434d09fb5ce841",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/chancellor-rallies-retail-banks-behind-her-economic-plan",
+    "title": "Chancellor rallies retail banks behind her economic plan",
+    "raw_summary": "Rachel Reeves today brought together the CEOs of Barclays UK, Lloyds Banking Group, Santander UK, NatWest Group, Nationwide Building Society and HSBC UK.",
+    "published_at": "2026-04-22T11:56:47+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594669+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Barclays UK",
+      "Lloyds Banking Group",
+      "Santander UK",
+      "NatWest Group",
+      "Nationwide Building Society",
+      "HSBC UK",
+      "Rachel Reeves"
+    ],
+    "canonical_entities": [
+      "Barclays",
+      "Lloyds Banking",
+      "Santander",
+      "NatWest",
+      "Nationwide Building Society",
+      "HSBC",
+      "Rachel Reeves"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Chancellor's engagement with major bank CEOs signals government priorities that could shape future banking and payments policy.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "642629a0480684245708b5388fb6d7e5a9576ce510326920cdd4f2d2c47c01d4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/consultation-reforming-the-senior-managers-certification-regime",
+    "title": "Consultation: Reforming the Senior Managers & Certification Regime",
+    "raw_summary": "The government is consulting on reforms to the Senior Managers & Certification Regime, with the aim of streamlining the regime to support growth and competitiveness. ",
+    "published_at": "2026-04-22T09:00:04+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594673+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "HM Treasury",
+      "FCA",
+      "PRA"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "FCA",
+      "PRA"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Reforms to the SM&CR could reshape accountability and compliance burdens for senior staff across UK banks and payment firms.",
+    "category": "Consultation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Consultation",
+    "theme_id": null
+  },
+  {
+    "id": "907d2201f08c2810d2522c23d16fe86c7f6a48ae704faac5614cb45961f7ada4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/a-streamlined-approach-to-payment-systems-regulation-consultation",
+    "title": "A Streamlined Approach to Payment Systems Regulation Consultation",
+    "raw_summary": "This consultation sets out proposals for consolidating the Payment Systems Regulator within the Financial Conduct Authority.",
+    "published_at": "2026-04-21T08:30:10+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594679+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Payment Systems Regulator",
+      "Financial Conduct Authority"
+    ],
+    "canonical_entities": [
+      "Payment Systems Regulator",
+      "Financial Conduct Authority"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "Merging the PSR into the FCA would reshape UK payments regulation, affecting oversight of banks and payment firms industry-wide.",
+    "category": "Consultation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Consultation",
+    "theme_id": null
+  },
+  {
+    "id": "d30cdcec95e1e54af785206d1c30d81473070be02c190ec074a4b64d20ff9e52",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/uk-fintech-backed-to-embrace-future-payments-technology",
+    "title": "UK fintech backed to embrace future payments technology",
+    "raw_summary": "The UK’s payments sector is to be equipped for the future of rapid financial innovation through a new package announced today during Fintech Week in London.",
+    "published_at": "2026-04-21T08:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594682+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals government policy direction on future payments technology, relevant to UK fintech regulatory strategy and investment.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "ac78f56d9ed029eae2ff51c02498f45b103678f3e8d3f0bd4e335b29ef12edd6",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/hm-treasury-women-in-finance-annual-review-march-2026",
+    "title": "HM Treasury Women in Finance Annual Review (March 2026)",
+    "raw_summary": "Assessing the progress of the Women in Finance Charter, and reviewing the benefits and challenges experienced by Charter signatories",
+    "published_at": "2026-03-25T17:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594686+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Tracks progress on gender diversity commitments across UK financial firms, relevant context for fintech employers and investors.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "ec8e5f6a7d5e38ff7b66837f461979f28c10cf660f0b3be5cdddf0543d425d61",
+    "source": "parliament",
+    "source_id": "1911003",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-01/HL532",
+    "title": "Written question: Financial Services: Recruitment",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the shift in recruitment within the financial technology sector towards payments infrastructure, engineering and operational resilience roles.\nA: The UK has a long history as a powerhouse of financial services innovation, which has made the UK one of the most attractive locations worldwide for Fintechs to start, scale, list, and stay. The Financial Services Growth and Competitiveness Strategy set o...",
+    "published_at": "2026-06-01T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594859+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Government commentary on fintech recruitment trends signals policy attention to payments infrastructure and operational resilience skills gaps.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "dfed4ec3eab1d8352a92d75307000c782e33a758fb1c636bb0c93caebd66bbfc",
+    "source": "parliament",
+    "source_id": "1911654",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-05-21/900198",
+    "title": "Written question: Economic Situation: Northern Ireland",
+    "raw_summary": "Q: To ask the Secretary of State for Northern Ireland, what assessment he has made of the potential impact of Government policies on the economy in Northern Ireland.\nA: Northern Ireland’s economy is one of the strongest in the UK and is a growing leader in Fintech, Cybersecurity and advanced manufacturing. This Government is providing support through a record funding settlement, and significant investment in the four Cit...",
+    "published_at": "2026-05-21T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594863+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "General government commentary on Northern Ireland's economy with no specific fintech firms or regulatory action named.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "f093dc9be7b374d2199975bd93e96bf01efb1f435a429e5d9a10b9b07037f723",
+    "source": "parliament",
+    "source_id": "1903562",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-28/HL16734",
+    "title": "Written question: Financial Services",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact of the expansion of fintech firms, including Wise, Klarna, Revolut and Paypal, into current accounts and other core banking services on competition, consumer choice and market co\nA: The UK is a world leader in Fintech, and attracted $3.6 billion of investment in 2025, second only to the US. The Government is committed to making the UK the world’s most technologically advanced global financial centre, and remaining a leading jurisdict...",
+    "published_at": "2026-04-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594866+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Wise",
+      "Klarna",
+      "Revolut",
+      "PayPal"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited",
+      "Klarna Financial Services UK Limited",
+      "Revolut Ltd",
+      "PayPal"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals government stance on fintechs' expansion into core banking, relevant to competition and regulatory policy debates.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "b89fa7c1324b50598a219a1b4eca29e6a7ae6799cc6166da1705672837c3fd9e",
+    "source": "parliament",
+    "source_id": "1902497",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129412",
+    "title": "Written question: Financial Services: Digital Technology",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what steps she is taking to ensure the UK remains internationally competitive in financial technology innovation.\nA: The UK is a world leader in Fintech, and attracted $3.6 billion of investment in 2025, second only to the US. The Government is committed to making the UK the world’s most technologically advanced global financial centre, and remaining a leading jurisdict...",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594871+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government's ongoing fintech competitiveness stance but offers no new policy detail or named firms for sector impact.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "97cea3515e61c322a02d424f7b8412fa11853c4963f5b86a76b116ff7d0817d5",
+    "source": "parliament",
+    "source_id": "1902576",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/HL16686",
+    "title": "Written question: Financial Services: Small Businesses",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the role of fintech firms in providing capital to support scaling businesses.\nA: The UK is a world leader in Fintech, and attracted $3.6 billion of investment in 2025, second only to the US. The Government is committed to making the UK the world’s most technologically advanced global financial centre, and remaining a leading jurisdict...",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594876+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government stance on fintech's role in business finance, relevant context for UK fintech policy discussions.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "55cdc57a3a8574a61c251e35f8cbf894ba2520c308f525bde101f714f818deba",
+    "source": "parliament",
+    "source_id": "1892773",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-18/HL15732",
+    "title": "Written question: Revolut",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact of Revolt being granted a banking licence on regulation and competitiveness in the fintech sector.\nA: Bank authorisations are a matter for the independent Prudential Regulation Authority. As set out in the Government’s Financial Services Growth and Competitiveness Strategy, the UK aims to be the world’s most technologically advanced global financial centr...",
+    "published_at": "2026-03-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594880+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Revolut",
+      "Prudential Regulation Authority"
+    ],
+    "canonical_entities": [
+      "Revolut Ltd",
+      "Prudential Regulation Authority"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Parliamentary scrutiny of Revolut's UK banking licence highlights ongoing debate over fintech regulation and competitiveness.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "a649e9fa9163d2ae64159d05246ad88bc6ce4002e54ed4e26ce8be6d8cd84e30",
+    "source": "parliament",
+    "source_id": "1893276",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-19/HL15783",
+    "title": "Written question: Personal Pensions: Digital Technology",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact of fintech investment platforms on competition, costs and investment choice in the self-invested personal pension market; and what steps they are taking to support innovation in \nA: The Government has not made a formal assessment of the impact of Fintech investment platforms on competition, costs and investment choice in the self-invested personal pensions (SIPPs) market. The Financial Conduct Authority (FCA) is the regulator respons...",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594883+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Financial Conduct Authority"
+    ],
+    "canonical_entities": [
+      "Financial Conduct Authority"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government stance on fintech competition in the SIPP market, relevant to pension platform providers and regulators.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "774b4bca60605498d47329a516642a0e834a39b094f2d50ab2bf73e690c35e80",
+    "source": "parliament",
+    "source_id": "1893275",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-19/HL15784",
+    "title": "Written question: Financial Services: Digital Technology",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact and role of accelerator and innovation programmes that support the growth of early-stage financial technology firms.\nA: As set out in the Government’s Financial Services Growth and Competitiveness Strategy, the UK aims to be the world’s most technologically advanced global financial centre, and to remain a leading jurisdiction for Fintech firms to start up, scale and list....",
+    "published_at": "2026-03-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594888+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Signals government stance on fintech accelerator programmes but offers no new policy or named firm impact.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "633c128638dd8ba9232212c0c6d54e5c44d84c40b6714de23bd972b9a5178919",
+    "source": "parliament",
+    "source_id": "1889831",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-10/HL15418",
+    "title": "Written question: Small Businesses: Loans",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the contribution of fintech lending platforms to improving access to working capital for small and medium-sized enterprises.\nA: The UK is a world leader in Fintech, and attracted $3.6 billion of investment in 2025, second only to the US. The Government is committed to making the UK the world’s most technologically advanced global financial centre, and remaining a leading jurisdict...",
+    "published_at": "2026-03-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594892+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Shows government stance on fintech lending's role in SME finance, relevant context for UK fintech policy direction.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "6553561fddd11713391970b2a8f5e72f231e0875a45b3c42148eeb39a40ba81a",
+    "source": "parliament",
+    "source_id": "1890024",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-11/119873",
+    "title": "Written question: Small Businesses: Loans",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what recent discussions she has had with financial institutions on improving access to affordable credit for small businesses.\nA: The Government is committed to ensuring that small businesses across the UK can access the finance they need to start, grow and thrive. Treasury ministers, including me in my capacity as Economic Secretary, regularly meet with both traditional and newer b...",
+    "published_at": "2026-03-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594895+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals continued government focus on SME lending access, relevant to fintech lenders and banks courting small business customers.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "a20b366be9a93e385d390c53fcf13427a58e5f05dfde3b6c2ad4f71c7b2d8db9",
+    "source": "parliament",
+    "source_id": "1880557",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-02-10/HL14508",
+    "title": "Written question: Financial Services: Artificial Intelligence",
+    "raw_summary": "Q: To ask His Majesty's Government what steps they are taking to ensure that regulation of retail financial markets remains effective as AI adoption in fintech increases.\nA: HM Treasury works closely with the UK financial regulators to monitor evolving risks from new technologies, and ensure that the opportunities AI presents can be realised in a safe and responsible way. This includes engaging closely with the Financial Cond...",
+    "published_at": "2026-02-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594898+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "Financial Conduct Authority"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "Financial Conduct Authority"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government thinking on AI regulation in fintech, relevant context for firms navigating future compliance expectations.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "b58bb464254b5800e564dd852b5739ab540cf49c3cf89284191a5821026e9a06",
+    "source": "parliament",
+    "source_id": "1881108",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-02-11/HL14554",
+    "title": "Written question: Financial Services: Technology",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of recent trends in UK tech and fintech investment, and how this is informing their strategy to maintain competitiveness in emerging financial technologies.\nA: In 2025, the sector attracted $3.6 billion of investment - second only to the US. As set out in the Government’s Financial Services Growth and Competitiveness Strategy (“the Strategy”), the UK aims to be the world’s most technologically advanced global fi...",
+    "published_at": "2026-02-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594902+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government's fintech competitiveness strategy and investment priorities, relevant context for UK fintech sector positioning.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "3bf0681ef279e2f78c38207960870858ef26e48744a8ad60a8091fb93054c5fd",
+    "source": "parliament",
+    "source_id": "1878797",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-02-04/HL14297",
+    "title": "Written question: Financial Services: Artificial Intelligence and Automation",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact of increased automation and AI-driven financial workflows on the fintech sector; and what policy measures they are considering to support the UK's competitiveness in the digital \nA: As set out in the Government’s Financial Services Growth and Competitiveness Strategy, the UK aims to be the world’s most technologically advanced global financial centre, and to remain a leading jurisdiction for Fintech firms to start-up, scale and list....",
+    "published_at": "2026-02-04T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594905+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government focus on AI and fintech competitiveness, which may shape future regulation affecting UK payments and fintech firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "071b00e96a5ea4a591bcad1e4099968f7cad0654ae6f49bd11439e8f001d2c34",
+    "source": "parliament",
+    "source_id": "1873613",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-01-20/HL13768",
+    "title": "Written question: London Stock Exchange",
+    "raw_summary": "Q: To ask His Majesty's Government what steps they are taking to support and retain high-growth UK technology firms seeking to list on the London stock exchange.\nA: The Government has delivered an ambitious programme of reforms to make it easier for all firms, including fintechs, to list and raise capital on UK markets. This includes overhauling the Prospectus Regime and Listing Rules, providing more flexibility to f...",
+    "published_at": "2026-01-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594908+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "London Stock Exchange"
+    ],
+    "canonical_entities": [
+      "London Stock Exchange"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals ongoing government focus on reforming UK listing rules to retain high-growth tech and fintech firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "e320e576b5679b9893055a90d1816d95e0f92a0c065813b90b7e48a52b9524b8",
+    "source": "parliament",
+    "source_id": "1873078",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-01-19/HL13717",
+    "title": "Written question: Technology: Investment",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of recent trends in venture capital investment and scale-up financing in the UK technology sector; and how those trends are informing policy to support fintech and AI innovation.\nA: The UK has the third largest Venture Capital (VC) market in the world behind the US and China, and the largest in Europe. The latest edition of the British Business Bank (BBB) 2025 Equity Monitor found that the UK attracted £10.8 billion of VC investment ...",
+    "published_at": "2026-01-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594912+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "British Business Bank"
+    ],
+    "canonical_entities": [
+      "British Business Bank"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Government commentary on UK VC and fintech investment trends signals policy direction but offers no new regulatory action.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "5a4b17d0d4b049126586a2b40e92e9892ba6684ca6ce9d5592d7e02e7bffa44c",
+    "source": "parliament",
+    "source_id": "1871740",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-01-14/HL13612",
+    "title": "Written question: Financial Services: Digital Technology",
+    "raw_summary": "Q: To ask His Majesty's Government what steps they are taking to facilitate collaboration between UK financial regulators and international regulatory authorities to maintain the City of London's competitiveness in fintech innovation.\nA: The Government is committed to making the UK the best place for fintechs, to start, scale and list. The Financial Services Growth and Competitiveness Strategy, published in July 2025, sets out our mission to shape a regulatory environment for financial se...",
+    "published_at": "2026-01-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594915+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "City of London",
+      "Financial Services Growth and Competitiveness Strategy"
+    ],
+    "canonical_entities": [
+      "City of London",
+      "Financial Services Growth and Competitiveness Strategy"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Shows government's ongoing fintech competitiveness strategy, relevant context for regulatory direction though lacking new concrete action.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "2e0623a9dcf686fd8e4989e54ff34aaedfd876eb55bf57ab6d11f5c7c413d18a",
+    "source": "parliament",
+    "source_id": "1871746",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-01-14/HL13610",
+    "title": "Written question: Financial Services: Digital Technology",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of consolidation trends in the fintech sector; and what steps they will take to support UK-based fintech firms in maintaining global competitiveness.\nA: As set out in the Government’s Financial Services Growth and Competitiveness Strategy (“the Strategy”), the UK aims to be the world’s most technologically advanced global financial centre, and to remain a leading jurisdiction for Fintech firms to start-up...",
+    "published_at": "2026-01-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594918+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government focus on fintech consolidation and UK competitiveness, relevant context for sector strategy but no concrete action yet.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "1bbb880fd2965c248d38166274d398f34d8e4f08a1feb344b2a3f00389dff42d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/tfs-buying-ltd-a25-1323312-tfs-buying-ltd.html",
+    "title": "TFS Buying Ltd",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a buy now pay later arrangement irresponsibly encouraged non-essential spending through the use of credit, particularly in relation to funding non-essential Christmas purchases.",
+    "published_at": "2026-03-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595008+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "TFS Buying Ltd"
+    ],
+    "canonical_entities": [
+      "TFS Buying"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "ASA ruling highlights regulatory scrutiny of BNPL advertising practices encouraging irresponsible consumer credit use.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "aadbdcbb39a73d83618ab9250c4adf709c635198f24189ee6bfdec0954a7ee37",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/eastern-savings-and-loans-credit-union-a25-1323315-eastern-savings-and-loans-credit-union.html",
+    "title": "Eastern Savings and Loans Credit Union",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a credit union irresponsibly encouraged the purchase of non-essential items through the use of credit, particularly in relation to funding Black Friday and Christmas purchases.",
+    "published_at": "2026-03-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595011+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Eastern Savings and Loans Credit Union"
+    ],
+    "canonical_entities": [
+      "Eastern Savings and Loans Credit Union"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "ASA upheld ruling against a credit union's ad highlights scrutiny of responsible lending promotion in consumer credit marketing.",
+    "category": "Consumer Duty and redress",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Consumer Duty and redress",
+    "theme_id": null
+  },
+  {
+    "id": "6b9f3599abf6504d50c90c93b921869634fb66667ab4ded3a9ccf81e223db106",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/wowcher-ltd-a25-1323986-wowcher-ltd.html",
+    "title": "Wowcher Ltd t/a Wowcher",
+    "raw_summary": "Upheld / Website (commercial classified): A promotion on the Wowcher website wasn’t administered fairly and caused unnecessary disappointment.",
+    "published_at": "2026-06-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595068+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Wowcher Ltd"
+    ],
+    "canonical_entities": [
+      "Wowcher"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An ASA ruling against Wowcher over an unfair promotion has minimal relevance to fintech and payments but flags consumer protection enforcement.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "1fb770c3be467eb626c78229a0946aa97ce64f34cfba06a1ddd20fff7ef3fafc",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/guangzhoushi-yingyi-maoyi-youxiangongsi-a25-1322117-guangzhoushi-yingyi-maoyi-youxiangongsi.html",
+    "title": "Guangzhoushi Yingyi Maoyi Youxiangongsi t/a LANPN",
+    "raw_summary": "Upheld / Social media (influencer or affiliate ad): An Instagram post on Gemma Markland’s account wasn’t obviously identifiable as an ad.",
+    "published_at": "2026-05-27T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595073+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Guangzhoushi Yingyi Maoyi Youxiangongsi (LANPN)",
+      "Gemma Markland"
+    ],
+    "canonical_entities": [
+      "Guangzhoushi Yingyi Maoyi Youxiangongsi",
+      "Gemma Markland"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling on influencer ad disclosure has minimal relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "b7ec0e8f2cc7f6354e4a5228ed8eee794baeb71dfc819d179c7751ee910d7156",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/snackverse-ltd-a25-1322021-snackverse-ltd.html",
+    "title": "SnackVerse Ltd",
+    "raw_summary": "Upheld / Website (own site): A webpage for a snack subscription box misleadingly implied their subscribers would receive a specific country-themed box but didn’t make clear this was subject to allocation conditions.",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595076+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "SnackVerse Ltd"
+    ],
+    "canonical_entities": [
+      "SnackVerse"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "An ASA ruling on a snack subscription box's misleading marketing has no relevance to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "77a30278c78d2815170fef1d06a9a523758366b14233f436c5532ee1ac1bb77d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/cc-response-nw-ltd-a25-1299398-cc-response-nw-ltd-.html",
+    "title": "CC Response NW Ltd",
+    "raw_summary": "Upheld / Search (paid), Website (own site): Two paid-for Google search listings and a web landing page for an accident claims management company failed to make the nature of their service clear, misleadingly implied there was no cost to consumers and made misleading claims in relation to potential savings.",
+    "published_at": "2026-04-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595081+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "CC Response NW Ltd"
+    ],
+    "canonical_entities": [
+      "CC Response NW"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An ASA ruling against an accident claims management firm for misleading ads has limited direct relevance to UK fintech and payments audiences.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "c741104bea294c93e2afdf04f38b6c531001ebb9d0ba91f4f8169180ac0b4966",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/gismart-ltd-a26-1327840-gismart-ltd.html",
+    "title": "Gismart Ltd t/a Dancebit",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a dance workout app misleadingly stated that their service was free.",
+    "published_at": "2026-04-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595084+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gismart Ltd",
+      "Dancebit"
+    ],
+    "canonical_entities": [
+      "Gismart",
+      "Dancebit"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling against a dance app's misleading ad has minimal relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "b87cdc9444bc0672f91bfe04cb333259b357a71dd39eb09ab5cdea792841d7b5",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/shop-tjc-ltd--a25-1316858-shop-tjc-ltd.html",
+    "title": "Shop TJC Ltd  t/a Ideal World",
+    "raw_summary": "Upheld / Television: Two teleshopping presentations advertising watches made misleading claims about price, savings and availability.",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595088+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Shop TJC Ltd",
+      "Ideal World"
+    ],
+    "canonical_entities": [
+      "Shop TJC",
+      "Ideal World"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "An ASA ruling on misleading TV watch pricing claims has no direct relevance to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "bcc8d232f447b4f02c939b878604bfba360f6874df40b9dd6efe710254efa12d",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/hgvt-ltd-a25-1317888-hgvt-ltd.html",
+    "title": "HGVT Ltd",
+    "raw_summary": "Upheld / Website (own site): A website and pages for Heavy Goods Vehicle (HGV) training service providers made misleading claims about HGV test pass rates, the nature of a promotion and being the largest and best rated HGV training provider. The ad also falsely implied they were acting for purposes outside their business.",
+    "published_at": "2026-04-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595091+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "HGVT Ltd"
+    ],
+    "canonical_entities": [
+      "HGVT"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling against an HGV training provider has no direct relevance to UK fintech or payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "caf0b179aa2765ba8fc30879c5e477ebccc05bdfe565f883e450dc31e46b4aff",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/riverside-credit-union-ltd-a25-1323313-riverside-credit-union-ltd.html",
+    "title": "Riverside Credit Union Ltd",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook post for a credit union irresponsibly encouraged excessive spending through the use of credit, particularly in relation to funding non-essential Christmas purchases.",
+    "published_at": "2026-03-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595094+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Riverside Credit Union Ltd"
+    ],
+    "canonical_entities": [
+      "Riverside Credit Union"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "ASA ruling against a credit union's ad highlights ongoing scrutiny of responsible lending promotion in UK financial marketing.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "3997a2a6cb63d66423fa9f6a818d7290ae516f1806d369eb91e8e0936ffbffba",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/rtsb-ltd-a25-1293152-rtsb-ltd.html",
+    "title": "RTSB Ltd t/a Match Bingo",
+    "raw_summary": "Not upheld / Social media (influencer or affiliate ad): [Republished ruling] A YouTube ad for Match Bingo, which featured the Tottenham Hotspur Football team, wasn’t inappropriately targeted to under-18s.",
+    "published_at": "2026-03-04T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595097+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "RTSB Ltd",
+      "Match Bingo"
+    ],
+    "canonical_entities": [
+      "RTSB",
+      "Match Bingo"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "An ASA ruling on a gambling ad has little relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "3d28d2b3c8604f0a91ceb40f425c0fa6176503d38c5a9d494eae1519db9fe9cf",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-europe/9594333",
+    "title": "Wise: Wise Europe",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-06-01T08:59:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595131+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise",
+      "Wise Europe"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited",
+      "Wise Europe"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "An RNS filing from Wise, a major UK-listed fintech, may signal operational or structural changes worth monitoring.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "d78cec24c6818476b67e4e24a8714ba77234c5fecd07783f16c5c2b89fec9ccd",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-debuts-us-listing-on-nasdaq/9561820",
+    "title": "Wise: Wise debuts US listing on Nasdaq",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-05-11T11:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595134+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "Wise's Nasdaq listing marks a major UK fintech shifting capital markets focus to the US, with implications for London's listings competitiveness.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "e7cf5e461a162e2b3c29f6d8a461d9499e14bbb351dab10633a58ad23a82f82f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/cancellation-wise-plc/9561247",
+    "title": "Wise: Cancellation - Wise plc",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-05-11T08:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595137+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise plc"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 48,
+    "why_it_matters": "A cancellation filing from Wise, a major UK-listed fintech, could signal share structure or listing changes relevant to investors and sector watchers.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "a17de387036671fcf5bb0ed62a63f194f33e5d1f65b424ae2fdd9aef3cb52486",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/scheme-of-arrangement-becomes-effective/9560374",
+    "title": "Wise: Scheme of Arrangement becomes effective",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-05-11T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595145+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Wise's scheme of arrangement taking effect marks a major corporate restructuring for one of the UK's largest fintechs.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "19562a7b03fbdb33f9817a226fc51aa449c41dce319c6d0dd1fadb3076bce958",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/scheme-of-arrangement/9540136",
+    "title": "Wise: Scheme of Arrangement",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-27T15:33:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595148+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "A scheme of arrangement from Wise signals a major corporate restructuring that could affect shareholders and the firm's listing structure.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "0756b97cc743fca18860df3a0ffd216c85604686ea75edf2550aa89a643d2e5f",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/publication-of-a-prospectus/9517466",
+    "title": "Wise: Publication of a Prospectus",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-13T13:39:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595151+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Wise's prospectus publication could signal capital raising or listing changes affecting investors and the fintech sector.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "717c8eec6c35e5a62860bdda0986ef940c43eaf6e1b0d9dd78de09ec5934d7b9",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/q4-fy2026-trading-update/9516528",
+    "title": "Wise: Q4 FY2026 Trading Update",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-13T07:53:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595154+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Wise's quarterly trading update offers insight into growth and volumes at one of the UK's largest fintech payments firms.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "1a128c9d23900fef227b2e356abc1b2dc63b53176b24e04b0f77374484c27bd5",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/translation-of-ifrs-financials-into-us-gaap/9515960",
+    "title": "Wise: Translation of IFRS financials into US GAAP",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-13T07:01:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595157+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Wise's US GAAP reconciliation aids investor comparability ahead of its planned US listing shift, relevant to fintech market watchers.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "24359e085f8040b7bfd0cd4737aff2ab6811b95c8308ffca6c01178c01837854",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/q4-fy2026-trading-update/9515882",
+    "title": "Wise: Q4 FY2026 Trading Update",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595159+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Wise's quarterly trading update offers investors and rivals insight into growth trends in the UK cross-border payments market.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "178c25e67be0b52e9dec158cd1a6dacdffd9c03d0c9560d38cc158b21027db91",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/notice-of-q4-fy2026-results/9512383",
+    "title": "Wise: Notice of Q4 FY2026 Results",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-04-09T09:05:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595162+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals upcoming Q4 FY2026 results from Wise, a major UK-listed fintech, which investors and journalists will track for performance trends.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
+  },
+  {
+    "id": "2b286baf6af0ca8874ae9c643a6f94c52721672ec38db1ef1eacba944f0793a3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/-record-profits-delivered-and-reorganisation-/9612288",
+    "title": "PayPoint: Record profits delivered and reorganisation ...",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-06-11T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595193+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "PayPoint's record profits and reorganisation signal strategic shifts in UK retail payments infrastructure worth tracking by the sector.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
+  }
+]

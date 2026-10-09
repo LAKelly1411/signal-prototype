@@ -1,40 +1,30 @@
 {
-  "sector": "gambling",
-  "started_at": "2026-10-09T14:28:40.548574+00:00",
-  "finished_at": "2026-10-09T14:29:35.851472+00:00",
+  "sector": "fintech",
+  "started_at": "2026-10-09T14:17:30.257029+00:00",
+  "finished_at": "2026-10-09T14:28:40.538549+00:00",
   "sources": {
-    "GamblingCommissionCollector": {
-      "items": 258,
-      "ok": true,
-      "error": false
-    },
     "CompaniesHouseCollector": {
-      "items": 26,
+      "items": 64,
       "ok": true,
       "error": false
     },
     "GazetteCollector": {
-      "items": 131,
+      "items": 91,
       "ok": true,
       "error": false
     },
     "DCMSCollector": {
-      "items": 33,
+      "items": 48,
       "ok": true,
       "error": false
     },
     "ParliamentCollector": {
-      "items": 78,
+      "items": 45,
       "ok": true,
       "error": false
     },
     "ASACollector": {
-      "items": 27,
-      "ok": true,
-      "error": false
-    },
-    "BGCCollector": {
-      "items": 18,
+      "items": 25,
       "ok": true,
       "error": false
     },
@@ -44,16 +34,16 @@
       "error": false
     },
     "LSERNSCollector": {
-      "items": 81,
+      "items": 27,
       "ok": true,
       "error": false
     }
   },
-  "healthy_sources": 8,
-  "total_sources": 9,
-  "raw_items": 652,
-  "new_signals": 0,
+  "healthy_sources": 6,
+  "total_sources": 7,
+  "raw_items": 300,
+  "new_signals": 300,
   "unscored": 0,
-  "live_signals": 336,
-  "clusters": 30
+  "live_signals": 131,
+  "clusters": 13
 }

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "62b97f1cf9fe06bf2fcc2eec3c914036a27db2273737fd1a006f4a8b7287846a",
+    "source": "gazette",
+    "source_id": "4383513",
+    "source_url": "https://www.thegazette.co.uk/notice/4383513",
+    "title": "OPEN HOUSE PROPERTY INVESTMENT LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: OPEN HOUSE PROPERTY INVESTMENT LIMITED Company Number: 09827132 Nature of Business: House Refurbishments Registered office: Douglas Bank House, Wigan Lane, Wigan WN1 2TB Type of Liqui…",
+    "published_at": "2023-06-22T01:09:58+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594423+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open House Property Investment Limited"
+    ],
+    "canonical_entities": [
+      "Open House Property Investment"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small house refurbishment firm's liquidation has no direct relevance to UK fintech or payments stakeholders.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "40e11dd0b238836afd15de68a880ba75e134888c2893f03acb3e09f64d0a8a97",
+    "source": "gazette",
+    "source_id": "4383448",
+    "source_url": "https://www.thegazette.co.uk/notice/4383448",
+    "title": "OPEN HOUSE PROPERTY INVESTMENT LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address Douglas Bank House, Wigan Lane, Wigan WN1 2TB",
+    "published_at": "2023-06-22T01:08:47+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594428+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open House Property Investment Limited"
+    ],
+    "canonical_entities": [
+      "Open House Property Investment"
+    ],
+    "newsworthiness_score": 10,
+    "why_it_matters": "A minor property firm's voluntary winding-up has negligible relevance to the fintech and payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "b77619c9176463f2d89081fde3c62405151395771ca95d14147aa822d0c6e618",
+    "source": "parliament",
+    "source_id": "1a846275-f75c-485b-b9d5-fbe53929f88c",
+    "source_url": "https://hansard.parliament.uk/Commons/2023-11-28/debates/1a846275-f75c-485b-b9d5-fbe53929f88c/DraftResolutionofCentralCounterpartiesModifiedApplicationofCorporateLawandConsequentialAmendmentsRegulations2023DraftFinancialServicesandMarketsAct2023ResolutionofCentralCounterpartiesPartialPropertyTransfersandSafeguardingofProtectedArrangementsRegulations2023DraftPaymentandElectronicMoneyInstitutionInsolvencyAmendmentRegulations2023",
+    "title": "Draft Resolution of Central Counterparties (Modified Application of Corporate Law and Consequential Amendments) Regulations 2023 Draft Financial Services and Markets Act 2023 (Resolution of Central Counterparties: Partial Property Transfers and Safeguarding of Protected Arrangements) Regulations 2023 Draft Payment and Electronic Money Institution Insolvency (Amendment) Regulations 2023",
+    "raw_summary": "General Committees debate, Commons: Draft Resolution of Central Counterparties (Modified Application of Corporate Law and Consequential Amendments) Regulations 2023 Draft Financial Services and Markets Act 2023 (Resolution of Central Counterparties: Partial Property Transfers and Safeguarding of Protected Arrangements) Regulations 2023 Draft Payment and Electronic Money Institution Insolvency (Amendment) Regulations 2023",
+    "published_at": "2023-11-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594941+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Updates to CCP resolution and payment/e-money insolvency rules could affect how UK payment firms are wound down and safeguarded funds handled.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  }
+]

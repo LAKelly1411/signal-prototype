@@ -1,0 +1,82 @@
+[
+  {
+    "id": "f21f18de473b4d8f41eab63cfe675e828325ebf0c454f32f6f80e1e1422ca4b8",
+    "source": "gazette",
+    "source_id": "L-59618-1256175",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59618-1256175",
+    "title": "BERNARD FREEMAN AND MICHAEL ANTHONY JOHN SULLIVAN",
+    "raw_summary": "Petitions to Wind Up (Companies): Company Address Unit 6, Deacon Park, Moorgate Road, Liverpool L33 7RX and/or Unit 5, Capitol Trading Park, Kirby Bank Road, Knowsley Industrial Park, Liverpool L33 7SY",
+    "published_at": "2010-11-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594469+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bernard Freeman",
+      "Michael Anthony John Sullivan"
+    ],
+    "canonical_entities": [
+      "Bernard Freeman",
+      "Michael Anthony John Sullivan"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A routine winding-up petition with no apparent link to fintech or payments firms, of minimal interest to this audience.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d9bc63f13e6fddfe0ad3ddd52a073d9768fb0d4e71fba1f256fc795212ef8c95",
+    "source": "gazette",
+    "source_id": "L-59618-1256176",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59618-1256176",
+    "title": "NATIONWIDE DIGITAL SATELLITE WARRANTY SERVICES LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): Company Address Unit 23, Capitol Trading Park, Kirkby Bank Road, Knowsley Industrial Estate, Kirkby, Merseyside L33 7SY",
+    "published_at": "2010-11-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594472+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Nationwide Digital Satellite Warranty Services Limited"
+    ],
+    "canonical_entities": [
+      "Nationwide Digital Satellite Warranty Services"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small warranty services firm faces a winding-up petition, of minimal relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "45ec44fd238c69e2e3acf629aa620af3feee2d727b0a844efcbc8ada440488a7",
+    "source": "gazette",
+    "source_id": "L-59587-1231685",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59587-1231685",
+    "title": "OPEN HOUSE EUROPE LIMITED",
+    "raw_summary": "Meetings of Creditors: OPEN HOUSE EUROPE LIMITED (Company Number 04623709 ) Registered office: Bank House, Market Square, Congleton, Cheshire, CW12 1ET Principal Trading Address: 16 Silk Street, Congleton, Cheshire, CV12 4D…",
+    "published_at": "2010-10-27T01:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594475+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open House Europe Limited"
+    ],
+    "canonical_entities": [
+      "Open House Europe"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small, non-fintech trading firm's creditors meeting has no relevance to UK payments or fintech industry coverage.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

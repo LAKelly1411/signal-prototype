@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "fintech",
+    "name": "Fintech & payments",
+    "brief": "A B2B newsroom covering UK fintech and payments: banks and e-money firms, payment processors, lenders and the regulators around them.",
+    "created_at": null,
+    "status": "ready",
+    "last_run_at": "2026-10-09T14:28:40.538549+00:00",
+    "signal_count": 131,
+    "error": null
+  },
+  {
+    "slug": "gambling",
+    "name": "Gambling & gaming",
+    "status": "ready",
+    "signal_count": 336,
+    "last_run_at": "2026-10-09T14:29:35.851472+00:00",
+    "error": null,
+    "brief": "A B2B newsroom covering the UK gambling and gaming sector: operators, suppliers, affiliates and the regulators around them.",
+    "created_at": null
+  }
+]

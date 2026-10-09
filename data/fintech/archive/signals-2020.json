@@ -1,0 +1,54 @@
+[
+  {
+    "id": "a9e9080c181bba8d8b23c45a9926dda24a25ff63bdcb3117f422c4c3702ca107",
+    "source": "gazette",
+    "source_id": "3566805",
+    "source_url": "https://www.thegazette.co.uk/notice/3566805",
+    "title": "OPEN YOUTH TRUST",
+    "raw_summary": "Appointment of Liquidators: Name of Company: OPEN YOUTH TRUST Company Number: 05320333 Registered office: 20 Bank Plain, Norwich, Norfolk, NR2 4SF Principal trading address: 20 Bank Plain, Norwich, Norfolk, NR2 4SF Nature of Bus…",
+    "published_at": "2020-05-25T12:30:05+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594443+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open Youth Trust"
+    ],
+    "canonical_entities": [
+      "Open Youth Trust"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A small charity's liquidation has no relevance to UK fintech or payments industry readers.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "51eb4ab8962bb0136d1b18fe6fef170727b8b2082ac77bf107051557115322ae",
+    "source": "gazette",
+    "source_id": "3566802",
+    "source_url": "https://www.thegazette.co.uk/notice/3566802",
+    "title": "OPEN YOUTH TRUST",
+    "raw_summary": "Resolutions for Winding-up: Company Address 20 Bank Plain, Norwich, Norfolk, NR2 4SF",
+    "published_at": "2020-05-25T12:30:01+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594446+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open Youth Trust"
+    ],
+    "canonical_entities": [
+      "Open Youth Trust"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small charity's winding-up notice has negligible relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

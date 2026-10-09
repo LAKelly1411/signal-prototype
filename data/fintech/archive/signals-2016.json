@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ab872d2ba09a35ca2a7685cc69ed3980e626aef30993cc8ffc19efae45ca79a8",
+    "source": "gazette",
+    "source_id": "2635458",
+    "source_url": "https://www.thegazette.co.uk/notice/2635458",
+    "title": "NEW WORLD RESOURCES PLC",
+    "raw_summary": "Meetings of Creditors: NEW WORLD RESOURCES PLC (Company Number 07584218 and Netherlands 55931758 ) Registered office: C/O Hackwood Secretaries Limited, One Silk Street, London, EC2Y 8HQ Principal trading address: Herengrach…",
+    "published_at": "2016-10-25T13:21:27+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594458+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "New World Resources PLC"
+    ],
+    "canonical_entities": [
+      "New World Resources"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A mining company's creditors meeting has little direct relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "068ad7953943cccedd88b8b561b577c21e2de8d0af9e3a4d278f55b358e08d77",
+    "source": "parliament",
+    "source_id": "16042846000014",
+    "source_url": "https://hansard.parliament.uk/Commons/2016-04-28/debates/16042846000014/DisruptionPaymentSchemeTrainServices",
+    "title": "Disruption Payment Scheme (Train Services)",
+    "raw_summary": "Commons Chamber debate, Commons: Disruption Payment Scheme (Train Services)",
+    "published_at": "2016-04-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594970+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This parliamentary debate concerns rail disruption compensation, not fintech or payments industry regulation relevant to this audience.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  }
+]

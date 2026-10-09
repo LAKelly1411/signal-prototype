@@ -1,0 +1,28 @@
+[
+  {
+    "id": "c30c954917d62431e21c3180649660fcba9a802eee86e43a2c8c5fb0604cb481",
+    "source": "parliament",
+    "source_id": "ab949a2b-5971-41ea-8be8-b29fcc216ce4",
+    "source_url": "https://hansard.parliament.uk/Commons/1941-10-16/debates/ab949a2b-5971-41ea-8be8-b29fcc216ce4/UckfieldRuralDistrictCouncilPaymentForServices",
+    "title": "Uckfield Rural District Council (Payment For Services)",
+    "raw_summary": "Commons Chamber debate, Commons: Uckfield Rural District Council (Payment For Services)",
+    "published_at": "1941-10-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594992+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Uckfield Rural District Council"
+    ],
+    "canonical_entities": [
+      "Uckfield Rural District Council"
+    ],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This is a 1941 historical parliamentary debate unrelated to the UK fintech and payments sector.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "19eb64936af58577fb2388ee62c5723b761780f1f89dff77fd91891368c20b72",
+    "source": "gazette",
+    "source_id": "L-58607-450578",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58607-450578",
+    "title": "Petitions to Wind Up (Companies)",
+    "raw_summary": "Petitions to Wind Up (Companies): In the High Court of Justice (Chancery Division) Norwich District Registry No 2001 of 2008 In the Matter of TELEVIRTUAL LIMITED (Company Number 02817424) and in the Matter of the Insolvency Act 1986 A…",
+    "published_at": "2008-02-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594377+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "TELEVIRTUAL LIMITED"
+    ],
+    "canonical_entities": [
+      "TELEVIRTUAL"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up petition against a small company with no apparent fintech or payments connection has minimal relevance to this sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "5ad1229b75b25dc12294048f9f3191fa2f6ae6e71dfce5338818ae9871df43ba",
+    "source": "gazette",
+    "source_id": "L-58910-684347",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58910-684347",
+    "title": "WISE EVENTS LIMITED",
+    "raw_summary": "Final Meetings: WISE EVENTS LIMITED (Company Number 4559067 ) Notice is hereby given pursuant to Section 106 of The Insolvency Act 1986 that Meetings of the Members and Creditors of the above named company will be he…",
+    "published_at": "2008-12-12T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594602+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Wise Events Limited"
+    ],
+    "canonical_entities": [
+      "Wise Events"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Routine final-meeting insolvency notice for an unrelated events company, of no relevance to fintech or payments.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

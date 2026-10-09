@@ -1,0 +1,218 @@
+[
+  {
+    "id": "663642fb0c2b76c2d798319dd25dc0fe2c7d9f5694feefd7335bb56e08edaf70",
+    "source": "gazette",
+    "source_id": "4243914",
+    "source_url": "https://www.thegazette.co.uk/notice/4243914",
+    "title": "YOUPASS PAYMENTS EUROPE LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: YOUPASS PAYMENTS EUROPE LIMITED Company Number: 09173402 Nature of Business: Issue and distribute e-money Previous Name of Company: Megatransfert Finance Ltd Registered office: 35 Bal…",
+    "published_at": "2022-12-22T01:07:57+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594342+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Youpass Payments Europe Limited",
+      "Megatransfert Finance Ltd"
+    ],
+    "canonical_entities": [
+      "Youpass Payments Europe",
+      "Megatransfert Finance"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "An e-money issuer has entered liquidation, signalling potential customer fund risk in the payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d45b6c9573874e9eb75b52b85805851b29b5cc73e591bceb621015ed63ba7228",
+    "source": "gazette",
+    "source_id": "4140506",
+    "source_url": "https://www.thegazette.co.uk/notice/4140506",
+    "title": "/n IPAGOO LLP",
+    "raw_summary": "Notice of Dividends: IPAGOO LLP (in administration) (the \"Company\") NOTICE OF PROPOSED DISTRIBUTION PURSUANT TO REGULATION 24(1) OF THE ELECTRONIC MONEY REGULATIONS 2011 (THE \"EMR\") Notice is hereby given that David Hudso…",
+    "published_at": "2022-08-15T12:04:37+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594345+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Ipagoo LLP"
+    ],
+    "canonical_entities": [
+      "Ipagoo"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Ipagoo's administration dividend notice signals progress in returning e-money customer funds after its 2021 collapse.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "e082ceabb48c6666dbe31c2999c0d408a8437230cb0cc9a641ca8d43465521b8",
+    "source": "gazette",
+    "source_id": "4185737",
+    "source_url": "https://www.thegazette.co.uk/notice/4185737",
+    "title": "ONE AWARDS ",
+    "raw_summary": "Resolutions for Winding-up: Company Address 23 Manor Way, Manor Way, TS23 4HN",
+    "published_at": "2022-10-17T18:04:10+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594432+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "ONE AWARDS"
+    ],
+    "canonical_entities": [
+      "ONE AWARDS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A company winding-up resolution with no clear fintech or payments sector relevance based on available details.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d0466846e6c7f3a652ff9c232a2fd47d3b433ff011a05597b69c46f461856e01",
+    "source": "gazette",
+    "source_id": "4185736",
+    "source_url": "https://www.thegazette.co.uk/notice/4185736",
+    "title": "ONE AWARDS ",
+    "raw_summary": "Appointment of Liquidators: Company Number: 04042215 Name of Company: ONE AWARDS Previous Name of Company: OPEN COLLEGE NETWORK NORTH EAST REGION (14 Oct 2005 - 07 Mar 2014) OPEN COLLEGE NETWORK (TROCN) (24 July 2000 – 13 Octobe…",
+    "published_at": "2022-10-17T18:04:09+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594435+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "ONE AWARDS"
+    ],
+    "canonical_entities": [
+      "ONE AWARDS"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This liquidation notice concerns an education awarding body, not a fintech or payments firm, so it has minimal relevance to this sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "d85f920067cba1b240d81020954a7e648ce3d854f9214971bad32a21c2a78809",
+    "source": "gazette",
+    "source_id": "4040449",
+    "source_url": "https://www.thegazette.co.uk/notice/4040449",
+    "title": "CENT INVESTMENTS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 09832358 Name of Company: CENT INVESTMENTS LIMITED Nature of Business: 64304 - Activities of open-ended investment companies Registered office: Bank House, 81 St Judes Road, Englefield…",
+    "published_at": "2022-04-05T20:21:21+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594439+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Cent Investments Limited"
+    ],
+    "canonical_entities": [
+      "Cent Investments"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small investment company entering liquidation has minimal direct relevance to the broader UK fintech and payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "72a46f91d6ea820a417651acc48cc8577980f389edb68e14c077ac56b6517fd0",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/clearpay-finance-ltd-a22-1144961-clearpay-finance-ltd.html",
+    "title": "Clearpay Finance Ltd t/a Clearpay",
+    "raw_summary": "Upheld / Social media (own site): Three Instagram posts for a buy now pay later provider irresponsibly encouraged people to spend more than they could afford.",
+    "published_at": "2022-10-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595015+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Clearpay Finance Ltd",
+      "Clearpay"
+    ],
+    "canonical_entities": [
+      "Clearpay Finance",
+      "Clearpay"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "ASA ruling against Clearpay highlights regulatory scrutiny of BNPL advertising practices encouraging irresponsible spending.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  },
+  {
+    "id": "f83dac51a008d500e8aa0f2b76d94916578d94dec3fd644dba6bd23ed59fb7f2",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/shop-direct-home-shopping-ltd-g21-1124892-shop-direct-home-shopping-ltd.html",
+    "title": "Shop Direct Home Shopping Ltd t/a Very, very.co.uk, Littlewoods, littlewoods.com",
+    "raw_summary": "Upheld / Radio: This ruling replaces one from November 2021; however, we have continued to uphold the complaint.",
+    "published_at": "2022-05-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595018+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Shop Direct Home Shopping Ltd",
+      "Very",
+      "Littlewoods"
+    ],
+    "canonical_entities": [
+      "Shop Direct Home Shopping",
+      "Very",
+      "Littlewoods"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An ASA ad ruling against Shop Direct's retail brands has limited direct relevance to fintech or payments regulation.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "bb427838699e85f7befc0f40de8b6ed71d6aec8f53523294a05e293e3bde224e",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/laybuy-holdings--uk--ltd-g21-1117920-laybuy-holdings--uk--ltd.html",
+    "title": "Laybuy Holdings (UK) Ltd",
+    "raw_summary": "Upheld in part: Three ads for Laybuy, a ‘buy now pay later’ credit provider, were banned for not making it clear that the service was a form of credit.",
+    "published_at": "2022-04-06T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595022+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Laybuy Holdings (UK) Ltd"
+    ],
+    "canonical_entities": [
+      "Laybuy"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A BNPL provider's ads were banned for failing to disclose credit terms, highlighting ongoing ASA scrutiny of buy-now-pay-later marketing.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  }
+]

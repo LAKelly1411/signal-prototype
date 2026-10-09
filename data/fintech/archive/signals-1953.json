@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8fbf45db68e4fabc479cb6ddb66c5a485b29c9dce383373dbc17cbfc580b8923",
+    "source": "parliament",
+    "source_id": "6f81e39b-f7b8-4812-8fc9-9aff71ffef60",
+    "source_url": "https://hansard.parliament.uk/Commons/1953-04-27/debates/6f81e39b-f7b8-4812-8fc9-9aff71ffef60/MeatImportersServicesPayment",
+    "title": "Meat Importers' Services (Payment)",
+    "raw_summary": "Commons Chamber debate, Commons: Meat Importers' Services (Payment)",
+    "published_at": "1953-04-27T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594989+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Meat Importers' Services"
+    ],
+    "canonical_entities": [
+      "Meat Importers' Services"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "A 1953 historical parliamentary debate on meat importer payments has no relevance to today's UK fintech and payments sector.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  }
+]

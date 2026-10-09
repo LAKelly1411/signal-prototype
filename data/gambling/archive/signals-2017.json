@@ -21,7 +21,8 @@
       "bet365 Group Limited"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "9f6e9d8e241fc60e9a6116d08d48329a78d87cc42aec26460c5ea75660b505fe",
@@ -45,7 +46,8 @@
       "bet365 Group Limited"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "0a0d6d1ec278a531c3ab2ca5546e03c70185656fd593d6946fd521dfec62edf9",
@@ -69,7 +71,8 @@
       "bet365 Group Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "e26bff6a8c4edc5f85d3e846542bce17c0f81cca1ab3eb333691e8b0c5063ec7",
@@ -89,7 +92,8 @@
     "status": "seen",
     "canonical_entities": [],
     "canonical_category": "Policy and legislation",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "bf7d881b8d26607b10eb5152a6979a8a2efe1d5f430c44cf4d1104c731614d96",
@@ -113,7 +117,8 @@
       "Horserace Betting Levy Board"
     ],
     "canonical_category": "Tax and levy",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "52a1dd09be4246b20dece24ead47fed202ba47f146d73308ab60099ff8ef51ea",
@@ -137,6 +142,7 @@
       "Horserace Betting Levy Board"
     ],
     "canonical_category": "Tax and levy",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]

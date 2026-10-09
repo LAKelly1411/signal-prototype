@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7fe202e50b4ad429bdb28d38378f65f5cf001852fed4081545192feb27183907",
+    "source": "gazette",
+    "source_id": "2246211",
+    "source_url": "https://www.thegazette.co.uk/notice/2246211",
+    "title": "THE OPEN DOOR COMPANY (SCOTLAND) LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): Company Address 51 Groveburn Avenue, Glasgow G46 7DA",
+    "published_at": "2014-12-12T16:33:33+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594462+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "The Open Door Company (Scotland) Ltd"
+    ],
+    "canonical_entities": [
+      "The Open Door"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small Scottish company facing a winding-up petition has negligible relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6a4b586743487d557c832adcfdc80a314ba27963e3cf396d37aae3fad99c8c9c",
+    "source": "gazette",
+    "source_id": "L-60816-2021963",
+    "source_url": "https://www.thegazette.co.uk/notice/L-60816-2021963",
+    "title": "S.L.N SOLUTIONS LIMITED",
+    "raw_summary": "Final Meetings: S.L.N SOLUTIONS LIMITED (Company Number 06144201 ) Registered office: 125/127 Union Street, Oldham, OL1 1TE Principal trading address: 1 Wises Farm Road, Hull, East Yorkshire, HU5 4GA NOTICE IS HEREBY…",
+    "published_at": "2014-03-24T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594592+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "S.L.N Solutions Limited"
+    ],
+    "canonical_entities": [
+      "S.L.N Solutions"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small, unrelated company's final insolvency meeting notice has negligible relevance to UK fintech and payments news.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]
