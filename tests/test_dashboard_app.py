@@ -675,3 +675,26 @@ def test_insights_tab_renders(monkeypatch):
     for title in ("Signals this week", "Signals per week", "What kind of news, week by week",
                   "Companies in the news", "Theme momentum"):
         assert title in body
+
+
+def _login_app(monkeypatch):
+    serve(monkeypatch, {LEGACY_SIGNALS: Resp(payload=GAMBLING)})
+    at = app(base=None)
+    at.secrets["DASHBOARD_PASSWORD"] = "letmein"
+    del at.session_state["authenticated"]  # app() signs in; this test starts signed out
+    return at
+
+
+def test_sign_in_page_then_wrong_and_right_password(monkeypatch):
+    at = _login_app(monkeypatch).run()
+    assert not at.exception and not at.tabs
+    body = " ".join(m.value for m in at.markdown)
+    assert "Spot the story before it breaks." in body and "Sign in" in body
+    at.text_input(key="login_password").input("nope")
+    at.button[0].click().run()
+    assert any("That password isn't right." in e.value for e in at.error)
+    assert not at.tabs
+    at.text_input(key="login_password").input("letmein")
+    at.button[0].click().run()
+    assert not at.exception
+    assert at.session_state["authenticated"] is True and at.tabs

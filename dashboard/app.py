@@ -1651,6 +1651,61 @@ def inject_css() -> None:
             .ov-hero { grid-column: 1 / -1; }
             .ov-heat { grid-template-columns: 7.5rem repeat(var(--weeks), minmax(0, 1fr)) 2rem; }
         }
+
+        /* ── Sign-in page ───────────────────────────────────────────
+           A cobalt panel (what the tool does, and an illustration) beside
+           the form on white; stacked on narrow screens. */
+        /* Full bleed: the sign-in page drops Streamlit's page width and
+           padding, so the cobalt panel runs to the window's edges. */
+        [data-testid="stMainBlockContainer"]:has(.st-key-login) { max-width: none; padding: 0; }
+        [data-testid="stHeader"]:has(~ * .st-key-login), .stApp:has(.st-key-login) [data-testid="stHeader"] { background: transparent; }
+        .st-key-login { min-height: 100vh; justify-content: center; }
+        .st-key-login [data-testid="stHorizontalBlock"] { align-items: stretch; min-height: 100vh; }
+        .st-key-login [data-testid="stColumn"]:last-child { display: flex; align-items: center; }
+        .login-hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1.25rem;
+            height: 100%;
+            min-height: 100vh;
+            padding: 4rem clamp(2rem, 6vw, 6rem);
+            background: var(--pa-cobalt);
+            color: var(--pa-paper);
+        }
+        .login-hero .pa-kicker { width: fit-content; }
+        /* Scoped to the hero so it outranks Streamlit's own h1 sizing. */
+        .login-hero h1.login-headline {
+            margin: 0;
+            padding: 0;
+            font-family: var(--pa-font-heading);
+            font-weight: 700;
+            font-size: clamp(3rem, 5.4vw, 5.5rem);
+            max-width: 13ch;
+            line-height: 1.02;
+            letter-spacing: 0.005em;
+            color: var(--pa-paper) !important;
+        }
+        .login-hero p.login-lede { margin: 0; max-width: 32rem; font-size: 1.25rem; line-height: 1.5; color: rgba(255, 255, 255, 0.88); }
+        .login-art { width: 100%; max-width: 34rem; height: auto; margin-top: 2rem; }
+        .st-key-login-form { width: 100%; max-width: 24rem; margin: 0 auto; padding: 2rem; gap: 1rem; }
+        .login-title {
+            margin-top: 2.5rem;
+            font-family: var(--pa-font-heading);
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 1.1;
+            color: var(--pa-ink);
+        }
+        .login-copy { margin: 0 0 0.5rem 0; font-size: 1rem; color: var(--pa-muted); }
+        .login-foot { margin-top: 1.5rem; font-size: 0.75rem; color: #6b6b6b; }
+        .st-key-login-form [data-testid="stFormSubmitButton"] button { min-height: 48px; }
+        .st-key-login-form [data-testid="stFormSubmitButton"] button p { font-weight: 700; font-size: 1rem; }
+        @media (max-width: 760px) {
+            .login-hero { min-height: auto; padding: 2rem 1.5rem; }
+            .login-art { display: none; }
+            .st-key-login-form { padding: 1.5rem 0; }
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -1700,18 +1755,76 @@ def _sector_switcher(entries: list[dict], current: dict, at_cap: bool) -> None:
             _new_sector_dialog()
 
 
+def _login_art() -> str:
+    """The sign-in page's illustration: a heat map of news by week in cobalt
+    tints, with a rising signal line and its latest point in white. Fixed
+    pattern (no randomness), so it's the same on every load."""
+    cols, rows, size, gap = 14, 6, 22, 4
+    shades = ("rgba(255,255,255,0.10)", "rgba(255,255,255,0.22)",
+              "rgba(255,255,255,0.38)", "rgba(255,255,255,0.62)")
+    cells = []
+    for r in range(rows):
+        for c in range(cols):
+            # Quieter early weeks, busier late ones, with a little rhythm.
+            level = min(3, max(0, (c * 3 + (r * 5 + c * 7) % 6) // 11))
+            cells.append(f'<rect x="{c * (size + gap)}" y="{r * (size + gap)}" '
+                         f'width="{size}" height="{size}" fill="{shades[level]}"/>')
+    width, height = cols * (size + gap) - gap, rows * (size + gap) - gap
+    pts = [(0, 118), (52, 104), (104, 112), (156, 86), (208, 92), (260, 64),
+           (312, 70), (338, 30)]
+    line = " ".join(f"{x},{y}" for x, y in pts)
+    end_x, end_y = pts[-1]
+    return (
+        f'<svg class="login-art" viewBox="-4 -4 {width + 8} {height + 8}" role="img" '
+        'aria-label="A heat map of news by week with a rising signal line">'
+        + "".join(cells)
+        + f'<polyline points="{line}" fill="none" stroke="#ffffff" stroke-width="3" '
+        'stroke-linejoin="round" stroke-linecap="round"/>'
+        f'<circle cx="{end_x}" cy="{end_y}" r="7" fill="#ffffff"/>'
+        f'<circle cx="{end_x}" cy="{end_y}" r="13" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2"/>'
+        "</svg>"
+    )
+
+
 def check_password() -> bool:
+    """The sign-in page: a cobalt panel with what the tool does beside the
+    password form. Enter or the button signs in."""
     if st.session_state.get("authenticated"):
         return True
 
-    render_masthead()
-    password = st.text_input("Password", type="password")
-    if password:
-        if password == st.secrets["DASHBOARD_PASSWORD"]:
-            st.session_state["authenticated"] = True
-            st.rerun()
-        else:
-            st.error("Incorrect password.")
+    with st.container(key="login"):
+        hero, form = st.columns([1.15, 1], gap=None, vertical_alignment="center")
+        with hero:
+            st.markdown(
+                '<div class="login-hero">'
+                '<span class="pa-kicker ink">Sector Signal</span>'
+                '<h1 class="login-headline">Spot the story before it breaks.</h1>'
+                '<p class="login-lede">Regulators, filings, Parliament and the markets, '
+                "watched around the clock and scored for newsworthiness.</p>"
+                f"{_login_art()}"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+        with form:
+            with st.container(key="login-form"):
+                render_masthead()
+                st.markdown(
+                    '<div class="login-title">Sign in</div>'
+                    '<p class="login-copy">Enter the team password to continue.</p>',
+                    unsafe_allow_html=True,
+                )
+                with st.form("login", border=False):
+                    password = st.text_input("Password", type="password", key="login_password")
+                    submitted = st.form_submit_button("Sign in", type="primary", width="stretch")
+                if submitted:
+                    if password == st.secrets["DASHBOARD_PASSWORD"]:
+                        st.session_state["authenticated"] = True
+                        st.session_state.pop("login_password", None)
+                        st.rerun()
+                    else:
+                        st.error("That password isn't right. Try again.")
+                st.markdown('<p class="login-foot">A Press Association prototype</p>',
+                            unsafe_allow_html=True)
     return False
 
 
