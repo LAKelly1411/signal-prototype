@@ -732,16 +732,17 @@ def inject_css() -> None:
             font-size: 0.75rem;
             color: #6b6b6b;
         }
-        /* Everything in the opened part matches the grey meta line above it:
-           12px text, 16px icons (as the source logo), regular weight. */
+        /* The opened part shares the meta line's size: 12px text and 16px
+           icons (as the source logo). Tags and the source link stay bold, as
+           on the feed's signal cards. */
         .sp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
         .sp-tags .sc-tag {
             height: 16px;
             gap: 5px;
             padding-right: 5px;
-            font-weight: 400;
+            font-weight: 700;
             font-size: 0.75rem;
-            color: #464646;
+            color: #1f1f1f;
         }
         .sp-tags .sc-tag-icon { width: 16px; height: 16px; }
         .sp-tags .sc-tag-icon svg, .sp-tags .sc-tag-icon img { width: 12px; height: 12px; margin: auto; }
@@ -751,7 +752,7 @@ def inject_css() -> None:
             align-items: center;
             gap: 4px;
             font-family: var(--pa-font-data);
-            font-weight: 400;
+            font-weight: 700;
             font-size: 0.75rem;
             color: var(--pa-cobalt);
             text-decoration: none;
