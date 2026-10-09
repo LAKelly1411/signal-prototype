@@ -1,7 +1,17 @@
 name: Pipeline
 
 on:
-  workflow_dispatch: {}  # fired by the n8n schedule instead of GitHub's own cron
+  workflow_dispatch:  # fired by the n8n schedule instead of GitHub's own cron
+    inputs:
+      sector:
+        description: "Run just this sector (slug); empty runs every sector"
+        required: false
+        default: ""
+
+# Runs commit to the repo; queue them rather than letting two race.
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -21,6 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        id: run
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Not a secret — a repo variable, so the model in use is visible
@@ -29,16 +40,26 @@ jobs:
           # undefined variable would otherwise arrive as an empty string.
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || secrets.ANTHROPIC_MODEL }}
           COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
-        run: python -m src.pipeline
+          SECTOR: ${{ inputs.sector }}
+        run: |
+          if [ -n "$SECTOR" ]; then python -m src.pipeline --sector "$SECTOR"; else python -m src.pipeline; fi
 
+      # Runs even when a sector failed, so the sectors that succeeded still
+      # land; the failed run step still fails the job and fires the alert.
       - name: Commit updated signals
+        if: ${{ !cancelled() && (steps.run.outcome == 'success' || steps.run.outcome == 'failure') }}
+        env:
+          SECTOR: ${{ inputs.sector }}
         run: |
           git config user.name "signal-pipeline-bot"
           git config user.email "actions@github.com"
-          # Covers signals.json, run_status.json and the archive; data/*.db
-          # stays gitignored.
+          # Covers data/<slug>/ (signals, run status, archive), data/sectors.json
+          # and the gambling compat copy; data/*.db stays gitignored.
           git add data
-          git diff --staged --quiet || git commit -m "Update signals [skip ci]"
+          git diff --staged --quiet || git commit -m "Update signals${SECTOR:+ ($SECTOR)} [skip ci]"
+          # A config commit (e.g. a dashboard watchlist addition) may have
+          # landed during the run; replay ours on top so the push isn't rejected.
+          git pull --rebase
           git push
 
       - name: Alert on failure

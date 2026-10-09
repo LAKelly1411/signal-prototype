@@ -11,10 +11,12 @@ from src.categories import (
     MERGER,
     OTHER,
     SHAREHOLDING,
-    TAXONOMY,
     canonical_category,
     category_of,
+    ruleset,
+    taxonomy,
 )
+from src.sectors import Sector
 
 
 class TestLegacyMapping:
@@ -72,12 +74,12 @@ class TestFallbacks:
 
     def test_every_result_is_in_the_taxonomy(self):
         for raw in ["insolvency filing", "nonsense label", "", "AML"]:
-            assert canonical_category(raw, "some title") in TAXONOMY
+            assert canonical_category(raw, "some title") in taxonomy()
 
 
 class TestIdempotence:
     def test_canonical_values_pass_through_unchanged(self):
-        for theme in TAXONOMY:
+        for theme in taxonomy():
             assert canonical_category(theme) == theme
 
     def test_matching_is_case_insensitive(self):
@@ -93,3 +95,39 @@ class TestCategoryOf:
     def test_derives_when_absent(self):
         signal = {"category": "winding-up petition", "title": "X LTD"}
         assert category_of(signal) == INSOLVENCY
+
+
+def _fintech(**overrides):
+    base = dict(slug="fintech", name="Fintech", brief="b",
+                prompt={}, sources={"gazette": {}},
+                categories=[{"name": "Crypto", "pattern": "crypto|stablecoin",
+                             "before": "Enforcement action"}])
+    base.update(overrides)
+    return Sector(**base)
+
+
+class TestSectorCategories:
+    def test_sector_category_matches_before_core(self):
+        assert canonical_category("stablecoin enforcement", sector=_fintech()) == "Crypto"
+
+    def test_gambling_only_categories_absent_elsewhere(self):
+        t = taxonomy(_fintech())
+        assert "Illegal gambling" not in t and "Crypto" in t and t[-1] == OTHER
+
+    def test_core_fallback_for_regulatory_is_other(self):
+        assert canonical_category(None, "Untitled", "regulatory", sector=_fintech()) == OTHER
+
+    def test_gambling_overrides_regulatory_fallback(self):
+        assert canonical_category(None, "Untitled", "regulatory") == LICENCE
+
+    def test_ruleset_is_cached_per_slug(self):
+        assert ruleset(_fintech()) is ruleset(_fintech())
+
+
+class TestRulesetCacheKey:
+    def test_same_slug_sectors_with_different_categories_get_different_rulesets(self):
+        a = _fintech()
+        b = _fintech(categories=[{"name": "Open banking", "pattern": "open banking",
+                                  "before": "Enforcement action"}])
+        assert "Crypto" in taxonomy(a) and "Open banking" not in taxonomy(a)
+        assert "Open banking" in taxonomy(b) and "Crypto" not in taxonomy(b)

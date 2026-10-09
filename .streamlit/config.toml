@@ -1,6 +1,58 @@
+[client]
+# Hides the "Deploy" button and developer menu.
+toolbarMode = "minimal"
+
+# Press Association brand, matching the PA Media Briefings site
+# (pam-media-briefing-marketing-website, pa-tokens.css). Flat and square:
+# no radius anywhere, cobalt only on things you can click.
 [theme]
-primaryColor = "#6352b9"
+base = "light"
+primaryColor = "#004FFF"
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#d6dcff"
+secondaryBackgroundColor = "#e8e5e4"
 textColor = "#000000"
-font = "sans serif"
+linkColor = "#004FFF"
+borderColor = "#00000033"
+showWidgetBorder = true
+baseRadius = "none"
+buttonRadius = "none"
+
+# Press Sans throughout (per the Figma design), Press Sans Condensed for
+# headings.
+#
+# The fonts load straight from PA's font CDN and are never committed: they are
+# Commercial Type webfonts licensed per domain. The CDN only grants CORS to
+# allowlisted origins (localhost is one), so a deployed copy falls back to the
+# open stand-ins (Archivo, Oswald) loaded in dashboard/app.py until its origin
+# is allowlisted.
+font = "'Press Sans', Archivo, Arial, Helvetica, sans-serif"
+headingFont = "'Press Sans Condensed', Oswald, 'Arial Narrow', sans-serif"
+headingFontWeights = 700
+
+[[theme.fontFaces]]
+family = "Press Sans"
+url = "https://fonts.pressassociation.com/press-sans/v2/PressSans-Regular-Web.woff2"
+weight = "400"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Press Sans"
+url = "https://fonts.pressassociation.com/press-sans/v2/PressSans-Bold-Web.woff2"
+weight = "700"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Press Sans"
+url = "https://fonts.pressassociation.com/press-sans/v2/PressSans-Extrabold-Web.woff2"
+weight = "800"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Press Sans Condensed"
+url = "https://fonts.pressassociation.com/press-sans/v2/PressSansCond-Bold-Web.woff2"
+weight = "700"
+style = "normal"
+
+[theme.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#ffffff"

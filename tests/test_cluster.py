@@ -207,3 +207,40 @@ class TestComputeHeat:
         assert compute_heat(members, now=NOW, window_days=30) < compute_heat(
             members, now=NOW, window_days=90
         )
+
+
+from src.sectors import Sector
+
+
+def _fintech(**overrides):
+    base = dict(slug="fintech", name="Fintech", brief="b", prompt={},
+                sources={"gazette": {}}, excluded_bodies=["financial ombudsman service"])
+    base.update(overrides)
+    return Sector(**base)
+
+
+class TestSectorExclusions:
+    def test_shared_institutions_excluded_in_every_sector(self):
+        assert is_excluded("HM Treasury", _fintech())
+        assert is_excluded("Companies House", _fintech())
+
+    def test_gambling_bodies_not_excluded_elsewhere(self):
+        assert not is_excluded("Gambling Commission", _fintech())
+
+    def test_sector_bodies_excluded(self):
+        assert is_excluded("Financial Ombudsman Service", _fintech())
+        assert not is_excluded("Financial Ombudsman Service")  # gambling default
+
+    def test_same_slug_sectors_with_different_bodies_do_not_share_a_cache_entry(self):
+        a = _fintech(excluded_bodies=["body a"])
+        b = _fintech(excluded_bodies=["body b"])
+        assert is_excluded("Body A", a) and not is_excluded("Body B", a)
+        assert is_excluded("Body B", b) and not is_excluded("Body A", b)
+
+    def test_shared_set_is_todays_set_minus_gambling_bodies(self):
+        from src.cluster import SHARED_EXCLUDED, excluded_entities
+        from src.sectors import load_sector
+        gambling = load_sector("gambling")
+        assert SHARED_EXCLUDED.isdisjoint(b.strip().lower() for b in gambling.excluded_bodies)
+        assert excluded_entities(gambling) == SHARED_EXCLUDED | {
+            b.strip().lower() for b in gambling.excluded_bodies}

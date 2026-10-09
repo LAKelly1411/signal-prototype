@@ -1,15 +1,18 @@
+import argparse
 import hashlib
 import json
 import logging
 import os
+import shutil
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
 from dotenv import load_dotenv
 
-from src import cluster, store
+from src import cluster, sectors, store
+from src.migrate import migrate
 from src.entities import build_alias_map
 from src.collectors.asa import ASACollector
 from src.collectors.bgc import BGCCollector
@@ -21,9 +24,16 @@ from src.collectors.insolvency_service import InsolvencyServiceCollector
 from src.collectors.lse_rns import LSERNSCollector
 from src.collectors.parliament import ParliamentCollector
 from src.normalise import to_signal
+from src.sectors import (
+    Sector,
+    list_sector_slugs,
+    load_sector,
+    refresh_index,
+    update_index,
+)
 from src.score import (
-    CLUSTER_SUMMARY_VERSION,
-    THEME_SUMMARY_VERSION,
+    cluster_summary_version,
+    theme_summary_version,
     build_client,
     score_signal,
     summarize_cluster,
@@ -33,138 +43,114 @@ from src.score import (
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-RUN_STATUS_PATH = Path("data/run_status.json")
+# The deployed dashboard still reads these; written after every gambling run
+# until stage 2 points it at data/gambling/.
+COMPAT_SIGNALS_PATH = Path("data/signals.json")
+COMPAT_STATUS_PATH = Path("data/run_status.json")
 
 
-def load_sources(path: str = "config/sources.yaml") -> dict:
-    with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+DEFAULT_USER_AGENT = "Signal-Prototype/0.1"
 
 
-def _load_operators_file(path: str) -> list[dict]:
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f)
-    except FileNotFoundError:
-        return []
-    return (data or {}).get("operators", []) or []
+def _ua(settings: dict) -> str:
+    return settings.get("user_agent", DEFAULT_USER_AGENT)
 
 
-def load_watchlist(
-    seed_path: str = "config/watchlist.yaml",
-    user_path: str = "config/user_watchlist.yaml",
-) -> list[dict]:
-    """Curated seed list, plus any self-service additions from the
-    dashboard. The user file may not exist yet — that's fine, not an error."""
-    return _load_operators_file(seed_path) + _load_operators_file(user_path)
+def _keywords(sector: Sector, settings: dict) -> list[str]:
+    # A source's own keywords win; otherwise the sector's defaults.
+    return list(settings.get("keywords", sector.keywords))
 
 
-def build_collectors(sources: dict) -> list:
+def _gambling_commission(sector, s):
+    return GamblingCommissionCollector(listing_pages=s["listing_pages"], user_agent=_ua(s))
+
+
+def _companies_house(sector, s):
+    api_key = os.environ.get("COMPANIES_HOUSE_API_KEY")
+    if not api_key:
+        logger.warning("COMPANIES_HOUSE_API_KEY not set — skipping Companies House collector")
+        return None
+    return CompaniesHouseCollector(
+        api_key=api_key,
+        operators=sector.companies,
+        items_per_page=s.get("items_per_page", 25),
+        sleep_seconds=s.get("sleep_seconds", 0.6),
+        lookback_days=s.get("lookback_days", 365),
+        categories=s.get("categories"),
+    )
+
+
+def _gazette(sector, s):
+    return GazetteCollector(
+        search_terms=_keywords(sector, s) + [c["name"] for c in sector.companies],
+        user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20),
+        sleep_seconds=s.get("sleep_seconds", 1.0),
+    )
+
+
+def _dcms(sector, s):
+    kwargs = {"organisation": s["organisation"]} if "organisation" in s else {}
+    return DCMSCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20), **kwargs,
+    )
+
+
+def _parliament(sector, s):
+    return ParliamentCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        results_per_term=s.get("results_per_term", 20),
+    )
+
+
+def _asa(sector, s):
+    return ASACollector(keywords=_keywords(sector, s), user_agent=_ua(s))
+
+
+def _bgc(sector, s):
+    return BGCCollector(user_agent=_ua(s), pages=s.get("pages", 2))
+
+
+def _insolvency_service(sector, s):
+    return InsolvencyServiceCollector(
+        keywords=_keywords(sector, s), user_agent=_ua(s),
+        sleep_seconds=s.get("sleep_seconds", 1.0),
+    )
+
+
+def _lse_rns(sector, s):
+    return LSERNSCollector(
+        tickers=dict(s.get("tickers", sector.tickers)), user_agent=_ua(s),
+        skip_titles=s.get("skip_titles"),
+    )
+
+
+# Build order matters: it sets the order raw items, and so new signals, arrive.
+COLLECTORS = {
+    "gambling_commission": _gambling_commission,
+    "companies_house": _companies_house,
+    "gazette": _gazette,
+    "dcms": _dcms,
+    "parliament": _parliament,
+    "asa": _asa,
+    "bgc": _bgc,
+    "insolvency_service": _insolvency_service,
+    "lse_rns": _lse_rns,
+}
+
+
+def build_collectors(sector: Sector) -> list:
     collectors = []
-    watchlist = load_watchlist()
-
-    gc_config = sources.get("gambling_commission", {})
-    if gc_config.get("enabled"):
-        collectors.append(
-            GamblingCommissionCollector(
-                listing_pages=gc_config["listing_pages"],
-                user_agent=gc_config["user_agent"],
-            )
-        )
-
-    ch_config = sources.get("companies_house", {})
-    if ch_config.get("enabled"):
-        api_key = os.environ.get("COMPANIES_HOUSE_API_KEY")
-        if not api_key:
-            logger.warning(
-                "COMPANIES_HOUSE_API_KEY not set — skipping Companies House collector"
-            )
-        else:
-            collectors.append(
-                CompaniesHouseCollector(
-                    api_key=api_key,
-                    operators=watchlist,
-                    items_per_page=ch_config.get("items_per_page", 25),
-                    sleep_seconds=ch_config.get("sleep_seconds", 0.6),
-                    lookback_days=ch_config.get("lookback_days", 365),
-                    categories=ch_config.get("categories"),
-                )
-            )
-
-    gz_config = sources.get("gazette", {})
-    if gz_config.get("enabled"):
-        watchlist_names = [op["name"] for op in watchlist]
-        collectors.append(
-            GazetteCollector(
-                search_terms=gz_config.get("keywords", []) + watchlist_names,
-                user_agent=gz_config["user_agent"],
-                results_per_term=gz_config.get("results_per_term", 20),
-                sleep_seconds=gz_config.get("sleep_seconds", 1.0),
-            )
-        )
-
-    dcms_config = sources.get("dcms", {})
-    if dcms_config.get("enabled"):
-        collectors.append(
-            DCMSCollector(
-                keywords=dcms_config.get("keywords", []),
-                user_agent=dcms_config["user_agent"],
-                results_per_term=dcms_config.get("results_per_term", 20),
-            )
-        )
-
-    parliament_config = sources.get("parliament", {})
-    if parliament_config.get("enabled"):
-        collectors.append(
-            ParliamentCollector(
-                keywords=parliament_config.get("keywords", []),
-                user_agent=parliament_config["user_agent"],
-                results_per_term=parliament_config.get("results_per_term", 20),
-            )
-        )
-
-    asa_config = sources.get("asa", {})
-    if asa_config.get("enabled"):
-        collectors.append(
-            ASACollector(
-                keywords=asa_config.get("keywords", []),
-                user_agent=asa_config["user_agent"],
-            )
-        )
-
-    bgc_config = sources.get("bgc", {})
-    if bgc_config.get("enabled"):
-        collectors.append(
-            BGCCollector(
-                user_agent=bgc_config["user_agent"],
-                pages=bgc_config.get("pages", 2),
-            )
-        )
-
-    insolvency_config = sources.get("insolvency_service", {})
-    if insolvency_config.get("enabled"):
-        collectors.append(
-            InsolvencyServiceCollector(
-                keywords=insolvency_config.get("keywords", []),
-                user_agent=insolvency_config["user_agent"],
-                sleep_seconds=insolvency_config.get("sleep_seconds", 1.0),
-            )
-        )
-
-    lse_config = sources.get("lse_rns", {})
-    if lse_config.get("enabled"):
-        collectors.append(
-            LSERNSCollector(
-                tickers=lse_config.get("tickers", {}),
-                user_agent=lse_config["user_agent"],
-                skip_titles=lse_config.get("skip_titles"),
-            )
-        )
-
+    for key, build in COLLECTORS.items():
+        if key in sector.sources:
+            collector = build(sector, sector.sources[key])
+            if collector is not None:
+                collectors.append(collector)
     return collectors
 
 
-def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
+def write_run_status(status: dict, path: Path) -> None:
     """Publish what the run actually did, so a silently broken scraper shows
     up in the dashboard instead of only in an Actions log nobody reads."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -172,13 +158,18 @@ def write_run_status(status: dict, path: Path = RUN_STATUS_PATH) -> None:
         json.dump(status, f, indent=2, ensure_ascii=False)
 
 
-def run() -> None:
-    load_dotenv()
+def write_compat_copy(sector: Sector) -> None:
+    COMPAT_SIGNALS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(sector.signals_path, COMPAT_SIGNALS_PATH)
+    shutil.copyfile(sector.run_status_path, COMPAT_STATUS_PATH)
+
+
+def run_sector(sector: Sector, client) -> dict:
+    """One sector, end to end: collect, score, cluster, summarise, save.
+    Everything it reads and writes lives under data/<slug>/."""
     started_at = datetime.now(timezone.utc)
-    sources = load_sources()
-    collectors = build_collectors(sources)
-    alias_map = build_alias_map(load_watchlist())
-    client = build_client()
+    collectors = build_collectors(sector)
+    alias_map = build_alias_map(sector.companies)
 
     raw_items = []
     source_status: dict[str, dict] = {}
@@ -190,7 +181,8 @@ def run() -> None:
             # One source's unexpected failure shouldn't take every other
             # source down with it — log it and move on.
             logger.exception(
-                "Collector %s failed — skipping, other sources unaffected", name
+                "[%s] Collector %s failed — skipping, other sources unaffected",
+                sector.slug, name,
             )
             source_status[name] = {"items": 0, "ok": False, "error": True}
             continue
@@ -202,43 +194,51 @@ def run() -> None:
             "ok": bool(collected),
             "error": False,
         }
-    logger.info("Collected %d raw items", len(raw_items))
+    logger.info("[%s] Collected %d raw items", sector.slug, len(raw_items))
 
     new_signals_by_id = {}
     for item in raw_items:
         signal = to_signal(item)
+        signal["sector"] = sector.slug
         new_signals_by_id[signal["id"]] = signal
 
-    existing = store.load()
+    existing = store.load(sector.signals_path)
     merged, added = store.merge_new(
-        existing, list(new_signals_by_id.values()), store.load_archived_ids()
+        existing,
+        list(new_signals_by_id.values()),
+        store.load_archived_ids(sector.archive_ids_path),
     )
+    for s in merged:
+        s.setdefault("sector", sector.slug)
 
     unscored = [s for s in merged if s.get("newsworthiness_score") is None]
     logger.info(
-        "%d new signals, %d unscored total (including retries of prior failures)",
-        len(added), len(unscored),
+        "[%s] %d new signals, %d unscored total (including retries of prior failures)",
+        sector.slug, len(added), len(unscored),
     )
 
     for signal in unscored:
-        score_signal(signal, client=client, alias_map=alias_map)
+        score_signal(signal, client=client, alias_map=alias_map, sector=sector)
 
-    cluster.assign_clusters(merged, alias_map=alias_map)
-    cluster.assign_themes(merged, alias_map=alias_map)
+    cluster.assign_clusters(merged, alias_map=alias_map, sector=sector)
+    cluster.assign_themes(merged, alias_map=alias_map, sector=sector)
     by_cluster = defaultdict(list)
     for s in merged:
         if s.get("cluster_id"):
             by_cluster[s["cluster_id"]].append(s)
     themes = {s["theme_id"] for s in merged if s.get("theme_id")}
-    logger.info("%d clusters and %d themes formed", len(by_cluster), len(themes))
+    logger.info(
+        "[%s] %d clusters and %d themes formed", sector.slug, len(by_cluster), len(themes)
+    )
 
+    cluster_version = cluster_summary_version(sector)
     for cluster_id, members in by_cluster.items():
         # Cache key covers both cluster membership and prompt wording, so
         # either changing invalidates it and triggers a re-summary.
-        cache_key = f"{cluster_id}:{CLUSTER_SUMMARY_VERSION}"
+        cache_key = f"{cluster_id}:{cluster_version}"
         if any(m.get("cluster_summary_for") == cache_key for m in members):
             continue
-        verdict = summarize_cluster(members, client=client)
+        verdict = summarize_cluster(members, client=client, sector=sector)
         if verdict:
             for m in members:
                 m["cluster_summary"] = verdict["summary"]
@@ -252,16 +252,17 @@ def run() -> None:
         if s.get("theme_id"):
             by_theme[s["theme_id"]].append(s)
 
+    theme_version = theme_summary_version(sector)
     for theme, members in by_theme.items():
         # theme_id is stable, but membership isn't, so the cache key covers
         # who is in it as well as the prompt wording.
         members_hash = hashlib.sha256(
             "|".join(sorted(m["id"] for m in members)).encode("utf-8")
         ).hexdigest()[:12]
-        cache_key = f"{theme}:{members_hash}:{THEME_SUMMARY_VERSION}"
+        cache_key = f"{theme}:{members_hash}:{theme_version}"
         if any(m.get("theme_summary_for") == cache_key for m in members):
             continue
-        verdict = summarize_theme(theme, members, client=client)
+        verdict = summarize_theme(theme, members, client=client, sector=sector)
         if verdict:
             for m in members:
                 m["theme_summary"] = verdict["summary"]
@@ -269,29 +270,105 @@ def run() -> None:
                 m["theme_direction"] = verdict["direction"]
                 m["theme_summary_for"] = cache_key
 
-    live = store.save(merged)
+    live = store.save(
+        merged,
+        path=sector.signals_path,
+        archive_dir=sector.archive_dir,
+        ids_path=sector.archive_ids_path,
+    )
     logger.info(
-        "Store now holds %d live signals (%d archived this run)",
-        len(live), len(merged) - len(live),
+        "[%s] Store now holds %d live signals (%d archived this run)",
+        sector.slug, len(live), len(merged) - len(live),
     )
 
-    write_run_status(
-        {
-            "started_at": started_at.isoformat(),
-            "finished_at": datetime.now(timezone.utc).isoformat(),
-            "sources": source_status,
-            "healthy_sources": sum(1 for s in source_status.values() if s["ok"]),
-            "total_sources": len(source_status),
-            "raw_items": len(raw_items),
-            "new_signals": len(added),
-            "unscored": sum(
-                1 for s in live if s.get("newsworthiness_score") is None
-            ),
-            "live_signals": len(live),
-            "clusters": len(by_cluster),
-        }
+    status = {
+        "sector": sector.slug,
+        "started_at": started_at.isoformat(),
+        "finished_at": datetime.now(timezone.utc).isoformat(),
+        "sources": source_status,
+        "healthy_sources": sum(1 for s in source_status.values() if s["ok"]),
+        "total_sources": len(source_status),
+        "raw_items": len(raw_items),
+        "new_signals": len(added),
+        "unscored": sum(1 for s in live if s.get("newsworthiness_score") is None),
+        "live_signals": len(live),
+        "clusters": len(by_cluster),
+    }
+    write_run_status(status, sector.run_status_path)
+    return status
+
+
+def migrate_old_layout() -> None:
+    """First run after the sector change: move the old single-sector data
+    into data/gambling/. Runs only while the gambling store doesn't exist yet,
+    so it acts on whatever data/signals.json holds at that moment."""
+    data_dir = sectors.DATA_DIR
+    if (data_dir / "gambling" / "signals.json").exists():
+        return
+    if not (data_dir / "signals.json").exists():
+        return
+    report = migrate(data_dir)
+    logger.info(
+        "Migrated the old data layout into %s: %s, %d live and %d archived signals",
+        data_dir / "gambling", report["status"], report["signals"], report["archived"],
     )
+
+
+def main(argv: list[str] | None = None) -> int:
+    """Run every sector (or just --sector). Exit 0 when all succeed, 1 when
+    any sector failed, 2 for an unknown --sector."""
+    parser = argparse.ArgumentParser(
+        description="Collect, score and cluster signals per sector."
+    )
+    parser.add_argument("--sector", help="run just this sector (default: every sector)")
+    args = parser.parse_args(argv)
+
+    load_dotenv()
+    available = list_sector_slugs()
+    if args.sector and args.sector not in available:
+        print(
+            f"No sector config named {args.sector!r} "
+            f"(available: {', '.join(available)})",
+            file=sys.stderr,
+        )
+        return 2
+    slugs = [args.sector] if args.sector else available
+    if "gambling" in slugs:
+        migrate_old_layout()
+    refresh_index(available)
+
+    client = build_client()
+    failed = False
+    for slug in slugs:
+        try:
+            sector = load_sector(slug)
+            status = run_sector(sector, client)
+            update_index(
+                slug, name=sector.name, brief=sector.brief, created_at=sector.created_at,
+                status="ready", last_run_at=status["finished_at"],
+                signal_count=status["live_signals"], error=None,
+            )
+        except Exception as exc:  # isolate: one sector's failure never stops the rest
+            failed = True
+            logger.exception("[%s] Sector run failed", slug)
+            now = datetime.now(timezone.utc).isoformat()
+            # Read at call time, not import time, so a patched data dir applies.
+            write_run_status(
+                {"sector": slug, "finished_at": now, "error": str(exc)},
+                sectors.DATA_DIR / slug / "run_status.json",
+            )
+            update_index(slug, status="error", error=str(exc), last_run_at=now)
+            continue
+        if slug == "gambling":
+            # Kept apart from the run above: the sector's own data and status
+            # are good, so a failed copy must not relabel them as an error.
+            try:
+                write_compat_copy(sector)
+            except Exception:
+                failed = True
+                logger.exception("[%s] Writing the compatibility copy failed", slug)
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    run()
+    sys.exit(main())

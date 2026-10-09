@@ -1,0 +1,926 @@
+[
+ {
+  "id": "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-to-introduce-financial-risk-assessments-in-staged-approach",
+  "title": "Commission to introduce Financial Risk Assessments in staged approach",
+  "raw_summary": "A streamlined approach to identifying and supporting high-spending customers in financial difficulties is to be introduced.",
+  "published_at": "2026-07-07T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "regulatory",
+  "entities": [
+   "Gambling Commission"
+  ],
+  "newsworthiness_score": 72,
+  "why_it_matters": "Operators must prepare for phased rollout of frictionless financial risk assessments, affecting compliance systems and high-spending customer handling.",
+  "category": "financial risk checks",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission"
+  ],
+  "canonical_category": "Licence action",
+  "theme_id": null,
+  "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure \u00a3150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+  "theme_key_points": [
+   "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
+   "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
+   "Holland Park Leisure fined \u00a3150,000 on 2026-08-18 for compliance failings",
+   "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Licence action:f585279edc04:067ec139"
+ },
+ {
+  "id": "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/petfre-gibraltar-limited-to-pay-gbp900-000-for-regulatory-failures",
+  "title": "Petfre (Gibraltar) Limited to pay \u00a3900,000 for regulatory failures",
+  "raw_summary": "",
+  "published_at": "2026-06-30T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "enforcement",
+  "entities": [
+   "Petfre (Gibraltar) Limited"
+  ],
+  "newsworthiness_score": 78,
+  "why_it_matters": "A \u00a3900,000 penalty highlights ongoing UKGC crackdowns on operator compliance failures, signalling continued regulatory scrutiny across the sector.",
+  "category": "AML/social responsibility enforcement",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "The UK Gambling Commission has hit Petfre (Gibraltar) Limited, operator of Betfred, with a \u00a3900,000 penalty for AML and social responsibility failures. Both signals report the same settlement, confirming enforcement action rather than a developing sequence.",
+  "cluster_summary_for": "7ed0e2cb7effb317:cecdc011",
+  "canonical_entities": [
+   "Petfre"
+  ],
+  "canonical_category": "AML and compliance failures",
+  "theme_id": null,
+  "cluster_pattern_type": "routine",
+  "cluster_coherent": true,
+  "cluster_significance": 45,
+  "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (\u00a3900,000) and QuinnBet (\u00a3609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
+  "theme_key_points": [
+   "Petfre (Gibraltar) fined \u00a3900,000 on 30 June 2026, the largest sum in this run",
+   "QuinnBet (Gibraltar) hit with \u00a3609,104 penalty plus separate settlement announced same day, 20 August 2026",
+   "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+   "Four penalties land within an eight-week span, June to August 2026"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139"
+ },
+ {
+  "id": "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/dcms-concludes-consultation-on-gambling-regulation-funding",
+  "title": "DCMS concludes consultation on gambling regulation funding",
+  "raw_summary": "The Department for Culture, Media and Sport (DCMS) has published its consultation response on the funding of the Gambling Commission which took place between January and March this year.",
+  "published_at": "2026-06-30T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "policy",
+  "entities": [
+   "DCMS",
+   "Gambling Commission"
+  ],
+  "newsworthiness_score": 62,
+  "why_it_matters": "Changes to how the Gambling Commission is funded could affect licence fees and regulatory capacity across the UK gambling industry.",
+  "category": "regulatory funding reform",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "DCMS",
+   "Gambling Commission"
+  ],
+  "canonical_category": "Policy and legislation",
+  "theme_id": null,
+  "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through August and September 2026, with dense clusters of written questions on planning permission for betting shops, business rates, financial risk assessments and prediction-market regulation. The Gambling Commission faces repeated questions over CEO uncertainty and staff moving into industry roles, while DCMS consults on sponsorship bans and lottery funding.",
+  "theme_key_points": [
+   "28 August: five separate questions confirm councils may gain power to reject new betting shop and AGC licences, reversing the pro-licensing presumption.",
+   "1 September: five questions in one day establish that prediction markets and event contracts require Gambling Commission licensing, not new legislation.",
+   "Financial Risk Assessments (affordability checks) generate at least eight questions between June and September, with implementation still unresolved.",
+   "Gambling Commission governance faces recurring scrutiny \u2014 CEO appointment status, staff moving to industry consultancy, and Sarah Fox's DCMS secondment all raised repeatedly."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Policy and legislation:933bc07042ce:067ec139"
+ },
+ {
+  "id": "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/tim-miller-announces-departure-from-gambling-commission",
+  "title": "Tim Miller announces departure from Gambling Commission",
+  "raw_summary": "The Gambling Commission is today announcing that Tim Miller, Executive Director of Policy & Research has decided to leave the Commission in September 2026 after 10 years of service.",
+  "published_at": "2026-06-29T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "regulatory",
+  "entities": [
+   "Gambling Commission",
+   "Tim Miller"
+  ],
+  "newsworthiness_score": 55,
+  "why_it_matters": "A senior policy leader's exit could signal shifts in the Commission's regulatory priorities and future consultation direction.",
+  "category": "regulator leadership change",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission",
+   "Tim Miller"
+  ],
+  "canonical_category": "Licence action",
+  "theme_id": null,
+  "theme_summary": "The Gambling Commission has escalated enforcement through the summer, moving from personal licence revocations in July to operator-level licence suspensions from late August onward, hitting BresBet, Bet St George, Tom Horn Gaming and Targetlocal in quick succession. Holland Park Leisure's \u00a3150,000 fine and the Court of Appeal's rejection of Northern & Shell's National Lottery challenge add to a run of formal Commission actions across four months.",
+  "theme_key_points": [
+   "Personal licences revoked for Abouleyazid Mustafa Lubna (13 July) and Zura Adam Galgerud (6 August)",
+   "Operator suspensions accelerate: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sept), Targetlocal (21 Sept)",
+   "Holland Park Leisure fined \u00a3150,000 on 18 August for compliance failings",
+   "Court of Appeal ends Northern & Shell's challenge to the National Lottery licence award on 30 July"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Licence action:83a7111281cc:067ec139"
+ },
+ {
+  "id": "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/two-admit-general-election-betting-offences",
+  "title": "Two admit General Election betting offences",
+  "raw_summary": "",
+  "published_at": "2026-06-29T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "enforcement",
+  "entities": [],
+  "newsworthiness_score": 62,
+  "why_it_matters": "Convictions over election betting misuse show regulators and prosecutors actively policing insider betting integrity, relevant to compliance teams.",
+  "category": "betting integrity/enforcement",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [],
+  "canonical_category": "Enforcement action",
+  "theme_id": null,
+  "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a \u00a34.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
+  "theme_key_points": [
+   "Evolution Malta Holding Limited settled for \u00a34.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+   "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+   "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+   "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+   "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Enforcement action:01509d38d23c:067ec139"
+ },
+ {
+  "id": "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-invites-industry-proposals-to-reduce-regulatory-burdens",
+  "title": "Commission invites industry proposals to reduce regulatory burdens",
+  "raw_summary": "The Commission is calling for proposals from the gambling industry to identify opportunities to reduce unnecessary regulatory burdens while maintaining strong consumer protections and upholding the licensing objectives of the Gambling Act 2005.",
+  "published_at": "2026-06-26T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "consultation",
+  "entities": [
+   "Gambling Commission"
+  ],
+  "newsworthiness_score": 55,
+  "why_it_matters": "Signals possible easing of licence compliance costs, giving operators a direct chance to shape future regulatory burden.",
+  "category": "regulatory reform",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission"
+  ],
+  "canonical_category": "Policy and legislation",
+  "theme_id": null,
+  "theme_summary": "Parliamentary scrutiny of gambling policy intensified through August and September, culminating in a 14-question cluster on 28 August covering planning reversals, Financial Risk Assessments and Gambling Commission staff conflicts, followed by confirmation on 1 September that prediction markets require Commission licensing. The BGC responded with near-weekly statements defending high-street betting shops and opposing a blanket advertising ban.",
+  "theme_key_points": [
+   "28 August: 14 written questions in one day, including confirmation councils may soon reject new gambling premises, reversing the pro-licensing presumption",
+   "1 September: five separate written questions confirm prediction markets/event contracts require Gambling Commission licensing",
+   "Ministerial turnover accelerating: Vicky Foxcroft installed as gambling minister (11 Aug), Lisa Nandy reappointed, Simon Cox named BHA chair, new shadow team announced 1 September",
+   "Gambling Commission revolving-door and staff conflict-of-interest questions recur across June-August with no government commitment to tighten rules"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Policy and legislation:c9fa726c2990:067ec139"
+ },
+ {
+  "id": "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/stakelogic-bv-to-pay-gbp122-835-for-running-slots-too-fast",
+  "title": "Stakelogic BV to pay \u00a3122,835 for running slots too fast",
+  "raw_summary": "",
+  "published_at": "2026-06-25T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "enforcement",
+  "entities": [
+   "Stakelogic BV"
+  ],
+  "newsworthiness_score": 62,
+  "why_it_matters": "A supplier's penalty for running slots faster than allowed shows the Commission enforcing player protection technical standards on B2B suppliers.",
+  "category": "game speed/RTP compliance breach",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "The UK Gambling Commission has settled with supplier Stakelogic BV over slots running faster than permitted, breaching game speed and RTP technical standards. Stakelogic will pay \u00a3122,835 in lieu of a financial penalty, adding to enforcement pressure on B2B suppliers over player-protection compliance.",
+  "cluster_summary_for": "914fbfb625f789e0:cecdc011",
+  "canonical_entities": [
+   "Stakelogic BV"
+  ],
+  "canonical_category": "Enforcement action",
+  "theme_id": null,
+  "cluster_pattern_type": "developing_story",
+  "cluster_coherent": true,
+  "cluster_significance": 40,
+  "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's \u00a3122,835 slot-speed breach to Evolution Malta's \u00a34.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
+  "theme_key_points": [
+   "Evolution Malta's \u00a34.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's \u00a3122,835 and Petfre's earlier payment.",
+   "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
+   "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
+   "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Enforcement action:8b480b243c51:067ec139"
+ },
+ {
+  "id": "87a805f855ff507673c4382f6db2c0bcc04409ce7d72e8e29710b4526f663e1a",
+  "source": "gambling_commission",
+  "source_id": null,
+  "source_url": "https://www.gamblingcommission.gov.uk/news/article/kpmg-gibraltar-esummit-2026-sue-young-speech",
+  "title": "KPMG Gibraltar eSummit 2026 - Sue Young speech",
+  "raw_summary": "This speech was delivered by executive director for operations Sue Young at the KPMG Gibraltar eSummit on 11 June 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+  "published_at": "2026-06-12T00:00:00+00:00",
+  "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+  "signal_type": "policy",
+  "entities": [
+   "Gambling Commission",
+   "KPMG",
+   "Sue Young"
+  ],
+  "newsworthiness_score": 35,
+  "why_it_matters": "A senior UK Gambling Commission official's public remarks may signal regulatory priorities or policy direction for the industry.",
+  "category": "regulator speech",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission",
+   "KPMG",
+   "Sue Young"
+  ],
+  "canonical_category": "Policy and legislation",
+  "theme_id": null,
+  "theme_summary": "Parliamentary written questions on gambling policy piled up through the summer, peaking on 28 August with roughly 15 questions in a single day covering Financial Risk Assessments, Gambling Commission staff conflicts of interest, and a reversal of the presumption in favour of new betting-shop and AGC licences. By 1 September, five separate questions confirmed prediction markets require Gambling Commission licensing.",
+  "theme_key_points": [
+   "28 August: cluster of questions on affordability checks, planning permission for betting shops/AGCs, and Gambling Commission revolving-door concerns.",
+   "1 September: five near-identical questions confirm event contracts/prediction markets need Gambling Commission licences.",
+   "BGC tracked three ministerial changes since July: Lisa Nandy's reappointment, John Healey as Chancellor, Vicky Foxcroft as new gambling minister (11 August).",
+   "DCMS ran parallel consultations on regulatory-burden reduction (26 June), Commission funding (concluded 30 June), and unlicensed sponsorship in sport (15 July)."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Policy and legislation:31f2393912c6:067ec139"
+ },
+ {
+  "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+  "source": "companies_house",
+  "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
+  "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzUyODc1MjMxMWFkaXF6a2N4/document?format=pdf&download=0",
+  "title": "William Hill Limited: Confirmation statement filed",
+  "raw_summary": "Type: CS01 \u00b7 Description: Confirmation statement with updates",
+  "published_at": "2026-06-27T00:00:00+00:00",
+  "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+  "signal_type": "corporate_filing",
+  "entities": [
+   "William Hill Limited"
+  ],
+  "newsworthiness_score": 8,
+  "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
+  "category": "confirmation statement",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "William Hill Limited"
+  ],
+  "canonical_category": "Corporate filing",
+  "theme_id": null,
+  "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
+  "cluster_pattern_type": "developing_story",
+  "cluster_coherent": true,
+  "cluster_significance": 65,
+  "cluster_summary_for": "e08465eded972e60:cecdc011"
+ },
+ {
+  "id": "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
+  "source": "gazette",
+  "source_id": "5167601",
+  "source_url": "https://www.thegazette.co.uk/notice/5167601",
+  "title": "DEESIDE BOOKMAKERS LTD.",
+  "raw_summary": "Appointment of Liquidators: \u2026kmakers Ltd. by virtue of the deemed consent procedure. The nature of the business of the company is Gambling and betting activities. \u2026",
+  "published_at": "2026-07-03T12:01:45+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Deeside Bookmakers Ltd"
+  ],
+  "newsworthiness_score": 25,
+  "why_it_matters": "A licensed bookmaker entering liquidation signals possible sector distress and may trigger licence and creditor implications.",
+  "category": "insolvency/liquidation",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Deeside Bookmakers"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "theme_summary": "Insolvency filings have hit UK gambling firms across the supply chain since early July, from bookmakers Deeside and MAB Bookmakers to compliance specialist Lysis Gaming Compliance and racing data supplier Equusform. The pace has quickened through August and September, with T33 Gaming moving from petition to winding-up order within three weeks.",
+  "theme_key_points": [
+   "Lysis Gaming Compliance faced repeated winding-up filings between 24 July and 26 August, unusual persistence for one firm",
+   "T33 Gaming progressed from petition (4 Sept) to winding-up order (23 Sept) inside 19 days",
+   "MGE Korea's administrators appointment on 14 Sept scores highest (55), tied to integrated gaming facilities group",
+   "Seventeen separate entities affected since 3 July, spanning bookmakers, publishers, compliance and data suppliers"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Insolvency:f57c721a8b72:067ec139"
+ },
+ {
+  "id": "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+  "source": "gazette",
+  "source_id": "5158520",
+  "source_url": "https://www.thegazette.co.uk/notice/5158520",
+  "title": "RICHMOND ATLANTIC SERVICES LTD",
+  "raw_summary": "Appointment of Liquidators: Name of Company: RICHMOND ATLANTIC SERVICES LTD Company Number: 15850124 Nature of Business: Gambling /Financial Services & Corporate Investment \u2026",
+  "published_at": "2026-06-22T01:02:20+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Richmond Atlantic Services Ltd"
+  ],
+  "newsworthiness_score": 30,
+  "why_it_matters": "A gambling-linked company entering liquidation may signal financial distress worth tracking for sector risk patterns.",
+  "category": "insolvency/liquidation",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Richmond Atlantic Services"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "theme_summary": "Eighteen gambling-linked firms have filed for liquidation, voluntary winding-up or faced HMRC petitions between June and September 2026, spanning bookmakers, gaming suppliers and compliance providers. The pace has quickened and severity increased, culminating in administrators being appointed to MGE Korea's holding company on 14 September.",
+  "theme_key_points": [
+   "Lysis Gaming Compliance faced repeated winding-up action across three separate filings between 24 July and 26 August.",
+   "Licensed bookmakers Deeside Bookmakers (3 July) and MAB Bookmakers (7 August) both entered liquidation within five weeks.",
+   "OG Realisations 2026, trading as Outshine, filed a winding-up resolution on 17 August alongside a separate liquidation notice.",
+   "T33 Gaming faced a winding-up petition on 4 September before MGE Korea's holding company entered administration ten days later."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Insolvency:742a3c32a29b:067ec139"
+ },
+ {
+  "id": "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
+  "source": "gazette",
+  "source_id": "5167475",
+  "source_url": "https://www.thegazette.co.uk/notice/5167475",
+  "title": "ACCELERATE CORPORATION LTD.",
+  "raw_summary": "Petitions to Wind Up (Companies): \u2026ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1269121/ \u2026",
+  "published_at": "2026-07-03T12:01:35+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Accelerate Corporation Ltd",
+   "HMRC"
+  ],
+  "newsworthiness_score": 8,
+  "why_it_matters": "No apparent gambling-sector link, so limited relevance to gambling industry journalists despite being an HMRC insolvency action.",
+  "category": "winding-up petition",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Accelerate",
+   "HMRC"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+  "source": "gazette",
+  "source_id": "5163880",
+  "source_url": "https://www.thegazette.co.uk/notice/5163880",
+  "title": "RALTEC ARC LTD",
+  "raw_summary": "Petitions to Wind Up (Companies): \u2026ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270555/ \u2026",
+  "published_at": "2026-06-30T12:00:25+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "RALTEC ARC LTD",
+   "HMRC"
+  ],
+  "newsworthiness_score": 15,
+  "why_it_matters": "An HMRC winding-up petition suggests financial distress, but no clear link to gambling sector operations is evident.",
+  "category": "winding-up petition",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "RALTEC ARC",
+   "HMRC"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+  "source": "gazette",
+  "source_id": "5162134",
+  "source_url": "https://www.thegazette.co.uk/notice/5162134",
+  "title": "RAPIDO RESTAURANTS LIMITED",
+  "raw_summary": "Petitions to Wind Up (Companies): \u2026ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270694/ \u2026",
+  "published_at": "2026-06-26T12:01:19+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Rapido Restaurants Limited",
+   "HM Revenue & Customs"
+  ],
+  "newsworthiness_score": 2,
+  "why_it_matters": "This HMRC winding-up petition concerns a restaurant company with no apparent link to the UK gambling sector.",
+  "category": "unrelated insolvency notice",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Rapido Restaurants",
+   "HM Revenue & Customs"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "75412a643b1f6520982d5fd2e8dd8aff865d85196858202f9cceb8c0887ba6b5",
+  "source": "gazette",
+  "source_id": "5156613",
+  "source_url": "https://www.thegazette.co.uk/notice/5156613",
+  "title": "GORBALS RETAIL LIMITED",
+  "raw_summary": "Petitions to Wind Up (Companies): \u2026ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1265430/ \u2026",
+  "published_at": "2026-06-19T12:00:36+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Gorbals Retail Limited",
+   "HMRC"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "A generic HMRC winding-up petition with no apparent link to the gambling sector, limited relevance to trade journalists.",
+  "category": "winding up petition",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gorbals Retail",
+   "HMRC"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "2010349061bf4f5c8589662f492beac6c6dc11c627f9b7da572a5b8f74d79266",
+  "source": "gazette",
+  "source_id": "5156608",
+  "source_url": "https://www.thegazette.co.uk/notice/5156608",
+  "title": "CHAMBERS LEGAL LTD",
+  "raw_summary": "Petitions to Wind Up (Companies): \u2026ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1266044/ \u2026",
+  "published_at": "2026-06-19T12:00:30+00:00",
+  "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Chambers Legal Ltd",
+   "HMRC"
+  ],
+  "newsworthiness_score": 3,
+  "why_it_matters": "No apparent link to the gambling sector, making this routine insolvency filing of minimal interest to gambling trade press.",
+  "category": "winding up petition",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Chambers Legal",
+   "HMRC"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
+  "source": "gazette",
+  "source_id": "5167173",
+  "source_url": "https://www.thegazette.co.uk/notice/5167173",
+  "title": "LANGORF HOTEL LIMITED",
+  "raw_summary": "Appointment of Liquidators: \u2026716940 Nature of Business: Hotels and similar accommodation Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN \u2026",
+  "published_at": "2026-07-03T01:03:54+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Langorf Hotel Limited"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "A hotel company's liquidation appears unrelated to gambling and gaming, so it holds minimal relevance for this sector's audience.",
+  "category": "insolvency filing",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "Langorf Hotel Limited has filed a winding-up resolution, per gazette notices. This is a hotel insolvency matter with no apparent link to gambling or gaming operations.",
+  "cluster_summary_for": "933ee7f1d7e3c921:cecdc011",
+  "canonical_entities": [
+   "Langorf Hotel"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "unrelated",
+  "cluster_coherent": false,
+  "cluster_significance": 3
+ },
+ {
+  "id": "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
+  "source": "gazette",
+  "source_id": "5167145",
+  "source_url": "https://www.thegazette.co.uk/notice/5167145",
+  "title": "LANGORF HOTEL LIMITED",
+  "raw_summary": "Resolutions for Winding-up: LANGORF HOTEL LIMITED (Company Number 11716940 ) Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN \u2026",
+  "published_at": "2026-07-03T01:03:23+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Langorf Hotel Limited"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "A hotel company's winding-up resolution has no apparent connection to the gambling sector.",
+  "category": "insolvency filing",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "Langorf Hotel Limited has filed a winding-up resolution, per gazette notices. This is a hotel insolvency matter with no apparent link to gambling or gaming operations.",
+  "cluster_summary_for": "933ee7f1d7e3c921:cecdc011",
+  "canonical_entities": [
+   "Langorf Hotel"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "unrelated",
+  "cluster_coherent": false,
+  "cluster_significance": 3
+ },
+ {
+  "id": "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+  "source": "gazette",
+  "source_id": "5166165",
+  "source_url": "https://www.thegazette.co.uk/notice/5166165",
+  "title": "FATCAT SOFTWORKS LTD",
+  "raw_summary": "Appointment of Liquidators: \u2026any Number: 09457103 Name of Company: FATCAT SOFTWORKS LTD Nature of Business: Producing content for gaming machines/re-fitting gaming machines \u2026",
+  "published_at": "2026-07-01T17:31:20+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Fatcat Softworks Ltd"
+  ],
+  "newsworthiness_score": 25,
+  "why_it_matters": "A gaming machine content supplier entering liquidation could signal supply chain disruption for gambling operators reliant on its products.",
+  "category": "insolvency/liquidation",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Fatcat Softworks"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "theme_summary": "Eighteen UK gambling-linked companies have entered insolvency proceedings between July and September 2026, spanning bookmakers, gaming suppliers, compliance firms and a racing data provider. Cases have accelerated through August and September, with several escalating from initial petitions to confirmed winding-up orders.",
+  "theme_key_points": [
+   "Lysis Gaming Compliance moved from winding-up petition (24 July) to confirmed order (26 August)",
+   "T33 Gaming progressed from petition (4 Sept) to winding-up order (23 Sept)",
+   "MGE Korea's administrators appointment (14 Sept) scored highest at 55, tied to integrated gaming facilities",
+   "MAB Bookmakers and Deeside Bookmakers both entered liquidation, alongside racing data supplier Equusform's creditors' meeting on 18 September"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Insolvency:7b2bdf72f902:067ec139"
+ },
+ {
+  "id": "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+  "source": "gazette",
+  "source_id": "5163750",
+  "source_url": "https://www.thegazette.co.uk/notice/5163750",
+  "title": "NATIONAL FITNESS GAMES LIMITED",
+  "raw_summary": "Resolutions for Winding-up: NATIONAL FITNESS GAMES LIMITED \u2026",
+  "published_at": "2026-06-26T17:50:50+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "National Fitness Games Limited"
+  ],
+  "newsworthiness_score": 3,
+  "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
+  "category": "company winding-up",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
+  "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
+  "canonical_entities": [
+   "National Fitness Games"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "unrelated",
+  "cluster_coherent": false,
+  "cluster_significance": 3
+ },
+ {
+  "id": "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+  "source": "gazette",
+  "source_id": "5163749",
+  "source_url": "https://www.thegazette.co.uk/notice/5163749",
+  "title": "NATIONAL FITNESS GAMES LIMITED",
+  "raw_summary": "Appointment of Liquidators: Company Number: 11427107 Name of Company: NATIONAL FITNESS GAMES LIMITED \u2026",
+  "published_at": "2026-06-26T17:50:49+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "National Fitness Games Limited"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
+  "category": "liquidation notice",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
+  "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
+  "canonical_entities": [
+   "National Fitness Games"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "unrelated",
+  "cluster_coherent": false,
+  "cluster_significance": 3
+ },
+ {
+  "id": "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+  "source": "gazette",
+  "source_id": "5159127",
+  "source_url": "https://www.thegazette.co.uk/notice/5159127",
+  "title": "TODHILL GAME LIMITED",
+  "raw_summary": "Resolutions for Winding-up: TODHILL GAME LIMITED \u2026",
+  "published_at": "2026-06-23T12:00:26+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Todhill Game Limited"
+  ],
+  "newsworthiness_score": 25,
+  "why_it_matters": "A gaming-related company entering voluntary winding-up may signal financial distress worth monitoring in the sector.",
+  "category": "insolvency filing",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "Todhill Game Limited has filed for voluntary winding-up, per a gazette notice dated 23 June 2026. Details on the company's operations and scale remain unclear, and the filing appears twice in near-identical form with no additional substance.",
+  "cluster_summary_for": "18b5c56af1d82eae:cecdc011",
+  "canonical_entities": [
+   "Todhill Game"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "routine",
+  "cluster_coherent": true,
+  "cluster_significance": 15,
+  "theme_summary": "Eighteen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between late June and mid-September 2026, spanning bookmakers, game studios, IT suppliers and compliance firms. The pace and severity have risen through the summer, with HMRC-led petitions and administrator appointments appearing at higher-scoring firms by September.",
+  "theme_key_points": [
+   "Lysis Gaming Compliance faced repeated winding-up filings on 24 and 26 August, signalling an escalating petition against a sector compliance provider.",
+   "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exit affecting staff and creditors.",
+   "MGE Korea Limited had administrators appointed on 14 September, the highest-severity case (score 55), tied to integrated gaming facilities.",
+   "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform, a horse racing data supplier, entered creditors' meetings on 18 September."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Insolvency:55b1ab9baf45:067ec139"
+ },
+ {
+  "id": "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+  "source": "gazette",
+  "source_id": "5159125",
+  "source_url": "https://www.thegazette.co.uk/notice/5159125",
+  "title": "TODHILL GAME LIMITED",
+  "raw_summary": "Appointment of Liquidators: PURSUANT TO SECTION 109 OF THE INSOLVENCY ACT 1986 Name of Company: TODHILL GAME LIMITED \u2026",
+  "published_at": "2026-06-23T12:00:23+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Todhill Game Limited"
+  ],
+  "newsworthiness_score": 15,
+  "why_it_matters": "A minor company liquidation notice with unclear gambling-sector relevance offers limited value to specialist readers.",
+  "category": "insolvency filing",
+  "cluster_id": null,
+  "status": "seen",
+  "cluster_summary": "Todhill Game Limited has filed for voluntary winding-up, per a gazette notice dated 23 June 2026. Details on the company's operations and scale remain unclear, and the filing appears twice in near-identical form with no additional substance.",
+  "cluster_summary_for": "18b5c56af1d82eae:cecdc011",
+  "canonical_entities": [
+   "Todhill Game"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "cluster_pattern_type": "routine",
+  "cluster_coherent": true,
+  "cluster_significance": 15
+ },
+ {
+  "id": "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+  "source": "gazette",
+  "source_id": "5159508",
+  "source_url": "https://www.thegazette.co.uk/notice/5159508",
+  "title": "COOPERMATIC LIMITED",
+  "raw_summary": "Appointment of Liquidators: \u2026RMATIC LIMITED Company Number: 08962503 Trading Name: Peek & Poke Nature of Business: Retail sale of games and toys in specialised stores \u2026",
+  "published_at": "2026-06-23T01:02:50+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Coopermatic Limited",
+   "Peek & Poke"
+  ],
+  "newsworthiness_score": 8,
+  "why_it_matters": "A small toy/games retailer entering liquidation has negligible direct relevance to the UK gambling sector.",
+  "category": "insolvency filing",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Coopermatic",
+   "Peek & Poke"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "7e78658fe7f8e24b8a591fc025bc29491a8df55f3b91d1d75fca6abadb2697f3",
+  "source": "gazette",
+  "source_id": "5152647",
+  "source_url": "https://www.thegazette.co.uk/notice/5152647",
+  "title": "STARBREEZE STUDIOS UK LIMITED",
+  "raw_summary": "Appointment of Liquidators: \u2026y: STARBREEZE STUDIOS UK LIMITED Company Number: 14488463 Nature of Business: Publishing of computer \u2026",
+  "published_at": "2026-06-15T01:00:32+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Starbreeze Studios UK Limited"
+  ],
+  "newsworthiness_score": 22,
+  "why_it_matters": "A gaming publisher entering liquidation may signal wider financial distress relevant to UK gaming industry suppliers and partners.",
+  "category": "liquidation",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Starbreeze Studios"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null,
+  "theme_summary": "Eighteen gambling-linked companies have entered liquidation or faced winding-up petitions since mid-June 2026, spanning bookmakers, game studios, compliance firms and suppliers. The pace accelerated through July and August, with HMRC action and repeat filings against the same firms signalling deepening distress before easing slightly into September.",
+  "theme_key_points": [
+   "Lysis Gaming Compliance hit with three separate filings between 24 July and 26 August, moving from petition to liquidation.",
+   "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July, a licensed betting venue.",
+   "Licensed bookmakers Deeside Bookmakers (3 July) and MAB Bookmakers (7 August) both entered liquidation within five weeks.",
+   "T33 Gaming Ltd faced a winding-up petition on 4 September, the most recent case in the run."
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Insolvency:246ef5ef3731:067ec139"
+ },
+ {
+  "id": "07ce9193c790b9bea80f7e5c745da5c6f03530353f6538d67e17cc4a83d0ce9f",
+  "source": "gazette",
+  "source_id": "5150671",
+  "source_url": "https://www.thegazette.co.uk/notice/5150671",
+  "title": "CAPITAL D\u2019EXPLORATION LIMITED",
+  "raw_summary": "Notices to Creditors: \u2026Curtis House, Elms Square, Bury New Road, Whitefield, Manchester, M45 7TA Principal trading address: Game Keep, 112A High Street, Long Crendon, Aylesbury, Buckinghamshire HP18 9AN \u2026",
+  "published_at": "2026-06-11T01:03:05+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Capital D'Exploration Limited",
+   "Game Keep"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "A creditors' notice for a small retail trader with no clear gambling-sector link offers little relevance to industry journalists.",
+  "category": "insolvency notice",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Capital D'Exploration",
+   "Game Keep"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+  "source": "gazette",
+  "source_id": "5163998",
+  "source_url": "https://www.thegazette.co.uk/notice/5163998",
+  "title": "CORPORATE INTELLIGENCE SERVICE LIMITED",
+  "raw_summary": "Resolutions for Winding-up: CORPORATE INTELLIGENCE SERVICE LIMITED (Company Number 02488908 ) Registered office: The Courtyard, Shoreham Road, Upper Beeding, Steyning, BN44 3TN Principal trading address: Hill Cottage, Cricklade\u2026",
+  "published_at": "2026-06-29T17:30:08+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Corporate Intelligence Service Limited"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "No apparent link to gambling sector, making this insolvency notice largely irrelevant to industry journalists.",
+  "category": "winding-up notice",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Corporate Intelligence Service"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "a79b588c6787c60a97d0b3f99bfdfd4a622a34703ca06c76938b5032fb5fa091",
+  "source": "gazette",
+  "source_id": "5158625",
+  "source_url": "https://www.thegazette.co.uk/notice/5158625",
+  "title": "SLACK CAPITAL LIMITED",
+  "raw_summary": "Resolutions for Winding-up: SLACK CAPITAL LIMITED (Company Number 15960451 ) Registered office: 18 BRINCLIFFE CRESCENT, SHEFFIELD, SOUTH YORKSHIRE, ENGLAND, S11 9AW Principal trading address: 18 BRINCLIFFE CRESCENT, SHEFFIELD, S\u2026",
+  "published_at": "2026-06-19T17:30:29+00:00",
+  "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+  "signal_type": "insolvency",
+  "entities": [
+   "Slack Capital Limited"
+  ],
+  "newsworthiness_score": 5,
+  "why_it_matters": "No apparent connection to the gambling sector, so this routine insolvency notice is unlikely to interest gambling industry journalists.",
+  "category": "company winding-up",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Slack Capital"
+  ],
+  "canonical_category": "Insolvency",
+  "theme_id": null
+ },
+ {
+  "id": "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+  "source": "dcms",
+  "source_id": null,
+  "source_url": "https://www.gov.uk/government/consultations/proposed-changes-to-gambling-commission-fees",
+  "title": "Proposed changes to Gambling Commission fees",
+  "raw_summary": "This consultation invites views on proposed changes to Gambling Commission fees from 1 October 2026. ",
+  "published_at": "2026-06-30T13:00:04Z",
+  "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+  "signal_type": "consultation",
+  "entities": [
+   "Gambling Commission",
+   "DCMS"
+  ],
+  "newsworthiness_score": 62,
+  "why_it_matters": "Fee changes affect operator compliance costs and signal how the Commission plans to fund regulatory activity from October 2026.",
+  "category": "licence fee changes",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission",
+   "DCMS"
+  ],
+  "canonical_category": "Licence action",
+  "theme_id": null,
+  "theme_summary": "The Gambling Commission has moved through a run of individual and operator licence actions since mid-July, from personal revocations to full suspensions, culminating in three operator suspensions within a month. Holland Park Leisure was fined \u00a3150,000, and the Court of Appeal shut down Northern & Shell's challenge to the National Lottery licence award.",
+  "theme_key_points": [
+   "Three personal licences revoked in eight weeks: Abouleyazid Mustafa Lubna (Jul 13), Zura Adam Galgerud (Aug 6), Ayeni Ibukun Samson (Sep 4)",
+   "Operator suspensions accelerated: BresBet and Bet St George (Aug 28), Tom Horn Gaming (Sep 8), Targetlocal (Sep 21)",
+   "Holland Park Leisure fined \u00a3150,000 on August 18 for compliance failings",
+   "Court of Appeal ended Northern & Shell/TNLC's National Lottery licence challenge on July 30, closing off further appeal"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Licence action:5d5574310db0:067ec139"
+ },
+ {
+  "id": "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+  "source": "dcms",
+  "source_id": null,
+  "source_url": "https://www.gov.uk/government/consultations/consultation-on-banning-unlicensed-gambling-sponsorship",
+  "title": "Consultation on banning unlicensed gambling sponsorship",
+  "raw_summary": "A consultation on banning gambling operators which are not licensed by the Gambling Commission from entering into sponsorship or advertising arrangements across all sectors, including sports.",
+  "published_at": "2026-07-15T09:14:26Z",
+  "ingested_at": "2026-07-15T09:56:33.864083+00:00",
+  "signal_type": "consultation",
+  "entities": [
+   "Gambling Commission",
+   "DCMS"
+  ],
+  "newsworthiness_score": 78,
+  "why_it_matters": "A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.",
+  "category": "advertising/sponsorship policy",
+  "cluster_id": null,
+  "status": "seen",
+  "canonical_entities": [
+   "Gambling Commission",
+   "DCMS"
+  ],
+  "canonical_category": "Advertising ruling",
+  "theme_id": "Advertising ruling",
+  "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+  "theme_key_points": [
+   "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
+   "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
+   "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
+   "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
+   "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+  ],
+  "theme_direction": "building",
+  "theme_summary_for": "Advertising ruling:360be487d932:067ec139"
+ }
+]

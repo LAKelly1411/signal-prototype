@@ -1,10 +1,7 @@
-import yaml
-
 from src.collectors.lse_rns import LSERNSCollector
+from src.sectors import load_sector
 
-SKIP_TITLES = yaml.safe_load(open("config/sources.yaml", encoding="utf-8"))["lse_rns"][
-    "skip_titles"
-]
+SKIP_TITLES = load_sector("gambling").sources["lse_rns"]["skip_titles"]
 
 
 def collector(skip_titles=SKIP_TITLES):

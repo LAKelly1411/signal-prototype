@@ -2,37 +2,34 @@ import hashlib
 import json
 import logging
 import os
+from string import Template
 
 import anthropic
 
-from src.categories import TAXONOMY, canonical_category
+from src.categories import canonical_category, default_sector, taxonomy
 from src.entities import canonicalise
 
 logger = logging.getLogger(__name__)
 
-_CATEGORY_LIST = "\n".join(f"  - {c}" for c in TAXONOMY)
-
-SYSTEM_PROMPT = (
-    "You are a signal-scoring assistant for a B2B gambling-industry newsroom. "
+_SYSTEM_TEMPLATE = Template(
+    "You are a signal-scoring assistant for a $newsroom. "
     "You are given one item from a public, regulatory or corporate source. "
-    "Assess how newsworthy it is to journalists covering the UK gambling and "
-    "gaming sector. You do not write articles. You return structured JSON only.\n\n"
-    "Score for a specialist B2B gambling audience, not a general newsdesk. A "
-    "small operator's confirmation statement can matter here even if it would "
-    "never make national news. Reward items that name operators, suppliers or "
-    "affiliates, involve enforcement or money, or signal a regulatory or policy "
-    "shift. Extract entity names carefully; these drive a downstream pattern-"
+    "Assess how newsworthy it is to journalists covering $coverage. You do not "
+    "write articles. You return structured JSON only.\n\n"
+    "Score for a $audience, not a general newsdesk. $materiality "
+    "Reward items that name $key_players, involve enforcement or money, or "
+    "signal a regulatory or policy shift. Extract entity names carefully; these drive a downstream pattern-"
     "detection layer.\n\n"
     "The category must be exactly one of these, copied verbatim. Free-text "
     "themes fragment the cross-company pattern detection downstream, so pick "
     "the closest match rather than inventing a better label. Use 'Other' only "
     "when genuinely none applies:\n"
-    f"{_CATEGORY_LIST}\n\n"
+    "$category_list\n\n"
     "Return exactly this JSON shape, no prose, no markdown fences:\n"
     "{\n"
     '  "newsworthiness_score": 0-100,\n'
     '  "signal_type": "regulatory|enforcement|consultation|corporate_filing|insolvency|policy",\n'
-    '  "entities": ["operator or company names mentioned"],\n'
+    '  "entities": ["$entity_hint"],\n'
     '  "category": "one value copied verbatim from the list above",\n'
     '  "why_it_matters": "one sentence, plain English, no more than 30 words"\n'
     "}"
@@ -43,13 +40,13 @@ SYSTEM_PROMPT = (
 # prose — "This cluster documents...", "...marking real corporate
 # developments worth tracking" — which is both dull and, in the second case,
 # telling the newsroom what to do with the story.
-_HOUSE_STYLE = (
+_HOUSE_STYLE_TEMPLATE = Template(
     "How to write it:\n"
     "- Open with what happened or what changed. Never open with, or refer to, "
     "the grouping itself: no 'This cluster...', 'These signals...', 'This "
     "group...', 'The signals show...'. The reader can see the signals; write "
     "about the companies and the events.\n"
-    "- Be concrete and specific. Name the operator, the regulator, the sum of "
+    "- Be concrete and specific. Name the $company_word, the regulator, the sum of "
     "money, the date, the stage a process has reached. Specifics are what "
     "make it interesting; abstraction is what makes it dull.\n"
     "- Where the signals form a sequence, convey the direction of travel — "
@@ -68,17 +65,17 @@ _HOUSE_STYLE = (
 )
 
 
-CLUSTER_SYSTEM_PROMPT = (
-    "You are a signal-analysis assistant for a B2B gambling-industry newsroom. "
+_CLUSTER_TEMPLATE = Template(
+    "You are a signal-analysis assistant for a $newsroom. "
     "You are given a cluster of signals that all name the same company, "
     "collected from public, regulatory or corporate sources. Say what is "
     "happening to the company, in the voice of a well-informed trade "
     "reporter briefing a colleague.\n\n"
-    + _HOUSE_STYLE
+    "$house_style"
     + "\n\n"
     "Also judge the grouping itself. The signals were grouped mechanically, by "
     "shared company name, so some are genuine developing stories and others "
-    "are unrelated events that happen to name the same operator. Say which "
+    "are unrelated events that happen to name the same $company_word. Say which "
     "this is — marking one incoherent is useful, not a failure.\n\n"
     "Return exactly this JSON shape, no prose, no markdown fences:\n"
     "{\n"
@@ -94,21 +91,21 @@ CLUSTER_SYSTEM_PROMPT = (
     "'unrelated' where the signals have no real connection.\n"
     "coherent: false when the grouping is an artefact of a shared name rather "
     "than a real link.\n"
-    "significance: how much a specialist gambling newsroom should care, "
+    "significance: how much a $significance_audience should care, "
     "independent of how many signals happen to be in the cluster."
 )
 
-THEME_SYSTEM_PROMPT = (
-    "You are a signal-analysis assistant for a B2B gambling-industry newsroom. "
+_THEME_TEMPLATE = Template(
+    "You are a signal-analysis assistant for a $newsroom. "
     "You are given signals of the same kind — the same sort of event — "
-    "affecting several different companies across the UK gambling sector "
+    "affecting several different companies across $theme_scope "
     "over the past few months.\n\n"
     "This is a sector trend, not a company story. No single one of these "
     "events is necessarily worth reporting on its own; the shape of them "
     "together is the point. Say what that shape is: how widespread it is, "
     "who it is reaching, whether it is building or easing, and which "
     "individual cases stand out from the rest.\n\n"
-    + _HOUSE_STYLE
+    "$house_style"
     + "\n\n"
     "Return exactly this JSON shape, no prose, no markdown fences:\n"
     "{\n"
@@ -124,14 +121,38 @@ THEME_SYSTEM_PROMPT = (
 )
 
 
+def _fields(sector) -> dict[str, str]:
+    sector = sector or default_sector()
+    fields = dict(sector.prompt)
+    fields["house_style"] = _HOUSE_STYLE_TEMPLATE.substitute(fields)
+    fields["category_list"] = "\n".join(f"  - {c}" for c in taxonomy(sector))
+    return fields
+
+
+def system_prompt(sector=None) -> str:
+    return _SYSTEM_TEMPLATE.substitute(_fields(sector))
+
+
+def cluster_prompt(sector=None) -> str:
+    return _CLUSTER_TEMPLATE.substitute(_fields(sector))
+
+
+def theme_prompt(sector=None) -> str:
+    return _THEME_TEMPLATE.substitute(_fields(sector))
+
+
 def _version(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:8]
 
 
-# Tied to the prompt text so editing a prompt automatically invalidates the
-# summaries cached under the old wording.
-CLUSTER_SUMMARY_VERSION = _version(CLUSTER_SYSTEM_PROMPT)
-THEME_SUMMARY_VERSION = _version(THEME_SYSTEM_PROMPT)
+# Tied to the rendered prompt text, so editing a prompt or a sector's wording
+# automatically invalidates the summaries cached under the old wording.
+def cluster_summary_version(sector=None) -> str:
+    return _version(cluster_prompt(sector))
+
+
+def theme_summary_version(sector=None) -> str:
+    return _version(theme_prompt(sector))
 
 
 def build_client() -> anthropic.Anthropic:
@@ -189,6 +210,7 @@ def score_signal(
     signal: dict,
     client: anthropic.Anthropic | None = None,
     alias_map: dict[str, str] | None = None,
+    sector=None,
 ) -> dict:
     """Enrich a signal in place with score/entities/category/why_it_matters.
     On any failure, leaves the score null and flags it rather than dropping it."""
@@ -209,7 +231,7 @@ def score_signal(
         response = client.messages.create(
             model=model,
             max_tokens=MAX_TOKENS,
-            system=SYSTEM_PROMPT,
+            system=system_prompt(sector),
             messages=[{"role": "user", "content": user_content}],
         )
         parsed = _response_json(response, f"Scoring {signal['id']}")
@@ -226,7 +248,8 @@ def score_signal(
         # Belt and braces: the prompt constrains this, but a near-miss like
         # "AML enforcement" would silently split a theme, so map it anyway.
         signal["canonical_category"] = canonical_category(
-            signal["category"], signal["title"], signal.get("signal_type")
+            signal["category"], signal["title"], signal.get("signal_type"),
+            sector=sector,
         )
         signal["why_it_matters"] = parsed.get("why_it_matters")
         signal["status"] = "seen"
@@ -238,7 +261,7 @@ def score_signal(
 
 
 def summarize_cluster(
-    members: list[dict], client: anthropic.Anthropic | None = None
+    members: list[dict], client: anthropic.Anthropic | None = None, sector=None
 ) -> dict | None:
     """Synthesise what a cluster of related signals means, and judge whether
     it's a real pattern at all. Returns None on failure so the pipeline
@@ -267,7 +290,7 @@ def summarize_cluster(
         response = client.messages.create(
             model=model,
             max_tokens=MAX_TOKENS,
-            system=CLUSTER_SYSTEM_PROMPT,
+            system=cluster_prompt(sector),
             messages=[{"role": "user", "content": user_content}],
         )
         parsed = _response_json(response, "Cluster summarisation")
@@ -297,7 +320,10 @@ def summarize_cluster(
 
 
 def summarize_theme(
-    theme: str, members: list[dict], client: anthropic.Anthropic | None = None
+    theme: str,
+    members: list[dict],
+    client: anthropic.Anthropic | None = None,
+    sector=None,
 ) -> dict | None:
     """Read a sector-wide trend: what is happening across the companies it
     touches, and whether it is building or easing.
@@ -330,7 +356,7 @@ def summarize_theme(
         response = client.messages.create(
             model=model,
             max_tokens=MAX_TOKENS,
-            system=THEME_SYSTEM_PROMPT,
+            system=theme_prompt(sector),
             messages=[{"role": "user", "content": user_content}],
         )
         parsed = _response_json(response, f"Theme summarisation ({theme})")
