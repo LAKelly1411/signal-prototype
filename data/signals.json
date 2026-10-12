@@ -2274,7 +2274,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
     "category": "earnings notice",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
     "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
@@ -2283,7 +2283,7 @@
       "BetMGM"
     ],
     "canonical_category": "Financial results",
-    "theme_id": "Financial results",
+    "theme_id": null,
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
@@ -2776,15 +2776,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "theme_summary": "Four major operators move through the UK's mid-year reporting cycle between July and September 2026, with evoke, Flutter and Entain all issuing results or guidance. Entain's reaffirmed FY26 EBITDA guidance despite a Brazil market ban stands out as the clearest test of resilience in the set.",
     "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+      "evoke (William Hill/888) and Flutter both filed notice of upcoming results in mid-to-late July 2026",
+      "BetMGM's Q2 2026 update on 28 July feeds directly into Entain's joint-venture earnings picture",
+      "Entain published interim results on 13 August, then on 28 September held FY26 EBITDA guidance despite a Brazil ban",
+      "Entain is the only company to report twice in the period, reflecting heavier scrutiny of its US and Brazil exposure"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:7a8e1f4d637c:067ec139",
     "sector": "gambling"
   },
   {
@@ -4455,10 +4455,10 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
     "category": "board/director change",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -4506,15 +4506,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "theme_summary": "Four major operators move through the UK's mid-year reporting cycle between July and September 2026, with evoke, Flutter and Entain all issuing results or guidance. Entain's reaffirmed FY26 EBITDA guidance despite a Brazil market ban stands out as the clearest test of resilience in the set.",
     "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+      "evoke (William Hill/888) and Flutter both filed notice of upcoming results in mid-to-late July 2026",
+      "BetMGM's Q2 2026 update on 28 July feeds directly into Entain's joint-venture earnings picture",
+      "Entain published interim results on 13 August, then on 28 September held FY26 EBITDA guidance despite a Brazil ban",
+      "Entain is the only company to report twice in the period, reflecting heavier scrutiny of its US and Brazil exposure"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:7a8e1f4d637c:067ec139",
     "sector": "gambling"
   },
   {
@@ -4534,10 +4534,10 @@
     "newsworthiness_score": 40,
     "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
     "category": "trading update",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited",
       "BetMGM"
@@ -4547,15 +4547,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "theme_summary": "Four major operators move through the UK's mid-year reporting cycle between July and September 2026, with evoke, Flutter and Entain all issuing results or guidance. Entain's reaffirmed FY26 EBITDA guidance despite a Brazil market ban stands out as the clearest test of resilience in the set.",
     "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+      "evoke (William Hill/888) and Flutter both filed notice of upcoming results in mid-to-late July 2026",
+      "BetMGM's Q2 2026 update on 28 July feeds directly into Entain's joint-venture earnings picture",
+      "Entain published interim results on 13 August, then on 28 September held FY26 EBITDA guidance despite a Brazil ban",
+      "Entain is the only company to report twice in the period, reflecting heavier scrutiny of its US and Brazil exposure"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:7a8e1f4d637c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5290,10 +5290,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -5880,10 +5880,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -5892,15 +5892,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "theme_summary": "Four major operators move through the UK's mid-year reporting cycle between July and September 2026, with evoke, Flutter and Entain all issuing results or guidance. Entain's reaffirmed FY26 EBITDA guidance despite a Brazil market ban stands out as the clearest test of resilience in the set.",
     "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+      "evoke (William Hill/888) and Flutter both filed notice of upcoming results in mid-to-late July 2026",
+      "BetMGM's Q2 2026 update on 28 July feeds directly into Entain's joint-venture earnings picture",
+      "Entain published interim results on 13 August, then on 28 September held FY26 EBITDA guidance despite a Brazil ban",
+      "Entain is the only company to report twice in the period, reflecting heavier scrutiny of its US and Brazil exposure"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:7a8e1f4d637c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5997,10 +5997,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -6977,10 +6977,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -9016,15 +9016,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "theme_summary": "Rank and Entain have each made two board or director changes since late July 2026, while the Gambling Commission has settled its own leadership question with Ruth Evans's appointment as Chair on 7 September, welcomed by the BGC the same day. Operator-level reshuffles are running alongside a regulator transition that follows a parliamentary question about the CEO appointments process.",
     "theme_key_points": [
       "Rank Group made board changes twice in three weeks: 24 July and 13 August 2026.",
@@ -9056,15 +9056,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "sector": "gambling"
   },
   {
@@ -10164,24 +10164,24 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban signals resilience but highlights regulatory risk exposure for investors and operators.",
     "category": "Financial results",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
+    "theme_summary": "Four major operators move through the UK's mid-year reporting cycle between July and September 2026, with evoke, Flutter and Entain all issuing results or guidance. Entain's reaffirmed FY26 EBITDA guidance despite a Brazil market ban stands out as the clearest test of resilience in the set.",
     "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+      "evoke (William Hill/888) and Flutter both filed notice of upcoming results in mid-to-late July 2026",
+      "BetMGM's Q2 2026 update on 28 July feeds directly into Entain's joint-venture earnings picture",
+      "Entain published interim results on 13 August, then on 28 September held FY26 EBITDA guidance despite a Brazil ban",
+      "Entain is the only company to report twice in the period, reflecting heavier scrutiny of its US and Brazil exposure"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:7a8e1f4d637c:067ec139",
     "sector": "gambling"
   },
   {
@@ -11075,15 +11075,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual accounts filing provides a data point for tracking Entain's UK financial position but carries limited independent news value.",
     "category": "Corporate filing",
-    "cluster_id": "cb6d978862b47d8f",
+    "cluster_id": "3f58b8d5b247eac6",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
+    "cluster_summary": "Entain works through a normal corporate cycle over three months: board reshuffles, BetMGM's Q2 update, two major shareholder notifications, interim results, an audit tender conclusion, Companies House officer and accounts filings, and a late-September reaffirmation of FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure stands out as the one item with real regulatory-risk weight.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "cluster_summary_for": "3f58b8d5b247eac6:cecdc011",
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
