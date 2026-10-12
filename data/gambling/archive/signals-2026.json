@@ -7020,5 +7020,229 @@
     "theme_direction": "steady",
     "theme_summary_for": "Shareholding disclosure:67d82544919c:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "87a805f855ff507673c4382f6db2c0bcc04409ce7d72e8e29710b4526f663e1a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/kpmg-gibraltar-esummit-2026-sue-young-speech",
+    "title": "KPMG Gibraltar eSummit 2026 - Sue Young speech",
+    "raw_summary": "This speech was delivered by executive director for operations Sue Young at the KPMG Gibraltar eSummit on 11 June 2026.\n\nPlease note: This is the speech as drafted and may slightly differ from the delivered version.",
+    "published_at": "2026-06-12T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "KPMG",
+      "Sue Young"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A senior UK Gambling Commission official's public remarks may signal regulatory priorities or policy direction for the industry.",
+    "category": "regulator speech",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "KPMG",
+      "Sue Young"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary written questions on gambling policy piled up through the summer, peaking on 28 August with roughly 15 questions in a single day covering Financial Risk Assessments, Gambling Commission staff conflicts of interest, and a reversal of the presumption in favour of new betting-shop and AGC licences. By 1 September, five separate questions confirmed prediction markets require Gambling Commission licensing.",
+    "theme_key_points": [
+      "28 August: cluster of questions on affordability checks, planning permission for betting shops/AGCs, and Gambling Commission revolving-door concerns.",
+      "1 September: five near-identical questions confirm event contracts/prediction markets need Gambling Commission licences.",
+      "BGC tracked three ministerial changes since July: Lisa Nandy's reappointment, John Healey as Chancellor, Vicky Foxcroft as new gambling minister (11 August).",
+      "DCMS ran parallel consultations on regulatory-burden reduction (26 June), Commission funding (concluded 30 June), and unlicensed sponsorship in sport (15 July)."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:31f2393912c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "eb7c8b1822dddbb10abe403f17275cd12d56179d1a17f803e7cb6e986f1821ca",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/326",
+    "title": "Spribe OÜ",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2026-06-12T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923250+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Spribe OÜ"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "A UK Gambling Commission warning against supplier Spribe signals compliance concerns that could affect operators using its games.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Spribe OÜ"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has moved through a run of enforcement actions between June and August 2026, from personal licence revocations to a £150,000 fine and, by late August, full suspension of two operators' licences. Alongside this, the regulator is reshaping its own machinery with new fees, phased financial risk assessments and a leadership change.",
+    "theme_key_points": [
+      "Three personal licence revocations in ten weeks: Song Liang, Abouleyazid Mustafa Lubna, Zura Adam Galgerud",
+      "Holland Park Leisure Limited fined £150,000 on 18 August for compliance failings",
+      "BresBet Ltd and Bet St George Ltd had licences suspended on 28 August, the toughest action in the run",
+      "Northern & Shell/TNLC lost its Court of Appeal bid on 30 July, ending the National Lottery licence challenge",
+      "Commission also warned supplier Spribe OÜ and announced Tim Miller's exit alongside Sarah Fox's arrival"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:6fbadee3929b:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "2d832a69ef9362b8dc90357f5e2edc353820083ae214606b71cb2dba0b74975a",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/black-market-eyes-200m-world-cup-payday",
+    "title": "BLACK MARKET EYES £200M WORLD CUP PAYDAY",
+    "raw_summary": "",
+    "published_at": "2026-06-12T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926009+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "BGC's £200m black market warning could fuel debate over UK affordability checks and regulatory tightening ahead of the World Cup.",
+    "category": "black market gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "BGC's black-market warnings escalate from £200m at the World Cup in June to £1bn a season in the Premier League by August, alongside a run of parliamentary questions and confirmed £26m government funding for the Gambling Commission. Enforcement follows in July and August with raids, arrests and police-backed operations against unlicensed gambling.",
+    "theme_key_points": [
+      "BGC's black-market figures climb steadily: £200m World Cup, £40m Royal Ascot, £1bn Premier League season by 24 August",
+      "Ten-plus written parliamentary questions on gambling and the internet/software land between 22 June and 13 July 2026",
+      "Gambling Commission moves from lobbying rhetoric to action: Doncaster den raids (21 July), illegal casino arrests (29 July), police-backed operation (10 August)",
+      "September report cites $50bn global illegal gambling market exploiting vulnerable Britons, following BGC's Big Tech open letter of 16 June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:e2cbd436db67:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "c409f9ffe5768d463ade8d8eccd98ee3fdd83030a172057859dec81c64d853b6",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9616644",
+    "title": "Entain: TR-1: Notification of major holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-12T14:55:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926058+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Changes in significant shareholdings can signal shifting investor confidence or potential influence over Entain's strategic direction.",
+    "category": "major shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain's routine RNS flow through June–August 2026 covers repeated TR-1 shareholder notifications, board/committee reshuffles, a 20% phased divestment of its CEE business, BetMGM Q2 updates and interim results plus a new auditor. No single thread dominates; it reads as normal listed-company disclosure activity rather than one unfolding story.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "e93124ee1c951797:cecdc011",
+    "theme_summary": "Entain, Flutter and evoke have filed a steady stream of major shareholding notifications since June, with Entain alone lodging six TR-1 disclosures by late August. Evoke's run of holding notices culminated on 17 August in Results of Court Meeting and General Meeting outcomes, pointing to a scheme of arrangement reshaping its ownership structure.",
+    "theme_key_points": [
+      "Entain lodged TR-1 notifications on 12, 19, 23, 25 June and 4, 27 August — six filings in under three months",
+      "Flutter Entertainment reported three separate Holding(s) in Company notices on 15, 26 and 30 June",
+      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) is the highest-scored signal, indicating a scheme of arrangement",
+      "Evoke also filed a routine Total Voting Rights disclosure on 3 August alongside four separate shareholding notices between June and August"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:e3b888483d41:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "ae360eeacf2b9a15640303ebebbcd6174e60d88134c51b983a0541e2e9bd61df",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/flutter-announces-intention-to-delist-from-the-lse/9614834",
+    "title": "Flutter Entertainment: Flutter Announces Intention to Delist from the LSE",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-12T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926199+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "Flutter's exit from the LSE marks a major shift in London's gambling sector market presence and index weighting.",
+    "category": "listing change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Flutter Entertainment moved from announcing intent to delist from the LSE on 12 June 2026 to completing that delisting on 3 August, with share cancellation confirmed the same day. Intervening weeks show routine shareholder notifications, total voting rights filings and a Q2 results notice, all secondary to the delisting process.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "cluster_summary_for": "1c38747ec382271a:cecdc011",
+    "theme_summary": "Flutter confirmed plans to delist from the LSE on 12 June 2026, the standout event in a run of routine corporate filings across Entain, Rank and evoke. The rest is procedural: results, AGM notices, share issuances and an audit tender conclusion.",
+    "theme_key_points": [
+      "Flutter's LSE delisting intention, announced 12 June 2026, is the highest-scoring filing (78) in the group.",
+      "Rank Group named Richard Harris as CEO on 13 July 2026, then posted final results a month later.",
+      "Evoke (formerly 888/William Hill) filed a scheme document timing update in July and H1 results on 12 August 2026.",
+      "Entain concluded its audit tender on 13 August 2026, alongside routine share and voting rights disclosures."
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:5a0f1308d208:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "04de9ea14aff7f0f74e2a5c178c88d69e7eed2a2dea358fc8b01e8e3dd0ab856",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/awards-granted-under-the-ltip/9616768",
+    "title": "evoke: Awards granted under the LTIP",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-06-12T15:48:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926395+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Share award grants under evoke's LTIP offer minor insight into executive incentives but limited direct impact on the wider gambling sector.",
+    "category": "executive remuneration",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Evoke plc moved a scheme of arrangement from timing notice through document publication to court and general meeting approval between early July and mid-August 2026, alongside routine shareholding, voting-rights and LTIP disclosures and its H1 2026 results. The William Hill Limited confirmation statement is an unrelated routine Companies House filing.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "cluster_summary_for": "0c27ccd18db9c4ff:cecdc011",
+    "theme_summary": "Routine LSE filings from Entain, Flutter, Rank and evoke over June-September 2026 cover share issuances, audits and results, punctuated by one substantive change: Rank's appointment of Richard Harris as CEO in July, followed by its full-year results and AGM notice.",
+    "theme_key_points": [
+      "Rank Group named Richard Harris CEO on 2026-07-13, its highest-scored filing in the set (55)",
+      "evoke posted H1 2026 interim results on 2026-08-12, also scored 55, alongside a scheme document timing notice in July",
+      "Entain filed a share issuance update (July 1) and concluded its audit tender (August 13), both routine governance items",
+      "Rank followed its CEO change with Final Results (Aug 13) and an AGM notice (Sept 8), showing a normal reporting cadence"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:35878b75c0be:067ec139",
+    "sector": "gambling"
   }
 ]
