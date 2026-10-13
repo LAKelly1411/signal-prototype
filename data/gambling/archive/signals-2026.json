@@ -7244,5 +7244,39 @@
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:35878b75c0be:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "7e78658fe7f8e24b8a591fc025bc29491a8df55f3b91d1d75fca6abadb2697f3",
+    "source": "gazette",
+    "source_id": "5152647",
+    "source_url": "https://www.thegazette.co.uk/notice/5152647",
+    "title": "STARBREEZE STUDIOS UK LIMITED",
+    "raw_summary": "Appointment of Liquidators: …y: STARBREEZE STUDIOS UK LIMITED Company Number: 14488463 Nature of Business: Publishing of computer …",
+    "published_at": "2026-06-15T01:00:32+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Starbreeze Studios UK Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A gaming publisher entering liquidation may signal wider financial distress relevant to UK gaming industry suppliers and partners.",
+    "category": "liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Starbreeze Studios"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Eighteen gambling-linked companies have entered liquidation or faced winding-up petitions since mid-June 2026, spanning bookmakers, game studios, compliance firms and suppliers. The pace accelerated through July and August, with HMRC action and repeat filings against the same firms signalling deepening distress before easing slightly into September.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance hit with three separate filings between 24 July and 26 August, moving from petition to liquidation.",
+      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July, a licensed betting venue.",
+      "Licensed bookmakers Deeside Bookmakers (3 July) and MAB Bookmakers (7 August) both entered liquidation within five weeks.",
+      "T33 Gaming Ltd faced a winding-up petition on 4 September, the most recent case in the run."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:246ef5ef3731:067ec139",
+    "sector": "gambling"
   }
 ]
