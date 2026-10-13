@@ -7317,5 +7317,32 @@
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:f7794f32b39f:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "5373ae5e01d410f129ddb3ada0c6014819c48b5842b1629aa65e1a8588ec5494",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/trustee-reappointed-to-the-victoria-and-albert-museum-board",
+    "title": "Trustee reappointed to the Victoria and Albert Museum Board",
+    "raw_summary": "\r\nThe Prime Minister has reappointed Professor Rosalind Polly Blakesley as Trustee of the Victoria and Albert Museum for a term of 4 years. \r\n\r\n",
+    "published_at": "2026-06-15T11:00:06+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914928+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Victoria and Albert Museum",
+      "Rosalind Polly Blakesley"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Unrelated to gambling regulation or industry, so it has no relevance to a B2B gambling newsroom.",
+    "category": "board appointment",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Victoria and Albert Museum",
+      "Rosalind Polly Blakesley"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
