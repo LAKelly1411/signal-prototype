@@ -841,7 +841,7 @@
       "DCMS"
     ],
     "canonical_category": "Advertising ruling",
-    "theme_id": "Advertising ruling",
+    "theme_id": null,
     "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
     "theme_key_points": [
       "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
@@ -1887,15 +1887,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -2673,45 +2673,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:54855eebe40a:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "b7a19f1be126ae4742bb3f0689e6b07963a924581dd5749581b663459fb49142",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9618219",
-    "title": "Flutter Entertainment: Holding(s) in Company",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-06-15T09:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926196+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Tracks major shareholder movements in Flutter, relevant for ownership and market-influence monitoring by industry analysts.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 68,
-    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
-    "theme_summary": "TR-1 and holding notifications have run continuously across Entain, Flutter Entertainment and evoke since mid-June 2026, with Entain alone logging five separate major-holding disclosures. Evoke's routine filings escalated on 17 August with a Results of Court Meeting and General Meeting notice, pointing to a scheme of arrangement.",
-    "theme_key_points": [
-      "Entain filed TR-1 major holding notices on 19, 23, 25 June, 4 August and 27 August 2026 — five in ten weeks.",
-      "Flutter Entertainment logged three separate Holding(s) in Company notices between 15 June and 30 June.",
-      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) outranks every other filing in the group, signalling a scheme of arrangement rather than routine disclosure.",
-      "Evoke also filed a Total Voting Rights update on 3 August alongside recurring shareholding notices, consistent with pre-transaction housekeeping."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:f7794f32b39f:067ec139",
     "sector": "gambling"
   },
   {
@@ -3688,15 +3649,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -4358,15 +4320,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -4397,15 +4360,16 @@
     "cluster_coherent": true,
     "cluster_significance": 30,
     "cluster_summary_for": "50b72ca3f3030631:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -4550,16 +4514,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
-      "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
-      "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
-      "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
+      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
+      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:360be487d932:067ec139",
+    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
     "sector": "gambling"
   },
   {
@@ -4994,15 +4957,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5030,15 +4993,16 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5312,15 +5276,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5351,15 +5316,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5417,15 +5383,15 @@
     "canonical_entities": [],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5456,15 +5422,16 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -5826,15 +5793,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -6084,15 +6051,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -6125,15 +6093,16 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -6846,15 +6815,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -6885,15 +6855,16 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 30,
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -7024,7 +6995,7 @@
     "newsworthiness_score": 78,
     "why_it_matters": "The Gambling Commission's suspension of two operators' licences signals active enforcement and potential compliance failures in the UK betting market.",
     "category": "Licence action",
-    "cluster_id": null,
+    "cluster_id": "3dd923d77ab1401f",
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
@@ -7037,7 +7008,12 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
-    "sector": "gambling"
+    "sector": "gambling",
+    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "3dd923d77ab1401f:cecdc011"
   },
   {
     "id": "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
@@ -7554,15 +7530,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -8049,16 +8026,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
-      "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
-      "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
-      "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
+      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
+      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:360be487d932:067ec139",
+    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
     "sector": "gambling"
   },
   {
@@ -8092,15 +8068,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -8927,15 +8903,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -9166,16 +9143,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
-      "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
-      "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
-      "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
+      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
+      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:360be487d932:067ec139",
+    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
     "sector": "gambling"
   },
   {
@@ -9206,16 +9182,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
-      "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
-      "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
-      "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
+      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
+      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:360be487d932:067ec139",
+    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
     "sector": "gambling"
   },
   {
@@ -9461,15 +9436,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -9716,15 +9692,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -9787,15 +9763,16 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -9893,15 +9870,16 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -9959,15 +9937,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10223,15 +10201,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10641,15 +10619,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10721,15 +10700,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10765,15 +10744,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10859,15 +10839,16 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10899,15 +10880,16 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10943,15 +10925,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -10987,15 +10970,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -11031,15 +11015,16 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -11318,15 +11303,16 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "A run of UK gambling-linked insolvencies has widened from small suppliers in July to a land-based casino operator by October. Carnaby Gaming Machines, Multilinea Developments and Multilinea Leeds all collapsed on the same day, 1 October, tied to the former Global Gaming Ventures/VGC Leeds group, while Casino MK Limited faces a winding-up petition on 9 October.",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
     "theme_key_points": [
-      "Three linked firms — Carnaby Gaming Machines, Multilinea Developments, Multilinea Leeds — entered winding-up on 1 October, all traced to Global Gaming Ventures (Leeds)/VGC Leeds",
-      "Lysis Gaming Compliance faced repeated winding-up filings through July and August, pointing to sustained pressure on advisory/compliance suppliers",
-      "T33 Gaming moved from a winding-up petition on 4 September to a court order on 23 September",
-      "Equusform, a horse racing data supplier to bookmakers, went from creditors' meetings on 18 September to liquidation by 1 October"
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:338cddd458b2:067ec139",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
     "sector": "gambling"
   },
   {
@@ -11536,15 +11522,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly campaign since July 2026 warning that further gambling tax rises will devastate retail and casino venues, citing Betfred and bet365 cuts as evidence. Claims have escalated from general warnings to specific job and investment figures as the Budget approaches.",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the Budget tax rise (12 Aug 2026)",
-      "bet365 job and cost cuts cited by BGC on 8 Sep as proof against further tax rises",
-      "BGC warns a further casino tax hike threatens a £200m UK investment drive (2 Oct) and thousands of casino jobs (12 Oct)",
-      "Makerfield MP publicly backed local bookmakers against proposed tax rises on 28 Sep"
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6923e9012510:067ec139"
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -11580,5 +11566,107 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Licence action:def1f6013ce5:067ec139"
+  },
+  {
+    "id": "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
+    "source": "companies_house",
+    "source_id": "MzU1MDQ1MDU5NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05140986/filing-history/MzU1MDQ1MDU5NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Betfair Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-13T10:20:22.680546+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betfair Limited"
+    ],
+    "canonical_entities": [
+      "Betfair Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Routine annual confirmation statement with no updates, of minimal interest beyond basic corporate record-keeping.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+    "source": "gazette",
+    "source_id": "5228984",
+    "source_url": "https://www.thegazette.co.uk/notice/5228984",
+    "title": "BET ST GEORGE LTD",
+    "raw_summary": "Appointment of Administrators: …ustice, Business and Property Courts In Leeds, Insolvency and Companies List (ChD) No 001025 of 2026 BET ST GEORGE LTD …",
+    "published_at": "2026-10-12T17:50:15+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-13T10:20:22.680598+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bet St George Ltd"
+    ],
+    "canonical_entities": [
+      "Bet St George"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A betting operator entering administration signals financial distress worth tracking for industry consolidation trends.",
+    "category": "Insolvency",
+    "cluster_id": "3dd923d77ab1401f",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "3dd923d77ab1401f:cecdc011",
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139"
+  },
+  {
+    "id": "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/budget-must-protect-36-000-betting-shop-jobs-with-young-workers-and-britains-towns-bearing-the-brunt-warns-bgc",
+    "title": "Budget must protect 36,000 betting shop jobs, with young workers and Britain’s towns bearing the brunt, warns BGC",
+    "raw_summary": "",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-13T10:20:22.681183+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council (BGC)"
+    ],
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "BGC's pre-Budget warning signals potential tax hikes threatening betting shop jobs, a key policy flashpoint for UK operators.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_key_points": [
+      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
+      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
+      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
+      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139"
   }
 ]

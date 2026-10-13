@@ -7278,5 +7278,44 @@
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:246ef5ef3731:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "b7a19f1be126ae4742bb3f0689e6b07963a924581dd5749581b663459fb49142",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9618219",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-15T09:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926196+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Tracks major shareholder movements in Flutter, relevant for ownership and market-influence monitoring by industry analysts.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Flutter's routine shareholder disclosures and voting-rights notices through June and July culminate in the share cancellation and formal LSE delisting on 3 August 2026, ending its London listing. The operator now trades solely elsewhere, likely New York, shifting index inclusion and UK investor access to the FTSE-listed gambling giant.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 68,
+    "cluster_summary_for": "e6e4e4f1cc2209bc:cecdc011",
+    "theme_summary": "TR-1 and holding notifications have run continuously across Entain, Flutter Entertainment and evoke since mid-June 2026, with Entain alone logging five separate major-holding disclosures. Evoke's routine filings escalated on 17 August with a Results of Court Meeting and General Meeting notice, pointing to a scheme of arrangement.",
+    "theme_key_points": [
+      "Entain filed TR-1 major holding notices on 19, 23, 25 June, 4 August and 27 August 2026 — five in ten weeks.",
+      "Flutter Entertainment logged three separate Holding(s) in Company notices between 15 June and 30 June.",
+      "Evoke's 17 August Results of Court Meeting and General Meeting (score 45) outranks every other filing in the group, signalling a scheme of arrangement rather than routine disclosure.",
+      "Evoke also filed a Total Voting Rights update on 3 August alongside recurring shareholding notices, consistent with pre-transaction housekeeping."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:f7794f32b39f:067ec139",
+    "sector": "gambling"
   }
 ]
