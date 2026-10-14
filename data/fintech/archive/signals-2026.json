@@ -1876,5 +1876,31 @@
     "sector": "fintech",
     "canonical_category": "Financial results",
     "theme_id": null
+  },
+  {
+    "id": "ab5a34905e78a24111f4f1ea0e3d14378d7168732f11455d518be38451411bb3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/notice-of-fy26-results-and-q1-fy27-trading-update/9619189",
+    "title": "Wise: Notice of FY26 results and Q1 FY27 trading update",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-06-15T16:45:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595128+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Confirms timing for Wise's upcoming financial disclosures, letting fintech journalists and investors plan coverage of its growth and performance.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]

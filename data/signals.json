@@ -1667,7 +1667,7 @@
       "Gambling Commission"
     ],
     "canonical_category": "Licence action",
-    "theme_id": "Licence action",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
     "theme_key_points": [
       "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
@@ -1886,7 +1886,7 @@
       "Rachel Reeves"
     ],
     "canonical_category": "Tax and levy",
-    "theme_id": "Tax and levy",
+    "theme_id": null,
     "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
     "theme_key_points": [
       "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
@@ -2151,76 +2151,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "a50bf7775af3d30c6e38546be3fb80183c0f3abe627672aa5dca92b727e528cd",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/bgc-calls-on-big-tech-to-protect-consumers-from-illegal-gambling-sites",
-    "title": "BGC Calls on Big Tech to Protect Consumers from Illegal Gambling Sites",
-    "raw_summary": "",
-    "published_at": "2026-06-16T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926002+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "BGC",
-      "Big Tech"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "BGC's push for tech platforms to curb illegal gambling sites signals potential policy pressure affecting search, app stores and licensed operators' competitive landscape.",
-    "category": "black market/illegal gambling policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "BGC",
-      "Big Tech"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "BGC's warnings about illegal gambling escalated from a June open letter to Big Tech through to a September report citing a $50bn global black market, with its Premier League estimate reaching £1bn a season by August. Parliament fielded repeated written questions on black-market betting through June and July, while the Gambling Commission moved from rhetoric to raids and arrests.",
-    "theme_key_points": [
-      "BGC's black-market estimates escalated: £40m at Royal Ascot (June), £1bn a season for Premier League betting (August), $50bn globally (September)",
-      "Parliament logged at least nine written questions on illegal gambling between June 22 and July 13, spanning World Cup, licensing, software and internet routes",
-      "Government confirmed £26m funding to boost Gambling Commission enforcement against illegal betting sites (June 22)",
-      "Gambling Commission shifted from statements to action: Doncaster den raids (July 21), illegal casino arrests (July 29), police operation backing (August 10)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:2e8598fb9a5b:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "014c06850b7a90ead5280f367aa49cb28bd3bfb58d015dd8d152e9a8a11358b7",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/open-letter-to-britains-technology-platforms-the-illegal-gambling-black-market-is-growing-its-time-to-act",
-    "title": "Open Letter to Britain's Technology Platforms: The Illegal Gambling Black Market Is Growing. It's Time to Act.",
-    "raw_summary": "",
-    "published_at": "2026-06-16T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926006+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council"
-    ],
-    "newsworthiness_score": 58,
-    "why_it_matters": "BGC is publicly pressuring tech platforms to curb illegal gambling ads, signalling potential policy or enforcement pressure on online advertising channels.",
-    "category": "black market/illegal gambling advocacy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Betting and Gaming Council"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "BGC's warnings about illegal gambling escalated from a June open letter to Big Tech through to a September report citing a $50bn global black market, with its Premier League estimate reaching £1bn a season by August. Parliament fielded repeated written questions on black-market betting through June and July, while the Gambling Commission moved from rhetoric to raids and arrests.",
-    "theme_key_points": [
-      "BGC's black-market estimates escalated: £40m at Royal Ascot (June), £1bn a season for Premier League betting (August), $50bn globally (September)",
-      "Parliament logged at least nine written questions on illegal gambling between June 22 and July 13, spanning World Cup, licensing, software and internet routes",
-      "Government confirmed £26m funding to boost Gambling Commission enforcement against illegal betting sites (June 22)",
-      "Gambling Commission shifted from statements to action: Doncaster den raids (July 21), illegal casino arrests (July 29), police operation backing (August 10)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:2e8598fb9a5b:067ec139",
     "sector": "gambling"
   },
   {
@@ -2496,45 +2426,6 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "aaf1204b12994e288a60679e12277f29af6ce8aaa4ffccccf6e48fcf6a03c23e",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/board-committee-changes/9619128",
-    "title": "Entain: Board Committee Changes",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-15T15:37:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926054+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Governance changes at a major operator can signal strategic shifts, though limited detail is provided here.",
-    "category": "board changes",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Board and director changes",
-    "theme_id": null,
-    "cluster_summary": "Entain has moved through several parallel tracks over summer 2026: a 20% divestment from its CEE business, repeated board and committee reshuffles, a run of TR-1 shareholder notifications, an audit tender conclusion, and steady BetMGM/interim results reporting. No single narrative dominates; this is routine LSE disclosure activity from a large-cap operator undergoing incremental portfolio and governance change.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 45,
-    "cluster_summary_for": "dd40ca7993197d7a:cecdc011",
-    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
-    "theme_key_points": [
-      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
-      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
-      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
-      "Operator-level changes cluster in June-August; regulator-level change follows in September"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139",
     "sector": "gambling"
   },
   {
@@ -4487,15 +4378,15 @@
     ],
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
-      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
-      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139",
     "sector": "gambling"
   },
   {
@@ -4527,15 +4418,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 15,
@@ -4661,15 +4552,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "cluster_summary": "The Court of Appeal shuts the door on Northern & Shell/TNLC's challenge to the National Lottery licence award, cementing Allwyn's position. Weeks later the Gambling Commission's acting CEO addresses an Allwyn-hosted participant protection conference, signalling the regulator's continued engagement with the new licensee.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -4930,15 +4821,16 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -5356,15 +5248,16 @@
     "canonical_entities": [],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -5766,15 +5659,16 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -5983,15 +5877,15 @@
     ],
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling"
   },
   {
@@ -6288,15 +6182,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling"
   },
   {
@@ -6972,15 +6866,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling",
     "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
     "cluster_pattern_type": "escalation",
@@ -7999,15 +7893,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
-      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
-      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139",
     "sector": "gambling"
   },
   {
@@ -8041,15 +7935,16 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -9116,15 +9011,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
-      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
-      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139",
     "sector": "gambling"
   },
   {
@@ -9155,15 +9050,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld rulings against BoyleSports, Smart Gravity's top10onlinecasinoreviews.co.uk and Dribble Media's Midnite between late July and mid-September 2026, covering harmful betting prompts, irresponsible search targeting and use of an under-25 model on TikTok. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
     "theme_key_points": [
-      "BoyleSports upheld 29 July 2026 over ads encouraging repetitive betting behaviour.",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September 2026 for irresponsible paid search targeting.",
-      "Dribble Media's Midnite upheld 16 September 2026 for an under-25 model on TikTok, a youth-protection breach.",
-      "Same day, White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting concerns."
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:abf75b9af376:067ec139",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139",
     "sector": "gambling"
   },
   {
@@ -9594,15 +9489,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling"
   },
   {
@@ -9665,15 +9560,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -9772,15 +9668,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling"
   },
   {
@@ -9910,15 +9806,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -10036,15 +9933,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
     "sector": "gambling"
   },
   {
@@ -10174,15 +10071,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -10673,15 +10571,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
     "sector": "gambling"
   },
   {
@@ -11495,15 +11394,16 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139"
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -11530,15 +11430,15 @@
     "sector": "gambling",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139"
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139"
   },
   {
     "id": "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
@@ -11637,15 +11537,16 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
+      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
+      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
+      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139"
+    "theme_summary_for": "Tax and levy:e767fce46788:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -11719,5 +11620,42 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Financial results:32f29912f34d:067ec139"
+  },
+  {
+    "id": "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/hry-games-a26-1345629-hry-games.html",
+    "title": "HRY Games t/a AI Scorecast",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a data analytics app for football results was socially irresponsible and misleading by implying that people who used the service to make ‘informed’ gambling decisions would be very likely to turn a profit.",
+    "published_at": "2026-10-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-14T06:19:51.445939+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "HRY Games",
+      "AI Scorecast"
+    ],
+    "canonical_entities": [
+      "HRY Games",
+      "AI Scorecast"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "ASA upheld a ruling against a gambling data app for misleading claims that implied guaranteed betting profits.",
+    "category": "Advertising ruling",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Advertising ruling",
+    "theme_id": "Advertising ruling",
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_key_points": [
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139"
   }
 ]

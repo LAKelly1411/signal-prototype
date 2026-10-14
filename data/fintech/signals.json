@@ -3880,32 +3880,6 @@
     "theme_id": null
   },
   {
-    "id": "ab5a34905e78a24111f4f1ea0e3d14378d7168732f11455d518be38451411bb3",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/notice-of-fy26-results-and-q1-fy27-trading-update/9619189",
-    "title": "Wise: Notice of FY26 results and Q1 FY27 trading update",
-    "raw_summary": "RNS announcement from Wise (WISE).",
-    "published_at": "2026-06-15T16:45:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595128+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Wise"
-    ],
-    "canonical_entities": [
-      "Wise Payments Limited"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Confirms timing for Wise's upcoming financial disclosures, letting fintech journalists and investors plan coverage of its growth and performance.",
-    "category": "Financial results",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Financial results",
-    "theme_id": null
-  },
-  {
     "id": "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
     "source": "lse_rns",
     "source_id": null,
@@ -4735,5 +4709,27 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:84c44ba22c07:4975febf"
+  },
+  {
+    "id": "e6d431c59b5bdd662334a9ca5db5ba98140443c98e8d8ff32321801e7c4dd66e",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/speeches/exchequer-secretary-to-the-treasury-speech-at-the-west-midlands-growth-summit",
+    "title": "Exchequer Secretary to the Treasury speech at the West Midlands Growth Summit",
+    "raw_summary": "The Exchequer Secretary to the Treasury delivered his speech at the West Midlands Growth Summit on 8 October 2026.",
+    "published_at": "2026-10-13T16:22:29+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-14T06:19:01.166528+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A ministerial speech signals Treasury policy direction but contains no specific fintech or payments firm details.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]

@@ -7344,5 +7344,114 @@
     "canonical_category": "Board and director changes",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "a50bf7775af3d30c6e38546be3fb80183c0f3abe627672aa5dca92b727e528cd",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-calls-on-big-tech-to-protect-consumers-from-illegal-gambling-sites",
+    "title": "BGC Calls on Big Tech to Protect Consumers from Illegal Gambling Sites",
+    "raw_summary": "",
+    "published_at": "2026-06-16T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926002+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Big Tech"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "BGC's push for tech platforms to curb illegal gambling sites signals potential policy pressure affecting search, app stores and licensed operators' competitive landscape.",
+    "category": "black market/illegal gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "BGC",
+      "Big Tech"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "BGC's warnings about illegal gambling escalated from a June open letter to Big Tech through to a September report citing a $50bn global black market, with its Premier League estimate reaching £1bn a season by August. Parliament fielded repeated written questions on black-market betting through June and July, while the Gambling Commission moved from rhetoric to raids and arrests.",
+    "theme_key_points": [
+      "BGC's black-market estimates escalated: £40m at Royal Ascot (June), £1bn a season for Premier League betting (August), $50bn globally (September)",
+      "Parliament logged at least nine written questions on illegal gambling between June 22 and July 13, spanning World Cup, licensing, software and internet routes",
+      "Government confirmed £26m funding to boost Gambling Commission enforcement against illegal betting sites (June 22)",
+      "Gambling Commission shifted from statements to action: Doncaster den raids (July 21), illegal casino arrests (July 29), police operation backing (August 10)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:2e8598fb9a5b:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "014c06850b7a90ead5280f367aa49cb28bd3bfb58d015dd8d152e9a8a11358b7",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/open-letter-to-britains-technology-platforms-the-illegal-gambling-black-market-is-growing-its-time-to-act",
+    "title": "Open Letter to Britain's Technology Platforms: The Illegal Gambling Black Market Is Growing. It's Time to Act.",
+    "raw_summary": "",
+    "published_at": "2026-06-16T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926006+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "BGC is publicly pressuring tech platforms to curb illegal gambling ads, signalling potential policy or enforcement pressure on online advertising channels.",
+    "category": "black market/illegal gambling advocacy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "BGC's warnings about illegal gambling escalated from a June open letter to Big Tech through to a September report citing a $50bn global black market, with its Premier League estimate reaching £1bn a season by August. Parliament fielded repeated written questions on black-market betting through June and July, while the Gambling Commission moved from rhetoric to raids and arrests.",
+    "theme_key_points": [
+      "BGC's black-market estimates escalated: £40m at Royal Ascot (June), £1bn a season for Premier League betting (August), $50bn globally (September)",
+      "Parliament logged at least nine written questions on illegal gambling between June 22 and July 13, spanning World Cup, licensing, software and internet routes",
+      "Government confirmed £26m funding to boost Gambling Commission enforcement against illegal betting sites (June 22)",
+      "Gambling Commission shifted from statements to action: Doncaster den raids (July 21), illegal casino arrests (July 29), police operation backing (August 10)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:2e8598fb9a5b:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "aaf1204b12994e288a60679e12277f29af6ce8aaa4ffccccf6e48fcf6a03c23e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/board-committee-changes/9619128",
+    "title": "Entain: Board Committee Changes",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-15T15:37:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926054+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Governance changes at a major operator can signal strategic shifts, though limited detail is provided here.",
+    "category": "board changes",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Entain has moved through several parallel tracks over summer 2026: a 20% divestment from its CEE business, repeated board and committee reshuffles, a run of TR-1 shareholder notifications, an audit tender conclusion, and steady BetMGM/interim results reporting. No single narrative dominates; this is routine LSE disclosure activity from a large-cap operator undergoing incremental portfolio and governance change.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "dd40ca7993197d7a:cecdc011",
+    "theme_summary": "Entain reshuffled its board three times between June and July 2026, alongside a Rank Group directorate change and board update. Separately, DCMS installed Ruth Evans as Gambling Commission Chair from September 2026, a regulatory leadership change welcomed by the BGC.",
+    "theme_key_points": [
+      "Entain filed three separate board/committee change notices: 15 June, 23 June and 27 July 2026",
+      "Rank Group made two governance announcements within three weeks: directorate change 24 July, board update 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September 2026, DCMS-backed and BGC-endorsed same day",
+      "Operator-level changes cluster in June-August; regulator-level change follows in September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:29d47046ff24:067ec139",
+    "sector": "gambling"
   }
 ]
