@@ -2582,7 +2582,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
     "category": "results announcement notice",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
     "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
@@ -2590,7 +2590,7 @@
       "William Hill Limited"
     ],
     "canonical_category": "Financial results",
-    "theme_id": "Financial results",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
@@ -3435,10 +3435,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4303,15 +4303,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
+    "theme_summary": "Entain has moved through a full quarterly reporting cycle, from BetMGM's Q2 update in July to interim results in August and a reaffirmed FY26 EBITDA guide in late September despite its Brazil market ban, with a fresh BetMGM Q3 update following in October. Flutter's Q2 results notice sits alongside this as the only non-Entain entry.",
     "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
+      "Entain published interim results on 2026-08-13, its highest-scored disclosure in the group (score 55)",
+      "Entain reaffirmed FY26 EBITDA guidance on 2026-09-28 despite a Brazil market ban, scoring 62",
+      "BetMGM updates feed Entain's joint-venture earnings twice: Q2 (2026-07-28) and Q3 (2026-10-13)",
+      "Flutter's only entry is a Q2 results notice dated 2026-07-27, with no results follow-up logged"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139",
+    "theme_summary_for": "Financial results:93a539bbc6c3:067ec139",
     "sector": "gambling"
   },
   {
@@ -4344,15 +4344,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
+    "theme_summary": "Entain has moved through a full quarterly reporting cycle, from BetMGM's Q2 update in July to interim results in August and a reaffirmed FY26 EBITDA guide in late September despite its Brazil market ban, with a fresh BetMGM Q3 update following in October. Flutter's Q2 results notice sits alongside this as the only non-Entain entry.",
     "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
+      "Entain published interim results on 2026-08-13, its highest-scored disclosure in the group (score 55)",
+      "Entain reaffirmed FY26 EBITDA guidance on 2026-09-28 despite a Brazil market ban, scoring 62",
+      "BetMGM updates feed Entain's joint-venture earnings twice: Q2 (2026-07-28) and Q3 (2026-10-13)",
+      "Flutter's only entry is a Q2 results notice dated 2026-07-27, with no results follow-up logged"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139",
+    "theme_summary_for": "Financial results:93a539bbc6c3:067ec139",
     "sector": "gambling"
   },
   {
@@ -4821,16 +4821,16 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -4913,10 +4913,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5248,16 +5248,16 @@
     "canonical_entities": [],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -5611,10 +5611,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5659,16 +5659,16 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -5699,15 +5699,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
+    "theme_summary": "Entain has moved through a full quarterly reporting cycle, from BetMGM's Q2 update in July to interim results in August and a reaffirmed FY26 EBITDA guide in late September despite its Brazil market ban, with a fresh BetMGM Q3 update following in October. Flutter's Q2 results notice sits alongside this as the only non-Entain entry.",
     "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
+      "Entain published interim results on 2026-08-13, its highest-scored disclosure in the group (score 55)",
+      "Entain reaffirmed FY26 EBITDA guidance on 2026-09-28 despite a Brazil market ban, scoring 62",
+      "BetMGM updates feed Entain's joint-venture earnings twice: Q2 (2026-07-28) and Q3 (2026-10-13)",
+      "Flutter's only entry is a Q2 results notice dated 2026-07-27, with no results follow-up logged"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139",
+    "theme_summary_for": "Financial results:93a539bbc6c3:067ec139",
     "sector": "gambling"
   },
   {
@@ -6131,10 +6131,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6750,10 +6750,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -7935,16 +7935,16 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -9445,15 +9445,15 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "39eefa85bce3f72d",
+    "cluster_id": "1bf20c60177a3e20",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
+    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 72,
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
+    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -9560,16 +9560,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -9806,16 +9806,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -10034,15 +10034,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "becb37f248531cdd:cecdc011",
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
+    "theme_summary": "Entain has moved through a full quarterly reporting cycle, from BetMGM's Q2 update in July to interim results in August and a reaffirmed FY26 EBITDA guide in late September despite its Brazil market ban, with a fresh BetMGM Q3 update following in October. Flutter's Q2 results notice sits alongside this as the only non-Entain entry.",
     "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
+      "Entain published interim results on 2026-08-13, its highest-scored disclosure in the group (score 55)",
+      "Entain reaffirmed FY26 EBITDA guidance on 2026-09-28 despite a Brazil market ban, scoring 62",
+      "BetMGM updates feed Entain's joint-venture earnings twice: Q2 (2026-07-28) and Q3 (2026-10-13)",
+      "Flutter's only entry is a Q2 results notice dated 2026-07-27, with no results follow-up logged"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139",
+    "theme_summary_for": "Financial results:93a539bbc6c3:067ec139",
     "sector": "gambling"
   },
   {
@@ -10071,16 +10071,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -10571,16 +10571,16 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139",
     "sector": "gambling"
   },
   {
@@ -11394,16 +11394,16 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139"
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -11537,16 +11537,16 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council has run a sustained pre-Budget campaign since late July, citing Betfred shop closures and bet365 cost-cutting as evidence that gambling tax rises are destroying jobs. The warnings have escalated from retail betting into casinos, with specific job and investment figures attached, culminating in a direct appeal ahead of the Budget.",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
     "theme_key_points": [
-      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "Campaign names bet365 cuts (8 Sept) and Betfred closures (31 July) as direct tax-rise casualties",
-      "BGC warns a further casino tax hike threatens £200m UK investment and thousands of jobs (2-12 Oct)",
-      "Labour MP for Makerfield publicly backed local bookmakers against the tax rise on 28 Sept",
-      "Final pre-Budget warning (13 Oct) raises the stakes to 36,000 betting shop jobs nationwide"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:e767fce46788:067ec139"
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -11611,15 +11611,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "becb37f248531cdd:cecdc011",
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
+    "theme_summary": "Entain has moved through a full quarterly reporting cycle, from BetMGM's Q2 update in July to interim results in August and a reaffirmed FY26 EBITDA guide in late September despite its Brazil market ban, with a fresh BetMGM Q3 update following in October. Flutter's Q2 results notice sits alongside this as the only non-Entain entry.",
     "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
+      "Entain published interim results on 2026-08-13, its highest-scored disclosure in the group (score 55)",
+      "Entain reaffirmed FY26 EBITDA guidance on 2026-09-28 despite a Brazil market ban, scoring 62",
+      "BetMGM updates feed Entain's joint-venture earnings twice: Q2 (2026-07-28) and Q3 (2026-10-13)",
+      "Flutter's only entry is a Q2 results notice dated 2026-07-27, with no results follow-up logged"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139"
+    "theme_summary_for": "Financial results:93a539bbc6c3:067ec139"
   },
   {
     "id": "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
@@ -11657,5 +11657,69 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139"
+  },
+  {
+    "id": "385ddcdd94383bdf9f9d8b677ebac7bb32398d68f53d93cfd4f74f5bc64f44cc",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-may-to-june-2026",
+    "title": "Community and Engagement Survey: May to June 2026",
+    "raw_summary": "This publication will provide quarterly results on how adults engage with DCMS sectors and their community, covering the period May to June 2026",
+    "published_at": "2026-10-14T08:30:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-14T10:20:01.476157+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine quarterly engagement survey offers broad sector context but no direct operator, enforcement, or regulatory news.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+    "source": "parliament",
+    "source_id": "1942223",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-09-14/29369",
+    "title": "Written question: Greyhound Racing: Betting",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what assessment he has made of the potential impact of the new remote rate of General Betting Duty on Romford Greyhound Stadium.\nA: The new remote betting rate is part of the package of changes to gambling duties announced at Budget 2025 which will raise over £1 billion per year. An assessment of the impact of any tax change is published within the relevant Tax Impact and Information ...",
+    "published_at": "2026-09-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-14T10:20:01.476362+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Romford Greyhound Stadium",
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "Romford Greyhound Stadium",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Reveals government stance on how new remote betting duty rates may financially impact greyhound racing venues like Romford.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "The Betting and Gaming Council has run an escalating lobbying campaign through the second half of 2026 against further gambling tax rises, citing shop closures at Betfred, job cuts at bet365 and risks to casinos and greyhound venues ahead of the Budget. The warnings have grown more specific and more frequent as the Budget date nears, moving from general tax commentary in July to concrete job and investment figures by October.",
+    "theme_key_points": [
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the last Budget tax rise, reported 12 August 2026.",
+      "Casino lobbying intensified in October: BGC warns a £200m UK investment drive and thousands of casino jobs are at risk.",
+      "Local MP intervention emerged 28 September: Makerfield backs bookies against the proposed tax rise threatening high street jobs.",
+      "A 14 September parliamentary question probes how new remote betting duty rates could hit greyhound venues like Romford Stadium.",
+      "By 13 October BGC's pre-Budget warning named a specific figure: 36,000 betting shop jobs to be protected."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:84360d80bd9f:067ec139"
   }
 ]
