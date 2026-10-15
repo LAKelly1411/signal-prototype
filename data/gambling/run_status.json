@@ -1,7 +1,7 @@
 {
   "sector": "gambling",
-  "started_at": "2026-10-14T14:19:16.018583+00:00",
-  "finished_at": "2026-10-14T14:20:15.871870+00:00",
+  "started_at": "2026-10-15T06:19:15.743888+00:00",
+  "finished_at": "2026-10-15T06:21:13.240646+00:00",
   "sources": {
     "GamblingCommissionCollector": {
       "items": 259,
@@ -9,7 +9,7 @@
       "error": false
     },
     "CompaniesHouseCollector": {
-      "items": 28,
+      "items": 29,
       "ok": true,
       "error": false
     },
@@ -51,9 +51,9 @@
   },
   "healthy_sources": 8,
   "total_sources": 9,
-  "raw_items": 654,
-  "new_signals": 2,
+  "raw_items": 655,
+  "new_signals": 7,
   "unscored": 0,
-  "live_signals": 339,
+  "live_signals": 346,
   "clusters": 32
 }
