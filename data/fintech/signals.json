@@ -3899,16 +3899,16 @@
     "newsworthiness_score": 40,
     "why_it_matters": "PayPoint's growth strategy signals could affect its retail payments and fintech partnerships relevant to UK payments market watchers.",
     "category": "Corporate filing",
-    "cluster_id": "b44ca40c1519a24b",
+    "cluster_id": "3c9692bfb63cd22d",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "PayPoint moved through its standard corporate calendar between July and September 2026: Q1 results, AGM voting outcome, a shareholding disclosure, and a Capital Markets Day laying out growth drivers for its retail payments and bill payment business. No single event stands out as disruptive.",
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "cluster_summary_for": "b44ca40c1519a24b:642be20c",
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c",
     "theme_summary": "Routine corporate filings cluster across the sector between July and September 2026: Wise ran a share buyback and AGM alongside a notes guarantor change, while Monzo, Wise and Klarna filed annual accounts and PayPoint set out growth plans at a Capital Markets Day.",
     "theme_key_points": [
       "Monzo Bank Limited filed accounts on 2026-08-27, ahead of Wise (2026-09-25) and Klarna UK (2026-09-29).",
@@ -3939,16 +3939,16 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A shareholding change in PayPoint could signal investor sentiment shifts relevant to payments sector watchers.",
     "category": "Shareholding disclosure",
-    "cluster_id": "b44ca40c1519a24b",
+    "cluster_id": "3c9692bfb63cd22d",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Shareholding disclosure",
     "theme_id": null,
-    "cluster_summary": "PayPoint moved through its standard corporate calendar between July and September 2026: Q1 results, AGM voting outcome, a shareholding disclosure, and a Capital Markets Day laying out growth drivers for its retail payments and bill payment business. No single event stands out as disruptive.",
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "cluster_summary_for": "b44ca40c1519a24b:642be20c"
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
   },
   {
     "id": "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
@@ -3970,16 +3970,16 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine AGM voting results have limited news value unless shareholder dissent signals governance concerns at this payments firm.",
     "category": "Corporate filing",
-    "cluster_id": "b44ca40c1519a24b",
+    "cluster_id": "3c9692bfb63cd22d",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Corporate filing",
     "theme_id": null,
-    "cluster_summary": "PayPoint moved through its standard corporate calendar between July and September 2026: Q1 results, AGM voting outcome, a shareholding disclosure, and a Capital Markets Day laying out growth drivers for its retail payments and bill payment business. No single event stands out as disruptive.",
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "cluster_summary_for": "b44ca40c1519a24b:642be20c"
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
   },
   {
     "id": "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
@@ -4001,16 +4001,16 @@
     "newsworthiness_score": 45,
     "why_it_matters": "PayPoint's quarterly results reveal performance trends in UK retail payments and bill payment infrastructure, relevant to fintech competitors and investors.",
     "category": "Financial results",
-    "cluster_id": "b44ca40c1519a24b",
+    "cluster_id": "3c9692bfb63cd22d",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Financial results",
     "theme_id": null,
-    "cluster_summary": "PayPoint moved through its standard corporate calendar between July and September 2026: Q1 results, AGM voting outcome, a shareholding disclosure, and a Capital Markets Day laying out growth drivers for its retail payments and bill payment business. No single event stands out as disruptive.",
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "cluster_summary_for": "b44ca40c1519a24b:642be20c"
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
   },
   {
     "id": "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
@@ -4788,5 +4788,36 @@
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null
+  },
+  {
+    "id": "775b039afb5eceb126ad000a2c55942839c6170ed5790d3e48a1e5cd62dab11d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/holding-s-in-shares/9825579",
+    "title": "PayPoint: Holding(s) in Shares",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-10-15T15:03:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-15T14:19:16.234615+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholdings of PayPoint can signal shifts in investor confidence or potential corporate activity affecting the payments sector.",
+    "category": "Shareholding disclosure",
+    "cluster_id": "3c9692bfb63cd22d",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 20,
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
   }
 ]
