@@ -5368,5 +5368,79 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "e0c0c017c6d53a52:642be20c"
+  },
+  {
+    "id": "b64177c23163847295bd608b0a2fff9d8a55b037ad7da3a15e4bf367fa2c49f0",
+    "source": "gazette",
+    "source_id": "5231460",
+    "source_url": "https://www.thegazette.co.uk/notice/5231460",
+    "title": "COUNTRY AND COUNTY PROPERTY INVESTMENTS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ess is buying and selling of own real estate , presented on Wednesday 23 September 2026, at 15:30 by …",
+    "published_at": "2026-10-16T00:11:35+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-16T10:19:08.222860+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Country And County Property Investments Ltd"
+    ],
+    "canonical_entities": [
+      "Country And County Property Investments"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition against a small property investment firm has limited relevance to the fintech and payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "ea101e8c1c1a204c801f99dd53467a926ef258502ac3e398547ad416da79afe1",
+    "source": "gazette",
+    "source_id": "5229694",
+    "source_url": "https://www.thegazette.co.uk/notice/5229694",
+    "title": "OOCHIE GROUP LTD ",
+    "raw_summary": "Petitions to Wind Up (Companies): …ss is Hairdressing and other beauty treatment , presented on Thursday 24 September 2026, at 10:10 by …",
+    "published_at": "2026-10-15T12:40:10+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-16T10:19:08.222863+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Oochie Group Ltd"
+    ],
+    "canonical_entities": [
+      "Oochie"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A winding-up petition against a small hairdressing firm has no relevance to UK fintech or payments industry readers.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "bc8c9666e4260115355b439551c616c62c503a34c15f1289d10283f3464f1d96",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-force-of-law-notice-and-reference-document",
+    "title": "Carbon Border Adjustment Mechanism: force of law notices and reference document",
+    "raw_summary": "Find out about the force of law notice for the Carbon Border Adjustment Mechanism and reference document.",
+    "published_at": "2026-10-16T10:14:06+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-16T10:19:08.223117+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Carbon border tax rules are not directly relevant to UK fintech and payments journalists.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
