@@ -2120,40 +2120,6 @@
     "sector": "gambling"
   },
   {
-    "id": "00816bbc839079c62b0ca834d6dc0213d7a430a543987cdf44485a6cf77ce18d",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/black-market-bookies-set-for-40m-royal-ascot-bonanza",
-    "title": "BLACK MARKET BOOKIES SET FOR £40M ROYAL ASCOT BONANZA",
-    "raw_summary": "",
-    "published_at": "2026-06-18T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925999+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "Highlights BGC's warning on illegal betting activity around Royal Ascot, relevant to industry debates on channelling and regulation.",
-    "category": "black market gambling",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Betting and Gaming Council"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
-    "theme_key_points": [
-      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
-      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
-      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
-      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
     "source": "lse_rns",
     "source_id": null,
@@ -3434,10 +3400,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
     "category": "corporate restructuring/scheme document",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -3445,7 +3411,7 @@
     "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 62,
     "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
     "theme_key_points": [
       "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
@@ -4301,15 +4267,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
     "sector": "gambling"
   },
   {
@@ -4342,15 +4308,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
     "sector": "gambling"
   },
   {
@@ -4908,10 +4874,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4919,7 +4885,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -5603,10 +5569,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5614,7 +5580,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 62,
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -5690,15 +5656,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
     "sector": "gambling"
   },
   {
@@ -6122,10 +6088,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6133,7 +6099,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -6740,10 +6706,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6751,7 +6717,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
+    "cluster_significance": 62,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -9396,15 +9362,15 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "1bf20c60177a3e20",
+    "cluster_id": "013e67f0916af75c",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke is progressing through a formal scheme of arrangement, from publication of the Scheme Document in July to Court and General Meeting approvals by mid-August, alongside interim results and shareholding changes. The Intralot general meeting outcome points to a related strategic or ownership link being finalised alongside the restructuring.",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 72,
-    "cluster_summary_for": "1bf20c60177a3e20:cecdc011",
+    "cluster_significance": 62,
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -9982,15 +9948,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
     "sector": "gambling"
   },
   {
@@ -11549,15 +11515,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139"
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
   },
   {
     "id": "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
@@ -11922,15 +11888,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139"
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
   },
   {
     "id": "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
@@ -11962,15 +11928,15 @@
     "cluster_coherent": false,
     "cluster_significance": 42,
     "cluster_summary_for": "54f2f535b3507eca:cecdc011",
-    "theme_summary": "Entain dominated the results calendar between July and October 2026, publishing five separate updates including two BetMGM joint-venture reports, interim results and a Q3 trading statement. Rank Group and Flutter also reported in the same window, with Entain and Rank both releasing on 15 October.",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
     "theme_key_points": [
-      "Entain issued five market updates in under three months: BetMGM Q2 (28 July), interims (13 Aug), guidance note (28 Sept), BetMGM Q3 (13 Oct), trading update (15 Oct)",
-      "28 September: Entain maintained FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure alongside resilience",
-      "15 October: Entain's Q3 trading update and Rank Group's Q1 2026/27 update landed on the same day",
-      "Flutter's Q2 results notice (27 July) opened the period; BetMGM's US trading twice shaped Entain's reported earnings"
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Financial results:8491f66f20ab:067ec139"
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
   },
   {
     "id": "8a0878bee21c25af6160d53cbcb4726289b7d33dd14e996fa4977a2ef24343df",
@@ -12072,5 +12038,45 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:1c934aba865c:067ec139"
+  },
+  {
+    "id": "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/notice-of-q3-2026-trading-update/9825987",
+    "title": "evoke: Notice of Q3 2026 Trading Update",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-10-16T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-16T06:21:04.951564+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A scheduled trading update from evoke (formerly 888/William Hill group) may signal financial health and strategic direction for a major UK operator.",
+    "category": "Financial results",
+    "cluster_id": "013e67f0916af75c",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Financial results",
+    "theme_id": "Financial results",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 62,
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
+    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_key_points": [
+      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+      "Entain, Rank Group and evoke all published trading updates on October 15-16",
+      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
   }
 ]

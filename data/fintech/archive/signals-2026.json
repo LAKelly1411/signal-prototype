@@ -1902,5 +1902,57 @@
     "sector": "fintech",
     "canonical_category": "Financial results",
     "theme_id": null
+  },
+  {
+    "id": "4228a22a5a03c19b736599ac157c55c817214a579f8d013d982bd34651805c77",
+    "source": "companies_house",
+    "source_id": "MzUyNjU1NjQ4MmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyNjU1NjQ4MmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-06-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594015+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director departure at a major UK digital bank may signal leadership changes worth tracking for governance implications.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "be7a50834b8d3a1107cebb17407a523b2907f7bb821007edc2bd02dde1c5d097",
+    "source": "companies_house",
+    "source_id": "MzUyNjU1MjcwOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyNjU1MjcwOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-06-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594021+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director termination at Starling Bank, a major UK digital bank, could signal leadership changes worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
   }
 ]

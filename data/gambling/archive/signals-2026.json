@@ -7453,5 +7453,39 @@
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:29d47046ff24:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "00816bbc839079c62b0ca834d6dc0213d7a430a543987cdf44485a6cf77ce18d",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/black-market-bookies-set-for-40m-royal-ascot-bonanza",
+    "title": "BLACK MARKET BOOKIES SET FOR £40M ROYAL ASCOT BONANZA",
+    "raw_summary": "",
+    "published_at": "2026-06-18T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.925999+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Highlights BGC's warning on illegal betting activity around Royal Ascot, relevant to industry debates on channelling and regulation.",
+    "category": "black market gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from occasional warnings to sustained cross-government and enforcement activity, with BGC forecasting £40m around Royal Ascot and £1bn a season in black-market Premier League betting, £26m in fresh Treasury funding for the Gambling Commission, and raids and arrests in Doncaster through August. Parliamentary questions on black-market betting cluster ahead of the World Cup, and the pattern has held from June through September without let-up.",
+    "theme_key_points": [
+      "BGC forecasts rise from £40m (Royal Ascot) to £1bn a season (Premier League) between June and August 2026.",
+      "HM Treasury commits £26m to Gambling Commission enforcement, confirmed via written parliamentary answer 22 June.",
+      "Four near-identical written questions on World Cup gambling filed same day (29 June) show concentrated MP interest.",
+      "Gambling Commission moves from warnings to action: Doncaster den raids (21 July), casino arrests (29 July), police-backed crackdown (10 August)."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139",
+    "sector": "gambling"
   }
 ]
