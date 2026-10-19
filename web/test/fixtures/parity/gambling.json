@@ -1,0 +1,5047 @@
+{
+ "slug": "gambling",
+ "now": "2026-10-19T14:20:23.640747+00:00",
+ "tiers": [
+  {
+   "value": 0,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 1,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 39,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 40,
+   "score_tier": "Medium",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 59,
+   "score_tier": "Medium",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 60,
+   "score_tier": "Medium",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 69,
+   "score_tier": "Medium",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 70,
+   "score_tier": "High",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 89,
+   "score_tier": "High",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 90,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 129,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 130,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Medium"
+  },
+  {
+   "value": 199,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Medium"
+  },
+  {
+   "value": 200,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "High"
+  },
+  {
+   "value": 500,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "High"
+  }
+ ],
+ "nice_scale": [
+  {
+   "peak": 0,
+   "scale": 2
+  },
+  {
+   "peak": 1,
+   "scale": 2
+  },
+  {
+   "peak": 2,
+   "scale": 2
+  },
+  {
+   "peak": 3,
+   "scale": 4
+  },
+  {
+   "peak": 5,
+   "scale": 6
+  },
+  {
+   "peak": 9,
+   "scale": 10
+  },
+  {
+   "peak": 13,
+   "scale": 16
+  },
+  {
+   "peak": 21,
+   "scale": 30
+  },
+  {
+   "peak": 45,
+   "scale": 50
+  },
+  {
+   "peak": 99,
+   "scale": 100
+  },
+  {
+   "peak": 150,
+   "scale": 160
+  }
+ ],
+ "relative_time": [
+  {
+   "published_at": "2026-10-17T00:00:00+00:00",
+   "text": "2 days ago"
+  },
+  {
+   "published_at": "2026-10-16T12:02:01+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-16T07:00:00+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-15T14:52:00+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T07:00:00+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T07:00:00+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T00:00:00+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-14T17:31:07+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-14T08:30:07+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-13T12:00:00+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-12T17:50:15+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T01:11:13+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T01:07:22+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T12:01:21+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T01:07:20+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:11:36+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  }
+ ],
+ "full_date": [
+  {
+   "published_at": "2026-10-17T00:00:00+00:00",
+   "text": "Saturday 17 October 2026"
+  },
+  {
+   "published_at": "2026-10-16T12:02:01+00:00",
+   "text": "Friday 16 October 2026, 13:02"
+  },
+  {
+   "published_at": "2026-10-16T07:00:00+00:00",
+   "text": "Friday 16 October 2026, 08:00"
+  },
+  {
+   "published_at": "2026-10-15T14:52:00+00:00",
+   "text": "Thursday 15 October 2026, 15:52"
+  },
+  {
+   "published_at": "2026-10-15T07:00:00+00:00",
+   "text": "Thursday 15 October 2026, 08:00"
+  },
+  {
+   "published_at": "2026-10-15T07:00:00+00:00",
+   "text": "Thursday 15 October 2026, 08:00"
+  },
+  {
+   "published_at": "2026-10-15T00:00:00+00:00",
+   "text": "Thursday 15 October 2026"
+  },
+  {
+   "published_at": "2026-10-14T17:31:07+00:00",
+   "text": "Wednesday 14 October 2026, 18:31"
+  },
+  {
+   "published_at": "2026-10-14T08:30:07+00:00",
+   "text": "Wednesday 14 October 2026, 09:30"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "Wednesday 14 October 2026"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "Wednesday 14 October 2026"
+  },
+  {
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "text": "Wednesday 14 October 2026"
+  },
+  {
+   "published_at": "2026-10-13T12:00:00+00:00",
+   "text": "Tuesday 13 October 2026, 13:00"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "Tuesday 13 October 2026"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "Tuesday 13 October 2026"
+  },
+  {
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "text": "Tuesday 13 October 2026"
+  },
+  {
+   "published_at": "2026-10-12T17:50:15+00:00",
+   "text": "Monday 12 October 2026, 18:50"
+  },
+  {
+   "published_at": "2026-10-12T01:11:13+00:00",
+   "text": "Monday 12 October 2026, 02:11"
+  },
+  {
+   "published_at": "2026-10-12T01:07:22+00:00",
+   "text": "Monday 12 October 2026, 02:07"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T12:01:21+00:00",
+   "text": "Friday 9 October 2026, 13:01"
+  },
+  {
+   "published_at": "2026-10-09T01:07:20+00:00",
+   "text": "Friday 9 October 2026, 02:07"
+  },
+  {
+   "published_at": "2026-10-09T00:11:36+00:00",
+   "text": "Friday 9 October 2026, 01:11"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  }
+ ],
+ "date_bucket": [
+  {
+   "days_ago": 0,
+   "bucket": "Today"
+  },
+  {
+   "days_ago": 1,
+   "bucket": "Yesterday"
+  },
+  {
+   "days_ago": 2,
+   "bucket": "This week"
+  },
+  {
+   "days_ago": 7,
+   "bucket": "This week"
+  },
+  {
+   "days_ago": 8,
+   "bucket": "Earlier"
+  },
+  {
+   "days_ago": 30,
+   "bucket": "Earlier"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "3dd923d77ab1401f",
+   "title": "Bet St George",
+   "heat": 125.15,
+   "tier": "High",
+   "active": true,
+   "summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
+   "pattern_type": "escalation",
+   "meta": "2 signals · 2 sources · 28 Aug – 12 Oct",
+   "companies": [
+    "BresBet"
+   ],
+   "member_ids": [
+    "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+    "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "86545df4cff05c46",
+   "title": "Entain Holdings (UK) Limited",
+   "heat": 116.35,
+   "tier": "High",
+   "active": false,
+   "summary": "Entain's routine corporate calendar runs through mid-2026 — board changes, TR-1 shareholder notifications, interim results, BetMGM quarterly updates and Companies House filings — punctuated by one real event: FY26 EBITDA guidance held despite a Brazil market ban. That single regulatory hit stands out against an otherwise standard drumbeat of governance and reporting disclosures.",
+   "pattern_type": "routine",
+   "meta": "13 signals · 2 sources · 27 Jul – 15 Oct",
+   "companies": [
+    "BetMGM"
+   ],
+   "member_ids": [
+    "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960",
+    "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+    "a2e6143e95a4aa3a3a2ac141ca298e14515e43b2b019866ab3b69b200da99721",
+    "9a84d3685e0a79c46417c99feac4e2c1ef45966f87e8d31a6b5c6c2647964baf",
+    "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+    "83a8d6771de0669ed7fde2557eca5bbc752e9d55d05011ad3e7d4f653aafafa5",
+    "e60119ece63e29a9b72950ddad72298fc760ed7b96b8b28233ee2ae95d0bc90f",
+    "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+    "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+    "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+    "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+    "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+    "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d"
+   ],
+   "weekly_counts": [
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "id": "ffeb315fc29883cf",
+   "title": "Ruth Evans",
+   "heat": 108.35,
+   "tier": "High",
+   "active": true,
+   "summary": "Ruth Evans has been appointed Chair of the Gambling Commission, a role that sets the regulator's tone toward licensed operators. The BGC has publicly welcomed the appointment, signalling industry hope for a constructive relationship with the incoming Chair.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 2 sources · 7 Sep",
+   "companies": [],
+   "member_ids": [
+    "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+    "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "7c3e2a85b58b4efc",
+   "title": "William Hill Limited",
+   "heat": 101.0,
+   "tier": "High",
+   "active": true,
+   "summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
+   "pattern_type": "developing_story",
+   "meta": "6 signals · 1 source · 3 Aug – 16 Oct",
+   "companies": [
+    "Intralot"
+   ],
+   "member_ids": [
+    "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682",
+    "033f082392ed07db4675b13d8cd3e28757ec259386ed535fa80217d53c337460",
+    "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+    "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+    "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+    "9e67ec68627f67f1fc2ec21bc7c96d0b75a8b1c8246941474de9e734604d67a7"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "3cae1668c5f7e0c6",
+   "title": "Dribble Media",
+   "heat": 88.85,
+   "tier": "Medium",
+   "active": true,
+   "summary": "The ASA upheld two separate rulings against Dribble Media's Midnite brand within five weeks: first for ads linking gambling to escapism and harm, then for using an under-25 model in a TikTok gambling ad breaching youth protection rules. Two distinct breaches in quick succession point to recurring compliance failures in Midnite's marketing.",
+   "pattern_type": "escalation",
+   "meta": "2 signals · 1 source · 12 Aug – 16 Sep",
+   "companies": [
+    "Midnite"
+   ],
+   "member_ids": [
+    "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+    "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "4b4656a8e3bc21f5",
+   "title": "Allwyn",
+   "heat": 86.68333333333334,
+   "tier": "Medium",
+   "active": true,
+   "summary": "The Court of Appeal shuts the door on Northern & Shell/TNLC's challenge to the National Lottery licence award, cementing Allwyn's position. Weeks later the Gambling Commission's acting CEO addresses an Allwyn-hosted participant protection conference, signalling the regulator's continued engagement with the new licensee.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 30 Jul – 2 Oct",
+   "companies": [
+    "Sarah Gardner",
+    "The New Lottery",
+    "Northern & Shell"
+   ],
+   "member_ids": [
+    "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+    "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "79ee6c333a759caf",
+   "title": "T33 Gaming",
+   "heat": 84.83333333333333,
+   "tier": "Medium",
+   "active": true,
+   "summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
+   "pattern_type": "escalation",
+   "meta": "2 signals · 1 source · 4 Sep – 23 Sep",
+   "companies": [],
+   "member_ids": [
+    "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+    "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "66f465366837c96f",
+   "title": "QuinnBet",
+   "heat": 84.65,
+   "tier": "Medium",
+   "active": true,
+   "summary": "UK Gambling Commission has settled enforcement action against QuinnBet (Gibraltar) Limited, requiring a payment of £609,104 for anti-money-laundering and social responsibility failings. The two entries describe the same 20 August 2026 settlement.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 20 Aug",
+   "companies": [],
+   "member_ids": [
+    "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+    "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "3278b45fb45ee3b7",
+   "title": "Holland Park Leisure",
+   "heat": 80.93333333333334,
+   "tier": "Medium",
+   "active": true,
+   "summary": "The Gambling Commission has hit Holland Park Leisure with a £150,000 fine for licence failings, with the enforcement action first flagged in late July and confirmed in August. The two entries track the same case moving from initial signal to finalised penalty.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 31 Jul – 18 Aug",
+   "companies": [],
+   "member_ids": [
+    "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+    "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "731d401887296721",
+   "title": "Evolution Malta",
+   "heat": 79.56666666666666,
+   "tier": "Medium",
+   "active": true,
+   "summary": "Evolution Malta Holding has agreed a £4.75m settlement with the UK Gambling Commission, dated 23 July 2026. The action against a major B2B games supplier, rather than an operator, marks the regulator extending compliance enforcement further up the supply chain.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 23 Jul",
+   "companies": [],
+   "member_ids": [
+    "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+    "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05"
+   ],
+   "weekly_counts": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "50b72ca3f3030631",
+   "title": "Lysis Gaming Compliance",
+   "heat": 73.0,
+   "tier": "Medium",
+   "active": true,
+   "summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
+   "pattern_type": "developing_story",
+   "meta": "3 signals · 1 source · 24 Jul – 26 Aug",
+   "companies": [],
+   "member_ids": [
+    "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+    "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+    "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922"
+   ],
+   "weekly_counts": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "8edbc94ebca97265",
+   "title": "Flutter Entertainment",
+   "heat": 68.43333333333334,
+   "tier": "Medium",
+   "active": true,
+   "summary": "Flutter Entertainment completed its delisting from the London Stock Exchange on 3 August 2026, formalising a shift of its primary listing away from London, with the related share cancellation filing processed the same day. A Q2 results notice from a week earlier is procedural and unconnected to the delisting move.",
+   "pattern_type": "developing_story",
+   "meta": "3 signals · 1 source · 27 Jul – 3 Aug",
+   "companies": [],
+   "member_ids": [
+    "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+    "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+    "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1"
+   ],
+   "weekly_counts": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "7dfedc23199a57cf",
+   "title": "St Leger",
+   "heat": 65.58333333333333,
+   "tier": "Medium",
+   "active": true,
+   "summary": "BGC marked the St Leger's 250th anniversary with a Parliamentary celebration, then followed up with warnings that illegal bookmakers are targeting the event for black-market betting. The two releases form a coordinated PR push around the same anniversary, pairing celebration with an industry safety message.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 2 Sep – 14 Sep",
+   "companies": [],
+   "member_ids": [
+    "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
+    "4aea3c3fd08cff230669c91380709833e34a2b85424ffd3af333525086a431b9"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "09d1d22710cfe299",
+   "title": "Sarah Fox",
+   "heat": 59.016666666666666,
+   "tier": "Low",
+   "active": false,
+   "summary": "Sarah Fox's move to the Gambling Commission surfaces twice: first as an appointment announcement, then via a parliamentary written question probing the DCMS secondment arrangement behind it. The two signals describe the same personnel change rather than a developing controversy.",
+   "pattern_type": "routine",
+   "meta": "2 signals · 2 sources · 29 Jul – 28 Aug",
+   "companies": [],
+   "member_ids": [
+    "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+    "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "318ff7da2fdd27ce",
+   "title": "Global Gaming Ventures",
+   "heat": 43.58333333333333,
+   "tier": "Low",
+   "active": false,
+   "summary": "Multilinea Developments Limited and Multilinea Leeds Limited — the latter formerly Global Gaming Ventures (Leeds) — both entered winding-up proceedings on the same gazette date, pointing to a coordinated collapse across a related corporate group rather than isolated failures.",
+   "pattern_type": "developing_story",
+   "meta": "4 signals · 1 source · 1 Oct",
+   "companies": [
+    "Multilinea Leeds",
+    "VGC Leeds",
+    "Multilinea Developments",
+    "VGC Developments"
+   ],
+   "member_ids": [
+    "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+    "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+    "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+    "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "8932c6012be5f9f4",
+   "title": "Equusform",
+   "heat": 42.35,
+   "tier": "Low",
+   "active": false,
+   "summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 18 Sep – 1 Oct",
+   "companies": [],
+   "member_ids": [
+    "a8ea1420fced1e01ea5548f37da56f4013386069412a12d7fe287ccfddc0edab",
+    "063373b9a4125e4540fbd5865bf29fb648045c18e9d15b1c4745fd4f16e797c7"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "615cd328b3491de8",
+   "title": "Carnaby Gaming Machines",
+   "heat": 38.58333333333333,
+   "tier": "Low",
+   "active": false,
+   "summary": "Carnaby Gaming Machines Limited moved from an initial Gazette filing in September 2026 to formal winding-up notices on 1 October, confirming the company has entered liquidation. The filings track a single small gaming-machine supplier's collapse rather than a wider sector trend.",
+   "pattern_type": "developing_story",
+   "meta": "3 signals · 1 source · 17 Sep – 1 Oct",
+   "companies": [],
+   "member_ids": [
+    "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+    "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+    "15432a94bc08978c560601183124e26d72d66c1fe9bb382191fafd2b90d18528"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "246d63953af4b8ef",
+   "title": "Betfair Limited",
+   "heat": 34.08333333333333,
+   "tier": "Low",
+   "active": false,
+   "summary": "Betfair Limited filed routine Companies House paperwork over two days in October 2026: a confirmation statement, annual accounts and a capital/share allotment notice. None carry disclosed figures or narrative detail beyond standard compliance filings.",
+   "pattern_type": "routine",
+   "meta": "3 signals · 1 source · 13 Oct – 14 Oct",
+   "companies": [],
+   "member_ids": [
+    "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
+    "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
+    "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "id": "4ad96e975140696d",
+   "title": "Ladbrokes Coral Group Limited",
+   "heat": 30.166666666666668,
+   "tier": "Low",
+   "active": false,
+   "summary": "Ladbrokes Coral Group files routine Companies House paperwork in September 2026: director appointments and terminations plus annual accounts. Nothing here points to operational, regulatory or financial disruption at the Entain-owned bookmaker.",
+   "pattern_type": "routine",
+   "meta": "4 signals · 1 source · 15 Sep – 30 Sep",
+   "companies": [],
+   "member_ids": [
+    "f4bb9bbfadd9e9766dbc3fdcc1882eebf2fba811da4daaede81e928bf229189f",
+    "6caf9a409d6be5d17a065cb45ac3fd65a5df79be856d58902379df5f2de6a91e",
+    "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
+    "257bd5ec8429d9b60755d4795778dfcd998c90cff43338a191d8109fab10770c"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "52344b7de9ec246b",
+   "title": "Outshine",
+   "heat": 25.75,
+   "tier": "Low",
+   "active": false,
+   "summary": "OG Realisations 2026 Limited, trading as Outshine, has entered liquidation with a winding-up resolution filed on 17 August 2026. Both gazette notices describe the same insolvency event rather than separate developments.",
+   "pattern_type": "routine",
+   "meta": "2 signals · 1 source · 17 Aug",
+   "companies": [
+    "OG Realisations 2026",
+    "OG REALISATIONS 2026"
+   ],
+   "member_ids": [
+    "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+    "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "aa024597828d9023",
+   "title": "Shepherd's Bush Games",
+   "heat": 18.4,
+   "tier": "Low",
+   "active": false,
+   "summary": "Shepherd's Bush Games Ltd has entered voluntary winding up, confirmed by a matching insolvency filing in the London Gazette dated 5 August 2026. Scale and gambling-licensing relevance remain unclear from the filings alone.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 5 Aug",
+   "companies": [],
+   "member_ids": [
+    "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+    "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "d069aca19ae56b88",
+   "title": "Great Filter Games",
+   "heat": 17.916666666666664,
+   "tier": "Low",
+   "active": false,
+   "summary": "Great Filter Games Ltd has filed for insolvency and entered voluntary winding-up, per gazette notices dated 18 August 2026. Details remain sparse, with no indication of debt size, creditors or wider fallout beyond the studio itself.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 18 Aug",
+   "companies": [],
+   "member_ids": [
+    "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
+    "d36bc1779260677e2c094778df9085ef2ad1b3f698eb1a303473fda4be17d524"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "17c0331fdc195257",
+   "title": "Game Changer Marketing",
+   "heat": 15.25,
+   "tier": "Low",
+   "active": false,
+   "summary": "Game Changer Marketing Ltd has filed a winding-up resolution and appointed a liquidator, both logged in the same gazette notice on 11 August 2026. The company's link to gambling is unconfirmed, and no further detail on scale or creditors is given.",
+   "pattern_type": "routine",
+   "meta": "2 signals · 1 source · 11 Aug",
+   "companies": [],
+   "member_ids": [
+    "eb004dbd4a5928497e9395c130c8e803700931409983ff24d1e9ee98f88d2982",
+    "48d2d9f792f2be0341d2a0fbe9317328d697770a3a8e7592a48eb12ac035d773"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "fd0f09ca4666b9db",
+   "title": "Clarmans",
+   "heat": 12.316666666666666,
+   "tier": "Low",
+   "active": false,
+   "summary": "Clarmans Holdings Limited moved from a winding-up petition on 31 July 2026 to a winding-up order by 16 August 2026, marking a straightforward progression through insolvency proceedings. Nothing in either filing ties the company to gambling operations.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 31 Jul – 16 Aug",
+   "companies": [],
+   "member_ids": [
+    "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
+    "5943318ad4ccbfffda7414a3a6f0ef3204f7614900e6c7a6d4fea828c6bf15af"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "pattern_scale": 4,
+ "themes": [
+  {
+   "id": "Policy and legislation",
+   "heat": 479.06666666666666,
+   "tier": "High",
+   "summary": "Parliament ran a dense run of written questions through late August and September on gambling policy, dominated by financial risk assessments, high-street planning rules and prediction-market regulation, while the BGC mounted a parallel lobbying push on ad bans, business rates and betting-shop closures. Vicky Foxcroft took over as gambling minister in August and the Gambling Commission issued new machine rules in September.",
+   "direction": "building",
+   "key_points": [
+    "28 August saw over a dozen written questions on Financial Risk Assessments, Gambling Commission staff conflicts and high-street planning changes in one day.",
+    "Five separate questions on 1 September confirmed prediction markets and event contracts require Gambling Commission licensing.",
+    "Gambling Commission's 30 September machine rules announcement scored highest (68) of the period, ahead of its 2025/26 industry statistics release.",
+    "BGC ran five campaigns between August and October opposing an ad ban, defending betting shops and framing casinos as high-street revival assets."
+   ],
+   "meta": "54 signals · 16 companies · 22 Jul – 15 Oct",
+   "companies": [
+    "Vicky Foxcroft",
+    "Ministry of Housing, Communities and Local Government",
+    "Simon Cox",
+    "Horserace Betting Levy",
+    "Commodity Futures Trading Commission",
+    "Sarah Fox",
+    "NHS England",
+    "Department of Health and Social Care",
+    "National Centre for Social Research",
+    "National Lottery",
+    "Grosvenor Casino Liverpool",
+    "Rank",
+    "Allwyn",
+    "Sarah Gardner",
+    "Louie French",
+    "Resorts World Birmingham"
+   ],
+   "member_ids": [
+    "532304072e9ce4ad372a2396c713556a1a03e3c6faaa890af3156df7f50b70a5",
+    "c137e0fa834948570093683183677017324a36c01843e76295b43f62e0d678d3",
+    "a082b662c5bab0b2bcc773067eba48733e8360fa6d8fb4e2ee1ee4898254ed39",
+    "9a8c1908258588f050984e3f545295d310d987f49858b9bea678d9319935e606",
+    "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
+    "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
+    "e7c7b2869ed1f76376fd607d02474ccd4ce749e1c32c275c73c854cec161b449",
+    "f0d2a2caadcd98ee3938da15caa3c893cf1084d1a02907edef712675e7b7f944",
+    "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+    "fae2d65e924e4216216c2cf46157fd9856b19b9c84144b2e047543bba3b4fde8",
+    "ec16412d427c2bfacb5f0e29bce6fef61594f0d1c0367298e34efaa14decd403",
+    "cf22cbf6b4b4c253ce1d3edfc8bb8352d734c33f31d768c7d4ec05792f65651e",
+    "1a50fe5b53a8cd3af0e435a6952f008947b6e281ec09a1dec0d57952f8ccd94f",
+    "27c23435d126c895e304f5d477d7b6b1f1764224981102f78a663f574114234d",
+    "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
+    "a3adfeee99dc0607bb066d4b2314fb182b4560bdf47f8094880c895b9f49a324",
+    "79e0e0842d2d0a33a9039d8effa5d11b11624b98324e6ea105dff2ccd5841b6f",
+    "cf625b4a6505172c7aac04f1078f9f6af0ce42eccb5536d63695972e82bb6499",
+    "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+    "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+    "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+    "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+    "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+    "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+    "f45a88f00e6020674189cc507dd03be5641299fe9c1062bab3e7ce787cce37da",
+    "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+    "ef5a492f43b9bcc82378f99fa7a489531b30a7efd17defa0f2ea95a8e6614a00",
+    "a5bc987367db88df95c7139ca4ff1a89133d8ee128c53ae434534c5fc088a056",
+    "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+    "4b5de528f79c160d40316c97deda2763ddb2ab1108721a40a67607031dbeef87",
+    "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+    "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+    "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+    "f33853686e49752f697066ce99abf9d6b3cefcced40660b783843d94f60276df",
+    "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+    "f51d2d53ff2c4f644fd9e63a952b4f0e0ca44a66ce42155526d6dd549075674f",
+    "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
+    "fc75c9095a2e29e70664b7ad1b7a4d1ba40287977d134d460898ad11eaef0107",
+    "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+    "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+    "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+    "55e96d3c2513415d59ba3d275d9153b9cf74bcf99863838847fafe228929e042",
+    "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+    "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+    "d30b48b50af32d524413606582995335519f70400e4ef999ec407f83193902cd",
+    "434890c321873491698f53f4fcdd97965c9be7ba0c1be54b1fbc1e76abdae116",
+    "96417a37cf1158cac8fa07256f8f091aff5d2204e39a2cb57ca1082151b0bd19",
+    "011f49e81f215c12d0d582912b26fa8b4c692346dbc91905ad8f70f3595dc185",
+    "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+    "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+    "6f3745bdc28dde3c868f6b03a77f40147be0bb9cd2b280e33e10ea55460cdcad",
+    "477b9498ef6a64181a3916156daa424361166950c3fd7599c6b2af5be8b25ad8",
+    "8a0878bee21c25af6160d53cbcb4726289b7d33dd14e996fa4977a2ef24343df",
+    "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f"
+   ],
+   "weekly_counts": [
+    1,
+    2,
+    0,
+    2,
+    1,
+    22,
+    15,
+    1,
+    2,
+    1,
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "id": "Insolvency",
+   "heat": 354.5,
+   "tier": "High",
+   "summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+   "direction": "building",
+   "key_points": [
+    "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
+    "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
+    "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
+    "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+   ],
+   "meta": "24 signals · 20 companies · 24 Jul – 12 Oct",
+   "companies": [
+    "Global Gaming Ventures",
+    "Lysis Gaming Compliance",
+    "Shepherd's Bush Games",
+    "Outshine",
+    "T33 Gaming",
+    "Equusform",
+    "Multilinea Leeds",
+    "VGC Leeds",
+    "Carnaby Gaming Machines",
+    "Multilinea Developments",
+    "VGC Developments",
+    "Firestoke",
+    "Crown",
+    "MAB Bookmakers",
+    "OG Realisations 2026",
+    "OG REALISATIONS 2026",
+    "MGE Korea",
+    "Charles H Hill",
+    "Casino MK",
+    "Bet St George"
+   ],
+   "member_ids": [
+    "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+    "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+    "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
+    "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+    "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
+    "7e0766a82ca991a74c34ac9cfec919112c76b1fb7e822f45c8eaba824f628890",
+    "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+    "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
+    "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+    "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+    "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033",
+    "c35412314ae631c9f193acd972014106be1559c424885853442963f4861a1198",
+    "063373b9a4125e4540fbd5865bf29fb648045c18e9d15b1c4745fd4f16e797c7",
+    "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+    "178de1c782c57bb056b06162bd9ea52aa45b5d92b267fd71ecf66bdc1d1203ab",
+    "a8ea1420fced1e01ea5548f37da56f4013386069412a12d7fe287ccfddc0edab",
+    "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+    "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+    "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+    "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+    "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+    "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
+    "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+    "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383"
+   ],
+   "weekly_counts": [
+    2,
+    1,
+    3,
+    2,
+    0,
+    2,
+    1,
+    1,
+    1,
+    2,
+    7,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "Enforcement action",
+   "heat": 229.4,
+   "tier": "High",
+   "summary": "The Gambling Commission ran a steady run of enforcement actions from late July through October, hitting operators large and small: Evolution Malta paid £4.75m, Grosvenor Casinos and parent Rank settled for a combined £5m, and smaller firms like Sladders and 5ve Guys picked up penalties and warnings. Individual licence holders also faced sanctions, alongside continuing fallout from the general election betting scandal.",
+   "direction": "building",
+   "key_points": [
+    "Evolution Malta's £4.75m settlement (23 July) marks rare supplier-level enforcement, not just operator-focused",
+    "Grosvenor Casinos and Rank Group settlements (7 October) total £5m for land-based regulatory failures",
+    "Individual enforcement continues: Maxwell and Pamela Taylor, Anthony Francis Lane fined between August-September",
+    "ASA upheld complaints against Midnite (12 August) for ads linking gambling to escapism, widening scrutiny beyond licensing breaches"
+   ],
+   "meta": "14 signals · 11 companies · 22 Jul – 7 Oct",
+   "companies": [
+    "Evolution Malta",
+    "Maxwell Taylor",
+    "Pamela Taylor",
+    "Dribble Media",
+    "Midnite",
+    "Sladders",
+    "The Purple Gaming",
+    "Anthony Francis Lane",
+    "Grosvenor Casinos",
+    "Rank",
+    "5ve Guys Entertainments"
+   ],
+   "member_ids": [
+    "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+    "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+    "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+    "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+    "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
+    "6da00dc65a091340325dd51eeb2c6c4aaa132241b89a42caaf91f4f6e3711a5f",
+    "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+    "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+    "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+    "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+    "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+    "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
+    "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+    "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d"
+   ],
+   "weekly_counts": [
+    3,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "id": "Licence action",
+   "heat": 213.73333333333335,
+   "tier": "High",
+   "summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
+   "direction": "building",
+   "key_points": [
+    "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+    "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+    "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+    "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
+   ],
+   "meta": "9 signals · 12 companies · 29 Jul – 5 Oct",
+   "companies": [
+    "Sarah Fox",
+    "The New Lottery",
+    "Northern & Shell",
+    "Allwyn",
+    "Zura Adam Galgerud",
+    "Holland Park Leisure",
+    "BresBet",
+    "Bet St George",
+    "Targetlocal",
+    "Tom Horn Gaming",
+    "Ayeni Ibukun Samson",
+    "Solange Juellato De Sa Nogueira"
+   ],
+   "member_ids": [
+    "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+    "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+    "6501613c5c03990c5ee10a84ead7c5cd7ac1bb77c5abe41c192b90f409c89074",
+    "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+    "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+    "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+    "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+    "7efced5b5bd4139747dbebbfbe50f4580f3bee9f99e0056975a2d4088ad55525",
+    "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec"
+   ],
+   "weekly_counts": [
+    0,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "Tax and levy",
+   "heat": 184.73333333333335,
+   "tier": "Medium",
+   "summary": "BGC runs an escalating pre-Budget campaign against gambling tax rises, citing 540+ shop closures, 4,500 jobs lost, and cuts at Betfred and bet365. Parliament confirms remote betting duty rises to 25% from October, hitting greyhound racing while horseracing stays exempt, as Labour MPs separately push for higher Machine Games Duty.",
+   "direction": "building",
+   "key_points": [
+    "BGC issued at least ten public statements between July and October 2026 opposing further duty rises",
+    "Remote betting duty confirmed at 25% from 14 September 2026, applying to greyhound racing but not horseracing",
+    "BGC says a further casino tax hike could derail a £200m UK investment drive",
+    "Labour MPs' letter demanding higher Machine Games Duty prompted a BGC rebuttal on 17 October 2026"
+   ],
+   "meta": "17 signals · 5 companies · 23 Jul – 17 Oct",
+   "companies": [
+    "Betfred",
+    "bet365 Group Limited",
+    "Makerfield",
+    "Romford Greyhound Stadium",
+    "Greyhound racing industry"
+   ],
+   "member_ids": [
+    "0429b19ee2a7e0c115adcb7d73d99185ca11a5af0d6fb5633be762dee9c4c1d9",
+    "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
+    "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
+    "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
+    "79a92acb7b1f060361cf2d8a69fcb5f5020896ae40fccc029b97d110f23bb523",
+    "1c7fc4838a3e3f76418b00e4e8c33ee3caed3c41baa32359c066b7dcf67bb921",
+    "d4400f51c8a8e9b173b240836ac06ce2f5c1ba0c4117ad0b1c0bfa9e3b4743ff",
+    "d80ee43b88d695f561ee886e9fa17adecda5e3aeb2d1370cb7a492f4b8e5288b",
+    "32b31044a9de219bc17b018c20ebe9ab5557e78d68d762bfb3b2317882c589f5",
+    "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+    "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+    "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
+    "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
+    "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
+    "75a6933fddb876f7a90c51a27d36bd5a263c77e1fab27387a693829d9d78914f",
+    "10c1e64aeb0d4ac5b5ecef143f54956cee4e9d136712596cd48b6a6450352514",
+    "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b"
+   ],
+   "weekly_counts": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    4,
+    1,
+    2,
+    1,
+    3,
+    3
+   ]
+  },
+  {
+   "id": "Advertising ruling",
+   "heat": 171.93333333333334,
+   "tier": "Medium",
+   "summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+   "direction": "building",
+   "key_points": [
+    "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+    "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+    "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+    "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
+   ],
+   "meta": "5 signals · 10 companies · 29 Jul – 14 Oct",
+   "companies": [
+    "BoyleSports",
+    "Smart Gravity",
+    "top10onlinecasinoreviews.co.uk",
+    "Dribble Media",
+    "Midnite",
+    "White Hat Gaming",
+    "Casimba",
+    "The Grand Ivy Casino",
+    "HRY Games",
+    "AI Scorecast"
+   ],
+   "member_ids": [
+    "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
+    "2c5b2bbaa77649eac1a78d281efc8f4a0ed4d33fe929ab5187be111afbba6639",
+    "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+    "f7d1d57b7e9cb59608c215da84a9409a47ee53c80e67aa362a7a69f6ca50e51d",
+    "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "Financial results",
+   "heat": 137.6,
+   "tier": "Medium",
+   "summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+   "direction": "steady",
+   "key_points": [
+    "Entain issued five RNS updates between July 28 and October 15, more than any peer",
+    "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
+    "Entain, Rank Group and evoke all published trading updates on October 15-16",
+    "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+   ],
+   "meta": "8 signals · 5 companies · 27 Jul – 16 Oct",
+   "companies": [
+    "Entain Holdings (UK) Limited",
+    "BetMGM",
+    "Flutter Entertainment",
+    "Rank",
+    "William Hill Limited"
+   ],
+   "member_ids": [
+    "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+    "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+    "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+    "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+    "a2e6143e95a4aa3a3a2ac141ca298e14515e43b2b019866ab3b69b200da99721",
+    "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+    "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
+    "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682"
+   ],
+   "weekly_counts": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    4
+   ]
+  },
+  {
+   "id": "Corporate filing",
+   "heat": 118.16666666666667,
+   "tier": "Low",
+   "summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+   "direction": "steady",
+   "key_points": [
+    "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
+    "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
+    "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
+    "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+   ],
+   "meta": "7 signals · 4 companies · 3 Aug – 8 Oct",
+   "companies": [
+    "Rank",
+    "Entain Holdings (UK) Limited",
+    "Flutter Entertainment",
+    "William Hill Limited"
+   ],
+   "member_ids": [
+    "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+    "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+    "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+    "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+    "58ebf1d891dc36b7a7b8c139c89c56db6a215d9cb01e6c52e5b1f7624ec4239f",
+    "9a84d3685e0a79c46417c99feac4e2c1ef45966f87e8d31a6b5c6c2647964baf",
+    "84d709950adaa9e9ee73dc279dda9b3f1b28216d458ba86c690850666e159bbb"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0
+   ]
+  },
+  {
+   "id": "Board and director changes",
+   "heat": 117.6,
+   "tier": "Low",
+   "summary": "Board-level turnover has run through both operators and the regulator over the summer: Rank Group and Entain each filed multiple director changes between July and October 2026, while the Gambling Commission confirmed Ruth Evans as its new Chair on 7 September. The BGC publicly welcomed the regulatory appointment, underlining its weight for the sector.",
+   "direction": "building",
+   "key_points": [
+    "Rank Group filed two separate board changes, 24 July and 13 August 2026",
+    "Entain logged three governance filings in three months: directorate change (27 July), officer filing (15 Sept), director declaration (15 Oct)",
+    "Parliament questioned the Gambling Commission's CEO search timeline on 28 August, days before Evans's appointment was confirmed",
+    "Ruth Evans named Gambling Commission Chair 7 September, prompting immediate BGC statement of welcome"
+   ],
+   "meta": "8 signals · 3 companies · 24 Jul – 15 Oct",
+   "companies": [
+    "Entain Holdings (UK) Limited",
+    "Rank",
+    "Ruth Evans"
+   ],
+   "member_ids": [
+    "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+    "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
+    "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
+    "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+    "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+    "83a8d6771de0669ed7fde2557eca5bbc752e9d55d05011ad3e7d4f653aafafa5",
+    "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+    "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960"
+   ],
+   "weekly_counts": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "Shareholding disclosure",
+   "heat": 93.5,
+   "tier": "Low",
+   "summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+   "direction": "building",
+   "key_points": [
+    "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
+    "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
+    "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
+    "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+   ],
+   "meta": "6 signals · 3 companies · 3 Aug – 18 Sep",
+   "companies": [
+    "William Hill Limited",
+    "Entain Holdings (UK) Limited",
+    "Intralot"
+   ],
+   "member_ids": [
+    "9e67ec68627f67f1fc2ec21bc7c96d0b75a8b1c8246941474de9e734604d67a7",
+    "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+    "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+    "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+    "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+    "033f082392ed07db4675b13d8cd3e28757ec259386ed535fa80217d53c337460"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "theme_scale": 30,
+ "filters": {
+  "options": {
+   "sources": [
+    "asa",
+    "bgc",
+    "companies_house",
+    "dcms",
+    "gambling_commission",
+    "lse_rns",
+    "gazette",
+    "parliament"
+   ],
+   "categories": [
+    "Policy and legislation",
+    "Insolvency",
+    "Illegal gambling",
+    "Tax and levy",
+    "Board and director changes",
+    "Enforcement action",
+    "Corporate filing",
+    "Licence action",
+    "Shareholding disclosure",
+    "Financial results",
+    "Advertising ruling",
+    "Other",
+    "AML and compliance failures",
+    "Merger and acquisition",
+    "Player protection",
+    "Consultation"
+   ],
+   "entities": [
+    "Gambling Commission",
+    "DCMS",
+    "Betting and Gaming Council",
+    "Entain Holdings (UK) Limited",
+    "Department for Digital, Culture, Media and Sport",
+    "BGC",
+    "Department for Culture, Media and Sport",
+    "HM Treasury",
+    "William Hill Limited",
+    "HMRC",
+    "Illegal Gambling Taskforce",
+    "Rank",
+    "Flutter Entertainment",
+    "HM Revenue & Customs",
+    "Global Gaming Ventures",
+    "Ladbrokes Coral Group Limited",
+    "Betfair Limited",
+    "BetMGM",
+    "Carnaby Gaming Machines",
+    "Charles H Hill",
+    "Lysis Gaming Compliance",
+    "National Lottery",
+    "Advertising Standards Authority",
+    "Allwyn",
+    "Bet St George",
+    "bet365 Group Limited",
+    "Cabinet Office",
+    "Clarmans",
+    "Dribble Media",
+    "Equusform",
+    "Evolution Malta",
+    "Financial Conduct Authority",
+    "Game Changer Marketing",
+    "Great Filter Games",
+    "Holland Park Leisure",
+    "Langorf Hotel",
+    "Locked In Games York",
+    "Midnite",
+    "Ministry of Housing, Communities and Local Government",
+    "Multilinea Developments",
+    "Multilinea Leeds",
+    "National Fitness Games",
+    "Outshine",
+    "Petfre",
+    "QuinnBet",
+    "Ruth Evans",
+    "Sarah Fox",
+    "Shepherd's Bush Games",
+    "Social Market Foundation",
+    "St Leger",
+    "Stakelogic BV",
+    "T33 Gaming",
+    "The Double Six Cafe",
+    "Todhill Game",
+    "VGC Developments",
+    "VGC Leeds",
+    "Vicky Foxcroft",
+    "5ve Guys Entertainments",
+    "Abouleyazid Mustafa Lubna",
+    "Accelerate",
+    "AI Scorecast",
+    "Alexandra Butler",
+    "Ann Allen",
+    "Annie Hampson",
+    "Anthony Francis Lane",
+    "Anya Hurlbert",
+    "APEX ALL TRADES",
+    "Ayeni Ibukun Samson",
+    "Baroness Morgan",
+    "Betfred",
+    "BIZZYBODS",
+    "Blue Shark Trading",
+    "Boomerang Studios",
+    "BoyleSports",
+    "BresBet",
+    "British Film Institute",
+    "British Horseracing Authority",
+    "Build A Rocket Boy Games",
+    "BYLDIS",
+    "Byldis",
+    "Cash4Clubs",
+    "Casimba",
+    "Casino MK",
+    "Civil Service Commission",
+    "Clare Anderson",
+    "Commodity Futures Trading Commission",
+    "Coopermatic",
+    "Corporate Intelligence Service",
+    "Covarrubia Energy",
+    "Crown",
+    "Deeside Bookmakers",
+    "Dench eGaming Solutions",
+    "Department of Health and Social Care",
+    "Dice Dice Baby Shop",
+    "Dion Property",
+    "Double Tree Trading",
+    "E-Dojo Gaming",
+    "Edgar Wright",
+    "Elizabeth Karlsen",
+    "Ethics and Integrity Committee",
+    "Evans Amusements",
+    "Fatcat Softworks",
+    "Firestoke",
+    "G.C.S. ALARMS 2018",
+    "G.C.S. Alarms 2018",
+    "Gamble Property Services",
+    "Ganan Kanagathurai",
+    "Giggles & Grins",
+    "Glass Age",
+    "Greyhound racing industry",
+    "Grosvenor Casino Liverpool",
+    "Grosvenor Casinos",
+    "Hakan Kousetta",
+    "Helen Williams",
+    "Horserace Betting Levy",
+    "HRY Games",
+    "Indigo Jamm",
+    "Infinite Partnerships",
+    "Intralot",
+    "Investigate Europe",
+    "James Twining",
+    "Jane Tranter",
+    "Janice Lane",
+    "John Healey",
+    "Judith Donovan",
+    "Katie Town",
+    "Kuidaore",
+    "Lance Batchelor",
+    "Laura Miele",
+    "Legacy One Projects",
+    "Lisa Nandy",
+    "Louie French",
+    "MAB Bookmakers",
+    "Makerfield",
+    "Mark Herbert",
+    "Marshall Manson",
+    "Maxwell Taylor",
+    "Medland Associates",
+    "MGE Korea",
+    "Monica Chadha",
+    "Mr Vegas",
+    "Mukesh Sharma",
+    "National Centre for Social Research",
+    "National Lottery Heritage Fund",
+    "NHS England",
+    "Northern & Shell",
+    "Novelty Care",
+    "OG Realisations 2026",
+    "OG REALISATIONS 2026",
+    "Online Safety Act 2023",
+    "Pamela Taylor",
+    "Parliament",
+    "Peek & Poke",
+    "PI Hotel",
+    "Potters Health Care",
+    "Premier League",
+    "Priya Guha",
+    "PS Construction",
+    "PSG UK Facilities Management",
+    "QDE Publishing",
+    "Rachel Reeves",
+    "RALTEC ARC",
+    "Rapido Restaurants",
+    "Rebecca Crook",
+    "Reform Party",
+    "Resorts World Birmingham",
+    "Rhodri Lewis",
+    "Richard Harris",
+    "Richmond Atlantic Services",
+    "Romford Greyhound Stadium",
+    "Royal Armouries",
+    "Royal Museums Greenwich",
+    "Ryan Prince",
+    "S4C",
+    "SA Scot Foods",
+    "Sanjeev Gupta",
+    "Sarah Gardner",
+    "Science Museum",
+    "Simon Cox",
+    "Sladders",
+    "Smart Gravity",
+    "Solange Juellato De Sa Nogueira",
+    "Sold Out",
+    "SOLD OUT",
+    "Song Liang",
+    "Stephen Deuchar",
+    "Stephen Dimmick",
+    "Tanya Cordrey",
+    "Targetlocal",
+    "The Ctrl Pad",
+    "The Grand Ivy Casino",
+    "The New Lottery",
+    "The Old Casino",
+    "The Purple Gaming",
+    "Theatres Trust",
+    "Tim Miller",
+    "Tom Horn Gaming",
+    "Tom Solomon",
+    "top10onlinecasinoreviews.co.uk",
+    "Toufic Machnouk",
+    "TPXImpact",
+    "Valuation Office",
+    "Videoslots",
+    "White Hat Gaming",
+    "Wizard of the North",
+    "Zura Adam Galgerud"
+   ]
+  },
+  "cases": [
+   {
+    "name": "default",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 40,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "75a6933fddb876f7a90c51a27d36bd5a263c77e1fab27387a693829d9d78914f",
+     "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+     "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
+     "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
+     "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
+     "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+     "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+     "32b31044a9de219bc17b018c20ebe9ab5557e78d68d762bfb3b2317882c589f5",
+     "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+     "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+     "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+     "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
+     "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
+     "d80ee43b88d695f561ee886e9fa17adecda5e3aeb2d1370cb7a492f4b8e5288b",
+     "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+     "011f49e81f215c12d0d582912b26fa8b4c692346dbc91905ad8f70f3595dc185",
+     "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+     "d4400f51c8a8e9b173b240836ac06ce2f5c1ba0c4117ad0b1c0bfa9e3b4743ff",
+     "434890c321873491698f53f4fcdd97965c9be7ba0c1be54b1fbc1e76abdae116",
+     "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+     "1c7fc4838a3e3f76418b00e4e8c33ee3caed3c41baa32359c066b7dcf67bb921",
+     "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+     "4eaf2d7434d3739a3ae33d66ebd42175e927fdc41c4684b95d9cc1f35bfcfe43",
+     "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+     "d30b48b50af32d524413606582995335519f70400e4ef999ec407f83193902cd",
+     "79a92acb7b1f060361cf2d8a69fcb5f5020896ae40fccc029b97d110f23bb523",
+     "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+     "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+     "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+     "c35412314ae631c9f193acd972014106be1559c424885853442963f4861a1198",
+     "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
+     "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+     "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
+     "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
+     "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+     "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
+     "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d0446cdbabadd4fa7982cc85782a2e7e6cddb282ac847f39854b5eee03244a3c",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033",
+     "7efced5b5bd4139747dbebbfbe50f4580f3bee9f99e0056975a2d4088ad55525",
+     "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+     "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+     "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+     "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+     "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+     "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+     "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+     "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "0e7195aa1494ba192a5ea7d13b596f17a321bedd6a26e30f976d216d03e0e292",
+     "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+     "fae2d65e924e4216216c2cf46157fd9856b19b9c84144b2e047543bba3b4fde8",
+     "ec16412d427c2bfacb5f0e29bce6fef61594f0d1c0367298e34efaa14decd403",
+     "1a50fe5b53a8cd3af0e435a6952f008947b6e281ec09a1dec0d57952f8ccd94f",
+     "27c23435d126c895e304f5d477d7b6b1f1764224981102f78a663f574114234d",
+     "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+     "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+     "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+     "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+     "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+     "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+     "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+     "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+     "6da00dc65a091340325dd51eeb2c6c4aaa132241b89a42caaf91f4f6e3711a5f",
+     "6e0dc6ec9dbc31bd97663b4b1875605a074779adadd4bff5daf2452b7d4f4751",
+     "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+     "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+     "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
+     "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+     "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
+     "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+     "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+     "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+     "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+     "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
+     "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+     "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+     "0429b19ee2a7e0c115adcb7d73d99185ca11a5af0d6fb5633be762dee9c4c1d9",
+     "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+     "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+     "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+     "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+     "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+     "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+     "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
+     "7eb0a6385c686eeda854e4dc78fe364bc7cc4413ba7a3b20bb2c38803abb43b6",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
+     "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
+     "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+     "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+     "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+     "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+     "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+     "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
+     "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+     "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+     "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
+     "ef55d2dccafd0662c483ca82814efc4765525469dd03fc9a399d8ebc0604e8a6",
+     "c249a26abf9d0585185a0cf7bb23611f66862e4de049720b95c62f5b100a26fe",
+     "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
+     "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+     "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "f4dbfa277f8abb868c37f666e6a91cc8316ff5e71212b353fd7f37beffb79fb0",
+     "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
+     "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+     "a12f2180ce85da1d4192fc0d98104e3e2a9dd57db50916a0714bd99b7b692006",
+     "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
+     "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
+     "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
+     "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+     "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
+     "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+     "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
+     "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4"
+    ]
+   },
+   {
+    "name": "min_score_0",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "75a6933fddb876f7a90c51a27d36bd5a263c77e1fab27387a693829d9d78914f",
+     "f3a8f964908a4ba43fdbbc6701c60485891398ad4c381c0acb8b2fb43ea34ca2",
+     "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682",
+     "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960",
+     "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+     "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
+     "8a0878bee21c25af6160d53cbcb4726289b7d33dd14e996fa4977a2ef24343df",
+     "76edd7ecc8c21e58ff5a10d5ae34b69066ab306a87c842e360f2e0187b6c5754",
+     "385ddcdd94383bdf9f9d8b677ebac7bb32398d68f53d93cfd4f74f5bc64f44cc",
+     "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
+     "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
+     "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
+     "a2e6143e95a4aa3a3a2ac141ca298e14515e43b2b019866ab3b69b200da99721",
+     "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
+     "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+     "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
+     "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+     "9f861241b0d5a618efb1562f856f8f9a2b3b1c541a94f003d5cece399dbc90fc",
+     "51952afc3b7b639bb5641dc89ca0cee1ef8ea5b6d8a568937b1eebc56ce78446",
+     "32b31044a9de219bc17b018c20ebe9ab5557e78d68d762bfb3b2317882c589f5",
+     "ad43d1213ba76c2e6ed68d065133eca04ccc8a5d0c08fbd45006b24ceaa7fbc1",
+     "130bba7c4f312b7b991b2f0f3d906fab5bf89ee4881f8da4c91f04cb264dc647",
+     "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+     "477b9498ef6a64181a3916156daa424361166950c3fd7599c6b2af5be8b25ad8",
+     "13fbdbf299e39871c46176fbbae13bc5739b02148d46fa0b283e6080771232e7",
+     "2096805c867cf79806dab968636ccf5494ac842066650c9faafaf2172f8f5a5c",
+     "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
+     "10c1e64aeb0d4ac5b5ecef143f54956cee4e9d136712596cd48b6a6450352514",
+     "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
+     "84d709950adaa9e9ee73dc279dda9b3f1b28216d458ba86c690850666e159bbb",
+     "a58504bb38f02aa9ae4d31d67b02d949cb86451ccc1db52c5f93a1ff40167bdf",
+     "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+     "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+     "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
+     "9a84d3685e0a79c46417c99feac4e2c1ef45966f87e8d31a6b5c6c2647964baf",
+     "6f3745bdc28dde3c868f6b03a77f40147be0bb9cd2b280e33e10ea55460cdcad",
+     "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
+     "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
+     "690fb30d999d3bd01099364b086c30750335bfb4b0f57ffc5d434ea1a9371914",
+     "f7018b3beb321f6557a329ef2edeb6b405281103bff7cbce1ae0c551ae4a69c4",
+     "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+     "d80ee43b88d695f561ee886e9fa17adecda5e3aeb2d1370cb7a492f4b8e5288b",
+     "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+     "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+     "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+     "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+     "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+     "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
+     "a8ea1420fced1e01ea5548f37da56f4013386069412a12d7fe287ccfddc0edab",
+     "13b435f7f567b7102a42643e847b3a379a1110d74a0cd63b95f3172218d42495",
+     "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+     "f4bb9bbfadd9e9766dbc3fdcc1882eebf2fba811da4daaede81e928bf229189f",
+     "6caf9a409d6be5d17a065cb45ac3fd65a5df79be856d58902379df5f2de6a91e",
+     "1bd0713a63e8b7d77495968a75ea2269ca3218416f5eaf91c2f249771d0fe62e",
+     "011f49e81f215c12d0d582912b26fa8b4c692346dbc91905ad8f70f3595dc185",
+     "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+     "ee7c197195853d7f9941c2003606fe2ac15f891346fce2ce5be397108e9c078c",
+     "d4400f51c8a8e9b173b240836ac06ce2f5c1ba0c4117ad0b1c0bfa9e3b4743ff",
+     "434890c321873491698f53f4fcdd97965c9be7ba0c1be54b1fbc1e76abdae116",
+     "0a7257cf950362b603591fc2d81c4ad1f9eec61873f1d61b01d9115775362bba",
+     "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
+     "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+     "1c7fc4838a3e3f76418b00e4e8c33ee3caed3c41baa32359c066b7dcf67bb921",
+     "791f22b323b5bcadd6eea868236fa1edb3dc4de7046beb3376cee3618928fa77",
+     "178de1c782c57bb056b06162bd9ea52aa45b5d92b267fd71ecf66bdc1d1203ab",
+     "afbc0be7d4bddf1eee8b54913143431e385ef3d1a222a054f1b59ba8fb9ec389",
+     "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+     "4eaf2d7434d3739a3ae33d66ebd42175e927fdc41c4684b95d9cc1f35bfcfe43",
+     "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+     "d30b48b50af32d524413606582995335519f70400e4ef999ec407f83193902cd",
+     "79a92acb7b1f060361cf2d8a69fcb5f5020896ae40fccc029b97d110f23bb523",
+     "033f082392ed07db4675b13d8cd3e28757ec259386ed535fa80217d53c337460",
+     "063373b9a4125e4540fbd5865bf29fb648045c18e9d15b1c4745fd4f16e797c7",
+     "15432a94bc08978c560601183124e26d72d66c1fe9bb382191fafd2b90d18528",
+     "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+     "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+     "f7d1d57b7e9cb59608c215da84a9409a47ee53c80e67aa362a7a69f6ca50e51d",
+     "83a8d6771de0669ed7fde2557eca5bbc752e9d55d05011ad3e7d4f653aafafa5",
+     "e60119ece63e29a9b72950ddad72298fc760ed7b96b8b28233ee2ae95d0bc90f",
+     "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
+     "257bd5ec8429d9b60755d4795778dfcd998c90cff43338a191d8109fab10770c",
+     "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+     "c35412314ae631c9f193acd972014106be1559c424885853442963f4861a1198",
+     "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
+     "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+     "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
+     "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
+     "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+     "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+     "d44ad1106f15b7f5be93c62489b2c3b6b1240c4e4d7b2704668eb16ac9d30199",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "22081219b7f7aed82a4091b2e5f5b59d2a4ab1eb4a08db0e67093da4fa4a4235",
+     "9866d699f79964988ba8e1300ec580af42c4d640d807e24c0022d0bc69ae1926",
+     "2c5b2bbaa77649eac1a78d281efc8f4a0ed4d33fe929ab5187be111afbba6639",
+     "375c221541a25fd37449d55136691ce97c07f53409a2230b976a21483568f018",
+     "58ebf1d891dc36b7a7b8c139c89c56db6a215d9cb01e6c52e5b1f7624ec4239f",
+     "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
+     "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d0446cdbabadd4fa7982cc85782a2e7e6cddb282ac847f39854b5eee03244a3c",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033",
+     "7efced5b5bd4139747dbebbfbe50f4580f3bee9f99e0056975a2d4088ad55525",
+     "f0d2a2caadcd98ee3938da15caa3c893cf1084d1a02907edef712675e7b7f944",
+     "4aea3c3fd08cff230669c91380709833e34a2b85424ffd3af333525086a431b9",
+     "e377d4d92c21d8d52d1f3d927b291aa3e3f782d8608927f4952e141104c65f34",
+     "e7c7b2869ed1f76376fd607d02474ccd4ce749e1c32c275c73c854cec161b449",
+     "d288df5db891c01d387a0983754b6837a47294907e161961c5ca6a93bee11563",
+     "a3adfeee99dc0607bb066d4b2314fb182b4560bdf47f8094880c895b9f49a324",
+     "afa089a96e690d63290154d3f9dc8b0c9df0b8c0760961513cc4bc6697237034",
+     "cf625b4a6505172c7aac04f1078f9f6af0ce42eccb5536d63695972e82bb6499",
+     "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+     "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+     "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+     "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+     "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+     "a5bc987367db88df95c7139ca4ff1a89133d8ee128c53ae434534c5fc088a056",
+     "fc75c9095a2e29e70664b7ad1b7a4d1ba40287977d134d460898ad11eaef0107",
+     "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+     "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+     "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "55e96d3c2513415d59ba3d275d9153b9cf74bcf99863838847fafe228929e042",
+     "0e7195aa1494ba192a5ea7d13b596f17a321bedd6a26e30f976d216d03e0e292",
+     "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
+     "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
+     "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+     "fae2d65e924e4216216c2cf46157fd9856b19b9c84144b2e047543bba3b4fde8",
+     "ec16412d427c2bfacb5f0e29bce6fef61594f0d1c0367298e34efaa14decd403",
+     "cf22cbf6b4b4c253ce1d3edfc8bb8352d734c33f31d768c7d4ec05792f65651e",
+     "1a50fe5b53a8cd3af0e435a6952f008947b6e281ec09a1dec0d57952f8ccd94f",
+     "27c23435d126c895e304f5d477d7b6b1f1764224981102f78a663f574114234d",
+     "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
+     "4203ddd1e2c780819959729985419796908dbe141fe928fe1e4630f42d8e6e7e",
+     "79e0e0842d2d0a33a9039d8effa5d11b11624b98324e6ea105dff2ccd5841b6f",
+     "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+     "f45a88f00e6020674189cc507dd03be5641299fe9c1062bab3e7ce787cce37da",
+     "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+     "ef5a492f43b9bcc82378f99fa7a489531b30a7efd17defa0f2ea95a8e6614a00",
+     "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+     "4b5de528f79c160d40316c97deda2763ddb2ab1108721a40a67607031dbeef87",
+     "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+     "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+     "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+     "f33853686e49752f697066ce99abf9d6b3cefcced40660b783843d94f60276df",
+     "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+     "f51d2d53ff2c4f644fd9e63a952b4f0e0ca44a66ce42155526d6dd549075674f",
+     "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
+     "be0ed5d5d33205c91b74a1c7d919e96588e5905670b21a0c2781d23c971ce5a8",
+     "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
+     "96417a37cf1158cac8fa07256f8f091aff5d2204e39a2cb57ca1082151b0bd19",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+     "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+     "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+     "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+     "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+     "6da00dc65a091340325dd51eeb2c6c4aaa132241b89a42caaf91f4f6e3711a5f",
+     "0f15b4d3055ddbb27a68846da548288353621be82131053ffdcc437d43896144",
+     "6e0dc6ec9dbc31bd97663b4b1875605a074779adadd4bff5daf2452b7d4f4751",
+     "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+     "bd95ade173dbe320e6517d309012ff76da2a1137152ffc5748b4fb3b005fe531",
+     "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+     "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
+     "a29591f803e37080ec7e2e0b0a2e09987619a25d8515934c1982acdce65c4234",
+     "9105825cef46de924f70ef8e6aa3af4abf5aaeb89b546ee2d5823add23e603c7",
+     "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
+     "d36bc1779260677e2c094778df9085ef2ad1b3f698eb1a303473fda4be17d524",
+     "a393b482db708b3024a837fc7cf8346a7d8b24e466ab5480ca76e2d7c73b7057",
+     "84a48e8038e05f34c8b63a8ace8ba923e67796f16672d5a5948e1a37dd4ae613",
+     "0b0d9bf7138db2c885c982ecf946264b8e7e5341707440783e71e5e8d7e7c2c1",
+     "365a310082c44ac4bd5774ae005f45bcad50d142c5613cea49a859aa5cbe9dd1",
+     "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+     "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
+     "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+     "5108d8fecfbca362b8fef36bb2635b791a9954af2817e48f7d9c7b940341529b",
+     "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+     "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
+     "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
+     "3811ed645906089fdd14e233500273618620261e40152ec4517931058791b755",
+     "91028f94e049e982a127816a34c801222e6c9625efe4cdd69dca76701731c09b",
+     "717690d9ae2490a87274b506a4151045a33f012163fe61d710c7e4870f2655b7",
+     "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
+     "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+     "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+     "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
+     "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+     "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+     "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
+     "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
+     "eb004dbd4a5928497e9395c130c8e803700931409983ff24d1e9ee98f88d2982",
+     "48d2d9f792f2be0341d2a0fbe9317328d697770a3a8e7592a48eb12ac035d773",
+     "9a8c1908258588f050984e3f545295d310d987f49858b9bea678d9319935e606",
+     "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
+     "eac48fb8f29544fc98efb7701a052a01f2e27dd5c00c51183b7dc96632dbc8ab",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "34d9d81eb7a15bf083de17fd40b533249b21b14be4b9e651bc5393feccba6d04",
+     "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
+     "7e0766a82ca991a74c34ac9cfec919112c76b1fb7e822f45c8eaba824f628890",
+     "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+     "6501613c5c03990c5ee10a84ead7c5cd7ac1bb77c5abe41c192b90f409c89074",
+     "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+     "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
+     "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+     "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
+     "c7e6734708fc8fa6533380487551533f4cd4b32977b1974d6af4460a4c1d5a8a",
+     "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+     "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+     "9e67ec68627f67f1fc2ec21bc7c96d0b75a8b1c8246941474de9e734604d67a7",
+     "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
+     "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
+     "c137e0fa834948570093683183677017324a36c01843e76295b43f62e0d678d3",
+     "f9f82758908116b7445493cc1d5e0403b09dc42658bb01fda56b4e89cbc00e59",
+     "a082b662c5bab0b2bcc773067eba48733e8360fa6d8fb4e2ee1ee4898254ed39",
+     "312b3b4a03623d2ad00117516e5eb592776fe6143f4a48e942faee8eb50c6da7",
+     "03a39984b47ef4988c7b00b1c6a5f5dc175844ac0ee77d398afef8fd5db03ef3",
+     "d795c44a2b6ac06a8eed8aea45804be91e16979238fc76cdc90d183796a1d81b",
+     "5943318ad4ccbfffda7414a3a6f0ef3204f7614900e6c7a6d4fea828c6bf15af",
+     "0429b19ee2a7e0c115adcb7d73d99185ca11a5af0d6fb5633be762dee9c4c1d9",
+     "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "2ec42643843dd6e54e40097c464ea3ff2a6afd30e0908715159a39af65355bd4",
+     "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+     "4e1fcb3906f5f09b97c1d32b77cdc8f068b09ccdf236d5f6d7282a54be8ecaa3",
+     "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+     "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+     "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
+     "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+     "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+     "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+     "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+     "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+     "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
+     "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "532304072e9ce4ad372a2396c713556a1a03e3c6faaa890af3156df7f50b70a5",
+     "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+     "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
+     "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
+     "e0620e0a515362777c95eb7eab221b30a7236ca12d3183770626bb2d40395ad5",
+     "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+     "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
+     "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
+     "6fe85526249f01919b6f80ff449f3554481d0f6079e745b0f03249500b698f4f",
+     "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
+     "6e34c7f04fc84d2d67e8b394712985e3189ca6e859b31574b5bc1e2ace089e30",
+     "7eb0a6385c686eeda854e4dc78fe364bc7cc4413ba7a3b20bb2c38803abb43b6",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
+     "d8bf3029809cfec6751fe561acaf2e37e2e54f7ae8ddd7191cae45375ece0e3d",
+     "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
+     "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
+     "f5bdc901f3aebb98aae30b44e4299d2ff70b577a05776e6d27e199583affc7b4",
+     "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
+     "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+     "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+     "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+     "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+     "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+     "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+     "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
+     "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+     "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+     "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
+     "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+     "9401bb6154f06b151d78c11c9ac39b7b0a1ca36c9fd1ec1742563c3ce7319d2e",
+     "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
+     "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+     "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+     "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
+     "2677f8abb12113d5e56f623f971428514a3d6149dd1365762ad6cb307cba053f",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
+     "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
+     "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
+     "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
+     "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
+     "c3f7b2f110d6ce672cce9e37006a3c077d8cf3f8abca674910a9a2a1345d5d20",
+     "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
+     "ce00ed37e5a0b139383fc8dccd02e6a460033b01032c996b6fb5efec4cc83cc4",
+     "ee50e031daad54aab848eb9ecd1b325615337a94405c16a5acec558565ebe497",
+     "703c7c31af3aab0081e4065197958849acf17c89d5c1094148f5d66ec5cf37a8",
+     "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
+     "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+     "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
+     "ef55d2dccafd0662c483ca82814efc4765525469dd03fc9a399d8ebc0604e8a6",
+     "c249a26abf9d0585185a0cf7bb23611f66862e4de049720b95c62f5b100a26fe",
+     "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
+     "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
+     "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
+     "0a760ec19790424acd09c3f8b120f7964dceb1a413194d25432a3bee4ea6ac2c",
+     "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
+     "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+     "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
+     "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+     "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "f4dbfa277f8abb868c37f666e6a91cc8316ff5e71212b353fd7f37beffb79fb0",
+     "8c226ba88676ba60b0939c7c8779dab4ad12e4f1084aeb91f584a08a1bc10fd9",
+     "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
+     "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
+     "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+     "784a4fda3de3b6ba5b6c6f35949964b287c841cb0dd6b965bde098365bd34645",
+     "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+     "a12f2180ce85da1d4192fc0d98104e3e2a9dd57db50916a0714bd99b7b692006",
+     "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
+     "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
+     "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
+     "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+     "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+     "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+     "5d6cb28736139cb5f47e35804ce35c755dfba97f58ad9fc40c8cc2933059c656",
+     "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+     "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
+     "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+     "dd1ce0323d441e900aa3206ecf95a034aa1aa7f5024a719c4182681764130ea1",
+     "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
+     "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
+     "475cb6ae582faa09b218bf79536cd91d119912c0e59eea4c41bb9602d6d88cc8",
+     "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+     "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
+     "528b4e6ce13f7173a7eb2f8b2a3b1dbabe0b38c6eacfec5508dc26564204426c",
+     "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
+     "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+     "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+     "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
+     "be9052f12fa780fc1400cd64e4684e78726343e14643a2e73193cc7a64f3bba1",
+     "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+     "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
+     "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4",
+     "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52"
+    ]
+   },
+   {
+    "name": "first_source_off",
+    "criteria": {
+     "sources_off": [
+      "asa"
+     ],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "75a6933fddb876f7a90c51a27d36bd5a263c77e1fab27387a693829d9d78914f",
+     "f3a8f964908a4ba43fdbbc6701c60485891398ad4c381c0acb8b2fb43ea34ca2",
+     "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682",
+     "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960",
+     "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+     "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
+     "8a0878bee21c25af6160d53cbcb4726289b7d33dd14e996fa4977a2ef24343df",
+     "76edd7ecc8c21e58ff5a10d5ae34b69066ab306a87c842e360f2e0187b6c5754",
+     "385ddcdd94383bdf9f9d8b677ebac7bb32398d68f53d93cfd4f74f5bc64f44cc",
+     "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
+     "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
+     "a2e6143e95a4aa3a3a2ac141ca298e14515e43b2b019866ab3b69b200da99721",
+     "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
+     "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+     "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
+     "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+     "9f861241b0d5a618efb1562f856f8f9a2b3b1c541a94f003d5cece399dbc90fc",
+     "51952afc3b7b639bb5641dc89ca0cee1ef8ea5b6d8a568937b1eebc56ce78446",
+     "32b31044a9de219bc17b018c20ebe9ab5557e78d68d762bfb3b2317882c589f5",
+     "ad43d1213ba76c2e6ed68d065133eca04ccc8a5d0c08fbd45006b24ceaa7fbc1",
+     "130bba7c4f312b7b991b2f0f3d906fab5bf89ee4881f8da4c91f04cb264dc647",
+     "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+     "477b9498ef6a64181a3916156daa424361166950c3fd7599c6b2af5be8b25ad8",
+     "13fbdbf299e39871c46176fbbae13bc5739b02148d46fa0b283e6080771232e7",
+     "2096805c867cf79806dab968636ccf5494ac842066650c9faafaf2172f8f5a5c",
+     "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
+     "10c1e64aeb0d4ac5b5ecef143f54956cee4e9d136712596cd48b6a6450352514",
+     "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
+     "84d709950adaa9e9ee73dc279dda9b3f1b28216d458ba86c690850666e159bbb",
+     "a58504bb38f02aa9ae4d31d67b02d949cb86451ccc1db52c5f93a1ff40167bdf",
+     "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+     "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+     "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
+     "9a84d3685e0a79c46417c99feac4e2c1ef45966f87e8d31a6b5c6c2647964baf",
+     "6f3745bdc28dde3c868f6b03a77f40147be0bb9cd2b280e33e10ea55460cdcad",
+     "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
+     "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
+     "690fb30d999d3bd01099364b086c30750335bfb4b0f57ffc5d434ea1a9371914",
+     "f7018b3beb321f6557a329ef2edeb6b405281103bff7cbce1ae0c551ae4a69c4",
+     "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+     "d80ee43b88d695f561ee886e9fa17adecda5e3aeb2d1370cb7a492f4b8e5288b",
+     "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+     "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+     "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+     "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+     "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+     "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
+     "a8ea1420fced1e01ea5548f37da56f4013386069412a12d7fe287ccfddc0edab",
+     "13b435f7f567b7102a42643e847b3a379a1110d74a0cd63b95f3172218d42495",
+     "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+     "f4bb9bbfadd9e9766dbc3fdcc1882eebf2fba811da4daaede81e928bf229189f",
+     "6caf9a409d6be5d17a065cb45ac3fd65a5df79be856d58902379df5f2de6a91e",
+     "1bd0713a63e8b7d77495968a75ea2269ca3218416f5eaf91c2f249771d0fe62e",
+     "011f49e81f215c12d0d582912b26fa8b4c692346dbc91905ad8f70f3595dc185",
+     "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+     "ee7c197195853d7f9941c2003606fe2ac15f891346fce2ce5be397108e9c078c",
+     "d4400f51c8a8e9b173b240836ac06ce2f5c1ba0c4117ad0b1c0bfa9e3b4743ff",
+     "434890c321873491698f53f4fcdd97965c9be7ba0c1be54b1fbc1e76abdae116",
+     "0a7257cf950362b603591fc2d81c4ad1f9eec61873f1d61b01d9115775362bba",
+     "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
+     "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+     "1c7fc4838a3e3f76418b00e4e8c33ee3caed3c41baa32359c066b7dcf67bb921",
+     "791f22b323b5bcadd6eea868236fa1edb3dc4de7046beb3376cee3618928fa77",
+     "178de1c782c57bb056b06162bd9ea52aa45b5d92b267fd71ecf66bdc1d1203ab",
+     "afbc0be7d4bddf1eee8b54913143431e385ef3d1a222a054f1b59ba8fb9ec389",
+     "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+     "4eaf2d7434d3739a3ae33d66ebd42175e927fdc41c4684b95d9cc1f35bfcfe43",
+     "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+     "d30b48b50af32d524413606582995335519f70400e4ef999ec407f83193902cd",
+     "79a92acb7b1f060361cf2d8a69fcb5f5020896ae40fccc029b97d110f23bb523",
+     "033f082392ed07db4675b13d8cd3e28757ec259386ed535fa80217d53c337460",
+     "063373b9a4125e4540fbd5865bf29fb648045c18e9d15b1c4745fd4f16e797c7",
+     "15432a94bc08978c560601183124e26d72d66c1fe9bb382191fafd2b90d18528",
+     "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+     "83a8d6771de0669ed7fde2557eca5bbc752e9d55d05011ad3e7d4f653aafafa5",
+     "e60119ece63e29a9b72950ddad72298fc760ed7b96b8b28233ee2ae95d0bc90f",
+     "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
+     "257bd5ec8429d9b60755d4795778dfcd998c90cff43338a191d8109fab10770c",
+     "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+     "c35412314ae631c9f193acd972014106be1559c424885853442963f4861a1198",
+     "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
+     "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+     "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
+     "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
+     "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+     "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+     "d44ad1106f15b7f5be93c62489b2c3b6b1240c4e4d7b2704668eb16ac9d30199",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "22081219b7f7aed82a4091b2e5f5b59d2a4ab1eb4a08db0e67093da4fa4a4235",
+     "9866d699f79964988ba8e1300ec580af42c4d640d807e24c0022d0bc69ae1926",
+     "375c221541a25fd37449d55136691ce97c07f53409a2230b976a21483568f018",
+     "58ebf1d891dc36b7a7b8c139c89c56db6a215d9cb01e6c52e5b1f7624ec4239f",
+     "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
+     "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d0446cdbabadd4fa7982cc85782a2e7e6cddb282ac847f39854b5eee03244a3c",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033",
+     "7efced5b5bd4139747dbebbfbe50f4580f3bee9f99e0056975a2d4088ad55525",
+     "f0d2a2caadcd98ee3938da15caa3c893cf1084d1a02907edef712675e7b7f944",
+     "4aea3c3fd08cff230669c91380709833e34a2b85424ffd3af333525086a431b9",
+     "e377d4d92c21d8d52d1f3d927b291aa3e3f782d8608927f4952e141104c65f34",
+     "e7c7b2869ed1f76376fd607d02474ccd4ce749e1c32c275c73c854cec161b449",
+     "d288df5db891c01d387a0983754b6837a47294907e161961c5ca6a93bee11563",
+     "a3adfeee99dc0607bb066d4b2314fb182b4560bdf47f8094880c895b9f49a324",
+     "afa089a96e690d63290154d3f9dc8b0c9df0b8c0760961513cc4bc6697237034",
+     "cf625b4a6505172c7aac04f1078f9f6af0ce42eccb5536d63695972e82bb6499",
+     "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+     "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+     "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+     "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+     "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+     "a5bc987367db88df95c7139ca4ff1a89133d8ee128c53ae434534c5fc088a056",
+     "fc75c9095a2e29e70664b7ad1b7a4d1ba40287977d134d460898ad11eaef0107",
+     "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+     "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+     "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "55e96d3c2513415d59ba3d275d9153b9cf74bcf99863838847fafe228929e042",
+     "0e7195aa1494ba192a5ea7d13b596f17a321bedd6a26e30f976d216d03e0e292",
+     "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
+     "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
+     "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+     "fae2d65e924e4216216c2cf46157fd9856b19b9c84144b2e047543bba3b4fde8",
+     "ec16412d427c2bfacb5f0e29bce6fef61594f0d1c0367298e34efaa14decd403",
+     "cf22cbf6b4b4c253ce1d3edfc8bb8352d734c33f31d768c7d4ec05792f65651e",
+     "1a50fe5b53a8cd3af0e435a6952f008947b6e281ec09a1dec0d57952f8ccd94f",
+     "27c23435d126c895e304f5d477d7b6b1f1764224981102f78a663f574114234d",
+     "dcbe3ec91d15d3fc9831014053b4cb19e7773cfb30fe61b55f3889104ba82fa6",
+     "4203ddd1e2c780819959729985419796908dbe141fe928fe1e4630f42d8e6e7e",
+     "79e0e0842d2d0a33a9039d8effa5d11b11624b98324e6ea105dff2ccd5841b6f",
+     "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+     "f45a88f00e6020674189cc507dd03be5641299fe9c1062bab3e7ce787cce37da",
+     "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+     "ef5a492f43b9bcc82378f99fa7a489531b30a7efd17defa0f2ea95a8e6614a00",
+     "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+     "4b5de528f79c160d40316c97deda2763ddb2ab1108721a40a67607031dbeef87",
+     "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+     "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+     "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+     "f33853686e49752f697066ce99abf9d6b3cefcced40660b783843d94f60276df",
+     "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+     "f51d2d53ff2c4f644fd9e63a952b4f0e0ca44a66ce42155526d6dd549075674f",
+     "98af5f7b647078f6e9c4fffb0362b893f7db23911d01b23cc8b32a49c0379a68",
+     "be0ed5d5d33205c91b74a1c7d919e96588e5905670b21a0c2781d23c971ce5a8",
+     "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
+     "96417a37cf1158cac8fa07256f8f091aff5d2204e39a2cb57ca1082151b0bd19",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+     "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+     "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+     "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+     "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+     "6da00dc65a091340325dd51eeb2c6c4aaa132241b89a42caaf91f4f6e3711a5f",
+     "0f15b4d3055ddbb27a68846da548288353621be82131053ffdcc437d43896144",
+     "6e0dc6ec9dbc31bd97663b4b1875605a074779adadd4bff5daf2452b7d4f4751",
+     "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+     "bd95ade173dbe320e6517d309012ff76da2a1137152ffc5748b4fb3b005fe531",
+     "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+     "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
+     "a29591f803e37080ec7e2e0b0a2e09987619a25d8515934c1982acdce65c4234",
+     "9105825cef46de924f70ef8e6aa3af4abf5aaeb89b546ee2d5823add23e603c7",
+     "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
+     "d36bc1779260677e2c094778df9085ef2ad1b3f698eb1a303473fda4be17d524",
+     "a393b482db708b3024a837fc7cf8346a7d8b24e466ab5480ca76e2d7c73b7057",
+     "84a48e8038e05f34c8b63a8ace8ba923e67796f16672d5a5948e1a37dd4ae613",
+     "0b0d9bf7138db2c885c982ecf946264b8e7e5341707440783e71e5e8d7e7c2c1",
+     "365a310082c44ac4bd5774ae005f45bcad50d142c5613cea49a859aa5cbe9dd1",
+     "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+     "f51b2783c10e2e4e48e43ee5d843fd15bd6c1c83f6327ae01ce86f4550b69793",
+     "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+     "5108d8fecfbca362b8fef36bb2635b791a9954af2817e48f7d9c7b940341529b",
+     "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+     "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
+     "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
+     "3811ed645906089fdd14e233500273618620261e40152ec4517931058791b755",
+     "91028f94e049e982a127816a34c801222e6c9625efe4cdd69dca76701731c09b",
+     "717690d9ae2490a87274b506a4151045a33f012163fe61d710c7e4870f2655b7",
+     "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
+     "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+     "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+     "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
+     "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+     "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+     "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
+     "eb004dbd4a5928497e9395c130c8e803700931409983ff24d1e9ee98f88d2982",
+     "48d2d9f792f2be0341d2a0fbe9317328d697770a3a8e7592a48eb12ac035d773",
+     "9a8c1908258588f050984e3f545295d310d987f49858b9bea678d9319935e606",
+     "5de2e9aa81b9ecb008e66144a74e5852afac9cbe5d4245f52acaff7fb25cb5d8",
+     "eac48fb8f29544fc98efb7701a052a01f2e27dd5c00c51183b7dc96632dbc8ab",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "34d9d81eb7a15bf083de17fd40b533249b21b14be4b9e651bc5393feccba6d04",
+     "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
+     "7e0766a82ca991a74c34ac9cfec919112c76b1fb7e822f45c8eaba824f628890",
+     "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+     "6501613c5c03990c5ee10a84ead7c5cd7ac1bb77c5abe41c192b90f409c89074",
+     "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+     "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
+     "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+     "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
+     "c7e6734708fc8fa6533380487551533f4cd4b32977b1974d6af4460a4c1d5a8a",
+     "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+     "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+     "9e67ec68627f67f1fc2ec21bc7c96d0b75a8b1c8246941474de9e734604d67a7",
+     "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
+     "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
+     "c137e0fa834948570093683183677017324a36c01843e76295b43f62e0d678d3",
+     "f9f82758908116b7445493cc1d5e0403b09dc42658bb01fda56b4e89cbc00e59",
+     "a082b662c5bab0b2bcc773067eba48733e8360fa6d8fb4e2ee1ee4898254ed39",
+     "312b3b4a03623d2ad00117516e5eb592776fe6143f4a48e942faee8eb50c6da7",
+     "03a39984b47ef4988c7b00b1c6a5f5dc175844ac0ee77d398afef8fd5db03ef3",
+     "d795c44a2b6ac06a8eed8aea45804be91e16979238fc76cdc90d183796a1d81b",
+     "5943318ad4ccbfffda7414a3a6f0ef3204f7614900e6c7a6d4fea828c6bf15af",
+     "0429b19ee2a7e0c115adcb7d73d99185ca11a5af0d6fb5633be762dee9c4c1d9",
+     "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "2ec42643843dd6e54e40097c464ea3ff2a6afd30e0908715159a39af65355bd4",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+     "4e1fcb3906f5f09b97c1d32b77cdc8f068b09ccdf236d5f6d7282a54be8ecaa3",
+     "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+     "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+     "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
+     "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+     "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+     "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+     "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+     "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+     "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
+     "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "532304072e9ce4ad372a2396c713556a1a03e3c6faaa890af3156df7f50b70a5",
+     "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+     "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
+     "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
+     "e0620e0a515362777c95eb7eab221b30a7236ca12d3183770626bb2d40395ad5",
+     "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+     "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
+     "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
+     "6fe85526249f01919b6f80ff449f3554481d0f6079e745b0f03249500b698f4f",
+     "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
+     "6e34c7f04fc84d2d67e8b394712985e3189ca6e859b31574b5bc1e2ace089e30",
+     "7eb0a6385c686eeda854e4dc78fe364bc7cc4413ba7a3b20bb2c38803abb43b6",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
+     "d8bf3029809cfec6751fe561acaf2e37e2e54f7ae8ddd7191cae45375ece0e3d",
+     "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
+     "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
+     "f5bdc901f3aebb98aae30b44e4299d2ff70b577a05776e6d27e199583affc7b4",
+     "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
+     "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+     "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+     "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+     "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+     "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+     "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+     "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
+     "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+     "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+     "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
+     "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+     "9401bb6154f06b151d78c11c9ac39b7b0a1ca36c9fd1ec1742563c3ce7319d2e",
+     "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
+     "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+     "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+     "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
+     "2677f8abb12113d5e56f623f971428514a3d6149dd1365762ad6cb307cba053f",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
+     "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
+     "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
+     "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
+     "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
+     "c3f7b2f110d6ce672cce9e37006a3c077d8cf3f8abca674910a9a2a1345d5d20",
+     "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
+     "ce00ed37e5a0b139383fc8dccd02e6a460033b01032c996b6fb5efec4cc83cc4",
+     "ee50e031daad54aab848eb9ecd1b325615337a94405c16a5acec558565ebe497",
+     "703c7c31af3aab0081e4065197958849acf17c89d5c1094148f5d66ec5cf37a8",
+     "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
+     "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+     "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
+     "ef55d2dccafd0662c483ca82814efc4765525469dd03fc9a399d8ebc0604e8a6",
+     "c249a26abf9d0585185a0cf7bb23611f66862e4de049720b95c62f5b100a26fe",
+     "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
+     "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
+     "0a760ec19790424acd09c3f8b120f7964dceb1a413194d25432a3bee4ea6ac2c",
+     "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
+     "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+     "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
+     "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+     "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "f4dbfa277f8abb868c37f666e6a91cc8316ff5e71212b353fd7f37beffb79fb0",
+     "8c226ba88676ba60b0939c7c8779dab4ad12e4f1084aeb91f584a08a1bc10fd9",
+     "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
+     "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
+     "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+     "784a4fda3de3b6ba5b6c6f35949964b287c841cb0dd6b965bde098365bd34645",
+     "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+     "a12f2180ce85da1d4192fc0d98104e3e2a9dd57db50916a0714bd99b7b692006",
+     "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
+     "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
+     "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
+     "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+     "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+     "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+     "5d6cb28736139cb5f47e35804ce35c755dfba97f58ad9fc40c8cc2933059c656",
+     "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+     "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
+     "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+     "dd1ce0323d441e900aa3206ecf95a034aa1aa7f5024a719c4182681764130ea1",
+     "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
+     "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
+     "475cb6ae582faa09b218bf79536cd91d119912c0e59eea4c41bb9602d6d88cc8",
+     "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+     "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
+     "528b4e6ce13f7173a7eb2f8b2a3b1dbabe0b38c6eacfec5508dc26564204426c",
+     "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
+     "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+     "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+     "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
+     "be9052f12fa780fc1400cd64e4684e78726343e14643a2e73193cc7a64f3bba1",
+     "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+     "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
+     "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4",
+     "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52"
+    ]
+   },
+   {
+    "name": "first_category_off",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [
+      "Policy and legislation"
+     ],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "75a6933fddb876f7a90c51a27d36bd5a263c77e1fab27387a693829d9d78914f",
+     "f3a8f964908a4ba43fdbbc6701c60485891398ad4c381c0acb8b2fb43ea34ca2",
+     "3cc4ea46c077719580180f963565938a5259e1f4c8cec0732f16f4ec11d36682",
+     "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960",
+     "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
+     "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
+     "76edd7ecc8c21e58ff5a10d5ae34b69066ab306a87c842e360f2e0187b6c5754",
+     "385ddcdd94383bdf9f9d8b677ebac7bb32398d68f53d93cfd4f74f5bc64f44cc",
+     "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
+     "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
+     "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
+     "a2e6143e95a4aa3a3a2ac141ca298e14515e43b2b019866ab3b69b200da99721",
+     "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
+     "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
+     "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
+     "91477bd895f1b02fe68e20880104cf6c1231200e97cc6ad5348b2a482fa80383",
+     "9f861241b0d5a618efb1562f856f8f9a2b3b1c541a94f003d5cece399dbc90fc",
+     "51952afc3b7b639bb5641dc89ca0cee1ef8ea5b6d8a568937b1eebc56ce78446",
+     "32b31044a9de219bc17b018c20ebe9ab5557e78d68d762bfb3b2317882c589f5",
+     "ad43d1213ba76c2e6ed68d065133eca04ccc8a5d0c08fbd45006b24ceaa7fbc1",
+     "130bba7c4f312b7b991b2f0f3d906fab5bf89ee4881f8da4c91f04cb264dc647",
+     "985b44a33895fb692906b580bcfb9b29bbb0be54b483af7fb572612eec8d78d5",
+     "13fbdbf299e39871c46176fbbae13bc5739b02148d46fa0b283e6080771232e7",
+     "2096805c867cf79806dab968636ccf5494ac842066650c9faafaf2172f8f5a5c",
+     "10c1e64aeb0d4ac5b5ecef143f54956cee4e9d136712596cd48b6a6450352514",
+     "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
+     "84d709950adaa9e9ee73dc279dda9b3f1b28216d458ba86c690850666e159bbb",
+     "a58504bb38f02aa9ae4d31d67b02d949cb86451ccc1db52c5f93a1ff40167bdf",
+     "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+     "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+     "38bc62ff4acf58d1529bf6c796a991969d7eeca53cb503aa97377f6eb0864e81",
+     "9a84d3685e0a79c46417c99feac4e2c1ef45966f87e8d31a6b5c6c2647964baf",
+     "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
+     "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
+     "690fb30d999d3bd01099364b086c30750335bfb4b0f57ffc5d434ea1a9371914",
+     "f7018b3beb321f6557a329ef2edeb6b405281103bff7cbce1ae0c551ae4a69c4",
+     "d80ee43b88d695f561ee886e9fa17adecda5e3aeb2d1370cb7a492f4b8e5288b",
+     "e73acbbb50cb53c7f884faeb98c980b58cc5d97416345d807d7742ce03e3d72e",
+     "28c0b1298066588ea4306e6c967908e16d87bec8180ef1f3f333ad498db8b9c4",
+     "9a1d414abc64f032ec02c7e21f04065ba5c36c5c8051102eb7fe1f754262aa7c",
+     "5eac1172019b25932c70e60111da08b05e4e760fb173834a1db9774112095782",
+     "521aa8863b782e9426b24b97814d0fe5a58ac67b60e13fad4381675145b249b1",
+     "2a1baac7e32d9b948aa5d1267a6a59107840239fecb71870298ba887682b37a3",
+     "a8ea1420fced1e01ea5548f37da56f4013386069412a12d7fe287ccfddc0edab",
+     "13b435f7f567b7102a42643e847b3a379a1110d74a0cd63b95f3172218d42495",
+     "f4bb9bbfadd9e9766dbc3fdcc1882eebf2fba811da4daaede81e928bf229189f",
+     "6caf9a409d6be5d17a065cb45ac3fd65a5df79be856d58902379df5f2de6a91e",
+     "1bd0713a63e8b7d77495968a75ea2269ca3218416f5eaf91c2f249771d0fe62e",
+     "e3a97c1b128a3d2caf6777402a3043dac5a0a08a4505031d6ac67e83e951e2c6",
+     "ee7c197195853d7f9941c2003606fe2ac15f891346fce2ce5be397108e9c078c",
+     "d4400f51c8a8e9b173b240836ac06ce2f5c1ba0c4117ad0b1c0bfa9e3b4743ff",
+     "0a7257cf950362b603591fc2d81c4ad1f9eec61873f1d61b01d9115775362bba",
+     "8b64d84756f6a9afadbb6f375eb296617e35a047abf8fc0a2fe26e3c996238b1",
+     "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+     "1c7fc4838a3e3f76418b00e4e8c33ee3caed3c41baa32359c066b7dcf67bb921",
+     "791f22b323b5bcadd6eea868236fa1edb3dc4de7046beb3376cee3618928fa77",
+     "178de1c782c57bb056b06162bd9ea52aa45b5d92b267fd71ecf66bdc1d1203ab",
+     "afbc0be7d4bddf1eee8b54913143431e385ef3d1a222a054f1b59ba8fb9ec389",
+     "8802fb68ca3f87de54951889df4a0a668aeade0255a2c37d5ab349289c1a690c",
+     "4eaf2d7434d3739a3ae33d66ebd42175e927fdc41c4684b95d9cc1f35bfcfe43",
+     "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+     "79a92acb7b1f060361cf2d8a69fcb5f5020896ae40fccc029b97d110f23bb523",
+     "033f082392ed07db4675b13d8cd3e28757ec259386ed535fa80217d53c337460",
+     "063373b9a4125e4540fbd5865bf29fb648045c18e9d15b1c4745fd4f16e797c7",
+     "15432a94bc08978c560601183124e26d72d66c1fe9bb382191fafd2b90d18528",
+     "d0319ef70752fb504fdfb89f87cda9d72076ca791eeda448d712008170e1ef64",
+     "f7d1d57b7e9cb59608c215da84a9409a47ee53c80e67aa362a7a69f6ca50e51d",
+     "83a8d6771de0669ed7fde2557eca5bbc752e9d55d05011ad3e7d4f653aafafa5",
+     "e60119ece63e29a9b72950ddad72298fc760ed7b96b8b28233ee2ae95d0bc90f",
+     "25cd6198f00157f8d29eba4dd814620b18f54a6cd38f872e60a3647629ed1e26",
+     "257bd5ec8429d9b60755d4795778dfcd998c90cff43338a191d8109fab10770c",
+     "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+     "c35412314ae631c9f193acd972014106be1559c424885853442963f4861a1198",
+     "fdf02198251fb77b3e0944c213cfcbce19c49c16105e31d80e5ef0a7c2eff62a",
+     "f4f0ecffa641413176b5d029150726be82737e7ad3dced41bd45c7468b9cdc96",
+     "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
+     "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
+     "f321249d2eaf608cf4e03af67b5f84213afe9ec50274c90d633a59c121b4605f",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "22081219b7f7aed82a4091b2e5f5b59d2a4ab1eb4a08db0e67093da4fa4a4235",
+     "9866d699f79964988ba8e1300ec580af42c4d640d807e24c0022d0bc69ae1926",
+     "2c5b2bbaa77649eac1a78d281efc8f4a0ed4d33fe929ab5187be111afbba6639",
+     "375c221541a25fd37449d55136691ce97c07f53409a2230b976a21483568f018",
+     "58ebf1d891dc36b7a7b8c139c89c56db6a215d9cb01e6c52e5b1f7624ec4239f",
+     "d313a94fa87eff79bc78183f08a454783af3278e441ecdd3292180d04b838479",
+     "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d0446cdbabadd4fa7982cc85782a2e7e6cddb282ac847f39854b5eee03244a3c",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "45d89409f072fb25ae2831e05c3dda7b3a0797001c0ac08c64de294697553033",
+     "7efced5b5bd4139747dbebbfbe50f4580f3bee9f99e0056975a2d4088ad55525",
+     "4aea3c3fd08cff230669c91380709833e34a2b85424ffd3af333525086a431b9",
+     "e377d4d92c21d8d52d1f3d927b291aa3e3f782d8608927f4952e141104c65f34",
+     "d288df5db891c01d387a0983754b6837a47294907e161961c5ca6a93bee11563",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "0e7195aa1494ba192a5ea7d13b596f17a321bedd6a26e30f976d216d03e0e292",
+     "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
+     "9a9e6a3d78593bc18d091c3e3c927bae0676ddc3a489f449f4db32c8ba2c5606",
+     "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+     "be0ed5d5d33205c91b74a1c7d919e96588e5905670b21a0c2781d23c971ce5a8",
+     "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "de810d6e194d97884b6ba8353417b5de187d3fcd13db7ce94cc39732ec01622e",
+     "5fc1645b876dc5fa0e117f86dcb278d996be9ebb7813510e05be4467da13c135",
+     "17c70b5d21005aeaa4348e0830253dd64a2cb15f8b6039f0a648ecf679ff8d49",
+     "c1f2b3a59d7496f7d547a59a80c9cbed4debea55941fec9d7edd54485c8eebda",
+     "6da00dc65a091340325dd51eeb2c6c4aaa132241b89a42caaf91f4f6e3711a5f",
+     "0f15b4d3055ddbb27a68846da548288353621be82131053ffdcc437d43896144",
+     "6e0dc6ec9dbc31bd97663b4b1875605a074779adadd4bff5daf2452b7d4f4751",
+     "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+     "bd95ade173dbe320e6517d309012ff76da2a1137152ffc5748b4fb3b005fe531",
+     "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+     "ab60586d5433ea66b30c6af57a3118c07e7b3b7a7e05702f0bdcbede61be96eb",
+     "a29591f803e37080ec7e2e0b0a2e09987619a25d8515934c1982acdce65c4234",
+     "c0a0b93caa2084ba64acb697563f28b6a84c22cf3601143fae3a5e4b03bd9afa",
+     "d36bc1779260677e2c094778df9085ef2ad1b3f698eb1a303473fda4be17d524",
+     "a393b482db708b3024a837fc7cf8346a7d8b24e466ab5480ca76e2d7c73b7057",
+     "84a48e8038e05f34c8b63a8ace8ba923e67796f16672d5a5948e1a37dd4ae613",
+     "0b0d9bf7138db2c885c982ecf946264b8e7e5341707440783e71e5e8d7e7c2c1",
+     "365a310082c44ac4bd5774ae005f45bcad50d142c5613cea49a859aa5cbe9dd1",
+     "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+     "71033b44e12e65b34dd5bdb9d45c9098c129d6800a8a15f09ba968f1e489a311",
+     "5108d8fecfbca362b8fef36bb2635b791a9954af2817e48f7d9c7b940341529b",
+     "50fe2b353fda98b3c196c1d8db3074e1c2d229a5126db7124b22570143eb983b",
+     "f6f3394dbd91c02fbeb1b946d2013969b85644632859053db96a073ae26e08e0",
+     "4bfae41c0d6c8b79c7dc6c948aaab8e36369ea623d8e5264ead3e1268ef99533",
+     "3811ed645906089fdd14e233500273618620261e40152ec4517931058791b755",
+     "91028f94e049e982a127816a34c801222e6c9625efe4cdd69dca76701731c09b",
+     "717690d9ae2490a87274b506a4151045a33f012163fe61d710c7e4870f2655b7",
+     "21066f75681e47749931966ffc81fdc52ee8a3b02c4a150158eae5c6a068e9d7",
+     "3c3f77736d20146c12ced3b2ac48e5a0cb9267013c4d273a3cd5f94e2c7aa007",
+     "6b85d222539a0d284b54bc5fad5cd929e22bbe09678627ace142c424d2d4c4e7",
+     "4e12579477a26cecd1b4dbec7f94b01c895268a907a6006dfbf280a62b7ef266",
+     "145f3d31d6b3964b5847879457991d4c36f5d8d298044819557ba154aa329072",
+     "6eee38093f53cb2f0602ee641ba068c0dd98bb0297a92a215270c757d4f1269f",
+     "727a06a4bc74e5b0f8b0f2659207a9b5cc1266c6b1f09c081e893938145000cf",
+     "ecb450bf31758a3f50bb89c2d362f89ddacf10a3c14b571b3a1ebf9b6fcfed72",
+     "eb004dbd4a5928497e9395c130c8e803700931409983ff24d1e9ee98f88d2982",
+     "48d2d9f792f2be0341d2a0fbe9317328d697770a3a8e7592a48eb12ac035d773",
+     "eac48fb8f29544fc98efb7701a052a01f2e27dd5c00c51183b7dc96632dbc8ab",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "34d9d81eb7a15bf083de17fd40b533249b21b14be4b9e651bc5393feccba6d04",
+     "ece54cd62ef31a281b69aa785bb7b9ca4ca487b89b33b694486085e0a3008c7a",
+     "7e0766a82ca991a74c34ac9cfec919112c76b1fb7e822f45c8eaba824f628890",
+     "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+     "6501613c5c03990c5ee10a84ead7c5cd7ac1bb77c5abe41c192b90f409c89074",
+     "dc2f3bb539aec7620d0dec8f6d6549be9a4a2d9eac55254002a89482b792b6f3",
+     "856ffc3abee9a9eec780be08b441c5f90bc6aa981318724f7c1634ffed20918d",
+     "3fa75423e465100a751297b463e289a9d499bb62449eca12caade9ec61105f54",
+     "542229d1d88076976620abec33eac0492a2f1642217f21be8b4e99c0758f7d51",
+     "c7e6734708fc8fa6533380487551533f4cd4b32977b1974d6af4460a4c1d5a8a",
+     "cdc066fc129aee87a081cd8eeac1f901cbf95f3810b75ed0fb599cebb26dccd5",
+     "9aa24469d74ce1242eba84a3a70adf2b754c3856c859609d184c27c3bed98317",
+     "9e67ec68627f67f1fc2ec21bc7c96d0b75a8b1c8246941474de9e734604d67a7",
+     "0db604f3ee0a5bf8d4af1ed3642a9fd6abb730e461b3a5ec80c675c8cdc95f08",
+     "d161ebdc70230d54c9cb8e70a2ad8a8a21206383c7dad6489cf2ff27419d2e61",
+     "5943318ad4ccbfffda7414a3a6f0ef3204f7614900e6c7a6d4fea828c6bf15af",
+     "0429b19ee2a7e0c115adcb7d73d99185ca11a5af0d6fb5633be762dee9c4c1d9",
+     "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "2ec42643843dd6e54e40097c464ea3ff2a6afd30e0908715159a39af65355bd4",
+     "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+     "4e1fcb3906f5f09b97c1d32b77cdc8f068b09ccdf236d5f6d7282a54be8ecaa3",
+     "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+     "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+     "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
+     "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+     "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+     "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+     "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+     "4f3dff82f7b6091f6a98b81ae1d389fa82f1fed17119e0cd5e997259eb6a8f05",
+     "40c552a2512e1147371fbbf66682af10d4e61a8e666949e36065f01928e5b05c",
+     "457dd4961580b0f0dd67a05a4844014a41c3df52fde1523f2d5e5b3746b63124",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+     "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
+     "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
+     "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+     "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
+     "6e34c7f04fc84d2d67e8b394712985e3189ca6e859b31574b5bc1e2ace089e30",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
+     "d8bf3029809cfec6751fe561acaf2e37e2e54f7ae8ddd7191cae45375ece0e3d",
+     "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
+     "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
+     "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
+     "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+     "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
+     "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+     "9401bb6154f06b151d78c11c9ac39b7b0a1ca36c9fd1ec1742563c3ce7319d2e",
+     "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+     "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+     "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
+     "2677f8abb12113d5e56f623f971428514a3d6149dd1365762ad6cb307cba053f",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
+     "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
+     "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
+     "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
+     "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
+     "ee50e031daad54aab848eb9ecd1b325615337a94405c16a5acec558565ebe497",
+     "703c7c31af3aab0081e4065197958849acf17c89d5c1094148f5d66ec5cf37a8",
+     "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+     "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
+     "ef55d2dccafd0662c483ca82814efc4765525469dd03fc9a399d8ebc0604e8a6",
+     "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
+     "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
+     "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
+     "0a760ec19790424acd09c3f8b120f7964dceb1a413194d25432a3bee4ea6ac2c",
+     "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
+     "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+     "4d552ac1fb28b1ecf798fe24863a6521e508ef923967e2fd8b6826022899fea5",
+     "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "8c226ba88676ba60b0939c7c8779dab4ad12e4f1084aeb91f584a08a1bc10fd9",
+     "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
+     "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
+     "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+     "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+     "a12f2180ce85da1d4192fc0d98104e3e2a9dd57db50916a0714bd99b7b692006",
+     "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
+     "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
+     "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
+     "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+     "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+     "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+     "5d6cb28736139cb5f47e35804ce35c755dfba97f58ad9fc40c8cc2933059c656",
+     "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+     "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
+     "dd1ce0323d441e900aa3206ecf95a034aa1aa7f5024a719c4182681764130ea1",
+     "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
+     "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
+     "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+     "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
+     "528b4e6ce13f7173a7eb2f8b2a3b1dbabe0b38c6eacfec5508dc26564204426c",
+     "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
+     "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+     "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+     "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
+     "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+     "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
+     "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4",
+     "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52"
+    ]
+   },
+   {
+    "name": "top_company",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [
+      "Gambling Commission"
+     ],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+     "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+     "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+     "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+     "d44ad1106f15b7f5be93c62489b2c3b6b1240c4e4d7b2704668eb16ac9d30199",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "d288df5db891c01d387a0983754b6837a47294907e161961c5ca6a93bee11563",
+     "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+     "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+     "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+     "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+     "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+     "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+     "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+     "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+     "f45a88f00e6020674189cc507dd03be5641299fe9c1062bab3e7ce787cce37da",
+     "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+     "ef5a492f43b9bcc82378f99fa7a489531b30a7efd17defa0f2ea95a8e6614a00",
+     "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+     "4b5de528f79c160d40316c97deda2763ddb2ab1108721a40a67607031dbeef87",
+     "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+     "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+     "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+     "f33853686e49752f697066ce99abf9d6b3cefcced40660b783843d94f60276df",
+     "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+     "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
+     "96417a37cf1158cac8fa07256f8f091aff5d2204e39a2cb57ca1082151b0bd19",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "f5bdc901f3aebb98aae30b44e4299d2ff70b577a05776e6d27e199583affc7b4",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+     "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+     "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+     "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+     "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+     "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+     "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+     "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
+     "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
+     "c3f7b2f110d6ce672cce9e37006a3c077d8cf3f8abca674910a9a2a1345d5d20",
+     "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4"
+    ]
+   },
+   {
+    "name": "search_commission",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": "commission"
+    },
+    "ids": [
+     "fee9fb2d8d2739ac22e9dc755950e92adf511d66fdf568cad62a44d711667591",
+     "bb0179f80249519ae1e162cfb1c0535766c98464763c12dd497d22486b2f16ae",
+     "0a1b4ae7118064f5b5299926b91d4ac6b16f1a6e60c090e7e7a3bf1bf56b5182",
+     "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
+     "8abaac866842482954bb3b258774acd5f2ccda1d7f8a84dbc8b0e9d7dd283a25",
+     "7847a1f64938c86b7505db3a2f268035282d7b3c482e9b5ab4526b84fe395935",
+     "d78d449e42fafed17fa2def7c57cd61e7b815ca706b42202ff1d0d73b45f780d",
+     "4eaf2d7434d3739a3ae33d66ebd42175e927fdc41c4684b95d9cc1f35bfcfe43",
+     "42d6e8b1e0db077fa1aa8912daa8d02285ab367310f631d6f292a99ff829ac81",
+     "975463b5c41a6fd8758fb65ae0329d6da4d7ef4334ef1c3a60625af064c7d819",
+     "91f14c83f5347cd9bc641734fff58bce8d903b1c70883ac45df5b1ccd10bd079",
+     "ca5b04bf7d28e07f457e9e2735ef102056178e41bc53c2bb2015b43dbe031372",
+     "d44ad1106f15b7f5be93c62489b2c3b6b1240c4e4d7b2704668eb16ac9d30199",
+     "8a0d8053cfacf840457b67c3567ea0f041c32e207f052c6d6d5251d4628ff1a2",
+     "4492f845ef2adfff6f6e31020f30c782bb65544c813c70bd656d1cca569395bb",
+     "5eee72ee10b819b240db5d77d0961bb034f415c0eda837e750922cfb7b207c1a",
+     "d00446adb1a2c0a63b58600771919ee12e673e5ddcdf4d97a4d47b2815fd76d1",
+     "d288df5db891c01d387a0983754b6837a47294907e161961c5ca6a93bee11563",
+     "07f449b0038fd3babed445cdcefdeacc9161e4d6e22ff41fcab7f254fbe052bb",
+     "8339d691bbc5a4aa413539e21fc5c4c93175da1721911f1a4aba76f6d2c35994",
+     "2ed7ef59f0ad1fbea85e359cfda08255a8ab8c3ddeb3e7ea304b041f7a640d07",
+     "635c1ff1e01e9ab929595b3441ae2dd579e2ee8a29455d2c1ac617317d5ebdbc",
+     "61e01aa0b401fa5c6a16d1e15bbb00af5c2e9259c3a4c26a495a316f510a3eb9",
+     "5725c82f60ec33071b9acbfed61bc8ff011b3ce55307d95c8d8985f56e364bb4",
+     "2a21c38d126dbbb9209e314bd456c8d9bd210d13d7ddee487bc6b8edb3c18f0f",
+     "feb32a83a2b8dd06245017d393133f42659d8b81002169ef69706f41f9467fc0",
+     "536d309ed35e181c04a8294f67468f333810224eaca60a5e63aac99ec3cf9e50",
+     "21e1be267fbdc9edfba0b0d524df22ac2fdddb73a57d915ff8966451e6389946",
+     "122dbd1f4349436ee6843a4295a8f75b378a0716837f6630a5693dff5450683e",
+     "f45a88f00e6020674189cc507dd03be5641299fe9c1062bab3e7ce787cce37da",
+     "35a6ff2b05b38cb12794173e5c0398d7fecd74b2b95cb5d96d0b5dc9ea1d1b11",
+     "ef5a492f43b9bcc82378f99fa7a489531b30a7efd17defa0f2ea95a8e6614a00",
+     "4088fabc1630de950004003233d9df1abae759531d70b0cb6d47920ecc018ee9",
+     "4b5de528f79c160d40316c97deda2763ddb2ab1108721a40a67607031dbeef87",
+     "03d274ba85f688ef81ef00743bc5815de8aac60d56be6fce634d68a81b9a54ea",
+     "9c2652012a080e7a25be839ad99689013e6bc643deab46bb885760d50dccc6b9",
+     "b73ea0a372034a0b95d6afb37a6a182235bceada568f7158a05f6b2f80cda26a",
+     "f33853686e49752f697066ce99abf9d6b3cefcced40660b783843d94f60276df",
+     "5c26b6093a58b1ddf42d4b4d282612ef95cb3bb228fd007840f908b1f0c3d7e6",
+     "b03066f89db6163613fa36a59686cffc3cfddc32dd6cfb6c0f3775741657f4be",
+     "96417a37cf1158cac8fa07256f8f091aff5d2204e39a2cb57ca1082151b0bd19",
+     "091eb990923b3e1a4f607fc9f10c514dc5e78df912e33e442b78b92d0ec03213",
+     "0cee398cb186dc94e075b58ec688c3642fec46e31f12562add2fc6be1d86fd4f",
+     "43f99c1827342e7619292d4d93dabb49596382990a6b282bf7d616459d952e17",
+     "f40c20d0c1bfb7bd95b63025093940dc245e5ffb6965acf73856ee00bed310fa",
+     "5c6ab733b571936fbb64cf7f502550f8fc8d0f55146c651e29d175b8802be601",
+     "079a6dde051b38cb60380f737152e47150258f521ada9c3ae47750c1f8fe047d",
+     "afed6a7378347cd8e23ab82f548d507de1cb4461b07499da53205b55a0b6e9ff",
+     "0588dbf085fec0a99129e1adad85cb1ef880b5b46cd59ef75febc40bc560bcb6",
+     "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+     "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+     "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+     "1ddd9a1b4ba4fe6ae04739f9da06b27ae9344f89f3ada81c73b76f414e84a5bf",
+     "540c1df612bce7387a1a3a3ab2ef6c3033ae0e675d06be0d6ef44f353cdd5f8d",
+     "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+     "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
+     "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+     "f5bdc901f3aebb98aae30b44e4299d2ff70b577a05776e6d27e199583affc7b4",
+     "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+     "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+     "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+     "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+     "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+     "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+     "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+     "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+     "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
+     "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+     "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
+     "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
+     "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
+     "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+     "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+     "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
+     "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
+     "c3f7b2f110d6ce672cce9e37006a3c077d8cf3f8abca674910a9a2a1345d5d20",
+     "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
+     "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+     "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+     "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+     "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+     "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+     "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+     "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
+     "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4",
+     "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52"
+    ]
+   }
+  ]
+ },
+ "insights": {
+  "tiles": [
+   {
+    "label": "Signals this week",
+    "value": "17",
+    "note": "+1 vs 4-week average"
+   },
+   {
+    "label": "High relevance, last 30 days",
+    "value": "3",
+    "note": "+1 vs previous 30 days"
+   },
+   {
+    "label": "Active patterns",
+    "value": "12",
+    "note": "Companies with a run of related signals"
+   },
+   {
+    "label": "Themes building",
+    "value": "3",
+    "note": "Sector-wide stories gaining pace"
+   },
+   {
+    "label": "Sources healthy",
+    "value": "8/9",
+    "note": "At the last update"
+   }
+  ],
+  "volume": {
+   "counts": [
+    24,
+    44,
+    9,
+    27,
+    14,
+    20,
+    13,
+    18,
+    17,
+    37,
+    23,
+    14,
+    16,
+    12,
+    21,
+    18,
+    20,
+    0
+   ],
+   "marks": [
+    1,
+    3,
+    4,
+    8,
+    9,
+    15
+   ],
+   "top": 50
+  },
+  "heatmap": {
+   "rows": [
+    {
+     "category": "Policy and legislation",
+     "counts": [
+      3,
+      8,
+      1,
+      13,
+      2,
+      6,
+      0,
+      2,
+      2,
+      23,
+      16,
+      2,
+      1,
+      1,
+      4,
+      3,
+      1,
+      0
+     ],
+     "total": 88
+    },
+    {
+     "category": "Insolvency",
+     "counts": [
+      7,
+      7,
+      0,
+      2,
+      4,
+      4,
+      7,
+      6,
+      9,
+      5,
+      2,
+      2,
+      2,
+      5,
+      11,
+      3,
+      5,
+      0
+     ],
+     "total": 81
+    },
+    {
+     "category": "Illegal gambling",
+     "counts": [
+      2,
+      7,
+      1,
+      2,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2,
+      2,
+      1,
+      1,
+      1,
+      0,
+      3,
+      0,
+      0
+     ],
+     "total": 25
+    },
+    {
+     "category": "Tax and levy",
+     "counts": [
+      1,
+      2,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      3,
+      2,
+      2,
+      2,
+      4,
+      0
+     ],
+     "total": 21
+    },
+    {
+     "category": "Board and director changes",
+     "counts": [
+      2,
+      2,
+      1,
+      0,
+      1,
+      1,
+      0,
+      3,
+      1,
+      1,
+      0,
+      2,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "total": 19
+    },
+    {
+     "category": "Enforcement action",
+     "counts": [
+      2,
+      2,
+      1,
+      0,
+      3,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      0
+     ],
+     "total": 19
+    },
+    {
+     "category": "Corporate filing",
+     "counts": [
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      3,
+      0
+     ],
+     "total": 18
+    },
+    {
+     "category": "Licence action",
+     "counts": [
+      1,
+      4,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "total": 17
+    },
+    {
+     "category": "Shareholding disclosure",
+     "counts": [
+      4,
+      4,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 16
+    },
+    {
+     "category": "Financial results",
+     "counts": [
+      0,
+      0,
+      1,
+      3,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      0
+     ],
+     "total": 12
+    },
+    {
+     "category": "Advertising ruling",
+     "counts": [
+      0,
+      4,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "total": 10
+    },
+    {
+     "category": "Other",
+     "counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+     ],
+     "total": 8
+    },
+    {
+     "category": "AML and compliance failures",
+     "counts": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 5
+    },
+    {
+     "category": "Merger and acquisition",
+     "counts": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 3
+    },
+    {
+     "category": "Player protection",
+     "counts": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 3
+    },
+    {
+     "category": "Consultation",
+     "counts": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 2
+    }
+   ],
+   "thresholds": [
+    1,
+    2,
+    3,
+    5,
+    23
+   ]
+  },
+  "movers": [
+   {
+    "name": "Rank",
+    "count": 4,
+    "top": 78,
+    "change": 3,
+    "weekly": [
+     0,
+     0,
+     0,
+     2,
+     1,
+     0,
+     0,
+     2,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "Grosvenor Casinos",
+    "count": 1,
+    "top": 72,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Targetlocal",
+    "count": 1,
+    "top": 65,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Entain Holdings (UK) Limited",
+    "count": 5,
+    "top": 62,
+    "change": 2,
+    "weekly": [
+     4,
+     1,
+     0,
+     1,
+     0,
+     2,
+     1,
+     2,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     1,
+     1,
+     3,
+     0
+    ]
+   },
+   {
+    "name": "5ve Guys Entertainments",
+    "count": 1,
+    "top": 55,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Bet St George",
+    "count": 1,
+    "top": 45,
+    "change": 0,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "Casino MK",
+    "count": 1,
+    "top": 45,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Makerfield",
+    "count": 1,
+    "top": 45,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "themes": [
+   {
+    "name": "Policy and legislation",
+    "heat": 479.06666666666666,
+    "direction": "easing",
+    "recent": 8,
+    "prior": 40
+   },
+   {
+    "name": "Insolvency",
+    "heat": 354.5,
+    "direction": "building",
+    "recent": 11,
+    "prior": 5
+   },
+   {
+    "name": "Enforcement action",
+    "heat": 229.4,
+    "direction": "steady",
+    "recent": 4,
+    "prior": 4
+   },
+   {
+    "name": "Licence action",
+    "heat": 213.73333333333335,
+    "direction": "easing",
+    "recent": 1,
+    "prior": 4
+   },
+   {
+    "name": "Tax and levy",
+    "heat": 184.73333333333335,
+    "direction": "building",
+    "recent": 9,
+    "prior": 5
+   },
+   {
+    "name": "Advertising ruling",
+    "heat": 171.93333333333334,
+    "direction": "easing",
+    "recent": 1,
+    "prior": 3
+   },
+   {
+    "name": "Financial results",
+    "heat": 137.6,
+    "direction": "building",
+    "recent": 5,
+    "prior": 0
+   },
+   {
+    "name": "Corporate filing",
+    "heat": 118.16666666666667,
+    "direction": "steady",
+    "recent": 2,
+    "prior": 1
+   },
+   {
+    "name": "Board and director changes",
+    "heat": 117.6,
+    "direction": "easing",
+    "recent": 1,
+    "prior": 4
+   },
+   {
+    "name": "Shareholding disclosure",
+    "heat": 93.5,
+    "direction": "easing",
+    "recent": 0,
+    "prior": 3
+   }
+  ]
+ },
+ "entities": [
+  {
+   "name": "5ve Guys Entertainments",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "AI Scorecast",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "APEX ALL TRADES",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Abouleyazid Mustafa Lubna",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Accelerate",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Advertising Standards Authority",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Alexandra Butler",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Allwyn",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ann Allen",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Annie Hampson",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Anthony Francis Lane",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Anya Hurlbert",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Ayeni Ibukun Samson",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "BGC",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "BIZZYBODS",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BYLDIS",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Baroness Morgan",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Bet St George",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BetMGM",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Betfair Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Betfred",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Betting and Gaming Council",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Blue Shark Trading",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Boomerang Studios",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BoyleSports",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BresBet",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "British Film Institute",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "British Horseracing Authority",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Build A Rocket Boy Games",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Byldis",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Cabinet Office",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Carnaby Gaming Machines",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Cash4Clubs",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Casimba",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Casino MK",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Charles H Hill",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Civil Service Commission",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Clare Anderson",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Clarmans",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Commodity Futures Trading Commission",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Coopermatic",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Corporate Intelligence Service",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Covarrubia Energy",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Crown",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "DCMS",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Deeside Bookmakers",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Dench eGaming Solutions",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Department for Culture, Media and Sport",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Department for Digital, Culture, Media and Sport",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Department of Health and Social Care",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Dice Dice Baby Shop",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Dion Property",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Double Tree Trading",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Dribble Media",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "E-Dojo Gaming",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Edgar Wright",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Elizabeth Karlsen",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Entain Holdings (UK) Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Equusform",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ethics and Integrity Committee",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Evans Amusements",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Evolution Malta",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Fatcat Softworks",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Financial Conduct Authority",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Firestoke",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Flutter Entertainment",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "G.C.S. ALARMS 2018",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "G.C.S. Alarms 2018",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Gamble Property Services",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Gambling Commission",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Game Changer Marketing",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ganan Kanagathurai",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Giggles & Grins",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Glass Age",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Global Gaming Ventures",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Great Filter Games",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Greyhound racing industry",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Grosvenor Casino Liverpool",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Grosvenor Casinos",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "HM Revenue & Customs",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "HM Treasury",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "HMRC",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "HRY Games",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Hakan Kousetta",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Helen Williams",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Holland Park Leisure",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Horserace Betting Levy",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Illegal Gambling Taskforce",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Indigo Jamm",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Infinite Partnerships",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Intralot",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Investigate Europe",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "James Twining",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Jane Tranter",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Janice Lane",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "John Healey",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Judith Donovan",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Katie Town",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Kuidaore",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ladbrokes Coral Group Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Lance Batchelor",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Langorf Hotel",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Laura Miele",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Legacy One Projects",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Lisa Nandy",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Locked In Games York",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Louie French",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Lysis Gaming Compliance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "MAB Bookmakers",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "MGE Korea",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Makerfield",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Mark Herbert",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Marshall Manson",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Maxwell Taylor",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Medland Associates",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Midnite",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ministry of Housing, Communities and Local Government",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Monica Chadha",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Mr Vegas",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Mukesh Sharma",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Multilinea Developments",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Multilinea Leeds",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "NHS England",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "National Centre for Social Research",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "National Fitness Games",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "National Lottery",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "National Lottery Heritage Fund",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Northern & Shell",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Novelty Care",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "OG REALISATIONS 2026",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "OG Realisations 2026",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Online Safety Act 2023",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Outshine",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "PI Hotel",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "PS Construction",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "PSG UK Facilities Management",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Pamela Taylor",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Parliament",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Peek & Poke",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Petfre",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Potters Health Care",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Premier League",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Priya Guha",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "QDE Publishing",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "QuinnBet",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "RALTEC ARC",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Rachel Reeves",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Rank",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Rapido Restaurants",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Rebecca Crook",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Reform Party",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Resorts World Birmingham",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Rhodri Lewis",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Richard Harris",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Richmond Atlantic Services",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Romford Greyhound Stadium",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Royal Armouries",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Royal Museums Greenwich",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ruth Evans",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Ryan Prince",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "S4C",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "SA Scot Foods",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "SOLD OUT",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Sanjeev Gupta",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Sarah Fox",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Sarah Gardner",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Science Museum",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Shepherd's Bush Games",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Simon Cox",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Sladders",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Smart Gravity",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Social Market Foundation",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Solange Juellato De Sa Nogueira",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Sold Out",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Song Liang",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "St Leger",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Stakelogic BV",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Stephen Deuchar",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Stephen Dimmick",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "T33 Gaming",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "TPXImpact",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Tanya Cordrey",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Targetlocal",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Ctrl Pad",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Double Six Cafe",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Grand Ivy Casino",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The New Lottery",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Old Casino",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Purple Gaming",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Theatres Trust",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Tim Miller",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Todhill Game",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Tom Horn Gaming",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Tom Solomon",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Toufic Machnouk",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "VGC Developments",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "VGC Leeds",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Valuation Office",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Vicky Foxcroft",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Videoslots",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "White Hat Gaming",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "William Hill Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Wizard of the North",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Zura Adam Galgerud",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "bet365 Group Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "top10onlinecasinoreviews.co.uk",
+   "is_person": false,
+   "excluded": false
+  }
+ ]
+}

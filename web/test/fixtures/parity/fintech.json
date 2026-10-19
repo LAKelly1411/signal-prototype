@@ -1,0 +1,2829 @@
+{
+ "slug": "fintech",
+ "now": "2026-10-19T14:19:21.001151+00:00",
+ "tiers": [
+  {
+   "value": 0,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 1,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 39,
+   "score_tier": "Low",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 40,
+   "score_tier": "Medium",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 59,
+   "score_tier": "Medium",
+   "heat_tier": "Low",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 60,
+   "score_tier": "Medium",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 69,
+   "score_tier": "Medium",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 70,
+   "score_tier": "High",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 89,
+   "score_tier": "High",
+   "heat_tier": "Medium",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 90,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 129,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Low"
+  },
+  {
+   "value": 130,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Medium"
+  },
+  {
+   "value": 199,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "Medium"
+  },
+  {
+   "value": 200,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "High"
+  },
+  {
+   "value": 500,
+   "score_tier": "High",
+   "heat_tier": "High",
+   "theme_heat_tier": "High"
+  }
+ ],
+ "nice_scale": [
+  {
+   "peak": 0,
+   "scale": 2
+  },
+  {
+   "peak": 1,
+   "scale": 2
+  },
+  {
+   "peak": 2,
+   "scale": 2
+  },
+  {
+   "peak": 3,
+   "scale": 4
+  },
+  {
+   "peak": 5,
+   "scale": 6
+  },
+  {
+   "peak": 9,
+   "scale": 10
+  },
+  {
+   "peak": 13,
+   "scale": 16
+  },
+  {
+   "peak": 21,
+   "scale": 30
+  },
+  {
+   "peak": 45,
+   "scale": 50
+  },
+  {
+   "peak": 99,
+   "scale": 100
+  },
+  {
+   "peak": 150,
+   "scale": 160
+  }
+ ],
+ "relative_time": [
+  {
+   "published_at": "2026-10-19T00:00:00+00:00",
+   "text": "Today"
+  },
+  {
+   "published_at": "2026-10-16T10:14:06+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-16T07:00:00+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-16T00:11:35+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-16T00:00:00+00:00",
+   "text": "3 days ago"
+  },
+  {
+   "published_at": "2026-10-15T15:03:00+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T14:51:51+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T12:40:10+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-15T00:10:24+00:00",
+   "text": "4 days ago"
+  },
+  {
+   "published_at": "2026-10-14T23:01:02+00:00",
+   "text": "5 days ago"
+  },
+  {
+   "published_at": "2026-10-13T16:22:29+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-13T12:00:00+00:00",
+   "text": "6 days ago"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "12 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T10:00:09+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "9 Oct 2026"
+  }
+ ],
+ "full_date": [
+  {
+   "published_at": "2026-10-19T00:00:00+00:00",
+   "text": "Monday 19 October 2026"
+  },
+  {
+   "published_at": "2026-10-16T10:14:06+00:00",
+   "text": "Friday 16 October 2026, 11:14"
+  },
+  {
+   "published_at": "2026-10-16T07:00:00+00:00",
+   "text": "Friday 16 October 2026, 08:00"
+  },
+  {
+   "published_at": "2026-10-16T00:11:35+00:00",
+   "text": "Friday 16 October 2026, 01:11"
+  },
+  {
+   "published_at": "2026-10-16T00:00:00+00:00",
+   "text": "Friday 16 October 2026"
+  },
+  {
+   "published_at": "2026-10-15T15:03:00+00:00",
+   "text": "Thursday 15 October 2026, 16:03"
+  },
+  {
+   "published_at": "2026-10-15T14:51:51+00:00",
+   "text": "Thursday 15 October 2026, 15:51"
+  },
+  {
+   "published_at": "2026-10-15T12:40:10+00:00",
+   "text": "Thursday 15 October 2026, 13:40"
+  },
+  {
+   "published_at": "2026-10-15T00:10:24+00:00",
+   "text": "Thursday 15 October 2026, 01:10"
+  },
+  {
+   "published_at": "2026-10-14T23:01:02+00:00",
+   "text": "Thursday 15 October 2026, 00:01"
+  },
+  {
+   "published_at": "2026-10-13T16:22:29+00:00",
+   "text": "Tuesday 13 October 2026, 17:22"
+  },
+  {
+   "published_at": "2026-10-13T12:00:00+00:00",
+   "text": "Tuesday 13 October 2026, 13:00"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "text": "Monday 12 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T10:00:09+00:00",
+   "text": "Friday 9 October 2026, 11:00"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  },
+  {
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "text": "Friday 9 October 2026"
+  }
+ ],
+ "date_bucket": [
+  {
+   "days_ago": 0,
+   "bucket": "Today"
+  },
+  {
+   "days_ago": 1,
+   "bucket": "Yesterday"
+  },
+  {
+   "days_ago": 2,
+   "bucket": "This week"
+  },
+  {
+   "days_ago": 7,
+   "bucket": "This week"
+  },
+  {
+   "days_ago": 8,
+   "bucket": "Earlier"
+  },
+  {
+   "days_ago": 30,
+   "bucket": "Earlier"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "4816be6a1bf5723d",
+   "title": "Wise Payments Limited",
+   "heat": 96.35,
+   "tier": "High",
+   "active": false,
+   "summary": "Wise's filings over three months track a normal corporate calendar: AGM notice and results, routine Companies House accounts and director filings, a notes guarantor accession, and a Q2 FY27 trading update. The standout item is Wise's application for a US national trust bank charter, pointing to a deeper push into US banking.",
+   "pattern_type": "routine",
+   "meta": "9 signals · 2 sources · 24 Jul – 16 Oct",
+   "companies": [],
+   "member_ids": [
+    "fbdf4d0b2dc0f6b04cd2c4096903f540054d94a0f2f54f876bb2a1da17335392",
+    "dc77c9aa76c81ea231c1e8814fd9538b7b3473bbf20255d5dc2e95bd46f749e5",
+    "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
+    "50f1c1a5b09e9c227d108d22fdeb7d6f77161202118f570a350aae96a257db2b",
+    "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
+    "c718ce2622f01321ba1df8ca8c73a8506a531aee08015e53b42b23119172fe89",
+    "92e379d78d5b6aa1a5f30b06d2f8872ca92c162389fd77cdb539ca1eeebc3385",
+    "05befff39aeae0f851ceaa3ae9f93060c00a5e3cd96c4e03df1c1a0221b43f2d",
+    "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4"
+   ],
+   "weekly_counts": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "id": "3c9692bfb63cd22d",
+   "title": "PayPoint",
+   "heat": 87.5,
+   "tier": "Medium",
+   "active": false,
+   "summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
+   "pattern_type": "routine",
+   "meta": "5 signals · 1 source · 29 Jul – 15 Oct",
+   "companies": [],
+   "member_ids": [
+    "775b039afb5eceb126ad000a2c55942839c6170ed5790d3e48a1e5cd62dab11d",
+    "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
+    "a7229ea08bdd702943792a1a7b6d9e750ad9d542479d940f9ec3eb1746c5bb6a",
+    "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
+    "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf"
+   ],
+   "weekly_counts": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "5da753ac435f329d",
+   "title": "Menara Fintech Services",
+   "heat": 58.25,
+   "tier": "Low",
+   "active": false,
+   "summary": "A winding-up petition was filed against New Tech Finance Ltd on 14 August 2026, followed by a near-identical gazette notice on 20 August naming Newtech Finance Ltd. The duplication likely reflects one insolvency case recorded twice under slightly different company name renderings rather than two separate firms in distress.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 14 Aug – 20 Aug",
+   "companies": [
+    "Newtech Finance",
+    "New Tech Finance"
+   ],
+   "member_ids": [
+    "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+    "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "5750d219c6f63ffa",
+   "title": "Klarna Financial Services UK Limited",
+   "heat": 42.81666666666667,
+   "tier": "Low",
+   "active": false,
+   "summary": "Klarna Financial Services UK Limited filed its full annual accounts on 29 September 2026, followed a week later by a Companies House filing recording a director's termination. The accounts could show how the regulated UK entity is performing as BNPL oversight tightens, while the board change points to leadership turnover at the unit.",
+   "pattern_type": "developing_story",
+   "meta": "2 signals · 1 source · 29 Sep – 6 Oct",
+   "companies": [],
+   "member_ids": [
+    "3e42c2d5d734fc3daa7d19c184641be75406eb008521208d384f637e297e1b26",
+    "7a39ac28a914073e478df7f6caac8a1736bc5c810cafe56a37bf404f9defd707"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "id": "92f8f1ef3e2c5cc5",
+   "title": "GoCardless Ltd",
+   "heat": 41.91666666666667,
+   "tier": "Low",
+   "active": false,
+   "summary": "GoCardless filed a share capital allotment in September 2026 followed by two persons-with-significant-control filings at Companies House in October, pointing to an ownership or equity restructuring at the UK payments firm. The filings don't specify new investors or amounts, leaving the scale of the change unclear.",
+   "pattern_type": "developing_story",
+   "meta": "3 signals · 1 source · 15 Sep – 6 Oct",
+   "companies": [],
+   "member_ids": [
+    "42d432d9331c67cbb24cc4bf78fec48e2fa64e123fd28aab6172cb37426040bb",
+    "d95d78ddf75c76a3129e17f6e9fb12c80758716ee4413c9628508e07833167cb",
+    "e48ae577cb2a919a87f6562e34542ee1f8559e2d02c0ffb2e547e8803cd650a9"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0
+   ]
+  },
+  {
+   "id": "c3ae93a9bfedc71a",
+   "title": "Revolut Ltd",
+   "heat": 38.91666666666667,
+   "tier": "Low",
+   "active": false,
+   "summary": "Revolut Ltd filed two routine Companies House officer updates in August and October 2026, recording director changes at the UK fintech. No details on who joined or left, or the reason, are given in the filings themselves.",
+   "pattern_type": "routine",
+   "meta": "2 signals · 1 source · 4 Aug – 12 Oct",
+   "companies": [],
+   "member_ids": [
+    "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
+    "c7c1d93d2314a6849d0310861fcd2b07fe557b62cb73d5a6faaf7a67deace45c"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "id": "821813a0cf2823ea",
+   "title": "Checkout Ltd",
+   "heat": 37.0,
+   "tier": "Low",
+   "active": false,
+   "summary": "Checkout Ltd filed routine annual accounts in late September, then recorded a director appointment and a director termination within days of each other in October. The filings show ordinary governance housekeeping rather than any disclosed financial or strategic shift.",
+   "pattern_type": "routine",
+   "meta": "3 signals · 1 source · 29 Sep – 19 Oct",
+   "companies": [],
+   "member_ids": [
+    "dccefc128bfd284fc2d1d2059006eb5b761d015c42bb9a0c932571ab10387272",
+    "fab4bf0bf077fd93a2c1285532385e3a5286b45e8fb40534eeeff4f82c77daca",
+    "ec396336b20bf75ae1410e9de406f590288e06003a4f88ce3a87f59b80f4ca8c"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "id": "5e24b76ff453fc78",
+   "title": "UK Export Finance",
+   "heat": 35.83333333333333,
+   "tier": "Low",
+   "active": false,
+   "summary": "UK Export Finance is rolling out a new loan guarantee scheme aimed at drawing overseas buyers toward British exporters, with knock-on potential for trade finance lending and export payments handled by UK banks and fintechs. The two entries describe the same policy announcement rather than separate developments.",
+   "pattern_type": "routine",
+   "meta": "2 signals · 1 source · 28 Sep",
+   "companies": [],
+   "member_ids": [
+    "b5c8886b78c0bf07bd537be2776d35932f3f32c69dcf6bd27671e2b32d76ef75",
+    "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "9f199f00b70ba800",
+   "title": "Monzo Bank Limited",
+   "heat": 32.5,
+   "tier": "Low",
+   "active": false,
+   "summary": "Monzo Bank filed a cluster of officer changes at Companies House through July and September 2026, alongside its routine annual accounts filing in August. No specific names or financial figures are disclosed, so the filings read as standard corporate administration rather than a distinct leadership crisis.",
+   "pattern_type": "routine",
+   "meta": "7 signals · 1 source · 30 Jul – 10 Sep",
+   "companies": [],
+   "member_ids": [
+    "44e6b221ce676df2f9da25a7312568a2b8caa0d1037356dfe214d5c96a038035",
+    "11771570c9bae9b3c62ec144cccb2dab027961c19b358cbeb307a8b6807db790",
+    "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+    "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+    "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+    "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+    "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23"
+   ],
+   "weekly_counts": [
+    0,
+    5,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "ee73ac2c0e283225",
+   "title": "ClearBank Limited",
+   "heat": 29.833333333333332,
+   "tier": "Low",
+   "active": false,
+   "summary": "ClearBank files a sequence of routine Companies House updates: a director change in July 2026, a minor correction to an appointment filing in September, and the annual confirmation statement later that month. None carry substantive business or regulatory content.",
+   "pattern_type": "routine",
+   "meta": "3 signals · 1 source · 30 Jul – 20 Sep",
+   "companies": [],
+   "member_ids": [
+    "a04f2e9a98d328e97887a9c9c378218d0755d9293bfb17cc3343edfbd42d84a8",
+    "b9e591cb1f58c77908d467774db782b66da3f0143ac6170e8ac7fa6cf276f1fc",
+    "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0"
+   ],
+   "weekly_counts": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "64b8b28b80af7284",
+   "title": "UK Fintech Growth GP",
+   "heat": 21.083333333333332,
+   "tier": "Low",
+   "active": false,
+   "summary": "UK Fintech Growth GP LLP, the general partner vehicle behind a fintech-focused investment fund, has entered insolvency with a liquidator appointed and creditor notices filed. The three gazette entries all stem from the same 11 August filing, pointing to formal wind-down of the fund structure rather than a trading business.",
+   "pattern_type": "developing_story",
+   "meta": "3 signals · 1 source · 11 Aug",
+   "companies": [],
+   "member_ids": [
+    "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
+    "6914d34f93e4d422be305503cb1172da1cf1e99f975454a0a8304007d701bf65",
+    "2527498fe2b20eac2c15d66e26bc1680e111d5dc97dcbddb2f1e5943124d96a9"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "429d7f0be1ac5194",
+   "title": "UK Fintech Growth GP 2",
+   "heat": 18.583333333333332,
+   "tier": "Low",
+   "active": false,
+   "summary": "UK Fintech Growth GP 2 LLP, a fund vehicle tied to a fintech-focused investment structure, has entered formal insolvency with a creditors' notice filed 11 August 2026. The three gazette entries describe the same liquidation event rather than separate developments.",
+   "pattern_type": "routine",
+   "meta": "3 signals · 1 source · 11 Aug",
+   "companies": [],
+   "member_ids": [
+    "0bc1a1ca12c4473412f9ef8e93647bc3ec77c31c24850057c7aa0e83afc23ec4",
+    "aa0dc8b1da2a7017ad9c02d6e9fec3431eb162f8e83aba4f977a1f02dbd143fd",
+    "d7e0b50388462de24e4cb2f6dc290dffd5bba0c6a00b7e564fa4075e19978a92"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "pattern_scale": 6,
+ "themes": [
+  {
+   "id": "Policy and legislation",
+   "heat": 236.26666666666665,
+   "tier": "High",
+   "summary": "HM Treasury and the Bank of England generated a steady run of policy activity through September and October 2026, spanning sanctions enforcement, inflation-driven correspondence, banking hub expansion and preparatory work on a digitally native gilt. Ministerial speeches to UK Finance, UK Private Capital and Digital Assets Week point to active engagement with fintech ahead of firmer policy moves.",
+   "direction": "building",
+   "key_points": [
+    "15 September: government announces £500m funding for hundreds of new officers targeting dirty money networks",
+    "6 October: UK takes next step toward first digitally native government bond, a direct shift in debt infrastructure",
+    "17 September: three separate BoE-Treasury exchanges on inflation and Asset Purchase Facility published same week",
+    "Parliamentary questions on 12 October target Community Development Finance Institutions, flagging SME lending support as a live issue"
+   ],
+   "meta": "20 signals · 9 companies · 31 Aug – 12 Oct",
+   "companies": [
+    "UK Export Finance",
+    "Community Finance Taskforce",
+    "Community Development Finance Institutions",
+    "Indian Ministry of Finance",
+    "DCMS",
+    "OFSI",
+    "Cash Access",
+    "UK Debt Management Office",
+    "Alex Depledge"
+   ],
+   "member_ids": [
+    "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
+    "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
+    "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
+    "23379694cd90a7b096a147be920fbb35fdef3861b4e5031968c41027eb88b537",
+    "7005f3bcdb9925e2d77bfb9932607c26b85a6c5b9bbaddd3224cc23d7230d494",
+    "2da5e41c3255bd785d18d590683c444f991584a2d03b3592f287ebd6768e8ee2",
+    "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
+    "5880920f75288aeea25395eced4fcd550a4d529b1d8e6adb66403ec11831482f",
+    "73baa4325fe86cd40baca81a27482dea1c8d1de3c1ce1b8234bffef2535c9f0b",
+    "47ba954271d204e33f49ebc885a53f2db32db0f7edb8e438e08c84d65b65a77a",
+    "c1303245fb60931f7e79efec2ce17a64e7ee7b7fe93ca2981a840e4c22aa0cb9",
+    "b5c8886b78c0bf07bd537be2776d35932f3f32c69dcf6bd27671e2b32d76ef75",
+    "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
+    "47d0a981e7423aabdc0e13b316d8708e8d545577e4613381014bffd5b4a54e8d",
+    "ce50d9845d2ae4f9de561bd48e21f55872bc622ce469d452abdbc3e8f62f05ec",
+    "11328f54eeaf5a859898c1cfb095529aaded912643c1002b065f083a65d57643",
+    "22a17b3c332b871677e8c9db0c4f8182409b2ce054916abd70e255e07e68076f",
+    "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
+    "c16b50d7f281fd210412d40932d6f78935d441748a4fd7d512934a6fdc5330f8",
+    "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    5,
+    1,
+    1,
+    6,
+    0
+   ]
+  },
+  {
+   "id": "Board and director changes",
+   "heat": 178.5,
+   "tier": "Medium",
+   "summary": "Director filings pile up across UK fintech from July through October 2026, with Monzo alone logging five separate officer changes alongside moves at ClearBank, Revolut, Wise and Klarna. Regulatory bodies add to the churn, with new appointments to both the Bank of England and the FCA board.",
+   "direction": "building",
+   "key_points": [
+    "Monzo files officer changes five times between 30 July and 10 September 2026, more than any other firm",
+    "Wise logs both a Companies House filing (28 Sept) and an RNS directorate change notice (13 Oct)",
+    "Klarna's UK regulated entity records a director termination on 6 October 2026",
+    "FCA board appointments (30 Sept) and Bank of England non-executive director picks (16 Sept) land in the same window"
+   ],
+   "meta": "14 signals · 7 companies · 30 Jul – 13 Oct",
+   "companies": [
+    "Monzo Bank Limited",
+    "Revolut Ltd",
+    "Wise Payments Limited",
+    "Klarna Financial Services UK Limited",
+    "ClearBank Limited",
+    "Lea Paterson",
+    "Matthew Tobin"
+   ],
+   "member_ids": [
+    "44e6b221ce676df2f9da25a7312568a2b8caa0d1037356dfe214d5c96a038035",
+    "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+    "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+    "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+    "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+    "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23",
+    "c7c1d93d2314a6849d0310861fcd2b07fe557b62cb73d5a6faaf7a67deace45c",
+    "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
+    "3e42c2d5d734fc3daa7d19c184641be75406eb008521208d384f637e297e1b26",
+    "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0",
+    "48b13994d7e0dd0373ad149d8e3a58636346387def1e22fe798ef6be7b01bf0b",
+    "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
+    "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
+    "dc77c9aa76c81ea231c1e8814fd9538b7b3473bbf20255d5dc2e95bd46f749e5"
+   ],
+   "weekly_counts": [
+    0,
+    6,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1
+   ]
+  },
+  {
+   "id": "Insolvency",
+   "heat": 175.66666666666666,
+   "tier": "Medium",
+   "summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+   "direction": "building",
+   "key_points": [
+    "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
+    "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
+    "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
+    "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+   ],
+   "meta": "11 signals · 8 companies · 11 Aug – 15 Oct",
+   "companies": [
+    "UK Fintech Growth GP",
+    "UK Fintech Growth GP 2",
+    "Menara Fintech Services",
+    "Newtech Finance",
+    "New Tech Finance",
+    "QUAYMILE",
+    "Ohm Topco",
+    "Profound"
+   ],
+   "member_ids": [
+    "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+    "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
+    "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
+    "6914d34f93e4d422be305503cb1172da1cf1e99f975454a0a8304007d701bf65",
+    "2527498fe2b20eac2c15d66e26bc1680e111d5dc97dcbddb2f1e5943124d96a9",
+    "0bc1a1ca12c4473412f9ef8e93647bc3ec77c31c24850057c7aa0e83afc23ec4",
+    "aa0dc8b1da2a7017ad9c02d6e9fec3431eb162f8e83aba4f977a1f02dbd143fd",
+    "d7e0b50388462de24e4cb2f6dc290dffd5bba0c6a00b7e564fa4075e19978a92",
+    "f86f2d1307d9c997a0f6da47bec1d199a7b05b17f3928cd2da50443ef29be484",
+    "2322ec50b6fcce8e20f7360aaca2b23b85d1b0024dc24985479310b1395a0f2a",
+    "f0c2bad7405749b04198bd7702b69b962b5e52dfe9f3bace2110367b7dbb4dad"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    7,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "Corporate filing",
+   "heat": 105.33333333333333,
+   "tier": "Low",
+   "summary": "Four major UK payments firms worked through routine corporate filing cycles between August and September 2026. Monzo, Wise and Klarna each filed annual accounts with Companies House, while Wise also confirmed a new notes guarantor and an AGM result, and PayPoint used a Capital Markets Day to set out growth plans.",
+   "direction": "steady",
+   "key_points": [
+    "Wise filed accounts on 25 September 2026, days after confirming AGM results and a new guarantor accession to its Notes on 17 August",
+    "Monzo Bank Limited filed its annual accounts on 27 August 2026, the first in this filing run",
+    "Klarna's UK regulated entity, Klarna Financial Services UK Limited, filed full accounts on 29 September 2026 ahead of BNPL regulatory scrutiny",
+    "PayPoint's Capital Markets Day on 29 September 2026 set out growth drivers rather than a standard filing, the outlier in the group"
+   ],
+   "meta": "6 signals · 4 companies · 17 Aug – 29 Sep",
+   "companies": [
+    "Wise Payments Limited",
+    "Monzo Bank Limited",
+    "Klarna Financial Services UK Limited",
+    "PayPoint"
+   ],
+   "member_ids": [
+    "11771570c9bae9b3c62ec144cccb2dab027961c19b358cbeb307a8b6807db790",
+    "50f1c1a5b09e9c227d108d22fdeb7d6f77161202118f570a350aae96a257db2b",
+    "7a39ac28a914073e478df7f6caac8a1736bc5c810cafe56a37bf404f9defd707",
+    "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
+    "05befff39aeae0f851ceaa3ae9f93060c00a5e3cd96c4e03df1c1a0221b43f2d",
+    "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c"
+   ],
+   "weekly_counts": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0
+   ]
+  }
+ ],
+ "theme_scale": 8,
+ "filters": {
+  "options": {
+   "sources": [
+    "asa",
+    "companies_house",
+    "dcms",
+    "lse_rns",
+    "gazette",
+    "parliament"
+   ],
+   "categories": [
+    "Policy and legislation",
+    "Other",
+    "Insolvency",
+    "Board and director changes",
+    "Corporate filing",
+    "Financial results",
+    "Shareholding disclosure",
+    "Consultation",
+    "Tax and levy",
+    "Enforcement action",
+    "Authorisation and permissions",
+    "Merger and acquisition"
+   ],
+   "entities": [
+    "HM Treasury",
+    "Wise Payments Limited",
+    "Bank of England",
+    "PayPoint",
+    "Starling Bank Limited",
+    "Monzo Bank Limited",
+    "Checkout Ltd",
+    "ClearBank Limited",
+    "DCMS",
+    "Fintech Digital Solutions",
+    "GoCardless Ltd",
+    "John Healey",
+    "Klarna Financial Services UK Limited",
+    "Office of the Independent Prevent Commissioner",
+    "UK Fintech Growth GP",
+    "UK Fintech Growth GP 2",
+    "Canada",
+    "Coin Fintech",
+    "Community Development Finance Institutions",
+    "Community Finance Taskforce",
+    "Eldens Finance",
+    "Financial Conduct Authority",
+    "Menara Fintech Services",
+    "Prevent Standards and Compliance Unit",
+    "Revolut Ltd",
+    "UK Export Finance",
+    "University of Cambridge",
+    "AE Fruits",
+    "AI Security Institute",
+    "Alex Depledge",
+    "Anthropic",
+    "AperiData",
+    "Apple",
+    "BLOUDAN",
+    "BN1 Cleaning",
+    "Bubbleology UK-I",
+    "Cadbury",
+    "Cash Access",
+    "Celestial Travel",
+    "Competition and Markets Authority",
+    "Costcutter Supermarkets",
+    "Country And County Property Investments",
+    "Defence Uncrewed Systems Centre",
+    "Defra",
+    "Department for Digital, Culture, Media and Sport",
+    "Department for Education",
+    "Department for Environment, Food and Rural Affairs",
+    "DF Temple",
+    "DORISI OT",
+    "Estrada Homes",
+    "Eurowings",
+    "Five Akhi's",
+    "Google",
+    "Google Maps",
+    "HAPPYHOOP",
+    "Harnbury",
+    "Hemp Union",
+    "Home Department",
+    "IMF",
+    "IN ACC Services",
+    "Indian Ministry of Finance",
+    "Jodrell Bank Observatory",
+    "Lea Paterson",
+    "Malaysia",
+    "Manchester Convenience Store",
+    "Matthew Tobin",
+    "McCain Foods",
+    "Ministry of Defence",
+    "MJHM Engineering",
+    "MOC BUILDERS",
+    "Mondelez Europe Services GmbH",
+    "New Tech Finance",
+    "Newtech Finance",
+    "NISTA",
+    "Office for Students",
+    "Office of Financial Sanctions Implementation",
+    "OFSI",
+    "Ohm Topco",
+    "Oochie",
+    "OpenAI",
+    "Oxford Economics",
+    "Pamela Olender",
+    "Patisserie Valerie Production",
+    "Profound",
+    "QUAYMILE",
+    "San Carlo Cicchetti",
+    "SHJ TRADERS",
+    "Stacey's World Rocks",
+    "Stealth Offshore",
+    "STFC",
+    "Take-Two Interactive Software",
+    "The Business Success Academy",
+    "The Maintenance Team Plumbing & Gas",
+    "The Monty Bojangles",
+    "UK",
+    "UK Debt Management Office",
+    "UK Department for Business and Trade",
+    "UK Finance",
+    "UK Research and Innovation",
+    "UK Statistics Authority",
+    "Vukul",
+    "Wholesale Digital Markets Champion",
+    "YO! Sushi"
+   ]
+  },
+  "cases": [
+   {
+    "name": "default",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 40,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "fbdf4d0b2dc0f6b04cd2c4096903f540054d94a0f2f54f876bb2a1da17335392",
+     "c1303245fb60931f7e79efec2ce17a64e7ee7b7fe93ca2981a840e4c22aa0cb9",
+     "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
+     "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
+     "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
+     "ce50d9845d2ae4f9de561bd48e21f55872bc622ce469d452abdbc3e8f62f05ec",
+     "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+     "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
+     "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4",
+     "f2beee9dcd36f8a55b6880730c15fa2220a683d9cb3344af24fc9f7045d34612",
+     "156e949579927b74c3882b72c56467905fca782acbb7e0ee47d0bfe81bff4bcb",
+     "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
+     "f749f3e161bbee98a17095640b89d1585b64f0eb6bf3aac433e1c30a4d2fe455",
+     "a03b4a964b280cbc97d87c5fbbc880c550793b63dc5d3ab6eca25dbac3699aa5",
+     "08dad04616fa559301bcc88653790849b9548c2a98618112bda2dd290671e006",
+     "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
+     "3b78e201cca2698b2687b34cdf3ae2868a658bb49eaac89467347985d7704342"
+    ]
+   },
+   {
+    "name": "min_score_0",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "dccefc128bfd284fc2d1d2059006eb5b761d015c42bb9a0c932571ab10387272",
+     "bc8c9666e4260115355b439551c616c62c503a34c15f1289d10283f3464f1d96",
+     "fbdf4d0b2dc0f6b04cd2c4096903f540054d94a0f2f54f876bb2a1da17335392",
+     "b64177c23163847295bd608b0a2fff9d8a55b037ad7da3a15e4bf367fa2c49f0",
+     "fab4bf0bf077fd93a2c1285532385e3a5286b45e8fb40534eeeff4f82c77daca",
+     "775b039afb5eceb126ad000a2c55942839c6170ed5790d3e48a1e5cd62dab11d",
+     "0b284818b3019b5e2147550cc00d8a9d343b653789bc7f37cefb8a228cdf948d",
+     "ea101e8c1c1a204c801f99dd53467a926ef258502ac3e398547ad416da79afe1",
+     "f0c2bad7405749b04198bd7702b69b962b5e52dfe9f3bace2110367b7dbb4dad",
+     "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
+     "e6d431c59b5bdd662334a9ca5db5ba98140443c98e8d8ff32321801e7c4dd66e",
+     "dc77c9aa76c81ea231c1e8814fd9538b7b3473bbf20255d5dc2e95bd46f749e5",
+     "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
+     "9b323ece990d3581c0d5f22d0475140f560a4f972609341a2be3091d4a495a5d",
+     "c16b50d7f281fd210412d40932d6f78935d441748a4fd7d512934a6fdc5330f8",
+     "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7",
+     "cf0a8b414ce380565535c9a060f7217f03e6b810d4c8eae28850e9fd569ecca7",
+     "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
+     "d0e4632587b207b4bb9997b9bbd6d804fb9fe551d019ce871db079d8a00afe98",
+     "9fa406dfd95e14f7bef3119cad9802c90e30ece9e1f896469f57ae6165e9e006",
+     "d9eef24c2042d91af1a63e0440f614e5a8d69b1a8f2d975dc87f4c7f50ecb77f",
+     "4bc4d18712b75e984d8705030d50af92eb83fe1f5af3779ec0fa6ef9e351039f",
+     "6a4c92d34431560052cc7bc4d822bb83fda4e882bd32b2ec30c74dd67aacaab3",
+     "f4ffe1b8b059cb8a1c5cd4bf6084aeb15835fcc98af1e1709434e16a27e0f65f",
+     "a6ed9c16c4d63532be9ca2c328d826b33353cb8b141824882c4000440f8b2ef2",
+     "b32be75074fbc397c815397788c03036d4a26e7b8fd3f0b1f05fe9c92b8f0570",
+     "94d733dd2a7ebdcb8c10afa9d9f200ece7af76b210063dde5288a4718b4dcec1",
+     "5962059d1ccb6117c5b89904d6f8a8f3eafddf9e95a096c0c77c984c9661ca4a",
+     "d7c822b5e550998c05f2c08e2dd135b05e5c2c9ea2054dbcf3f81e1c0f06c1e9",
+     "52bb92726604282feaaca7bbe6c871060f66b089b78e1d449a35c8734e61243a",
+     "8b92431728ebd7579b67c659cccbc3533261e3b32ee750cdd933ba66de02404f",
+     "0319ef79b64af15cb581543ece9510b653d0fdba12dd2f81d41f842feda82fa9",
+     "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
+     "1df9f1fcde922ac94235c4c248295de2db5f81ede4314846672068b44da5039a",
+     "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
+     "23379694cd90a7b096a147be920fbb35fdef3861b4e5031968c41027eb88b537",
+     "88cdca0b46f3adf4f51f5cf33985a6dc57c080fda082423b8abe9127076b2e0f",
+     "c1303245fb60931f7e79efec2ce17a64e7ee7b7fe93ca2981a840e4c22aa0cb9",
+     "3e42c2d5d734fc3daa7d19c184641be75406eb008521208d384f637e297e1b26",
+     "42d432d9331c67cbb24cc4bf78fec48e2fa64e123fd28aab6172cb37426040bb",
+     "d95d78ddf75c76a3129e17f6e9fb12c80758716ee4413c9628508e07833167cb",
+     "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
+     "42b487ce5b94f636c37afe26754ce568c15778f6f60549ed060696a1d49ad222",
+     "06d8ddb9d01fa91909f704d3f394e265149091956dfe63d0857bed6226db221b",
+     "fe28dc0095df50ed13256013be8efaf5da1bacb388d77213f2217c9fc98f5837",
+     "86e1f1f5f81bf56fa400f1b2a6f9788a2a2e26992200cca71b130244ed45b571",
+     "4c0e212358bd515123c6dcfe8a7feb72d48b5d1a1e79f427fcd9d17b386e81c5",
+     "19afdb2abeeb6497d7863d88f24e94c5191d8bc0c09abdf8183c353af359ae26",
+     "24ecfeec1496ff217593f0abd115772f65d9abd554e14c0eef114afc681526dd",
+     "0a33d9d3adb200e3e66f5f9c7877d0efac1da9e372000d3e2485af1be8a3db07",
+     "fb77d2d33cee9f29b8edd077030e77ce4300e7c1e52ef32d4275245140e8ec36",
+     "54d0fa09242c8d9462811197501f30910ba04802de16afb6844672dab2d65e36",
+     "231767683af91f83b75df6e975de946c26fbc38b187799dc7039349dd194cb53",
+     "b3a4989cdb65902c8ab2fc30ef5daf2e3b7b0ac1cfc694564529d4443315c4a6",
+     "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
+     "48b13994d7e0dd0373ad149d8e3a58636346387def1e22fe798ef6be7b01bf0b",
+     "497a71e6ff072a6f64b661740a09af3991d454957c0be8d2aff6f7925c9882f6",
+     "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
+     "7a39ac28a914073e478df7f6caac8a1736bc5c810cafe56a37bf404f9defd707",
+     "ec396336b20bf75ae1410e9de406f590288e06003a4f88ce3a87f59b80f4ca8c",
+     "b5c8886b78c0bf07bd537be2776d35932f3f32c69dcf6bd27671e2b32d76ef75",
+     "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
+     "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
+     "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
+     "50f1c1a5b09e9c227d108d22fdeb7d6f77161202118f570a350aae96a257db2b",
+     "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
+     "ace0bfa16e599e969c4fc68de39c7d0ada8a0b7314b40b616b0244953db9190f",
+     "f86f2d1307d9c997a0f6da47bec1d199a7b05b17f3928cd2da50443ef29be484",
+     "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
+     "282edc39b5e4ad28ef47d78bdcae6ee5351950839bf41906feb38a8529dac89e",
+     "8d3bd2e2caea5a9d6ecd53876cf7b2e6cf2b59fa6afa768523515a443f590fce",
+     "861fc4958f19c9737eb132c91e14a4cbcfbac2b44803046bbccfef577c33cc86",
+     "a04f2e9a98d328e97887a9c9c378218d0755d9293bfb17cc3343edfbd42d84a8",
+     "7005f3bcdb9925e2d77bfb9932607c26b85a6c5b9bbaddd3224cc23d7230d494",
+     "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
+     "2322ec50b6fcce8e20f7360aaca2b23b85d1b0024dc24985479310b1395a0f2a",
+     "2da5e41c3255bd785d18d590683c444f991584a2d03b3592f287ebd6768e8ee2",
+     "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
+     "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
+     "5880920f75288aeea25395eced4fcd550a4d529b1d8e6adb66403ec11831482f",
+     "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
+     "36d0100a69622b76dabefd656f66bae4f69d0f07499fb93b151ca432de691bc7",
+     "415125f0162c6795c4c10631c5226eedae80ae3c964eedcf83ead1de040cfbb9",
+     "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
+     "e48ae577cb2a919a87f6562e34542ee1f8559e2d02c0ffb2e547e8803cd650a9",
+     "6ee9763b45f3624781da80280008ace016f5d51c2e9678512ace34857dbc6547",
+     "06f796035e4d1545085be3baf1d4e4acea9b743f41d9abc07a2010daed66d523",
+     "20ec285d3f4c11ca1ae1336db351b3d0032d6564ff5492c76262c72ed31eb127",
+     "e9e64964ec1ad40546947eb4bc3605cecee1690ce43202e744d2b47a96bd3be3",
+     "6519bc1fa4b6e082cc8fb696f6ff465b6e97b7a39f0b979272c3db45e2f2c00d",
+     "8eab447d16b264ace56f39edeb954e2ca1ec5e989aac0c84a364d11c3d379298",
+     "b9e591cb1f58c77908d467774db782b66da3f0143ac6170e8ac7fa6cf276f1fc",
+     "11328f54eeaf5a859898c1cfb095529aaded912643c1002b065f083a65d57643",
+     "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
+     "22a17b3c332b871677e8c9db0c4f8182409b2ce054916abd70e255e07e68076f",
+     "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
+     "27b9273f303417e9a437fcca96b6c287166cc7c309c50f673234e557ad8d9ea5",
+     "d8f7ce334ff2e190bb9d965649adc8d9791b4217b1de57872bbf21aff62e81b3",
+     "719f8f1499b4b91a2eb8b55dc56223d51b3aa6853e0ac1f382a99d2bd4f97398",
+     "e8fe16355dbe4ea0269ef5b557017daec4bc19786379f64928f51650527a79c1",
+     "112ece88b474ac50835c506642079ecef5b9bb1701d27bb9a38188f4eb99c364",
+     "f17c02b66c653ea1ff41b9c15eec4435ea2b49f9582b226155d470fdec2d6df8",
+     "e42d2c141cca2ff482cbd62c81470ac3f7eca902117dee4292c25398e0e01b62",
+     "6858da8faafb303cdff0248cf7aba35992c2d1c0c04040374ae2abeb2c0a6806",
+     "5ae73e346dd485ca646650dca3f066f919c1f0c784fe3cc15dd018c99267cfd7",
+     "73baa4325fe86cd40baca81a27482dea1c8d1de3c1ce1b8234bffef2535c9f0b",
+     "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
+     "44e6b221ce676df2f9da25a7312568a2b8caa0d1037356dfe214d5c96a038035",
+     "47ba954271d204e33f49ebc885a53f2db32db0f7edb8e438e08c84d65b65a77a",
+     "1fe18ac7d0ead0a777fafe66d81181d150734f69e8680d6b216259900d60a60d",
+     "ab1bcf5ff2d608d248e5fd5c524c86aafbaf03e4ec5841c8c1585131b5e6e7e0",
+     "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
+     "47d0a981e7423aabdc0e13b316d8708e8d545577e4613381014bffd5b4a54e8d",
+     "c9b7977613f3a06b79d224610c5d8208e1d7c001edf7a9e96e78c0919a012992",
+     "993ec38a86dcaa4888b6b8ac3dc398bfb8724a0964824b836370844e60a31798",
+     "c718ce2622f01321ba1df8ca8c73a8506a531aee08015e53b42b23119172fe89",
+     "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
+     "f087dec27296a625044a6f6a5abb143954ae4d5dccf48fee7060bc4793cccb65",
+     "a7229ea08bdd702943792a1a7b6d9e750ad9d542479d940f9ec3eb1746c5bb6a",
+     "a98cbda43e04d81c1a28b56bc3f139a07807c71b54fabb4cdce06a37ad8414c7",
+     "ce50d9845d2ae4f9de561bd48e21f55872bc622ce469d452abdbc3e8f62f05ec",
+     "d898507bab93d5c09e15c90997873032f3a9223c985c776b1b72f18cdcef150b",
+     "0029545d196dedc3613710b2dbd67b71f5a21d394b4c53d494b0086d5dccbc83",
+     "846f9b904bf29301186f6b3abde0bbccf4190c3e88d0188f17bb2a7aa8b5443f",
+     "56ed4181ac93dda32123bc771bf1c608f19663811b9a62d9c73cd0a218eb9eb1",
+     "90eb6e6ef09ca53d2ca779c255c63d632559a28f0f4b3e6d9184e567901269bd",
+     "92e379d78d5b6aa1a5f30b06d2f8872ca92c162389fd77cdb539ca1eeebc3385",
+     "11771570c9bae9b3c62ec144cccb2dab027961c19b358cbeb307a8b6807db790",
+     "13aee5f6cda19b0d9d46f0f2c25dfc282d04fbf07bbcf6c6dbf4fbcc30022afd",
+     "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+     "05befff39aeae0f851ceaa3ae9f93060c00a5e3cd96c4e03df1c1a0221b43f2d",
+     "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
+     "bbebfd9b94131e30a198eb5a4ed8e040e14ded3ad324a196e72084e2dfdd9fa8",
+     "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
+     "6914d34f93e4d422be305503cb1172da1cf1e99f975454a0a8304007d701bf65",
+     "2527498fe2b20eac2c15d66e26bc1680e111d5dc97dcbddb2f1e5943124d96a9",
+     "0bc1a1ca12c4473412f9ef8e93647bc3ec77c31c24850057c7aa0e83afc23ec4",
+     "aa0dc8b1da2a7017ad9c02d6e9fec3431eb162f8e83aba4f977a1f02dbd143fd",
+     "d7e0b50388462de24e4cb2f6dc290dffd5bba0c6a00b7e564fa4075e19978a92",
+     "76f3dff83f14fab20eb29ebb37397e0bc4d68030d054917cf96d74e5a4d05e89",
+     "c7c1d93d2314a6849d0310861fcd2b07fe557b62cb73d5a6faaf7a67deace45c",
+     "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+     "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+     "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+     "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+     "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23",
+     "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0",
+     "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
+     "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
+     "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4",
+     "79aaa4bc4392670ded84b1072961483e7d056628321921ace1fff1434582bd76",
+     "f2beee9dcd36f8a55b6880730c15fa2220a683d9cb3344af24fc9f7045d34612",
+     "3455b82db087a9248c79d08bf1ab4f08c2b77ce1f14ff9f9698445ba9bde0c9c",
+     "156e949579927b74c3882b72c56467905fca782acbb7e0ee47d0bfe81bff4bcb",
+     "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
+     "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
+     "7e17b619f030662db0ba87fee1dbd85da103bae49ef80d59f775aebab8572eaf",
+     "eaecd2e56a9ba5f85c4a0f43a3ed039f7d3ff84fa64398d23bf604dfc72aadaa",
+     "f749f3e161bbee98a17095640b89d1585b64f0eb6bf3aac433e1c30a4d2fe455",
+     "f26a1c226d35055fc772af8568e8cd7fcdc5f6f3fbf4b3a139ea4fb402d3ab82",
+     "05a1fc429e349934e06701bc8f5ef5627bccde45c2ac9f7efb820d826c6aa66d",
+     "a03b4a964b280cbc97d87c5fbbc880c550793b63dc5d3ab6eca25dbac3699aa5",
+     "c17e383927085ff03e0e78adb220a4914513bf67934b1dbeb8e2796d9faf7788",
+     "b1029c6b9a88bf05750cf6d01d109b8746db54d5def6ee836356d5094c1a0d93",
+     "f1c517245cdbde4186eb88da14665671e8f739d806ed24f5edd42c954943ba40",
+     "55a03a68746271bec878a1d712568e4a685d96814733e783914dcf1d3b6f2044",
+     "1e2884167d3c0d3471c2d725fa881c3ed6c1b4fcb253348c24c36b41b63eb0f0",
+     "02b5d361031327c76e73bcc33a6ac62c050cb829c853c80d405a1e36a031a896",
+     "21900047a60a60ac58b0c9e8cef9e6448b7f374d984daee02544343afcc66b53",
+     "4484379708f319f1cf46858179ef8bc45b968bb00dbaf430e2a46c14bab155d2",
+     "154c70a003bc6b3dba76c10b1caf6c6f8b0509965564fdd8b704304e31758dd9",
+     "08dad04616fa559301bcc88653790849b9548c2a98618112bda2dd290671e006",
+     "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
+     "bebbbf3a7da268ebb171e2342a64182317bd771a4eb65a88eec706afb72db88c",
+     "b6167b474a39cc721be107938f2ce27c5abecf75cadcdf28d819d30946aa3523",
+     "ad58e37d6b08062c20e46fa03946f2d044b5f7daa80cde144b94efa3be93a241",
+     "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
+     "9dc78f54cc48394cb5258c21a27ba23ae6f7d71d5230c04e06f9fa0bd0c79bbe",
+     "e88d25c48f8ea93491819c7718cd5a93cf24733cc75332962492b8605e97f9ee",
+     "6a66e4d1d494d74226fdc418e9854aa2db5b1cf5aa0c5065e57247e9f94c73a0",
+     "3b78e201cca2698b2687b34cdf3ae2868a658bb49eaac89467347985d7704342",
+     "dedfb63894bee1950cf562ac436ce5c1558c6a78ebe2edc019c8ebdeb4267235",
+     "2b0431e4c8b1d97408a1af19a3f9bc7f1c1317c9ab223a4553992694f297169a",
+     "a4f5205a144e23d9d6f7cfb0c7ef6356db48d21f4ff264dda2e41ce0d2bf1f1b",
+     "be2201fcf93c0bad20156c13afa9c1dcb2466f75441b015c9a5745da09d72a5a"
+    ]
+   },
+   {
+    "name": "first_source_off",
+    "criteria": {
+     "sources_off": [
+      "asa"
+     ],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "dccefc128bfd284fc2d1d2059006eb5b761d015c42bb9a0c932571ab10387272",
+     "bc8c9666e4260115355b439551c616c62c503a34c15f1289d10283f3464f1d96",
+     "fbdf4d0b2dc0f6b04cd2c4096903f540054d94a0f2f54f876bb2a1da17335392",
+     "b64177c23163847295bd608b0a2fff9d8a55b037ad7da3a15e4bf367fa2c49f0",
+     "fab4bf0bf077fd93a2c1285532385e3a5286b45e8fb40534eeeff4f82c77daca",
+     "775b039afb5eceb126ad000a2c55942839c6170ed5790d3e48a1e5cd62dab11d",
+     "0b284818b3019b5e2147550cc00d8a9d343b653789bc7f37cefb8a228cdf948d",
+     "ea101e8c1c1a204c801f99dd53467a926ef258502ac3e398547ad416da79afe1",
+     "f0c2bad7405749b04198bd7702b69b962b5e52dfe9f3bace2110367b7dbb4dad",
+     "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
+     "e6d431c59b5bdd662334a9ca5db5ba98140443c98e8d8ff32321801e7c4dd66e",
+     "dc77c9aa76c81ea231c1e8814fd9538b7b3473bbf20255d5dc2e95bd46f749e5",
+     "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
+     "9b323ece990d3581c0d5f22d0475140f560a4f972609341a2be3091d4a495a5d",
+     "c16b50d7f281fd210412d40932d6f78935d441748a4fd7d512934a6fdc5330f8",
+     "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7",
+     "cf0a8b414ce380565535c9a060f7217f03e6b810d4c8eae28850e9fd569ecca7",
+     "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
+     "d0e4632587b207b4bb9997b9bbd6d804fb9fe551d019ce871db079d8a00afe98",
+     "9fa406dfd95e14f7bef3119cad9802c90e30ece9e1f896469f57ae6165e9e006",
+     "d9eef24c2042d91af1a63e0440f614e5a8d69b1a8f2d975dc87f4c7f50ecb77f",
+     "4bc4d18712b75e984d8705030d50af92eb83fe1f5af3779ec0fa6ef9e351039f",
+     "6a4c92d34431560052cc7bc4d822bb83fda4e882bd32b2ec30c74dd67aacaab3",
+     "f4ffe1b8b059cb8a1c5cd4bf6084aeb15835fcc98af1e1709434e16a27e0f65f",
+     "a6ed9c16c4d63532be9ca2c328d826b33353cb8b141824882c4000440f8b2ef2",
+     "b32be75074fbc397c815397788c03036d4a26e7b8fd3f0b1f05fe9c92b8f0570",
+     "94d733dd2a7ebdcb8c10afa9d9f200ece7af76b210063dde5288a4718b4dcec1",
+     "5962059d1ccb6117c5b89904d6f8a8f3eafddf9e95a096c0c77c984c9661ca4a",
+     "d7c822b5e550998c05f2c08e2dd135b05e5c2c9ea2054dbcf3f81e1c0f06c1e9",
+     "52bb92726604282feaaca7bbe6c871060f66b089b78e1d449a35c8734e61243a",
+     "8b92431728ebd7579b67c659cccbc3533261e3b32ee750cdd933ba66de02404f",
+     "0319ef79b64af15cb581543ece9510b653d0fdba12dd2f81d41f842feda82fa9",
+     "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
+     "1df9f1fcde922ac94235c4c248295de2db5f81ede4314846672068b44da5039a",
+     "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
+     "23379694cd90a7b096a147be920fbb35fdef3861b4e5031968c41027eb88b537",
+     "88cdca0b46f3adf4f51f5cf33985a6dc57c080fda082423b8abe9127076b2e0f",
+     "c1303245fb60931f7e79efec2ce17a64e7ee7b7fe93ca2981a840e4c22aa0cb9",
+     "3e42c2d5d734fc3daa7d19c184641be75406eb008521208d384f637e297e1b26",
+     "42d432d9331c67cbb24cc4bf78fec48e2fa64e123fd28aab6172cb37426040bb",
+     "d95d78ddf75c76a3129e17f6e9fb12c80758716ee4413c9628508e07833167cb",
+     "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
+     "42b487ce5b94f636c37afe26754ce568c15778f6f60549ed060696a1d49ad222",
+     "06d8ddb9d01fa91909f704d3f394e265149091956dfe63d0857bed6226db221b",
+     "fe28dc0095df50ed13256013be8efaf5da1bacb388d77213f2217c9fc98f5837",
+     "86e1f1f5f81bf56fa400f1b2a6f9788a2a2e26992200cca71b130244ed45b571",
+     "4c0e212358bd515123c6dcfe8a7feb72d48b5d1a1e79f427fcd9d17b386e81c5",
+     "19afdb2abeeb6497d7863d88f24e94c5191d8bc0c09abdf8183c353af359ae26",
+     "24ecfeec1496ff217593f0abd115772f65d9abd554e14c0eef114afc681526dd",
+     "0a33d9d3adb200e3e66f5f9c7877d0efac1da9e372000d3e2485af1be8a3db07",
+     "fb77d2d33cee9f29b8edd077030e77ce4300e7c1e52ef32d4275245140e8ec36",
+     "54d0fa09242c8d9462811197501f30910ba04802de16afb6844672dab2d65e36",
+     "231767683af91f83b75df6e975de946c26fbc38b187799dc7039349dd194cb53",
+     "b3a4989cdb65902c8ab2fc30ef5daf2e3b7b0ac1cfc694564529d4443315c4a6",
+     "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
+     "48b13994d7e0dd0373ad149d8e3a58636346387def1e22fe798ef6be7b01bf0b",
+     "497a71e6ff072a6f64b661740a09af3991d454957c0be8d2aff6f7925c9882f6",
+     "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
+     "7a39ac28a914073e478df7f6caac8a1736bc5c810cafe56a37bf404f9defd707",
+     "ec396336b20bf75ae1410e9de406f590288e06003a4f88ce3a87f59b80f4ca8c",
+     "b5c8886b78c0bf07bd537be2776d35932f3f32c69dcf6bd27671e2b32d76ef75",
+     "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
+     "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
+     "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
+     "50f1c1a5b09e9c227d108d22fdeb7d6f77161202118f570a350aae96a257db2b",
+     "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
+     "ace0bfa16e599e969c4fc68de39c7d0ada8a0b7314b40b616b0244953db9190f",
+     "f86f2d1307d9c997a0f6da47bec1d199a7b05b17f3928cd2da50443ef29be484",
+     "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
+     "8d3bd2e2caea5a9d6ecd53876cf7b2e6cf2b59fa6afa768523515a443f590fce",
+     "861fc4958f19c9737eb132c91e14a4cbcfbac2b44803046bbccfef577c33cc86",
+     "a04f2e9a98d328e97887a9c9c378218d0755d9293bfb17cc3343edfbd42d84a8",
+     "7005f3bcdb9925e2d77bfb9932607c26b85a6c5b9bbaddd3224cc23d7230d494",
+     "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
+     "2322ec50b6fcce8e20f7360aaca2b23b85d1b0024dc24985479310b1395a0f2a",
+     "2da5e41c3255bd785d18d590683c444f991584a2d03b3592f287ebd6768e8ee2",
+     "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
+     "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
+     "5880920f75288aeea25395eced4fcd550a4d529b1d8e6adb66403ec11831482f",
+     "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
+     "415125f0162c6795c4c10631c5226eedae80ae3c964eedcf83ead1de040cfbb9",
+     "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
+     "e48ae577cb2a919a87f6562e34542ee1f8559e2d02c0ffb2e547e8803cd650a9",
+     "6ee9763b45f3624781da80280008ace016f5d51c2e9678512ace34857dbc6547",
+     "06f796035e4d1545085be3baf1d4e4acea9b743f41d9abc07a2010daed66d523",
+     "20ec285d3f4c11ca1ae1336db351b3d0032d6564ff5492c76262c72ed31eb127",
+     "e9e64964ec1ad40546947eb4bc3605cecee1690ce43202e744d2b47a96bd3be3",
+     "6519bc1fa4b6e082cc8fb696f6ff465b6e97b7a39f0b979272c3db45e2f2c00d",
+     "8eab447d16b264ace56f39edeb954e2ca1ec5e989aac0c84a364d11c3d379298",
+     "b9e591cb1f58c77908d467774db782b66da3f0143ac6170e8ac7fa6cf276f1fc",
+     "11328f54eeaf5a859898c1cfb095529aaded912643c1002b065f083a65d57643",
+     "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
+     "22a17b3c332b871677e8c9db0c4f8182409b2ce054916abd70e255e07e68076f",
+     "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
+     "27b9273f303417e9a437fcca96b6c287166cc7c309c50f673234e557ad8d9ea5",
+     "d8f7ce334ff2e190bb9d965649adc8d9791b4217b1de57872bbf21aff62e81b3",
+     "719f8f1499b4b91a2eb8b55dc56223d51b3aa6853e0ac1f382a99d2bd4f97398",
+     "e8fe16355dbe4ea0269ef5b557017daec4bc19786379f64928f51650527a79c1",
+     "112ece88b474ac50835c506642079ecef5b9bb1701d27bb9a38188f4eb99c364",
+     "f17c02b66c653ea1ff41b9c15eec4435ea2b49f9582b226155d470fdec2d6df8",
+     "e42d2c141cca2ff482cbd62c81470ac3f7eca902117dee4292c25398e0e01b62",
+     "6858da8faafb303cdff0248cf7aba35992c2d1c0c04040374ae2abeb2c0a6806",
+     "5ae73e346dd485ca646650dca3f066f919c1f0c784fe3cc15dd018c99267cfd7",
+     "73baa4325fe86cd40baca81a27482dea1c8d1de3c1ce1b8234bffef2535c9f0b",
+     "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
+     "44e6b221ce676df2f9da25a7312568a2b8caa0d1037356dfe214d5c96a038035",
+     "47ba954271d204e33f49ebc885a53f2db32db0f7edb8e438e08c84d65b65a77a",
+     "1fe18ac7d0ead0a777fafe66d81181d150734f69e8680d6b216259900d60a60d",
+     "ab1bcf5ff2d608d248e5fd5c524c86aafbaf03e4ec5841c8c1585131b5e6e7e0",
+     "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
+     "47d0a981e7423aabdc0e13b316d8708e8d545577e4613381014bffd5b4a54e8d",
+     "c9b7977613f3a06b79d224610c5d8208e1d7c001edf7a9e96e78c0919a012992",
+     "993ec38a86dcaa4888b6b8ac3dc398bfb8724a0964824b836370844e60a31798",
+     "c718ce2622f01321ba1df8ca8c73a8506a531aee08015e53b42b23119172fe89",
+     "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
+     "a7229ea08bdd702943792a1a7b6d9e750ad9d542479d940f9ec3eb1746c5bb6a",
+     "a98cbda43e04d81c1a28b56bc3f139a07807c71b54fabb4cdce06a37ad8414c7",
+     "ce50d9845d2ae4f9de561bd48e21f55872bc622ce469d452abdbc3e8f62f05ec",
+     "d898507bab93d5c09e15c90997873032f3a9223c985c776b1b72f18cdcef150b",
+     "0029545d196dedc3613710b2dbd67b71f5a21d394b4c53d494b0086d5dccbc83",
+     "846f9b904bf29301186f6b3abde0bbccf4190c3e88d0188f17bb2a7aa8b5443f",
+     "56ed4181ac93dda32123bc771bf1c608f19663811b9a62d9c73cd0a218eb9eb1",
+     "90eb6e6ef09ca53d2ca779c255c63d632559a28f0f4b3e6d9184e567901269bd",
+     "92e379d78d5b6aa1a5f30b06d2f8872ca92c162389fd77cdb539ca1eeebc3385",
+     "11771570c9bae9b3c62ec144cccb2dab027961c19b358cbeb307a8b6807db790",
+     "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+     "05befff39aeae0f851ceaa3ae9f93060c00a5e3cd96c4e03df1c1a0221b43f2d",
+     "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
+     "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
+     "6914d34f93e4d422be305503cb1172da1cf1e99f975454a0a8304007d701bf65",
+     "2527498fe2b20eac2c15d66e26bc1680e111d5dc97dcbddb2f1e5943124d96a9",
+     "0bc1a1ca12c4473412f9ef8e93647bc3ec77c31c24850057c7aa0e83afc23ec4",
+     "aa0dc8b1da2a7017ad9c02d6e9fec3431eb162f8e83aba4f977a1f02dbd143fd",
+     "d7e0b50388462de24e4cb2f6dc290dffd5bba0c6a00b7e564fa4075e19978a92",
+     "c7c1d93d2314a6849d0310861fcd2b07fe557b62cb73d5a6faaf7a67deace45c",
+     "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+     "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+     "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+     "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+     "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23",
+     "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0",
+     "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
+     "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
+     "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4",
+     "f2beee9dcd36f8a55b6880730c15fa2220a683d9cb3344af24fc9f7045d34612",
+     "3455b82db087a9248c79d08bf1ab4f08c2b77ce1f14ff9f9698445ba9bde0c9c",
+     "156e949579927b74c3882b72c56467905fca782acbb7e0ee47d0bfe81bff4bcb",
+     "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
+     "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
+     "eaecd2e56a9ba5f85c4a0f43a3ed039f7d3ff84fa64398d23bf604dfc72aadaa",
+     "f749f3e161bbee98a17095640b89d1585b64f0eb6bf3aac433e1c30a4d2fe455",
+     "f26a1c226d35055fc772af8568e8cd7fcdc5f6f3fbf4b3a139ea4fb402d3ab82",
+     "05a1fc429e349934e06701bc8f5ef5627bccde45c2ac9f7efb820d826c6aa66d",
+     "a03b4a964b280cbc97d87c5fbbc880c550793b63dc5d3ab6eca25dbac3699aa5",
+     "c17e383927085ff03e0e78adb220a4914513bf67934b1dbeb8e2796d9faf7788",
+     "b1029c6b9a88bf05750cf6d01d109b8746db54d5def6ee836356d5094c1a0d93",
+     "f1c517245cdbde4186eb88da14665671e8f739d806ed24f5edd42c954943ba40",
+     "55a03a68746271bec878a1d712568e4a685d96814733e783914dcf1d3b6f2044",
+     "1e2884167d3c0d3471c2d725fa881c3ed6c1b4fcb253348c24c36b41b63eb0f0",
+     "02b5d361031327c76e73bcc33a6ac62c050cb829c853c80d405a1e36a031a896",
+     "21900047a60a60ac58b0c9e8cef9e6448b7f374d984daee02544343afcc66b53",
+     "4484379708f319f1cf46858179ef8bc45b968bb00dbaf430e2a46c14bab155d2",
+     "154c70a003bc6b3dba76c10b1caf6c6f8b0509965564fdd8b704304e31758dd9",
+     "08dad04616fa559301bcc88653790849b9548c2a98618112bda2dd290671e006",
+     "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
+     "b6167b474a39cc721be107938f2ce27c5abecf75cadcdf28d819d30946aa3523",
+     "ad58e37d6b08062c20e46fa03946f2d044b5f7daa80cde144b94efa3be93a241",
+     "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
+     "9dc78f54cc48394cb5258c21a27ba23ae6f7d71d5230c04e06f9fa0bd0c79bbe",
+     "e88d25c48f8ea93491819c7718cd5a93cf24733cc75332962492b8605e97f9ee",
+     "6a66e4d1d494d74226fdc418e9854aa2db5b1cf5aa0c5065e57247e9f94c73a0",
+     "3b78e201cca2698b2687b34cdf3ae2868a658bb49eaac89467347985d7704342",
+     "dedfb63894bee1950cf562ac436ce5c1558c6a78ebe2edc019c8ebdeb4267235",
+     "a4f5205a144e23d9d6f7cfb0c7ef6356db48d21f4ff264dda2e41ce0d2bf1f1b",
+     "be2201fcf93c0bad20156c13afa9c1dcb2466f75441b015c9a5745da09d72a5a"
+    ]
+   },
+   {
+    "name": "first_category_off",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [
+      "Policy and legislation"
+     ],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "dccefc128bfd284fc2d1d2059006eb5b761d015c42bb9a0c932571ab10387272",
+     "fbdf4d0b2dc0f6b04cd2c4096903f540054d94a0f2f54f876bb2a1da17335392",
+     "b64177c23163847295bd608b0a2fff9d8a55b037ad7da3a15e4bf367fa2c49f0",
+     "fab4bf0bf077fd93a2c1285532385e3a5286b45e8fb40534eeeff4f82c77daca",
+     "775b039afb5eceb126ad000a2c55942839c6170ed5790d3e48a1e5cd62dab11d",
+     "ea101e8c1c1a204c801f99dd53467a926ef258502ac3e398547ad416da79afe1",
+     "f0c2bad7405749b04198bd7702b69b962b5e52dfe9f3bace2110367b7dbb4dad",
+     "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
+     "dc77c9aa76c81ea231c1e8814fd9538b7b3473bbf20255d5dc2e95bd46f749e5",
+     "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
+     "9b323ece990d3581c0d5f22d0475140f560a4f972609341a2be3091d4a495a5d",
+     "cf0a8b414ce380565535c9a060f7217f03e6b810d4c8eae28850e9fd569ecca7",
+     "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
+     "9fa406dfd95e14f7bef3119cad9802c90e30ece9e1f896469f57ae6165e9e006",
+     "d9eef24c2042d91af1a63e0440f614e5a8d69b1a8f2d975dc87f4c7f50ecb77f",
+     "4bc4d18712b75e984d8705030d50af92eb83fe1f5af3779ec0fa6ef9e351039f",
+     "6a4c92d34431560052cc7bc4d822bb83fda4e882bd32b2ec30c74dd67aacaab3",
+     "f4ffe1b8b059cb8a1c5cd4bf6084aeb15835fcc98af1e1709434e16a27e0f65f",
+     "a6ed9c16c4d63532be9ca2c328d826b33353cb8b141824882c4000440f8b2ef2",
+     "b32be75074fbc397c815397788c03036d4a26e7b8fd3f0b1f05fe9c92b8f0570",
+     "5962059d1ccb6117c5b89904d6f8a8f3eafddf9e95a096c0c77c984c9661ca4a",
+     "d7c822b5e550998c05f2c08e2dd135b05e5c2c9ea2054dbcf3f81e1c0f06c1e9",
+     "52bb92726604282feaaca7bbe6c871060f66b089b78e1d449a35c8734e61243a",
+     "8b92431728ebd7579b67c659cccbc3533261e3b32ee750cdd933ba66de02404f",
+     "0319ef79b64af15cb581543ece9510b653d0fdba12dd2f81d41f842feda82fa9",
+     "1df9f1fcde922ac94235c4c248295de2db5f81ede4314846672068b44da5039a",
+     "88cdca0b46f3adf4f51f5cf33985a6dc57c080fda082423b8abe9127076b2e0f",
+     "3e42c2d5d734fc3daa7d19c184641be75406eb008521208d384f637e297e1b26",
+     "42d432d9331c67cbb24cc4bf78fec48e2fa64e123fd28aab6172cb37426040bb",
+     "d95d78ddf75c76a3129e17f6e9fb12c80758716ee4413c9628508e07833167cb",
+     "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
+     "06d8ddb9d01fa91909f704d3f394e265149091956dfe63d0857bed6226db221b",
+     "fe28dc0095df50ed13256013be8efaf5da1bacb388d77213f2217c9fc98f5837",
+     "86e1f1f5f81bf56fa400f1b2a6f9788a2a2e26992200cca71b130244ed45b571",
+     "4c0e212358bd515123c6dcfe8a7feb72d48b5d1a1e79f427fcd9d17b386e81c5",
+     "19afdb2abeeb6497d7863d88f24e94c5191d8bc0c09abdf8183c353af359ae26",
+     "24ecfeec1496ff217593f0abd115772f65d9abd554e14c0eef114afc681526dd",
+     "0a33d9d3adb200e3e66f5f9c7877d0efac1da9e372000d3e2485af1be8a3db07",
+     "fb77d2d33cee9f29b8edd077030e77ce4300e7c1e52ef32d4275245140e8ec36",
+     "54d0fa09242c8d9462811197501f30910ba04802de16afb6844672dab2d65e36",
+     "231767683af91f83b75df6e975de946c26fbc38b187799dc7039349dd194cb53",
+     "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
+     "48b13994d7e0dd0373ad149d8e3a58636346387def1e22fe798ef6be7b01bf0b",
+     "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
+     "7a39ac28a914073e478df7f6caac8a1736bc5c810cafe56a37bf404f9defd707",
+     "ec396336b20bf75ae1410e9de406f590288e06003a4f88ce3a87f59b80f4ca8c",
+     "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
+     "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
+     "50f1c1a5b09e9c227d108d22fdeb7d6f77161202118f570a350aae96a257db2b",
+     "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
+     "ace0bfa16e599e969c4fc68de39c7d0ada8a0b7314b40b616b0244953db9190f",
+     "f86f2d1307d9c997a0f6da47bec1d199a7b05b17f3928cd2da50443ef29be484",
+     "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
+     "282edc39b5e4ad28ef47d78bdcae6ee5351950839bf41906feb38a8529dac89e",
+     "8d3bd2e2caea5a9d6ecd53876cf7b2e6cf2b59fa6afa768523515a443f590fce",
+     "861fc4958f19c9737eb132c91e14a4cbcfbac2b44803046bbccfef577c33cc86",
+     "a04f2e9a98d328e97887a9c9c378218d0755d9293bfb17cc3343edfbd42d84a8",
+     "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
+     "2322ec50b6fcce8e20f7360aaca2b23b85d1b0024dc24985479310b1395a0f2a",
+     "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
+     "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
+     "36d0100a69622b76dabefd656f66bae4f69d0f07499fb93b151ca432de691bc7",
+     "e48ae577cb2a919a87f6562e34542ee1f8559e2d02c0ffb2e547e8803cd650a9",
+     "06f796035e4d1545085be3baf1d4e4acea9b743f41d9abc07a2010daed66d523",
+     "20ec285d3f4c11ca1ae1336db351b3d0032d6564ff5492c76262c72ed31eb127",
+     "e9e64964ec1ad40546947eb4bc3605cecee1690ce43202e744d2b47a96bd3be3",
+     "6519bc1fa4b6e082cc8fb696f6ff465b6e97b7a39f0b979272c3db45e2f2c00d",
+     "b9e591cb1f58c77908d467774db782b66da3f0143ac6170e8ac7fa6cf276f1fc",
+     "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
+     "44e6b221ce676df2f9da25a7312568a2b8caa0d1037356dfe214d5c96a038035",
+     "1fe18ac7d0ead0a777fafe66d81181d150734f69e8680d6b216259900d60a60d",
+     "ab1bcf5ff2d608d248e5fd5c524c86aafbaf03e4ec5841c8c1585131b5e6e7e0",
+     "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
+     "c718ce2622f01321ba1df8ca8c73a8506a531aee08015e53b42b23119172fe89",
+     "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
+     "f087dec27296a625044a6f6a5abb143954ae4d5dccf48fee7060bc4793cccb65",
+     "a7229ea08bdd702943792a1a7b6d9e750ad9d542479d940f9ec3eb1746c5bb6a",
+     "a98cbda43e04d81c1a28b56bc3f139a07807c71b54fabb4cdce06a37ad8414c7",
+     "d898507bab93d5c09e15c90997873032f3a9223c985c776b1b72f18cdcef150b",
+     "846f9b904bf29301186f6b3abde0bbccf4190c3e88d0188f17bb2a7aa8b5443f",
+     "56ed4181ac93dda32123bc771bf1c608f19663811b9a62d9c73cd0a218eb9eb1",
+     "90eb6e6ef09ca53d2ca779c255c63d632559a28f0f4b3e6d9184e567901269bd",
+     "92e379d78d5b6aa1a5f30b06d2f8872ca92c162389fd77cdb539ca1eeebc3385",
+     "11771570c9bae9b3c62ec144cccb2dab027961c19b358cbeb307a8b6807db790",
+     "13aee5f6cda19b0d9d46f0f2c25dfc282d04fbf07bbcf6c6dbf4fbcc30022afd",
+     "7d1c8960cb48cc4490adf5f9fb21013949b1dac99ac9c8413db9b32f45d81576",
+     "05befff39aeae0f851ceaa3ae9f93060c00a5e3cd96c4e03df1c1a0221b43f2d",
+     "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
+     "bbebfd9b94131e30a198eb5a4ed8e040e14ded3ad324a196e72084e2dfdd9fa8",
+     "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
+     "6914d34f93e4d422be305503cb1172da1cf1e99f975454a0a8304007d701bf65",
+     "2527498fe2b20eac2c15d66e26bc1680e111d5dc97dcbddb2f1e5943124d96a9",
+     "0bc1a1ca12c4473412f9ef8e93647bc3ec77c31c24850057c7aa0e83afc23ec4",
+     "aa0dc8b1da2a7017ad9c02d6e9fec3431eb162f8e83aba4f977a1f02dbd143fd",
+     "d7e0b50388462de24e4cb2f6dc290dffd5bba0c6a00b7e564fa4075e19978a92",
+     "76f3dff83f14fab20eb29ebb37397e0bc4d68030d054917cf96d74e5a4d05e89",
+     "c7c1d93d2314a6849d0310861fcd2b07fe557b62cb73d5a6faaf7a67deace45c",
+     "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+     "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+     "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+     "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+     "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23",
+     "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0",
+     "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
+     "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
+     "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4",
+     "79aaa4bc4392670ded84b1072961483e7d056628321921ace1fff1434582bd76",
+     "f2beee9dcd36f8a55b6880730c15fa2220a683d9cb3344af24fc9f7045d34612",
+     "3455b82db087a9248c79d08bf1ab4f08c2b77ce1f14ff9f9698445ba9bde0c9c",
+     "156e949579927b74c3882b72c56467905fca782acbb7e0ee47d0bfe81bff4bcb",
+     "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
+     "7e17b619f030662db0ba87fee1dbd85da103bae49ef80d59f775aebab8572eaf",
+     "f749f3e161bbee98a17095640b89d1585b64f0eb6bf3aac433e1c30a4d2fe455",
+     "f26a1c226d35055fc772af8568e8cd7fcdc5f6f3fbf4b3a139ea4fb402d3ab82",
+     "c17e383927085ff03e0e78adb220a4914513bf67934b1dbeb8e2796d9faf7788",
+     "b1029c6b9a88bf05750cf6d01d109b8746db54d5def6ee836356d5094c1a0d93",
+     "f1c517245cdbde4186eb88da14665671e8f739d806ed24f5edd42c954943ba40",
+     "55a03a68746271bec878a1d712568e4a685d96814733e783914dcf1d3b6f2044",
+     "1e2884167d3c0d3471c2d725fa881c3ed6c1b4fcb253348c24c36b41b63eb0f0",
+     "02b5d361031327c76e73bcc33a6ac62c050cb829c853c80d405a1e36a031a896",
+     "21900047a60a60ac58b0c9e8cef9e6448b7f374d984daee02544343afcc66b53",
+     "4484379708f319f1cf46858179ef8bc45b968bb00dbaf430e2a46c14bab155d2",
+     "154c70a003bc6b3dba76c10b1caf6c6f8b0509965564fdd8b704304e31758dd9",
+     "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
+     "bebbbf3a7da268ebb171e2342a64182317bd771a4eb65a88eec706afb72db88c",
+     "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
+     "9dc78f54cc48394cb5258c21a27ba23ae6f7d71d5230c04e06f9fa0bd0c79bbe",
+     "e88d25c48f8ea93491819c7718cd5a93cf24733cc75332962492b8605e97f9ee",
+     "6a66e4d1d494d74226fdc418e9854aa2db5b1cf5aa0c5065e57247e9f94c73a0",
+     "3b78e201cca2698b2687b34cdf3ae2868a658bb49eaac89467347985d7704342",
+     "2b0431e4c8b1d97408a1af19a3f9bc7f1c1317c9ab223a4553992694f297169a",
+     "a4f5205a144e23d9d6f7cfb0c7ef6356db48d21f4ff264dda2e41ce0d2bf1f1b"
+    ]
+   },
+   {
+    "name": "top_company",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [
+      "HM Treasury"
+     ],
+     "min_score": 0,
+     "days": null,
+     "search": ""
+    },
+    "ids": [
+     "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
+     "23379694cd90a7b096a147be920fbb35fdef3861b4e5031968c41027eb88b537",
+     "c1303245fb60931f7e79efec2ce17a64e7ee7b7fe93ca2981a840e4c22aa0cb9",
+     "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
+     "7005f3bcdb9925e2d77bfb9932607c26b85a6c5b9bbaddd3224cc23d7230d494",
+     "2da5e41c3255bd785d18d590683c444f991584a2d03b3592f287ebd6768e8ee2",
+     "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
+     "5880920f75288aeea25395eced4fcd550a4d529b1d8e6adb66403ec11831482f",
+     "6ee9763b45f3624781da80280008ace016f5d51c2e9678512ace34857dbc6547",
+     "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
+     "22a17b3c332b871677e8c9db0c4f8182409b2ce054916abd70e255e07e68076f",
+     "d8f7ce334ff2e190bb9d965649adc8d9791b4217b1de57872bbf21aff62e81b3",
+     "73baa4325fe86cd40baca81a27482dea1c8d1de3c1ce1b8234bffef2535c9f0b",
+     "47ba954271d204e33f49ebc885a53f2db32db0f7edb8e438e08c84d65b65a77a",
+     "47d0a981e7423aabdc0e13b316d8708e8d545577e4613381014bffd5b4a54e8d",
+     "0029545d196dedc3613710b2dbd67b71f5a21d394b4c53d494b0086d5dccbc83",
+     "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
+     "05a1fc429e349934e06701bc8f5ef5627bccde45c2ac9f7efb820d826c6aa66d",
+     "08dad04616fa559301bcc88653790849b9548c2a98618112bda2dd290671e006"
+    ]
+   },
+   {
+    "name": "search_commission",
+    "criteria": {
+     "sources_off": [],
+     "categories_off": [],
+     "companies": [],
+     "min_score": 0,
+     "days": null,
+     "search": "commission"
+    },
+    "ids": [
+     "6a4c92d34431560052cc7bc4d822bb83fda4e882bd32b2ec30c74dd67aacaab3",
+     "f4ffe1b8b059cb8a1c5cd4bf6084aeb15835fcc98af1e1709434e16a27e0f65f",
+     "a6ed9c16c4d63532be9ca2c328d826b33353cb8b141824882c4000440f8b2ef2"
+    ]
+   }
+  ]
+ },
+ "insights": {
+  "tiles": [
+   {
+    "label": "Signals this week",
+    "value": "12",
+    "note": "−8 vs 4-week average"
+   },
+   {
+    "label": "High relevance, last 30 days",
+    "value": "0",
+    "note": "Level with previous 30 days"
+   },
+   {
+    "label": "Active patterns",
+    "value": "0",
+    "note": "Companies with a run of related signals"
+   },
+   {
+    "label": "Themes building",
+    "value": "2",
+    "note": "Sector-wide stories gaining pace"
+   },
+   {
+    "label": "Sources healthy",
+    "value": "6/7",
+    "note": "At the last update"
+   }
+  ],
+  "volume": {
+   "counts": [
+    9,
+    8,
+    5,
+    11,
+    3,
+    8,
+    2,
+    8,
+    2,
+    8,
+    6,
+    13,
+    30,
+    9,
+    19,
+    27,
+    16,
+    1
+   ],
+   "marks": [],
+   "top": 30
+  },
+  "heatmap": {
+   "rows": [
+    {
+     "category": "Policy and legislation",
+     "counts": [
+      2,
+      3,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      8,
+      18,
+      0,
+      4,
+      7,
+      5,
+      0
+     ],
+     "total": 53
+    },
+    {
+     "category": "Other",
+     "counts": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      5,
+      2,
+      3,
+      7,
+      3,
+      0,
+      11,
+      3,
+      0
+     ],
+     "total": 40
+    },
+    {
+     "category": "Insolvency",
+     "counts": [
+      1,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      1,
+      4,
+      9,
+      6,
+      3,
+      0
+     ],
+     "total": 36
+    },
+    {
+     "category": "Board and director changes",
+     "counts": [
+      2,
+      3,
+      0,
+      2,
+      0,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      2,
+      1,
+      3,
+      1
+     ],
+     "total": 25
+    },
+    {
+     "category": "Corporate filing",
+     "counts": [
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      2,
+      2,
+      3,
+      0,
+      0,
+      0
+     ],
+     "total": 16
+    },
+    {
+     "category": "Financial results",
+     "counts": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "total": 5
+    },
+    {
+     "category": "Shareholding disclosure",
+     "counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0
+     ],
+     "total": 4
+    },
+    {
+     "category": "Consultation",
+     "counts": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 2
+    },
+    {
+     "category": "Authorisation and permissions",
+     "counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 1
+    },
+    {
+     "category": "Enforcement action",
+     "counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 1
+    },
+    {
+     "category": "Merger and acquisition",
+     "counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "total": 1
+    },
+    {
+     "category": "Tax and levy",
+     "counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "total": 1
+    }
+   ],
+   "thresholds": [
+    1,
+    2,
+    3,
+    7,
+    18
+   ]
+  },
+  "movers": [
+   {
+    "name": "UK Debt Management Office",
+    "count": 1,
+    "top": 58,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Wise Payments Limited",
+    "count": 5,
+    "top": 45,
+    "change": 3,
+    "weekly": [
+     1,
+     0,
+     0,
+     1,
+     2,
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     2,
+     1,
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "name": "PayPoint",
+    "count": 2,
+    "top": 40,
+    "change": 1,
+    "weekly": [
+     2,
+     1,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "Lea Paterson",
+    "count": 1,
+    "top": 30,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Matthew Tobin",
+    "count": 1,
+    "top": 30,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Klarna Financial Services UK Limited",
+    "count": 2,
+    "top": 28,
+    "change": 2,
+    "weekly": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "UK Export Finance",
+    "count": 2,
+    "top": 25,
+    "change": 2,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "GoCardless Ltd",
+    "count": 2,
+    "top": 25,
+    "change": 1,
+    "weekly": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0
+    ]
+   }
+  ],
+  "themes": [
+   {
+    "name": "Policy and legislation",
+    "heat": 236.26666666666665,
+    "direction": "easing",
+    "recent": 8,
+    "prior": 12
+   },
+   {
+    "name": "Board and director changes",
+    "heat": 178.5,
+    "direction": "building",
+    "recent": 5,
+    "prior": 2
+   },
+   {
+    "name": "Insolvency",
+    "heat": 175.66666666666666,
+    "direction": "steady",
+    "recent": 2,
+    "prior": 1
+   },
+   {
+    "name": "Corporate filing",
+    "heat": 105.33333333333333,
+    "direction": "building",
+    "recent": 4,
+    "prior": 1
+   }
+  ]
+ },
+ "entities": [
+  {
+   "name": "AE Fruits",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "AI Security Institute",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Alex Depledge",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Anthropic",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "AperiData",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Apple",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BLOUDAN",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "BN1 Cleaning",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Bank of England",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Bubbleology UK-I",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Cadbury",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Canada",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Cash Access",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Celestial Travel",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Checkout Ltd",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "ClearBank Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Coin Fintech",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Community Development Finance Institutions",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Community Finance Taskforce",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Competition and Markets Authority",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Costcutter Supermarkets",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Country And County Property Investments",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "DCMS",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "DF Temple",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "DORISI OT",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Defence Uncrewed Systems Centre",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Defra",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Department for Digital, Culture, Media and Sport",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Department for Education",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Department for Environment, Food and Rural Affairs",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Eldens Finance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Estrada Homes",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Eurowings",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Financial Conduct Authority",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Fintech Digital Solutions",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Five Akhi's",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "GoCardless Ltd",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Google",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Google Maps",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "HAPPYHOOP",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "HM Treasury",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "Harnbury",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Hemp Union",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Home Department",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "IMF",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "IN ACC Services",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Indian Ministry of Finance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Jodrell Bank Observatory",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "John Healey",
+   "is_person": true,
+   "excluded": false
+  },
+  {
+   "name": "Klarna Financial Services UK Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Lea Paterson",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "MJHM Engineering",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "MOC BUILDERS",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Malaysia",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Manchester Convenience Store",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Matthew Tobin",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "McCain Foods",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Menara Fintech Services",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ministry of Defence",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Mondelez Europe Services GmbH",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Monzo Bank Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "NISTA",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "New Tech Finance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Newtech Finance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "OFSI",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Office for Students",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Office of Financial Sanctions Implementation",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Office of the Independent Prevent Commissioner",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Ohm Topco",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Oochie",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "OpenAI",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Oxford Economics",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Pamela Olender",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Patisserie Valerie Production",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "PayPoint",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Prevent Standards and Compliance Unit",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Profound",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "QUAYMILE",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Revolut Ltd",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "SHJ TRADERS",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "STFC",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "San Carlo Cicchetti",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Stacey's World Rocks",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Starling Bank Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Stealth Offshore",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Take-Two Interactive Software",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Business Success Academy",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Maintenance Team Plumbing & Gas",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "The Monty Bojangles",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Debt Management Office",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Department for Business and Trade",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Export Finance",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Finance",
+   "is_person": false,
+   "excluded": true
+  },
+  {
+   "name": "UK Fintech Growth GP",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Fintech Growth GP 2",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Research and Innovation",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "UK Statistics Authority",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "University of Cambridge",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Vukul",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Wholesale Digital Markets Champion",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "Wise Payments Limited",
+   "is_person": false,
+   "excluded": false
+  },
+  {
+   "name": "YO! Sushi",
+   "is_person": false,
+   "excluded": false
+  }
+ ]
+}
