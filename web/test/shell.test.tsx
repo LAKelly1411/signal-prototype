@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { StatusStrip } from "@/components/StatusStrip";
-import { EmptyState } from "@/components/EmptyState";
+import { EmptyState, UpdateNotice } from "@/components/EmptyState";
 import { Tabs } from "@/components/Tabs";
 
 vi.mock("next/navigation", () => ({ useSelectedLayoutSegment: () => null }));
@@ -28,6 +28,17 @@ describe("EmptyState", () => {
   it("shows the unavailable message", () => {
     render(<EmptyState kind="unavailable" />);
     expect(screen.getByText("We couldn't load the latest signals. Try again in a few minutes.")).toBeInTheDocument();
+  });
+});
+
+describe("UpdateNotice", () => {
+  it("says the last update didn't finish", () => {
+    render(<UpdateNotice />);
+    expect(screen.getByText("The last update didn't finish. Showing the latest data we have.")).toBeInTheDocument();
+  });
+  it("has the error_empty copy", () => {
+    render(<EmptyState kind="error_empty" name="Demo" />);
+    expect(screen.getByText("We couldn't load Demo yet. We'll try again on the next scheduled update.")).toBeInTheDocument();
   });
 });
 

@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import { DataError } from "@/lib/data/errors";
-import { loadSector } from "@/lib/load";
+import { loadSector, sectorNote } from "@/lib/load";
 
 vi.mock("next/navigation", () => ({ notFound: () => { throw new Error("NEXT_NOT_FOUND"); } }));
 
@@ -37,5 +37,21 @@ describe("loadSector", () => {
   it("says unavailable when the data can't be reached", async () => {
     const down = fake({ listSectors: async () => { throw new DataError("unreachable", "down"); } });
     expect((await loadSector("demo", down)).state).toBe("unavailable");
+  });
+  it("keeps showing data when the last run failed, with a notice", async () => {
+    const failed = [{ slug: "demo", name: "Demo", status: "error", signal_count: 1 }];
+    const v = await loadSector("demo", fake({ listSectors: async () => failed }));
+    expect(v.state).toBe("ready");
+    expect(v.state === "ready" && v.notice).toBe("update_failed");
+  });
+  it("is error_empty when the last run failed and there is nothing to show", async () => {
+    const failed = [{ slug: "demo", name: "Demo", status: "error", signal_count: 0 }];
+    expect((await loadSector("demo", fake({ listSectors: async () => failed, getSignals: async () => { throw new DataError("not_found", "x"); } }))).state).toBe("error_empty");
+    expect((await loadSector("demo", fake({ listSectors: async () => failed, getSignals: async () => [] }))).state).toBe("error_empty");
+  });
+  it("has no notice on a healthy sector, and notes a failed one as Update failed", async () => {
+    const v = await loadSector("demo", fake());
+    expect(v.state === "ready" && v.notice).toBeNull();
+    expect(sectorNote({ slug: "x", name: "X", status: "error" } as never)).toBe("Update failed");
   });
 });

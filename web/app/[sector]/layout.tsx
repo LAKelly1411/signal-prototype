@@ -2,7 +2,7 @@ import { Masthead } from "@/components/Masthead";
 import { SectorMenu } from "@/components/SectorMenu";
 import { StatusStrip } from "@/components/StatusStrip";
 import { Tabs } from "@/components/Tabs";
-import { EmptyState } from "@/components/EmptyState";
+import { EmptyState, UpdateNotice } from "@/components/EmptyState";
 import styles from "@/components/shell.module.css";
 import { loadSector } from "@/lib/load";
 
@@ -33,6 +33,7 @@ export default async function SectorLayout({ children, params }: { children: Rea
       </div>
       {view.state === "ready" ? (
         <>
+          {view.notice === "update_failed" && <UpdateNotice />}
           <Tabs slug={view.sector.slug} />
           {children}
         </>

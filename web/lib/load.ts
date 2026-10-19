@@ -4,8 +4,8 @@ import { getDataSource, type DataSource } from "@/lib/data/source";
 import type { RunStatus, SectorEntry, SectorRules, Signal } from "@/lib/data/types";
 
 export type SectorView =
-  | { state: "ready"; sector: SectorEntry; sectors: SectorEntry[]; signals: Signal[]; status: RunStatus | null; rules: SectorRules | null; now: Date }
-  | { state: "setting_up" | "empty"; sector: SectorEntry; sectors: SectorEntry[]; status: RunStatus | null }
+  | { state: "ready"; sector: SectorEntry; sectors: SectorEntry[]; signals: Signal[]; status: RunStatus | null; rules: SectorRules | null; now: Date; notice: "update_failed" | null }
+  | { state: "setting_up" | "empty" | "error_empty"; sector: SectorEntry; sectors: SectorEntry[]; status: RunStatus | null }
   | { state: "unavailable"; sectors: SectorEntry[] };
 
 export { TABS } from "@/lib/tabs";
@@ -47,17 +47,18 @@ export async function loadSector(slug: string, src: DataSource = getDataSource()
   if (!sector) notFound();
 
   const status = await orNull(src.getRunStatus(slug));
-  if (sector.status !== "ready") return { state: "setting_up", sector, sectors, status };
+  const failed = sector.status === "error";
+  if (sector.status !== "ready" && !failed) return { state: "setting_up", sector, sectors, status };
 
   let signals: Signal[];
   try {
     signals = await src.getSignals(slug);
   } catch (e) {
-    if (e instanceof DataError && e.kind === "not_found") return { state: "setting_up", sector, sectors, status };
+    if (e instanceof DataError && e.kind === "not_found") return { state: failed ? "error_empty" : "setting_up", sector, sectors, status };
     if (e instanceof DataError) return { state: "unavailable", sectors };
     throw e;
   }
-  if (signals.length === 0) return { state: "empty", sector, sectors, status };
+  if (signals.length === 0) return { state: failed ? "error_empty" : "empty", sector, sectors, status };
   const rules = await orNull(src.getSectorRules(slug));
-  return { state: "ready", sector, sectors, signals, status, rules, now: new Date() };
+  return { state: "ready", sector, sectors, signals, status, rules, now: new Date(), notice: failed ? "update_failed" : null };
 }
