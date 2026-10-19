@@ -1,0 +1,44 @@
+.masthead { margin: 0; }
+.lockup { margin-bottom: 1.25rem; }
+.logo { width: var(--lockup-size); height: var(--lockup-size); flex-shrink: 0; }
+.page { max-width: 90rem; margin: 0 auto; padding: 2rem clamp(1rem, 3vw, 2.5rem) 4rem; }
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0 24px; }
+.intro { min-width: 0; }
+.standfirst { font-family: var(--pa-font-body); font-size: 1.125rem; line-height: 1.6; color: var(--pa-muted); margin: 0; }
+
+/* Sector switcher: the page title, opening a menu of sectors. */
+.menu { position: relative; display: block; max-width: 100%; }
+.menu > summary {
+  list-style: none; cursor: pointer; margin: 0.75rem 0 0.5rem 0; height: 3.25rem; max-width: 100%;
+  font-family: var(--pa-font-heading); font-weight: 700; font-size: 3rem; line-height: 1.0833;
+  letter-spacing: 0.005em; color: var(--pa-ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.menu > summary::-webkit-details-marker { display: none; }
+.menu > summary:hover { color: var(--pa-cobalt); }
+.list {
+  position: absolute; z-index: 10; min-width: 320px; margin: 0; padding: 4px 0; list-style: none;
+  background: var(--pa-paper); border: 1px solid var(--pa-ink); box-shadow: var(--pa-shadow-hover);
+}
+.option { display: flex; justify-content: space-between; gap: 1.5rem; padding: 10px 16px; color: var(--pa-ink); text-decoration: none; }
+.option:hover { background: var(--pa-hover); }
+.option[aria-current="true"] { font-weight: 700; }
+.note { color: var(--pa-muted); font-weight: 400; }
+
+/* Section heading, sentence case. */
+.sectionLabel { font-family: var(--pa-font-data); font-weight: 700; font-size: 1.5rem; line-height: 1.2; color: var(--pa-ink); margin: 2.5rem 0 1.75rem 0; }
+
+/* Freshness strip */
+.strip { margin: 1.25rem 0 0.5rem 0; }
+.ok { background: #ecfdf3; color: #15803d; }
+.sources { font-size: 0.875rem; margin: 0 0 0.5rem 0; }
+.sources summary { cursor: pointer; }
+
+.tabs { margin: 1.5rem 0; }
+.tabs a { text-decoration: none; display: inline-block; }
+
+/* Empty states: a grey block with friendly copy. */
+.empty { display: flex; align-items: flex-start; gap: 12px; padding: 20px 24px; margin: 1.5rem 0 24px 0; background: #f3f3f3; font-family: var(--pa-font-data); color: var(--pa-ink); }
+.emptyTitle { font-weight: 700; font-size: 1rem; line-height: 1.4; }
+.emptyBody { font-size: 0.9375rem; line-height: 1.5; color: var(--pa-muted); margin-top: 2px; }
+.notFound { padding-top: 4rem; }
+.notFound a { color: var(--pa-cobalt); }
