@@ -1,0 +1,159 @@
+/* The feed's filter sidebar, after the Streamlit prototype's (dashboard/app.py
+ * inject_css, "Sidebar filters"): white, a hairline right edge, collapsible
+ * sections with a bold heading and a drop-down arrow, cobalt square checkboxes,
+ * a slider with its value above the thumb, a company search, round radios. */
+
+.sidebar {
+  position: fixed; top: 0; bottom: 0; left: 0; z-index: 20;
+  width: var(--sidebar-width, 300px); box-sizing: border-box; overflow-y: auto; overscroll-behavior: contain;
+  padding: 12px 20px 3rem 20px;
+  background: var(--pa-paper); border-right: 1px solid #e7e7e7;
+  font-family: var(--pa-font-data); color: var(--pa-ink);
+}
+
+.head { display: flex; align-items: center; gap: 16px; height: 32px; margin-bottom: 16px; }
+.title { margin: 0; font-family: var(--pa-font-data); font-weight: 700; font-size: 1.25rem; line-height: 32px; }
+.clear {
+  appearance: none; background: none; border: 0; padding: 0; height: 32px; cursor: pointer;
+  font-family: var(--pa-font-data); font-weight: 700; font-size: 0.875rem; color: var(--pa-cobalt);
+}
+.clear:hover { text-decoration: underline; }
+.clear[data-hidden] { visibility: hidden; }
+.disclose { display: none; }
+
+/* Fields: one box, #ccc outline, the icon inside it; cobalt edge when focused. */
+.field {
+  display: flex; align-items: center; gap: 6px; box-sizing: border-box; min-height: 40px; padding: 0 8px; margin: 0 0 8px 0;
+  border: 1px solid #cccccc; background: var(--pa-paper); cursor: text;
+}
+.field:focus-within { border-color: var(--pa-cobalt); }
+.fieldIcon { flex-shrink: 0; color: rgba(0, 0, 0, 0.45); }
+.input {
+  flex: 1; min-width: 0; min-height: 38px; margin: 0; padding: 0; border: 0; outline: 0; background: transparent;
+  appearance: none; -webkit-appearance: none;
+  font-family: var(--pa-font-data); font-size: 1rem; color: var(--pa-ink);
+}
+.input:focus-visible { outline: none; }
+.input::placeholder { color: rgba(0, 0, 0, 0.45); opacity: 1; }
+.input::-webkit-search-decoration { -webkit-appearance: none; }
+.input::-webkit-search-cancel-button {
+  -webkit-appearance: none; appearance: none; width: 16px; height: 16px; cursor: pointer;
+  background: currentColor; opacity: 0.45;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -960 960 960'%3E%3Cpath d='m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* Sections */
+.section { margin: 0; border: 0; }
+.section > summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 8px 0 4px 0; cursor: pointer; list-style: none;
+  font-weight: 700; font-size: 1rem; line-height: 1.35; color: var(--pa-ink);
+}
+.section > summary::-webkit-details-marker { display: none; }
+.section > summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.caret { flex-shrink: 0; transition: transform var(--dur-fast) var(--ease); }
+.section:not([open]) .caret { transform: rotate(-90deg); }
+.sectionBody { display: flex; flex-direction: column; gap: 4px; padding: 4px 0 12px 0; }
+
+/* Checkboxes: 18px squares, grey outline when off, cobalt with a white tick when on. */
+.check, .radio { display: flex; align-items: center; gap: 8px; min-height: 28px; font-size: 1rem; line-height: 1.35; cursor: pointer; }
+.check input {
+  appearance: none; -webkit-appearance: none; box-sizing: border-box; flex-shrink: 0;
+  width: 18px; height: 18px; margin: 3px; padding: 0;
+  border: 2px solid rgba(0, 0, 0, 0.45); background: var(--pa-paper); cursor: pointer;
+  display: grid; place-content: center;
+  transition: background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.check input:hover { border-color: var(--pa-cobalt); }
+.check input:checked { background: var(--pa-cobalt); border-color: var(--pa-cobalt); }
+.check input:checked::after {
+  content: ""; width: 4px; height: 9px; border: solid var(--pa-paper); border-width: 0 2px 2px 0;
+  transform: translate(0, -1px) rotate(45deg);
+}
+.check input:focus-visible, .radio input:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+
+/* Radios: round (the one exception to square), cobalt ring with a white centre when chosen. */
+.radios { display: flex; flex-direction: column; gap: 4px; }
+.radio input {
+  appearance: none; -webkit-appearance: none; box-sizing: border-box; flex-shrink: 0;
+  width: 16px; height: 16px; margin: 0; padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.3); border-radius: 50% !important; background: var(--pa-paper); cursor: pointer;
+  transition: border var(--dur-fast) var(--ease);
+}
+.radio input:hover { border-color: var(--pa-cobalt); }
+.radio input:checked { border: 5px solid var(--pa-cobalt); }
+
+/* Slider: 4px track, cobalt to the left of a 16px round thumb, grey to the right. */
+.slider { --thumb: 16px; position: relative; padding: 0 0 4px 0; }
+.sliderValue { position: relative; height: 22px; margin: 0 0 2px 0; }
+.sliderValue span {
+  position: absolute; bottom: 0; transform: translateX(-50%);
+  left: calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--pct) / 100);
+  font-weight: 700; font-size: 1rem; line-height: 22px; color: var(--pa-ink); white-space: nowrap;
+}
+.range {
+  display: block; width: 100%; height: var(--thumb); margin: 0; padding: 0; background: transparent; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+}
+.range:focus { outline: none; }
+.range::-webkit-slider-runnable-track {
+  height: 4px;
+  --at: calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--pct) / 100);
+  background: linear-gradient(to right, var(--pa-cobalt) 0 var(--at), #e1e1e1 var(--at) 100%);
+}
+.range::-moz-range-track { height: 4px; background: #e1e1e1; }
+.range::-moz-range-progress { height: 4px; background: var(--pa-cobalt); }
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: var(--thumb); height: var(--thumb); margin-top: -6px;
+  border: 0; border-radius: 50% !important; background: var(--pa-cobalt); cursor: grab;
+}
+.range::-moz-range-thumb { width: var(--thumb); height: var(--thumb); border: 0; border-radius: 50% !important; background: var(--pa-cobalt); cursor: grab; }
+.range:active::-webkit-slider-thumb { cursor: grabbing; }
+.range:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.range:focus-visible::-moz-range-thumb { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.ticks { display: flex; justify-content: space-between; margin-top: 4px; font-weight: 700; font-size: 1rem; color: var(--pa-ink); opacity: 0.5; }
+
+/* Company search: the matches as a menu under the field; the chosen companies as rows. */
+.company { position: relative; }
+.company .field { margin: 0; }
+.options {
+  position: absolute; left: 0; right: 0; z-index: 5; max-height: 280px; overflow-y: auto;
+  margin: 4px 0 0 0; padding: 4px 0; list-style: none;
+  background: var(--pa-paper); box-shadow: var(--pa-shadow-popover);
+}
+.option { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; font-size: 1rem; cursor: pointer; }
+.option[aria-selected="true"] { background: var(--pa-surface); }
+.optionName { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.count { flex-shrink: 0; color: var(--pa-meta); font-size: 0.875rem; }
+.chosen { list-style: none; margin: 4px 0 0 0; padding: 0; }
+.chosenRow { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0 2px 0; }
+.chosenName { display: flex; align-items: center; gap: 8px; min-width: 0; font-size: 1rem; }
+.chosenName > span:last-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.logo { display: inline-flex; flex-shrink: 0; }
+.logo > * { width: 20px !important; height: 20px !important; font-size: 0.5rem; margin: 0; }
+.logo svg { width: 15px; height: 15px; }
+.remove {
+  appearance: none; display: inline-flex; flex-shrink: 0; padding: 2px; border: 0; background: none; cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+}
+.remove:hover { color: var(--pa-ink); background: var(--pa-hover); }
+
+/* Phones and narrow windows: a collapsible Filters section above the feed. */
+@media (max-width: 767px) {
+  .sidebar {
+    position: static; width: auto; overflow: visible; padding: 0 0 8px 0; margin: 0 0 8px 0;
+    border-right: 0; border-bottom: 1px solid #e7e7e7;
+  }
+  .head { height: 44px; margin-bottom: 0; }
+  .title { display: none; }
+  .disclose {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px 0 0;
+    appearance: none; border: 0; background: none; cursor: pointer;
+    font-family: var(--pa-font-data); font-weight: 700; font-size: 1rem; color: var(--pa-ink);
+  }
+  .disclose:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+  .discloseCaret { transition: transform var(--dur-fast) var(--ease); }
+  .sidebar[data-open] .discloseCaret { transform: rotate(180deg); }
+  .sidebar:not([data-open]) .panel { display: none; }
+  .panel { padding-top: 8px; }
+}

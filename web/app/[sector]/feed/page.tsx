@@ -1,6 +1,7 @@
 import { SignalCard } from "@/components/SignalCard";
 import { FeedFilters } from "@/components/FeedFilters";
-import { FeedToolbar, type SortOrder } from "@/components/FeedToolbar";
+import { EmptyBlock } from "@/components/EmptyState";
+import type { SortOrder } from "@/components/SortMenu";
 import { loadSector } from "@/lib/load";
 import { computeHeat } from "@/lib/signals/heat";
 import { criteriaFromSearchParams, filterOptions, filterSignals, scoredSignals, sortSignals } from "@/lib/signals/filters";
@@ -39,17 +40,18 @@ export default async function FeedPage({
   const buckets: Record<string, Signal[]> = { Today: [], Yesterday: [], "This week": [], Earlier: [] };
   if (sort === "recent") for (const s of filtered) buckets[dateBucket(calendarDate(s.published_at), today)].push(s);
 
-  const query = sp.toString();
   const basePath = `/${view.sector.slug}/feed`;
 
   let body: React.ReactNode;
   if (scored.length === 0) {
-    body = <p className={styles.empty}>No scored signals yet. Check back after the next pipeline run.</p>;
+    body = <EmptyBlock title="No scored signals yet." role="status"><p className={styles.emptyBody}>Check back after the next pipeline run.</p></EmptyBlock>;
   } else if (filtered.length === 0) {
     body = (
-      <p className={styles.empty}>
-        No signals match these filters. <a href={sort === "score" ? `${basePath}?sort=score` : basePath}>Clear all</a>
-      </p>
+      <EmptyBlock title="No signals match your filters." role="status">
+        <p className={styles.emptyBody}>
+          Try widening them, or <a href={sort === "score" ? `${basePath}?sort=score` : basePath}>Clear all</a> to start again.
+        </p>
+      </EmptyBlock>
     );
   } else if (sort === "score") {
     body = filtered.map(card);
@@ -58,21 +60,25 @@ export default async function FeedPage({
     body = BUCKETS.filter((b) => buckets[b].length || b === "Today").map((b) => (
       <section key={b}>
         <h2 className={styles.bucket}>{b}</h2>
-        {buckets[b].length === 0 && (
-          <p className={styles.empty}>{todayAny ? "Nothing from today matches your filters." : "Nothing new yet today."}</p>
-        )}
+        {buckets[b].length === 0 && (todayAny ? (
+          <EmptyBlock title="Nothing from today matches your filters." className={styles.inBucket}>
+            <p className={styles.emptyBody}>Try widening them, or catch up on earlier signals below.</p>
+          </EmptyBlock>
+        ) : (
+          <EmptyBlock title="Nothing new yet today." className={styles.inBucket}>
+            <p className={styles.emptyBody}>We check our sources throughout the day, so new signals will appear here as they come in.</p>
+          </EmptyBlock>
+        ))}
         {buckets[b].map(card)}
       </section>
     ));
   }
 
   return (
-    <div className={styles.layout}>
+    <>
       <FeedFilters options={options} />
-      <div className={styles.main}>
-        <FeedToolbar shown={filtered.length} total={scored.length} sort={sort} basePath={basePath} query={query} />
-        {body}
-      </div>
-    </div>
+      <p className={styles.count}>Showing {filtered.length} of {scored.length} scored signals.</p>
+      {body}
+    </>
   );
 }

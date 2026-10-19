@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Glyph } from "./Glyph";
 import styles from "./shell.module.css";
 
 type Kind = "unavailable" | "setting_up" | "empty" | "error_empty";
@@ -16,10 +17,24 @@ const copy = (kind: Kind, name: string): [string, string] => {
   }
 };
 
+/** A friendly grey block for an empty section or feed: inbox icon, bold title, muted body (Python _empty_block). */
+export function EmptyBlock({ title, children, role, className }: { title: string; children?: ReactNode; role?: string; className?: string }) {
+  return (
+    <div className={className ? `${styles.empty} ${className}` : styles.empty} role={role}>
+      <Glyph name="inbox" size={24} className={styles.emptyIcon} />
+      <div>
+        <div className={styles.emptyTitle}>{title}</div>
+        {children}
+      </div>
+    </div>
+  );
+}
+
 export function EmptyState({ kind, name = "this sector", children }: { kind: Kind; name?: string; children?: ReactNode }) {
   const [title, body] = copy(kind, name);
   return (
     <div className={styles.empty} role="status">
+      <Glyph name="inbox" size={24} className={styles.emptyIcon} />
       <div>
         <div className={styles.emptyTitle}>{title}</div>
         <div className={styles.emptyBody}>{body}</div>

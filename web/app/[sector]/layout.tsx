@@ -22,28 +22,30 @@ export default async function SectorLayout({ children, params }: { children: Rea
   }
   const now = view.state === "ready" ? view.now : new Date();
   return (
-    <div className={styles.page}>
-      <Masthead />
-      <div className={styles.head}>
-        <div className={styles.intro}>
-          <span className="pa-kicker">Sector</span>
-          <SectorMenu
-            items={view.sectors.map((s) => ({ slug: s.slug, name: s.name, note: sectorNote(s) }))}
-            current={{ slug: view.sector.slug, name: view.sector.name, note: "" }}
-          />
-          <p className={styles.standfirst}>Sector signals, scored for newsworthiness.</p>
+    <div className={styles.frame}>
+      <div className={styles.page}>
+        <Masthead />
+        <div className={styles.head}>
+          <div className={styles.intro}>
+            <span className="pa-kicker">Sector</span>
+            <SectorMenu
+              items={view.sectors.map((s) => ({ slug: s.slug, name: s.name, note: sectorNote(s) }))}
+              current={{ slug: view.sector.slug, name: view.sector.name, note: "" }}
+            />
+            <p className={styles.standfirst}>Sector signals, scored for newsworthiness.</p>
+          </div>
+          <StatusStrip status={view.status} now={now} />
         </div>
-        <StatusStrip status={view.status} now={now} />
+        {view.state === "ready" ? (
+          <>
+            {view.notice === "update_failed" && <UpdateNotice />}
+            <Tabs slug={view.sector.slug} />
+            <LogosProvider enabled={Boolean(process.env.LOGO_DEV_TOKEN)}>{children}</LogosProvider>
+          </>
+        ) : (
+          <EmptyState kind={view.state} name={view.sector.name} />
+        )}
       </div>
-      {view.state === "ready" ? (
-        <>
-          {view.notice === "update_failed" && <UpdateNotice />}
-          <Tabs slug={view.sector.slug} />
-          <LogosProvider enabled={Boolean(process.env.LOGO_DEV_TOKEN)}>{children}</LogosProvider>
-        </>
-      ) : (
-        <EmptyState kind={view.state} name={view.sector.name} />
-      )}
     </div>
   );
 }

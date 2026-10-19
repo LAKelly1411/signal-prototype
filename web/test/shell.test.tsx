@@ -1,12 +1,19 @@
-import { describe, expect, it, vi } from "vitest";
-import { fireEvent, render, screen, within } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import path from "node:path";
 import { StatusStrip } from "@/components/StatusStrip";
 import { FileDataSource } from "@/lib/data/files";
-import { EmptyState, UpdateNotice } from "@/components/EmptyState";
+import { EmptyBlock, EmptyState, UpdateNotice } from "@/components/EmptyState";
 import { Tabs } from "@/components/Tabs";
 
-vi.mock("next/navigation", () => ({ useSelectedLayoutSegment: () => null }));
+let segment: string | null = null;
+vi.mock("next/navigation", () => ({
+  useSelectedLayoutSegment: () => segment,
+  usePathname: () => "/gambling/feed",
+  useSearchParams: () => new URLSearchParams("q=acme"),
+}));
+
+afterEach(() => { cleanup(); segment = null; });
 
 const now = new Date("2026-10-16T16:20:23Z");
 
@@ -15,6 +22,15 @@ describe("StatusStrip", () => {
     render(<StatusStrip now={now} status={{ finished_at: "2026-10-16T14:20:23Z", healthy_sources: 8, total_sources: 9, sources: { AsaCollector: { items: 0, ok: false, error: false } } } as never} />);
     expect(screen.getByText(/Updated 2 hours ago · 8\/9 sources/)).toBeInTheDocument();
     expect(screen.getByText("Which sources returned nothing?")).toBeInTheDocument();
+  });
+  it("lists the quiet sources in a card under the strip", () => {
+    const { container } = render(<StatusStrip now={now} status={{ finished_at: "2026-10-16T14:20:23Z", healthy_sources: 8, total_sources: 9, sources: { AsaCollector: { items: 0, ok: false, error: false }, GazetteCollector: { items: 3, ok: true, error: false } } } as never} />);
+    const details = container.querySelector("details")!;
+    expect(details).not.toHaveAttribute("open");
+    fireEvent.click(screen.getByText("Which sources returned nothing?"));
+    expect(details).toHaveAttribute("open");
+    expect(details.querySelector("p")).toHaveTextContent(/^\S.*$/);
+    expect(details.textContent).not.toContain("Gazette");
   });
   it("renders nothing without a status", () => {
     const { container } = render(<StatusStrip now={now} status={null} />);
@@ -54,6 +70,31 @@ describe("Tabs", () => {
     render(<Tabs slug="gambling" current="themes" />);
     expect(screen.getByRole("link", { name: "Themes" })).toHaveAttribute("aria-current", "page");
     expect(screen.getByRole("link", { name: "Feed" })).toHaveAttribute("href", "/gambling/feed");
+    expect(screen.getByRole("link", { name: "Feed" })).not.toHaveAttribute("aria-current");
+  });
+  it("on the Feed, puts the sort menu at the end of the tab row, keeping the filters", () => {
+    segment = "feed";
+    const { container } = render(<Tabs slug="gambling" />);
+    expect(screen.getByRole("link", { name: "Feed" })).toHaveAttribute("aria-current", "page");
+    const nav = screen.getByRole("navigation", { name: "Sections" });
+    const sort = container.querySelector("details")!;
+    expect(sort).toHaveTextContent("Sort by: Most recent");
+    expect(nav.nextElementSibling).toBe(sort);
+    expect(nav).not.toContainElement(sort);
+    expect(within(sort).getByRole("link", { name: "Highest score", hidden: true })).toHaveAttribute("href", "/gambling/feed?q=acme&sort=score");
+  });
+  it("has no sort menu on the other tabs", () => {
+    segment = "patterns";
+    const { container } = render(<Tabs slug="gambling" />);
+    expect(container.querySelector("details")).toBeNull();
+  });
+});
+
+describe("EmptyBlock", () => {
+  it("shows the inbox icon, bold title and body", () => {
+    const { container } = render(<EmptyBlock title="Nothing new yet today."><p>We check our sources throughout the day.</p></EmptyBlock>);
+    expect(container.querySelector("svg")).not.toBeNull();
+    expect(screen.getByText("Nothing new yet today.")).toBeInTheDocument();
   });
 });
 

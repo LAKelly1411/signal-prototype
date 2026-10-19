@@ -1,54 +1,6 @@
-/* Ported from the Streamlit sidebar filters and feed filter bar (dashboard/app.py). */
-.layout { display: grid; grid-template-columns: 17rem minmax(0, 1fr); gap: 0 3rem; align-items: start; }
-@media (max-width: 800px) { .layout { grid-template-columns: minmax(0, 1fr); } }
-.main { min-width: 0; }
-
-/* Sidebar */
-.filters { font-family: var(--pa-font-data); color: var(--pa-ink); }
-.filtersHead { display: flex; align-items: center; justify-content: flex-start; gap: 16px; height: 32px; margin-bottom: 16px; }
-.filtersTitle { font-family: var(--pa-font-data); font-weight: 700; font-size: 1.5rem; margin: 0; }
-.clear { background: none; border: 0; padding: 0; height: 32px; cursor: pointer; font-family: var(--pa-font-data); font-weight: 700; font-size: 0.875rem; color: var(--pa-cobalt); }
-.clear:focus-visible { outline: 2px solid var(--pa-cobalt); }
-
-.searchWrap { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 8px; margin-bottom: 8px; border: 1px solid #cccccc; border-radius: 0; background: var(--pa-paper); }
-.searchWrap:focus-within { border-color: var(--pa-cobalt); }
-.search { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font-family: var(--pa-font-data); font-size: 1rem; color: var(--pa-ink); min-height: 38px; }
-
-.section { border: 0; background: transparent; margin: 0; }
-.section > summary {
-  display: flex; flex-direction: row; justify-content: space-between; align-items: center; cursor: pointer; list-style: none;
-  padding: 8px 0 4px 0; font-weight: 700; font-size: 1rem; color: var(--pa-ink);
-}
-.section > summary::-webkit-details-marker { display: none; }
-.section > summary::after { content: ""; width: 8px; height: 8px; border: solid var(--pa-ink); border-width: 0 2px 2px 0; transform: rotate(45deg); margin-right: 6px; }
-.section[open] > summary::after { transform: rotate(-135deg); }
-.section > summary:focus-visible { outline: 2px solid var(--pa-cobalt); }
-
-/* Cobalt square checkboxes */
-.check { display: flex; align-items: center; gap: 12px; padding: 6px 0; font-size: 1rem; cursor: pointer; }
-.check input { appearance: none; box-sizing: border-box; flex-shrink: 0; width: 20px; height: 20px; margin: 0; padding: 0; border: 2px solid var(--pa-ink); border-radius: 0; background: var(--pa-paper); cursor: pointer; display: grid; place-content: center; }
-.check input:checked { background: var(--pa-cobalt); border-color: var(--pa-cobalt); }
-.check input:checked::after { content: ""; width: 5px; height: 10px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg) translate(-1px, -1px); }
-.check input:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
-.count { color: var(--pa-muted); }
-.more { background: none; border: 0; padding: 6px 0; cursor: pointer; font-family: var(--pa-font-data); font-weight: 700; font-size: 0.875rem; color: var(--pa-cobalt); display: block; }
-.select { width: 100%; min-height: 40px; margin: 4px 0 8px; padding: 0 8px; border: 1px solid #cccccc; border-radius: 0; background: var(--pa-paper); font-family: var(--pa-font-data); font-size: 1rem; color: var(--pa-ink); }
-.select:focus-visible { outline: 2px solid var(--pa-cobalt); }
-
-/* Feed bar */
-.toolbar { display: flex; align-items: center; gap: 4px; margin: 0.5rem 0 0.25rem 0; }
-.toolbarCount { margin: 0; font-family: var(--pa-font-data); font-size: 0.875rem; color: var(--pa-muted); }
-.sort { position: relative; margin-left: auto; flex-shrink: 0; }
-.sort > summary { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 12px; cursor: pointer; list-style: none; font-family: var(--pa-font-data); font-size: 1rem; white-space: nowrap; color: var(--pa-ink); }
-.sort > summary::-webkit-details-marker { display: none; }
-.sort > summary strong { font-weight: 700; }
-.sort > summary:hover, .sort[open] > summary { background: #e7e7e7; }
-.sort > summary:focus-visible { outline: 2px solid var(--pa-cobalt); }
-.sortList { position: absolute; right: 0; z-index: 10; min-width: 264px; margin: 8px 0 0; padding: 0; list-style: none; background: var(--pa-paper); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); }
-.sortList a { display: block; padding: 8px 12px; font-family: var(--pa-font-data); font-size: 1rem; color: var(--pa-ink); text-decoration: none; }
-.sortList a:hover { background: var(--pa-hover); }
-.sortList a[aria-current="true"] { font-weight: 700; color: var(--pa-cobalt); }
-
+/* The feed column (the filters are in components/filters.module.css). Ported from dashboard/app.py. */
+.count { margin: 0.5rem 0 0 0; font-family: var(--pa-font-data); font-size: 0.875rem; color: var(--pa-muted); }
 .bucket { font-family: var(--pa-font-data); font-weight: 700; font-size: 1.5rem; line-height: 1.2; color: var(--pa-ink); margin: 2.5rem 0 1.75rem 0; }
-.empty { padding: 20px 24px; margin: 1.5rem 0 24px 0; background: #f3f3f3; font-family: var(--pa-font-data); color: var(--pa-ink); }
-.empty a { color: var(--pa-cobalt); font-weight: 700; }
+.emptyBody { font-size: 0.9375rem; line-height: 1.5; color: var(--pa-muted); margin: 2px 0 0 0; }
+.emptyBody a { color: var(--pa-cobalt); font-weight: 700; }
+section > .inBucket { margin-top: 0; }

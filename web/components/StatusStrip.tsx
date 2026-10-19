@@ -1,6 +1,7 @@
 import type { RunStatus } from "@/lib/data/types";
 import { humaniseAge, parseDate } from "@/lib/signals/time";
 import { sourceName } from "@/lib/signals/entities";
+import { Glyph } from "./Glyph";
 import styles from "./shell.module.css";
 
 /** Freshness and source health at a glance, so a quiet collector doesn't read as a slow news week. */
@@ -15,7 +16,7 @@ export function StatusStrip({ status, now }: { status: RunStatus | null; now: Da
 
   if ("error" in status) {
     // A failed run writes no source counts; don't read that as healthy.
-    return <div className={`pa-status is-error ${styles.strip}`}>Last update failed · {humaniseAge(age)}</div>;
+    return <div className={styles.health}><div className={`pa-status is-error ${styles.strip}`}>Last update failed · {humaniseAge(age)}</div></div>;
   }
 
   let cls: string;
@@ -28,12 +29,12 @@ export function StatusStrip({ status, now }: { status: RunStatus | null; now: Da
 
   const failing = Object.entries(status.sources ?? {}).filter(([, i]) => !i.ok).map(([n]) => n).sort();
   return (
-    <div>
+    <div className={styles.health}>
       <div className={`pa-status ${cls} ${styles.strip}`}>{`Updated ${humaniseAge(age)} · ${healthy}/${total} sources · ${detail}`}</div>
       {failing.length > 0 && (
         <details className={styles.sources}>
-          <summary>Which sources returned nothing?</summary>
-          {failing.map(sourceName).join(", ")}
+          <summary><Glyph name="chevronRight" size={18} className={styles.sourcesChevron} />Which sources returned nothing?</summary>
+          <p className={styles.sourcesBody}>{failing.map(sourceName).join(", ")}</p>
         </details>
       )}
     </div>
