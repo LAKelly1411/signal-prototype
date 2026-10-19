@@ -1,0 +1,56 @@
+/* Signal card (Figma 2363:505). Tags and pills reuse the global pa-* classes. */
+.card {
+  background: var(--pa-paper);
+  box-shadow: var(--pa-shadow);
+  padding: 16px 24px 23px 24px;
+  margin: 0 0 24px 0;
+  font-family: var(--pa-font-data);
+  color: var(--pa-ink);
+  outline: 2px solid transparent;
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+    border-color var(--dur) var(--ease), outline-color var(--dur) var(--ease);
+}
+.card:hover { transform: translateY(-2px); box-shadow: var(--pa-shadow-hover); }
+/* Inside a pane: bordered rather than lifted. */
+.compact { box-shadow: none; border: 1px solid var(--pa-border); margin: 0; }
+.compact:hover { transform: none; box-shadow: none; border-color: #8a8a8a; }
+.head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; min-height: 36px; }
+.source { display: flex; align-items: center; gap: 7px; font-size: 1rem; min-width: 0; }
+.logo { width: 24px; height: 24px; flex-shrink: 0; margin-right: 1px; object-fit: cover; }
+.logoInitials {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--pa-ink-soft); color: var(--pa-paper);
+  font-weight: 700; font-size: 0.625rem; letter-spacing: 0.02em;
+}
+.logoSm { font-size: 0.5rem; }
+.sourceName { font-weight: 700; white-space: nowrap; }
+.sep { opacity: 0.2; }
+.time { position: relative; white-space: nowrap; cursor: default; }
+.timeTip {
+  position: absolute; left: 50%; bottom: calc(100% + 8px); z-index: 5;
+  padding: 8px 12px; background: var(--pa-ink-soft); color: var(--pa-paper);
+  font-size: 0.8125rem; font-weight: 400; line-height: 1.25; white-space: nowrap;
+  opacity: 0; pointer-events: none; transform: translate(-50%, 4px);
+  transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+}
+.time:hover .timeTip, .time:focus-visible .timeTip { opacity: 1; transform: translate(-50%, 0); }
+.time:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.relevance {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--pa-cobalt-tint); padding: 8px 12px; font-size: 1rem; white-space: nowrap;
+}
+.title { font-weight: 700; font-size: 1.5rem; line-height: 1.2; margin-top: 12px; }
+.body { font-size: 1rem; line-height: 24px; max-width: 724px; margin-top: 8px; }
+.pattern { margin-top: 12px; font-size: 0.875rem; color: var(--pa-muted); }
+.foot { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; margin-top: 18px; }
+.tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.link {
+  display: inline-flex; align-items: center; gap: 4px; font-weight: 700; font-size: 0.875rem;
+  color: var(--pa-ink-soft); text-decoration: none; white-space: nowrap;
+  transition: color var(--dur-fast) var(--ease);
+}
+.link:hover { color: var(--pa-cobalt); }
+@media (prefers-reduced-motion: reduce) {
+  .card, .timeTip, .link { transition: none; }
+  .card:hover { transform: none; }
+}
