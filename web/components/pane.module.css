@@ -1,0 +1,122 @@
+/* Preview pane. Ported from dashboard/app.py (preview pane CSS). */
+.pane {
+  position: fixed; top: 0; right: 0; bottom: 0; width: var(--preview-width);
+  z-index: 50;
+  overflow-y: auto;
+  background: var(--pa-newsprint-30);
+  box-shadow: var(--pa-shadow);
+  padding: 0 1.75rem 3rem 1.75rem;
+  font-family: var(--pa-font-data);
+  animation: paneIn var(--dur-slow) var(--ease) backwards;
+}
+@keyframes paneIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+
+/* Pinned head: full bleed, white, hairline shadow. Open, it stops sticking. */
+.head {
+  position: sticky; top: 0; z-index: 4;
+  margin: 0 -1.75rem;
+  padding: 2rem 1.75rem;
+  background: var(--pa-paper);
+  box-shadow: var(--pa-shadow-pinned);
+}
+.head:has(:global(.sp-toggle[open])) { position: relative; }
+.headBody { display: block; }
+.titleRow { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-right: 2.5rem; min-height: 36px; }
+/* Level with the title row: head padding-top 2rem + (36px row - 32px button) / 2. */
+.close {
+  position: absolute; top: 2.125rem; right: 1rem; z-index: 2;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; padding: 0; border: 0; background: transparent;
+  color: var(--pa-ink); cursor: pointer;
+  transition: background var(--dur-fast) var(--ease);
+}
+.close:hover { background: var(--pa-hover); }
+.close:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+
+.toggle summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;
+  margin-top: 6px; font-weight: 700; font-size: 0.875rem; color: var(--pa-cobalt);
+}
+.toggle summary::-webkit-details-marker { display: none; }
+.toggle summary::after {
+  content: ""; width: 0.4rem; height: 0.4rem; margin-top: -0.2rem;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg);
+}
+.toggle[open] summary::after { margin-top: 0.2rem; transform: rotate(-135deg); }
+.toggle summary:hover { text-decoration: underline; }
+.toggle summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.toggleClose, .toggle[open] .toggleOpen { display: none; }
+.toggle[open] .toggleClose { display: inline; }
+.summary { margin-top: 12px; font-size: 1rem; line-height: 24px; }
+.points { list-style: none; margin: 12px 0 0 0; padding: 0; }
+.points li { position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; font-size: 0.9375rem; line-height: 1.5; }
+.points li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 8px; height: 8px; background: var(--pa-cobalt); }
+
+/* Trimmed company tags until the toggle opens, then all of them. */
+.tagsAll { display: none; }
+.head:has(:global(.sp-toggle[open])) .tagsTrim { display: none; }
+.head:has(:global(.sp-toggle[open])) .tagsAll { display: flex; }
+
+.section {
+  margin: 1.5rem 0 1rem 0; font-weight: 700; font-size: 0.8125rem;
+  letter-spacing: 0.04em; text-transform: uppercase; color: #6b6b6b;
+}
+
+/* Signals: a date column, a rail with a dot per signal, hairlines between rows. */
+.list { margin: 0; padding: 0; }
+.item {
+  position: relative; margin: 0 -0.75rem; padding: 0.875rem 0.75rem;
+  transition: background var(--dur-fast) var(--ease);
+}
+.item + .item { border-top: 1px solid #e3e1d8; }
+.item:hover, .item[open] { background: var(--pa-paper); }
+.item::before {
+  content: ""; position: absolute; left: calc(0.75rem + 3.75rem - 1px);
+  top: -1px; bottom: 0; width: 1px; background: #d8d6cc;
+}
+.item:first-child::before { top: 23px; }
+.item:last-child::before { bottom: auto; height: 24px; }
+.item:first-child:last-child::before { display: none; }
+.row { display: grid; grid-template-columns: 3.75rem 1fr; cursor: pointer; list-style: none; }
+.row::-webkit-details-marker { display: none; }
+.row::marker { content: ""; }
+.row:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.date { padding-top: 2px; font-size: 0.8125rem; color: #6b6b6b; white-space: nowrap; }
+.main { position: relative; display: block; min-width: 0; padding-left: 1.25rem; }
+.main::before {
+  content: ""; position: absolute; left: -4px; top: 6px; width: 7px; height: 7px;
+  border-radius: 50%; background: #b9b7ad; z-index: 1; transition: background var(--dur-fast) var(--ease);
+}
+.item:hover .main::before, .item[open] .main::before { background: var(--pa-cobalt); }
+.sigTitle { display: block; font-weight: 700; font-size: 0.9375rem; line-height: 1.35; color: var(--pa-ink); }
+.sigBody {
+  display: -webkit-box; margin-top: 4px; font-size: 0.8125rem; line-height: 1.45; color: var(--pa-muted);
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.item[open] .sigBody { display: block; -webkit-line-clamp: unset; }
+.sigMeta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 6px; font-size: 0.75rem; color: #6b6b6b; }
+.sep { color: #b9b7ad; }
+.src, .rel { display: inline-flex; align-items: center; gap: 5px; }
+.src img, .src span { width: 16px; height: 16px; font-size: 0.4375rem; margin: 0; }
+.rel svg { width: 14px; height: 14px; }
+.more { margin: 10px 0 0 calc(3.75rem + 1.25rem); font-size: 0.75rem; color: #6b6b6b; }
+.sigTags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.when { margin-bottom: 8px; }
+.open { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; font-size: 0.75rem; color: var(--pa-cobalt); }
+.open:hover { text-decoration: underline; }
+
+/* Phones: a bottom sheet at 55vh, leading with the signals. The close button stays. */
+@media (max-width: 767px) {
+  .pane {
+    top: auto; left: 0; width: 100%; height: 55vh; padding: 1.25rem 1rem 2rem 1rem;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08); border-top: 1px solid #cccccc;
+  }
+  .head { margin: -1.25rem -1rem 0 -1rem; padding: 0; height: 0; box-shadow: none; background: transparent; }
+  .headBody { display: none; }
+  .close { top: 0.5rem; right: 0.5rem; background: var(--pa-paper); }
+  .section { margin-top: 0; padding-top: 0.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pane { animation: none; }
+  .item, .main::before, .close { transition: none; }
+}

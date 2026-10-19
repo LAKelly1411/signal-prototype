@@ -1,0 +1,129 @@
+/* Pattern and theme cards, and the sparkline. Ported from dashboard/app.py. */
+.list { display: block; --preview-width: min(34rem, 38vw); }
+@media (min-width: 768px) { .withPane { padding-right: var(--preview-width); } }
+@media (max-width: 767px) { .withPane { padding-bottom: 55vh; } }
+
+.card {
+  display: block; width: 100%; text-align: left; font: inherit; color: var(--pa-ink);
+  appearance: none; border: 0; cursor: pointer;
+  background: var(--pa-paper);
+  box-shadow: var(--pa-shadow);
+  /* Transparent 4px edge, cobalt when selected, so selecting never shifts content. */
+  border-left: 4px solid transparent;
+  padding: 16px 24px 24px 20px;
+  margin-bottom: 16px;
+  outline: 2px solid transparent;
+  font-family: var(--pa-font-data);
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+    border-left-color var(--dur) var(--ease), outline-color var(--dur) var(--ease);
+}
+.card:hover { transform: translateY(-2px); box-shadow: var(--pa-shadow-hover); }
+.card:active { transform: translateY(0) scale(0.995); transition-duration: var(--dur-fast); }
+.card:focus-visible { outline-color: var(--pa-cobalt); }
+.selected { border-left-color: var(--pa-cobalt); }
+
+.head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; min-height: 36px; }
+.source { display: flex; align-items: center; gap: 7px; min-width: 0; }
+.title { font-weight: 700; font-size: 1.5rem; line-height: 1.2; }
+.themeTile {
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+  width: 24px; height: 24px; background: #fd8621; color: var(--pa-ink);
+}
+.summary { display: block; margin-top: 12px; font-size: 1rem; line-height: 24px; max-width: 724px; }
+.meta { display: block; margin-top: 12px; font-size: 0.875rem; color: var(--pa-muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+
+/* Sparkline: 2px line, 10% wash, >=8px end-dot with a 2px surface ring, hairline baseline. */
+.tl { display: block; margin-top: 16px; }
+.tlGrid { stroke: rgba(0, 0, 0, 0.08); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.tlTrack { position: relative; display: block; height: 56px; border-bottom: 1px solid var(--pa-border); }
+.tlSvg { display: block; width: 100%; height: 100%; overflow: visible; }
+.tlLine {
+  fill: none; stroke: var(--pa-cobalt); stroke-width: 2px;
+  stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke;
+}
+.tlArea { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
+.tlQuiet { background: #8a8a8a !important; }
+.tlCols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
+.tlCol { position: absolute; top: 0; bottom: 0; cursor: crosshair; }
+.tlGuide, .tlHdot, .tlTip {
+  position: absolute; opacity: 0; pointer-events: none;
+  transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+}
+.tlGuide { top: 8px; bottom: 0; width: 1px; background: rgba(0, 79, 255, 0.25); transform: translateX(-0.5px); }
+.tlHdot {
+  width: 10px; height: 10px; border-radius: 50%; background: var(--pa-cobalt);
+  box-shadow: 0 0 0 2px var(--pa-paper); transform: translate(-50%, 50%);
+}
+.tlTip {
+  z-index: 4; display: flex; flex-direction: column; gap: 2px; padding: 8px 12px;
+  background: #1f1f1f; color: var(--pa-paper); font-size: 0.8125rem; line-height: 1.25;
+  white-space: nowrap; transform: translate(-50%, 4px);
+}
+.tlTip b { font-size: 0.9375rem; font-weight: 700; }
+.tipStart { transform: translate(-12px, 4px); }
+.tipEnd { transform: translate(calc(-100% + 12px), 4px); }
+.tlCol:hover .tlGuide, .tlCol:hover .tlHdot { opacity: 1; }
+.tlCol:hover .tlTip { opacity: 1; transform: translate(-50%, 0); }
+.tlCol:hover .tlTip.tipStart { transform: translate(-12px, 0); }
+.tlCol:hover .tlTip.tipEnd { transform: translate(calc(-100% + 12px), 0); }
+/* Hovering a signal in the pane lights its week (pane carries data-week). */
+:global([data-pane][data-week="0"]) .tlCol[data-week="0"] .tlGuide,
+:global([data-pane][data-week="1"]) .tlCol[data-week="1"] .tlGuide,
+:global([data-pane][data-week="2"]) .tlCol[data-week="2"] .tlGuide,
+:global([data-pane][data-week="3"]) .tlCol[data-week="3"] .tlGuide,
+:global([data-pane][data-week="4"]) .tlCol[data-week="4"] .tlGuide,
+:global([data-pane][data-week="5"]) .tlCol[data-week="5"] .tlGuide,
+:global([data-pane][data-week="6"]) .tlCol[data-week="6"] .tlGuide,
+:global([data-pane][data-week="7"]) .tlCol[data-week="7"] .tlGuide,
+:global([data-pane][data-week="8"]) .tlCol[data-week="8"] .tlGuide,
+:global([data-pane][data-week="9"]) .tlCol[data-week="9"] .tlGuide,
+:global([data-pane][data-week="10"]) .tlCol[data-week="10"] .tlGuide,
+:global([data-pane][data-week="11"]) .tlCol[data-week="11"] .tlGuide,
+:global([data-pane][data-week="12"]) .tlCol[data-week="12"] .tlGuide,
+:global([data-pane][data-week="0"]) .tlCol[data-week="0"] .tlHdot,
+:global([data-pane][data-week="1"]) .tlCol[data-week="1"] .tlHdot,
+:global([data-pane][data-week="2"]) .tlCol[data-week="2"] .tlHdot,
+:global([data-pane][data-week="3"]) .tlCol[data-week="3"] .tlHdot,
+:global([data-pane][data-week="4"]) .tlCol[data-week="4"] .tlHdot,
+:global([data-pane][data-week="5"]) .tlCol[data-week="5"] .tlHdot,
+:global([data-pane][data-week="6"]) .tlCol[data-week="6"] .tlHdot,
+:global([data-pane][data-week="7"]) .tlCol[data-week="7"] .tlHdot,
+:global([data-pane][data-week="8"]) .tlCol[data-week="8"] .tlHdot,
+:global([data-pane][data-week="9"]) .tlCol[data-week="9"] .tlHdot,
+:global([data-pane][data-week="10"]) .tlCol[data-week="10"] .tlHdot,
+:global([data-pane][data-week="11"]) .tlCol[data-week="11"] .tlHdot,
+:global([data-pane][data-week="12"]) .tlCol[data-week="12"] .tlHdot { opacity: 1; }
+:global([data-pane][data-week="0"]) .tlCol[data-week="0"] .tlTip,
+:global([data-pane][data-week="1"]) .tlCol[data-week="1"] .tlTip,
+:global([data-pane][data-week="2"]) .tlCol[data-week="2"] .tlTip,
+:global([data-pane][data-week="3"]) .tlCol[data-week="3"] .tlTip,
+:global([data-pane][data-week="4"]) .tlCol[data-week="4"] .tlTip,
+:global([data-pane][data-week="5"]) .tlCol[data-week="5"] .tlTip,
+:global([data-pane][data-week="6"]) .tlCol[data-week="6"] .tlTip,
+:global([data-pane][data-week="7"]) .tlCol[data-week="7"] .tlTip,
+:global([data-pane][data-week="8"]) .tlCol[data-week="8"] .tlTip,
+:global([data-pane][data-week="9"]) .tlCol[data-week="9"] .tlTip,
+:global([data-pane][data-week="10"]) .tlCol[data-week="10"] .tlTip,
+:global([data-pane][data-week="11"]) .tlCol[data-week="11"] .tlTip,
+:global([data-pane][data-week="12"]) .tlCol[data-week="12"] .tlTip { opacity: 1; transform: translate(-50%, 0); }
+.tlDot {
+  position: absolute; right: 0; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--pa-cobalt); box-shadow: 0 0 0 2px var(--pa-paper); transform: translate(50%, 50%);
+}
+.tlAxis { display: flex; justify-content: space-between; margin-top: 4px; font-size: 0.75rem; color: var(--pa-muted); }
+
+/* List sparklines draw in (left-to-right reveal) when the tab opens. */
+@keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.card .tlSvg { animation: reveal 600ms var(--ease) backwards; }
+.card .tlDot { animation: fadeIn var(--dur) var(--ease) 500ms backwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .tlGuide, .tlHdot, .tlTip { transition: none; }
+  .card:hover, .card:active { transform: none; }
+  .card .tlSvg, .card .tlDot { animation: none; }
+}
+
+.caption { margin: 0 0 16px 0; font-size: 0.875rem; color: var(--pa-muted); }
+.note { margin: 16px 0; padding: 16px 24px; background: var(--pa-paper); box-shadow: var(--pa-shadow); }
