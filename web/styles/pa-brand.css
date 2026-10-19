@@ -103,7 +103,8 @@ a { color: var(--pa-cobalt); font-weight: 700; text-decoration: none; }
 a:hover { text-decoration: underline; }
 :focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
 
-input, textarea, select {
+/* Text-style fields only: checkboxes, radios and sliders keep their own sizing. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select {
   font: inherit;
   background: var(--pa-paper);
   color: var(--pa-ink);
@@ -285,7 +286,8 @@ input, textarea, select {
   cursor: pointer;
 }
 .pa-tab:hover { background: var(--pa-hover); }
-.pa-tab[aria-selected="true"] { font-weight: 700; border-bottom-color: var(--pa-cobalt); }
+/* aria-current on link tabs (navigation), aria-selected on button tabs (tablist). */
+.pa-tab[aria-selected="true"], .pa-tab[aria-current="page"] { font-weight: 700; border-bottom-color: var(--pa-cobalt); }
 
 /* ── Tooltip ────────────────────────────────────────────────────────── */
 .pa-tooltip {
