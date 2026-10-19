@@ -12,7 +12,17 @@ export function Sparkline({ counts, scale, start }: { counts: number[]; scale: n
   const step = n > 1 ? 100 / (n - 1) : 0;
   const y = (c: number) => HEIGHT - Math.sqrt(Math.min(c, scale) / (scale || 1)) * (HEIGHT - TOP);
   const pts = counts.map((c, i) => [i * step, y(c)] as const);
-  const line = pts.map(([x, yy]) => `${x.toFixed(2)},${yy.toFixed(2)}`).join(" ");
+  const fmt = (ps: readonly (readonly [number, number])[]) => ps.map(([x, yy]) => `${x.toFixed(2)},${yy.toFixed(2)}`).join(" ");
+  const line = fmt(pts);
+  // Runs of consecutive segments sharing a state: grey where both weeks are empty, cobalt otherwise.
+  const runs: { active: boolean; pts: (readonly [number, number])[] }[] = [];
+  for (let i = 0; i < n - 1; i++) {
+    const active = counts[i] > 0 || counts[i + 1] > 0;
+    const last = runs[runs.length - 1];
+    if (last && last.active === active) last.pts.push(pts[i + 1]);
+    else runs.push({ active, pts: [pts[i], pts[i + 1]] });
+  }
+  runs.sort((a, b) => Number(a.active) - Number(b.active)); // grey first, cobalt on top
   const area = `0,${HEIGHT} ${line} 100,${HEIGHT}`;
   const weekStart = (i: number) => new Date(start.getTime() + i * 7 * DAY_MS);
   const peak = Math.max(...counts);
@@ -24,15 +34,17 @@ export function Sparkline({ counts, scale, start }: { counts: number[]; scale: n
   const s0 = start;
 
   return (
-    <div className={styles.tl} role="img" aria-label={label} data-weeks={SPARK_WEEKS}>
-      <div className={styles.tlTrack}>
+    <span className={styles.tl} role="img" aria-label={label} data-weeks={SPARK_WEEKS}>
+      <span className={styles.tlTrack}>
         <svg className={styles.tlSvg} viewBox={`0 0 100 ${HEIGHT}`} preserveAspectRatio="none" aria-hidden="true">
           <line className={styles.tlGrid} x1="0" x2="100" y1={y(scale)} y2={y(scale)} />
           <polygon className={styles.tlArea} points={area} />
-          <polyline className={styles.tlLine} points={line} />
+          {runs.map((r, i) => (
+            <polyline key={i} className={r.active ? styles.tlLine : `${styles.tlLine} ${styles.tlLineQuiet}`} points={fmt(r.pts)} />
+          ))}
         </svg>
         <span className={dotClass} data-latest style={{ bottom: `${(((HEIGHT - last[1]) / HEIGHT) * 100).toFixed(1)}%` }} />
-        <div className={styles.tlCols}>
+        <span className={styles.tlCols}>
           {pts.map(([x, yy], i) => {
             const x0 = Math.max(0, x - step / 2);
             const x1 = Math.min(100, x + step / 2);
@@ -50,12 +62,12 @@ export function Sparkline({ counts, scale, start }: { counts: number[]; scale: n
               </span>
             );
           })}
-        </div>
-      </div>
-      <div className={styles.tlAxis}>
+        </span>
+      </span>
+      <span className={styles.tlAxis}>
         <span>{s0.getUTCDate()} {MONTHS[s0.getUTCMonth()]}</span>
         <span>This week</span>
-      </div>
-    </div>
+      </span>
+    </span>
   );
 }

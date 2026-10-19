@@ -21,7 +21,7 @@ export function GroupTile({ group }: { group: Group }) {
 }
 
 export function FlagTag({ flag }: { flag: Flag }) {
-  if (!flag.icon) return <Tag kind="plain">{flag.text}</Tag>;
+  if (!flag.icon) return <span className={`pa-tag ${flag.accent ? "pa-tag-accent " : ""}pa-tag-plain`}>{flag.text}</span>;
   return <Tag kind={flag.accent ? "accent" : "entity"} icon={flag.icon}>{flag.text}</Tag>;
 }
 
@@ -31,11 +31,11 @@ export function TagRow({ group, limit, className }: { group: Group; limit: numbe
   const rest = group.companies.length - shown.length;
   if (!group.flags.length && !shown.length) return null;
   return (
-    <div className={className}>
+    <span className={className}>
       {group.flags.map((f) => <FlagTag key={f.text} flag={f} />)}
       {shown.map((c) => <Tag key={c} kind="entity" icon={isPerson(c) ? "person" : "corporate"}>{c}</Tag>)}
       {rest > 0 ? <Tag kind="plain">{`+${rest} more`}</Tag> : null}
-    </div>
+    </span>
   );
 }
 
@@ -48,6 +48,7 @@ export function GroupCard({
       type="button"
       className={`${styles.card}${selected ? ` ${styles.selected}` : ""}`}
       aria-pressed={selected}
+      data-group-id={group.id}
       aria-label={selected ? `${group.title}, showing in preview` : `Preview ${group.title}`}
       onClick={onSelect}
     >

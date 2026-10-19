@@ -65,4 +65,13 @@ describe("GroupList", () => {
     render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
     expect(screen.queryByRole("complementary")).toBeNull();
   });
+
+  it("moves focus into the pane on open, and back to the card on close", async () => {
+    search = new URLSearchParams("theme=Policy and legislation");
+    render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
+    const close = screen.getByRole("button", { name: "Close preview" });
+    expect(close).toHaveFocus();
+    await userEvent.click(close);
+    expect(screen.getByRole("button", { name: "Policy and legislation, showing in preview" })).toHaveFocus();
+  });
 });

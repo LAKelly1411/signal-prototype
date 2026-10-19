@@ -42,9 +42,10 @@
   fill: none; stroke: var(--pa-cobalt); stroke-width: 2px;
   stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke;
 }
+.tlLineQuiet { stroke: #8a8a8a; }
 .tlArea { fill: var(--pa-cobalt); fill-opacity: 0.1; stroke: none; }
 .tlQuiet { background: #8a8a8a !important; }
-.tlCols { position: absolute; inset: -8px 0 0 0; z-index: 3; }
+.tlCols { display: block; position: absolute; inset: -8px 0 0 0; z-index: 3; }
 .tlCol { position: absolute; top: 0; bottom: 0; cursor: crosshair; }
 .tlGuide, .tlHdot, .tlTip {
   position: absolute; opacity: 0; pointer-events: none;

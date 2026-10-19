@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { Group } from "@/lib/signals/groups";
 import { GroupCard } from "./GroupCard";
@@ -14,6 +15,15 @@ export function GroupList({ groups, param, scale, now }: { groups: Group[]; para
   const selectedId = search.get(param);
   const current = groups.find((g) => g.id === selectedId) ?? null;
 
+  const listRef = useRef<HTMLDivElement>(null);
+
+  const close = () => {
+    const id = current?.id;
+    go(null);
+    // Hand focus back to the card the pane was showing.
+    for (const b of listRef.current?.querySelectorAll<HTMLElement>("[data-group-id]") ?? []) if (b.dataset.groupId === id) b.focus({ preventScroll: true });
+  };
+
   const go = (id: string | null) => {
     const next = new URLSearchParams(search.toString());
     if (id === null) next.delete(param);
@@ -23,11 +33,11 @@ export function GroupList({ groups, param, scale, now }: { groups: Group[]; para
   };
 
   return (
-    <div className={`${styles.list}${current ? ` ${styles.withPane}` : ""}`}>
+    <div ref={listRef} className={`${styles.list}${current ? ` ${styles.withPane}` : ""}`}>
       {groups.map((g) => (
         <GroupCard key={g.id} group={g} selected={current?.id === g.id} scale={scale} now={now} onSelect={() => go(g.id)} />
       ))}
-      {current ? <PreviewPane key="pane" group={current} scale={scale} now={now} onClose={() => go(null)} /> : null}
+      {current ? <PreviewPane key="pane" group={current} scale={scale} now={now} onClose={close} /> : null}
     </div>
   );
 }
