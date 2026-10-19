@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { QuietToggle } from "@/components/QuietToggle";
 import { GroupList } from "@/components/GroupList";
 import { buildPatterns, sharedScale } from "@/lib/signals/groups";
 import styles from "@/components/groups.module.css";
@@ -26,12 +26,8 @@ export default async function PatternsPage({
   const caption = showQuiet ? `All ${shown.length} patterns.` : `${shown.length} active patterns of ${all.length}.`;
   return (
     <>
-      <p className={styles.caption}>
-        {caption}{" "}
-        <Link href={showQuiet ? `/${sector}/patterns` : `/${sector}/patterns?quiet=1`} scroll={false}>
-          {showQuiet ? "Hide quieter patterns" : "Show quieter patterns"}
-        </Link>
-      </p>
+      <QuietToggle checked={showQuiet} href={showQuiet ? `/${sector}/patterns` : `/${sector}/patterns?quiet=1`} />
+      <p className={styles.caption}>{caption}</p>
       {shown.length ? (
         <GroupList groups={shown} param="pattern" scale={sharedScale(shown)} now={view.now} />
       ) : (

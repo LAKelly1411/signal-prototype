@@ -128,3 +128,34 @@
 
 .caption { margin: 0 0 16px 0; font-size: 0.875rem; color: var(--pa-muted); }
 .note { margin: 16px 0; padding: 16px 24px; background: var(--pa-paper); box-shadow: var(--pa-shadow); }
+
+/* "Show quieter patterns": a small switch (round track and knob, as in the
+ * prototype's toggle), its (?) tip, and the count caption under it. */
+.quiet { display: flex; align-items: center; gap: 6px; margin: 0 0 8px 0; font-family: var(--pa-font-data); }
+.switch {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 28px; padding: 0; border: 0; background: none; cursor: pointer;
+  font-family: var(--pa-font-data); font-size: 0.875rem; color: var(--pa-ink);
+}
+.switch:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+.track {
+  position: relative; display: inline-block; flex-shrink: 0; width: 30px; height: 16px; box-sizing: border-box;
+  border-radius: 8px !important; background: #d5d5d5; transition: background-color var(--dur-fast) var(--ease);
+}
+.knob {
+  position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50% !important;
+  background: var(--pa-paper); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); transition: transform var(--dur-fast) var(--ease);
+}
+.switch[aria-checked="true"] .track { background: var(--pa-cobalt); }
+.switch[aria-checked="true"] .knob { transform: translateX(14px); }
+.switch:hover .track { box-shadow: 0 0 0 3px var(--pa-cobalt-tint); }
+.help { position: relative; display: inline-flex; }
+.helpButton { display: inline-flex; padding: 2px; border: 0; background: none; cursor: help; color: var(--pa-muted); }
+.helpButton:hover, .helpButton:focus-visible { color: var(--pa-ink); }
+.helpButton:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 0; }
+.tip {
+  position: absolute; left: 50%; bottom: calc(100% + 6px); z-index: 20; width: max-content; max-width: 260px;
+  transform: translateX(-50%); visibility: hidden; opacity: 0; pointer-events: none;
+  transition: opacity var(--dur-fast) var(--ease);
+}
+.help:hover .tip, .helpButton:focus-visible + .tip { visibility: visible; opacity: 1; }
+.quiet + .caption { font-size: 0.75rem; }
