@@ -79,6 +79,7 @@
 .item:first-child:last-child::before { display: none; }
 .row { display: grid; grid-template-columns: 3.75rem 1fr; cursor: pointer; list-style: none; }
 .row::-webkit-details-marker { display: none; }
+.row::-webkit-details-marker { display: none; }
 .row::marker { content: ""; }
 .row:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
 .date { padding-top: 2px; font-size: 0.8125rem; color: #6b6b6b; white-space: nowrap; }

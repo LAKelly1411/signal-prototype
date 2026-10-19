@@ -103,8 +103,9 @@ a { color: var(--pa-cobalt); font-weight: 700; text-decoration: none; }
 a:hover { text-decoration: underline; }
 :focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
 
-/* Text-style fields only: checkboxes, radios and sliders keep their own sizing. */
-input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select {
+/* Text-style fields only: checkboxes, radios and sliders keep their own sizing.
+ * Zero specificity (:where), so a component's own class always wins. */
+:where(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select) {
   font: inherit;
   background: var(--pa-paper);
   color: var(--pa-ink);

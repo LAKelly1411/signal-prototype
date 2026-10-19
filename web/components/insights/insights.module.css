@@ -65,7 +65,12 @@
 
 /* Tables behind each chart */
 .table { margin-top: 12px; font-size: 0.8125rem; }
-.table summary { cursor: pointer; color: var(--pa-cobalt); font-weight: 700; font-size: 0.75rem; width: fit-content; }
+.table summary { display: flex; align-items: center; gap: 0.4rem; list-style: none; cursor: pointer; color: var(--pa-cobalt); font-weight: 700; font-size: 0.75rem; width: fit-content; }
+.table summary::-webkit-details-marker { display: none; }
+.table summary::after { content: ""; width: 0.35rem; height: 0.35rem; margin-top: -0.2rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
+.table[open] summary::after { margin-top: 0.2rem; transform: rotate(-135deg); }
+.table summary:hover { text-decoration: underline; }
+.table summary:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
 .tableScroll { overflow-x: auto; }
 .table table { border-collapse: collapse; margin-top: 8px; font-size: 0.75rem; }
 .table th, .table td { padding: 4px 8px; border-bottom: 1px solid #e8e6df; text-align: left; white-space: nowrap; }
