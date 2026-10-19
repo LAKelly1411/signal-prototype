@@ -70,8 +70,7 @@ export function HeatMap({ starts, rows, thresholds }: { starts: Date[]; rows: Ro
         <tbody>
           {rows.map((r) => (
             <tr key={r.category}>
-              {/* A cell, not a row header: the grid above already carries the row headers. */}
-              <td><strong>{r.category}</strong></td>
+              <th scope="row">{r.category}</th>
               {r.counts.map((c, i) => <td key={i}>{c}</td>)}
               <td>{r.total}</td>
             </tr>

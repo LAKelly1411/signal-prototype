@@ -1,4 +1,5 @@
 import styles from "./insights.module.css";
+import { TableView } from "./TableView";
 
 type Direction = "building" | "steady" | "easing" | null;
 type Theme = { name: string; heat: number; direction: Direction; recent?: number; prior?: number };
@@ -23,7 +24,7 @@ export function ThemeMomentum({ themes }: { themes: Theme[] }) {
           {themes.map((t) => {
             const word = t.direction ? WORDS[t.direction] : undefined;
             return (
-              <div key={t.name} className={styles.trow} data-theme="">
+              <div key={t.name} className={styles.trow} data-theme={t.name}>
                 <span className={styles.tname}>{t.name}</span>
                 <span className={styles.tbar}><span style={{ width: `${Math.max(2, (t.heat / peak) * 100).toFixed(1)}%` }} /></span>
                 <span className={styles.tdir}>
@@ -39,6 +40,17 @@ export function ThemeMomentum({ themes }: { themes: Theme[] }) {
               </div>
             );
           })}
+          <TableView>
+            <thead><tr><th>Theme</th><th>Heat</th><th>Direction</th><th>Last 28 days</th><th>Previous 28</th></tr></thead>
+            <tbody>
+              {themes.map((t) => (
+                <tr key={t.name}>
+                  <td>{t.name}</td><td>{Math.round(t.heat)}</td>
+                  <td>{t.direction ? WORDS[t.direction][0] : "—"}</td><td>{t.recent ?? ""}</td><td>{t.prior ?? ""}</td>
+                </tr>
+              ))}
+            </tbody>
+          </TableView>
         </>
       )}
     </div>

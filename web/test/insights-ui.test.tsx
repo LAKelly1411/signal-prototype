@@ -24,7 +24,7 @@ describe("Insights components", () => {
   it("heat map lists rows busiest first with totals and the darkest step on the peak", () => {
     const rows = [{ category: "Policy and legislation", counts: [3, 0], total: 3 }, { category: "Insolvency", counts: [1, 0], total: 1 }];
     const { container } = render(<HeatMap starts={[new Date("2026-09-28T00:00:00Z"), new Date("2026-10-05T00:00:00Z")]} rows={rows} thresholds={[1, 2, 3, 4, 5]} />);
-    const labels = screen.getAllByRole("rowheader").map((e) => e.textContent);
+    const labels = within(container.querySelector<HTMLElement>('[role="table"]')!).getAllByRole("rowheader").map((e) => e.textContent);
     expect(labels).toEqual(["Policy and legislation", "Insolvency"]);
     const cells = container.querySelectorAll<HTMLElement>("[data-cell]");
     expect(cells[0].style.background).toBe("rgb(59, 107, 255)");
@@ -33,7 +33,7 @@ describe("Insights components", () => {
 
   it("theme momentum states direction in words", () => {
     render(<ThemeMomentum themes={[{ name: "Insolvency", heat: 200, direction: "building", recent: 11, prior: 5 }, { name: "Tax", heat: 50, direction: null }]} />);
-    const row = screen.getByText("Insolvency").closest("[data-theme]")!;
+    const row = screen.getAllByText("Insolvency")[0].closest("[data-theme]")!;
     expect(within(row as HTMLElement).getByText("Building")).toBeInTheDocument();
     expect(within(row as HTMLElement).getByText("11 vs 5")).toBeInTheDocument();
   });
