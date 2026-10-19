@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b1a9b3d016bdf119c2a89556ad80e507e24271d4cfae1914fbb5e102c3e1629c",
+    "source": "gazette",
+    "source_id": "L-59669-1279268",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59669-1279268",
+    "title": "BLUE BEAR BREWERY LIMITED",
+    "raw_summary": "Final Meetings: BLUE BEAR BREWERY LIMITED (Company Number 05623250 ) Registered office: Ward & Co, Bank House, 7 Shaw Street, Worecster, WR1 3QQ Principal trading address: Unit 1, Open Barn Farm, Kempsey, Worcester,…",
+    "published_at": "2011-01-12T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594465+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Blue Bear Brewery Limited"
+    ],
+    "canonical_entities": [
+      "Blue Bear Brewery"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "A small unrelated brewery's final insolvency meeting has no relevance to UK fintech or payments.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

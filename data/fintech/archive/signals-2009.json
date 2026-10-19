@@ -1,0 +1,82 @@
+[
+  {
+    "id": "c9efe24c4c812eca66f629521916811130beaafca392fe406b0565835adb78f2",
+    "source": "gazette",
+    "source_id": "L-59183-917562",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59183-917562",
+    "title": "BRENTWOOD HOTELS LIMITED",
+    "raw_summary": "Meetings of Creditors: In the High Court of Justice No 16172 of 2009 BRENTWOOD HOTELS LIMITED (Company Number 05920520 ) Notice is hereby given by James Douglas Ernle Money and Anthony Cliff Spicer , both of Smith & William…",
+    "published_at": "2009-09-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594365+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Brentwood Hotels Limited"
+    ],
+    "canonical_entities": [
+      "Brentwood Hotels"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "A hotel company's insolvency proceedings have no relevance to UK fintech and payments sector news.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "958362be883583a6c34a9d30fd8f2867f05b05d617adae3be095ea567d2079a1",
+    "source": "gazette",
+    "source_id": "L-59136-875775",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59136-875775",
+    "title": "SMITH MELZACK PEPPER ANGLISS (SERVICES) LIMITED",
+    "raw_summary": "Meetings of Creditors: In the High Court of Justice, Chancery Division Companies Court No 14456 of 2009 SMITH MELZACK PEPPER ANGLISS (SERVICES) LIMITED (Company Number 01128017 ) Notice is hereby given by James Douglas Ernl…",
+    "published_at": "2009-07-23T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594368+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Smith Melzack Pepper Angliss (Services) Limited"
+    ],
+    "canonical_entities": [
+      "Smith Melzack Pepper Angliss"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A minor historic insolvency notice unrelated to the fintech or payments sector, of negligible relevance to industry journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "279a6e7ebb987954d469d936f16f337a67a6f7009e707fc52e435648123e37fd",
+    "source": "gazette",
+    "source_id": "L-59051-805699",
+    "source_url": "https://www.thegazette.co.uk/notice/L-59051-805699",
+    "title": "SHOTZ HEALTH PLC",
+    "raw_summary": "Meetings of Creditors: In the High Court of Justice No 11480 of 2009 SHOTZ HEALTH PLC (Company Number 05696832 ) Notice is hereby given by James Douglas Ernle Money and Stephen Robert Cork , both of Smith & Williamson Limit…",
+    "published_at": "2009-05-01T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594372+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Shotz Health Plc",
+      "Smith & Williamson Limited"
+    ],
+    "canonical_entities": [
+      "Shotz Health",
+      "Smith & Williamson"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A creditors' meeting notice for an unrelated health company has no relevance to UK fintech or payments.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

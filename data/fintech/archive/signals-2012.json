@@ -1,0 +1,112 @@
+[
+  {
+    "id": "08222c478d51ca096952bf25df192a18c84b92db96814d79f39ae0595c66d9a8",
+    "source": "gazette",
+    "source_id": "L-60349-1721618",
+    "source_url": "https://www.thegazette.co.uk/notice/L-60349-1721618",
+    "title": "WALLIE LIMITED",
+    "raw_summary": "Appointment of Liquidators: (Company Number 05707489 ) WALLIE LIMITED Nature of Business: Small e-money issuer Type of Liquidation: Members Registered office: 7 Swallow Place, London, W1B 2AG Principal trading address: N/A Tim A…",
+    "published_at": "2012-12-06T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594358+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Wallie Limited"
+    ],
+    "canonical_entities": [
+      "Wallie"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A small e-money issuer's members' voluntary liquidation signals an orderly exit from the UK payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "90489458fe8c277a1c3387510d4166e74a82524d29a683ebdb1be7eb47721575",
+    "source": "gazette",
+    "source_id": "L-60250-1658210",
+    "source_url": "https://www.thegazette.co.uk/notice/L-60250-1658210",
+    "title": "DOORS & HARDWARE LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 01447886 Name of Company: DOORS & HARDWARE LIMITED Nature of Business: Manufacture and installation of doors Type of Liquidation: Creditors Registered office: New Guild House, 45 Great…",
+    "published_at": "2012-08-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594361+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Doors & Hardware Limited"
+    ],
+    "canonical_entities": [
+      "Doors & Hardware"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "A non-fintech door manufacturer's liquidation has no relevance to UK fintech or payments journalism.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "6f841f3b7a23980dd0f301ba1b7aed4e5c51e0f1303c9f65f601288754bd3cb5",
+    "source": "gazette",
+    "source_id": "L-60185-1611393",
+    "source_url": "https://www.thegazette.co.uk/notice/L-60185-1611393",
+    "title": "TRAVEL SANCTUARY OPERATIONS LIMITED",
+    "raw_summary": "Final Meetings: TRAVEL SANCTUARY OPERATIONS LIMITED (Company Number 00844488 ) Previous Name of Company: Billington Travel Limited, S.D.Wise Limited Registered office: Yorkshire House, 18 Chapel Street, Liverpool L3…",
+    "published_at": "2012-06-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594596+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Travel Sanctuary Operations Limited",
+      "Billington Travel Limited",
+      "S.D.Wise Limited"
+    ],
+    "canonical_entities": [
+      "Travel Sanctuary Operations",
+      "Billington Travel",
+      "S.D.Wise"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A travel company's final insolvency meeting has no apparent relevance to UK fintech or payments sector audiences.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "720c75be657cf02cfd21bf19219484238ca0b7c598be9ad27a6e9eb774d8227e",
+    "source": "gazette",
+    "source_id": "L-60067-1537266",
+    "source_url": "https://www.thegazette.co.uk/notice/L-60067-1537266",
+    "title": "WISE MANAGEMENT SERVICES (WMS) LIMITED",
+    "raw_summary": "Notice of Dividends: WISE MANAGEMENT SERVICES (WMS) LIMITED Previous Name of Company: Priority Engineering Limited Registered office: 2a Alton House Office Park, Gatehouse Way, Aylesbury, Buckinghamshire, HP19 8YF Princip…",
+    "published_at": "2012-02-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594599+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Wise Management Services (WMS) Limited",
+      "Priority Engineering Limited"
+    ],
+    "canonical_entities": [
+      "Wise Management Services",
+      "Priority Engineering"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A minor historical insolvency dividend notice with no apparent connection to the fintech or payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

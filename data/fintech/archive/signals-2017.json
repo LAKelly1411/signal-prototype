@@ -1,0 +1,54 @@
+[
+  {
+    "id": "f000f00d7b6ffb28e8f6f9807ec6fdc0f32d0274155d771057da1ea68c4442de",
+    "source": "gazette",
+    "source_id": "2912366",
+    "source_url": "https://www.thegazette.co.uk/notice/2912366",
+    "title": "A S B INTERIORS LIMITED",
+    "raw_summary": "Meetings of Creditors: Meeting Address Lynfield, Maynards Green, Heathfield, East Sussex TN21 0DG",
+    "published_at": "2017-11-22T11:28:57+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594580+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "A S B INTERIORS LIMITED"
+    ],
+    "canonical_entities": [
+      "A S B INTERIORS"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small interiors firm's creditors meeting has no direct relevance to the fintech or payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "bc6e0735c887c9c5ea7194b890261575c2d97f9bf33952d0376b530c14d59d33",
+    "source": "gazette",
+    "source_id": "2906943",
+    "source_url": "https://www.thegazette.co.uk/notice/2906943",
+    "title": "HEATHROW BUILDERS MERCHANTS LIMITED",
+    "raw_summary": "Meetings of Creditors: Meeting Address 5th Floor Hyde Park, Hayes 3; 11 Millington Road, Hayes UB3 4AZ",
+    "published_at": "2017-11-15T07:40:04+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594585+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Heathrow Builders Merchants Limited"
+    ],
+    "canonical_entities": [
+      "Heathrow Builders Merchants"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A builders merchants' creditor meeting has no direct relevance to UK fintech or payments sector news.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

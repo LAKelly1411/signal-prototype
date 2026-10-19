@@ -1,0 +1,28 @@
+[
+  {
+    "id": "6b720a1701623ae8649c3a82e20e0686c9cf87044690d836a55d3cd64e48e0c1",
+    "source": "gazette",
+    "source_id": "L-56831-286",
+    "source_url": "https://www.thegazette.co.uk/notice/L-56831-286",
+    "title": "Resolutions for Winding-up",
+    "raw_summary": "Resolutions for Winding-up: J DAWSON & SONS (HOLDINGS) LIMITED At an Extraordinary General Meeting of the Members of the above-named Company, duly convened, and held at Pannell House, 6 Queen Street, Leeds LS1 2TW, on 13 January…",
+    "published_at": "2003-01-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594482+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "J Dawson & Sons (Holdings) Limited"
+    ],
+    "canonical_entities": [
+      "J Dawson & Sons"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A small non-fintech company's voluntary winding-up has negligible relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

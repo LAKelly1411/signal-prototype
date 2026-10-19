@@ -1,0 +1,114 @@
+[
+  {
+    "id": "d6c94163f2fd7f4f23bc456c832c96d92a55a36daec46fcff4640440cdda13f5",
+    "source": "gazette",
+    "source_id": "L-58550-418881",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58550-418881",
+    "title": "Notices to Creditors",
+    "raw_summary": "Notices to Creditors: FIRST DISCOUNT LIMITED (Company Number 03109623) Notice is hereby given, pursuant to Rule 4.106 of the Insolvency Rules 1986, that James Douglas Ernle Money and Finbarr Thomas O’Connell, of KPMG LLP,…",
+    "published_at": "2007-12-21T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594381+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "First Discount Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "First Discount",
+      "KPMG"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine creditors notice for a liquidated company, with minimal direct relevance to the UK fintech or payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "4aa38395a29d71ef443f371ba9b3b5a102678e1dd971ddeaa56cf6c92e4deedc",
+    "source": "gazette",
+    "source_id": "L-58435-334492",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58435-334492",
+    "title": "Final Meetings",
+    "raw_summary": "Final Meetings: MAGNETIC AND MEMORY TECHNOLOGY LIMITED Notice is hereby given that final meetings of the members and of the creditors of the above named company will be held at KPMG LLP, 37 Hills Road, Cambridge, CB2…",
+    "published_at": "2007-08-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594384+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Magnetic and Memory Technology Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Magnetic and Memory Technology",
+      "KPMG"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Routine final insolvency meeting notice for a non-fintech company, of negligible relevance to payments sector readers.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "5d3aff5519b93606df90212e546cd57cc7260d03481ab7656a9bce9098037218",
+    "source": "gazette",
+    "source_id": "L-58435-334490",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58435-334490",
+    "title": "Final Meetings",
+    "raw_summary": "Final Meetings: MEDIA MOULDING TECHNOLOGY LIMITED Notice is hereby given that final meetings of the members and of the creditors of the above named company will be held at KPMG LLP, 37 Hills Road, Cambridge, CB2 1XL,…",
+    "published_at": "2007-08-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594387+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Media Moulding Technology Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Media Moulding Technology",
+      "KPMG"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Routine final insolvency meeting notice for a non-fintech company, with no relevance to payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "ffe504cbdf3a6763b74dd2a35e742d6b30cd2b17aeb8ba1142786b49938a9c3c",
+    "source": "gazette",
+    "source_id": "L-58229-179",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58229-179",
+    "title": "Final Meetings",
+    "raw_summary": "Final Meetings: VM GROUP LIMITED Notice is hereby given that Final Meetings of the Members and of the Creditors of the above-named Company will be held at KPMG LLP, 37 Hills Road, Cambridge CB2 1XL, on 22 February 20…",
+    "published_at": "2007-01-25T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594391+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "VM Group Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "VM",
+      "KPMG"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine final insolvency meeting notice with minimal relevance to fintech or payments sector journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

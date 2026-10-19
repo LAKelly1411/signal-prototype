@@ -1,0 +1,568 @@
+[
+  {
+    "id": "2297864842c2084325c2057ede7c5f108976c2a41513595be1b6f846aa6bb07a",
+    "source": "companies_house",
+    "source_id": "MzQ4ODE3MjA0NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzQ4ODE3MjA0NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2025-11-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593926+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine annual confirmation statement filing with Companies House, no material business implications for Monzo's operations.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "9bf5ef707c715302032ce62e87cb24b64f5b156993519b3763273b4715af79a9",
+    "source": "companies_house",
+    "source_id": "MzQ4NTI0Njg4MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzQ4NTI0Njg4MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2025-10-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593937+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A new director appointment at Monzo could signal leadership or strategic shifts at one of the UK's largest digital banks.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "8875861048caf6ae8f1eaf9351729f7ac711dcd8b7b44cc0a2b2a688365b77a6",
+    "source": "companies_house",
+    "source_id": "MzQ4NTI0Njg4M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzQ4NTI0Njg4M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2025-10-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593944+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A new director appointment at Monzo signals possible leadership or governance changes at one of the UK's largest digital banks.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "844d2e84c5459c9d5da8c525ef4d493444977f86abcb4ad50f807e5aadfca1c4",
+    "source": "companies_house",
+    "source_id": "MzQ4ODY4MDgyOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08804411/filing-history/MzQ4ODY4MDgyOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Revolut Ltd: Officers filed",
+    "raw_summary": "Type: CH01 · Description: Change person director company with change date",
+    "published_at": "2025-11-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593964+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Revolut Ltd"
+    ],
+    "canonical_entities": [
+      "Revolut Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director change filing at Revolut, a major UK fintech, may signal leadership shifts worth monitoring.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "aa64f469a7bbb094252e5e9e32ee7e682081d17c7fb1e20d117b48f441548916",
+    "source": "companies_house",
+    "source_id": "MzQ5MjU5MzMwMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzQ5MjU5MzMwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2025-12-05T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594032+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A new director appointment at a major UK digital bank could signal strategic or governance shifts worth monitoring.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "64c352ab756ab2b8f823ac03f12370ef655d44124999f5146dce603a4ae37ee9",
+    "source": "companies_house",
+    "source_id": "MzQ4NDM2NzQ5NGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzQ4NDM2NzQ5NGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2025-10-10T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594038+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Director appointments at Starling Bank can signal governance shifts at a major UK digital bank worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "46df26ba18daade5e0a95cde49f074e98606d9df6959223d4675d160c6389bef",
+    "source": "companies_house",
+    "source_id": "MzQ4Njg3Nzg0M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/07209813/filing-history/MzQ4Njg3Nzg0M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Wise Payments Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type full",
+    "published_at": "2025-10-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594068+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise Payments Limited"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Routine annual accounts filing by Wise's payments subsidiary offers limited but trackable financial transparency for a major UK fintech.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "8225ec9204ae4039c8bedfb1190525a117cd9c46a752a83adf1d6295c58e9b3a",
+    "source": "companies_house",
+    "source_id": "MzQ5NjI3MDAxNmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08037323/filing-history/MzQ5NjI3MDAxNmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Checkout Ltd: Persons with significant control filed",
+    "raw_summary": "Type: PSC04 · Description: Change to a person with significant control",
+    "published_at": "2025-12-24T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594126+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Checkout Ltd"
+    ],
+    "canonical_entities": [
+      "Checkout Ltd"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A change in significant control of Checkout Ltd could signal ownership shifts worth monitoring by payments sector watchers.",
+    "category": "Shareholding disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null
+  },
+  {
+    "id": "711e57299c8824e555b2d5b753e35c8f8b1f785d13fffb2f37e7dc5dc1e9757c",
+    "source": "companies_house",
+    "source_id": "MzQ4NTA2MjEwOWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08037323/filing-history/MzQ4NTA2MjEwOWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Checkout Ltd: Incorporation filed",
+    "raw_summary": "Type: MA · Description: Memorandum articles",
+    "published_at": "2025-10-17T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594135+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Checkout Ltd"
+    ],
+    "canonical_entities": [
+      "Checkout Ltd"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine incorporation filing with no clear financial or regulatory impact for the payments sector.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "d6a642b9ab5a293fd9ebfd06ff8f2dae766af05b2381c798aeb19e2b91c5aa9e",
+    "source": "companies_house",
+    "source_id": "WUVEOEZXVTFhZGlxemtjeA",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/08037323/filing-history/WUVEOEZXVTFhZGlxemtjeA/document?format=pdf&download=0",
+    "title": "Checkout Ltd: Resolution filed",
+    "raw_summary": "Type: RESOLUTIONS · Description: Resolution",
+    "published_at": "2025-10-17T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594141+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Checkout Ltd"
+    ],
+    "canonical_entities": [
+      "Checkout Ltd"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A routine Companies House resolution filing with no details, offering little insight into business impact.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "260126b91671109736e6f2e7f25ae56d049eb91e39b1905e9fa69cd3d1d018e0",
+    "source": "companies_house",
+    "source_id": "MzQ4Njk5OTkwM2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzQ4Njk5OTkwM2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Capital filed",
+    "raw_summary": "Type: SH19 · Description: Capital statement capital company with date currency figure",
+    "published_at": "2025-10-31T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594186+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A capital statement filing from ClearBank offers a minor but trackable signal of the banking infrastructure provider's financial position.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "ae8341a6b8fa46b6845cbf17420d5dd046bf51dc35688914f28334c4c6029df4",
+    "source": "companies_house",
+    "source_id": "MzQ4Njk5OTMyN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzQ4Njk5OTMyN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Capital filed",
+    "raw_summary": "Type: SH20 · Description: Legacy",
+    "published_at": "2025-10-31T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594193+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine capital filing by ClearBank offers minor insight into the banking firm's share structure but has no immediate market impact.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "d9e0fe30c1861227ba01079350f93c7d2048b2f7cff409234132488066cbb488",
+    "source": "companies_house",
+    "source_id": "MzQ4Njk5OTI1N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzQ4Njk5OTI1N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Insolvency filed",
+    "raw_summary": "Type: CAP-SS · Description: Legacy",
+    "published_at": "2025-10-31T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594204+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 65,
+    "why_it_matters": "ClearBank is a major UK clearing bank; any insolvency-related Companies House filing warrants urgent verification by payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "7a1d9e91c6b0b85d889bdc2bdf7702fae9f2e0785faaf0a2cb4b935d8b5fef57",
+    "source": "companies_house",
+    "source_id": "WUVFQVhUUzhhZGlxemtjeA",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/WUVFQVhUUzhhZGlxemtjeA/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Resolution filed",
+    "raw_summary": "Type: RESOLUTIONS · Description: Resolution",
+    "published_at": "2025-10-31T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594208+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A routine Companies House resolution filing from ClearBank offers little detail but may signal internal corporate changes worth monitoring.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "a72e5e0c40478269c6a44b484d547f57f4556d34551fdc96182fec1549bdf7a9",
+    "source": "gazette",
+    "source_id": "5012997",
+    "source_url": "https://www.thegazette.co.uk/notice/5012997",
+    "title": "THRIVE FINTECH LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: 15652913 Name of Company: THRIVE FINTECH LTD …",
+    "published_at": "2025-12-05T16:51:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594313+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Thrive Fintech Ltd"
+    ],
+    "canonical_entities": [
+      "Thrive Fintech"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A fintech company entering liquidation signals financial distress, relevant to sector health tracking despite being a small firm.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "9235d30198258611e20a26fd9d2377f6dca4f8631ae923d4db2668b62aa2c334",
+    "source": "gazette",
+    "source_id": "5012996",
+    "source_url": "https://www.thegazette.co.uk/notice/5012996",
+    "title": "THRIVE FINTECH LTD",
+    "raw_summary": "Resolutions for Winding-up: THRIVE FINTECH LTD …",
+    "published_at": "2025-12-05T16:51:06+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594317+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Thrive Fintech Ltd"
+    ],
+    "canonical_entities": [
+      "Thrive Fintech"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A named fintech firm has entered voluntary winding-up, signalling business failure within the UK fintech sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "166cc2a798911e500e047173cd47f3bd775dc5f077e1cf20f0b756670bfefb89",
+    "source": "gazette",
+    "source_id": "4940952",
+    "source_url": "https://www.thegazette.co.uk/notice/4940952",
+    "title": "WILDFISH LIMITED",
+    "raw_summary": "Appointment of Liquidators: …Principal trading address: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ Nature of Business: …",
+    "published_at": "2025-08-07T04:40:16+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594321+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Wildfish Limited"
+    ],
+    "canonical_entities": [
+      "Wildfish"
+    ],
+    "newsworthiness_score": 10,
+    "why_it_matters": "A minor corporate liquidation notice unrelated to fintech or payments, offering negligible relevance to the sector's audience.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "af234e79f526e785425fa91f2745736570b454858f9a2d07898ef83e37209f6c",
+    "source": "gazette",
+    "source_id": "4884753",
+    "source_url": "https://www.thegazette.co.uk/notice/4884753",
+    "title": "CLOUD TECHNOLOGY SOLUTIONS INVESTMENTS LIMITED and other companies",
+    "raw_summary": "Appointment of Liquidators: …, M2 3AW Principal trading address: 17 Marble Street, Manchester, M2 3AW Name of Company: APPSBROKER FINTECH LIMITED …",
+    "published_at": "2025-05-12T16:30:41+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594324+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Cloud Technology Solutions Investments Limited",
+      "Appsbroker Fintech Limited"
+    ],
+    "canonical_entities": [
+      "Cloud Technology Solutions Investments",
+      "Appsbroker Fintech"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A fintech-named company entering liquidation signals financial distress worth tracking in the sector's corporate failures.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "456cd4f8bcc9e706c54e0f5e65ef6b3d9e952226e88f0ef3abe1988d323b050a",
+    "source": "gazette",
+    "source_id": "4884752",
+    "source_url": "https://www.thegazette.co.uk/notice/4884752",
+    "title": "APPSBROKER FINTECH LIMITED and other companies",
+    "raw_summary": "Notices to Creditors: …treet, Manchester, M2 3AW Principal trading address: 17 Marble Street, Manchester, M2 3AW APPSBROKER FINTECH LIMITED …",
+    "published_at": "2025-05-12T16:30:40+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594328+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Appsbroker Fintech Limited"
+    ],
+    "canonical_entities": [
+      "Appsbroker Fintech"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A fintech firm's creditor notice signals financial distress, relevant to payments sector stability watchers.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "b71a6684e006efa0b7808f4d41547a2b164a517480efa2f6baf92175c4ad50a2",
+    "source": "gazette",
+    "source_id": "4933796",
+    "source_url": "https://www.thegazette.co.uk/notice/4933796",
+    "title": "ARGENTEX LLP",
+    "raw_summary": "Appointment of Administrators: In the High Court of Justice Court Number: CR-2025-005034 ARGENTEX LLP (Company Number OC369106 ) Trading Name: Argentex Nature of Business: E-money, payments services and currency management Register…",
+    "published_at": "2025-07-28T01:00:27+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594333+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Argentex LLP"
+    ],
+    "canonical_entities": [
+      "Argentex"
+    ],
+    "newsworthiness_score": 65,
+    "why_it_matters": "A currency management and payments firm has entered administration, raising concerns for clients and counterparties in the sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "59746482ea6d884245a0f799e7ab895b8b29f45ff37385506fd24b9e7ff247c1",
+    "source": "parliament",
+    "source_id": "2BBB4E90-3084-4094-9C05-AF14E52F6B0E",
+    "source_url": "https://hansard.parliament.uk/Lords/2025-06-05/debates/2BBB4E90-3084-4094-9C05-AF14E52F6B0E/PaymentServicesandPaymentAccountsContractTerminationAmendmentRegulations2025",
+    "title": "Payment Services and Payment Accounts (Contract Termination) (Amendment) Regulations 2025",
+    "raw_summary": "Grand Committee debate, Lords: Payment Services and Payment Accounts (Contract Termination) (Amendment) Regulations 2025",
+    "published_at": "2025-06-05T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594934+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "New rules on how banks and payment firms can terminate customer contracts could affect debanking practices across UK fintech and payments.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "71e26b39e5b45fdbe091dcba04058cbdbe47dc87d01d4e18cdcb1e377f1f620b",
+    "source": "parliament",
+    "source_id": "dbed3710-bdf0-4ede-8f54-f07b6c0be450",
+    "source_url": "https://hansard.parliament.uk/Commons/2025-06-04/debates/dbed3710-bdf0-4ede-8f54-f07b6c0be450/DraftPaymentServicesandPaymentAccountsContractTerminationAmendmentRegulations2025",
+    "title": "Draft Payment Services and Payment Accounts (Contract Termination) (Amendment) Regulations 2025",
+    "raw_summary": "General Committees debate, Commons: Draft Payment Services and Payment Accounts (Contract Termination) (Amendment) Regulations 2025",
+    "published_at": "2025-06-04T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594937+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "New rules on how payment firms can terminate customer contracts could affect debanking practices across UK fintech and banking.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  }
+]

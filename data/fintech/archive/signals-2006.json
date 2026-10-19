@@ -1,0 +1,114 @@
+[
+  {
+    "id": "f1422059ea9c362046b70b4df336346a6ca8b548a1fea83beb1d68eabaca8883",
+    "source": "gazette",
+    "source_id": "L-58049-133",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58049-133",
+    "title": "Meetings of Creditors",
+    "raw_summary": "Meetings of Creditors: SIMBOL LIMITED(Company Number 03817491) Notice is hereby given by Allan Watson Graham and James Douglas Ernle Money of KPMG LLP, Aquis Court, 31 Fishpool Street, St Albans AL3 4RF, that a Meeting of t…",
+    "published_at": "2006-07-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594395+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Simbol Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Simbol",
+      "KPMG"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A minor historical creditors' meeting notice with no apparent fintech or payments relevance.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "fbd04eba02f105793f1fa0f4d15406a3fc2348d30fd2a7c8243f57482f402fc2",
+    "source": "gazette",
+    "source_id": "L-58048-052",
+    "source_url": "https://www.thegazette.co.uk/notice/L-58048-052",
+    "title": "Meetings of Creditors",
+    "raw_summary": "Meetings of Creditors: BERNARD WARD LIMITED(Company Number 00591187) Notice is hereby given by James Douglas Ernle Money and Jane Bronwen Moriarty of KPMG LLP, Aquis Court, 31 Fishpool Street, St Albans AL3 4RF, that a Meet…",
+    "published_at": "2006-07-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594398+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Bernard Ward Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Bernard Ward",
+      "KPMG"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A routine 2006 creditors meeting notice for a small company unrelated to fintech or payments has negligible relevance today.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "fd4639d8c852c9f53855710c7da1d8cf6d824c75d5c4ee94280f994aca409cc7",
+    "source": "gazette",
+    "source_id": "L-57978-118",
+    "source_url": "https://www.thegazette.co.uk/notice/L-57978-118",
+    "title": "Notices to Creditors",
+    "raw_summary": "Notices to Creditors: CLASS ONE RECRUITMENT LIMITED (Company Number 03826600) Notice is hereby given pursuant to Rule 4.106 of the Insolvency Rules 1986, that James Douglas Ernle Money and Myles Antony Halley of KPMG LLP,…",
+    "published_at": "2006-05-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594402+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Class One Recruitment Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Class One Recruitment",
+      "KPMG"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A recruitment firm's creditor notice has minimal relevance to UK fintech and payments sector coverage.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "fed13a5a4531ac6820305e46a5c6493e0a3ca7d27fdca48bfee595b356a822db",
+    "source": "gazette",
+    "source_id": "L-57886-616",
+    "source_url": "https://www.thegazette.co.uk/notice/L-57886-616",
+    "title": "Meetings of Creditors",
+    "raw_summary": "Meetings of Creditors: Meetings of Creditors DECLAN DALY RACING LIMITED(Company No 05351460) Notice is hereby given by James Douglas Ernie Money and Richard James Philpott, of KPMG LLP, Aquis Court, 31 Fishpool Street, St A…",
+    "published_at": "2006-01-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594405+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Declan Daly Racing Limited",
+      "KPMG LLP"
+    ],
+    "canonical_entities": [
+      "Declan Daly Racing",
+      "KPMG"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A creditors meeting notice for a small racing company has minimal relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "fa9b0c235291a67c3386411f3581020c20abf5392442846a6a33315337893bd9",
+    "source": "gazette",
+    "source_id": "4582710",
+    "source_url": "https://www.thegazette.co.uk/notice/4582710",
+    "title": "SILVERBIRD GLOBAL LIMITED",
+    "raw_summary": "Appointment of Administrators: In the High Court of Justice Court Number: CR-2024-001535 SILVERBIRD GLOBAL LIMITED (Company Number 12585400 ) Nature of Business: E-money and payments platform Registered office: 2nd Floor, 110 Canno…",
+    "published_at": "2024-03-21T01:03:39+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594337+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Silverbird Global Limited"
+    ],
+    "canonical_entities": [
+      "Silverbird Global"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "An e-money and payments platform entering administration raises questions about customer funds safeguarding and UK e-money regulation.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "2ec2b5c09e11dad072248813c14f8c46094b278672b8e0e1f0f6a853dda3353b",
+    "source": "gazette",
+    "source_id": "4659770",
+    "source_url": "https://www.thegazette.co.uk/notice/4659770",
+    "title": "OPEN BANKING EXCELLENCE (OBE) LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: OPEN BANKING EXCELLENCE (OBE) LIMITED …",
+    "published_at": "2024-07-08T11:00:14+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594409+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open Banking Excellence (OBE) Limited"
+    ],
+    "canonical_entities": [
+      "Open Banking Excellence"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A notable open banking industry body entering liquidation signals potential sector consolidation or funding pressures in the UK open banking space.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "c53635705a9e80e857da7bf4f051efb00eaffcbddc2968202ef2e30f8304a3db",
+    "source": "gazette",
+    "source_id": "4659769",
+    "source_url": "https://www.thegazette.co.uk/notice/4659769",
+    "title": "OPEN BANKING EXCELLENCE (OBE) LIMITED",
+    "raw_summary": "Resolutions for Winding-up: OPEN BANKING EXCELLENCE (OBE) LIMITED …",
+    "published_at": "2024-07-08T10:50:19+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594414+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Open Banking Excellence (OBE) Limited"
+    ],
+    "canonical_entities": [
+      "Open Banking Excellence"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Open Banking Excellence, a prominent open banking advocacy body, has filed for voluntary winding-up, signalling sector funding pressures.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "592ed8c0f16d960ee4e5d893058377ca0e17ce25952adab5f01aae3e84a57dd2",
+    "source": "gazette",
+    "source_id": "4536628",
+    "source_url": "https://www.thegazette.co.uk/notice/4536628",
+    "title": "KIKAPAY LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: KIKAPAY LIMITED Company Number: 11216750 Nature of Business: Open banking technology – payment service …",
+    "published_at": "2024-01-23T01:04:06+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594418+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Kikapay Limited"
+    ],
+    "canonical_entities": [
+      "Kikapay"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "An open banking payments provider has entered liquidation, signalling possible service disruption and sector consolidation pressure.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a95d9550ef2f1b63b97568f388f2490425e40d506f3e26b312d790db09b4b506",
+    "source": "parliament",
+    "source_id": "76E97736-CC9F-49B9-B49E-C76FF8628D0E",
+    "source_url": "https://hansard.parliament.uk/Lords/2024-02-07/debates/76E97736-CC9F-49B9-B49E-C76FF8628D0E/BuyNowPayLaterRegulation",
+    "title": "Buy Now, Pay Later: Regulation",
+    "raw_summary": "Lords Chamber debate, Lords: Buy Now, Pay Later: Regulation",
+    "published_at": "2024-02-07T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594924+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 48,
+    "why_it_matters": "Parliamentary debate on BNPL regulation signals progress toward long-awaited FCA oversight of firms like Klarna and Clearpay.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "dada44e2545bdc965d429239ff03b24c1401e1be5cb54aa7737fdfdbed18e8e7",
+    "source": "parliament",
+    "source_id": "0599533C-879E-431B-A4CC-5453A1FB11BF",
+    "source_url": "https://hansard.parliament.uk/Commons/2024-01-16/debates/0599533C-879E-431B-A4CC-5453A1FB11BF/Buynowpaylaterproducts",
+    "title": "Buy now, pay later products",
+    "raw_summary": "Commons Chamber debate, Commons: Buy now, pay later products",
+    "published_at": "2024-01-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594927+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Parliamentary debate on BNPL regulation signals potential tightening of rules affecting lenders like Klarna and Clearpay.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  }
+]

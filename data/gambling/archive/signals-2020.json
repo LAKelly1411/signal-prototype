@@ -17,7 +17,8 @@
     "status": "seen",
     "canonical_entities": [],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "4e5a54c52ebca123cd213a601684f80c7e9bae3c3209c8d078ff7f0be7704cf9",
@@ -37,7 +38,8 @@
     "status": "seen",
     "canonical_entities": [],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "f7a6151a89d1916d8f3352f2a30b707db9926f4b06219bd991126f82d9835d8b",
@@ -61,7 +63,8 @@
       "Silverbond Enterprises"
     ],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "83f795efc3d31912bfb73f43835d5c1ab85ac03163be1693f74cecb105a3642c",
@@ -85,7 +88,8 @@
       "Gambling Commission"
     ],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "a60834b0737fadf09e69c731e1797c15989906b0e828988a38b4cadd16de3c31",
@@ -111,7 +115,8 @@
       "PTES"
     ],
     "canonical_category": "Player protection",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "f3794c7504a4945679848ce780bd3fcfe94b9cade494e737b2ab20262d63382b",
@@ -135,7 +140,8 @@
       "FSB"
     ],
     "canonical_category": "Enforcement action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "4576b062d7f4aaa172661fcfb1ccdc2205cab481fb0029b453c686cde4b23b47",
@@ -159,7 +165,8 @@
       "Triplebet"
     ],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "9b324e81f49baa458dee4c6c147cb110bb5741613b7fb42316d0de929dc336b1",
@@ -179,7 +186,8 @@
     "status": "seen",
     "canonical_entities": [],
     "canonical_category": "Enforcement action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "9785748f0c28278e4c3bc4124ce2b787af07fad588ea83d1db31cb7dfd151fa3",
@@ -203,7 +211,8 @@
       "Caesars Entertainment"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "9f11a41fa251b3ce521886a9801699023bfdb4c43d252415af2da40189bea1a0",
@@ -227,7 +236,8 @@
       "International Multi-Media Entertainments"
     ],
     "canonical_category": "Licence action",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "d4303bd7b86acebad1658cfcc616371e23e209deed81f820e84a66733fee3eef",
@@ -251,7 +261,8 @@
       "Betway"
     ],
     "canonical_category": "AML and compliance failures",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "0c885289bf708a569d4f711514b5fb7bbca40a80032baaccd696ca203c12d026",
@@ -275,7 +286,8 @@
       "bet365 Group Limited"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "3edcbc073a4f2a3cc0664be8dda449266155e3b1623d5a0da73b136feb320df0",
@@ -299,7 +311,8 @@
       "Betfair Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "0a087c408d5cd8c08f7a1ea052c4db5398f0492658eb87612991a7448a202fb3",
@@ -323,7 +336,8 @@
       "Betfair Limited"
     ],
     "canonical_category": "Board and director changes",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   },
   {
     "id": "e83d9a0ee2388920b5fd58310fde093671c4d7e87d082506ade42d5b6f527f4f",
@@ -347,6 +361,7 @@
       "Betfair Limited"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": null
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]

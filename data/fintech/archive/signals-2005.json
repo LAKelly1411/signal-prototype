@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ca1e367e6b085c62c27799aebd1ab4184806ce1244a76493c857fef02932f494",
+    "source": "gazette",
+    "source_id": "L-57715-668",
+    "source_url": "https://www.thegazette.co.uk/notice/L-57715-668",
+    "title": "Resolutions for Winding-up",
+    "raw_summary": "Resolutions for Winding-up: ALFA SECURITIES LIMITED The following Written Resolutions of the sole Member of the above-named Company, were duly passed on Wednesday 20 July 2005, as a Special Resolution and as an Ordinary Resoluti…",
+    "published_at": "2005-07-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594479+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Alfa Securities Limited"
+    ],
+    "canonical_entities": [
+      "Alfa Securities"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A minor historical winding-up notice with no apparent connection to current UK fintech or payments activity.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  }
+]

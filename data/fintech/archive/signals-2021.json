@@ -1,0 +1,100 @@
+[
+  {
+    "id": "a498bb63591f6ce837d1c4f08e9dbe700b9a0090cdbb957a02d8d9fe959c2a28",
+    "source": "gazette",
+    "source_id": "3742892",
+    "source_url": "https://www.thegazette.co.uk/notice/3742892",
+    "title": "KOINE MONEY LTD",
+    "raw_summary": "Appointment of Administrators: In the High Court of Justice, Business & Property Court Number: CR-2021-000288 KOINE MONEY LTD (Company Number 11265844 ) Nature of Business: e-Money Registered office: 27 Old Gloucester Street, Londo…",
+    "published_at": "2021-02-24T01:05:42+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594349+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Koine Money Ltd"
+    ],
+    "canonical_entities": [
+      "Koine Money"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "An e-money firm entering administration highlights risk and potential customer fund losses in the UK payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f021e4ef8596fa282cb3b3a92d6d795661fb921a1026d6daf9d345748c0e35ea",
+    "source": "parliament",
+    "source_id": "23CAD4D5-97B0-4F45-9FF5-D8EE577CF7DE",
+    "source_url": "https://hansard.parliament.uk/Lords/2021-04-27/debates/23CAD4D5-97B0-4F45-9FF5-D8EE577CF7DE/KalifaReviewofUKFintech",
+    "title": "Kalifa Review of UK Fintech",
+    "raw_summary": "Lords Chamber debate, Lords: Kalifa Review of UK Fintech",
+    "published_at": "2021-04-27T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594839+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Parliamentary debate on fintech sector policy could signal future regulatory direction affecting UK fintech firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "5f280ee2d56102a767eaca130561a7fbae607116c93087bad9d12c7c44538758",
+    "source": "parliament",
+    "source_id": "B5D92C6D-82BA-463A-B74C-C4ECAB134BEF",
+    "source_url": "https://hansard.parliament.uk/Commons/2021-07-06/debates/B5D92C6D-82BA-463A-B74C-C4ECAB134BEF/OpenBanking",
+    "title": "Open Banking",
+    "raw_summary": "Commons Chamber debate, Commons: Open Banking",
+    "published_at": "2021-07-06T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594930+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Parliamentary debate on Open Banking could signal future regulatory direction affecting UK fintech data-sharing rules.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "3277719f4efe6d2a0f1ebffecace43ae27c06f91bd24a2770f2b9c12a27bcb44",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/rematch-credit-ltd-a21-1101061-rematch-credit-ltd.html",
+    "title": "Rematch Credit Ltd t/a DivideBuy",
+    "raw_summary": "Upheld / Poster: A poster for a buy now play later credit service provider was banned for not making it sufficiently clear that it offered a form of credit and for being irresponsible.",
+    "published_at": "2021-10-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595025+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Rematch Credit Ltd",
+      "DivideBuy"
+    ],
+    "canonical_entities": [
+      "Rematch Credit",
+      "DivideBuy"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "ASA banned a DivideBuy BNPL ad for failing to disclose credit terms, highlighting ongoing scrutiny of buy-now-pay-later advertising practices.",
+    "category": "Enforcement action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Enforcement action",
+    "theme_id": null
+  }
+]
