@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import yaml from "js-yaml";
 import { z } from "zod";
@@ -6,7 +6,7 @@ import { DataError, isSlug } from "./errors";
 import { RunStatusSchema, SectorEntrySchema, SignalSchema, type RunStatus, type SectorEntry, type SectorRules, type Signal } from "./types";
 import type { DataSource } from "./source";
 
-type Opts = { dataDir?: string; configDir?: string; dataBaseUrl?: string; configBaseUrl?: string; fetchFn?: typeof fetch };
+type Opts = { dataDir?: string; configDir?: string; dataBaseUrl?: string; configBaseUrl?: string; fetchFn?: typeof fetch; clock?: () => number };
 type Company = SectorRules["companies"][number];
 
 const REVALIDATE = 300;
@@ -17,6 +17,9 @@ export class FileDataSource implements DataSource {
   private dataBaseUrl?: string;
   private configBaseUrl?: string;
   private fetchFn: typeof fetch;
+  private clock: () => number;
+  /** Disk mode: file text by path, kept for REVALIDATE seconds unless the file's mtime changes. */
+  private memo = new Map<string, { at: number; mtimeMs: number; text: string }>();
 
   constructor(opts: Opts = {}) {
     this.dataDir = opts.dataDir || path.resolve(process.cwd(), "../data");
@@ -24,6 +27,7 @@ export class FileDataSource implements DataSource {
     this.dataBaseUrl = opts.dataBaseUrl?.replace(/\/?$/, "/");
     this.configBaseUrl = opts.configBaseUrl?.replace(/\/?$/, "/");
     this.fetchFn = opts.fetchFn ?? fetch;
+    this.clock = opts.clock ?? Date.now;
   }
 
   /** Raw text of a file under data/ or config/, or null when it doesn't exist. */
@@ -40,10 +44,17 @@ export class FileDataSource implements DataSource {
       if (!res.ok) throw new DataError("unreachable", `${base + rel} answered ${res.status}`);
       return res.text();
     }
-    const dir = root === "data" ? this.dataDir : this.configDir;
+    const file = path.join(root === "data" ? this.dataDir : this.configDir, rel);
     try {
-      return await readFile(path.join(dir, rel), "utf8");
+      const { mtimeMs } = await stat(file);
+      const now = this.clock();
+      const hit = this.memo.get(file);
+      if (hit && hit.mtimeMs === mtimeMs && now - hit.at < REVALIDATE * 1000) return hit.text;
+      const text = await readFile(file, "utf8");
+      this.memo.set(file, { at: now, mtimeMs, text });
+      return text;
     } catch (e) {
+      this.memo.delete(file);
       if ((e as NodeJS.ErrnoException).code === "ENOENT") return null;
       throw new DataError("unreachable", `Couldn't read ${rel}: ${(e as Error).message}`);
     }

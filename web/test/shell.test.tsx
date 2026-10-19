@@ -1,6 +1,8 @@
 import { describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
+import path from "node:path";
 import { StatusStrip } from "@/components/StatusStrip";
+import { FileDataSource } from "@/lib/data/files";
 import { EmptyState, UpdateNotice } from "@/components/EmptyState";
 import { Tabs } from "@/components/Tabs";
 
@@ -21,6 +23,11 @@ describe("StatusStrip", () => {
   it("says so when the last update failed", () => {
     render(<StatusStrip now={now} status={{ finished_at: "2026-10-16T14:20:23Z", error: "boom", healthy_sources: 0, total_sources: 0, sources: {} } as never} />);
     expect(screen.getByText(/Last update failed · 2 hours ago/)).toBeInTheDocument();
+  });
+  it("shows the failed-run message for the pipeline's real failed-run file", async () => {
+    const src = new FileDataSource({ dataDir: path.join(__dirname, "fixtures/failed-data"), configDir: path.join(__dirname, "fixtures/config") });
+    const { container } = render(<StatusStrip now={now} status={await src.getRunStatus("broken")} />);
+    expect(container.textContent).toBe("Last update failed · 2 hours ago");
   });
 });
 
@@ -47,5 +54,19 @@ describe("Tabs", () => {
     render(<Tabs slug="gambling" current="themes" />);
     expect(screen.getByRole("link", { name: "Themes" })).toHaveAttribute("aria-current", "page");
     expect(screen.getByRole("link", { name: "Feed" })).toHaveAttribute("href", "/gambling/feed");
+  });
+});
+
+describe("error boundaries", () => {
+  it.each([
+    ["sector", () => import("@/app/[sector]/error")],
+    ["root", () => import("@/app/error")],
+  ])("the %s boundary shows the unavailable message and retries", async (_, load) => {
+    const { default: Boundary } = await load();
+    const reset = vi.fn();
+    const { container } = render(<Boundary error={new Error("boom")} reset={reset} />);
+    expect(container).toHaveTextContent("We couldn't load the latest signals. Try again in a few minutes.");
+    fireEvent.click(within(container).getByRole("button", { name: "Try again" }));
+    expect(reset).toHaveBeenCalledOnce();
   });
 });

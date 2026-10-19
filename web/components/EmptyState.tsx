@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import styles from "./shell.module.css";
 
 type Kind = "unavailable" | "setting_up" | "empty" | "error_empty";
@@ -15,13 +16,14 @@ const copy = (kind: Kind, name: string): [string, string] => {
   }
 };
 
-export function EmptyState({ kind, name = "this sector" }: { kind: Kind; name?: string }) {
+export function EmptyState({ kind, name = "this sector", children }: { kind: Kind; name?: string; children?: ReactNode }) {
   const [title, body] = copy(kind, name);
   return (
     <div className={styles.empty} role="status">
       <div>
         <div className={styles.emptyTitle}>{title}</div>
         <div className={styles.emptyBody}>{body}</div>
+        {children}
       </div>
     </div>
   );

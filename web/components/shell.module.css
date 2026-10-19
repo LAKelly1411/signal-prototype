@@ -43,3 +43,6 @@
 .notFound { padding-top: 4rem; }
 .notFound a { color: var(--pa-cobalt); }
 .notice { font-family: var(--pa-font-data); font-size: 0.875rem; color: #5c5c5c; border-left: 4px solid var(--pa-ink); padding: 4px 12px; margin: 1.5rem 0 8px 0; }
+.retry { margin-top: 12px; min-height: 40px; padding: 8px 16px; border: 0; border-radius: 0; background: var(--pa-cobalt); color: #fff; font-family: var(--pa-font-data); font-weight: 700; font-size: 1rem; cursor: pointer; }
+.retry:hover { background: var(--pa-ink); }
+.retry:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }

@@ -1,5 +1,7 @@
 import { describe, expect, it, vi } from "vitest";
 import path from "node:path";
+import { mkdtemp, utimes, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
 import { FileDataSource } from "@/lib/data/files";
 import { DataError, isSlug } from "@/lib/data/errors";
 
@@ -30,6 +32,15 @@ describe("FileDataSource on disk", () => {
     expect(await disk().getRunStatus("newbie")).toBeNull();
   });
 
+  it("reads a failed run's status (only sector, finished_at and error)", async () => {
+    const failed = new FileDataSource({ dataDir: path.join(__dirname, "fixtures/failed-data"), configDir });
+    const status = await failed.getRunStatus("broken");
+    expect(status).not.toBeNull();
+    expect("error" in status!).toBe(true);
+    expect(status!.error).toBe("Sector 'broken' has no collectors");
+    expect(status!.healthy_sources).toBeUndefined();
+  });
+
   it("reads sector rules and merges the dashboard watchlist", async () => {
     const rules = await disk().getSectorRules("demo");
     expect(rules.categories).toEqual(["Insolvency", "Enforcement action"]);
@@ -48,6 +59,36 @@ describe("FileDataSource on disk", () => {
   it("throws invalid for malformed JSON shapes", async () => {
     const bad = new FileDataSource({ dataDir: path.join(__dirname, "fixtures/bad-data"), configDir });
     await expect(bad.listSectors()).rejects.toMatchObject({ kind: "invalid" });
+  });
+});
+
+describe("FileDataSource disk caching", () => {
+  it("keeps a file for five minutes, rereading early only when its mtime changes", async () => {
+    const dir = await mkdtemp(path.join(tmpdir(), "signals-"));
+    const file = path.join(dir, "sectors.json");
+    const sectors = (slug: string) => JSON.stringify([{ slug, name: slug, status: "ready" }]);
+    const stamp = new Date("2026-10-19T09:00:00Z");
+    await writeFile(file, sectors("one"));
+    await utimes(file, stamp, stamp);
+    let t = 1_000_000;
+    const src = new FileDataSource({ dataDir: dir, configDir, clock: () => t });
+    expect((await src.listSectors())[0].slug).toBe("one");
+
+    // Same mtime, inside the TTL: served from memory.
+    await writeFile(file, sectors("two"));
+    await utimes(file, stamp, stamp);
+    t += 299_000;
+    expect((await src.listSectors())[0].slug).toBe("one");
+
+    // TTL passed: reread.
+    t += 2_000;
+    expect((await src.listSectors())[0].slug).toBe("two");
+
+    // A new mtime invalidates straight away.
+    await writeFile(file, sectors("three"));
+    await utimes(file, new Date("2026-10-19T09:01:00Z"), new Date("2026-10-19T09:01:00Z"));
+    t += 1_000;
+    expect((await src.listSectors())[0].slug).toBe("three");
   });
 });
 

@@ -13,7 +13,7 @@ export function StatusStrip({ status, now }: { status: RunStatus | null; now: Da
   const healthy = status.healthy_sources ?? 0;
   const total = status.total_sources ?? 0;
 
-  if ("error" in status && status.error) {
+  if ("error" in status) {
     // A failed run writes no source counts; don't read that as healthy.
     return <div className={`pa-status is-error ${styles.strip}`}>Last update failed · {humaniseAge(age)}</div>;
   }

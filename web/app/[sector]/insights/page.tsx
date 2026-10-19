@@ -30,10 +30,11 @@ export default async function InsightsPage({ params }: { params: Promise<{ secto
       return { name, heat: computeThemeHeat(members, now, rules), direction, recent, prior };
     })
     .sort((a, b) => b.heat - a.heat);
-  const ok = status && !("error" in status);
+  // As render_insights: a failed run (an "error" key) has no source counts.
+  const ok = status != null && !("error" in status);
   const tiles = headlineTiles(
     scored, now, activePatternCount(scored, now), themes.filter((t) => t.direction === "building").length,
-    ok ? status.healthy_sources : null, ok ? status.total_sources : null,
+    ok ? status.healthy_sources ?? null : null, ok ? status.total_sources ?? null : null,
   );
 
   const volume = weeklyVolume(scored, now);

@@ -50,9 +50,11 @@ export const RunStatusSchema = z
     sector: z.string().optional(),
     started_at: z.string().optional(),
     finished_at: z.string(),
-    sources: z.record(z.string(), z.object({ items: z.number(), ok: z.boolean(), error: z.boolean() }).passthrough()),
-    healthy_sources: z.number(),
-    total_sources: z.number(),
+    // A failed run (src/pipeline.py main) writes only sector, finished_at and error.
+    sources: z.record(z.string(), z.object({ items: z.number(), ok: z.boolean(), error: z.boolean() }).passthrough()).optional(),
+    healthy_sources: z.number().optional(),
+    total_sources: z.number().optional(),
+    error: z.string().nullable().optional(),
   })
   .passthrough();
 export type RunStatus = z.infer<typeof RunStatusSchema>;
