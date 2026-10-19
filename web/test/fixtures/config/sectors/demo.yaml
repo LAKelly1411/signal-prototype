@@ -1,0 +1,9 @@
+slug: demo
+name: Demo & co
+categories: ["Insolvency", "Enforcement action"]
+companies:
+  - name: Acme
+    company_number: "01234567"
+    aliases: ["Acme Ltd"]
+excluded_bodies:
+  regulators: ["Gambling Commission"]

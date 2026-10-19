@@ -1,0 +1,4 @@
+[
+  { "id": "a1", "source": "gazette", "source_id": null, "source_url": "https://www.thegazette.co.uk/notice/1", "title": "Winding-up petition", "raw_summary": "", "published_at": "2026-10-15T00:00:00+00:00", "ingested_at": "2026-10-15T08:00:00+00:00", "signal_type": "insolvency", "entities": ["Acme Ltd"], "newsworthiness_score": 45, "why_it_matters": "Signals distress.", "category": "insolvency", "cluster_id": "c1", "status": "seen", "canonical_entities": ["Acme"], "canonical_category": "Insolvency", "theme_id": null, "sector": "demo" },
+  { "id": "a2", "source": "asa", "source_url": "https://www.asa.org.uk/r/2", "title": "Ruling", "raw_summary": "", "published_at": "2026-10-14T00:00:00", "ingested_at": "2026-10-14T08:00:00+00:00", "signal_type": "enforcement", "entities": ["Acme"], "newsworthiness_score": null, "why_it_matters": null, "category": null, "cluster_id": null, "status": "seen", "theme_id": null, "sector": "demo" }
+]
