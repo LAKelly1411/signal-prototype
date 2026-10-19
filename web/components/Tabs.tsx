@@ -10,7 +10,7 @@ export function Tabs({ slug, current }: { slug: string; current?: string }) {
   return (
     <nav className={`pa-tabs ${styles.tabs}`} aria-label="Sections">
       {TABS.map(([key, label]) => (
-        <Link key={key} href={`/${slug}/${key}`} className="pa-tab" aria-current={active === key ? "page" : undefined} aria-selected={active === key}>
+        <Link key={key} href={`/${slug}/${key}`} className="pa-tab" aria-current={active === key ? "page" : undefined}>
           {label}
         </Link>
       ))}

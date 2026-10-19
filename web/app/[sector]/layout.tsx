@@ -4,7 +4,7 @@ import { StatusStrip } from "@/components/StatusStrip";
 import { Tabs } from "@/components/Tabs";
 import { EmptyState, UpdateNotice } from "@/components/EmptyState";
 import styles from "@/components/shell.module.css";
-import { loadSector } from "@/lib/load";
+import { loadSector, sectorNote } from "@/lib/load";
 
 export const dynamic = "force-dynamic";
 
@@ -26,7 +26,10 @@ export default async function SectorLayout({ children, params }: { children: Rea
       <div className={styles.head}>
         <div className={styles.intro}>
           <span className="pa-kicker">Sector</span>
-          <SectorMenu sectors={view.sectors} current={view.sector} />
+          <SectorMenu
+            items={view.sectors.map((s) => ({ slug: s.slug, name: s.name, note: sectorNote(s) }))}
+            current={{ slug: view.sector.slug, name: view.sector.name, note: "" }}
+          />
           <p className={styles.standfirst}>Sector signals, scored for newsworthiness.</p>
         </div>
         <StatusStrip status={view.status} now={now} />
