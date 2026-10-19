@@ -1,16 +1,10 @@
 import { auth } from "@/auth";
 import { NextResponse } from "next/server";
-
-const PUBLIC = [/^\/login(\/|$)/, /^\/api\/(health|ready|auth)(\/|$)/, /^\/_next\//, /^\/favicon/, /^\/pa-logo\.svg$/, /^\/logos\//];
+import { isPublicPath, loginRedirectUrl } from "@/lib/routes";
 
 export default auth((req) => {
-  const { pathname, search } = req.nextUrl;
-  if (PUBLIC.some((re) => re.test(pathname))) return NextResponse.next();
-  if (!req.auth?.user) {
-    const url = new URL("/login", req.nextUrl);
-    url.searchParams.set("next", pathname + search);
-    return NextResponse.redirect(url);
-  }
+  if (isPublicPath(req.nextUrl.pathname)) return NextResponse.next();
+  if (!req.auth?.user) return NextResponse.redirect(loginRedirectUrl(req.nextUrl));
   return NextResponse.next();
 });
 

@@ -51,23 +51,32 @@ export function buildProviders(env: NodeJS.ProcessEnv): Provider[] {
   return providers;
 }
 
+type SignInParams = { account?: { provider?: string } | null; profile?: unknown };
+
+/**
+ * Staff only: an Entra sign-in must carry the required group in its `groups`
+ * claim. Needs the app registration to emit that claim (Token configuration
+ * -> Add groups claim -> Security groups). With no group configured,
+ * production refuses Entra sign-ins rather than letting any tenant account
+ * in; development allows them.
+ */
+export function allowSignIn({ account, profile }: SignInParams, env: NodeJS.ProcessEnv = process.env): boolean {
+  if (account?.provider !== "microsoft-entra-id") return true;
+  const group = env.AUTH_REQUIRED_GROUP_ID;
+  if (!group) return env.NODE_ENV !== "production";
+  const groups = (profile as { groups?: unknown } | undefined)?.groups;
+  return Array.isArray(groups) && groups.includes(group);
+}
+
 const config: NextAuthConfig = {
   providers: buildProviders(process.env),
-  pages: { signIn: "/login" },
+  // Errors (e.g. AccessDenied from the group check) land back on the sign-in page.
+  pages: { signIn: "/login", error: "/login" },
   session: { strategy: "jwt" },
+  // No `authorized` callback: middleware.ts passes its own handler to auth(),
+  // which takes precedence, so the sign-in rule lives there.
   callbacks: {
-    // Staff only: with a required group set, the Entra token must carry it.
-    // Needs the app registration to emit the `groups` claim (Token
-    // configuration -> Add groups claim -> Security groups).
-    signIn({ account, profile }) {
-      const group = process.env.AUTH_REQUIRED_GROUP_ID;
-      if (account?.provider !== "microsoft-entra-id" || !group) return true;
-      const groups = (profile as { groups?: string[] } | undefined)?.groups ?? [];
-      return groups.includes(group);
-    },
-    authorized({ auth }) {
-      return Boolean(auth?.user);
-    },
+    signIn: (params) => allowSignIn(params),
   },
 };
 

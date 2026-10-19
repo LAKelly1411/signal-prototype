@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildProviders, devLoginEnabled, entraConfigured } from "@/auth";
+import { allowSignIn, buildProviders, devLoginEnabled, entraConfigured } from "@/auth";
 
 const entra = {
   AUTH_MICROSOFT_ENTRA_ID_ID: "id",
@@ -27,5 +27,30 @@ describe("providers", () => {
 
   it("offers nothing when nothing is configured", () => {
     expect(ids({ NODE_ENV: "production" })).toEqual([]);
+  });
+});
+
+describe("allowSignIn (the group check)", () => {
+  const entraAccount = { provider: "microsoft-entra-id" };
+  const env = (over: Record<string, string>) => ({ NODE_ENV: "production", ...over }) as unknown as NodeJS.ProcessEnv;
+
+  it("lets in an Entra user carrying the required group", () => {
+    expect(allowSignIn({ account: entraAccount, profile: { groups: ["other", "staff"] } }, env({ AUTH_REQUIRED_GROUP_ID: "staff" }))).toBe(true);
+  });
+  it("refuses an Entra user without the group", () => {
+    expect(allowSignIn({ account: entraAccount, profile: { groups: ["other"] } }, env({ AUTH_REQUIRED_GROUP_ID: "staff" }))).toBe(false);
+  });
+  it("refuses an Entra user whose token has no groups claim (e.g. the >200 groups overage)", () => {
+    expect(allowSignIn({ account: entraAccount, profile: { _claim_names: { groups: "src1" } } }, env({ AUTH_REQUIRED_GROUP_ID: "staff" }))).toBe(false);
+    expect(allowSignIn({ account: entraAccount, profile: undefined }, env({ AUTH_REQUIRED_GROUP_ID: "staff" }))).toBe(false);
+  });
+  it("fails closed in production when no group is configured", () => {
+    expect(allowSignIn({ account: entraAccount, profile: { groups: ["staff"] } }, env({}))).toBe(false);
+  });
+  it("allows Entra without a group in development", () => {
+    expect(allowSignIn({ account: entraAccount, profile: {} }, env({ NODE_ENV: "development" }))).toBe(true);
+  });
+  it("leaves the dev password provider alone", () => {
+    expect(allowSignIn({ account: { provider: "dev-password" } }, env({ AUTH_REQUIRED_GROUP_ID: "staff" }))).toBe(true);
   });
 });

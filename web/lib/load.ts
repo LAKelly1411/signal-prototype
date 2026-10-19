@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { notFound } from "next/navigation";
 import { DataError, isSlug } from "@/lib/data/errors";
 import { getDataSource, type DataSource } from "@/lib/data/source";
@@ -26,6 +27,20 @@ export function sectorNote(entry: SectorEntry): string {
   return entry.signal_count != null ? String(entry.signal_count) : "";
 }
 
+/**
+ * Where "/" lands: the first ready sector's feed (else the first sector's),
+ * or null when there are no sectors or the index can't be read.
+ */
+export async function homePath(src: DataSource = getDataSource()): Promise<string | null> {
+  try {
+    const sectors = orderSectors(await src.listSectors());
+    const target = (sectors.find((s) => s.status === "ready") ?? sectors[0])?.slug;
+    return target ? `/${target}/feed` : null;
+  } catch {
+    return null;
+  }
+}
+
 const orNull = async <T,>(p: Promise<T>): Promise<T | null> => {
   try {
     return await p;
@@ -34,7 +49,8 @@ const orNull = async <T,>(p: Promise<T>): Promise<T | null> => {
   }
 };
 
-export async function loadSector(slug: string, src: DataSource = getDataSource()): Promise<SectorView> {
+/** One sector's view. Wrapped in React's cache() so the layout and the page share one load per request. */
+export const loadSector = cache(async function loadSector(slug: string, src: DataSource = getDataSource()): Promise<SectorView> {
   if (!isSlug(slug)) notFound();
   let sectors: SectorEntry[];
   try {
@@ -61,4 +77,4 @@ export async function loadSector(slug: string, src: DataSource = getDataSource()
   if (signals.length === 0) return { state: failed ? "error_empty" : "empty", sector, sectors, status };
   const rules = await orNull(src.getSectorRules(slug));
   return { state: "ready", sector, sectors, signals, status, rules, now: new Date(), notice: failed ? "update_failed" : null };
-}
+});

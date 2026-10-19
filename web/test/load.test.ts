@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import { DataError } from "@/lib/data/errors";
-import { loadSector, sectorNote } from "@/lib/load";
+import { homePath, loadSector, sectorNote } from "@/lib/load";
 
 vi.mock("next/navigation", () => ({ notFound: () => { throw new Error("NEXT_NOT_FOUND"); } }));
 
@@ -53,5 +53,19 @@ describe("loadSector", () => {
     const v = await loadSector("demo", fake());
     expect(v.state === "ready" && v.notice).toBeNull();
     expect(sectorNote({ slug: "x", name: "X", status: "error" } as never)).toBe("Update failed");
+  });
+});
+
+describe("homePath", () => {
+  it("is the first ready sector's feed", async () => {
+    const src = fake({ listSectors: async () => [{ slug: "aaa", name: "A", status: "setting_up" }, ...sectors] });
+    expect(await homePath(src)).toBe("/demo/feed");
+  });
+  it("falls back to the first sector when none is ready", async () => {
+    expect(await homePath(fake({ listSectors: async () => [sectors[1]] }))).toBe("/newbie/feed");
+  });
+  it("is null with no sectors or an unreadable index", async () => {
+    expect(await homePath(fake({ listSectors: async () => [] }))).toBeNull();
+    expect(await homePath(fake({ listSectors: async () => { throw new DataError("unreachable", "x"); } }))).toBeNull();
   });
 });

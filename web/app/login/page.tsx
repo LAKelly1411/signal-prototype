@@ -3,6 +3,12 @@ import LoginArt from "@/components/LoginArt";
 import { signInWithDev, signInWithEntra } from "./actions";
 import styles from "./login.module.css";
 
+// Auth.js error codes (?error=) with our wording; anything else gets the generic line.
+const ERRORS: Record<string, string> = {
+  CredentialsSignin: "That password isn't right. Try again.",
+  AccessDenied: "Your account doesn't have access to Sector Signal.",
+};
+
 export type LoginPanelProps = { entra: boolean; dev: boolean; error?: string; next?: string };
 
 /** The sign-in side: lockup, title and whichever way in is configured. */
@@ -21,9 +27,9 @@ export function LoginPanel({ entra, dev, error, next }: LoginPanelProps) {
       <p className={styles.copy}>
         {entra ? "Use your Press Association Microsoft account to continue." : "Enter the team password to continue."}
       </p>
-      {error === "CredentialsSignin" && (
+      {error && (
         <p className={styles.error} role="alert">
-          That password isn&apos;t right. Try again.
+          {(Object.hasOwn(ERRORS, error) && ERRORS[error]) || "Sign-in didn't work. Try again, or contact the team if it keeps happening."}
         </p>
       )}
       {entra && (

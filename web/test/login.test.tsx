@@ -20,4 +20,12 @@ describe("LoginPanel", () => {
     render(<LoginPanel entra={false} dev error="CredentialsSignin" />);
     expect(screen.getByText("That password isn't right. Try again.")).toBeInTheDocument();
   });
+  it("says when the account isn't allowed in", () => {
+    const { container } = render(<LoginPanel entra dev={false} error="AccessDenied" />);
+    expect(container.querySelector('[role="alert"]')).toHaveTextContent("Your account doesn't have access to Sector Signal.");
+  });
+  it.each(["Configuration", "Verification", "toString"])("falls back to a generic message for %s", (code) => {
+    const { container } = render(<LoginPanel entra dev={false} error={code} />);
+    expect(container.querySelector('[role="alert"]')).toHaveTextContent("Sign-in didn't work.");
+  });
 });
