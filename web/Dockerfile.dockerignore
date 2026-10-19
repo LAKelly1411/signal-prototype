@@ -1,0 +1,19 @@
+# Build context is the repo root (docker build -f web/Dockerfile .), so these
+# patterns are relative to the repo root. Keeps data/ and config/ (the runner
+# stage copies them) and drops everything the image does not need.
+.git
+**/.DS_Store
+.venv
+.superpowers
+web/node_modules
+web/.next
+web/coverage
+web/test
+web/.env*
+**/__pycache__
+data/*/archive
+dashboard
+src
+tests
+scripts
+docs

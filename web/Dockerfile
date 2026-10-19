@@ -15,7 +15,14 @@ RUN pnpm install --frozen-lockfile --ignore-scripts
 FROM registry.pressassociation.io/node:${NODE_VERSION} AS builder
 WORKDIR /workspace
 RUN corepack enable && corepack prepare pnpm@10.32.0 --activate
-COPY web/ ./
+COPY web/package.json web/pnpm-lock.yaml web/next.config.ts web/tsconfig.json ./
+COPY web/app ./app
+COPY web/components ./components
+COPY web/lib ./lib
+COPY web/public ./public
+COPY web/styles ./styles
+COPY web/auth.ts ./auth.ts
+COPY web/middleware.ts ./middleware.ts
 COPY --from=deps /workspace/node_modules ./node_modules
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN pnpm build
