@@ -1,9 +1,11 @@
-import { describe, expect, it } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
 import { RelevanceRing } from "@/components/RelevanceRing";
 import { ActivityPill } from "@/components/ActivityPill";
 import { SignalCard } from "@/components/SignalCard";
 import type { Signal } from "@/lib/data/types";
+
+afterEach(cleanup);
 
 const now = new Date("2026-10-16T14:20:23Z");
 const signal = {
