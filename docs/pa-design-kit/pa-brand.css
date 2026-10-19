@@ -1,0 +1,332 @@
+/* PA brand: tokens, fonts, base styles and core components.
+ *
+ * Drop this into any web app, then use the classes below or map your own
+ * components onto the tokens. design.md explains every value.
+ *
+ * Source of truth for the values: PA's pa-tokens.css (PA Media Briefings
+ * site, pam-media-briefing-marketing-website). If the two ever disagree,
+ * pa-tokens.css wins; update this file to match.
+ */
+
+/* ── Fonts ────────────────────────────────────────────────────────────
+ * Press Sans is a licensed Commercial Type webfont served by PA's font CDN.
+ * Never copy the .woff2 files into a repo. The CDN only answers allowlisted
+ * origins (localhost is one); everywhere else the open stand-ins below are
+ * what people see, so they're always loaded too. Ask for a new app's domain
+ * to be allowlisted before launch. */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&family=Oswald:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Press Sans';
+  src: url('https://fonts.pressassociation.com/press-sans/v2/PressSans-Regular-Web.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Press Sans';
+  src: url('https://fonts.pressassociation.com/press-sans/v2/PressSans-Bold-Web.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Press Sans';
+  src: url('https://fonts.pressassociation.com/press-sans/v2/PressSans-Extrabold-Web.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Press Sans Condensed';
+  src: url('https://fonts.pressassociation.com/press-sans/v2/PressSansCond-Bold-Web.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Tokens ─────────────────────────────────────────────────────────── */
+:root {
+  /* Colour */
+  --pa-ink: #000000;
+  --pa-ink-soft: #1f1f1f;          /* tag icon blocks, tooltips */
+  --pa-paper: #ffffff;
+  --pa-muted: #464646;             /* secondary text */
+  --pa-meta: #6b6b6b;              /* dates, meta lines, captions */
+  --pa-cobalt: #004FFF;            /* interactive only */
+  --pa-cobalt-hover: #0040cc;
+  --pa-cobalt-tint: rgba(0, 79, 255, 0.05);
+  --pa-surface: #e8e5e4;
+  --pa-sunken: #dedad9;
+  --pa-newsprint: #e5e3d3;
+  --pa-newsprint-30: color-mix(in srgb, var(--pa-newsprint) 30%, var(--pa-paper));
+  --pa-border: rgba(0, 0, 0, 0.2);
+  --pa-hairline: rgba(0, 0, 0, 0.1);
+  --pa-hover: #f3f3f3;
+  --pa-orange: #fd8621;            /* category and theme tiles */
+  --pa-warn-bg: #fffaeb;
+  --pa-warn: #b54708;
+  --pa-error-bg: #fef3f2;
+  --pa-error: #b3261e;
+
+  /* Type */
+  --pa-font-heading: 'Press Sans Condensed', Oswald, 'Arial Narrow', sans-serif;
+  --pa-font-data: 'Press Sans', Archivo, Arial, Helvetica, sans-serif;
+  --pa-font-body: var(--pa-font-data);
+
+  /* Elevation */
+  --pa-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  --pa-shadow-hover: 0 10px 32px rgba(0, 0, 0, 0.14);
+  --pa-shadow-pinned: 0 6px 12px -8px rgba(0, 0, 0, 0.18);
+  --pa-shadow-popover: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --dur-fast: 150ms;
+  --dur: 250ms;
+  --dur-slow: 400ms;
+}
+
+/* ── Base ───────────────────────────────────────────────────────────── */
+*, *::before, *::after { border-radius: 0 !important; }   /* flat and square */
+
+body {
+  margin: 0;
+  background: var(--pa-paper);
+  color: var(--pa-ink);
+  font-family: var(--pa-font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+h1, h2, h3 { font-family: var(--pa-font-data); font-weight: 700; line-height: 1.2; }
+a { color: var(--pa-cobalt); font-weight: 700; text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--pa-cobalt); outline-offset: 2px; }
+
+input, textarea, select {
+  font: inherit;
+  background: var(--pa-paper);
+  color: var(--pa-ink);
+  border: 1px solid var(--pa-ink);
+  padding: 10px 12px;
+}
+
+/* ── Brand pieces ───────────────────────────────────────────────────── */
+
+/* The lockup: the PA logo (pa-logo.svg, inline so it takes currentColor)
+ * next to a stacked wordmark of black blocks. Size it with --lockup-size. */
+.pa-lockup {
+  --lockup-size: 46px;
+  --lockup-cap: 0.74;
+  --lockup-pad: 0.2;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--pa-ink);
+}
+.pa-lockup svg { width: var(--lockup-size); height: var(--lockup-size); flex-shrink: 0; }
+.pa-wordmark { display: flex; flex-direction: column; align-items: flex-start; }
+.pa-wordmark span {
+  display: block;
+  width: fit-content;
+  background: var(--pa-ink);
+  color: var(--pa-paper);
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: var(--lockup-cap);
+  font-size: calc(var(--lockup-size) / 2 / (var(--lockup-cap) + 2 * var(--lockup-pad)));
+  padding: calc(var(--lockup-pad) * 1em);
+}
+
+/* Kicker: a small label above a title. */
+.pa-kicker {
+  display: inline-block;
+  background: var(--pa-cobalt);
+  color: var(--pa-paper);
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 4px 8px;
+}
+.pa-kicker.ink { background: var(--pa-ink); }
+
+/* Page title, condensed. */
+.pa-title {
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.0833;
+  letter-spacing: 0.005em;
+  margin: 0.75rem 0 0.5rem 0;
+}
+
+/* Section label: "SIGNALS (62)". */
+.pa-label {
+  font-family: var(--pa-font-data);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--pa-meta);
+}
+
+/* Meta line: "62 signals · 20 companies · 13 Jul – 6 Oct". */
+.pa-meta { font-size: 0.75rem; color: var(--pa-meta); }
+
+/* ── Buttons ────────────────────────────────────────────────────────── */
+.pa-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 20px;
+  font-family: var(--pa-font-data);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.pa-btn-primary { background: var(--pa-cobalt); color: var(--pa-paper); }
+.pa-btn-primary:hover { background: var(--pa-cobalt-hover); }
+/* Outline: 2px ink border, fills ink on hover. */
+.pa-btn-outline { background: transparent; color: var(--pa-ink); border-color: var(--pa-ink); }
+.pa-btn-outline:hover { background: var(--pa-ink); color: var(--pa-paper); }
+/* Tertiary: icon or text only, grey on hover (close buttons). */
+.pa-btn-tertiary { background: transparent; color: var(--pa-muted); min-height: 32px; padding: 0 6px; }
+.pa-btn-tertiary:hover { background: var(--pa-hover); color: var(--pa-ink); }
+
+/* ── Cards ──────────────────────────────────────────────────────────── */
+/* White, soft shadow, no border. Every card carries a transparent 4px left
+ * edge so selecting one (cobalt edge) never shifts its content. */
+.pa-card {
+  background: var(--pa-paper);
+  box-shadow: var(--pa-shadow);
+  border-left: 4px solid transparent;
+  padding: 16px 24px 24px 20px;
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+              border-left-color var(--dur) var(--ease);
+}
+.pa-card.is-clickable { cursor: pointer; }
+.pa-card.is-clickable:hover { transform: translateY(-2px); box-shadow: var(--pa-shadow-hover); }
+.pa-card.is-clickable:active { transform: translateY(0) scale(0.995); transition-duration: var(--dur-fast); }
+.pa-card.is-selected { border-left-color: var(--pa-cobalt); }
+.pa-card-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.pa-card-title { font-weight: 700; font-size: 1.5rem; line-height: 1.2; margin: 0; }
+
+/* ── Tags ───────────────────────────────────────────────────────────── */
+.pa-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.pa-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 20px;
+  padding-right: 5px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1;
+  color: var(--pa-ink-soft);
+  white-space: nowrap;
+  background: rgba(31, 31, 31, 0.1);
+}
+.pa-tag-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--pa-ink-soft);
+  color: var(--pa-paper);
+}
+.pa-tag-icon svg { width: 16px; height: 16px; fill: currentColor; }
+.pa-tag-accent { background: rgba(253, 134, 33, 0.1); }
+.pa-tag-accent .pa-tag-icon { background: var(--pa-orange); color: var(--pa-ink); }
+.pa-tag-plain { padding: 0 6px; }               /* "+15 more" */
+.pa-tags.is-compact .pa-tag { font-size: 0.75rem; }  /* 12px in dense lists, still bold */
+
+/* ── Pill: a status with a ring or icon, e.g. "Very active" ─────────── */
+.pa-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--pa-cobalt-tint);
+  padding: 8px 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ── Status strip ───────────────────────────────────────────────────── */
+.pa-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-left: 4px solid currentColor;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.pa-status.is-warn { background: var(--pa-warn-bg); color: var(--pa-warn); }
+.pa-status.is-error { background: var(--pa-error-bg); color: var(--pa-error); }
+
+/* ── Tabs ───────────────────────────────────────────────────────────── */
+.pa-tabs { display: flex; border-bottom: 1px solid var(--pa-hairline); }
+.pa-tab {
+  padding: 10px 24px;
+  font: inherit;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--pa-ink);
+  cursor: pointer;
+}
+.pa-tab:hover { background: var(--pa-hover); }
+.pa-tab[aria-selected="true"] { font-weight: 700; border-bottom-color: var(--pa-cobalt); }
+
+/* ── Tooltip ────────────────────────────────────────────────────────── */
+.pa-tooltip {
+  display: inline-block;
+  background: var(--pa-ink-soft);
+  color: var(--pa-paper);
+  padding: 8px 10px;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+/* ── Show more / less toggle (a <details>) ──────────────────────────── */
+.pa-toggle > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--pa-cobalt);
+}
+.pa-toggle > summary::-webkit-details-marker { display: none; }
+.pa-toggle > summary::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-top: -0.2rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+}
+.pa-toggle[open] > summary::after { margin-top: 0.2rem; transform: rotate(-135deg); }
+.pa-toggle > summary:hover { text-decoration: underline; }
+.pa-toggle .when-open, .pa-toggle[open] .when-closed { display: none; }
+.pa-toggle[open] .when-open { display: inline; }
+
+/* ── Surfaces ───────────────────────────────────────────────────────── */
+.pa-newsprint { background: var(--pa-newsprint-30); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .pa-card.is-clickable:hover { transform: none; }
+}
