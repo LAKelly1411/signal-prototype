@@ -5,6 +5,8 @@
 /* On the Feed the filters take a fixed 300px sidebar; the page sits to its right. */
 @media (min-width: 768px) {
   .frame:has([data-feed-sidebar]) { padding-left: 300px; }
+  /* An open preview pane is fixed to the right; the whole page narrows to sit beside it, as in Streamlit. Same width as the pane (groups.module.css --preview-width). */
+  .frame:has([data-pane]) { padding-right: min(34rem, 38vw); }
 }
 .head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0 24px; }
 .intro { min-width: 0; }

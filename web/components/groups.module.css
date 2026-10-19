@@ -1,6 +1,6 @@
 /* Pattern and theme cards, and the sparkline. Ported from dashboard/app.py. */
 .list { display: block; --preview-width: min(34rem, 38vw); }
-@media (min-width: 768px) { .withPane { padding-right: var(--preview-width); } }
+/* Room for the open pane is made on the whole page frame (shell.module.css .frame). */
 @media (max-width: 767px) { .withPane { padding-bottom: 55vh; } }
 
 .card {
