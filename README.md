@@ -21,6 +21,11 @@ same move; it is safe to re-run, and warns rather than changes anything if
 
 Dashboard: `dashboard/app.py` (Streamlit).
 
+## Next.js app (in progress)
+
+A Next.js rewrite of the dashboard lives in `web/`; see `web/README.md` for how
+to run and configure it. Streamlit (`dashboard/`) stays live until cutover.
+
 ## Tests
 
 ```
