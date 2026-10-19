@@ -7487,5 +7487,218 @@
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:fc4f420f74ad:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "75412a643b1f6520982d5fd2e8dd8aff865d85196858202f9cceb8c0887ba6b5",
+    "source": "gazette",
+    "source_id": "5156613",
+    "source_url": "https://www.thegazette.co.uk/notice/5156613",
+    "title": "GORBALS RETAIL LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1265430/ …",
+    "published_at": "2026-06-19T12:00:36+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gorbals Retail Limited",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A generic HMRC winding-up petition with no apparent link to the gambling sector, limited relevance to trade journalists.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gorbals Retail",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "2010349061bf4f5c8589662f492beac6c6dc11c627f9b7da572a5b8f74d79266",
+    "source": "gazette",
+    "source_id": "5156608",
+    "source_url": "https://www.thegazette.co.uk/notice/5156608",
+    "title": "CHAMBERS LEGAL LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1266044/ …",
+    "published_at": "2026-06-19T12:00:30+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Chambers Legal Ltd",
+      "HMRC"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "No apparent link to the gambling sector, making this routine insolvency filing of minimal interest to gambling trade press.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Chambers Legal",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "a79b588c6787c60a97d0b3f99bfdfd4a622a34703ca06c76938b5032fb5fa091",
+    "source": "gazette",
+    "source_id": "5158625",
+    "source_url": "https://www.thegazette.co.uk/notice/5158625",
+    "title": "SLACK CAPITAL LIMITED",
+    "raw_summary": "Resolutions for Winding-up: SLACK CAPITAL LIMITED (Company Number 15960451 ) Registered office: 18 BRINCLIFFE CRESCENT, SHEFFIELD, SOUTH YORKSHIRE, ENGLAND, S11 9AW Principal trading address: 18 BRINCLIFFE CRESCENT, SHEFFIELD, S…",
+    "published_at": "2026-06-19T17:30:29+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Slack Capital Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No apparent connection to the gambling sector, so this routine insolvency notice is unlikely to interest gambling industry journalists.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Slack Capital"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "67a96c1056cdfd291dd57f72bf5722989ef8b461628966ae2d593acb5a035acb",
+    "source": "parliament",
+    "source_id": "1918277",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-19/11387",
+    "title": "Written question: Suicide: Gambling",
+    "raw_summary": "Q: To ask the Minister for the Cabinet Office, pursuant to the Answer of 5 June 2026 to Question 5304, what steps are being taken to improve data collection on the number of deaths where the primary cause was addiction to gambling.\nA: The information requested falls under the remit of the UK Statistics Authority.A response to the Hon. Gentleman’s Parliamentary Question of 19th June is attached. ",
+    "published_at": "2026-06-19T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029422+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "UK Statistics Authority",
+      "Cabinet Office"
+    ],
+    "newsworthiness_score": 32,
+    "why_it_matters": "Highlights ongoing parliamentary scrutiny of gambling-suicide data quality, which could shape future harm-reduction policy and reporting requirements.",
+    "category": "gambling-related harm data",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "UK Statistics Authority",
+      "Cabinet Office"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "e908090947a2ec1cf0702e41c0846390fc45644372586cb715a82cfd38a2a8f7",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/331",
+    "title": "GAN (UK) Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-06-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923242+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "GAN (UK) Limited"
+    ],
+    "newsworthiness_score": 75,
+    "why_it_matters": "A Gambling Commission financial penalty against a licensed operator signals compliance failings and potential wider industry scrutiny.",
+    "category": "AML/regulatory enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "GAN"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_key_points": [
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "c5ac8e0a43622ed52b8bde9cc4176be0be5de5e569abe04c6036bd4e806dbcaf",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/332",
+    "title": "Concern Worldwide UK",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-06-19T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923247+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Concern Worldwide UK"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A financial penalty against a charity lottery operator signals Gambling Commission scrutiny of compliance standards beyond mainstream betting operators.",
+    "category": "AML/compliance enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Concern"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has fined six operators over ten weeks, from GAN and Concern Worldwide UK in June to QuinnBet in August, with penalties reaching £900,000. The spread across a charity lottery operator, arcade licensees and online bookmakers shows enforcement running across the whole sector, not one segment.",
+    "theme_key_points": [
+      "Petfre (Gibraltar) hit hardest so far: £900,000 penalty announced 30 June 2026.",
+      "QuinnBet (Gibraltar) fined twice on 20 August 2026: £609,104 penalty plus a separate costs-and-penalty settlement.",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show enforcement reaching smaller land-based licensees.",
+      "Concern Worldwide UK's penalty extends scrutiny beyond betting operators into charity lottery compliance."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "AML and compliance failures:9f87f1a0913e:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "aadd7e51961c2747eb67225011f5e3ea951767e033c99c7bdca022a9849e1d6e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9628421",
+    "title": "Entain: TR-1: Notification of major holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-19T16:26:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926051+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Changes in major shareholders can signal shifts in investor confidence or influence over Entain's strategic direction.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Entain runs through a busy H2-2026 corporate calendar: a 20% phased divestment of its CEE business, repeated boardroom churn including directorate changes in June and July, an audit tender conclusion, and interim results in August, all layered with routine TR-1 shareholder notifications. BetMGM Q2 updates add a US earnings angle to the UK-listed group's reporting cycle.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 58,
+    "cluster_summary_for": "5055d223a912856e:cecdc011",
+    "theme_summary": "TR-1 and holding notifications have run steadily across Entain, Flutter and evoke since mid-June, tracking routine investor position changes rather than a single ownership battle. Evoke's run culminated in an August 17 court and general meeting confirming a scheme of arrangement over its corporate structure.",
+    "theme_key_points": [
+      "Entain filed five separate TR-1 major holdings notices between June 19 and August 27",
+      "Evoke's August 17 Results of Court Meeting and General Meeting signals a scheme of arrangement, the standout event in the group",
+      "Flutter saw two holding disclosures in quick succession, June 26 and June 30",
+      "Evoke also filed a routine Total Voting Rights notice on August 3 alongside its holding changes"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139",
+    "sector": "gambling"
   }
 ]
