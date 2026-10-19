@@ -1,6 +1,8 @@
-import { describe, expect, it } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
 import { LoginPanel } from "@/app/login/page";
+
+afterEach(cleanup);
 
 describe("LoginPanel", () => {
   it("shows the Microsoft button when Entra is set up", () => {
