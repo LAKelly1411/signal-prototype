@@ -88,7 +88,7 @@
 .trow { display: grid; grid-template-columns: minmax(0, 10rem) 1fr 7.5rem; align-items: center; gap: 12px; padding: 8px 0; font-size: 0.875rem; }
 .tname { font-weight: 700; color: var(--pa-ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tbar { height: 10px; background: #f0eee8; }
-.tbar span { display: block; height: 100%; background: var(--pa-cobalt); border-radius: 0 4px 4px 0; }
+.tbar span { display: block; height: 100%; background: var(--pa-cobalt); border-radius: 0; }
 .tdir { font-size: 0.8125rem; color: #464646; text-align: right; }
 
 @media (max-width: 900px) {

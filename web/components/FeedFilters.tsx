@@ -28,18 +28,39 @@ export function FeedFilters({ options }: { options: FilterOptions }) {
 
   useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
 
+  // Follow the URL's q when it changes from outside (back/forward), unless a
+  // keystroke is still waiting to be written or the box already says it
+  // (modulo the trailing space the URL trims off).
+  useEffect(() => {
+    if (timer.current) return;
+    setSearch((cur) => (cur.trim() === crit.search ? cur : crit.search));
+  }, [crit.search]);
+
   // The sort order isn't a filter; keep it when criteria change.
-  const withSort = (next: Criteria) => {
+  const navigate = (next: Criteria) => {
     const qs = criteriaToSearchParams(next);
     if (sp.get("sort") === "score") qs.set("sort", "score");
     const s = qs.toString();
     router.replace(s ? `${pathname}?${s}` : pathname, { scroll: false });
   };
 
+  /** Any other filter change: fold in search text still waiting on its debounce, in the same navigation. */
+  const withSort = (next: Criteria) => {
+    if (timer.current) {
+      clearTimeout(timer.current);
+      timer.current = null;
+      next = { ...next, search: search.trim() };
+    }
+    navigate(next);
+  };
+
   const onSearch = (value: string) => {
     setSearch(value);
     if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => withSort({ ...latest.current, search: value.trim() }), 300);
+    timer.current = setTimeout(() => {
+      timer.current = null;
+      navigate({ ...latest.current, search: value.trim() });
+    }, 300);
   };
   const active = Boolean(
     crit.search || search || crit.companies.length || crit.sourcesOff.length || crit.categoriesOff.length ||
@@ -47,6 +68,7 @@ export function FeedFilters({ options }: { options: FilterOptions }) {
   );
   const clearAll = () => {
     if (timer.current) clearTimeout(timer.current);
+    timer.current = null;
     setSearch("");
     withSort({ sourcesOff: [], categoriesOff: [], companies: [], minScore: DEFAULT_MIN_SCORE, days: null, search: "" });
   };

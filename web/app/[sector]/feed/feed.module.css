@@ -37,7 +37,7 @@
 
 /* Feed bar */
 .toolbar { display: flex; align-items: center; gap: 4px; margin: 0.5rem 0 0.25rem 0; }
-.count { margin: 0; font-family: var(--pa-font-data); font-size: 0.875rem; color: var(--pa-muted); }
+.toolbarCount { margin: 0; font-family: var(--pa-font-data); font-size: 0.875rem; color: var(--pa-muted); }
 .sort { position: relative; margin-left: auto; flex-shrink: 0; }
 .sort > summary { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 12px; cursor: pointer; list-style: none; font-family: var(--pa-font-data); font-size: 1rem; white-space: nowrap; color: var(--pa-ink); }
 .sort > summary::-webkit-details-marker { display: none; }

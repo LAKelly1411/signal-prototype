@@ -1,9 +1,8 @@
-import { SPARK_WEEKS, weekRange } from "@/lib/signals/time";
+import { DAY_MS, SPARK_WEEKS, weekRange } from "@/lib/signals/time";
 import styles from "./groups.module.css";
 
 const HEIGHT = 56;
 const TOP = 4; // headroom so the line's cap and the end-dot aren't clipped
-const DAY_MS = 86_400_000;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 /** Signals per week, today at the right. Square-root axis on a scale shared by every card on the tab. */

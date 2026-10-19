@@ -3,9 +3,9 @@ import { RelevanceRing } from "./RelevanceRing";
 
 export function ActivityPill({ tier }: { tier: Tier }) {
   return (
-    <div className="pa-pill">
+    <span className="pa-pill">
       <RelevanceRing score={ACTIVITY_RING[tier]} />
       <span>{ACTIVITY_LABELS[tier]}</span>
-    </div>
+    </span>
   );
 }

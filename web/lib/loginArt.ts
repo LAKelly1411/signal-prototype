@@ -1,6 +1,8 @@
 // Data for the sign-in page's timeline + heat-map art. A port of the data
 // side of `_login_art` in dashboard/app.py: same formulas, same noise.
 
+import { DAY_MS } from "@/lib/signals/time";
+
 export const SCROLL = 40; // seconds for the timeline to travel one panel width
 
 const M64 = (1n << 64n) - 1n;
@@ -118,7 +120,7 @@ export function loginArt(now: Date = new Date()): Art {
   const picks: ArtPick[] = [...chosen]
     .sort((a, b) => a - b)
     .map((i) => {
-      const d = new Date(today - ((n - i) % n) * 7 * 86400000);
+      const d = new Date(today - ((n - i) % n) * 7 * DAY_MS);
       return {
         idx: i,
         value: values[i],

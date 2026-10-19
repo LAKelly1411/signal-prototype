@@ -1,7 +1,7 @@
 // Port of compute_heat / compute_theme_heat in src/cluster.py.
 import type { SectorRules, Signal } from "@/lib/data/types";
 import { isExcluded, signalEntities } from "@/lib/signals/entities";
-import { parseDate } from "@/lib/signals/time";
+import { DAY_MS, parseDate } from "@/lib/signals/time";
 
 export const CLUSTER_WINDOW_DAYS = 90;
 export const RECENCY_MAX = 30;
@@ -10,7 +10,6 @@ export const MIN_THEME_COMPANIES = 3;
 export const PEAK_SCORE_MAX = 30;
 export const MODEL_SIGNIFICANCE_MAX = 25;
 
-const DAY_MS = 86_400_000;
 
 const score = (m: Signal) => m.newsworthiness_score || 0;
 

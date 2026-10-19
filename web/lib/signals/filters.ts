@@ -2,6 +2,7 @@
 // the sort in apply_filters), with the criteria kept in the URL.
 import type { Signal } from "@/lib/data/types";
 import { signalEntities, sourceName } from "@/lib/signals/entities";
+import { calendarDay, utcDay } from "@/lib/signals/time";
 
 export const DEFAULT_MIN_SCORE = 40;
 export const DATE_PRESETS: Record<string, number | null> = { "All time": null, "Last 30 days": 30, "Last 7 days": 7 };
@@ -16,13 +17,11 @@ export type Criteria = {
 };
 export type FilterOptions = { sources: string[]; categories: string[]; entities: string[]; entityCounts: Map<string, number> };
 
-const DAY_MS = 86_400_000;
-
 /** Calendar day number of the date as written in the ISO string (Python: fromisoformat(...).date()). */
 function pubDay(iso: string): number {
-  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
-  if (!m) throw new Error(`bad ISO date: ${iso}`);
-  return Math.floor(Date.UTC(+m[1], +m[2] - 1, +m[3]) / DAY_MS);
+  const day = calendarDay(iso);
+  if (Number.isNaN(day)) throw new Error(`bad ISO date: ${iso}`);
+  return day;
 }
 
 const category = (s: Signal) => s.canonical_category || "Other";
@@ -56,7 +55,7 @@ export function filterOptions(scored: Signal[]): FilterOptions {
 }
 
 export function filterSignals(scored: Signal[], crit: Criteria, today: Date): Signal[] {
-  const todayDay = Math.floor(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) / DAY_MS);
+  const todayDay = utcDay(today);
   const start = crit.days != null ? todayDay - crit.days : null;
   const off = new Set(crit.sourcesOff);
   const catsOff = new Set(crit.categoriesOff);

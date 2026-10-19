@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { DAY_MS } from "@/lib/signals/time";
 import styles from "./insights.module.css";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -6,7 +7,7 @@ export const monthOf = (d: Date) => MONTHS[d.getUTCMonth()];
 
 /** "5–11 Oct" or "28 Sep – 4 Oct" for the week starting on `start` (UTC). */
 export function weekLabel(start: Date): string {
-  const end = new Date(start.getTime() + 6 * 86_400_000);
+  const end = new Date(start.getTime() + 6 * DAY_MS);
   if (start.getUTCMonth() === end.getUTCMonth()) return `${start.getUTCDate()}–${end.getUTCDate()} ${monthOf(end)}`;
   return `${start.getUTCDate()} ${monthOf(start)} – ${end.getUTCDate()} ${monthOf(end)}`;
 }

@@ -4,18 +4,13 @@ import { FeedToolbar, type SortOrder } from "@/components/FeedToolbar";
 import { loadSector } from "@/lib/load";
 import { computeHeat } from "@/lib/signals/heat";
 import { criteriaFromSearchParams, filterOptions, filterSignals, scoredSignals, sortSignals } from "@/lib/signals/filters";
-import { dateBucket } from "@/lib/signals/time";
+import { calendarDay, DAY_MS, dateBucket, utcDay } from "@/lib/signals/time";
 import type { Signal } from "@/lib/data/types";
 import styles from "./feed.module.css";
 
 const BUCKETS = ["Today", "Yesterday", "This week", "Earlier"] as const;
-const DAY_MS = 86_400_000;
-
 /** Midnight-aligned UTC date of the calendar day as written in the ISO string. */
-function calendarDate(iso: string): Date {
-  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
-  return m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : new Date(NaN);
-}
+const calendarDate = (iso: string) => new Date(calendarDay(iso) * DAY_MS);
 
 export default async function FeedPage({
   params, searchParams,
@@ -40,7 +35,7 @@ export default async function FeedPage({
   const clusterInfo = new Map([...byCluster].map(([id, members]) => [id, { heat: computeHeat(members, now), size: members.length }]));
   const card = (s: Signal) => <SignalCard key={s.id} signal={s} now={now} clusterInfo={s.cluster_id ? clusterInfo.get(s.cluster_id) : undefined} />;
 
-  const today = new Date(Math.floor(now.getTime() / DAY_MS) * DAY_MS);
+  const today = new Date(utcDay(now) * DAY_MS);
   const buckets: Record<string, Signal[]> = { Today: [], Yesterday: [], "This week": [], Earlier: [] };
   if (sort === "recent") for (const s of filtered) buckets[dateBucket(calendarDate(s.published_at), today)].push(s);
 
@@ -53,7 +48,7 @@ export default async function FeedPage({
   } else if (filtered.length === 0) {
     body = (
       <p className={styles.empty}>
-        No signals match these filters. <a href={basePath}>Clear all</a>
+        No signals match these filters. <a href={sort === "score" ? `${basePath}?sort=score` : basePath}>Clear all</a>
       </p>
     );
   } else if (sort === "score") {

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { Group } from "@/lib/signals/groups";
+import { DAY_MS } from "@/lib/signals/time";
 import { ActivityPill } from "./ActivityPill";
 import { GroupTile, SP_COMPANY_TAGS, TagRow } from "./GroupCard";
 import { SignalList } from "./SignalList";
@@ -9,11 +10,13 @@ import { Sparkline } from "./Sparkline";
 import groups from "./groups.module.css";
 import styles from "./pane.module.css";
 
-export function PreviewPane({ group, scale, now, onClose }: { group: Group; scale: number; now: Date; onClose: () => void }) {
+export function PreviewPane({ group, scale, now, onClose, focusOnOpen = false }: { group: Group; scale: number; now: Date; onClose: () => void; focusOnOpen?: boolean }) {
   const [week, setWeek] = useState<number | null>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
-  useEffect(() => closeRef.current?.focus({ preventScroll: true }), []);
-  const start = new Date(now.getTime() - group.weeklyCounts.length * 7 * 86_400_000);
+  // Only on open, and only when the user opened it (not a deep link).
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => { if (focusOnOpen) closeRef.current?.focus({ preventScroll: true }); }, []);
+  const start = new Date(now.getTime() - group.weeklyCounts.length * 7 * DAY_MS);
   const hasBody = !!group.summary || group.keyPoints.length > 0;
   const manyCompanies = group.companies.length > SP_COMPANY_TAGS;
   return (

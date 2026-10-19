@@ -3,6 +3,7 @@ import { SectorMenu } from "@/components/SectorMenu";
 import { StatusStrip } from "@/components/StatusStrip";
 import { Tabs } from "@/components/Tabs";
 import { EmptyState, UpdateNotice } from "@/components/EmptyState";
+import { LogosProvider } from "@/components/SourceLogo";
 import styles from "@/components/shell.module.css";
 import { loadSector, sectorNote } from "@/lib/load";
 
@@ -38,7 +39,7 @@ export default async function SectorLayout({ children, params }: { children: Rea
         <>
           {view.notice === "update_failed" && <UpdateNotice />}
           <Tabs slug={view.sector.slug} />
-          {children}
+          <LogosProvider enabled={Boolean(process.env.LOGO_DEV_TOKEN)}>{children}</LogosProvider>
         </>
       ) : (
         <EmptyState kind={view.state} name={view.sector.name} />

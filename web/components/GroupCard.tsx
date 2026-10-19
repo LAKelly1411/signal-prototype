@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { Flag, Group } from "@/lib/signals/groups";
 import { isPerson } from "@/lib/signals/entities";
+import { DAY_MS } from "@/lib/signals/time";
 import { ActivityPill } from "./ActivityPill";
 import { CompanyLogo } from "./SourceLogo";
 import { Icon } from "./Icon";
@@ -42,7 +43,7 @@ export function TagRow({ group, limit, className }: { group: Group; limit: numbe
 export function GroupCard({
   group, selected, scale, now, onSelect,
 }: { group: Group; selected: boolean; scale: number; now: Date; onSelect: () => void }) {
-  const start = new Date(now.getTime() - group.weeklyCounts.length * 7 * 86_400_000);
+  const start = new Date(now.getTime() - group.weeklyCounts.length * 7 * DAY_MS);
   return (
     <button
       type="button"

@@ -3,7 +3,7 @@
 import type { SectorRules, Signal } from "@/lib/data/types";
 import { isExcluded, signalEntities } from "@/lib/signals/entities";
 import { buildPatterns } from "@/lib/signals/groups";
-import { parseDate } from "@/lib/signals/time";
+import { DAY_MS, parseDate } from "@/lib/signals/time";
 
 export const WEEKS = 18;
 export const HIGH_SCORE = 70;
@@ -14,7 +14,6 @@ export const HEAT_EMPTY = "#efede6";
 
 export type Tile = { label: string; value: string; note: string };
 
-const DAY_MS = 86_400_000;
 const WEEK_MS = 7 * DAY_MS;
 const NICE = [2, 4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100, 120, 160, 200];
 

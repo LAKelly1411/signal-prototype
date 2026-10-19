@@ -2,7 +2,7 @@
 import type { Signal } from "@/lib/data/types";
 
 export const SPARK_WEEKS = 13;
-const DAY_MS = 86_400_000;
+export const DAY_MS = 86_400_000;
 const WEEK_SECONDS = 7 * 86400;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const MONTHS_LONG = [
@@ -34,6 +34,19 @@ function localFields(iso: string) {
 
 /** Day number (days since epoch) of a calendar date. */
 const dayNumber = (y: number, mo: number, d: number) => Math.floor(Date.UTC(y, mo - 1, d) / DAY_MS);
+
+/**
+ * Day number of the calendar date as written in an ISO string (Python's
+ * fromisoformat(...).date(), read in the string's own offset); NaN when the
+ * string doesn't start with a date.
+ */
+export function calendarDay(iso: string): number {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  return m ? dayNumber(+m[1], +m[2], +m[3]) : NaN;
+}
+
+/** Day number of a moment's UTC calendar date (Python's now(timezone.utc).date()). */
+export const utcDay = (d: Date) => Math.floor(d.getTime() / DAY_MS);
 
 export function niceScale(peak: number): number {
   const scales = [2, 4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100];

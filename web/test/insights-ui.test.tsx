@@ -5,6 +5,7 @@ import { HeatMap } from "@/components/insights/HeatMap";
 import { WeeklyVolume } from "@/components/insights/WeeklyVolume";
 import { ThemeMomentum } from "@/components/insights/ThemeMomentum";
 import { Movers } from "@/components/insights/Movers";
+import { heatThresholds } from "@/lib/signals/insights";
 
 afterEach(cleanup);
 
@@ -22,13 +23,15 @@ describe("Insights components", () => {
   });
 
   it("heat map lists rows busiest first with totals and the darkest step on the peak", () => {
-    const rows = [{ category: "Policy and legislation", counts: [3, 0], total: 3 }, { category: "Insolvency", counts: [1, 0], total: 1 }];
-    const { container } = render(<HeatMap starts={[new Date("2026-09-28T00:00:00Z"), new Date("2026-10-05T00:00:00Z")]} rows={rows} thresholds={[1, 2, 3, 4, 5]} />);
+    const rows = [{ category: "Policy and legislation", counts: [12, 3], total: 15 }, { category: "Insolvency", counts: [1, 0], total: 1 }];
+    const thresholds = heatThresholds(rows.flatMap((r) => r.counts));
+    const { container } = render(<HeatMap starts={[new Date("2026-09-28T00:00:00Z"), new Date("2026-10-05T00:00:00Z")]} rows={rows} thresholds={thresholds} />);
     const labels = within(container.querySelector<HTMLElement>('[role="table"]')!).getAllByRole("rowheader").map((e) => e.textContent);
     expect(labels).toEqual(["Policy and legislation", "Insolvency"]);
     const cells = container.querySelectorAll<HTMLElement>("[data-cell]");
-    expect(cells[0].style.background).toBe("rgb(59, 107, 255)");
-    expect(cells[1].style.background).toBe("rgb(239, 237, 230)");
+    expect(cells[0].style.background).toBe("rgb(0, 51, 173)"); // the peak (12): top of the ramp, #0033ad
+    expect(cells[1].style.background).not.toBe("rgb(0, 51, 173)");
+    expect(cells[3].style.background).toBe("rgb(239, 237, 230)"); // zero: HEAT_EMPTY
   });
 
   it("theme momentum states direction in words", () => {

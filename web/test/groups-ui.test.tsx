@@ -1,17 +1,23 @@
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { GroupList } from "@/components/GroupList";
 
 afterEach(cleanup);
 
-const push = vi.fn();
+const routerPush = vi.fn();
 let search = new URLSearchParams();
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push, replace: push }),
+  useRouter: () => ({ push: routerPush, replace: routerPush }),
   usePathname: () => "/gambling/themes",
   useSearchParams: () => search,
 }));
+let pushState: ReturnType<typeof vi.spyOn>;
+beforeEach(() => {
+  pushState = vi.spyOn(window.history, "pushState").mockImplementation(() => {});
+});
+afterEach(() => pushState.mockRestore());
+const pushedUrl = () => pushState.mock.lastCall?.[2];
 
 const now = new Date("2026-10-16T14:20:23Z");
 const member = (id: string, d: string) => ({ id, source: "parliament", title: `Signal ${id}`, published_at: d, newsworthiness_score: 45, why_it_matters: "Why.", canonical_category: "Policy and legislation", canonical_entities: ["Lisa Nandy"], entities: [] });
@@ -25,12 +31,13 @@ const group = {
 } as never;
 
 describe("GroupList", () => {
-  it("opens the panel when a card is clicked, via the URL", async () => {
+  it("opens the panel when a card is clicked, via a history entry rather than a server round trip", async () => {
     search = new URLSearchParams();
     render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
     expect(screen.queryByRole("complementary", { name: /Policy and legislation/ })).toBeNull();
     await userEvent.click(screen.getByRole("button", { name: "Preview Policy and legislation" }));
-    expect(push).toHaveBeenLastCalledWith("/gambling/themes?theme=Policy+and+legislation", { scroll: false });
+    expect(pushedUrl()).toBe("/gambling/themes?theme=Policy+and+legislation");
+    expect(routerPush).not.toHaveBeenCalled();
   });
 
   it("shows the panel for the selected group, signals newest first", () => {
@@ -46,7 +53,7 @@ describe("GroupList", () => {
     search = new URLSearchParams("theme=Policy and legislation");
     render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
     await userEvent.click(screen.getByRole("button", { name: "Close preview" }));
-    expect(push).toHaveBeenLastCalledWith("/gambling/themes", { scroll: false });
+    expect(pushedUrl()).toBe("/gambling/themes");
   });
 
   it("keeps the summary behind Show summary, and swaps in every company when open", async () => {
@@ -66,12 +73,29 @@ describe("GroupList", () => {
     expect(screen.queryByRole("complementary")).toBeNull();
   });
 
-  it("moves focus into the pane on open, and back to the card on close", async () => {
+  it("leaves focus alone when the pane comes from a deep link", () => {
     search = new URLSearchParams("theme=Policy and legislation");
     render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
+    expect(screen.getByRole("button", { name: "Close preview" })).not.toHaveFocus();
+  });
+
+  it("moves focus into the pane when a card opens it, and back to the card on close", async () => {
+    search = new URLSearchParams();
+    const { rerender } = render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
+    await userEvent.click(screen.getByRole("button", { name: "Preview Policy and legislation" }));
+    search = new URLSearchParams("theme=Policy and legislation"); // what Next does after pushState
+    rerender(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
     const close = screen.getByRole("button", { name: "Close preview" });
     expect(close).toHaveFocus();
     await userEvent.click(close);
     expect(screen.getByRole("button", { name: "Policy and legislation, showing in preview" })).toHaveFocus();
+  });
+
+  it("renders the activity pill as phrasing content inside the card button", () => {
+    search = new URLSearchParams();
+    const { container } = render(<GroupList groups={[group]} param="theme" scale={2} now={now} />);
+    const pill = container.querySelector(".pa-pill")!;
+    expect(pill.tagName).toBe("SPAN");
+    expect(container.querySelector("button div")).toBeNull();
   });
 });
