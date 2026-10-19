@@ -1,0 +1,109 @@
+/* The sign-in hero's illustration: a heat map whose tiles breathe, and a
+   timeline that scrolls right to left on a track two panels wide (the data
+   twice over), sliding by one panel per loop so it never jumps. Ported from
+   the Streamlit sign-in CSS. */
+.cell { animation: breathe 4s ease-in-out infinite alternate; }
+@keyframes breathe {
+  from { opacity: 0.45; }
+  to { opacity: 1; }
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 46vh;
+  /* Clipped at the sides only, so a read-out over a high week can rise above the line's area. */
+  clip-path: inset(-60% 0 0 0);
+}
+.track {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 100%;
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll { to { transform: translateX(var(--shift)); } }
+.trackLine { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+
+/* Square tiles, one column per week, stacked from the bottom by the column pitch. */
+.heat { position: absolute; inset: 0; overflow: hidden; container-type: inline-size; }
+.heat .cell {
+  position: absolute;
+  bottom: calc(var(--r) * 100cqw / var(--cols) + 3px);
+  width: calc(100cqw / var(--cols) - 6px);
+  aspect-ratio: 1;
+  background: rgba(255, 255, 255, var(--a));
+  transform: translateX(-50%);
+  animation: breathe 4s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+.spark { position: absolute; inset: 0; background: #8DDBFF; opacity: 0; animation: spark 8s ease-out infinite; }
+@keyframes spark {
+  0%, 86% { opacity: 0; }
+  90% { opacity: 0.95; }
+  100% { opacity: 0; }
+}
+.lineStroke {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+/* A highlighted week: dot, pulse and read-out, riding the track. */
+.at { position: absolute; width: 0; height: 0; opacity: 0; }
+.point, .pulse {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.pulse { animation: pulse 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+@keyframes pulse {
+  0% { opacity: 0.55; transform: scale(1); }
+  100% { opacity: 0; transform: scale(3.6); }
+}
+.tip {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: max-content;
+  padding: 8px 12px;
+  background: var(--pa-ink);
+  color: var(--pa-paper);
+  font-family: var(--pa-font-data);
+  font-size: 0.8125rem;
+  line-height: 1.3;
+  transform: translateX(-50%);
+}
+.tip b { font-size: 1rem; }
+.tip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 12px;
+  height: 12px;
+  background: var(--pa-ink);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cell, .spark, .track { animation: none; }
+  .at { display: none; }
+}
+@media (max-width: 760px) {
+  .line { display: none; }
+}

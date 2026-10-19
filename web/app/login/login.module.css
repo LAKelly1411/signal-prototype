@@ -1,0 +1,87 @@
+/* Sign-in page: a cobalt panel (what the tool does, and an illustration)
+   beside the form on white; stacked on narrow screens. */
+.page {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  min-height: 100vh;
+}
+
+/* Exactly one window tall: the words at the top, the illustration anchored to the bottom. */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2.5rem, 8vh, 6rem) clamp(2rem, 6vw, 6rem) 0;
+  background: var(--pa-cobalt);
+  color: var(--pa-paper);
+}
+.heroText { display: flex; flex-direction: column; gap: 1.25rem; }
+.hero :global(.pa-kicker) { width: fit-content; }
+.headline {
+  margin: 0;
+  padding: 0;
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  font-size: clamp(3rem, 5.4vw, 5.5rem);
+  max-width: 13ch;
+  line-height: 1.02;
+  letter-spacing: 0.005em;
+  color: var(--pa-paper);
+}
+.lede { margin: 0; max-width: 32rem; font-size: 1.25rem; line-height: 1.5; color: rgba(255, 255, 255, 0.88); }
+
+.side { display: flex; flex-direction: column; justify-content: center; height: 100vh; }
+.panel { width: 100%; max-width: 24rem; margin: 0 auto; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; box-sizing: border-box; }
+.lockup { display: flex; align-items: center; gap: 0.75rem; }
+.lockup img { height: 2.5rem; width: auto; }
+.wordmark { display: flex; flex-direction: column; gap: 2px; }
+.wordmark span {
+  display: block;
+  width: fit-content;
+  padding: 2px 8px;
+  background: var(--pa-ink);
+  color: var(--pa-paper);
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.title {
+  margin: 2.5rem 0 0;
+  font-family: var(--pa-font-heading);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: var(--pa-ink);
+}
+.copy { margin: 0 0 0.5rem 0; font-size: 1rem; color: var(--pa-muted); }
+.form { display: flex; flex-direction: column; gap: 0.75rem; }
+.label { font-weight: 700; font-size: 0.875rem; color: var(--pa-ink); }
+.input { min-height: 48px; padding: 0 0.75rem; border: 1px solid var(--pa-ink); border-radius: 0; font: inherit; }
+.button {
+  min-height: 48px;
+  border: 0;
+  border-radius: 0;
+  background: var(--pa-cobalt);
+  color: var(--pa-paper);
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.button:hover { background: var(--pa-cobalt-hover); }
+.error { margin: 0; color: #b00020; font-weight: 700; }
+.foot { margin-top: 1.5rem; font-size: 0.75rem; color: #6b6b6b; }
+
+@media (max-width: 760px) {
+  .page { grid-template-columns: 1fr; }
+  .hero { height: auto; padding: 2rem 1.5rem; }
+  .side { height: auto; }
+  .panel { padding: 1.5rem; }
+}
