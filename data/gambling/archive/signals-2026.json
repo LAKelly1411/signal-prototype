@@ -7700,5 +7700,111 @@
     "theme_direction": "steady",
     "theme_summary_for": "Shareholding disclosure:5f57c2e594a9:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "847be42506f732be030327d7ff4552f2cf7e3a1e77a47535e7474b3764469481",
+    "source": "gazette",
+    "source_id": "5158520",
+    "source_url": "https://www.thegazette.co.uk/notice/5158520",
+    "title": "RICHMOND ATLANTIC SERVICES LTD",
+    "raw_summary": "Appointment of Liquidators: Name of Company: RICHMOND ATLANTIC SERVICES LTD Company Number: 15850124 Nature of Business: Gambling /Financial Services & Corporate Investment …",
+    "published_at": "2026-06-22T01:02:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Richmond Atlantic Services Ltd"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A gambling-linked company entering liquidation may signal financial distress worth tracking for sector risk patterns.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Richmond Atlantic Services"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Eighteen gambling-linked firms have filed for liquidation, voluntary winding-up or faced HMRC petitions between June and September 2026, spanning bookmakers, gaming suppliers and compliance providers. The pace has quickened and severity increased, culminating in administrators being appointed to MGE Korea's holding company on 14 September.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance faced repeated winding-up action across three separate filings between 24 July and 26 August.",
+      "Licensed bookmakers Deeside Bookmakers (3 July) and MAB Bookmakers (7 August) both entered liquidation within five weeks.",
+      "OG Realisations 2026, trading as Outshine, filed a winding-up resolution on 17 August alongside a separate liquidation notice.",
+      "T33 Gaming faced a winding-up petition on 4 September before MGE Korea's holding company entered administration ten days later."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:742a3c32a29b:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "e17170132f3ea7b4115b238bc2960845238db1de9174f215131a8ff6aafe3fb4",
+    "source": "parliament",
+    "source_id": "1918463",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11712",
+    "title": "Written question: Horse Racing: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what estimate she has made of a) number of bets placed with and b) total value of stakes wagered with illegal gambling websites and operators during the Royal Ascot festival.\nA: The Government does not hold this information. We are taking action on the illegal gambling market, and as part of the 2025 Budget, HMT announced £26 million had been allocated to the Gambling Commission to increase investment, resources and capacity to f...",
+    "published_at": "2026-06-22T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029501+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "HM Treasury",
+      "DCMS"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Confirms £26m government funding to boost Gambling Commission's fight against illegal betting sites, highlighting policy focus on black market enforcement.",
+    "category": "illegal gambling market / policy funding",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "HM Treasury",
+      "DCMS"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Parliament and the Gambling Commission have kept illegal gambling under sustained scrutiny from June through September 2026, with £26m in new government funding, repeated written questions ahead of the World Cup, and enforcement raids in Doncaster and elsewhere. The BGC has escalated its public warnings, culminating in a forecast that Premier League black-market betting could hit £1bn a season.",
+    "theme_key_points": [
+      "Government confirmed £26m funding for the Gambling Commission's anti-black-market work (22 June 2026).",
+      "Four separate World Cup-related written questions on illegal gambling filed on 29 June 2026 alone.",
+      "Gambling Commission ran physical enforcement: Doncaster den raids (21 July), casino arrests (29 July), police-backed action (10 August).",
+      "BGC's estimates escalated from general channelisation warnings to a £1bn-a-season Premier League figure (24 August) and a $50bn global market claim (7 September)."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:60c7d87a08c3:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "7fec38ad18708ce3fbcc25459a4c4767875073e0f367484bc1787dfd92e90e52",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/328",
+    "title": "Song Liang",
+    "raw_summary": "Sanction: Warning",
+    "published_at": "2026-06-22T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923239+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Song Liang"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A Gambling Commission warning signals personal licence enforcement action, relevant for tracking regulatory compliance trends in the sector.",
+    "category": "licence sanction",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Song Liang"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement has escalated from individual licence revocations in June and July to a £150,000 fine against Holland Park Leisure and outright suspension of BresBet and Bet St George in late August. The Court of Appeal has also shut down Northern & Shell's challenge to the National Lottery licence award, closing off a major legal threat to the Commission's authority.",
+    "theme_key_points": [
+      "Three personal management licences revoked or warned since June: Song Liang, Abouleyazid Mustafa Lubna, Zura Adam Galgerud",
+      "Holland Park Leisure fined £150,000 on 18 August; BresBet Ltd and Bet St George Ltd had licences suspended ten days later",
+      "Court of Appeal refused TNLC and Northern & Shell permission to appeal the National Lottery licence decision on 30 July",
+      "Commission leadership in flux: Tim Miller departing while Sarah Fox joins, alongside new fee proposals and phased financial risk assessments from October"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:37e8bad84b7e:067ec139",
+    "sector": "gambling"
   }
 ]

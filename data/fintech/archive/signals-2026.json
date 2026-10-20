@@ -1954,5 +1954,27 @@
     "sector": "fintech",
     "canonical_category": "Board and director changes",
     "theme_id": null
+  },
+  {
+    "id": "be2201fcf93c0bad20156c13afa9c1dcb2466f75441b015c9a5745da09d72a5a",
+    "source": "parliament",
+    "source_id": "1918381",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/HL1198",
+    "title": "Written question: Financial Services: Trade Competitiveness",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the impact of recent trends in investment and consolidation on the competitiveness of the UK fintech sector.\nA: The UK has a long history as a powerhouse of financial services innovation. The sector attracted $3.6 billion of investment in 2025 - second only to the US. The Financial Services Growth and Competitiveness Strategy set out a comprehensive package of refo...",
+    "published_at": "2026-06-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594853+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Government commentary on UK fintech competitiveness signals policy direction but offers no new firm-specific regulatory action.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
