@@ -7021,5 +7021,109 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "b633dc0a706f4cc5:642be20c"
+  },
+  {
+    "id": "78d7b754b20b71b6feebdd82fc5ade3f9db3d5e9e7a22d335c58c1dfdacce8d9",
+    "source": "gazette",
+    "source_id": "5233268",
+    "source_url": "https://www.thegazette.co.uk/notice/5233268",
+    "title": "HORIZON FACILITIES MANAGEMENT LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ties and combined facilities support activities , presented on Friday 04 September 2026, at 11:32 by …",
+    "published_at": "2026-10-19T15:10:10+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-20T10:19:08.574911+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Horizon Facilities Management Ltd"
+    ],
+    "canonical_entities": [
+      "Horizon Facilities Management"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition against a facilities management firm has limited direct relevance to fintech and payments audiences.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "488dc1adfc30a3b0f60b0e73b44634a69ff39569b8ce52c6e9af70bacf0b026c",
+    "source": "gazette",
+    "source_id": "5232782",
+    "source_url": "https://www.thegazette.co.uk/notice/5232782",
+    "title": "W SLEEP LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …tail sale via mail order houses or via Internet , presented on Sunday 20 September 2026, at 11:38 by …",
+    "published_at": "2026-10-19T12:50:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-20T10:19:08.574915+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "W SLEEP LTD"
+    ],
+    "canonical_entities": [
+      "W SLEEP"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A winding-up petition against a small retail firm has little relevance to the UK fintech and payments sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "05f44ffd1a26b6f2907443c5b540788d84f569ea3cce2c1ff73032df0ce94f70",
+    "source": "gazette",
+    "source_id": "5232787",
+    "source_url": "https://www.thegazette.co.uk/notice/5232787",
+    "title": "REST ASSURED LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …s Activities of insurance agents and brokers , presented on Wednesday 23 September 2026, at 14:39 by …",
+    "published_at": "2026-10-19T12:40:11+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-20T10:19:08.574918+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Rest Assured Limited"
+    ],
+    "canonical_entities": [
+      "Rest Assured"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition against an insurance agency signals potential financial distress, relevant to compliance and credit risk monitoring.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "078944193c73503e2485ddbdff4a78d0d89dae8ae490b07df90005e5ba68b667",
+    "source": "gazette",
+    "source_id": "5232386",
+    "source_url": "https://www.thegazette.co.uk/notice/5232386",
+    "title": "LUX CONTAINER CONVERSIONS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …f business is other construction installation , presented on Thursday 17 September 2026, at 13:38 by …",
+    "published_at": "2026-10-19T11:50:10+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-20T10:19:08.574922+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Lux Container Conversions Ltd"
+    ],
+    "canonical_entities": [
+      "Lux Container Conversions"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A construction company insolvency petition with no apparent link to fintech or payments sector relevance.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
