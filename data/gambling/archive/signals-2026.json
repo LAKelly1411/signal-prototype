@@ -7932,5 +7932,74 @@
     "canonical_category": "Policy and legislation",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "f43efe7c5873a37299b87860b8a183c9458f833724fa33ef18d714aa7c3e655f",
+    "source": "gazette",
+    "source_id": "5159127",
+    "source_url": "https://www.thegazette.co.uk/notice/5159127",
+    "title": "TODHILL GAME LIMITED",
+    "raw_summary": "Resolutions for Winding-up: TODHILL GAME LIMITED …",
+    "published_at": "2026-06-23T12:00:26+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Todhill Game Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-related company entering voluntary winding-up may signal financial distress worth monitoring in the sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Todhill Game Limited has filed for voluntary winding-up, per a gazette notice dated 23 June 2026. Details on the company's operations and scale remain unclear, and the filing appears twice in near-identical form with no additional substance.",
+    "cluster_summary_for": "18b5c56af1d82eae:cecdc011",
+    "canonical_entities": [
+      "Todhill Game"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "theme_summary": "Eighteen gambling-linked companies have entered liquidation, administration or faced winding-up petitions between late June and mid-September 2026, spanning bookmakers, game studios, IT suppliers and compliance firms. The pace and severity have risen through the summer, with HMRC-led petitions and administrator appointments appearing at higher-scoring firms by September.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance faced repeated winding-up filings on 24 and 26 August, signalling an escalating petition against a sector compliance provider.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exit affecting staff and creditors.",
+      "MGE Korea Limited had administrators appointed on 14 September, the highest-severity case (score 55), tied to integrated gaming facilities.",
+      "HMRC petitioned to wind up Crown (Inverness) Ltd on 31 July, and Equusform, a horse racing data supplier, entered creditors' meetings on 18 September."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:55b1ab9baf45:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "7e4b25b4a8a883b4e554d1e5ddfcff7f935b4dd59d47e2428c8dd74f10f6599e",
+    "source": "gazette",
+    "source_id": "5159125",
+    "source_url": "https://www.thegazette.co.uk/notice/5159125",
+    "title": "TODHILL GAME LIMITED",
+    "raw_summary": "Appointment of Liquidators: PURSUANT TO SECTION 109 OF THE INSOLVENCY ACT 1986 Name of Company: TODHILL GAME LIMITED …",
+    "published_at": "2026-06-23T12:00:23+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Todhill Game Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A minor company liquidation notice with unclear gambling-sector relevance offers limited value to specialist readers.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Todhill Game Limited has filed for voluntary winding-up, per a gazette notice dated 23 June 2026. Details on the company's operations and scale remain unclear, and the filing appears twice in near-identical form with no additional substance.",
+    "cluster_summary_for": "18b5c56af1d82eae:cecdc011",
+    "canonical_entities": [
+      "Todhill Game"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "sector": "gambling"
   }
 ]
