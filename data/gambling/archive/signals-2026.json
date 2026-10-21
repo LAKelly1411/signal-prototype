@@ -7872,5 +7872,65 @@
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "6ebac92aacfe0eb8c17d5c038bbf85d60f7982710c5bc75ee6a58fbd9716c9b8",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/directorate-and-board-committee-changes/9631883",
+    "title": "Entain: Directorate and Board Committee Changes",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-23T09:30:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926049+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Leadership and governance shifts at a major FTSE-listed gambling operator can signal strategic direction changes affecting the wider industry.",
+    "category": "board changes",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain runs its normal listed-company cycle across Q2/Q3 2026: board reshuffles, routine TR-1 shareholder notifications, an audit tender conclusion, interim results, and BetMGM's Q2 update, alongside the previously announced phased 20% divestment of its CEE business. No single event dominates; together they read as scheduled corporate housekeeping rather than a crisis.",
+    "cluster_summary_for": "3ab69c63e512ee86:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "Entain and Rank have both cycled through multiple board and director changes since June 2026, while the Gambling Commission gained a new chair, Ruth Evans, on 7 September, welcomed publicly by the BGC. Corporate and regulatory leadership are turning over in parallel across the sector.",
+    "theme_key_points": [
+      "Entain filed three separate governance changes: 23 June, 27 July and 15 September 2026",
+      "Rank Group made two board announcements in five weeks: 24 July and 13 August",
+      "Ruth Evans took over as Gambling Commission Chair on 7 September, drawing immediate BGC comment",
+      "Pace has quickened since June, with changes now spanning both operators and the regulator itself"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:0b2e8d2f21f9:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "be9052f12fa780fc1400cd64e4684e78726343e14643a2e73193cc7a64f3bba1",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/future-of-tv-distribution-stakeholder-forum-papers",
+    "title": "Future of TV Distribution Stakeholder Forum - papers",
+    "raw_summary": "Work, outputs, and evidence produced by the members of the Future of TV Distribution Stakeholder Forum.",
+    "published_at": "2026-06-23T08:36:19+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914954+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This concerns TV distribution policy and has no direct relevance to the UK gambling and gaming sector.",
+    "category": "unrelated media policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
