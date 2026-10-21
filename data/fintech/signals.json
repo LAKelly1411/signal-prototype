@@ -1421,34 +1421,6 @@
     "theme_id": null
   },
   {
-    "id": "a4f5205a144e23d9d6f7cfb0c7ef6356db48d21f4ff264dda2e41ce0d2bf1f1b",
-    "source": "gazette",
-    "source_id": "5159726",
-    "source_url": "https://www.thegazette.co.uk/notice/5159726",
-    "title": "ELDENS FINANCE LIMITED",
-    "raw_summary": "Petitions to Wind Up (Companies): …e County Court at Coventry No. 0024 of 2026 In the matter of ELDENS FINANCE LIMITED Previously: COIN FINTECH LIMITED …",
-    "published_at": "2026-06-23T00:10:20+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594303+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Eldens Finance Limited",
-      "Coin Fintech Limited"
-    ],
-    "canonical_entities": [
-      "Eldens Finance",
-      "Coin Fintech"
-    ],
-    "newsworthiness_score": 30,
-    "why_it_matters": "A winding-up petition against a firm previously named Coin Fintech signals potential financial distress in the fintech sector.",
-    "category": "Insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
     "source": "gazette",
     "source_id": "5225818",
@@ -7162,5 +7134,33 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+  },
+  {
+    "id": "46aaa8ad8a8f0235995f4f65d1f07bfea2fced17c6cfe3202de57d607378fbe1",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/celeb-innovations-ltd.html",
+    "title": "Celeb Innovations Ltd t/a RiseGuide",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for YouTube ad for a self-improvement app was socially irresponsible, featured harmful negative racial stereotypes about South Asian women and was likely to cause serious offence on the grounds of race.",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-21T06:18:57.653073+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Celeb Innovations Ltd",
+      "RiseGuide"
+    ],
+    "canonical_entities": [
+      "Celeb Innovations",
+      "RiseGuide"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling against a self-improvement app's ad has minimal direct relevance to UK fintech and payments audiences.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

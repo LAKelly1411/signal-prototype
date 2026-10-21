@@ -7806,5 +7806,71 @@
     "theme_direction": "building",
     "theme_summary_for": "Licence action:37e8bad84b7e:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
+    "source": "gazette",
+    "source_id": "5159508",
+    "source_url": "https://www.thegazette.co.uk/notice/5159508",
+    "title": "COOPERMATIC LIMITED",
+    "raw_summary": "Appointment of Liquidators: …RMATIC LIMITED Company Number: 08962503 Trading Name: Peek & Poke Nature of Business: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-06-23T01:02:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Coopermatic Limited",
+      "Peek & Poke"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small toy/games retailer entering liquidation has negligible direct relevance to the UK gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Coopermatic",
+      "Peek & Poke"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9630310",
+    "title": "evoke: Holding(s) in Company",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-06-22T14:37:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926392+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
+    "category": "shareholder notification",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_summary": "Evoke plc is running a scheme of arrangement through 2026, progressing from timing of posting to publication of the scheme document and on to court and general meeting approval by mid-August, alongside interim results and repeated shareholder notifications. The William Hill Limited confirmation statement is an unrelated routine Companies House filing with no bearing on the scheme.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 62,
+    "cluster_summary_for": "b4c4ae67e98c1e69:cecdc011",
+    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
+    "theme_key_points": [
+      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
+      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
+      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
+      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139",
+    "sector": "gambling"
   }
 ]

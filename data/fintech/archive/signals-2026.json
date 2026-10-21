@@ -1976,5 +1976,33 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null
+  },
+  {
+    "id": "a4f5205a144e23d9d6f7cfb0c7ef6356db48d21f4ff264dda2e41ce0d2bf1f1b",
+    "source": "gazette",
+    "source_id": "5159726",
+    "source_url": "https://www.thegazette.co.uk/notice/5159726",
+    "title": "ELDENS FINANCE LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …e County Court at Coventry No. 0024 of 2026 In the matter of ELDENS FINANCE LIMITED Previously: COIN FINTECH LIMITED …",
+    "published_at": "2026-06-23T00:10:20+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594303+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Eldens Finance Limited",
+      "Coin Fintech Limited"
+    ],
+    "canonical_entities": [
+      "Eldens Finance",
+      "Coin Fintech"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A winding-up petition against a firm previously named Coin Fintech signals potential financial distress in the fintech sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]

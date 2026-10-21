@@ -617,33 +617,6 @@
     "sector": "gambling"
   },
   {
-    "id": "fc13af955393f3d12b2b22995f78a4e983166c720a0371f3ca2c10ed1e92c270",
-    "source": "gazette",
-    "source_id": "5159508",
-    "source_url": "https://www.thegazette.co.uk/notice/5159508",
-    "title": "COOPERMATIC LIMITED",
-    "raw_summary": "Appointment of Liquidators: …RMATIC LIMITED Company Number: 08962503 Trading Name: Peek & Poke Nature of Business: Retail sale of games and toys in specialised stores …",
-    "published_at": "2026-06-23T01:02:50+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Coopermatic Limited",
-      "Peek & Poke"
-    ],
-    "newsworthiness_score": 8,
-    "why_it_matters": "A small toy/games retailer entering liquidation has negligible direct relevance to the UK gambling sector.",
-    "category": "insolvency filing",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Coopermatic",
-      "Peek & Poke"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
     "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
     "source": "gazette",
     "source_id": "5163998",
@@ -2361,45 +2334,6 @@
     "sector": "gambling"
   },
   {
-    "id": "078cd7a8189ceb27b4fa3bede3f034e2ad1ca5d443acf58f84b6dca3feec88b3",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9630310",
-    "title": "evoke: Holding(s) in Company",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-06-22T14:37:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926392+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Tracks changes in significant shareholdings at evoke, relevant to investors monitoring ownership and control of the gambling group.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_summary": "Evoke plc is running a scheme of arrangement through 2026, progressing from timing of posting to publication of the scheme document and on to court and general meeting approval by mid-August, alongside interim results and repeated shareholder notifications. The William Hill Limited confirmation statement is an unrelated routine Companies House filing with no bearing on the scheme.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 62,
-    "cluster_summary_for": "b4c4ae67e98c1e69:cecdc011",
-    "theme_summary": "Major shareholding notifications have run steadily across Entain, Flutter and evoke since late June 2026, with four separate TR-1 filings at Entain alone. Evoke's disclosures culminated in an August 17 Court Meeting and General Meeting confirming a scheme of arrangement, marking the one filing that goes beyond routine ownership tracking.",
-    "theme_key_points": [
-      "Entain filed TR-1 major holdings notices on June 23, June 25, August 4 and August 27, 2026.",
-      "Flutter recorded two Holding(s) in Company disclosures, June 26 and June 30, 2026.",
-      "Evoke's August 17 Results of Court Meeting and General Meeting (score 45) signals a scheme of arrangement affecting its corporate structure.",
-      "Evoke also filed routine Total Voting Rights and shareholding notices on August 3 and August 26, 2026."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:b6b9f774f356:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -3615,7 +3549,7 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A £4.75m Gambling Commission settlement against a major B2B supplier signals heightened scrutiny of game/software providers, not just operators.",
     "category": "regulatory settlement",
-    "cluster_id": "731d401887296721",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evolution Malta Holding has agreed a £4.75m settlement with the UK Gambling Commission, dated 23 July 2026. The action against a major B2B games supplier, rather than an operator, marks the regulator extending compliance enforcement further up the supply chain.",
     "cluster_summary_for": "731d401887296721:cecdc011",
@@ -3623,7 +3557,7 @@
       "Evolution Malta"
     ],
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
@@ -3654,7 +3588,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A gambling supplier's settlement with the UK regulator, including a financial payment, signals compliance risk relevant to operators using its products.",
     "category": "regulatory settlement",
-    "cluster_id": "731d401887296721",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evolution Malta Holding has agreed a £4.75m settlement with the UK Gambling Commission, dated 23 July 2026. The action against a major B2B games supplier, rather than an operator, marks the regulator extending compliance enforcement further up the supply chain.",
     "cluster_summary_for": "731d401887296721:cecdc011",
@@ -3662,7 +3596,7 @@
       "Evolution Malta"
     ],
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
@@ -4464,16 +4398,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -4858,15 +4791,15 @@
     ],
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -4887,7 +4820,7 @@
     "status": "seen",
     "canonical_entities": [],
     "canonical_category": "Tax and levy",
-    "theme_id": "Tax and levy",
+    "theme_id": null,
     "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
     "theme_key_points": [
       "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
@@ -5181,15 +5114,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -5298,16 +5231,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -6707,15 +6639,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -6742,15 +6674,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -7569,16 +7501,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -8302,15 +8233,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -9192,16 +9123,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -9436,16 +9366,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -9500,15 +9429,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -9701,16 +9630,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -9773,15 +9701,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -10200,16 +10128,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139",
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139",
     "sector": "gambling"
   },
   {
@@ -10653,15 +10580,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -10688,15 +10615,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -10728,15 +10655,15 @@
     "cluster_coherent": false,
     "cluster_significance": 42,
     "cluster_summary_for": "54f2f535b3507eca:cecdc011",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -10763,15 +10690,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run continuously from July through October 2026, spanning a £4.75m settlement with supplier Evolution Malta, individual licence actions, and warnings against smaller operators, before culminating on 7 October in a £5m settlement covering Grosvenor Casinos and Rank Group's land-based business. Separately, the general election betting scandal continued to generate guilty pleas and a parliamentary question on insider betting.",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
     "theme_key_points": [
-      "Evolution Malta paid £4.75m in July, the largest supplier-side settlement in the run",
-      "7 October brought a combined £5m land-based casino penalty naming Grosvenor Casinos and Rank Group",
-      "Individual licence holders Anthony Francis Lane and Maxwell and Pamela Taylor faced separate fines in August and September",
-      "ASA upheld complaints against Midnite (Dribble Media) on 12 August for ads linking gambling to escapism"
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -11016,16 +10943,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -11158,16 +11084,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -11332,16 +11257,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -11370,16 +11294,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
@@ -11406,16 +11329,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -11587,16 +11509,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -11873,16 +11794,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -11945,16 +11865,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -11981,16 +11900,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -12324,15 +12242,94 @@
     "cluster_coherent": false,
     "cluster_significance": 15,
     "cluster_summary_for": "779e384630cb8bb4:cecdc011",
-    "theme_summary": "BGC escalated its lobbying campaign through autumn 2026 against further gambling tax rises, citing shop closures at Betfred and job cuts at bet365 and Flutter as evidence of harm. Parliament confirmed remote betting duty will rise to 25% from September, covering greyhound racing but exempting horseracing, with a wider Budget decision still pending.",
+    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against further gambling tax rises, citing shop closures and job cuts at Betfred, bet365 and Flutter. Parliamentary questions confirm a 25% remote betting duty will hit greyhound racing while horseracing stays exempt, with pressure building toward the Budget.",
     "theme_key_points": [
-      "Remote betting duty confirmed rising to 25%, hitting greyhound racing; horseracing exempted (14 Sept)",
-      "BGC says 540 betting shops closed and 4,500 jobs lost since prior Budget tax rise (12 Aug)",
-      "BGC cites bet365 and Flutter job cuts as direct fallout from tax rises (8 Sept, 20 Oct)",
-      "BGC warns further casino tax hikes put £200m investment and thousands of jobs at risk (2-12 Oct)",
-      "Labour MPs pushed for higher Machine Games Duty; BGC responded 17 Oct ahead of Budget"
+      "BGC says 540+ betting shops have closed and 4,500 jobs lost since the last Budget tax rise",
+      "25% remote betting duty confirmed for greyhound racing (14 Sept); horseracing remains exempt",
+      "BGC warns a further casino tax hike threatens a £200m UK investment drive and thousands of jobs",
+      "Labour MPs have written calling for higher Machine Games Duty, prompting a BGC rebuttal (17 Oct)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:021866c50677:067ec139"
+    "theme_summary_for": "Tax and levy:54767d4b5322:067ec139"
+  },
+  {
+    "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/l-and-l-europe-pays-gbp900-000-for-failures-including-withdrawal-delays",
+    "title": "L & L Europe pays £900,000 for failures including withdrawal delays",
+    "raw_summary": "",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-21T06:20:05.608418+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "L & L Europe"
+    ],
+    "canonical_entities": [
+      "L & L Europe"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A gambling operator was fined £900,000 for failures including withdrawal delays, signalling continued regulatory scrutiny of payout practices.",
+    "category": "Enforcement action",
+    "cluster_id": "40f26ae38e3d04b7",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "cluster_summary": "The UK Gambling Commission has settled with L & L Europe Limited over compliance failings that included withdrawal delays, with the operator agreeing to pay £900,000 in costs and a penalty-in-lieu. The action signals ongoing regulatory focus on payout handling among licensees.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "40f26ae38e3d04b7:cecdc011",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
+    "theme_key_points": [
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139"
+  },
+  {
+    "id": "e464b3ae92fb9ad5febb261d6f5a5bb710d86a8a0d6660a28326e1a1e8b2f5b1",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/350",
+    "title": "L & L Europe Limited",
+    "raw_summary": "Settlement: Commission costs, Public statement and Payment in lieu of financial penalty",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-21T06:20:05.609007+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "L & L Europe Limited"
+    ],
+    "canonical_entities": [
+      "L & L Europe"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "A UK-licensed operator agreed a regulatory settlement including costs and a payment in lieu of a financial penalty, signalling compliance failings.",
+    "category": "Enforcement action",
+    "cluster_id": "40f26ae38e3d04b7",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Enforcement action",
+    "theme_id": "Enforcement action",
+    "cluster_summary": "The UK Gambling Commission has settled with L & L Europe Limited over compliance failings that included withdrawal delays, with the operator agreeing to pay £900,000 in costs and a penalty-in-lieu. The action signals ongoing regulatory focus on payout handling among licensees.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "40f26ae38e3d04b7:cecdc011",
+    "theme_summary": "The Gambling Commission ran a near-continuous enforcement cycle from early August through late October 2026, moving from smaller personal-licence sanctions to a £5m land-based casino settlement involving Grosvenor and Rank on 7 October, then a £900,000 penalty against L&L Europe on 21 October for withdrawal delays.",
+    "theme_key_points": [
+      "Individual licence holders Maxwell and Pamela Taylor, Anthony Francis Lane and Sladders Ltd faced separate fines/warnings between 6-26 August.",
+      "7 October: £5m combined penalty for land-based casino regulatory failures, with Grosvenor Casinos and Rank Group both confirming settlements the same day.",
+      "L&L Europe fined £900,000 on 21 October specifically citing withdrawal delays, then a second same-day settlement notice for costs and penalty-in-lieu.",
+      "Parallel integrity thread: further guilty pleas in the general election betting scandal (10 September) and a parliamentary question from John Healey on possible insider betting in political appointments."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:d53dffbd1b14:067ec139"
   }
 ]
