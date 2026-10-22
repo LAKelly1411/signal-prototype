@@ -7730,5 +7730,57 @@
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null
+  },
+  {
+    "id": "8bc4b032ed02c7d0ffa87f4de93afa7cae45b78fd98efe5a4092c92e9b20f29c",
+    "source": "gazette",
+    "source_id": "5232382",
+    "source_url": "https://www.thegazette.co.uk/notice/5232382",
+    "title": "GILBERT TRADING LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …nt of real estate on a fee or contract basis , presented on Wednesday 23 September 2026, at 13:08 by …",
+    "published_at": "2026-10-21T15:30:07+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T14:19:33.438966+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gilbert Trading Limited"
+    ],
+    "canonical_entities": [
+      "Gilbert Trading"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition against a real estate services firm signals financial distress, though it has limited direct relevance to fintech/payments.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "78d7f31184fdce1cd8a1fd8926a779b862c6b7a5f8b71d923df343c5d8ae7f09",
+    "source": "gazette",
+    "source_id": "5235312",
+    "source_url": "https://www.thegazette.co.uk/notice/5235312",
+    "title": "STEPHENSON & SONS LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …nt of real estate on a fee or contract basis , presented on Wednesday 23 September 2026, at 14:03 by …",
+    "published_at": "2026-10-21T15:20:14+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T14:19:33.438969+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Stephenson & Sons Ltd"
+    ],
+    "canonical_entities": [
+      "Stephenson & Sons"
+    ],
+    "newsworthiness_score": 10,
+    "why_it_matters": "A winding-up petition against a small real estate firm has little relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
