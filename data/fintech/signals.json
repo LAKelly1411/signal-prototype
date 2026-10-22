@@ -1985,15 +1985,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
@@ -2025,15 +2025,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "459202143e119f74:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
@@ -2313,20 +2313,25 @@
     "newsworthiness_score": 25,
     "why_it_matters": "General licences from OFSI can affect how payments and fintech firms process sanctioned-related transactions legally.",
     "category": "Policy and legislation",
-    "cluster_id": null,
+    "cluster_id": "9d5ceb64eb00a935",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf",
+    "cluster_summary": "UK sanctions oversight sharpens around fintech: OFSI updates general licences governing sanctioned-related payment processing, while a parliamentary written question presses on whether an FCA-regulated fintech was exploited to evade Russia sanctions. No specific firm is named in either signal.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 25,
+    "cluster_summary_for": "9d5ceb64eb00a935:642be20c"
   },
   {
     "id": "1df9f1fcde922ac94235c4c248295de2db5f81ede4314846672068b44da5039a",
@@ -2379,15 +2384,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
@@ -2527,15 +2532,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
@@ -2586,15 +2591,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
@@ -2623,15 +2628,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
@@ -2682,15 +2687,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
@@ -2752,15 +2757,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
@@ -2815,15 +2820,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
@@ -2905,15 +2910,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
@@ -2967,15 +2972,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
@@ -3007,15 +3012,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
@@ -3088,15 +3093,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "c9b7977613f3a06b79d224610c5d8208e1d7c001edf7a9e96e78c0919a012992",
@@ -3150,15 +3155,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
@@ -3198,34 +3203,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:fe4acb663dee:4975febf"
-  },
-  {
-    "id": "dedfb63894bee1950cf562ac436ce5c1558c6a78ebe2edc019c8ebdeb4267235",
-    "source": "parliament",
-    "source_id": "1919817",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-24/12933",
-    "title": "Written question: Trade Agreements: Malaysia",
-    "raw_summary": "Q: To ask the Secretary of State for Business and Trade, what assessment he has made of the adequacy of opportunities for UK fintech firms arising from digital trade negotiations with Malaysia.\nA: Malaysia has a rapidly expanding digital economy and a strong trading relationship with the UK in digitally delivered services, worth over £1 billion in 2023. Negotiations on a UK-Malaysia Digital Trade Agreement present an opportunity to reduce barriers ...",
-    "published_at": "2026-06-24T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594856+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "UK Department for Business and Trade",
-      "Malaysia"
-    ],
-    "canonical_entities": [
-      "UK Department for Business and Trade",
-      "Malaysia"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "A UK-Malaysia digital trade agreement could open new market access opportunities for UK fintech exporters.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
   },
   {
     "id": "282edc39b5e4ad28ef47d78bdcae6ee5351950839bf41906feb38a8529dac89e",
@@ -3464,32 +3441,6 @@
     ],
     "newsworthiness_score": 3,
     "why_it_matters": "An ASA ruling on a video game advert has no relevance to UK fintech or payments industry audiences.",
-    "category": "Other",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Other",
-    "theme_id": null
-  },
-  {
-    "id": "2b0431e4c8b1d97408a1af19a3f9bc7f1c1317c9ab223a4553992694f297169a",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/patisserie-valerie-production-ltd-g26-1332433-patisserie-valerie-production-ltd.html",
-    "title": "Patisserie Valerie Production Ltd t/a Patisserie Valerie",
-    "raw_summary": "Not upheld / Search (paid): Three paid-for Google search ads for Patisserie Valerie didn’t break the less healthy food rules as they were a small or medium sized enterprise and therefore were exempt from the restrictions.",
-    "published_at": "2026-06-24T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595064+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Patisserie Valerie Production Ltd"
-    ],
-    "canonical_entities": [
-      "Patisserie Valerie Production"
-    ],
-    "newsworthiness_score": 3,
-    "why_it_matters": "An ASA ruling on food advertising has no relevance to UK fintech or payments industry stakeholders.",
     "category": "Other",
     "cluster_id": null,
     "status": "seen",
@@ -4170,15 +4121,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
@@ -4279,15 +4230,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
@@ -4314,15 +4265,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "27b9273f303417e9a437fcca96b6c287166cc7c309c50f673234e557ad8d9ea5",
@@ -4850,15 +4801,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7",
@@ -4892,15 +4843,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "719f8f1499b4b91a2eb8b55dc56223d51b3aa6853e0ac1f382a99d2bd4f97398",
@@ -5100,11 +5051,16 @@
     "newsworthiness_score": 2,
     "why_it_matters": "This parliamentary question about science funding has no relevance to UK fintech or payments industry.",
     "category": "Other",
-    "cluster_id": null,
+    "cluster_id": "9dcad4893101d03a",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Other",
-    "theme_id": null
+    "theme_id": null,
+    "cluster_summary": "Both signals are parliamentary written questions about funding for Jodrell Bank Observatory, a radio astronomy facility. Nothing here touches fintech or payments; the cluster exists only because of incidental keyword overlap.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "9dcad4893101d03a:642be20c"
   },
   {
     "id": "90eb6e6ef09ca53d2ca779c255c63d632559a28f0f4b3e6d9184e567901269bd",
@@ -5857,15 +5813,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "57ed079796cfab3dbe6ef52c8f6effb61911cb5794a66d76b519ec77f139f2f2",
@@ -5894,15 +5850,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "905e6eaf5bad92f045cb2c3bc0eb5070bcb62f16c7a91ffdbd596987de5f689b",
@@ -5931,15 +5887,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "ab0e37465b0da5fe108fbcf2760fe7ab9197dc93c98056273389ae689c9a4982",
@@ -6253,11 +6209,16 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Signals government stance on co-operative finance access but offers no new scheme or specific fintech impact.",
     "category": "Policy and legislation",
-    "cluster_id": null,
+    "cluster_id": "97ebdefa4ed9c7cd",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
-    "theme_id": null
+    "theme_id": null,
+    "cluster_summary": "Two UK parliamentary written questions touch on British Business Bank-related funding topics—one on engineering biology grants, the other on co-operative finance access. Neither names a specific fintech company, scheme change or funding decision; they read as routine policy questions rather than a developing story.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 5,
+    "cluster_summary_for": "97ebdefa4ed9c7cd:642be20c"
   },
   {
     "id": "ff37075da7198d5ab24ac44e38716b0415a9796a215a950dd0e82c8f5abb4a06",
@@ -6370,15 +6331,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "775260bf3a758aebc95120fb668679ef8fb014375582dfea5da4a7d23e26ca0c",
@@ -6412,15 +6373,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "a37760b0c5d671f499ab9de1558fdd2f992cc2fd3c4ee5ea7d831b7f93b1a4d4",
@@ -6487,15 +6448,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "1865cbcbca6ce1829e98e5c6e786e8ad1cc7d27e1b7673dacfc8ebfdc0b8d261",
@@ -6950,16 +6911,16 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This NHS procurement policy question has no direct relevance to UK fintech or payments firms.",
     "category": "Other",
-    "cluster_id": "b633dc0a706f4cc5",
+    "cluster_id": "a310afd867ca06dc",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null,
-    "cluster_summary": "Two parliamentary written questions on NHS procurement policy surface in this cluster, almost certainly matched on an incidental keyword rather than any payments or fintech company. Neither touches financial services, payments infrastructure or regulation.",
+    "cluster_summary": "These parliamentary written questions concern the Vaccine Damage Payment Scheme and NHS procurement policy, with no connection to fintech or payments. The cluster appears grouped only by incidental name-matching, not by any shared corporate or market event.",
     "cluster_pattern_type": "unrelated",
     "cluster_coherent": false,
-    "cluster_significance": 2,
-    "cluster_summary_for": "b633dc0a706f4cc5:642be20c"
+    "cluster_significance": 0,
+    "cluster_summary_for": "a310afd867ca06dc:642be20c"
   },
   {
     "id": "3793a71fe1f5bd4d45378346c21313bdee6cf33a06b65a9f25f1fe42090bf35a",
@@ -6983,16 +6944,16 @@
     "newsworthiness_score": 2,
     "why_it_matters": "Not relevant to UK fintech and payments; concerns NHS procurement and net zero policy.",
     "category": "Other",
-    "cluster_id": "b633dc0a706f4cc5",
+    "cluster_id": "a310afd867ca06dc",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null,
-    "cluster_summary": "Two parliamentary written questions on NHS procurement policy surface in this cluster, almost certainly matched on an incidental keyword rather than any payments or fintech company. Neither touches financial services, payments infrastructure or regulation.",
+    "cluster_summary": "These parliamentary written questions concern the Vaccine Damage Payment Scheme and NHS procurement policy, with no connection to fintech or payments. The cluster appears grouped only by incidental name-matching, not by any shared corporate or market event.",
     "cluster_pattern_type": "unrelated",
     "cluster_coherent": false,
-    "cluster_significance": 2,
-    "cluster_summary_for": "b633dc0a706f4cc5:642be20c"
+    "cluster_significance": 0,
+    "cluster_summary_for": "a310afd867ca06dc:642be20c"
   },
   {
     "id": "78d7b754b20b71b6feebdd82fc5ade3f9db3d5e9e7a22d335c58c1dfdacce8d9",
@@ -7125,15 +7086,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and parliamentary activity has broadened across sanctions enforcement, monetary policy correspondence, financial inclusion and digital assets through autumn 2026, with HM Treasury and the Bank of England issuing repeated inflation-related open letters and DCMS announcing a £500m AML officer recruitment drive and a digitally native gilt pilot.",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
     "theme_key_points": [
-      "DCMS's 15 September announcement funds hundreds of new officers in a £500m crackdown on dirty money networks",
-      "Three separate BoE-Treasury inflation correspondence items published 17 September show recurring formal exchanges over monetary policy",
-      "6 October's digitally native gilt announcement paired with a Treasury minister speech at UK Digital Assets Week signals crypto-adjacent policy push",
-      "Parliamentary written questions cluster on Help to Save (three on 9 October), CDFI lending and mortgage affordability using rental history (12 October)"
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:3a0172e2daa9:4975febf"
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
   },
   {
     "id": "46aaa8ad8a8f0235995f4f65d1f07bfea2fced17c6cfe3202de57d607378fbe1",
@@ -7218,6 +7179,557 @@
     "canonical_entities": [],
     "newsworthiness_score": 2,
     "why_it_matters": "This energy sector announcement has no relevance to UK fintech or payments industry stakeholders.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "7e7b012d66345a7e42b4fb9b78b8d5c74685ce946bc527044bae4899ab919a35",
+    "source": "parliament",
+    "source_id": "1949758",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-15/35403",
+    "title": "Written question: Financial Services: Russia",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, whether he has held discussions with the FCA following reports that a Russian-backed money launderer used an FCA regulated British fintech company to process payments and avoid financial sanctions imposed because of\nA: The Office of Financial Sanctions Implementation (OFSI), part of HM Treasury, assesses every instance of reported non-compliance with UK financial sanctions and takes action in all cases where it concludes that a breach has occurred. OFSI works closely wi...",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834340+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "FCA",
+      "HM Treasury",
+      "OFSI"
+    ],
+    "canonical_entities": [
+      "FCA",
+      "HM Treasury",
+      "OFSI"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Parliament is probing whether an FCA-regulated fintech was used to evade Russia sanctions, raising compliance and oversight concerns for the sector.",
+    "category": "AML and compliance failures",
+    "cluster_id": "9d5ceb64eb00a935",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null,
+    "cluster_summary": "UK sanctions oversight sharpens around fintech: OFSI updates general licences governing sanctioned-related payment processing, while a parliamentary written question presses on whether an FCA-regulated fintech was exploited to evade Russia sanctions. No specific firm is named in either signal.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 25,
+    "cluster_summary_for": "9d5ceb64eb00a935:642be20c"
+  },
+  {
+    "id": "01d3442dfec540d41b96e6b5ac35ec1d3d5fe600307c44f6f78793d3d2d185bd",
+    "source": "parliament",
+    "source_id": "1950476",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-19/35947",
+    "title": "Written question: Jodrell Bank Observatory: Finance",
+    "raw_summary": "Q: To ask the Secretary of State for Business, Innovation, Science and Trade, whether funding for the e-MERLIN programme is being withdrawn.\nA: The Science and Technology Facilities Council (STFC) funding for the e‑MERLIN radio telescope network remains in place until 31 March 2028. STFC does not intend to continue operational funding for e‑MERLIN beyond that date. This decision follows an eviden...",
+    "published_at": "2026-10-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834401+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Jodrell Bank Observatory",
+      "Science and Technology Facilities Council",
+      "e-MERLIN"
+    ],
+    "canonical_entities": [
+      "Jodrell Bank Observatory",
+      "Science and Technology Facilities Council",
+      "e-MERLIN"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns science funding, not financial services.",
+    "category": "Other",
+    "cluster_id": "9dcad4893101d03a",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "Both signals are parliamentary written questions about funding for Jodrell Bank Observatory, a radio astronomy facility. Nothing here touches fintech or payments; the cluster exists only because of incidental keyword overlap.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "9dcad4893101d03a:642be20c"
+  },
+  {
+    "id": "9308a243aea840732bb5e2e742a27badd43868cc8c56c4bba770b2b32a8789e9",
+    "source": "parliament",
+    "source_id": "1948258",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34153",
+    "title": "Written question: Bioengineering: Grants",
+    "raw_summary": "Q: To ask the Secretary of State for Business, Innovation, Science and Trade, what steps he is taking to ensure that engineering biology companies receive appropriate access to investment through the British Business Bank’s £4 billion Industrial Strategy Gro\nA: The Industrial Strategy Growth Capital programme invests in a portfolio approach across the Industrial Strategy sectors where the UK has technology strengths, including in engineering biology. The British Business Bank invests both directly into engineeri...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834404+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "British Business Bank"
+    ],
+    "canonical_entities": [
+      "British Business Bank"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Signals government investment approach via British Business Bank for engineering biology, a tangential area for fintech funding policy watchers.",
+    "category": "Policy and legislation",
+    "cluster_id": "97ebdefa4ed9c7cd",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "cluster_summary": "Two UK parliamentary written questions touch on British Business Bank-related funding topics—one on engineering biology grants, the other on co-operative finance access. Neither names a specific fintech company, scheme change or funding decision; they read as routine policy questions rather than a developing story.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 5,
+    "cluster_summary_for": "97ebdefa4ed9c7cd:642be20c"
+  },
+  {
+    "id": "a3f5a8ba2499470bf4c87974e714c9b80ec84ec54698c27c7711c199ef3c285d",
+    "source": "parliament",
+    "source_id": "1947432",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/33560",
+    "title": "Written question: Endometriosis: Research",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, how much funding her Department has allocated to endometriosis research in each of the last five years.\nA: I refer the Hon. Member to the answer provided on 8 September in response to Question 24917 on the action the Government is taking to improve endometriosis diagnosis, treatment, and the development of a pelvic pain pathway.The National Institute for Healt...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834406+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This health research funding question is unrelated to UK fintech and payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "e1199729ad4d4320357314fd826cc9cca9515d5cc33346572adff9d224211ac8",
+    "source": "parliament",
+    "source_id": "1947431",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/33559",
+    "title": "Written question: Endometriosis: Diagnosis",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what was the average time from first presentation to diagnosis of endometriosis in each of the last five years, broken down by integrated care board area.\nA: I refer the Hon. Member to the answer provided on 8 September in response to Question 24917 on the action the Government is taking to improve endometriosis diagnosis, treatment, and the development of a pelvic pain pathway.The National Institute for Healt...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834409+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This health policy question on endometriosis diagnosis has no relevance to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "4a2ee9f41ffa4354c44615169861493c997de2b9ab96b243db85a6234bb7957c",
+    "source": "parliament",
+    "source_id": "1944542",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/30717",
+    "title": "Written question: Endometriosis: Pain",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what assessment she has made of the potential merits of non-surgical pain management programmes for people with endometriosis.\nA: I refer the Hon. Member to the answer provided on 8 September in response to Question 24917 on the action the Government is taking to improve endometriosis diagnosis, treatment, and the development of a pelvic pain pathway.The National Institute for Healt...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834411+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This health policy question on endometriosis care has no relevance to UK fintech or payments industry news.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "f9ef02721af8bba72362afa06205500323736be7c5a112c2f76108d526d57010",
+    "source": "parliament",
+    "source_id": "1944433",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/30627",
+    "title": "Written question: Sexually Transmitted Infections",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what steps her Department is taking to help tackle (a) the mental health implications of STIs and (b) their impact on relationships.\nA: Local authorities in England are responsible for commissioning comprehensive, open access sexual health services, including services related to sexually transmitted infection (STIs), through the Public Health Grant. It is for individual local authorities ...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834413+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "Unrelated to UK fintech or payments; concerns health policy on STIs with no financial or regulatory relevance.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "5b8c18a0f985eb01cfc5cb1a83e85f0a82552958403efe76e7d8296540718ef1",
+    "source": "parliament",
+    "source_id": "1944424",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/30626",
+    "title": "Written question: Sexually Transmitted Infections: Health Education",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what steps her Department is taking to (a) educate the public to protect them from STIs and (b) reduce the stigma of STIs such as Herpes.\nA: Local authorities in England are responsible for commissioning comprehensive, open access sexual health services, including services related to sexually transmitted infection (STIs), through the Public Health Grant. It is for individual local authorities ...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834415+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This health policy question on STI education is unrelated to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "47bebf6e0a5815e9ae14d1419261e2bcebb537e05954830d941c4e5b2102dec1",
+    "source": "parliament",
+    "source_id": "1946894",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/33046",
+    "title": "Written question: Vaccine Damage Payment Scheme: Appeals",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what steps her Department is taking to reduce waiting times for Vaccine Damage Payment Scheme appeals.\nA: Available data on the operation of the Vaccine Damage Payment Scheme (VDPS) is published on a regular basis by the NHS Business Services Authority (NHS BSA). This can be found on the NHS BSA Open Data Portal at the following link:https://opendata.nhsbsa.n...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834417+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "NHS Business Services Authority"
+    ],
+    "canonical_entities": [
+      "NHS Business Services Authority"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns vaccine damage compensation scheme administration.",
+    "category": "Other",
+    "cluster_id": "a310afd867ca06dc",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "These parliamentary written questions concern the Vaccine Damage Payment Scheme and NHS procurement policy, with no connection to fintech or payments. The cluster appears grouped only by incidental name-matching, not by any shared corporate or market event.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 0,
+    "cluster_summary_for": "a310afd867ca06dc:642be20c"
+  },
+  {
+    "id": "40f2648eb495c66906b07e9694f615e8c6b32bc3db66caf321e12d5b61d6bab9",
+    "source": "parliament",
+    "source_id": "1946082",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/32216",
+    "title": "Written question: Vaccine Damage Payment Scheme: Appeals",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what information the department holds on the average waiting time between an appeal being lodged and the appeal being determined under the Vaccine Damage Payment Scheme in each of the last five yea\nA: Available data on the operation of the Vaccine Damage Payment Scheme (VDPS) is published on a regular basis by the NHS Business Services Authority (NHS BSA). This can be found on the NHS BSA Open Data Portal at the following link:https://opendata.nhsbsa.n...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834419+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "NHS Business Services Authority"
+    ],
+    "canonical_entities": [
+      "NHS Business Services Authority"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Unrelated to UK fintech or payments sector; concerns vaccine damage compensation appeals process.",
+    "category": "Other",
+    "cluster_id": "a310afd867ca06dc",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "These parliamentary written questions concern the Vaccine Damage Payment Scheme and NHS procurement policy, with no connection to fintech or payments. The cluster appears grouped only by incidental name-matching, not by any shared corporate or market event.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 0,
+    "cluster_summary_for": "a310afd867ca06dc:642be20c"
+  },
+  {
+    "id": "6db6306520e341ec6a7d9b6840ef6a9d13ad4b167aa84ad4dd52af7f2be65167",
+    "source": "parliament",
+    "source_id": "1945696",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/31815",
+    "title": "Written question: Vaccine Damage Payment Scheme",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, how many appeals under the Vaccine Damage Payment Scheme had been awaiting determination for more than (a) six months, (b) 12 months, (c) 18 months and (d) 24 months as of the 1st of September 2026\nA: Available data on the operation of the Vaccine Damage Payment Scheme (VDPS) is published on a regular basis by the NHS Business Services Authority (NHS BSA). This can be found on the NHS BSA Open Data Portal at the following link:https://opendata.nhsbsa.n...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834421+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "NHS Business Services Authority",
+      "Department of Health and Social Care"
+    ],
+    "canonical_entities": [
+      "NHS Business Services Authority",
+      "Department of Health and Social Care"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Not relevant to UK fintech or payments; concerns vaccine damage compensation appeals, not financial services.",
+    "category": "Other",
+    "cluster_id": "a310afd867ca06dc",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "These parliamentary written questions concern the Vaccine Damage Payment Scheme and NHS procurement policy, with no connection to fintech or payments. The cluster appears grouped only by incidental name-matching, not by any shared corporate or market event.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 0,
+    "cluster_summary_for": "a310afd867ca06dc:642be20c"
+  },
+  {
+    "id": "4c8b36e56c0b9446a22d69692e1e3a7a3193e8f46a610d30e17112b3a4848a41",
+    "source": "parliament",
+    "source_id": "1944892",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/31008",
+    "title": "Written question: Vaccine Damage Payment Scheme: Appeals",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, how many appeals against decisions made under the Vaccine Damage Payment Scheme were awaiting determination by the Social Security and Child Support Tribunal as of 1 September 2026.\nA: Available data on the operation of the Vaccine Damage Payment Scheme (VDPS) is published on a regular basis by the NHS Business Services Authority (NHS BSA). This can be found on the NHS BSA Open Data Portal at the following link:https://opendata.nhsbsa.n...",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834424+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Unrelated to UK fintech or payments sector; concerns vaccine damage compensation appeals.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "75c580d7540c031e4d95e9e06d8ae314a259a099096d285f725ad91fcae05e9d",
+    "source": "parliament",
+    "source_id": "1948351",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34246",
+    "title": "Written question: Revenue and Customs: ICT",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, whether HMRC conducted an impact assessment of the time and cost implications for accountancy and tax practices arising from the implementation of multi-factor authentication for agent accounts.\nA: HMRC worked very closely with agent representative bodies to understand how best to introduce multi-factor authentication (MFA) to minimise burdens for the agent community. The timing and method of implementation were developed with representative bodies,...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834427+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "HMRC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "HMRC's MFA rollout for agent accounts affects compliance burdens for accountancy and tax practices, a tangential fintech infrastructure issue.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "e9cbb70db64e091336152eabc960ee985ec0d4ed6bb826faf4a26d49af07cc1a",
+    "source": "parliament",
+    "source_id": "1948350",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34245",
+    "title": "Written question: Revenue and Customs: ICT",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what assessment HMRC made of the administrative burden on accountancy and tax practices of implementing multi-factor authentication requirements for agent services accounts.\nA: HMRC worked very closely with agent representative bodies to understand how best to introduce multi-factor authentication (MFA) to minimise burdens for the agent community. The timing and method of implementation were developed with representative bodies,...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834429+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "HMRC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "HMRC's MFA rollout for agent accounts affects accountancy firms' administrative compliance burden, tangential to fintech/payments.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "ea062172c975bc9536a812f2a32254ab9ffdd223cdb53506ec91074cb5d10340",
+    "source": "parliament",
+    "source_id": "1942703",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-09-14/29853",
+    "title": "Written question: Asylum: Temporary Accommodation",
+    "raw_summary": "Q: To ask the Secretary of State for the Home Department, by how much has the use of dispersal accommodation increased since 5 July 2024; and at what cost to the public purse.\nA: The Home Offices published information on the number of individuals in asylum accommodation broken down by accommodation type. At the end of June 2026, 69,038 individuals were in dispersed accommodation compared with 61,770 in June 2024. An increase of 7,...",
+    "published_at": "2026-09-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834431+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Home Office"
+    ],
+    "canonical_entities": [
+      "Home Office"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This asylum accommodation statistic is unrelated to UK fintech or payments industry developments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "7cbe6e519b8232006573f7df27b1688865b958e470b11652fc59558bf2ad2841",
+    "source": "parliament",
+    "source_id": "1948426",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34321",
+    "title": "Written question: Fuel Oil and Liquefied Petroleum Gas: Prices",
+    "raw_summary": "Q: To ask the Secretary of State for Energy Security and Net Zero, whether her Department has made an assessment of the potential merits of replicating the Welsh Government’s support for low-income households using LPG or heating oil.\nA: In March 2026, the UK Government announced £53 million of targeted support for low-income households that use heating oil, including £3.8 million for Wales. The Welsh Government is using this funding to provide eligible low-income households that use heat...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834433+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This energy subsidy question has no bearing on UK fintech or payments industry developments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "4fee218bc4f00096f0336465574ef6603560bda243a52e546cfd41849fac111c",
+    "source": "parliament",
+    "source_id": "1948515",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34410",
+    "title": "Written question: Cryptocurrencies",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what is the policy of his department on the introduction of a Government-backed stablecoin.\nA: Stablecoins are predominantly a form of private money. The Government has legislated to create a new regulated activity for issuing certain stablecoins in the UK in line with its goals for delivering world-leading innovation in payments and digital assets...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834436+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Confirms UK government will not issue a state-backed stablecoin, clarifying the regulatory path for private stablecoin issuers.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "theme_summary": "Treasury and parliamentary activity accelerated from late August through October 2026, spanning a £500m AML enforcement drive, a first step toward a digitally native UK gilt, and formal confirmation that government will not issue a state-backed stablecoin. Parliamentary questions clustered around mortgage affordability criteria, CDFI lending support and Help to Save uptake, while bilateral financial dialogues with India and Singapore continued.",
+    "theme_key_points": [
+      "15 Sept: government announces hundreds of new officers and £500m funding to pursue dirty-money networks",
+      "6 Oct: UK Debt Management Office advances plans for a digitally native government bond",
+      "13 Oct: written answer confirms no UK state-backed stablecoin, leaving the field to private issuers",
+      "Three separate written questions on 12 Oct probe whether rental payment history should count in mortgage affordability checks"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:51be65c4d13b:4975febf"
+  },
+  {
+    "id": "88229b811e915f5db0ebddecab12635fdc210d5014fd8d44e6af7f16c6358bfd",
+    "source": "parliament",
+    "source_id": "1949915",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-16/35504",
+    "title": "Written question: Local Government: Meetings",
+    "raw_summary": "Q: To ask the Secretary of State for Housing, Communities and Local Government, whether she has had discussions with local leaders on the potential role of her Department in determining the membership of local scrutiny committees.\nA: The Department has engaged extensively with Mayors and Mayoral Strategic Authorities on proposals to strengthen local accountability. These discussions have informed the development of proposals for Local Scrutiny Committees, including their powers, funct...",
+    "published_at": "2026-10-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834437+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This concerns local government scrutiny committees and has no relevance to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "9c8df641257d2cd5e780bac26f12d00603705d23e26f5a8eb879c51785697ace",
+    "source": "parliament",
+    "source_id": "1949674",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-15/35319",
+    "title": "Written question: Empty Property: Regeneration",
+    "raw_summary": "Q: To ask the Secretary of State for Housing, Communities and Local Government, with reference to the £65 million for rescuing community buildings and businesses announced on 25 September 2026, whether voluntary and community organisations in Aldridge-Brownh\nA: We have announced £65m for communities across the country to rescue and take over the running of important local community assets, saving pubs, clubs and sports fields from closure. Further details of the fund and how to apply will be set out in due cours...",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834440+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns housing policy and community property regeneration funding.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "2b45e3bc71e1ed2ebc042b152619d4ae6e28ef36df4d8a8566c7bdf292b9edc3",
+    "source": "parliament",
+    "source_id": "1949189",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-14/34976",
+    "title": "Written question: Immigration",
+    "raw_summary": "Q: To ask the Secretary of State for the Home Department, what transitional arrangements she plans to introduce for UK Ancestry visa holders and their dependants who are partway through the five-year route to indefinite leave to remain; and when she plans to\nA: The consultation for the earned settlement model, as proposed in ‘A Fairer Pathway to Settlement’, was open to the public between 20 November 2025 and 12 February 2026.We received over 200,000 responses and are now in the process of carefully considering ...",
+    "published_at": "2026-10-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834442+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Immigration visa policy question has no direct relevance to UK fintech or payments sector.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "d0310668b8a10fb8ca22305c0be52bdc9983fc1ce961913ce80a272394061375",
+    "source": "parliament",
+    "source_id": "1948591",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-13/34486",
+    "title": "Written question: Refugees: Sudan",
+    "raw_summary": "Q: To ask the Secretary of State for the Home Department, whether the UK Resettlement Scheme will be open to refugees from Sudan.\nA: As announced by the Home Secretary on 28 September, the Home Office has started receiving new referrals for the United Kingdom Resettlement Scheme (UKRS) in 26/27.The UKRS is not restricted by nationality. Sudanese refugees who are outside their country o...",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-22T06:18:52.834444+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This immigration policy item on Sudanese refugees is unrelated to UK fintech or payments industry news.",
     "category": "Other",
     "cluster_id": null,
     "status": "seen",

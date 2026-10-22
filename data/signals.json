@@ -1902,45 +1902,6 @@
     "sector": "gambling"
   },
   {
-    "id": "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9632762",
-    "title": "Entain: TR-1: Notification of major holdings",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-06-23T15:58:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926046+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Changes in major shareholders can signal shifting investor confidence or influence over Entain's strategic direction.",
-    "category": "major shareholding notification",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Entain progresses its phased 20% divestment from CEE alongside routine listed-company reporting: interim results, an audit tender conclusion, BetMGM Q2 updates, director changes and multiple TR-1 shareholder notifications through mid-2026. No single crisis emerges; the CEE exit is the substantive strategic move, with governance and disclosure filings forming the normal corporate backdrop.",
-    "cluster_summary_for": "07225784dee7661e:cecdc011",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 45,
-    "theme_summary": "Routine major-shareholding notifications at Entain and Flutter through June and July gave way to a heavier sequence at evoke, culminating in an August court and general meeting confirming a scheme of arrangement over its corporate structure. A September vote at Intralot, tied to evoke's stake in the firm, extended the pattern into ownership links between the two operators.",
-    "theme_key_points": [
-      "Entain filed TR-1 major-holding notices four times between June 23 and August 27",
-      "Flutter Entertainment logged two Holding(s) in Company disclosures on June 26 and June 30",
-      "Evoke's Results of Court Meeting and General Meeting on August 17 scored 45, the highest in the group",
-      "Intralot's September 18 general meeting outcome directly affects evoke's stake in the company"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:56a632fac201:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
@@ -3633,7 +3594,7 @@
       "Firestoke"
     ],
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
     "theme_key_points": [
       "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
@@ -3661,13 +3622,13 @@
     "newsworthiness_score": 45,
     "why_it_matters": "A gambling compliance firm facing a winding-up petition could signal financial distress affecting operator compliance support in the UK market.",
     "category": "winding up petition",
-    "cluster_id": "50b72ca3f3030631",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Lysis Gaming Compliance"
     ],
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -4303,15 +4264,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -4585,15 +4546,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -4624,15 +4585,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -4730,15 +4691,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -5356,15 +5317,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -5397,15 +5358,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -6105,27 +6066,27 @@
     "newsworthiness_score": 30,
     "why_it_matters": "A gambling compliance-focused firm entering liquidation could signal wider financial pressure in the sector's advisory services market.",
     "category": "insolvency filing",
-    "cluster_id": "50b72ca3f3030631",
+    "cluster_id": "d0af372ef94c891c",
     "status": "seen",
-    "cluster_summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
-    "cluster_summary_for": "50b72ca3f3030631:cecdc011",
+    "cluster_summary": "Lysis Gaming Compliance Ltd has entered liquidation, per a Gazette winding-up notice filed 26 August 2026. The two entries duplicate the same insolvency filing rather than adding new detail.",
+    "cluster_summary_for": "d0af372ef94c891c:cecdc011",
     "canonical_entities": [
       "Lysis Gaming Compliance"
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 30,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "cluster_significance": 25,
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -6144,27 +6105,27 @@
     "newsworthiness_score": 40,
     "why_it_matters": "A gambling compliance firm's winding-up could signal wider financial stress among sector service providers.",
     "category": "insolvency",
-    "cluster_id": "50b72ca3f3030631",
+    "cluster_id": "d0af372ef94c891c",
     "status": "seen",
-    "cluster_summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
-    "cluster_summary_for": "50b72ca3f3030631:cecdc011",
+    "cluster_summary": "Lysis Gaming Compliance Ltd has entered liquidation, per a Gazette winding-up notice filed 26 August 2026. The two entries duplicate the same insolvency filing rather than adding new detail.",
+    "cluster_summary_for": "d0af372ef94c891c:cecdc011",
     "canonical_entities": [
       "Lysis Gaming Compliance"
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "cluster_pattern_type": "developing_story",
+    "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 30,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "cluster_significance": 25,
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -6822,15 +6783,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -8170,15 +8131,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -8697,15 +8658,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -9021,15 +8982,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -9127,15 +9088,15 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -9871,15 +9832,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -9994,15 +9955,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10088,15 +10049,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10128,15 +10089,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10172,15 +10133,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10216,15 +10177,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10260,15 +10221,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10546,15 +10507,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139",
     "sector": "gambling"
   },
   {
@@ -10870,15 +10831,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "3dd923d77ab1401f:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_summary": "Insolvency filings against UK gambling-linked companies have run almost weekly since late July 2026, spanning casinos, bookmakers, gaming-machine suppliers and compliance firms. The pace sharpened in October, with six separate filings against three companies on 1 October alone, pointing to a sector under sustained financial pressure.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+      "On 1 October, Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day.",
+      "T33 Gaming moved from a winding-up petition on 4 September to a winding-up order by 23 September.",
+      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed operator rather than a supplier.",
+      "Bet St George entered administration on 12 October, the most recent and highest-scored filing in the run."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139"
+    "theme_summary_for": "Insolvency:e0953a0480c2:067ec139"
   },
   {
     "id": "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",

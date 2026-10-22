@@ -2004,5 +2004,59 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "dedfb63894bee1950cf562ac436ce5c1558c6a78ebe2edc019c8ebdeb4267235",
+    "source": "parliament",
+    "source_id": "1919817",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-24/12933",
+    "title": "Written question: Trade Agreements: Malaysia",
+    "raw_summary": "Q: To ask the Secretary of State for Business and Trade, what assessment he has made of the adequacy of opportunities for UK fintech firms arising from digital trade negotiations with Malaysia.\nA: Malaysia has a rapidly expanding digital economy and a strong trading relationship with the UK in digitally delivered services, worth over £1 billion in 2023. Negotiations on a UK-Malaysia Digital Trade Agreement present an opportunity to reduce barriers ...",
+    "published_at": "2026-06-24T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594856+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "UK Department for Business and Trade",
+      "Malaysia"
+    ],
+    "canonical_entities": [
+      "UK Department for Business and Trade",
+      "Malaysia"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "A UK-Malaysia digital trade agreement could open new market access opportunities for UK fintech exporters.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "2b0431e4c8b1d97408a1af19a3f9bc7f1c1317c9ab223a4553992694f297169a",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/patisserie-valerie-production-ltd-g26-1332433-patisserie-valerie-production-ltd.html",
+    "title": "Patisserie Valerie Production Ltd t/a Patisserie Valerie",
+    "raw_summary": "Not upheld / Search (paid): Three paid-for Google search ads for Patisserie Valerie didn’t break the less healthy food rules as they were a small or medium sized enterprise and therefore were exempt from the restrictions.",
+    "published_at": "2026-06-24T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595064+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Patisserie Valerie Production Ltd"
+    ],
+    "canonical_entities": [
+      "Patisserie Valerie Production"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "An ASA ruling on food advertising has no relevance to UK fintech or payments industry stakeholders.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

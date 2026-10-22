@@ -8001,5 +8001,44 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "sector": "gambling"
+  },
+  {
+    "id": "14b4a5025b190d25ea39a2c60e3f00f8bfccfcf668523f82b9a984287179b592",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9632762",
+    "title": "Entain: TR-1: Notification of major holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-23T15:58:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926046+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Changes in major shareholders can signal shifting investor confidence or influence over Entain's strategic direction.",
+    "category": "major shareholding notification",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain progresses its phased 20% divestment from CEE alongside routine listed-company reporting: interim results, an audit tender conclusion, BetMGM Q2 updates, director changes and multiple TR-1 shareholder notifications through mid-2026. No single crisis emerges; the CEE exit is the substantive strategic move, with governance and disclosure filings forming the normal corporate backdrop.",
+    "cluster_summary_for": "07225784dee7661e:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "Routine major-shareholding notifications at Entain and Flutter through June and July gave way to a heavier sequence at evoke, culminating in an August court and general meeting confirming a scheme of arrangement over its corporate structure. A September vote at Intralot, tied to evoke's stake in the firm, extended the pattern into ownership links between the two operators.",
+    "theme_key_points": [
+      "Entain filed TR-1 major-holding notices four times between June 23 and August 27",
+      "Flutter Entertainment logged two Holding(s) in Company disclosures on June 26 and June 30",
+      "Evoke's Results of Court Meeting and General Meeting on August 17 scored 45, the highest in the group",
+      "Intralot's September 18 general meeting outcome directly affects evoke's stake in the company"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:56a632fac201:067ec139",
+    "sector": "gambling"
   }
 ]
