@@ -7782,5 +7782,27 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "cabac080b9fa5242082855d4d48044dce0698a81584b7eae6e605054a4870bb6",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/government-slashes-red-tape-and-tariffs-to-give-businesses-breathing-space",
+    "title": "Government slashes red tape and tariffs to give businesses breathing space",
+    "raw_summary": "British businesses will get a bit more breathing space as the Chancellor announces new plans to slash the red tape choking firms.",
+    "published_at": "2026-10-23T05:00:02+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-23T06:19:08.758118+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Broad government deregulation announcement lacks fintech-specific detail, offering limited direct relevance to payments sector readers.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]

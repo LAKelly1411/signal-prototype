@@ -210,45 +210,6 @@
     "sector": "gambling"
   },
   {
-    "id": "41e9d4c9bc439dc6aa4b787c2f4214c5e5062c3ff1a61012196b4e8a08cf869b",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/stakelogic-bv-to-pay-gbp122-835-for-running-slots-too-fast",
-    "title": "Stakelogic BV to pay £122,835 for running slots too fast",
-    "raw_summary": "",
-    "published_at": "2026-06-25T00:00:00+00:00",
-    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Stakelogic BV"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "A supplier's penalty for running slots faster than allowed shows the Commission enforcing player protection technical standards on B2B suppliers.",
-    "category": "game speed/RTP compliance breach",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "The UK Gambling Commission has settled with supplier Stakelogic BV over slots running faster than permitted, breaching game speed and RTP technical standards. Stakelogic will pay £122,835 in lieu of a financial penalty, adding to enforcement pressure on B2B suppliers over player-protection compliance.",
-    "cluster_summary_for": "914fbfb625f789e0:cecdc011",
-    "canonical_entities": [
-      "Stakelogic BV"
-    ],
-    "canonical_category": "Enforcement action",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
-    "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
-      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
-      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
-      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
     "source": "companies_house",
     "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
@@ -1446,45 +1407,6 @@
     "sector": "gambling"
   },
   {
-    "id": "0e01475da7b1ad04474c315037fc344643c457dc7b54403c93877ebaa3c563bb",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/329",
-    "title": "Stakelogic BV",
-    "raw_summary": "Settlement: Public statement, Commission costs and Payment in lieu of financial penalty",
-    "published_at": "2026-06-25T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.923236+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Stakelogic BV"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "A licensed gambling supplier has settled with the UK regulator via public statement and payment in lieu of a fine, signalling compliance failings.",
-    "category": "regulatory settlement",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "The UK Gambling Commission has settled with supplier Stakelogic BV over slots running faster than permitted, breaching game speed and RTP technical standards. Stakelogic will pay £122,835 in lieu of a financial penalty, adding to enforcement pressure on B2B suppliers over player-protection compliance.",
-    "cluster_summary_for": "914fbfb625f789e0:cecdc011",
-    "canonical_entities": [
-      "Stakelogic BV"
-    ],
-    "canonical_category": "Enforcement action",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has issued a steady run of penalties across June to September 2026, hitting both B2B suppliers and operators, from Stakelogic's £122,835 slot-speed breach to Evolution Malta's £4.75m settlement. Individuals and smaller firms are also being named, alongside continued prosecutions over General Election betting offences.",
-    "theme_key_points": [
-      "Evolution Malta's £4.75m settlement (23 July) is the largest penalty in the run, dwarfing Stakelogic's £122,835 and Petfre's earlier payment.",
-      "Enforcement now spans suppliers (Stakelogic, Evolution Malta, Dench eGaming), operators (Petfre, Purple Gaming, Sladders) and named individuals (Maxwell and Pamela Taylor).",
-      "General Election betting offence prosecutions continue in parallel, with two more guilty pleas on 10 September following earlier convictions on 29 June.",
-      "From 22 July, settlement funds go to the Consolidated Fund rather than the sector, altering the financial logic of Commission enforcement post-levy."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:8b480b243c51:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
     "source": "bgc",
     "source_id": null,
@@ -1705,42 +1627,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:8180bff9f8fc:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "528b4e6ce13f7173a7eb2f8b2a3b1dbabe0b38c6eacfec5508dc26564204426c",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/every-customer-lost-to-the-illegal-market-should-be-a-concern-to-us-all",
-    "title": "Every customer lost to the illegal market should be a concern to us all",
-    "raw_summary": "",
-    "published_at": "2026-06-25T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925996+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council"
-    ],
-    "newsworthiness_score": 30,
-    "why_it_matters": "BGC's warnings on channelisation to illegal operators could influence UK affordability and regulatory debate.",
-    "category": "black market advocacy",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "BGC is running a coordinated multi-front lobbying campaign—opposing Machine Games Duty changes, affordability/FRA rules and potential tax rises—while framing all of these as risks that push customers to unlicensed operators. Parallel engagement with DCMS sponsorship reform, reshuffled ministers and new BHA leadership shows the trade body positioning itself ahead of imminent fiscal and regulatory decisions.",
-    "cluster_summary_for": "6fbfab12bdd4b3fa:aa9d372d",
-    "canonical_entities": [
-      "Betting and Gaming Council"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "Parliamentary questions on illegal gambling piled up through late June 2026, followed by Gambling Commission raids and arrests in Doncaster and beyond, while the BGC escalated its black-market warnings with a £1bn Premier League forecast and a $50bn global figure. Enforcement and lobbying rhetoric moved from questioning to action across the summer.",
-    "theme_key_points": [
-      "Six near-identical parliamentary written questions on gambling and the World Cup landed within four days (29-30 June 2026).",
-      "Gambling Commission escalated from raids (Doncaster, 21 July) to arrests (29 July) to backing police action (10 August).",
-      "BGC's black-market figures grew across three releases: £1bn Premier League forecast (24 Aug), $50bn global market (7 Sep), St Leger 250th anniversary risk (14 Sep).",
-      "September parliamentary answer confirmed the scale of Commission enforcement against unlicensed gambling websites targeting UK consumers."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:d7f4f439d94e:067ec139",
     "sector": "gambling"
   },
   {
@@ -3712,15 +3598,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 62,
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
     "sector": "gambling"
   },
   {
@@ -3753,15 +3639,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
     "sector": "gambling"
   },
   {
@@ -4228,15 +4114,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -4318,10 +4204,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4329,7 +4215,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
+    "cluster_significance": 55,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -5011,10 +4897,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5022,7 +4908,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
+    "cluster_significance": 55,
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -5059,15 +4945,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -5098,15 +4984,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 35,
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
     "sector": "gambling"
   },
   {
@@ -5528,10 +5414,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -5539,7 +5425,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
+    "cluster_significance": 55,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -6144,10 +6030,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -6155,7 +6041,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
+    "cluster_significance": 55,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -7316,15 +7202,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -8797,15 +8683,15 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -8911,15 +8797,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -9154,15 +9040,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -9381,15 +9267,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139",
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
     "sector": "gambling"
   },
   {
@@ -9418,15 +9304,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -9911,15 +9797,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
     "sector": "gambling"
   },
   {
@@ -10725,15 +10611,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -10866,15 +10752,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -10939,15 +10825,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139"
   },
   {
     "id": "6f3fd0369cea902f073ccfde91723a1cc0da80b8d95f3bd6f2d7b165633f4663",
@@ -11039,15 +10925,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -11076,15 +10962,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
@@ -11111,15 +10997,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -11290,15 +11176,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -11330,15 +11216,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "86545df4cff05c46:cecdc011",
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139"
   },
   {
     "id": "0dfbe40365160f803dc5a2e9ac97cf496a00db1d6977b90e81fd935ca46d9b6c",
@@ -11370,15 +11256,15 @@
     "cluster_coherent": false,
     "cluster_significance": 46,
     "cluster_summary_for": "740378fe678c7b1b:cecdc011",
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139"
   },
   {
     "id": "8a0878bee21c25af6160d53cbcb4726289b7d33dd14e996fa4977a2ef24343df",
@@ -11501,25 +11387,25 @@
     "newsworthiness_score": 30,
     "why_it_matters": "A scheduled trading update from evoke (formerly 888/William Hill group) may signal financial health and strategic direction for a major UK operator.",
     "category": "Financial results",
-    "cluster_id": "7c3e2a85b58b4efc",
+    "cluster_id": "25ef95543ac847ae",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Evoke's August RNS run shows a scheme of arrangement progressing to court and general meeting approval, alongside interim results, shareholding changes and a tie to Intralot's own general meeting, pointing to a corporate restructuring or ownership change. A Q3 trading update is now scheduled for October 16, with routine total voting rights filings bookending the sequence.",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 62,
-    "cluster_summary_for": "7c3e2a85b58b4efc:cecdc011",
-    "theme_summary": "Entain, Rank, Flutter and evoke moved through routine quarterly reporting between late July and mid-October 2026, with Entain the most frequent discloser via five separate updates including two BetMGM joint-venture reports. The period closed with a tight cluster of Q3 trading updates from Entain, Rank and evoke within 48 hours.",
+    "cluster_significance": 55,
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
     "theme_key_points": [
-      "Entain issued five RNS updates between July 28 and October 15, more than any peer",
-      "Entain maintained FY26 EBITDA guidance on September 28 despite a Brazil market ban",
-      "Entain, Rank Group and evoke all published trading updates on October 15-16",
-      "Entain reported BetMGM performance twice, in Q2 (July 28) and Q3 (October 13) updates"
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
     ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:f04b72e860d4:067ec139"
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139"
   },
   {
     "id": "f3a8f964908a4ba43fdbbc6701c60485891398ad4c381c0acb8b2fb43ea34ca2",
@@ -11574,15 +11460,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -11644,15 +11530,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -11679,15 +11565,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -12015,15 +11901,15 @@
     "cluster_coherent": false,
     "cluster_significance": 15,
     "cluster_summary_for": "779e384630cb8bb4:cecdc011",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
   },
   {
     "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
@@ -12200,14 +12086,91 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC has run an almost weekly lobbying campaign since July against gambling tax rises, citing shop closures, job cuts at Betfred, bet365 and Flutter, and risks to casinos and greyhound racing ahead of the autumn Budget. Parliament has meanwhile confirmed remote betting duty rises to 25%, exempting horseracing but not greyhound racing.",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
     "theme_key_points": [
-      "540+ betting shops closed and 4,500 jobs lost since the Budget tax rise, BGC says (12 Aug).",
-      "Remote betting duty confirmed at 25% from 14 Sep, applying to greyhound racing but exempting horseracing.",
-      "BGC links Flutter (20 Oct) and bet365 (8 Sep) job cuts directly to tax rises as Budget nears.",
-      "BGC warns a further casino tax hike threatens a £200m UK investment pledge (2 Oct) and 36,000 betting shop jobs (13 Oct)."
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:8ec01b62e8d5:067ec139"
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+  },
+  {
+    "id": "58be0e224fc22784fb5ba1d65bf675d14390e07cc8c4072b7376f6186040e143",
+    "source": "parliament",
+    "source_id": "1949497",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-15/35142",
+    "title": "Written question: Gambling: Taxation",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, what consideration HM Treasury has given to the impact of recent increases in gambling taxes in the Netherlands on (a) tax receipts and (b) the illegal gambling market.\nA: HMRC reviewed relevant international evidence when estimating the Exchequer impact of changes to Remote Gaming Duty and Remote Betting Duty announced at Budget 2025. More details can be found in the policy costing note published at Budget 2025.",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-23T06:20:00.004262+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "HMRC"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals UK government is weighing Dutch gambling tax hikes and illegal market risk when setting Remote Gaming/Betting Duty policy.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_key_points": [
+      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
+      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
+      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
+      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+  },
+  {
+    "id": "76b515f1cdffaf8a34a357798a692e1aa2aa8afe260e862b19005cd71cfc7078",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/q3-2026-trading-update-/9837560",
+    "title": "evoke: Q3 2026 trading update",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-10-23T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-23T06:20:00.004645+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Trading updates from major operators like evoke signal performance trends and market health for the UK gambling sector.",
+    "category": "Financial results",
+    "cluster_id": "25ef95543ac847ae",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Financial results",
+    "theme_id": "Financial results",
+    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
+    "theme_key_points": [
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139"
   }
 ]
