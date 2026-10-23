@@ -2313,7 +2313,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "General licences from OFSI can affect how payments and fintech firms process sanctioned-related transactions legally.",
     "category": "Policy and legislation",
-    "cluster_id": "9d5ceb64eb00a935",
+    "cluster_id": "9b7d33b32420f562",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
@@ -2327,11 +2327,11 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf",
-    "cluster_summary": "UK sanctions oversight sharpens around fintech: OFSI updates general licences governing sanctioned-related payment processing, while a parliamentary written question presses on whether an FCA-regulated fintech was exploited to evade Russia sanctions. No specific firm is named in either signal.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": false,
-    "cluster_significance": 25,
-    "cluster_summary_for": "9d5ceb64eb00a935:642be20c"
+    "cluster_summary": "OFSI's general licence regime around Russia sanctions is in flux, with licences expiring and parliament directly questioning whether an FCA-regulated fintech was used to evade sanctions. Payments firms relying on those licences for sanctioned transactions now face reassessment deadlines and heightened compliance scrutiny.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "9b7d33b32420f562:642be20c"
   },
   {
     "id": "1df9f1fcde922ac94235c4c248295de2db5f81ede4314846672068b44da5039a",
@@ -7156,16 +7156,16 @@
     "newsworthiness_score": 58,
     "why_it_matters": "Parliament is probing whether an FCA-regulated fintech was used to evade Russia sanctions, raising compliance and oversight concerns for the sector.",
     "category": "AML and compliance failures",
-    "cluster_id": "9d5ceb64eb00a935",
+    "cluster_id": "9b7d33b32420f562",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "AML and compliance failures",
     "theme_id": null,
-    "cluster_summary": "UK sanctions oversight sharpens around fintech: OFSI updates general licences governing sanctioned-related payment processing, while a parliamentary written question presses on whether an FCA-regulated fintech was exploited to evade Russia sanctions. No specific firm is named in either signal.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": false,
-    "cluster_significance": 25,
-    "cluster_summary_for": "9d5ceb64eb00a935:642be20c"
+    "cluster_summary": "OFSI's general licence regime around Russia sanctions is in flux, with licences expiring and parliament directly questioning whether an FCA-regulated fintech was used to evade sanctions. Payments firms relying on those licences for sanctioned transactions now face reassessment deadlines and heightened compliance scrutiny.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "9b7d33b32420f562:642be20c"
   },
   {
     "id": "01d3442dfec540d41b96e6b5ac35ec1d3d5fe600307c44f6f78793d3d2d185bd",
@@ -7813,5 +7813,36 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+  },
+  {
+    "id": "8289760c02c13c36a9bd525f0ab02ae48b9997786bf23947c9b9986d878ad5f4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/collections/expired-general-licences",
+    "title": "Expired General Licences",
+    "raw_summary": "Details of expired General Licences issued by OFSI.",
+    "published_at": "2026-10-23T10:26:55+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-23T14:19:03.108444+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "OFSI"
+    ],
+    "canonical_entities": [
+      "OFSI"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Firms relying on expired OFSI general licences for sanctions compliance must reassess transactions to avoid breaching financial sanctions.",
+    "category": "Policy and legislation",
+    "cluster_id": "9b7d33b32420f562",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "cluster_summary": "OFSI's general licence regime around Russia sanctions is in flux, with licences expiring and parliament directly questioning whether an FCA-regulated fintech was used to evade sanctions. Payments firms relying on those licences for sanctioned transactions now face reassessment deadlines and heightened compliance scrutiny.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "cluster_summary_for": "9b7d33b32420f562:642be20c"
   }
 ]

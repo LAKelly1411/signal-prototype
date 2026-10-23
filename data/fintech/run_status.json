@@ -1,7 +1,7 @@
 {
   "sector": "fintech",
-  "started_at": "2026-10-23T10:17:39.347365+00:00",
-  "finished_at": "2026-10-23T10:19:41.091372+00:00",
+  "started_at": "2026-10-23T14:17:30.710076+00:00",
+  "finished_at": "2026-10-23T14:19:08.476462+00:00",
   "sources": {
     "CompaniesHouseCollector": {
       "items": 63,
@@ -14,12 +14,12 @@
       "error": false
     },
     "DCMSCollector": {
-      "items": 50,
+      "items": 49,
       "ok": true,
       "error": false
     },
     "ParliamentCollector": {
-      "items": 25,
+      "items": 45,
       "ok": true,
       "error": false
     },
@@ -41,9 +41,9 @@
   },
   "healthy_sources": 6,
   "total_sources": 7,
-  "raw_items": 280,
+  "raw_items": 299,
   "new_signals": 1,
   "unscored": 0,
-  "live_signals": 267,
+  "live_signals": 268,
   "clusters": 25
 }

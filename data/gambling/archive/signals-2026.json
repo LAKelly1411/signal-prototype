@@ -8218,5 +8218,44 @@
     "canonical_category": "Policy and legislation",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "55933b4d70c04088c8988728220d0e1eb97070b6e533eb2ad1be6236d861d576",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/phased-exit-of-entain-cee-20-divestment-agreed-/9637282",
+    "title": "Entain: Phased exit of Entain CEE - 20% divestment agreed",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-25T13:03:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926040+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Entain's phased exit from its CEE business signals a strategic shift in its regional footprint and could affect investor sentiment.",
+    "category": "corporate divestment",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain's phased 20% divestment from its CEE business kicks off a summer of routine plc disclosures: BetMGM Q2 updates, interim results, director and auditor changes, and two TR-1 major shareholder notifications. The CEE exit marks a genuine strategic pivot; the rest is standard listed-company reporting cadence.",
+    "cluster_summary_for": "48b72587bf31d31f:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Merger and acquisition",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
+    "theme_key_points": [
+      "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
+      "Flutter Entertainment completed delisting from the London Stock Exchange on 3 August 2026",
+      "evoke published a formal Scheme Document on 21 July 2026, signalling restructuring or takeover terms",
+      "Three separate corporate-structure moves land within six weeks, spanning divestment, delisting and scheme processes"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139",
+    "sector": "gambling"
   }
 ]
