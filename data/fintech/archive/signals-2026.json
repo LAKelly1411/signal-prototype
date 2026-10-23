@@ -2086,5 +2086,31 @@
     "sector": "fintech",
     "canonical_category": "Merger and acquisition",
     "theme_id": null
+  },
+  {
+    "id": "6a66e4d1d494d74226fdc418e9854aa2db5b1cf5aa0c5065e57247e9f94c73a0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/notice-of-agm/9636628",
+    "title": "PayPoint: Notice of AGM",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-06-25T10:02:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595185+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine AGM notice from PayPoint offers little new information but confirms governance timetable for a listed payments firm.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
   }
 ]

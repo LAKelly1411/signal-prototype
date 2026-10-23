@@ -8154,5 +8154,69 @@
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:d7f4f439d94e:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "c59785af5b9739c3ed77bea5b51fb798bf0436890c3f530a9bc207643c742cb2",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/tr-1-notification-of-major-holdings/9636615",
+    "title": "Entain: TR-1: Notification of major holdings",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-06-25T09:59:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926043+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Changes in major shareholdings can signal shifts in investor confidence or potential influence over Entain's strategic direction.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain's summer 2026 calendar tracks routine plc life: the CEE divestment progresses toward its 20% first-stage exit, BetMGM delivers Q2 updates, interim results and an audit tender land in August, and several TR-1 filings plus board changes at both plc and UK subsidiary level round out normal listed-company housekeeping.",
+    "cluster_summary_for": "98580e10fdfad9be:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "Routine TR-1 and Holding(s) in Company notices have run steadily at Entain and Flutter since June, but evoke's disclosures have escalated into a formal scheme of arrangement, confirmed at its Court and General Meetings on 17 August, with a linked Intralot general meeting following on 18 September.",
+    "theme_key_points": [
+      "Entain filed three separate TR-1 major holding notices: 25 June, 4 August and 27 August 2026.",
+      "Flutter Entertainment logged two Holding(s) in Company notices within days, 26 and 30 June 2026.",
+      "evoke's sequence moved from a holding change (8 July) and voting rights update (3 August) to a Court/General Meeting result confirming a scheme of arrangement (17 August).",
+      "Intralot's own general meeting result, tied to evoke's stake, followed on 18 September, linking the two operators' ownership structures."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:ae4b02dc7b91:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "475cb6ae582faa09b218bf79536cd91d119912c0e59eea4c41bb9602d6d88cc8",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/dcms-sector-economic-estimates-productivity-2024-provisional",
+    "title": "DCMS sector Economic Estimates: Productivity 2024 (provisional)",
+    "raw_summary": "Official Statistics in development providing measures of labour productivity in DCMS sectors.",
+    "published_at": "2026-06-25T08:30:00+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914924+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Broad DCMS productivity data may contextualise gambling sector economic contribution but lacks operator-specific detail.",
+    "category": "sector statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
