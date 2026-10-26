@@ -8257,5 +8257,274 @@
     "theme_direction": "building",
     "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "b90c1057967497637cfcac4cd6ebbee3f69afe1a8c2906a0e544e9da38c90419",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-invites-industry-proposals-to-reduce-regulatory-burdens",
+    "title": "Commission invites industry proposals to reduce regulatory burdens",
+    "raw_summary": "The Commission is calling for proposals from the gambling industry to identify opportunities to reduce unnecessary regulatory burdens while maintaining strong consumer protections and upholding the licensing objectives of the Gambling Act 2005.",
+    "published_at": "2026-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals possible easing of licence compliance costs, giving operators a direct chance to shape future regulatory burden.",
+    "category": "regulatory reform",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of gambling policy intensified through August and September, culminating in a 14-question cluster on 28 August covering planning reversals, Financial Risk Assessments and Gambling Commission staff conflicts, followed by confirmation on 1 September that prediction markets require Commission licensing. The BGC responded with near-weekly statements defending high-street betting shops and opposing a blanket advertising ban.",
+    "theme_key_points": [
+      "28 August: 14 written questions in one day, including confirmation councils may soon reject new gambling premises, reversing the pro-licensing presumption",
+      "1 September: five separate written questions confirm prediction markets/event contracts require Gambling Commission licensing",
+      "Ministerial turnover accelerating: Vicky Foxcroft installed as gambling minister (11 Aug), Lisa Nandy reappointed, Simon Cox named BHA chair, new shadow team announced 1 September",
+      "Gambling Commission revolving-door and staff conflict-of-interest questions recur across June-August with no government commitment to tighten rules"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:c9fa726c2990:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "5c28b70862ae8ddf0f76390026aceb588aaad006022f887c969e74a9167f99e2",
+    "source": "companies_house",
+    "source_id": "MzUyODc1MjMxMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04212563/filing-history/MzUyODc1MjMxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "William Hill Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with updates",
+    "published_at": "2026-06-27T00:00:00+00:00",
+    "ingested_at": "2026-07-14T10:15:25.600075+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "William Hill Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine Companies House filing with no operational or financial impact, low value beyond compliance record-keeping.",
+    "category": "confirmation statement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Evoke, parent of William Hill and 888, is progressing a scheme of arrangement through 2026: timing notice, publication of the scheme document, and court/general meeting approval by 17 August. Interim results landed 12 August, with shareholding notifications and an Intralot general meeting outcome running alongside.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 65,
+    "cluster_summary_for": "e08465eded972e60:cecdc011",
+    "sector": "gambling"
+  },
+  {
+    "id": "fa42f66a9a40712cfb70fe11077489d256cb71e5bcd9e9a9da38c62a00fb087c",
+    "source": "gazette",
+    "source_id": "5162134",
+    "source_url": "https://www.thegazette.co.uk/notice/5162134",
+    "title": "RAPIDO RESTAURANTS LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270694/ …",
+    "published_at": "2026-06-26T12:01:19+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Rapido Restaurants Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This HMRC winding-up petition concerns a restaurant company with no apparent link to the UK gambling sector.",
+    "category": "unrelated insolvency notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Rapido Restaurants",
+      "HM Revenue & Customs"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "e80106e1f01b4a9787b299991b957c610b26f63ec56cc754c59f483c588b2df4",
+    "source": "gazette",
+    "source_id": "5163750",
+    "source_url": "https://www.thegazette.co.uk/notice/5163750",
+    "title": "NATIONAL FITNESS GAMES LIMITED",
+    "raw_summary": "Resolutions for Winding-up: NATIONAL FITNESS GAMES LIMITED …",
+    "published_at": "2026-06-26T17:50:50+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "National Fitness Games Limited"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This insolvency notice concerns a fitness company with no apparent connection to the gambling or gaming sector.",
+    "category": "company winding-up",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
+    "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
+    "canonical_entities": [
+      "National Fitness Games"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 3,
+    "sector": "gambling"
+  },
+  {
+    "id": "79ea87c96f8e9b6560683fa61e057fc1d89032cdcca392e44b294cb108d27b78",
+    "source": "gazette",
+    "source_id": "5163749",
+    "source_url": "https://www.thegazette.co.uk/notice/5163749",
+    "title": "NATIONAL FITNESS GAMES LIMITED",
+    "raw_summary": "Appointment of Liquidators: Company Number: 11427107 Name of Company: NATIONAL FITNESS GAMES LIMITED …",
+    "published_at": "2026-06-26T17:50:49+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "National Fitness Games Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Unrelated fitness company liquidation has no apparent connection to the UK gambling and gaming sector.",
+    "category": "liquidation notice",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "National Fitness Games Limited has entered liquidation, with a winding-up notice published alongside the liquidation notice on the same day. The company operates in fitness, not gambling, and appears in this cluster only because of an incidental name match.",
+    "cluster_summary_for": "a710c3c4eaac8620:cecdc011",
+    "canonical_entities": [
+      "National Fitness Games"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 3,
+    "sector": "gambling"
+  },
+  {
+    "id": "dd1ce0323d441e900aa3206ecf95a034aa1aa7f5024a719c4182681764130ea1",
+    "source": "parliament",
+    "source_id": "1920819",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-26/13557",
+    "title": "Written question: Horse Racing",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what steps she is taking to support the horse racing industry.\nA: The Government recognises the significant contribution that racing makes to the nation’s economy and sporting landscape.Horseracing is the only sport in receipt of a direct government-mandated levy for the purposes of supporting horse breeds, advancing ve...",
+    "published_at": "2026-06-26T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029493+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals government stance on racing levy and betting-linked funding, relevant to bookmakers and racing bodies watching future levy reform.",
+    "category": "horse racing levy/policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null,
+    "theme_summary": "BGC has run an escalating public campaign against gambling tax rises since late June, moving from responses to the SMF's Machine Games Duty report to citing concrete casualties: Betfred shop closures, 540+ closures and 4,500 jobs lost since the Budget, and bet365 cuts. The campaign is building toward the Autumn Budget, with Rachel Reeves as the named target.",
+    "theme_key_points": [
+      "BGC's SMF pushback (30 June, 3 July) shifted by 31 July to naming Betfred closures directly",
+      "12 August update quantifies damage: over 540 betting shops closed, 4,500 jobs lost since Budget tax changes",
+      "8 September signal cites bet365 job/cost cuts as fresh evidence against further duty rises",
+      "Parliamentary written questions on racing levy (26 June) and taxation (23 July) show sustained Westminster interest ahead of Budget"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:059783c35309:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "d2983ce1c6f442b873451d64d73c509aaf3e7826c0c4f8e71fc5b3e162c5a925",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9639060",
+    "title": "Flutter Entertainment: Holding(s) in Company",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-06-26T09:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926193+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Tracks major shareholding changes in a leading gambling operator, relevant for investors and market watchers.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Flutter's routine shareholder disclosures and total voting rights notices through late June culminate in the company completing its LSE delisting on 3 August 2026, alongside a share cancellation filing the same day. The cluster tracks a real corporate action: Flutter consolidating its listing away from London.",
+    "cluster_summary_for": "63b3b63eb7f74022:cecdc011",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 62,
+    "theme_summary": "Routine major-shareholding notifications have run through the summer at Flutter and Entain, while evoke's disclosures escalated into a scheme of arrangement confirmed at its Court and General Meetings on 17 August. A further filing on 18 September ties evoke's ownership position to the outcome of Intralot's own general meeting.",
+    "theme_key_points": [
+      "Flutter filed Holding(s) in Company notices on 26 and 30 June 2026.",
+      "Entain lodged TR-1 major holdings notifications on 4 and 27 August 2026.",
+      "evoke's Court and General Meeting results on 17 August confirm a scheme of arrangement affecting its corporate structure.",
+      "18 September filing links evoke's stake to the Results of Intralot's General Meeting, pointing to cross-company ownership ties."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Shareholding disclosure:54855eebe40a:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "5d6cb28736139cb5f47e35804ce35c755dfba97f58ad9fc40c8cc2933059c656",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/six-governors-have-been-appointed-and-four-reappointed-to-the-british-film-institute",
+    "title": "Six Governors have been appointed and four reappointed to the British Film Institute",
+    "raw_summary": "The Secretary of State for Culture, Media and Sport has appointed Tanya Cordrey, Mark Herbert, Ganan Kanagathurai, Hakan Kousetta, Ryan Prince and Jane Tranter and reappointed Monica Chadha, Elizabeth Karlsen, Edgar Wright and Laura Miele as Governors of the British Film Institute for terms of 4 years",
+    "published_at": "2026-06-26T13:00:02+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914917+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "British Film Institute",
+      "Tanya Cordrey",
+      "Mark Herbert",
+      "Ganan Kanagathurai",
+      "Hakan Kousetta",
+      "Ryan Prince",
+      "Jane Tranter",
+      "Monica Chadha",
+      "Elizabeth Karlsen",
+      "Edgar Wright",
+      "Laura Miele"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to gambling sector; concerns BFI governance with no gambling industry link.",
+    "category": "board appointments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "British Film Institute",
+      "Tanya Cordrey",
+      "Mark Herbert",
+      "Ganan Kanagathurai",
+      "Hakan Kousetta",
+      "Ryan Prince",
+      "Jane Tranter",
+      "Monica Chadha",
+      "Elizabeth Karlsen",
+      "Edgar Wright",
+      "Laura Miele"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]

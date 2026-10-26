@@ -504,58 +504,6 @@
     "theme_id": null
   },
   {
-    "id": "9dc78f54cc48394cb5258c21a27ba23ae6f7d71d5230c04e06f9fa0bd0c79bbe",
-    "source": "companies_house",
-    "source_id": "MzUyODc0MjI0MGFkaXF6a2N4",
-    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyODc0MjI0MGFkaXF6a2N4/document?format=pdf&download=0",
-    "title": "Starling Bank Limited: Officers filed",
-    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
-    "published_at": "2026-06-26T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594004+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Starling Bank Limited"
-    ],
-    "canonical_entities": [
-      "Starling Bank Limited"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A director departure at Starling Bank could signal leadership shifts worth tracking at a major UK digital bank.",
-    "category": "Board and director changes",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Board and director changes",
-    "theme_id": null
-  },
-  {
-    "id": "e88d25c48f8ea93491819c7718cd5a93cf24733cc75332962492b8605e97f9ee",
-    "source": "companies_house",
-    "source_id": "MzUyODc0MjA2OGFkaXF6a2N4",
-    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyODc0MjA2OGFkaXF6a2N4/document?format=pdf&download=0",
-    "title": "Starling Bank Limited: Officers filed",
-    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
-    "published_at": "2026-06-26T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594010+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Starling Bank Limited"
-    ],
-    "canonical_entities": [
-      "Starling Bank Limited"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "A new director appointment at Starling Bank could signal leadership shifts worth tracking at a major UK challenger bank.",
-    "category": "Board and director changes",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Board and director changes",
-    "theme_id": null
-  },
-  {
     "id": "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
     "source": "companies_house",
     "source_id": "MzU0NzkxODI0OWFkaXF6a2N4",
@@ -1985,15 +1933,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
@@ -2025,15 +1973,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "459202143e119f74:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
@@ -2318,15 +2266,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf",
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf",
     "cluster_summary": "OFSI's general licence regime around Russia sanctions is in flux, with licences expiring and parliament directly questioning whether an FCA-regulated fintech was used to evade sanctions. Payments firms relying on those licences for sanctioned transactions now face reassessment deadlines and heightened compliance scrutiny.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -2384,15 +2332,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
@@ -2532,15 +2480,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
@@ -2591,15 +2539,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
@@ -2628,15 +2576,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
@@ -2687,15 +2635,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
@@ -2757,15 +2705,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
@@ -2820,15 +2768,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
@@ -2910,15 +2858,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
@@ -2972,15 +2920,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
@@ -3012,15 +2960,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
@@ -3093,15 +3041,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "c9b7977613f3a06b79d224610c5d8208e1d7c001edf7a9e96e78c0919a012992",
@@ -3155,15 +3103,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
@@ -3693,32 +3641,6 @@
     "cluster_summary_for": "ff6ae5833d59733b:642be20c"
   },
   {
-    "id": "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-fy26-results/9637901",
-    "title": "Wise: Wise FY26 Results",
-    "raw_summary": "RNS announcement from Wise (WISE).",
-    "published_at": "2026-06-26T07:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595125+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Wise"
-    ],
-    "canonical_entities": [
-      "Wise Payments Limited"
-    ],
-    "newsworthiness_score": 55,
-    "why_it_matters": "Wise's annual results reveal financial health and growth trends for a major UK-listed cross-border payments fintech.",
-    "category": "Financial results",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Financial results",
-    "theme_id": null
-  },
-  {
     "id": "fcc01c8fedc54c8c636fbd5c235253dd2ac01ee3f3f0b2a9a29c96018e7d568c",
     "source": "lse_rns",
     "source_id": null,
@@ -4067,15 +3989,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
@@ -4176,15 +4098,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
@@ -4211,15 +4133,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "27b9273f303417e9a437fcca96b6c287166cc7c309c50f673234e557ad8d9ea5",
@@ -4747,15 +4669,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7",
@@ -4789,15 +4711,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "719f8f1499b4b91a2eb8b55dc56223d51b3aa6853e0ac1f382a99d2bd4f97398",
@@ -5759,15 +5681,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "57ed079796cfab3dbe6ef52c8f6effb61911cb5794a66d76b519ec77f139f2f2",
@@ -5796,15 +5718,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "905e6eaf5bad92f045cb2c3bc0eb5070bcb62f16c7a91ffdbd596987de5f689b",
@@ -5833,15 +5755,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "ab0e37465b0da5fe108fbcf2760fe7ab9197dc93c98056273389ae689c9a4982",
@@ -6277,15 +6199,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "775260bf3a758aebc95120fb668679ef8fb014375582dfea5da4a7d23e26ca0c",
@@ -6319,15 +6241,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "a37760b0c5d671f499ab9de1558fdd2f992cc2fd3c4ee5ea7d831b7f93b1a4d4",
@@ -6394,15 +6316,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "1865cbcbca6ce1829e98e5c6e786e8ad1cc7d27e1b7673dacfc8ebfdc0b8d261",
@@ -7032,15 +6954,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "46aaa8ad8a8f0235995f4f65d1f07bfea2fced17c6cfe3202de57d607378fbe1",
@@ -7585,15 +7507,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "88229b811e915f5db0ebddecab12635fdc210d5014fd8d44e6af7f16c6358bfd",
@@ -7804,15 +7726,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Treasury and Parliament activity touching fintech policy intensified through September and October 2026, running from a £500m anti-money-laundering officer surge to a first step toward a digitally native UK gilt. Scrutiny clustered on mortgage affordability, savings schemes and community lending, alongside confirmation the UK will not issue a state-backed stablecoin.",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
     "theme_key_points": [
-      "15 October written questions landed in a single week: three each on Help to Save, mortgage rental-history affordability, and CDFI lending support",
-      "DCMS confirmed 500 new officers and £500m funding against money-laundering networks on 15 September, its highest-scoring signal",
-      "6 October: UK moves toward a digitally native government bond, paired with a Treasury minister speech at Digital Assets Week",
-      "13 October: government rules out a state-backed stablecoin, clarifying the path for private issuers; bilateral dialogues with India and Singapore continued in parallel"
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:8e2f8d48790d:4975febf"
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   },
   {
     "id": "8289760c02c13c36a9bd525f0ab02ae48b9997786bf23947c9b9986d878ad5f4",
@@ -7844,5 +7766,68 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "9b7d33b32420f562:642be20c"
+  },
+  {
+    "id": "439284116669f3c10f9582d9f46fe1d6b646fcfbeb57eecc8ac52bed6ca6ae17",
+    "source": "gazette",
+    "source_id": "5235435",
+    "source_url": "https://www.thegazette.co.uk/notice/5235435",
+    "title": "SPORT SHARES LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …e nature of business is other sports activities , presented on Monday 28 September 2026, at 11:22 by …",
+    "published_at": "2026-10-23T00:11:38+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-26T07:19:48.438688+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Sport Shares Limited"
+    ],
+    "canonical_entities": [
+      "Sport Shares"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A winding-up petition against a small sports-related firm has minimal direct relevance to UK fintech and payments journalists.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "cb7277acfdf69e539e48ad411d7c9845385bc29d2a6f5ef49e6ba3f8e0631c97",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/joint-statement-from-hm-treasury-and-department-of-finance-canada",
+    "title": "Joint statement from HM Treasury and Department of Finance Canada",
+    "raw_summary": "Joint statement from HM Treasury and Department of Finance Canada",
+    "published_at": "2026-10-25T17:30:03+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-26T07:19:48.438879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "Department of Finance Canada"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "Department of Finance Canada"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A UK-Canada joint statement may signal bilateral financial policy coordination relevant to fintech and payments firms operating across both markets.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "theme_summary": "Treasury activity across late August to late October spans AML enforcement, monetary policy correspondence, digital gilts and parliamentary scrutiny of savings, mortgages and community lenders. No single strand dominates, but the breadth of touchpoints shows government reshaping payments infrastructure, cross-border finance rules and consumer credit policy simultaneously.",
+    "theme_key_points": [
+      "Hundreds of new officers deployed under a £500m AML crackdown announced 15 September, the highest-scoring signal in the set",
+      "UK moves toward a digitally native government bond (6 October) alongside a Treasury speech at UK Digital Assets Week the same day",
+      "Parliament confirms 13 October no state-backed stablecoin will be issued, clarifying ground for private issuers",
+      "Repeated written questions on Help to Save, mortgage rental-history affordability and CDFI lending (9-12 October) show sustained parliamentary scrutiny of financial inclusion policy"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:3844196583d2:4975febf"
   }
 ]

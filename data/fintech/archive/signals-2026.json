@@ -2112,5 +2112,83 @@
     "sector": "fintech",
     "canonical_category": "Corporate filing",
     "theme_id": null
+  },
+  {
+    "id": "9dc78f54cc48394cb5258c21a27ba23ae6f7d71d5230c04e06f9fa0bd0c79bbe",
+    "source": "companies_house",
+    "source_id": "MzUyODc0MjI0MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyODc0MjI0MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-06-26T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594004+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director departure at Starling Bank could signal leadership shifts worth tracking at a major UK digital bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "e88d25c48f8ea93491819c7718cd5a93cf24733cc75332962492b8605e97f9ee",
+    "source": "companies_house",
+    "source_id": "MzUyODc0MjA2OGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUyODc0MjA2OGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-06-26T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594010+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A new director appointment at Starling Bank could signal leadership shifts worth tracking at a major UK challenger bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "20a1cf977545b45c97500d9c29a62f8438f74133d9a4465e7f65a6e1ad5af5e8",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-fy26-results/9637901",
+    "title": "Wise: Wise FY26 Results",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-06-26T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595125+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Wise's annual results reveal financial health and growth trends for a major UK-listed cross-border payments fintech.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null
   }
 ]
