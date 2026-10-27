@@ -8526,5 +8526,224 @@
     "canonical_category": "Board and director changes",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "0fd1b774ce9db31d11898f39993d69c77e384844a1f1576e08e210d6a6e3a631",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/tim-miller-announces-departure-from-gambling-commission",
+    "title": "Tim Miller announces departure from Gambling Commission",
+    "raw_summary": "The Gambling Commission is today announcing that Tim Miller, Executive Director of Policy & Research has decided to leave the Commission in September 2026 after 10 years of service.",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gambling Commission",
+      "Tim Miller"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A senior policy leader's exit could signal shifts in the Commission's regulatory priorities and future consultation direction.",
+    "category": "regulator leadership change",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Tim Miller"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has escalated enforcement through the summer, moving from personal licence revocations in July to operator-level licence suspensions from late August onward, hitting BresBet, Bet St George, Tom Horn Gaming and Targetlocal in quick succession. Holland Park Leisure's £150,000 fine and the Court of Appeal's rejection of Northern & Shell's National Lottery challenge add to a run of formal Commission actions across four months.",
+    "theme_key_points": [
+      "Personal licences revoked for Abouleyazid Mustafa Lubna (13 July) and Zura Adam Galgerud (6 August)",
+      "Operator suspensions accelerate: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sept), Targetlocal (21 Sept)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Court of Appeal ends Northern & Shell's challenge to the National Lottery licence award on 30 July"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:83a7111281cc:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "31952d4728749141d4ea9d38a15024133179b30050aa58e6d5d142e547c6e05b",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/two-admit-general-election-betting-offences",
+    "title": "Two admit General Election betting offences",
+    "raw_summary": "",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Convictions over election betting misuse show regulators and prosecutors actively policing insider betting integrity, relevant to compliance teams.",
+    "category": "betting integrity/enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Enforcement action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
+    "theme_key_points": [
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "a12f2180ce85da1d4192fc0d98104e3e2a9dd57db50916a0714bd99b7b692006",
+    "source": "parliament",
+    "source_id": "1921645",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-29/13896",
+    "title": "Written question: World Cup: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether her Department has had discussions with payment providers on reducing the flow of funds from UK consumers to illegal gambling operators ahead of the 2026 FIFA World Cup.\nA: We are committed to taking action on the illegal gambling market. In the past year, we have established the Illegal Gambling Taskforce, which includes working with payment providers to help tackle the issue of payments relating to illegal gambling. We pla...",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029411+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport",
+      "Illegal Gambling Taskforce"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals government focus on curbing illegal gambling payments ahead of the World Cup, relevant to payment providers and licensed operators.",
+    "category": "illegal gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained government concern about illegal gambling ahead of the World Cup, spanning duty policy, payment providers, online age verification, and tech platform ad enforcement. The pattern suggests coordinated pressure on both licensed operators and third parties to curb black-market activity around the tournament.",
+    "cluster_summary_for": "664ec4ec5110b4e5:aa9d372d",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport",
+      "Illegal Gambling Taskforce"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "667edbccb087bbb72c14b9deaafa49c27566432e23ea38eaf23fac9ca989601f",
+    "source": "parliament",
+    "source_id": "1921644",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-29/13895",
+    "title": "Written question: World Cup: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether the Government’s assessment of gambling duty changes includes modelling of potential consumer displacement to illegal gambling operators during high-volume betting periods, including the \nA: We are committed to taking action on the illegal gambling market. In the past year, we have established the Illegal Gambling Taskforce, which includes working with payment providers to help tackle the issue of payments relating to illegal gambling. We pla...",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029413+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Confirms government concern that gambling duty rises could push bettors to illegal operators during major sporting events like the World Cup.",
+    "category": "gambling duty and illegal market policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained government concern about illegal gambling ahead of the World Cup, spanning duty policy, payment providers, online age verification, and tech platform ad enforcement. The pattern suggests coordinated pressure on both licensed operators and third parties to curb black-market activity around the tournament.",
+    "cluster_summary_for": "664ec4ec5110b4e5:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "1a42357a939f35c79dceaab05b38f12d2fae2f671e45102bc09ca4f4d9228811",
+    "source": "parliament",
+    "source_id": "1921642",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-29/13894",
+    "title": "Written question: World Cup: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what estimate her Department has made of the value of stakes that may be placed by UK consumers with illegal gambling operators during the 2026 FIFA World Cup.\nA: We are committed to taking action on the illegal gambling market. In the past year, we have established the Illegal Gambling Taskforce, which includes working with payment providers to help tackle the issue of payments relating to illegal gambling. We pla...",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029416+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals continued government focus on black-market betting ahead of the 2026 World Cup, relevant to licensed operators' competitive position.",
+    "category": "illegal gambling market policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained government concern about illegal gambling ahead of the World Cup, spanning duty policy, payment providers, online age verification, and tech platform ad enforcement. The pattern suggests coordinated pressure on both licensed operators and third parties to curb black-market activity around the tournament.",
+    "cluster_summary_for": "664ec4ec5110b4e5:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "e93fe991f2cdecff702d7064bb00800ffb0f5bf6d8556304c8db62beb27106ec",
+    "source": "parliament",
+    "source_id": "1921641",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-29/13893",
+    "title": "Written question: World Cup: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment her Department has made of the potential impact of gambling duty revenue arising from UK consumers using illegal gambling websites and operators during the 2026 FIFA World Cup.\nA: We are committed to taking action on the illegal gambling market. In the past year, we have established the Illegal Gambling Taskforce, which includes working with payment providers to help tackle the issue of payments relating to illegal gambling. We pla...",
+    "published_at": "2026-06-29T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029419+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce",
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals continued government focus on tackling illegal gambling ahead of the World Cup, relevant to operators and payment providers.",
+    "category": "illegal gambling market policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained government concern about illegal gambling ahead of the World Cup, spanning duty policy, payment providers, online age verification, and tech platform ad enforcement. The pattern suggests coordinated pressure on both licensed operators and third parties to curb black-market activity around the tournament.",
+    "cluster_summary_for": "664ec4ec5110b4e5:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce",
+      "DCMS"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
   }
 ]
