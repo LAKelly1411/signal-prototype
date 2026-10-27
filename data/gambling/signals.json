@@ -1375,36 +1375,6 @@
     "sector": "gambling"
   },
   {
-    "id": "576713cfa5eb11dd601438946d29c3594083c180e36d8b751d6a1b1c753c6339",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/holding-s-in-company/9641829",
-    "title": "Flutter Entertainment: Holding(s) in Company",
-    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
-    "published_at": "2026-06-29T11:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926190+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Flutter Entertainment"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Signals a change in major shareholding at Flutter, worth monitoring for ownership shifts but lacks detail on scale or impact.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Flutter's routine LSE filings on shareholdings and voting rights culminate in the completion of its delisting from the London Stock Exchange on 3 August, following a share cancellation notice the same day. The move confirms Flutter's shift to a US-primary listing, ending its LSE presence after the Q2 results notice.",
-    "cluster_summary_for": "5c7d613c1b9aae27:cecdc011",
-    "canonical_entities": [
-      "Flutter Entertainment"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 62,
-    "sector": "gambling"
-  },
-  {
     "id": "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
     "source": "lse_rns",
     "source_id": null,
