@@ -8775,5 +8775,389 @@
     "cluster_coherent": true,
     "cluster_significance": 62,
     "sector": "gambling"
+  },
+  {
+    "id": "c6debb1268c4fa5e38e468d0a1f155ad9a41d38a780fe93d10dbb2a10a38cc57",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/petfre-gibraltar-limited-to-pay-gbp900-000-for-regulatory-failures",
+    "title": "Petfre (Gibraltar) Limited to pay £900,000 for regulatory failures",
+    "raw_summary": "",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Petfre (Gibraltar) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A £900,000 penalty highlights ongoing UKGC crackdowns on operator compliance failures, signalling continued regulatory scrutiny across the sector.",
+    "category": "AML/social responsibility enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "The UK Gambling Commission has hit Petfre (Gibraltar) Limited, operator of Betfred, with a £900,000 penalty for AML and social responsibility failures. Both signals report the same settlement, confirming enforcement action rather than a developing sequence.",
+    "cluster_summary_for": "7ed0e2cb7effb317:cecdc011",
+    "canonical_entities": [
+      "Petfre"
+    ],
+    "canonical_category": "AML and compliance failures",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "The Gambling Commission has issued four penalties in eight weeks, from Evans Amusements and Holland Park Leisure through to six-figure sums against Petfre (£900,000) and QuinnBet (£609,104). The pattern spans small land-based operators and larger Gibraltar-licensed online brands.",
+    "theme_key_points": [
+      "Petfre (Gibraltar) fined £900,000 on 30 June 2026, the largest sum in this run",
+      "QuinnBet (Gibraltar) hit with £609,104 penalty plus separate settlement announced same day, 20 August 2026",
+      "Evans Amusements (9 July) and Holland Park Leisure (31 July) show smaller operators also facing action",
+      "Four penalties land within an eight-week span, June to August 2026"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "AML and compliance failures:18318505c2f0:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "11b3b02c5d6b4755d62383a18a242addd6c1c7e3e27fd5e280a29410561f4bd3",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/dcms-concludes-consultation-on-gambling-regulation-funding",
+    "title": "DCMS concludes consultation on gambling regulation funding",
+    "raw_summary": "The Department for Culture, Media and Sport (DCMS) has published its consultation response on the funding of the Gambling Commission which took place between January and March this year.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Changes to how the Gambling Commission is funded could affect licence fees and regulatory capacity across the UK gambling industry.",
+    "category": "regulatory funding reform",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through August and September 2026, with dense clusters of written questions on planning permission for betting shops, business rates, financial risk assessments and prediction-market regulation. The Gambling Commission faces repeated questions over CEO uncertainty and staff moving into industry roles, while DCMS consults on sponsorship bans and lottery funding.",
+    "theme_key_points": [
+      "28 August: five separate questions confirm councils may gain power to reject new betting shop and AGC licences, reversing the pro-licensing presumption.",
+      "1 September: five questions in one day establish that prediction markets and event contracts require Gambling Commission licensing, not new legislation.",
+      "Financial Risk Assessments (affordability checks) generate at least eight questions between June and September, with implementation still unresolved.",
+      "Gambling Commission governance faces recurring scrutiny — CEO appointment status, staff moving to industry consultancy, and Sarah Fox's DCMS secondment all raised repeatedly."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:933bc07042ce:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "9ab0630b72d7d9fc488771cafda6d18d1a296001d524fd77261fa2c3cdc38a47",
+    "source": "gazette",
+    "source_id": "5163998",
+    "source_url": "https://www.thegazette.co.uk/notice/5163998",
+    "title": "CORPORATE INTELLIGENCE SERVICE LIMITED",
+    "raw_summary": "Resolutions for Winding-up: CORPORATE INTELLIGENCE SERVICE LIMITED (Company Number 02488908 ) Registered office: The Courtyard, Shoreham Road, Upper Beeding, Steyning, BN44 3TN Principal trading address: Hill Cottage, Cricklade…",
+    "published_at": "2026-06-29T17:30:08+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Corporate Intelligence Service Limited"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "No apparent link to gambling sector, making this insolvency notice largely irrelevant to industry journalists.",
+    "category": "winding-up notice",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Corporate Intelligence Service"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "ef870f875fc0fed0f562ce319d0fe847fc2eef4b682a881d698463e49b5bfc9a",
+    "source": "parliament",
+    "source_id": "1922654",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-30/HL1463",
+    "title": "Written question: Gambling: Internet",
+    "raw_summary": "Q: To ask His Majesty's Government what consideration they have given to amending the Online Safety Act 2023 to include provisions regarding the promotion or facilitation of illegal gambling content\nA: The UK has a comprehensive regulatory framework for gambling, overseen by the Gambling Commission, including powers to tackle illegal gambling and unlicensed operators.We are tackling the illegal market through work with industry and platforms via the Ill...",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029360+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Online Safety Act 2023"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Signals government stance on regulating illegal gambling promotion online, relevant to future Online Safety Act amendments and enforcement priorities.",
+    "category": "illegal gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Online Safety Act 2023"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "f4dbfa277f8abb868c37f666e6a91cc8316ff5e71212b353fd7f37beffb79fb0",
+    "source": "parliament",
+    "source_id": "1922652",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-30/HL1465",
+    "title": "Written question: Gambling: Internet",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of whether age-verification tools used by gambling operators and social media platforms are effective in preventing children seeing gambling promotions.\nA: We are committed to taking action on illegal gambling. This includes working with tech platforms and social media companies through our Illegal Gambling Taskforce, to help tackle the advertising of illegal gambling. We plan to report on the progress made ...",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029366+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals continued government scrutiny of age-verification and illegal gambling advertising, relevant to operators' compliance and marketing practices.",
+    "category": "child protection / age verification policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained legislative attention on illegal online gambling, spanning age verification, tech-platform ad cooperation, and payment providers' ties to unlicensed operators. The pattern points toward broadening enforcement scope beyond operators themselves to intermediaries, signalling potential new compliance obligations across the payments and advertising supply chain.",
+    "cluster_summary_for": "67f0719a12a0389b:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through August and September 2026, with dense clusters of written questions on planning permission for betting shops, business rates, financial risk assessments and prediction-market regulation. The Gambling Commission faces repeated questions over CEO uncertainty and staff moving into industry roles, while DCMS consults on sponsorship bans and lottery funding.",
+    "theme_key_points": [
+      "28 August: five separate questions confirm councils may gain power to reject new betting shop and AGC licences, reversing the pro-licensing presumption.",
+      "1 September: five questions in one day establish that prediction markets and event contracts require Gambling Commission licensing, not new legislation.",
+      "Financial Risk Assessments (affordability checks) generate at least eight questions between June and September, with implementation still unresolved.",
+      "Gambling Commission governance faces recurring scrutiny — CEO appointment status, staff moving to industry consultancy, and Sarah Fox's DCMS secondment all raised repeatedly."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:933bc07042ce:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "8c226ba88676ba60b0939c7c8779dab4ad12e4f1084aeb91f584a08a1bc10fd9",
+    "source": "parliament",
+    "source_id": "1922653",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-30/HL1464",
+    "title": "Written question: Gambling: Internet",
+    "raw_summary": "Q: To ask His Majesty's Government what role the illegal gambling taskforce is playing in coordinating action with major technology companies to identify, remove and prevent access to illegal gambling content online.\nA: We are committed to taking action on illegal gambling. This includes working with tech platforms and social media companies through our Illegal Gambling Taskforce, to help tackle the advertising of illegal gambling. We plan to report on the progress made ...",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029369+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce"
+    ],
+    "newsworthiness_score": 38,
+    "why_it_matters": "Signals government focus on tech platform cooperation to curb illegal gambling ads, relevant to compliance and enforcement trends.",
+    "category": "illegal gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained legislative attention on illegal online gambling, spanning age verification, tech-platform ad cooperation, and payment providers' ties to unlicensed operators. The pattern points toward broadening enforcement scope beyond operators themselves to intermediaries, signalling potential new compliance obligations across the payments and advertising supply chain.",
+    "cluster_summary_for": "67f0719a12a0389b:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "50dcb6ea6c0404f885d134fddcaaa7b52e5ada39fad5d54770997893145616ad",
+    "source": "parliament",
+    "source_id": "1922257",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-30/14465",
+    "title": "Written question: Streaming: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, if she will take steps to assess whether gambling companies are able to advertisements on streaming platforms during the day.\nA: The Government is aware of the increased prevalence of gambling advertising, including advertising of illegal gambling, on streaming platforms. We are committed to tackling the issue of illegal gambling advertising. This is one of the main focuses of the ...",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029383+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Government scrutiny of gambling ads on streaming platforms could signal tighter advertising rules affecting operators and affiliates.",
+    "category": "advertising policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "ASA upheld five separate gambling advertising complaints between July and September 2026, hitting BoyleSports, Midnite, Mr Vegas, top10onlinecasinoreviews.co.uk and White Hat Gaming's Casimba brand, mostly over child-appealing content or under-25 models. Parliament and DCMS are simultaneously pushing harder on ad restrictions, including a July consultation on banning unlicensed sponsorship.",
+    "theme_key_points": [
+      "ASA upheld rulings against Mr Vegas (1 July) and BoyleSports (29 July) for child-appeal and harmful betting patterns respectively",
+      "Dribble Media's Midnite breached youth protection rules on TikTok using an under-25 model, upheld 16 September",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads were cleared of under-18 targeting the same day, 16 September",
+      "DCMS opened a consultation on banning unlicensed gambling sponsorship on 15 July, alongside three parliamentary questions on ad regulation since June"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:a88087810c65:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "5eabb4ce5900eb1da4f81d8fa7a5d763f39a94e76984a466d88f9a4bccb88275",
+    "source": "parliament",
+    "source_id": "1922541",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-30/14628",
+    "title": "Written question: Gambling: Software",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what steps she is taking to stop illegal gambling apps that are using registration; and what support will be put in place for victims of these apps.\nA: The issue of illegal gambling is a concern for this government. We are committed to working closely with the Gambling Commission to ensure that illegal gambling, in all its forms, is addressed. As part of the 2025 Budget, the Treasury announced that the G...",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029386+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "DCMS",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government focus on tackling illegal gambling apps and potential regulatory/funding changes affecting enforcement priorities.",
+    "category": "illegal gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "UK authorities are sharpening focus on illegal gambling software while restructuring where regulatory settlement money flows, shifting funds to the Consolidated Fund rather than industry-linked channels. Together these signal a policy-level recalibration of enforcement funding and incentives around the Gambling Commission's post-levy operating model.",
+    "cluster_summary_for": "996f656ecafbf9d4:aa9d372d",
+    "canonical_entities": [
+      "Gambling Commission",
+      "DCMS",
+      "HM Treasury"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Illegal gambling has moved from parliamentary questions in June to active Gambling Commission raids and arrests by September, with the BGC escalating its warnings from black-market lobbying to a £1bn Premier League forecast and a $50bn global figure. Enforcement and political pressure are both intensifying together.",
+    "theme_key_points": [
+      "Gambling Commission ran at least four enforcement actions between July and September, including Doncaster raids and a £20,000 seizure with four arrests on 2026-09-23",
+      "BGC escalated claims from general black-market warnings (July 15) to a £1bn Premier League season forecast (Aug 24) and $50bn global market figure (Sept 7)",
+      "Parliament fielded six written questions between June 29 and July 13 on World Cup betting, online promotion, software, and payment-provider links to unlicensed gambling",
+      "BGC flagged St Leger's 250th anniversary (Sept 14) as a specific target for black-market bookies, an outlier tied to a single racing event rather than football or online"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:7ab2590c224c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "9912f4243f8346112de9e4ebb8e32d24113929642283a3a50b764a06d8cc58cc",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/330",
+    "title": "Petfre (Gibraltar) Limited",
+    "raw_summary": "Settlement: Public statement, Commission costs and Payment in lieu of financial penalty",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.923233+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Petfre (Gibraltar) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "UKGC enforcement action against an established operator, involving a financial penalty payment, signals compliance failings worth tracking.",
+    "category": "regulatory settlement",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "The UK Gambling Commission has hit Petfre (Gibraltar) Limited, operator of Betfred, with a £900,000 penalty for AML and social responsibility failures. Both signals report the same settlement, confirming enforcement action rather than a developing sequence.",
+    "cluster_summary_for": "7ed0e2cb7effb317:cecdc011",
+    "canonical_entities": [
+      "Petfre"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "The Gambling Commission worked through a steady run of enforcement cases between late June and September 2026, from Petfre and Dench eGaming to a £4.75m settlement with supplier Evolution Malta and a warning against Sladders. Parallel action continued on General Election betting offences and a policy change diverting settlement money to the Consolidated Fund.",
+    "theme_key_points": [
+      "Evolution Malta Holding Limited settled for £4.75m on 23 July, the largest penalty in the run and aimed at a B2B software supplier rather than an operator.",
+      "General Election betting prosecutions widened: two admissions on 29 June, two more on 10 September, plus a Healey written question raising insider-betting concerns.",
+      "Individual enforcement is also active: Maxwell and Pamela Taylor settled costs and a penalty-in-lieu on 6 August.",
+      "From 22 July, Gambling Commission settlement proceeds go to the Consolidated Fund rather than being retained, changing the enforcement funding model.",
+      "ASA upheld multiple complaints against Dribble Media's Midnite ads on 12 August for linking gambling to escapism and harm."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:01509d38d23c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "67747dabcbe3ff1f3ea7f1aa13f6789151d624234f896d8513b199e6c7bf2851",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-responds-to-smf-report-on-mgd",
+    "title": "BGC responds to SMF report on MGD",
+    "raw_summary": "",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.925992+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council",
+      "Social Market Foundation"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Industry pushback on proposed Machine Games Duty changes signals potential tax policy shifts affecting operators' cost base.",
+    "category": "gambling tax/duty policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "The Betting and Gaming Council is pushing back publicly against the Social Market Foundation's report proposing Machine Games Duty changes, arguing it ignores the impact on jobs, arcades, pubs and high streets. The two statements, three days apart, show BGC building a sustained lobbying response ahead of any tax policy decision.",
+    "cluster_summary_for": "96b7f08cd1d837fa:cecdc011",
+    "canonical_entities": [
+      "Betting and Gaming Council",
+      "Social Market Foundation"
+    ],
+    "canonical_category": "Tax and levy",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "The BGC has run a sustained lobbying campaign against gambling tax rises since late June, escalating from a rebuttal of the Social Market Foundation's Machine Games Duty report to citing real closures at Betfred and bet365 as evidence of harm ahead of the Budget.",
+    "theme_key_points": [
+      "BGC says over 540 betting shops closed and 4,500 jobs lost since the Budget tax measures, cited 12 August",
+      "Betfred closures (31 July) and bet365 cost/job cuts (8 September) both used by BGC as direct evidence against further duty rises",
+      "Campaign broadened from Machine Games Duty (late June-July) to casinos and high-street venues by late September",
+      "Parliamentary written question on taxation (23 July) shows the issue has reached Westminster ahead of fiscal decisions"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:8180bff9f8fc:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "784a4fda3de3b6ba5b6c6f35949964b287c841cb0dd6b965bde098365bd34645",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/dcms-framework-documents",
+    "title": "DCMS framework documents",
+    "raw_summary": "Framework documents which set out the relationship between the Department for Culture, Media and Sport (DCMS) and our public bodies.",
+    "published_at": "2026-06-29T15:58:48+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914914+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Outlines DCMS oversight of arm's-length bodies, offering limited but background context for gambling policy accountability.",
+    "category": "governance framework",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
