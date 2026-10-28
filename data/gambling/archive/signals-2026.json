@@ -9198,5 +9198,68 @@
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:d572015bbe6e:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
+    "source": "gazette",
+    "source_id": "5163880",
+    "source_url": "https://www.thegazette.co.uk/notice/5163880",
+    "title": "RALTEC ARC LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270555/ …",
+    "published_at": "2026-06-30T12:00:25+00:00",
+    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "RALTEC ARC LTD",
+      "HMRC"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An HMRC winding-up petition suggests financial distress, but no clear link to gambling sector operations is evident.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "RALTEC ARC",
+      "HMRC"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/proposed-changes-to-gambling-commission-fees",
+    "title": "Proposed changes to Gambling Commission fees",
+    "raw_summary": "This consultation invites views on proposed changes to Gambling Commission fees from 1 October 2026. ",
+    "published_at": "2026-06-30T13:00:04Z",
+    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Fee changes affect operator compliance costs and signal how the Commission plans to fund regulatory activity from October 2026.",
+    "category": "licence fee changes",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has moved through a run of individual and operator licence actions since mid-July, from personal revocations to full suspensions, culminating in three operator suspensions within a month. Holland Park Leisure was fined £150,000, and the Court of Appeal shut down Northern & Shell's challenge to the National Lottery licence award.",
+    "theme_key_points": [
+      "Three personal licences revoked in eight weeks: Abouleyazid Mustafa Lubna (Jul 13), Zura Adam Galgerud (Aug 6), Ayeni Ibukun Samson (Sep 4)",
+      "Operator suspensions accelerated: BresBet and Bet St George (Aug 28), Tom Horn Gaming (Sep 8), Targetlocal (Sep 21)",
+      "Holland Park Leisure fined £150,000 on August 18 for compliance failings",
+      "Court of Appeal ended Northern & Shell/TNLC's National Lottery licence challenge on July 30, closing off further appeal"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:5d5574310db0:067ec139",
+    "sector": "gambling"
   }
 ]

@@ -95,33 +95,6 @@
     "sector": "gambling"
   },
   {
-    "id": "f5e451171f2be2e3a7b90967bdcff9b2530aee30fc1156f0adb96bb9544846e4",
-    "source": "gazette",
-    "source_id": "5163880",
-    "source_url": "https://www.thegazette.co.uk/notice/5163880",
-    "title": "RALTEC ARC LTD",
-    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1270555/ …",
-    "published_at": "2026-06-30T12:00:25+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "RALTEC ARC LTD",
-      "HMRC"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "An HMRC winding-up petition suggests financial distress, but no clear link to gambling sector operations is evident.",
-    "category": "winding-up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "RALTEC ARC",
-      "HMRC"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
     "id": "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
     "source": "gazette",
     "source_id": "5167173",
@@ -213,42 +186,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:7b2bdf72f902:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "b0806919428af5018a403c498ba9ba6d8bbf7d89fd4e5f0fe39cc2998864dbb5",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/consultations/proposed-changes-to-gambling-commission-fees",
-    "title": "Proposed changes to Gambling Commission fees",
-    "raw_summary": "This consultation invites views on proposed changes to Gambling Commission fees from 1 October 2026. ",
-    "published_at": "2026-06-30T13:00:04Z",
-    "ingested_at": "2026-07-14T10:46:09.314380+00:00",
-    "signal_type": "consultation",
-    "entities": [
-      "Gambling Commission",
-      "DCMS"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "Fee changes affect operator compliance costs and signal how the Commission plans to fund regulatory activity from October 2026.",
-    "category": "licence fee changes",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "DCMS"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission has moved through a run of individual and operator licence actions since mid-July, from personal revocations to full suspensions, culminating in three operator suspensions within a month. Holland Park Leisure was fined £150,000, and the Court of Appeal shut down Northern & Shell's challenge to the National Lottery licence award.",
-    "theme_key_points": [
-      "Three personal licences revoked in eight weeks: Abouleyazid Mustafa Lubna (Jul 13), Zura Adam Galgerud (Aug 6), Ayeni Ibukun Samson (Sep 4)",
-      "Operator suspensions accelerated: BresBet and Bet St George (Aug 28), Tom Horn Gaming (Sep 8), Targetlocal (Sep 21)",
-      "Holland Park Leisure fined £150,000 on August 18 for compliance failings",
-      "Court of Appeal ended Northern & Shell/TNLC's National Lottery licence challenge on July 30, closing off further appeal"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:5d5574310db0:067ec139",
     "sector": "gambling"
   },
   {
@@ -3070,15 +3007,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -3106,15 +3043,15 @@
     ],
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -3337,18 +3274,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "routine",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 58,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -3388,15 +3325,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -3427,15 +3364,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 20,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -3533,15 +3470,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "0f2d325e6abed882:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -3901,15 +3838,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -3928,18 +3865,18 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_pattern_type": "routine",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 58,
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -4045,18 +3982,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "routine",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 58,
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -4159,15 +4096,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -4200,15 +4137,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -4920,15 +4857,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -4959,15 +4896,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -5025,18 +4962,18 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_pattern_type": "routine",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
+    "cluster_significance": 58,
     "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
     "theme_key_points": [
       "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
@@ -5625,15 +5562,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -6158,15 +6095,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -6973,15 +6910,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -7068,15 +7005,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -7108,15 +7045,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "sector": "gambling"
   },
   {
@@ -7500,15 +7437,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -7753,15 +7690,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -7824,15 +7761,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -7930,15 +7867,15 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -7996,15 +7933,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -8214,15 +8151,15 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban signals resilience but highlights regulatory risk exposure for investors and operators.",
     "category": "Financial results",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -8260,15 +8197,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -8674,15 +8611,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -8753,15 +8690,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
     "sector": "gambling"
   },
   {
@@ -8797,15 +8734,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -8891,15 +8828,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -8931,15 +8868,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -8975,15 +8912,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -9019,15 +8956,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -9063,15 +9000,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -9125,15 +9062,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual accounts filing provides a data point for tracking Entain's UK financial position but carries limited independent news value.",
     "category": "Corporate filing",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -9349,15 +9286,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139",
     "sector": "gambling"
   },
   {
@@ -9567,15 +9504,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -9673,15 +9610,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "3dd923d77ab1401f:cecdc011",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139"
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139"
   },
   {
     "id": "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
@@ -9708,15 +9645,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -9771,16 +9708,16 @@
     "newsworthiness_score": 35,
     "why_it_matters": "A BetMGM trading update from Entain could signal joint venture performance trends affecting UK-listed operator revenue expectations.",
     "category": "Financial results",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -9881,15 +9818,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -9918,15 +9855,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
@@ -9953,15 +9890,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -10132,15 +10069,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -10162,16 +10099,16 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's trading update offers insight into the financial health and market performance of one of the UK's largest gambling operators.",
     "category": "Financial results",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -10277,11 +10214,16 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This is a property services firm with 'Gamble' in its name, not a gambling industry operator, so minimal relevance.",
     "category": "Insolvency",
-    "cluster_id": null,
+    "cluster_id": "64e57a268ee5ae03",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Insolvency",
-    "theme_id": null
+    "theme_id": null,
+    "cluster_summary": "Gamble Property Services Ltd, a property firm whose name coincidentally contains 'Gamble', has filed insolvency notices in the Gazette across October 2026. It has no connection to the gambling industry.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "64e57a268ee5ae03:cecdc011"
   },
   {
     "id": "0e57a644d9a3891baa8da63f9aab30b0bc4cc2afa48516e5080196c6101eb960",
@@ -10303,16 +10245,16 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Director declarations can signal governance changes or conflicts of interest at a major FTSE-listed gambling operator.",
     "category": "Board and director changes",
-    "cluster_id": "e7b933170cf08d7d",
+    "cluster_id": "6ea36ea84dea060e",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain works through its standard LSE reporting calendar—interim results, audit tender conclusion, shareholder TR-1 filings, and Q3 trading updates including BetMGM—alongside routine Companies House officer and accounts filings. The one substantive item is Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban, flagging regulatory exposure even as the group claims resilience.",
-    "cluster_pattern_type": "routine",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 35,
-    "cluster_summary_for": "e7b933170cf08d7d:cecdc011",
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -10416,15 +10358,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -10486,15 +10428,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -10521,15 +10463,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -10857,15 +10799,15 @@
     "cluster_coherent": false,
     "cluster_significance": 15,
     "cluster_summary_for": "779e384630cb8bb4:cecdc011",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
@@ -11042,15 +10984,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "58be0e224fc22784fb5ba1d65bf675d14390e07cc8c4072b7376f6186040e143",
@@ -11079,15 +11021,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "BGC has run a near-weekly lobbying campaign since July linking betting shop and casino job losses to the autumn 2025 Budget tax rises, while Parliament confirms a 25% remote betting duty hitting greyhound racing but sparing horseracing. The pressure intensifies through September and October as the next Budget approaches, with Betfred, bet365 and Flutter all cited as evidence of harm.",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
-      "BGC says 540 betting shops closed and 4,500 jobs lost since the last Budget tax rise (12 Aug 2026)",
-      "25% remote betting duty confirmed to apply to greyhound racing from 14 Sept 2026; horseracing exempted",
-      "BGC warns further casino tax hikes put a £200m UK investment drive and thousands of jobs at risk (2-12 Oct 2026)",
-      "Labour MPs' letter demanding higher Machine Games Duty prompts BGC pushback on 17 Oct 2026"
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:50bb0a5fb360:067ec139"
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   },
   {
     "id": "76b515f1cdffaf8a34a357798a692e1aa2aa8afe260e862b19005cd71cfc7078",
@@ -11185,15 +11127,15 @@
     "sector": "gambling",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have hit 21 UK gambling-linked companies since late July, spanning bookmakers, casinos, gaming machine suppliers and compliance firms. The pace has accelerated through September and October, with winding-up petitions, liquidations and administrations piling up across operators and their supply chain.",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
     "theme_key_points": [
-      "MAB Bookmakers Limited entered liquidation on 7 August, a licensed betting operator exiting the market",
-      "Casino MK Limited faced a winding-up petition 9 October; Bet St George Ltd entered administration 12 October",
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all collapsed on the same day, 1 October, pointing to a shared corporate group under strain",
-      "Lysis Gaming Compliance Ltd's winding-up on 26 August and Equusform's creditors' meetings in September show distress reaching advisory and data-supply firms, not just operators"
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:d0b389177443:067ec139"
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139"
   },
   {
     "id": "4774be45ff27089f14de89fc3207d2a7bce37201955692bca133717cac2eefd3",
@@ -11332,5 +11274,262 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Advertising ruling:af92800f306d:067ec139"
+  },
+  {
+    "id": "c91f8ffd97517312c9bfd898b497cabad9122751ddc513bfdd9009051b572005",
+    "source": "gazette",
+    "source_id": "5239198",
+    "source_url": "https://www.thegazette.co.uk/notice/5239198",
+    "title": "GAMBLE PROPERTY SERVICES LTD",
+    "raw_summary": "Resolutions for Winding-up: GAMBLE PROPERTY SERVICES LTD …",
+    "published_at": "2026-10-27T17:41:54+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.205661+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "GAMBLE PROPERTY SERVICES LTD"
+    ],
+    "canonical_entities": [
+      "GAMBLE PROPERTY SERVICES"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This appears to be a property services firm unrelated to the gambling industry, despite the name coincidence.",
+    "category": "Insolvency",
+    "cluster_id": "64e57a268ee5ae03",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Gamble Property Services Ltd, a property firm whose name coincidentally contains 'Gamble', has filed insolvency notices in the Gazette across October 2026. It has no connection to the gambling industry.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "64e57a268ee5ae03:cecdc011"
+  },
+  {
+    "id": "8c049e272141e5a053875bcb1660bd4dee9222c91008409810c4d02c7757868f",
+    "source": "gazette",
+    "source_id": "5239197",
+    "source_url": "https://www.thegazette.co.uk/notice/5239197",
+    "title": "GAMBLE PROPERTY SERVICES LTD",
+    "raw_summary": "Appointment of Liquidators: Company Number: 11309425 Name of Company: GAMBLE PROPERTY SERVICES LTD …",
+    "published_at": "2026-10-27T17:41:52+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.205667+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gamble Property Services Ltd"
+    ],
+    "canonical_entities": [
+      "Gamble Property Services"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a property services company with 'Gamble' in its name, unrelated to the gambling industry.",
+    "category": "Insolvency",
+    "cluster_id": "64e57a268ee5ae03",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Gamble Property Services Ltd, a property firm whose name coincidentally contains 'Gamble', has filed insolvency notices in the Gazette across October 2026. It has no connection to the gambling industry.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "64e57a268ee5ae03:cecdc011"
+  },
+  {
+    "id": "85dbb49a8e35ba1eda3d0efb79febe06b930e21d0db14107740932048a3ea06f",
+    "source": "gazette",
+    "source_id": "5239106",
+    "source_url": "https://www.thegazette.co.uk/notice/5239106",
+    "title": "GAMING INTERNATIONAL LIMITED",
+    "raw_summary": "Notices to Creditors: GAMING INTERNATIONAL LIMITED …",
+    "published_at": "2026-10-28T01:13:46+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.206030+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gaming International Limited"
+    ],
+    "canonical_entities": [
+      "Gaming"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A gambling-related company entering creditor proceedings signals financial distress that could affect industry partners and employees.",
+    "category": "Insolvency",
+    "cluster_id": "8d122e4ef213675e",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Gaming International Limited has entered liquidation, with a winding-up resolution and creditor proceedings all logged in the Gazette on the same date. The filings point to a single insolvency event rather than separate developments, with implications for creditors and employees as proceedings unfold.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "8d122e4ef213675e:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
+    "theme_key_points": [
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139"
+  },
+  {
+    "id": "1b3b88cd9371d643e2b73668436d384289999f90fd9df7d4ccfeff40fd82c1d9",
+    "source": "gazette",
+    "source_id": "5239063",
+    "source_url": "https://www.thegazette.co.uk/notice/5239063",
+    "title": "GAMING INTERNATIONAL LIMITED",
+    "raw_summary": "Resolutions for Winding-up: GAMING INTERNATIONAL LIMITED …",
+    "published_at": "2026-10-28T01:12:25+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.206037+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gaming International Limited"
+    ],
+    "canonical_entities": [
+      "Gaming"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A gambling-industry company's winding-up resolution signals financial distress worth tracking for sector stability and creditor impact.",
+    "category": "Insolvency",
+    "cluster_id": "8d122e4ef213675e",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Gaming International Limited has entered liquidation, with a winding-up resolution and creditor proceedings all logged in the Gazette on the same date. The filings point to a single insolvency event rather than separate developments, with implications for creditors and employees as proceedings unfold.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "8d122e4ef213675e:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
+    "theme_key_points": [
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139"
+  },
+  {
+    "id": "5c573b30cdd0f8c21cf2f3340c2c4ca670fbac855c4f24394dc2f5a44d331376",
+    "source": "gazette",
+    "source_id": "5239057",
+    "source_url": "https://www.thegazette.co.uk/notice/5239057",
+    "title": "GAMING INTERNATIONAL LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: GAMING INTERNATIONAL LIMITED …",
+    "published_at": "2026-10-28T01:12:16+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.206041+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Gaming International Limited"
+    ],
+    "canonical_entities": [
+      "Gaming"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Liquidation of a named gambling-sector company signals potential financial distress affecting creditors, employees and industry stability.",
+    "category": "Insolvency",
+    "cluster_id": "8d122e4ef213675e",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "Gaming International Limited has entered liquidation, with a winding-up resolution and creditor proceedings all logged in the Gazette on the same date. The filings point to a single insolvency event rather than separate developments, with implications for creditors and employees as proceedings unfold.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "8d122e4ef213675e:cecdc011",
+    "theme_summary": "Insolvency filings across UK gambling have accelerated sharply since August, moving from isolated cases like Crown (Inverness) and Shepherd's Bush Games to a dense cluster of operators, suppliers and compliance firms collapsing within the same week in October. Land-based casinos, bookmakers, gaming-machine operators and even a compliance consultancy, Lysis Gaming, have all filed for winding-up or liquidation.",
+    "theme_key_points": [
+      "Four related firms — Multilinea Developments, Multilinea Leeds, Carnaby Gaming Machines — all entered winding-up proceedings on the same day, 1 October 2026",
+      "T33 Gaming moved from a winding-up petition (4 Sept) to a formal winding-up order within three weeks (23 Sept)",
+      "MGE Korea Limited, linked to integrated gaming facilities, went into administration 14 September, scoring highest at 55",
+      "Gaming International Limited logged three separate insolvency-related filings on 28 October alone"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:c252a2abcdef:067ec139"
+  },
+  {
+    "id": "24a2d627cf26fa8b1c93f72fc95d0a927f5507f0604c659ca3e395a9c2a5d7e2",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-response-to-the-budget-2",
+    "title": "BGC response to the Budget",
+    "raw_summary": "",
+    "published_at": "2026-10-28T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.206789+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council (BGC)"
+    ],
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "The BGC's Budget response signals how prospective tax or duty changes could affect UK gambling operators' costs and strategy.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_key_points": [
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+  },
+  {
+    "id": "3dac43cc26234388e050cdaeba4d721387df59de06d1e2c2094f4e2a946b6e48",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/statement-regarding-uk-gambling-tax-increases/9846472",
+    "title": "Entain: Statement Regarding UK Gambling Tax Increases",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-10-28T14:30:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-28T15:21:42.206858+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A major UK operator's formal response to gambling tax rises signals potential financial impact and industry-wide cost pressures.",
+    "category": "Tax and levy",
+    "cluster_id": "6ea36ea84dea060e",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 58,
+    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_key_points": [
+      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
+      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
+      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
+      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
   }
 ]
