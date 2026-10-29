@@ -9479,5 +9479,78 @@
     "cluster_coherent": true,
     "cluster_significance": 72,
     "sector": "gambling"
+  },
+  {
+    "id": "ef55d2dccafd0662c483ca82814efc4765525469dd03fc9a399d8ebc0604e8a6",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/public-to-have-their-say-on-national-lottery-good-causes",
+    "title": "Public to have their say on National Lottery Good Causes",
+    "raw_summary": "The government is launching a 12-week call for evidence asking the public to help shape the future of National Lottery Good Cause funding",
+    "published_at": "2026-07-01T13:12:00+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914907+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "National Lottery",
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A 12-week call for evidence could reshape how National Lottery Good Causes funding is allocated, affecting operators and beneficiaries.",
+    "category": "policy consultation",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "DCMS opened a 12-week call for evidence on how National Lottery Good Causes proceeds are allocated, followed by continued parliamentary scrutiny via a written question on National Lottery sales practices and consumer protection. Together they show government reviewing both the distribution and conduct side of the licence.",
+    "cluster_summary_for": "5d9f33895b88eb5e:cecdc011",
+    "canonical_entities": [
+      "National Lottery",
+      "DCMS"
+    ],
+    "canonical_category": "Consultation",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "sector": "gambling"
+  },
+  {
+    "id": "c249a26abf9d0585185a0cf7bb23611f66862e4de049720b95c62f5b100a26fe",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/calls-for-evidence/national-lottery-good-causes-fund-what-matters-to-you",
+    "title": "National Lottery Good Causes: Fund what matters to you",
+    "raw_summary": "A call for evidence to shape the future of National Lottery good cause funding. ",
+    "published_at": "2026-07-01T12:00:00+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914910+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "National Lottery",
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Signals potential shifts in how National Lottery proceeds are allocated, affecting operators, causes and future licensing priorities.",
+    "category": "good causes funding policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "DCMS opened a 12-week call for evidence on how National Lottery Good Causes proceeds are allocated, followed by continued parliamentary scrutiny via a written question on National Lottery sales practices and consumer protection. Together they show government reviewing both the distribution and conduct side of the licence.",
+    "cluster_summary_for": "5d9f33895b88eb5e:cecdc011",
+    "canonical_entities": [
+      "National Lottery",
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "Parliamentary written questions on gambling policy surged through late August and September 2026, clustering around Financial Risk Assessments, prediction-market licensing and Gambling Commission conflicts of interest. Government confirmed councils will gain power to reject new gambling premises and that prediction markets need Commission licensing, while the BGC ramped up lobbying against ad bans and business-rate changes.",
+    "theme_key_points": [
+      "28 August saw at least ten written questions on Financial Risk Assessments, high-street planning rules and Commission staff conflicts in a single day",
+      "Five near-identical written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
+      "Government confirmed a planning shift letting councils reject new betting shop and AGC applications, reversing the pro-licensing presumption",
+      "BGC escalated lobbying from welcoming minister Vicky Foxcroft (11 August) to opposing a blanket ad ban (21 September) and defending betting shops (28 September)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:3357b57057af:067ec139",
+    "sector": "gambling"
   }
 ]
