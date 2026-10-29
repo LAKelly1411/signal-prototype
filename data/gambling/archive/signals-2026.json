@@ -9261,5 +9261,223 @@
     "theme_direction": "building",
     "theme_summary_for": "Licence action:5d5574310db0:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/videoslots-ltd-a26-1328653-videoslots-ltd.html",
+    "title": "Videoslots Ltd t/a Mr Vegas",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a gambling company featured imagery that was likely to be of strong appeal to under-18s.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Videoslots Ltd",
+      "Mr Vegas"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "An ASA uphold against Mr Vegas for child-appealing ad content signals compliance risk under UK marketing rules for operators.",
+    "category": "ASA ruling / ad breach - under-18 appeal",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Videoslots",
+      "Mr Vegas"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
+    "theme_key_points": [
+      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
+      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
+      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "0a760ec19790424acd09c3f8b120f7964dceb1a413194d25432a3bee4ea6ac2c",
+    "source": "parliament",
+    "source_id": "1923165",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/15169",
+    "title": "Written question: Gambling: Advertising",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment she has made of the effectiveness of the UK’s current regulatory bodies in mitigating the harms associated with gambling advertisements.\nA: All gambling operators in the UK must comply with robust advertising codes, which are enforced by the Advertising Standards Authority (ASA) independently of Government. These codes apply across all advertising platforms, including broadcast, online and so...",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029378+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Advertising Standards Authority",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "Signals government stance on gambling ad regulation, relevant to operators' compliance and future policy debate.",
+    "category": "advertising regulation",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
+    "cluster_summary_for": "ac554ea96d56a804:aa9d372d",
+    "canonical_entities": [
+      "Advertising Standards Authority",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
+    "theme_key_points": [
+      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
+      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
+      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
+    "source": "parliament",
+    "source_id": "1923164",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/15168",
+    "title": "Written question: Gambling: Advertising",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment she has made of the potential impact of gambling advertisements on children and young people; and whether she plans to introduce further restrictions on advertising.\nA: All gambling operators in the UK must comply with robust advertising codes, which are enforced by the Advertising Standards Authority (ASA) independently of Government. These codes apply across all advertising platforms, including broadcast, online and so...",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029381+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Culture, Media and Sport",
+      "Advertising Standards Authority"
+    ],
+    "newsworthiness_score": 38,
+    "why_it_matters": "Signals government stance on gambling ad restrictions affecting children, relevant to future regulatory tightening.",
+    "category": "advertising policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
+    "cluster_summary_for": "ac554ea96d56a804:aa9d372d",
+    "canonical_entities": [
+      "Department for Culture, Media and Sport",
+      "Advertising Standards Authority"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
+    "theme_key_points": [
+      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
+      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
+      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
+    "source": "parliament",
+    "source_id": "1922941",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/14771",
+    "title": "Written question: Gambling: Licensing",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, if she will consider bringing Section 87 of the English Devolution and Community Empowerment Act into force before summer recess.\nA: The Government will bring Gambling Impact Assessments (GIAs) into force in due course and is currently considering what preparations and guidance will be needed for their introduction, to enable local authorities to use them effectively. As this guidance ...",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029408+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Delay in implementing Gambling Impact Assessments affects when local authorities gain new powers to scrutinise gambling premises licensing.",
+    "category": "licensing policy/Gambling Impact Assessments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has run a steady enforcement drumbeat since July, moving from personal licence revocations to operator-level fines and suspensions. Holland Park Leisure was fined £150,000 in August, then BresBet, Bet St George, Tom Horn Gaming and Targetlocal all had licences suspended within a five-week span through September.",
+    "theme_key_points": [
+      "Three personal licences revoked (Lubna, Galgerud, Ayeni) between July and September for fitness-and-propriety failings",
+      "Four operator/supplier suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sept), Targetlocal (21 Sept)",
+      "Northern & Shell's Court of Appeal bid to challenge Allwyn's National Lottery licence award was rejected on 30 July",
+      "Commission set to phase in frictionless Financial Risk Assessments from July, adding new compliance burden alongside enforcement drive"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:34d13a2b8790:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/issuance-of-shares-total-voting-rights/9645596",
+    "title": "Entain: Issuance of Shares & Total Voting Rights",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-07-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926037+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
+    "category": "share capital update",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
+    "cluster_summary_for": "1735cf1018425072:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
+    "theme_key_points": [
+      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
+      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
+      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
+      "Flutter's only filing was a routine share cancellation notice on 3 August"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9645574",
+    "title": "evoke: Total Voting Rights",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-07-01T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926389+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
+    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "sector": "gambling"
   }
 ]

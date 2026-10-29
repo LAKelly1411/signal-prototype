@@ -2234,5 +2234,57 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null
+  },
+  {
+    "id": "bebbbf3a7da268ebb171e2342a64182317bd771a4eb65a88eec706afb72db88c",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/take-two-interactive-software-inc-a26-1325665-take-two-interactive-software-inc.html",
+    "title": "Take-Two Interactive Software Inc t/a Take Two Interactive",
+    "raw_summary": "Not Upheld / Transport: An ad for the video game Borderlands 4 seen on a bus, didn’t omit material information.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595061+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Take-Two Interactive Software Inc"
+    ],
+    "canonical_entities": [
+      "Take-Two Interactive Software"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "An ASA ruling on a video game advert has no relevance to UK fintech or payments industry audiences.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/paypoint--pay/share-buyback-programme/9645712",
+    "title": "PayPoint: Share Buyback Programme",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-07-01T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595179+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A share buyback signals PayPoint's capital allocation strategy and management's confidence in its financial position, relevant to investors.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
   }
 ]

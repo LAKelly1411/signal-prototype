@@ -295,43 +295,6 @@
     "sector": "gambling"
   },
   {
-    "id": "c16cfd5f6b59a29ce8ec13f128d6f29458c49f75560325ec8fae1d8ebe57aff8",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/videoslots-ltd-a26-1328653-videoslots-ltd.html",
-    "title": "Videoslots Ltd t/a Mr Vegas",
-    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad for a gambling company featured imagery that was likely to be of strong appeal to under-18s.",
-    "published_at": "2026-07-01T00:00:00+00:00",
-    "ingested_at": "2026-07-15T13:45:13.115275+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Videoslots Ltd",
-      "Mr Vegas"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "An ASA uphold against Mr Vegas for child-appealing ad content signals compliance risk under UK marketing rules for operators.",
-    "category": "ASA ruling / ad breach - under-18 appeal",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Videoslots",
-      "Mr Vegas"
-    ],
-    "canonical_category": "Advertising ruling",
-    "theme_id": null,
-    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
-    "theme_key_points": [
-      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
-      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
-      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
-      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
     "source": "parliament",
     "source_id": "1923469",
@@ -406,84 +369,6 @@
     "sector": "gambling"
   },
   {
-    "id": "0a760ec19790424acd09c3f8b120f7964dceb1a413194d25432a3bee4ea6ac2c",
-    "source": "parliament",
-    "source_id": "1923165",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/15169",
-    "title": "Written question: Gambling: Advertising",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment she has made of the effectiveness of the UK’s current regulatory bodies in mitigating the harms associated with gambling advertisements.\nA: All gambling operators in the UK must comply with robust advertising codes, which are enforced by the Advertising Standards Authority (ASA) independently of Government. These codes apply across all advertising platforms, including broadcast, online and so...",
-    "published_at": "2026-07-01T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029378+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Advertising Standards Authority",
-      "Department for Culture, Media and Sport"
-    ],
-    "newsworthiness_score": 28,
-    "why_it_matters": "Signals government stance on gambling ad regulation, relevant to operators' compliance and future policy debate.",
-    "category": "advertising regulation",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
-    "cluster_summary_for": "ac554ea96d56a804:aa9d372d",
-    "canonical_entities": [
-      "Advertising Standards Authority",
-      "Department for Culture, Media and Sport"
-    ],
-    "canonical_category": "Advertising ruling",
-    "theme_id": null,
-    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
-    "theme_key_points": [
-      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
-      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
-      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
-      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "9d92882396154fa23e5b9853c946babcf98aa8dd58ceed7791340dfc80369389",
-    "source": "parliament",
-    "source_id": "1923164",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/15168",
-    "title": "Written question: Gambling: Advertising",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what assessment she has made of the potential impact of gambling advertisements on children and young people; and whether she plans to introduce further restrictions on advertising.\nA: All gambling operators in the UK must comply with robust advertising codes, which are enforced by the Advertising Standards Authority (ASA) independently of Government. These codes apply across all advertising platforms, including broadcast, online and so...",
-    "published_at": "2026-07-01T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029381+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Department for Culture, Media and Sport",
-      "Advertising Standards Authority"
-    ],
-    "newsworthiness_score": 38,
-    "why_it_matters": "Signals government stance on gambling ad restrictions affecting children, relevant to future regulatory tightening.",
-    "category": "advertising policy",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Two parliamentary written questions on the same day both target gambling advertising, particularly its effect on children, suggesting coordinated legislative scrutiny. This points to potential tightening of ad regulations, signalling operators should anticipate stricter compliance requirements ahead.",
-    "cluster_summary_for": "ac554ea96d56a804:aa9d372d",
-    "canonical_entities": [
-      "Department for Culture, Media and Sport",
-      "Advertising Standards Authority"
-    ],
-    "canonical_category": "Advertising ruling",
-    "theme_id": null,
-    "theme_summary": "The ASA has upheld six advertising complaints against UK gambling operators since July, most involving child-appealing content or under-25 imagery, while DCMS runs a July consultation that could ban sponsorship deals with unlicensed operators. Enforcement is spreading across betting, casino and affiliate sites rather than concentrating on one operator type.",
-    "theme_key_points": [
-      "Mr Vegas (Videoslots) and BoyleSports both upheld for child-appealing or harmful betting-pattern ads, July 2026",
-      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok gambling ad",
-      "Smart Gravity's top10onlinecasinoreviews.co.uk site upheld for irresponsible paid search targeting, 9 September",
-      "White Hat Gaming's Casimba and Grand Ivy ads cleared same day, showing inconsistent outcomes within one ruling batch",
-      "DCMS consultation launched 15 July could ban sponsorship by unlicensed operators, reshaping sports and media deals"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:f1c7d30cc2d1:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
     "source": "parliament",
     "source_id": "1924007",
@@ -551,40 +436,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "0ade63168e241c509f7cf170cda5d8c75e270c556a79a9ecfdecf86401fa463d",
-    "source": "parliament",
-    "source_id": "1922941",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-01/14771",
-    "title": "Written question: Gambling: Licensing",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, if she will consider bringing Section 87 of the English Devolution and Community Empowerment Act into force before summer recess.\nA: The Government will bring Gambling Impact Assessments (GIAs) into force in due course and is currently considering what preparations and guidance will be needed for their introduction, to enable local authorities to use them effectively. As this guidance ...",
-    "published_at": "2026-07-01T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029408+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "Delay in implementing Gambling Impact Assessments affects when local authorities gain new powers to scrutinise gambling premises licensing.",
-    "category": "licensing policy/Gambling Impact Assessments",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "DCMS"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission has run a steady enforcement drumbeat since July, moving from personal licence revocations to operator-level fines and suspensions. Holland Park Leisure was fined £150,000 in August, then BresBet, Bet St George, Tom Horn Gaming and Targetlocal all had licences suspended within a five-week span through September.",
-    "theme_key_points": [
-      "Three personal licences revoked (Lubna, Galgerud, Ayeni) between July and September for fitness-and-propriety failings",
-      "Four operator/supplier suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sept), Targetlocal (21 Sept)",
-      "Northern & Shell's Court of Appeal bid to challenge Allwyn's National Lottery licence award was rejected on 30 July",
-      "Commission set to phase in frictionless Financial Risk Assessments from July, adding new compliance burden alongside enforcement drive"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:34d13a2b8790:067ec139",
     "sector": "gambling"
   },
   {
@@ -845,45 +696,6 @@
     "sector": "gambling"
   },
   {
-    "id": "1b5e669ae7f846ebc5ed685d7a4e520aacecdff87162240cb2d178a9b687141b",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/issuance-of-shares-total-voting-rights/9645596",
-    "title": "Entain: Issuance of Shares & Total Voting Rights",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-07-01T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926037+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Routine share issuance and voting rights disclosure helps investors track Entain's capital structure but signals no strategic change.",
-    "category": "share capital update",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Entain runs its standard listed-company reporting calendar through Q3 2026: share capital updates, TR-1 shareholder notifications, board changes, audit tender conclusion, and BetMGM Q2 results feeding into interim results. The one substantive item is Entain reaffirming FY26 EBITDA guidance in late September despite a Brazil market ban, signalling resilience but flagging regulatory exposure.",
-    "cluster_summary_for": "1735cf1018425072:cecdc011",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited"
-    ],
-    "canonical_category": "Corporate filing",
-    "theme_id": null,
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 35,
-    "theme_summary": "Routine LSE reporting dominates: Entain, Flutter, Rank and evoke filed standard share, results and governance notices between July and September 2026. The one substantive event is Rank Group's appointment of Richard Harris as CEO on 13 July, followed by its full-year results a month later.",
-    "theme_key_points": [
-      "Rank Group named Richard Harris CEO on 13 July, then posted Final Results on 13 August and AGM notice on 8 September",
-      "evoke (formerly 888/William Hill parent) filed scheme document timing on 3 July and H1 2026 interim results on 12 August",
-      "Entain completed an audit tender conclusion on 13 August alongside a routine share issuance filing on 1 July",
-      "Flutter's only filing was a routine share cancellation notice on 3 August"
-    ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:2c535ec9b54b:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
     "source": "lse_rns",
     "source_id": null,
@@ -1028,36 +840,6 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "195ec1199d685fa757e8d4fabd0ab88eb5bb505f6568a21c6d30e63e050be3d6",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/total-voting-rights/9645574",
-    "title": "evoke: Total Voting Rights",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-07-01T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926389+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 15,
-    "why_it_matters": "Routine total voting rights notice helps shareholders assess disclosure thresholds but has no direct operational impact.",
-    "category": "shareholder disclosure",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Evoke is progressing a formal scheme of arrangement through summer 2026, publishing the scheme document on 21 July and clearing court and general meeting votes by 17 August, alongside interim results confirming financial health. Shareholding notifications and an Intralot general meeting outcome point to related ownership shifts around the restructuring.",
-    "cluster_summary_for": "74dba74cbcb0799b:cecdc011",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
     "sector": "gambling"
   },
   {
@@ -2802,7 +2584,7 @@
     "newsworthiness_score": 8,
     "why_it_matters": "A winding-up petition against this company shows no evident link to gambling, limiting relevance to the sector.",
     "category": "winding up petition",
-    "cluster_id": "fd0f09ca4666b9db",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Clarmans Holdings Limited moved from a winding-up petition on 31 July 2026 to a winding-up order by 16 August 2026, marking a straightforward progression through insolvency proceedings. Nothing in either filing ties the company to gambling operations.",
     "cluster_summary_for": "fd0f09ca4666b9db:cecdc011",
@@ -3006,7 +2788,7 @@
       "Betfred"
     ],
     "canonical_category": "Tax and levy",
-    "theme_id": "Tax and levy",
+    "theme_id": null,
     "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
     "theme_key_points": [
       "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
@@ -3750,10 +3532,10 @@
     "newsworthiness_score": 38,
     "why_it_matters": "A new gambling minister signals potential shifts in regulatory priorities and policy direction affecting operators.",
     "category": "ministerial appointment",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "canonical_entities": [
       "BGC",
       "Vicky Foxcroft"
@@ -3769,9 +3551,9 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:7f55fc5dc3a5:067ec139",
-    "cluster_pattern_type": "unrelated",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
+    "cluster_significance": 55,
     "sector": "gambling"
   },
   {
@@ -3838,15 +3620,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -3904,18 +3686,18 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Board changes at a major UK bingo/casino operator can signal strategic direction shifts relevant to gambling sector investors and journalists.",
     "category": "board update",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_pattern_type": "unrelated",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
+    "cluster_significance": 55,
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -3943,18 +3725,18 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Rank's annual results reveal financial health and trends for a major UK bingo and casino operator, relevant to investors and competitors.",
     "category": "accounts filing",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_pattern_type": "unrelated",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
+    "cluster_significance": 55,
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -4164,7 +3946,7 @@
     "newsworthiness_score": 8,
     "why_it_matters": "A winding-up order against this company has no evident link to gambling operators, so limited relevance to the sector.",
     "category": "winding-up order",
-    "cluster_id": "fd0f09ca4666b9db",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Clarmans Holdings Limited moved from a winding-up petition on 31 July 2026 to a winding-up order by 16 August 2026, marking a straightforward progression through insolvency proceedings. Nothing in either filing ties the company to gambling operations.",
     "cluster_summary_for": "fd0f09ca4666b9db:cecdc011",
@@ -4346,7 +4128,7 @@
     "newsworthiness_score": 72,
     "why_it_matters": "A Gambling Commission fine signals compliance failings and reinforces enforcement risk for operators across the sector.",
     "category": "licence enforcement/fine",
-    "cluster_id": "3278b45fb45ee3b7",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "The Gambling Commission has hit Holland Park Leisure with a £150,000 fine for licence failings, with the enforcement action first flagged in late July and confirmed in August. The two entries track the same case moving from initial signal to finalised penalty.",
     "cluster_summary_for": "3278b45fb45ee3b7:cecdc011",
@@ -4385,7 +4167,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, useful for tracking operator enforcement trends.",
     "category": "AML/licence enforcement",
-    "cluster_id": "3278b45fb45ee3b7",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "The Gambling Commission has hit Holland Park Leisure with a £150,000 fine for licence failings, with the enforcement action first flagged in late July and confirmed in August. The two entries track the same case moving from initial signal to finalised penalty.",
     "cluster_summary_for": "3278b45fb45ee3b7:cecdc011",
@@ -4589,18 +4371,18 @@
     "newsworthiness_score": 15,
     "why_it_matters": "Routine PDMR disclosure offers minor transparency on insider dealings at a major UK bookmaker but carries no operational impact.",
     "category": "director shareholding notification",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "canonical_entities": [
       "Rank"
     ],
     "canonical_category": "Shareholding disclosure",
     "theme_id": null,
-    "cluster_pattern_type": "unrelated",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
+    "cluster_significance": 55,
     "sector": "gambling"
   },
   {
@@ -5721,15 +5503,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual report and AGM notice from a major listed UK gambling operator, of limited standalone news value.",
     "category": "Corporate filing",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_pattern_type": "unrelated",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -6095,15 +5877,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -7690,15 +7472,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -7933,15 +7715,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -8197,15 +7979,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -8411,15 +8193,15 @@
     "newsworthiness_score": 42,
     "why_it_matters": "The gambling minister's casino visit signals government engagement with the industry ahead of potential regulatory or tax policy decisions.",
     "category": "Policy and legislation",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_pattern_type": "unrelated",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "theme_summary": "Parliamentary scrutiny of gambling policy intensified from late August into October 2026, dominated by dozens of written questions on Financial Risk Assessments, high-street planning reform and Gambling Commission staff conflicts of interest. The BGC ran a parallel lobbying push around new minister Vicky Foxcroft, while the Gambling Commission issued new machine rules and annual sector statistics.",
     "theme_key_points": [
       "Councils set to gain power to reject new gambling premises; business rates relief for betting shops and AGCs under question (28 Aug)",
@@ -8690,15 +8472,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -9207,15 +8989,15 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A major UK operator's regulatory settlement with the Gambling Commission signals compliance risk and potential financial impact investors and regulators will track.",
     "category": "Enforcement action",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_pattern_type": "unrelated",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "theme_summary": "Gambling Commission enforcement has escalated from individual licence-holder penalties in August to multi-million-pound operator settlements by October, with Grosvenor Casinos, Rank Group and the wider land-based casino sector settling on the same day. The parallel general election betting scandal continues through guilty pleas and sentencing.",
     "theme_key_points": [
       "7 October: £5m land-based casino penalty, Grosvenor Casinos settlement and Rank Group settlement all land on the same date",
@@ -9369,15 +9151,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine AGM result disclosure from a major listed UK gambling operator, useful for governance tracking but low immediate impact.",
     "category": "Corporate filing",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_pattern_type": "unrelated",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
     "theme_key_points": [
       "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
@@ -9504,15 +9286,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -9645,15 +9427,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -9818,15 +9600,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -9855,15 +9637,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "202f1e3cadd3a141ac81b9f3cbd815f5f2187fdff21ea0673419c16302645079",
@@ -9890,15 +9672,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -10069,15 +9851,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -10139,16 +9921,16 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Trading updates from major operators like Rank Group reveal sector performance trends and investor sentiment in UK gambling.",
     "category": "Financial results",
-    "cluster_id": "740378fe678c7b1b",
+    "cluster_id": "f7ee7175ec7b898c",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Rank Group's 2026 corporate calendar runs from board and results updates through to a concluded Gambling Commission settlement in October, alongside routine AGM and trading disclosures. Separately, the Betting and Gaming Council logs engagement with new gambling minister Vicky Foxcroft, including a Grosvenor Casino Liverpool visit — a distinct trade-body story with no direct link to Rank.",
-    "cluster_pattern_type": "unrelated",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
-    "cluster_significance": 46,
-    "cluster_summary_for": "740378fe678c7b1b:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -10358,15 +10140,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -10428,15 +10210,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -10463,15 +10245,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -10799,15 +10581,15 @@
     "cluster_coherent": false,
     "cluster_significance": 15,
     "cluster_summary_for": "779e384630cb8bb4:cecdc011",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
@@ -10984,15 +10766,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "58be0e224fc22784fb5ba1d65bf675d14390e07cc8c4072b7376f6186040e143",
@@ -11021,15 +10803,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "76b515f1cdffaf8a34a357798a692e1aa2aa8afe260e862b19005cd71cfc7078",
@@ -11482,15 +11264,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   },
   {
     "id": "3dac43cc26234388e050cdaeba4d721387df59de06d1e2c2094f4e2a946b6e48",
@@ -11522,14 +11304,54 @@
     "cluster_coherent": true,
     "cluster_significance": 58,
     "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
-    "theme_summary": "A sustained BGC lobbying campaign through August-October 2026 has tied shop closures, job cuts at Betfred, bet365 and Flutter, and casino investment risk directly to gambling tax rises, culminating in confirmation of a 25% remote betting duty and Entain's formal Budget statement on 28 October.",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
     "theme_key_points": [
-      "Over 540 betting shops closed and 4,500 jobs lost since the Budget tax rise, per BGC's 12 August count",
-      "Remote betting duty confirmed at 25% from 14 September, applied to greyhound racing but not horseracing",
-      "BGC warns a further casino tax hike puts a £200m UK investment drive at risk (2 October)",
-      "Entain issued a formal RNS statement on UK gambling tax increases on 28 October, the same day as BGC's Budget response"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:6bea5e2b3649:067ec139"
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
+  },
+  {
+    "id": "adb7ab775eed1f64430af5188c1e5913efb3fc764a4cc619eb18b5c50904890e",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/autumn-budget-impact-/9846881",
+    "title": "Rank Group: Autumn Budget Impact",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-10-29T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-29T07:20:06.157522+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "canonical_entities": [
+      "Rank"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Rank Group's response to Budget tax changes could signal sector-wide financial impact from new gambling duties.",
+    "category": "Tax and levy",
+    "cluster_id": "f7ee7175ec7b898c",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "cluster_summary": "Rank Group runs its normal corporate calendar through autumn 2026 - results, AGM, PDMR filings, a Q1 trading update - then confirms the conclusion of a Gambling Commission settlement and flags the impact of the Autumn Budget's gambling duty changes. The BGC items about minister Vicky Foxcroft's appointment and casino visit are unrelated trade-body news that have been swept in by keyword overlap, not because they involve Rank.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
+    "theme_summary": "The BGC ran a sustained lobbying campaign against gambling tax rises through August to October 2026, citing shop closures and job cuts at bet365 and Flutter, before Chancellor confirmed increases at the 28 October Budget. Entain and Rank both issued formal statements responding to the new duties, while remote betting duty rose to 25% for greyhound racing.",
+    "theme_key_points": [
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax raid",
+      "Remote betting duty rises to 25% for greyhound racing (incl. Romford); horseracing exempted",
+      "BGC warns casino tax hikes put £200m UK investment and thousands of jobs at risk",
+      "Entain and Rank both issue formal Budget-response statements on 28–29 October after tax rises confirmed"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:0d714c3e0dc2:067ec139"
   }
 ]

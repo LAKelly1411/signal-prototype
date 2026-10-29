@@ -2754,16 +2754,16 @@
     "newsworthiness_score": 8,
     "why_it_matters": "A general government growth announcement with no direct link to UK fintech or payments firms.",
     "category": "Other",
-    "cluster_id": "9bfb6032e53274d9",
+    "cluster_id": "b593772b5879f1af",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null,
-    "cluster_summary": "A series of Chancellor speeches and statements on UK economic growth and resilience, with no mention of fintech or payments policy specifics. The signals are generic government communications rather than developments affecting any named company.",
+    "cluster_summary": "Government statements from the Chancellor across September and October 2026 touch on growth policy and economic resilience, culminating in the Budget 2026 speech, but none contain specific fintech or payments-sector measures. The cluster reflects generic macro-policy commentary rather than a company-specific development.",
     "cluster_pattern_type": "unrelated",
     "cluster_coherent": false,
-    "cluster_significance": 5,
-    "cluster_summary_for": "9bfb6032e53274d9:642be20c"
+    "cluster_significance": 8,
+    "cluster_summary_for": "b593772b5879f1af:642be20c"
   },
   {
     "id": "88cdca0b46f3adf4f51f5cf33985a6dc57c080fda082423b8abe9127076b2e0f",
@@ -3027,16 +3027,16 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A high-level government growth speech may signal future economic policy direction but offers no specific fintech detail yet.",
     "category": "Policy and legislation",
-    "cluster_id": "9bfb6032e53274d9",
+    "cluster_id": "b593772b5879f1af",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null,
-    "cluster_summary": "A series of Chancellor speeches and statements on UK economic growth and resilience, with no mention of fintech or payments policy specifics. The signals are generic government communications rather than developments affecting any named company.",
+    "cluster_summary": "Government statements from the Chancellor across September and October 2026 touch on growth policy and economic resilience, culminating in the Budget 2026 speech, but none contain specific fintech or payments-sector measures. The cluster reflects generic macro-policy commentary rather than a company-specific development.",
     "cluster_pattern_type": "unrelated",
     "cluster_coherent": false,
-    "cluster_significance": 5,
-    "cluster_summary_for": "9bfb6032e53274d9:642be20c"
+    "cluster_significance": 8,
+    "cluster_summary_for": "b593772b5879f1af:642be20c"
   },
   {
     "id": "ce50d9845d2ae4f9de561bd48e21f55872bc622ce469d452abdbc3e8f62f05ec",
@@ -3319,32 +3319,6 @@
     ],
     "newsworthiness_score": 5,
     "why_it_matters": "An ASA ruling against an airline's misleading carbon offset ad claims has no relevance to UK fintech or payments.",
-    "category": "Other",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Other",
-    "theme_id": null
-  },
-  {
-    "id": "bebbbf3a7da268ebb171e2342a64182317bd771a4eb65a88eec706afb72db88c",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/take-two-interactive-software-inc-a26-1325665-take-two-interactive-software-inc.html",
-    "title": "Take-Two Interactive Software Inc t/a Take Two Interactive",
-    "raw_summary": "Not Upheld / Transport: An ad for the video game Borderlands 4 seen on a bus, didn’t omit material information.",
-    "published_at": "2026-07-01T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595061+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Take-Two Interactive Software Inc"
-    ],
-    "canonical_entities": [
-      "Take-Two Interactive Software"
-    ],
-    "newsworthiness_score": 3,
-    "why_it_matters": "An ASA ruling on a video game advert has no relevance to UK fintech or payments industry audiences.",
     "category": "Other",
     "cluster_id": null,
     "status": "seen",
@@ -3728,32 +3702,6 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
-  },
-  {
-    "id": "c080c837515fc6eb77de9a7a9500ce5d2977e2a30e946f0723a05fb061d685c7",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/paypoint--pay/share-buyback-programme/9645712",
-    "title": "PayPoint: Share Buyback Programme",
-    "raw_summary": "RNS announcement from PayPoint (PAY).",
-    "published_at": "2026-07-01T07:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595179+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "PayPoint"
-    ],
-    "canonical_entities": [
-      "PayPoint"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A share buyback signals PayPoint's capital allocation strategy and management's confidence in its financial position, relevant to investors.",
-    "category": "Corporate filing",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Corporate filing",
-    "theme_id": null
   },
   {
     "id": "1b9b6ea0107656a11f29f5885feeb998fd4a0bef643718e75dccd6f3c35d6874",
@@ -4507,16 +4455,16 @@
     "newsworthiness_score": 15,
     "why_it_matters": "General Chancellor remarks on economic resilience carry limited direct relevance for UK fintech and payments firms.",
     "category": "Policy and legislation",
-    "cluster_id": "9bfb6032e53274d9",
+    "cluster_id": "b593772b5879f1af",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null,
-    "cluster_summary": "A series of Chancellor speeches and statements on UK economic growth and resilience, with no mention of fintech or payments policy specifics. The signals are generic government communications rather than developments affecting any named company.",
+    "cluster_summary": "Government statements from the Chancellor across September and October 2026 touch on growth policy and economic resilience, culminating in the Budget 2026 speech, but none contain specific fintech or payments-sector measures. The cluster reflects generic macro-policy commentary rather than a company-specific development.",
     "cluster_pattern_type": "unrelated",
     "cluster_coherent": false,
-    "cluster_significance": 5,
-    "cluster_summary_for": "9bfb6032e53274d9:642be20c"
+    "cluster_significance": 8,
+    "cluster_summary_for": "b593772b5879f1af:642be20c"
   },
   {
     "id": "9b323ece990d3581c0d5f22d0475140f560a4f972609341a2be3091d4a495a5d",
@@ -8672,5 +8620,66 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:91883b870ef1:4975febf"
+  },
+  {
+    "id": "053c471fde0fe42bd2bf7229a0a54cd5ddf2b5354768fbfa7b01427281ec11dd",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/uk-boosts-support-to-ukraine-with-10-billion-package",
+    "title": "UK boosts support to Ukraine with £10 billion package",
+    "raw_summary": "The UK will give a further £10 billion of economic and military support in the largest ever package of financial backing for Ukraine.",
+    "published_at": "2026-10-28T15:46:56+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-29T07:19:05.313441+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "UK Government",
+      "Ukraine"
+    ],
+    "canonical_entities": [
+      "UK Government",
+      "Ukraine"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A government aid package to Ukraine has minimal direct relevance to UK fintech and payments sector news.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "0d913f36983d9ddecb848e0d61f3398cc36e338121a9f7f3b64eced9067ab54b",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/speeches/budget-2026-speech",
+    "title": "Budget 2026 speech",
+    "raw_summary": "Budget 2026 speech as delivered by Chancellor John Healey.",
+    "published_at": "2026-10-28T15:45:59+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-29T07:19:05.313445+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "John Healey"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "John Healey"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A Budget speech may signal fiscal or regulatory shifts affecting fintech, but no specific payments-sector details are given.",
+    "category": "Policy and legislation",
+    "cluster_id": "b593772b5879f1af",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "cluster_summary": "Government statements from the Chancellor across September and October 2026 touch on growth policy and economic resilience, culminating in the Budget 2026 speech, but none contain specific fintech or payments-sector measures. The cluster reflects generic macro-policy commentary rather than a company-specific development.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 8,
+    "cluster_summary_for": "b593772b5879f1af:642be20c"
   }
 ]
