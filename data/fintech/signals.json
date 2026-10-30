@@ -2170,34 +2170,6 @@
     "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
   },
   {
-    "id": "08dad04616fa559301bcc88653790849b9548c2a98618112bda2dd290671e006",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/publications/national-payments-vision",
-    "title": "National Payments Vision",
-    "raw_summary": "The government has published the National Payments Vision, setting out its ambitions for the UK’s payments sector to deliver world-leading payments and support the growth mission.",
-    "published_at": "2026-07-02T09:00:10+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594640+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS",
-      "HM Treasury"
-    ],
-    "canonical_entities": [
-      "DCMS",
-      "HM Treasury"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "The government's payments strategy signals future regulatory priorities and infrastructure investment affecting all UK fintech and payments firms.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null
-  },
-  {
     "id": "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
     "source": "dcms",
     "source_id": null,
