@@ -9552,5 +9552,107 @@
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:3357b57057af:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "41315fd5418b09c87f6addee9d71a8c3f2e8d069a135f3fee250651d7b39a70f",
+    "source": "gazette",
+    "source_id": "5166165",
+    "source_url": "https://www.thegazette.co.uk/notice/5166165",
+    "title": "FATCAT SOFTWORKS LTD",
+    "raw_summary": "Appointment of Liquidators: …any Number: 09457103 Name of Company: FATCAT SOFTWORKS LTD Nature of Business: Producing content for gaming machines/re-fitting gaming machines …",
+    "published_at": "2026-07-01T17:31:20+00:00",
+    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Fatcat Softworks Ltd"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming machine content supplier entering liquidation could signal supply chain disruption for gambling operators reliant on its products.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Fatcat Softworks"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Eighteen UK gambling-linked companies have entered insolvency proceedings between July and September 2026, spanning bookmakers, gaming suppliers, compliance firms and a racing data provider. Cases have accelerated through August and September, with several escalating from initial petitions to confirmed winding-up orders.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance moved from winding-up petition (24 July) to confirmed order (26 August)",
+      "T33 Gaming progressed from petition (4 Sept) to winding-up order (23 Sept)",
+      "MGE Korea's administrators appointment (14 Sept) scored highest at 55, tied to integrated gaming facilities",
+      "MAB Bookmakers and Deeside Bookmakers both entered liquidation, alongside racing data supplier Equusform's creditors' meeting on 18 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:7b2bdf72f902:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "5494e9e045fda79527b671f0206d46243e62e588a216b67f8dc3606656a7c5c4",
+    "source": "parliament",
+    "source_id": "1923469",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-02/15356",
+    "title": "Written question: Public Appointments: Business Interests",
+    "raw_summary": "Q: To ask the Minister for the Cabinet Office, with reference to the answer of 20 March 2026, to Question 119894, on Gambling Commission: Managers, if he will make it his policy to ask the Civil Service Commission to review the business appointment provision\nA: The Government currently has no plans to ask the Civil Service Commission to do so. The independent Civil Service Commission regulates recruitment into the Civil Service, and provides advice under the Business Appointment Rules for civil servants at SCS P...",
+    "published_at": "2026-07-02T00:00:00+00:00",
+    "ingested_at": "2026-07-15T17:11:28.029372+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Civil Service Commission",
+      "Cabinet Office"
+    ],
+    "newsworthiness_score": 28,
+    "why_it_matters": "Signals ongoing parliamentary scrutiny of Gambling Commission staff conflicts of interest, though government declines to act.",
+    "category": "governance/appointments scrutiny",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Civil Service Commission",
+      "Cabinet Office"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified through August and September, with dense clusters of written questions on 28 August and 1 September covering planning reform, business rates, Financial Risk Assessments and prediction-market licensing. The BGC responded with escalating public campaigns defending betting shops and opposing an advertising ban as a new gambling minister, Vicky Foxcroft, took office.",
+    "theme_key_points": [
+      "28 August: ~15 written questions in one day, including confirmation councils will gain power to reject new gambling premises, reversing the pro-licensing presumption",
+      "1 September: five near-identical questions confirm prediction markets and event contracts require Gambling Commission licensing rather than new legislation",
+      "Financial Risk Assessment (affordability check) scrutiny recurs across at least eight separate questions on 28 August and 1 September alone",
+      "Gambling Commission staff revolving-door concerns raised repeatedly (3 July, 14 July, 28 August) with government declining to tighten conflict-of-interest rules"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ea5dde37a7a6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "1816869214a17242f94df866ec4db7462293b2887ac3fba2a94cd0156efd1bf8",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/total-voting-rights/9648112",
+    "title": "Flutter Entertainment: Total Voting Rights",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-07-01T16:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926184+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine total voting rights notice helps track Flutter's share capital but carries limited standalone news value.",
+    "category": "shareholder disclosure",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Flutter Entertainment has completed its delisting from the London Stock Exchange, confirmed by the 3 August cancellation notice, ending its dual UK listing and leaving the NYSE as its primary market. Routine total voting rights and Q2 results notices sit alongside this as standard corporate housekeeping.",
+    "cluster_summary_for": "e76a1e080c89638d:cecdc011",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Shareholding disclosure",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 72,
+    "sector": "gambling"
   }
 ]

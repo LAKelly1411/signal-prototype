@@ -8805,5 +8805,27 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:d0192980b20e:4975febf"
+  },
+  {
+    "id": "31a59bd3f24e9405bc07c13e00b5f4a6599920eec41d631709437efd3d5305c0",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
+    "title": "Defence contracts to prioritise British jobs and skills",
+    "raw_summary": "Overseas firms winning UK defence contracts to be required to invest benefits back into the UK under new Offsets policy.",
+    "published_at": "2026-10-30T00:01:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-30T07:19:02.436776+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A new defence procurement offsets policy has negligible direct relevance to UK fintech and payments journalists.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
