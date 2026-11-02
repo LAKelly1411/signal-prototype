@@ -8721,5 +8721,31 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null
+  },
+  {
+    "id": "6b86429f312d9cb8a7cc63d05c1997c56e7fe7ebaee098409b7e980a5964edd4",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/organisations/hm-treasury/about/personal-information-charter",
+    "title": "Personal information charter - HM Treasury",
+    "raw_summary": "This information charter sets out the standards you can expect from HM Treasury (HMT) when we collect, hold, or use your personal information. ",
+    "published_at": "2026-11-02T10:00:01+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T11:19:01.974330+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A routine data-handling charter from HM Treasury has no direct impact on UK fintech or payments firms.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

@@ -2470,7 +2470,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Shifts in major shareholder stakes can signal investor sentiment or potential influence over Entain's strategic direction.",
     "category": "major shareholding notification",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
     "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
@@ -2478,7 +2478,7 @@
       "Entain Holdings (UK) Limited"
     ],
     "canonical_category": "Shareholding disclosure",
-    "theme_id": "Shareholding disclosure",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 58,
@@ -2877,15 +2877,15 @@
     ],
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -2956,15 +2956,15 @@
     ],
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
     "cluster_significance": 55,
@@ -3061,10 +3061,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's interim results reveal financial health and strategic direction of one of the UK's largest gambling operators, impacting market sentiment.",
     "category": "financial results",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -3072,7 +3072,7 @@
     "theme_id": "Financial results",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 55,
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -3178,10 +3178,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -3189,7 +3189,7 @@
     "theme_id": "Corporate filing",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 55,
     "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
       "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
@@ -3515,15 +3515,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
+    "theme_summary": "Evoke's scheme of arrangement cleared its Court and General Meeting on 17 August, followed by two shareholding notifications within the same week and a tie to Intralot's own general meeting outcome in September. Entain separately filed a TR-1 major holdings notice on 27 August.",
     "theme_key_points": [
-      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
-      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
-      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
-      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
+      "Evoke's Court Meeting and General Meeting results landed 17 August, confirming scheme progress.",
+      "Evoke filed a Holding(s) in Company notice on 26 August, days after the scheme vote.",
+      "Entain Holdings (UK) lodged a separate TR-1 major holdings notification on 27 August.",
+      "Intralot's 18 September general meeting outcome directly affects evoke's stake and any strategic link between the two firms."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
+    "theme_summary_for": "Shareholding disclosure:853f560f841e:067ec139",
     "sector": "gambling"
   },
   {
@@ -3627,15 +3627,15 @@
     ],
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4131,15 +4131,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
+    "theme_summary": "Evoke's scheme of arrangement cleared its Court and General Meeting on 17 August, followed by two shareholding notifications within the same week and a tie to Intralot's own general meeting outcome in September. Entain separately filed a TR-1 major holdings notice on 27 August.",
     "theme_key_points": [
-      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
-      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
-      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
-      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
+      "Evoke's Court Meeting and General Meeting results landed 17 August, confirming scheme progress.",
+      "Evoke filed a Holding(s) in Company notice on 26 August, days after the scheme vote.",
+      "Entain Holdings (UK) lodged a separate TR-1 major holdings notification on 27 August.",
+      "Intralot's 18 September general meeting outcome directly affects evoke's stake and any strategic link between the two firms."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
+    "theme_summary_for": "Shareholding disclosure:853f560f841e:067ec139",
     "sector": "gambling"
   },
   {
@@ -4158,10 +4158,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -4169,16 +4169,16 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
+    "cluster_significance": 55,
+    "theme_summary": "Evoke's scheme of arrangement cleared its Court and General Meeting on 17 August, followed by two shareholding notifications within the same week and a tie to Intralot's own general meeting outcome in September. Entain separately filed a TR-1 major holdings notice on 27 August.",
     "theme_key_points": [
-      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
-      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
-      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
-      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
+      "Evoke's Court Meeting and General Meeting results landed 17 August, confirming scheme progress.",
+      "Evoke filed a Holding(s) in Company notice on 26 August, days after the scheme vote.",
+      "Entain Holdings (UK) lodged a separate TR-1 major holdings notification on 27 August.",
+      "Intralot's 18 September general meeting outcome directly affects evoke's stake and any strategic link between the two firms."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
+    "theme_summary_for": "Shareholding disclosure:853f560f841e:067ec139",
     "sector": "gambling"
   },
   {
@@ -4303,15 +4303,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4338,15 +4338,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4511,15 +4511,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4542,15 +4542,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4612,15 +4612,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4643,15 +4643,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4683,15 +4683,15 @@
     "cluster_coherent": false,
     "cluster_significance": 20,
     "cluster_summary_for": "ac3009928bd7d32b:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4723,15 +4723,15 @@
     "cluster_coherent": false,
     "cluster_significance": 20,
     "cluster_summary_for": "ac3009928bd7d32b:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -4957,15 +4957,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5018,15 +5018,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5093,15 +5093,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5124,15 +5124,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5330,15 +5330,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5371,15 +5371,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5410,15 +5410,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5449,15 +5449,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5490,15 +5490,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5531,15 +5531,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5568,15 +5568,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5605,15 +5605,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5640,15 +5640,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5671,15 +5671,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5708,15 +5708,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5745,15 +5745,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5782,15 +5782,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5819,15 +5819,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5856,15 +5856,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5893,15 +5893,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5937,15 +5937,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "09d1d22710cfe299:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -5974,15 +5974,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling",
     "cluster_summary": "UK parliamentary written questions through late 2026 track implementation of the statutory gambling levy, covering NHS treatment funding, lived-experience input into governance, grant funding continuity and cross-nation commissioning coordination. No single operator is named; these are policy-level exchanges about the levy's harm-reduction architecture rather than company-specific news.",
     "cluster_pattern_type": "routine",
@@ -6045,15 +6045,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6076,15 +6076,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6206,15 +6206,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -6246,15 +6246,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "sector": "gambling"
   },
   {
@@ -6424,15 +6424,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6459,15 +6459,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6498,15 +6498,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6568,15 +6568,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6603,15 +6603,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6718,15 +6718,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "5d9f33895b88eb5e:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -6786,15 +6786,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
-    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
+    "theme_summary": "Evoke's scheme of arrangement cleared its Court and General Meeting on 17 August, followed by two shareholding notifications within the same week and a tie to Intralot's own general meeting outcome in September. Entain separately filed a TR-1 major holdings notice on 27 August.",
     "theme_key_points": [
-      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
-      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
-      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
-      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
+      "Evoke's Court Meeting and General Meeting results landed 17 August, confirming scheme progress.",
+      "Evoke filed a Holding(s) in Company notice on 26 August, days after the scheme vote.",
+      "Entain Holdings (UK) lodged a separate TR-1 major holdings notification on 27 August.",
+      "Intralot's 18 September general meeting outcome directly affects evoke's stake and any strategic link between the two firms."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
+    "theme_summary_for": "Shareholding disclosure:853f560f841e:067ec139",
     "sector": "gambling"
   },
   {
@@ -6856,15 +6856,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -7352,15 +7352,15 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban signals resilience but highlights regulatory risk exposure for investors and operators.",
     "category": "Financial results",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -7433,15 +7433,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -7540,15 +7540,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -7621,15 +7621,15 @@
     "cluster_coherent": false,
     "cluster_significance": 55,
     "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -7656,15 +7656,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -7856,15 +7856,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "d3ecacc092c98e77:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -8263,15 +8263,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual accounts filing provides a data point for tracking Entain's UK financial position but carries limited independent news value.",
     "category": "Corporate filing",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
       "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
@@ -8311,15 +8311,15 @@
     "status": "seen",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139",
     "sector": "gambling"
   },
   {
@@ -8909,16 +8909,16 @@
     "newsworthiness_score": 35,
     "why_it_matters": "A BetMGM trading update from Entain could signal joint venture performance trends affecting UK-listed operator revenue expectations.",
     "category": "Financial results",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -9159,15 +9159,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "13fbdbf299e39871c46176fbbae13bc5739b02148d46fa0b283e6080771232e7",
@@ -9300,16 +9300,16 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's trading update offers insight into the financial health and market performance of one of the UK's largest gambling operators.",
     "category": "Financial results",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -9385,15 +9385,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "76edd7ecc8c21e58ff5a10d5ae34b69066ab306a87c842e360f2e0187b6c5754",
@@ -9446,16 +9446,16 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Director declarations can signal governance changes or conflicts of interest at a major FTSE-listed gambling operator.",
     "category": "Board and director changes",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Board and director changes",
     "theme_id": "Board and director changes",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -9594,15 +9594,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "10c1e64aeb0d4ac5b5ecef143f54956cee4e9d136712596cd48b6a6450352514",
@@ -9729,15 +9729,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "f2b73173e7bf599ed30bfc37379fb525e2ab45dbaf6cc4eae0e033b1a2270281",
@@ -9766,15 +9766,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "618f6483fbd2d32c0b9347aff3ccac92fd963f2cfb344880601e1dee22267c03",
@@ -9797,15 +9797,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "aca773c9fb21e498f39b1340c79a42e0be0a7836d08d0c37c2f2d898568ecaa8",
@@ -9828,15 +9828,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "9931d411ac231cfabda690788f7529ffee69739adaba5a76c926c0067341e4f3",
@@ -9859,15 +9859,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "1d0a56fde072664582a2f501fa7ca25c3e1612d4df1d67814807f03585078ac5",
@@ -9927,15 +9927,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "264107e8da9db3b28400d44ed9812db0dc35f971192d9f3d3a6b4e56ea551aa7",
@@ -10124,15 +10124,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "d3ecacc092c98e77:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "899641b71206c44f04eb766c259fef2c6b261c3712f8e4a40299b77dde70942c",
@@ -10429,15 +10429,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "5e331b2fb5257b3f1f6fa79e415bd38895ac6053814ccab0942962fdb8c7d3e7",
@@ -10713,16 +10713,16 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A major UK operator's formal response to gambling tax rises signals potential financial impact and industry-wide cost pressures.",
     "category": "Tax and levy",
-    "cluster_id": "6ea36ea84dea060e",
+    "cluster_id": "cb1c279a8bef7967",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "cluster_summary": "Entain's Q3 reporting cycle lands alongside two regulatory pressure points: FY26 EBITDA guidance held despite the Brazil market ban, and a formal statement responds to UK gambling tax rises. Routine items—TR-1 filings, Companies House officer and accounts filings, audit tender conclusion—round out a busy but largely procedural corporate calendar.",
+    "cluster_summary": "Entain runs through routine listed-company machinery across H2 2026: interim results, auditor conclusion, major-holding notification, board filings, and quarterly trading updates including BetMGM's Q3. Substantively, it reaffirms FY26 EBITDA guidance despite a Brazil market ban and issues a formal statement on UK gambling tax increases, flagging regulatory and fiscal pressure on margins.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
     "theme_summary": "BGC ran a sustained lobbying campaign through autumn 2026 against gambling tax rises, citing bet365 and Flutter job cuts, 540 shop closures and 4,500 lost jobs since the last Budget. The 25% remote betting duty went ahead at the 28 October Budget, hitting greyhound racing while horseracing was exempted, with Entain and Rank issuing formal statements on the impact.",
     "theme_key_points": [
       "Remote betting duty rises to 25%, applying to greyhound racing but not horseracing, confirmed in parliamentary answers 14 Sept",
@@ -10798,15 +10798,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "2f101177129541af8c78bad715305226ec98c30c9ce2d8409c7d34e2e9b6e36e",
@@ -10877,15 +10877,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "870b6f9200287301:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "07d99554d621968a30f8734ff6dbc56444b5e0cda8c1d699510c4986bbc21fb5",
@@ -10917,15 +10917,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "870b6f9200287301:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "6e46117f699d82e180a8631b6445bf911d17411f9db8d6867b4aee835faf5c13",
@@ -10959,15 +10959,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "870b6f9200287301:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "6dffa9945bf05bc562b3666da7e1d565803a1d13ba0b4663b80d1851068253ed",
@@ -11001,15 +11001,15 @@
     "cluster_coherent": false,
     "cluster_significance": 30,
     "cluster_summary_for": "870b6f9200287301:cecdc011",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "0bf2c414b4cbaa910f8a9416e63d51edf1bf979ddf5020c6263ceb624bd23c3d",
@@ -11071,15 +11071,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "431274de07a298ed3f79465bed1b94c89bd36ca8b8bc3b425f1a3f0033ec97a2",
@@ -11102,15 +11102,15 @@
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified from late August through October 2026, with dozens of written questions on planning restrictions, financial risk assessments, prediction market regulation and Gambling Commission conflicts of interest. The BGC ran parallel lobbying campaigns defending betting shops and casinos while a new gambling minister, Vicky Foxcroft, took up the brief and met the industry directly.",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
     "theme_key_points": [
-      "28 August saw a single-day cluster of 15+ written questions covering planning rules, business rates and Gambling Commission staff conflicts of interest",
-      "Five separate written questions on 1 September confirmed prediction markets/event contracts require Gambling Commission licensing",
-      "Gambling Commission introduced new gaming machine rules on 30 September and published 2025-26 sector statistics on 17 September",
-      "Vicky Foxcroft replaced the previous gambling minister in August and visited Grosvenor Casino Liverpool on 29 September during Labour conference"
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
   },
   {
     "id": "6bbba62b2963361eb1b61c46e938f2cd5b4f6aa43b3a302756f6bb5bb87432eb",
@@ -11155,6 +11155,95 @@
     "canonical_entities": [],
     "newsworthiness_score": 0,
     "why_it_matters": "Unrelated to gambling; concerns railway infrastructure policy, not relevant to the gambling sector.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "3a4c54812c1112812cf707c37a46befd4fa7484f91a45e54a441bf4476ba0cd4",
+    "source": "gazette",
+    "source_id": "5241779",
+    "source_url": "https://www.thegazette.co.uk/notice/5241779",
+    "title": "ARTIS INTERIM MANAGEMENT LIMITED",
+    "raw_summary": "Resolutions for Winding-up: ARTIS INTERIM MANAGEMENT LIMITED (Company Number 07219838 ) Registered office: 15 GARTREE DRIVE, MELTON MOWBRAY, LEICESTERSHIRE, LE13 0AE Passed: 27 October 2026 At a General Meeting of the members of…",
+    "published_at": "2026-10-30T17:31:57+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T11:19:45.934891+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Artis Interim Management Limited"
+    ],
+    "canonical_entities": [
+      "Artis Interim Management"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "A winding-up resolution for a small, non-gambling-related company has negligible relevance to the gambling sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "8416d6cd6950c3dfcc3827b0d88ec4fdec13a02cce0909c5717af488bdeee322",
+    "source": "parliament",
+    "source_id": "1949575",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-15/35220",
+    "title": "Written question: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what her Department's planned timetable is for launching the consultation on repealing the legal duty to aim to permit gambling from the Gambling Act 2005.\nA: Following the Prime Minister’s announcement on 11 August 2026, the Department intends to launch a consultation on revoking the ‘Aim to Permit’ shortly. We also plan to publish an outcome from the previous consultation on bingo licensing and Category D gam...",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T11:19:45.935203+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "canonical_entities": [
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals an upcoming consultation to repeal the 'aim to permit' duty, a significant shift in UK gambling licensing policy.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply between late August and October 2026, with over 60 written questions covering planning reform, affordability checks, prediction markets and Gambling Commission conduct. The Gambling Commission issued new machine rules on 30 September, and government signalled a consultation to repeal the 'aim to permit' licensing duty on 15 October.",
+    "theme_key_points": [
+      "28 August: government confirms councils will gain power to reject new gambling premises, reversing the pro-licensing presumption.",
+      "15 October: written answer signals a consultation to repeal the 'aim to permit' duty, a major licensing shift.",
+      "Five separate questions between 1 September and 12 October confirm prediction markets need Gambling Commission licensing.",
+      "9 October: GamReg Consulting question raises transparency concerns over a former Gambling Commission director's post-exit business."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:50798edb8677:067ec139"
+  },
+  {
+    "id": "e8c74df3ff659b920f1efff3616a8eccc54a19de97b874fef9b07ffadbc1794c",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-challenges-misleading-claims-in-channel-4s-million-pound-shot",
+    "title": "BGC Challenges Misleading Claims in Channel 4’s Million Pound Shot",
+    "raw_summary": "",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T11:19:45.935504+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Channel 4"
+    ],
+    "canonical_entities": [
+      "BGC",
+      "Channel 4"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "BGC publicly disputes claims in a Channel 4 gambling documentary, signalling industry pushback on media narratives shaping public perception.",
     "category": "Other",
     "cluster_id": null,
     "status": "seen",
