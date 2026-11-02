@@ -1,0 +1,220 @@
+<!doctype html>
+<!-- SOURCE. Edit this, then run: python3 docs/design/build-contact-sheet.py  (writes screens.html too).
+     The component CSS comes from contact-sheet.tpl.html ({{STYLE}}), so the two pages never drift. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signals screens</title>
+<link rel="stylesheet" href="../../../pa-design-system/dist/fonts.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/tokens.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/base.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/core.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/product.css">
+<style>
+{{STYLE}}
+/* ================================================================
+   SCREEN COMPOSITION (what the app's layouts would own; not DS)
+   ================================================================ */
+.sx-intro { max-width: var(--pa-layout-content-max); margin: 0 auto; padding: var(--pa-spacing-xl) var(--pa-layout-gutter) 0; }
+.sx-nav { display: flex; gap: var(--pa-spacing-md); margin-top: var(--pa-spacing-md); }
+.sx-nav a { color: var(--pa-color-action-text); }
+.sx-label { max-width: var(--pa-layout-content-max); margin: var(--pa-spacing-2xl) auto var(--pa-spacing-sm); padding: 0 var(--pa-layout-gutter);
+  font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/1 var(--pa-typography-app-label-family); letter-spacing: var(--pa-typography-app-label-tracking); text-transform: uppercase; color: var(--pa-color-text-muted); }
+.sx-screen { max-width: 90rem; margin: 0 auto; border: var(--pa-border-width-100) solid var(--pa-border-strong); box-shadow: var(--pa-elevation-raised); overflow: hidden; background: var(--pa-color-background); }
+.sx-body { display: grid; grid-template-columns: auto 1fr; min-block-size: 48rem; }
+.sx-body--plain { grid-template-columns: 1fr; }
+.sx-main { min-inline-size: 0; padding: var(--pa-spacing-lg) var(--pa-spacing-xl) var(--pa-spacing-2xl); display: flex; flex-direction: column; gap: var(--pa-spacing-md); }
+.sx-titlebar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--pa-spacing-md); }
+.sx-feed { display: flex; flex-direction: column; gap: var(--pa-spacing-md); max-inline-size: 52rem; }
+.sx-day { margin: var(--pa-spacing-md) 0 0; font: var(--pa-font-weight-bold) var(--pa-font-size-16)/1 var(--pa-font-family-sans); }
+.sx-split { display: grid; grid-template-columns: minmax(0, 1fr) var(--pa-group-panel-width); align-items: start; }
+.sx-split > .pa-group-panel { position: sticky; top: 0; min-block-size: 48rem; }
+.sx-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr)); gap: var(--pa-spacing-md); }
+.sx-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr)); gap: var(--pa-spacing-md); }
+.sx-filter { align-self: stretch; }
+</style>
+</head>
+<body>
+
+<header class="sx-intro pa-stack pa-gap-sm">
+  <h1 class="cs-title">Signals, put together</h1>
+  <p class="cs-lede">The proposed components from the <a href="contact-sheet.html">contact sheet</a>, composed into three screens with gambling data. It uses header option B (tabs under the sector title, as today), healthy-strip option A, and depth option D (white page, no borders, soft shadows, as the original prototype). Everything here is the draft recipes, so a change to the contact sheet's CSS shows up here on the next build.</p>
+  <nav class="sx-nav" aria-label="Screens"><a href="#feed">Feed</a><a href="#patterns">Patterns, preview open</a><a href="#insights">Insights</a></nav>
+</header>
+
+
+<!-- ======================= FEED ======================= -->
+<p class="sx-label" id="feed">1 · Feed</p>
+<div class="sx-screen">
+  <header class="pa-app-header pa-ground" data-ground="ink"><a class="pa-app-header__brand" href="#feed"><img class="pa-app-header__logo pa-app-header__logo--light" src="../../../pa-design-system/examples/pa-logo.svg" alt="Press Association"><img class="pa-app-header__logo pa-app-header__logo--dark" src="../../../pa-design-system/examples/pa-logo-negative.svg" alt="Press Association"><span class="pa-app-header__rule" aria-hidden="true"></span><span class="pa-app-header__name">Sector Signal</span></a><div class="pa-app-header__account"><span class="pa-avatar pa-avatar--fallback pa-avatar--tint">{{iconc:person:pa-avatar__icon}}</span><span class="pa-app-header__user">Renars F.</span></div></header>
+  <div class="sx-body">
+    <aside class="pa-filter-panel sx-filter" aria-label="Filters">
+      <div class="pa-filter-panel__head"><h2 class="pa-filter-panel__title">Filters</h2><button class="pa-btn pa-btn--ghost pa-btn--compact" type="button">Clear all</button></div>
+      <div class="pa-text-input pa-text-input--search" style="margin-bottom:var(--pa-spacing-md)">{{iconc:search:pa-text-input__icon}}<input class="pa-text-input__field" type="search" aria-label="Search signals" placeholder="Search signals"></div>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Category {{icon:expand_more}}</summary>
+        <div class="pa-filter-panel__content"><fieldset class="pa-checkbox-group"><legend class="pa-visually-hidden">Category</legend>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="f1" checked><label class="pa-label" for="f1">Enforcement action</label></div>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="f2" checked><label class="pa-label" for="f2">Advertising ruling</label></div>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="f3"><label class="pa-label" for="f3">AML and compliance failures</label></div>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="f4"><label class="pa-label" for="f4">Licence change</label></div></fieldset></div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Minimum score {{icon:expand_more}}</summary>
+        <div class="pa-filter-panel__content">{{range:40}}</div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Company / entity {{icon:expand_more}}</summary>
+        <div class="pa-filter-panel__content"><div class="pa-text-input pa-text-input--search">{{iconc:search:pa-text-input__icon}}<input class="pa-text-input__field" type="search" aria-label="Search by company" placeholder="Search by company"></div></div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Published {{icon:expand_more}}</summary>
+        <div class="pa-filter-panel__content"><fieldset class="pa-radio-group"><legend class="pa-visually-hidden">Published</legend>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="g1" name="pub" checked><label class="pa-label" for="g1">All time</label></div>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="g2" name="pub"><label class="pa-label" for="g2">Last 30 days</label></div>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="g3" name="pub"><label class="pa-label" for="g3">Last 7 days</label></div></fieldset></div></details>
+    </aside>
+    <main class="sx-main">
+      <div class="sx-titlebar">
+        <details class="pa-menu"><summary class="pa-menu__trigger" title="Switch sector"><h1 class="pa-menu__title">Gambling</h1><span class="pa-menu__chevron">{{icon:expand_more}}</span></summary></details>
+        <p class="pa-status-line"><span class="pa-status-badge pa-status-badge--success"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 11.6 2.4 8 3.8 6.6 6 8.8l6.2-6.2 1.4 1.4z"/></svg>All sources healthy</span>Updated 2 hours ago · 14/14 sources</p>
+      </div>
+      <div class="pa-tab-row"><nav class="pa-tabs pa-tabs--underline" aria-label="Sections"><ul class="pa-tabs__list"><li><a class="pa-tabs__tab" href="#feed" aria-current="page">Feed</a></li><li><a class="pa-tabs__tab" href="#patterns">Patterns</a></li><li><a class="pa-tabs__tab" href="#patterns">Themes</a></li><li><a class="pa-tabs__tab" href="#insights">Insights</a></li></ul></nav>
+        <div class="pa-tab-row__end"><details class="pa-menu pa-menu--end"><summary class="pa-menu__trigger">{{icon:sort}}<span>Sort by: <span class="pa-menu__inline-value">Most recent</span></span><span class="pa-menu__chevron">{{icon:expand_more}}</span></summary></details></div></div>
+      <p class="pa-status-line">Showing 48 of 352 scored signals.</p>
+
+      <div class="sx-feed">
+        <h2 class="sx-day">Today</h2>
+        <div class="pa-empty-state" role="status"><span class="pa-empty-state__icon">{{icon:inbox}}</span><div class="pa-empty-state__body"><p class="pa-empty-state__title">Nothing new yet today</p><p class="pa-empty-state__text">We check our sources throughout the day, so new signals will appear here as they come in.</p></div></div>
+
+        <h2 class="sx-day">Earlier</h2>
+        <article class="pa-signal-card">
+          <div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span><span class="pa-signal-card__source-name">Gambling Commission</span><time class="pa-signal-card__time">3 days ago</time></div>
+            <span class="pa-meter">{{ring:78}}<span class="pa-meter__label">Highly relevant</span><span class="pa-meter__value">78%</span></span></div>
+          <h3 class="pa-signal-card__headline">Evolution Malta Holding Limited to pay £4.75m</h3>
+          <p class="pa-signal-card__standfirst">A £4.75m Gambling Commission settlement against a major B2B supplier signals heightened scrutiny of game and software providers, not just operators.</p>
+          <p class="pa-signal-card__pattern">Part of a pattern · 6 signals · Very active · see Patterns</p>
+          <div class="pa-signal-card__foot"><span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Evolution Malta Holding</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:gavel}}</span>Enforcement action</span></span><a class="pa-btn pa-btn--ghost pa-btn--compact" href="#feed">Source {{icon:link}}</a></div>
+        </article>
+        <article class="pa-signal-card">
+          <div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">DCMS</span><span class="pa-signal-card__source-name">DCMS</span><time class="pa-signal-card__time">4 days ago</time></div>
+            <span class="pa-meter">{{ring:78}}<span class="pa-meter__label">Highly relevant</span><span class="pa-meter__value">78%</span></span></div>
+          <h3 class="pa-signal-card__headline">Consultation on banning unlicensed gambling sponsorship</h3>
+          <p class="pa-signal-card__standfirst">A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.</p>
+          <div class="pa-signal-card__foot"><span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:account_balance}}</span>Gambling Commission</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:account_balance}}</span>DCMS</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:campaign}}</span>Advertising ruling</span></span><a class="pa-btn pa-btn--ghost pa-btn--compact" href="#feed">Source {{icon:link}}</a></div>
+        </article>
+        <article class="pa-signal-card">
+          <div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">ASA</span><span class="pa-signal-card__source-name">Advertising Standards Authority</span><time class="pa-signal-card__time">6 days ago</time></div>
+            <span class="pa-meter">{{ring:52}}<span class="pa-meter__label">Relevant</span><span class="pa-meter__value">52%</span></span></div>
+          <h3 class="pa-signal-card__headline">ASA upholds complaint against free-bet promotion aimed at under-25s</h3>
+          <p class="pa-signal-card__standfirst">The ruling tightens how operators can use sports personalities in promotions, a recurring theme in this year's rulings.</p>
+          <div class="pa-signal-card__foot"><span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Betfred</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:campaign}}</span>Advertising ruling</span></span><a class="pa-btn pa-btn--ghost pa-btn--compact" href="#feed">Source {{icon:link}}</a></div>
+        </article>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- ======================= PATTERNS ======================= -->
+<p class="sx-label" id="patterns">2 · Patterns, with a pattern open in the preview panel</p>
+<div class="sx-screen">
+  <header class="pa-app-header pa-ground" data-ground="ink"><a class="pa-app-header__brand" href="#feed"><img class="pa-app-header__logo pa-app-header__logo--light" src="../../../pa-design-system/examples/pa-logo.svg" alt="Press Association"><img class="pa-app-header__logo pa-app-header__logo--dark" src="../../../pa-design-system/examples/pa-logo-negative.svg" alt="Press Association"><span class="pa-app-header__rule" aria-hidden="true"></span><span class="pa-app-header__name">Sector Signal</span></a><div class="pa-app-header__account"><span class="pa-avatar pa-avatar--fallback pa-avatar--tint">{{iconc:person:pa-avatar__icon}}</span><span class="pa-app-header__user">Renars F.</span></div></header>
+  <div class="sx-split">
+    <main class="sx-main">
+      <div class="sx-titlebar">
+        <details class="pa-menu"><summary class="pa-menu__trigger" title="Switch sector"><h1 class="pa-menu__title">Gambling</h1><span class="pa-menu__chevron">{{icon:expand_more}}</span></summary></details>
+        <p class="pa-status-line"><span class="pa-status-badge pa-status-badge--success"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 11.6 2.4 8 3.8 6.6 6 8.8l6.2-6.2 1.4 1.4z"/></svg>All sources healthy</span>Updated 2 hours ago · 14/14 sources</p>
+      </div>
+      <div class="pa-tab-row"><nav class="pa-tabs pa-tabs--underline" aria-label="Sections"><ul class="pa-tabs__list"><li><a class="pa-tabs__tab" href="#feed">Feed</a></li><li><a class="pa-tabs__tab" href="#patterns" aria-current="page">Patterns</a></li><li><a class="pa-tabs__tab" href="#patterns">Themes</a></li><li><a class="pa-tabs__tab" href="#insights">Insights</a></li></ul></nav></div>
+      <div class="pa-cluster pa-gap-md"><span class="pa-help"><label class="pa-switch"><input class="pa-switch__input" type="checkbox" role="switch"> Show quieter patterns</label><button class="pa-icon-btn" type="button" aria-label="About quieter patterns">{{icon:help}}</button></span><span class="pa-status-line">8 active patterns of 23.</span></div>
+      <div class="sx-groups">
+        <button class="pa-group-card" type="button" aria-pressed="true">
+          <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span>Evolution</span><span class="pa-meter">{{ring:90}}<span class="pa-meter__label">Very active</span></span></span>
+          <span class="pa-group-card__summary">Settlements and licence reviews against Evolution's UK-facing entities, with two more filings this month.</span>
+          <span class="pa-group-card__meta">6 signals · latest 3 days ago · since 12 May</span>
+          {{sparkline:0,0,1,0,0,2,1,0,3,1,2,4,2,3,1,5,3,4}}
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag pa-tag--plain">Run of filings</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Evolution Malta</span><span class="pa-tag pa-tag--plain">+2 more</span></span>
+        </button>
+        <button class="pa-group-card" type="button" aria-pressed="false">
+          <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">PE</span>Petfre (Gibraltar)</span><span class="pa-meter">{{ring:60}}<span class="pa-meter__label">Active</span></span></span>
+          <span class="pa-group-card__summary">Two enforcement actions in a month for regulatory failures, totalling £900,000.</span>
+          <span class="pa-group-card__meta">3 signals · latest 30 Jun · since 2 Jun</span>
+          {{sparkline:0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0}}
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Petfre (Gibraltar)</span></span>
+        </button>
+        <button class="pa-group-card" type="button" aria-pressed="false">
+          <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EN</span>Entain</span><span class="pa-meter">{{ring:60}}<span class="pa-meter__label">Active</span></span></span>
+          <span class="pa-group-card__meta">5 signals · latest 9 days ago · since 3 Apr</span>
+          {{sparkline:1,0,1,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0}}
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Entain</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Ladbrokes</span></span>
+        </button>
+        <button class="pa-group-card" type="button" aria-pressed="false">
+          <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">FL</span>Flutter</span><span class="pa-meter">{{ring:30}}<span class="pa-meter__label">Quiet</span></span></span>
+          <span class="pa-group-card__meta">4 signals · latest 5 weeks ago · since 14 Feb</span>
+          {{sparkline:2,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0}}
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Flutter</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Paddy Power</span></span>
+        </button>
+      </div>
+    </main>
+    <aside class="pa-group-panel" aria-label="Evolution">
+      <div class="pa-group-panel__head">
+        <div class="pa-group-panel__title-row"><h2 class="pa-group-panel__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span>Evolution</h2><span class="pa-meter">{{ring:90}}<span class="pa-meter__label">Very active</span></span></div>
+        <button class="pa-icon-btn" type="button" aria-label="Close preview">{{icon:close}}</button>
+        <div class="pa-group-panel__body">
+          <p class="pa-group-card__meta">6 signals · latest 3 days ago · since 12 May</p>
+          <details class="pa-group-panel__toggle"><summary>Show summary</summary><ul><li>Two settlements in eight weeks</li><li>Licence review opened in July</li></ul></details>
+          {{sparkline:0,0,1,0,0,2,1,0,3,1,2,4,2,3,1,5,3,4}}
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag pa-tag--plain">Run of filings</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Evolution Malta</span><span class="pa-tag"><span class="pa-tag__icon">{{icon:corporate_fare}}</span>Evolution Gaming</span></span>
+        </div>
+      </div>
+      <h3 class="pa-group-panel__section">Signals (6)</h3>
+      <div class="pa-group-panel__list">
+        <article class="pa-signal-card pa-signal-card--compact"><div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span><span class="pa-signal-card__source-name">Gambling Commission</span><time class="pa-signal-card__time">23 Jul</time></div><span class="pa-meter pa-meter--bare">{{ring:78}}<span class="pa-meter__value">78%</span></span></div><h3 class="pa-signal-card__headline">Evolution Malta Holding Limited to pay £4.75m</h3></article>
+        <article class="pa-signal-card pa-signal-card--compact"><div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">MGA</span><span class="pa-signal-card__source-name">Malta Gaming Authority</span><time class="pa-signal-card__time">2 Jul</time></div><span class="pa-meter pa-meter--bare">{{ring:45}}<span class="pa-meter__value">45%</span></span></div><h3 class="pa-signal-card__headline">Licence review opened for Evolution Gaming</h3></article>
+        <article class="pa-signal-card pa-signal-card--compact"><div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span><span class="pa-signal-card__source-name">Gambling Commission</span><time class="pa-signal-card__time">18 Jun</time></div><span class="pa-meter pa-meter--bare">{{ring:62}}<span class="pa-meter__value">62%</span></span></div><h3 class="pa-signal-card__headline">Evolution Gaming fined for social responsibility failures</h3></article>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ======================= INSIGHTS ======================= -->
+<p class="sx-label" id="insights">3 · Insights</p>
+<div class="sx-screen">
+  <header class="pa-app-header pa-ground" data-ground="ink"><a class="pa-app-header__brand" href="#feed"><img class="pa-app-header__logo pa-app-header__logo--light" src="../../../pa-design-system/examples/pa-logo.svg" alt="Press Association"><img class="pa-app-header__logo pa-app-header__logo--dark" src="../../../pa-design-system/examples/pa-logo-negative.svg" alt="Press Association"><span class="pa-app-header__rule" aria-hidden="true"></span><span class="pa-app-header__name">Sector Signal</span></a><div class="pa-app-header__account"><span class="pa-avatar pa-avatar--fallback pa-avatar--tint">{{iconc:person:pa-avatar__icon}}</span><span class="pa-app-header__user">Renars F.</span></div></header>
+  <div class="sx-body sx-body--plain">
+    <main class="sx-main">
+      <div class="sx-titlebar">
+        <details class="pa-menu"><summary class="pa-menu__trigger" title="Switch sector"><h1 class="pa-menu__title">Gambling</h1><span class="pa-menu__chevron">{{icon:expand_more}}</span></summary></details>
+        <p class="pa-status-line"><span class="pa-status-badge pa-status-badge--success"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 11.6 2.4 8 3.8 6.6 6 8.8l6.2-6.2 1.4 1.4z"/></svg>All sources healthy</span>Updated 2 hours ago · 14/14 sources</p>
+      </div>
+      <div class="pa-tab-row"><nav class="pa-tabs pa-tabs--underline" aria-label="Sections"><ul class="pa-tabs__list"><li><a class="pa-tabs__tab" href="#feed">Feed</a></li><li><a class="pa-tabs__tab" href="#patterns">Patterns</a></li><li><a class="pa-tabs__tab" href="#patterns">Themes</a></li><li><a class="pa-tabs__tab" href="#insights" aria-current="page">Insights</a></li></ul></nav></div>
+      <ul class="pa-stat-grid" role="list">
+        <li class="pa-stat-grid__item pa-stat-grid__item--hero"><span class="pa-stat-grid__value">42</span><span class="pa-stat-grid__label">Signals this week</span><span class="pa-stat-strip__note">+18% on the 4-week average</span></li>
+        <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">17</span><span class="pa-stat-grid__label">High relevance, 30 days</span><span class="pa-stat-strip__note">+4 on the previous 30 days</span></li>
+        <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">8</span><span class="pa-stat-grid__label">Active patterns</span><span class="pa-stat-strip__note">Companies with a run of related signals</span></li>
+        <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">3</span><span class="pa-stat-grid__label">Themes building</span><span class="pa-stat-strip__note">Sector-wide stories gaining pace</span></li>
+        <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">14/14</span><span class="pa-stat-grid__label">Sources healthy</span><span class="pa-stat-strip__note">At the last update</span></li></ul>
+      <section class="pa-chart-card"><header><h3 class="pa-chart-card__title">Signals per week</h3><p class="pa-chart-card__sub">352 signals over 26 weeks · <span class="pa-line-chart__key"></span> week with a signal scoring 75% or more</p></header>
+        {{linechart_plain:6,9,4,12,8,15,11,7,9,18,14,10,8,13,21,16,12,9,14,19,24,17,13,15,20,11}}
+        <details class="pa-chart-card__table"><summary>{{icon:chevron_right}}Show as a table</summary></details></section>
+      <section class="pa-chart-card"><header><h3 class="pa-chart-card__title">What kind of news, week by week</h3><p class="pa-chart-card__sub">Signals per category each week. Darker means more.</p></header>
+        {{heatmap}}
+        <div class="pa-heat-map__legend"><span><span class="pa-heat-map__cell"></span>0</span><span><span class="pa-heat-map__cell" data-step="1"></span>1</span><span><span class="pa-heat-map__cell" data-step="2"></span>2</span><span><span class="pa-heat-map__cell" data-step="3"></span>3–4</span><span><span class="pa-heat-map__cell" data-step="4"></span>5–7</span><span><span class="pa-heat-map__cell" data-step="5"></span>8+</span></div>
+        <details class="pa-chart-card__table"><summary>{{icon:chevron_right}}Show as a table</summary></details></section>
+      <div class="sx-pair">
+        <section class="pa-chart-card"><header><h3 class="pa-chart-card__title">Companies in the news</h3><p class="pa-chart-card__sub">Companies behind the most relevant signals of the last 30 days, ranked by their best score.</p></header>
+          <table class="pa-ranked-table"><thead><tr><th>Company</th><th>18 weeks</th><th>Top</th><th class="is-num">Signals</th><th class="is-num">Change</th></tr></thead><tbody>
+            {{mover:EV:Evolution Malta Holding:0,1,0,2,1,3,2,4,3,5:78:6:+4}}
+            {{mover:PE:Petfre (Gibraltar):0,0,0,1,0,0,2,1,0,1:78:3:+2}}
+            {{mover:EN:Entain:2,1,2,1,1,0,1,2,1,1:64:5:0}}
+            {{mover:FL:Flutter:3,2,4,3,2,2,1,1,0,1:55:4:−3}}
+          </tbody></table></section>
+        <section class="pa-chart-card"><header><h3 class="pa-chart-card__title">Theme momentum</h3><p class="pa-chart-card__sub">How hot each sector-wide theme is, and which way it's heading: signals in the last 28 days against the 28 before.</p></header>
+          <ul class="pa-bar-list">
+            {{bar:Enforcement action:100:trending_up:Building:12 vs 7}}
+            {{bar:Advertising ruling:66:trending_flat:Steady:5 vs 5}}
+            {{bar:Affordability checks:48:trending_up:Building:4 vs 1}}
+            {{bar:Sponsorship:21:trending_down:Easing:1 vs 4}}
+          </ul>
+          <details class="pa-chart-card__table"><summary>{{icon:chevron_right}}Show as a table</summary></details></section>
+      </div>
+    </main>
+  </div>
+</div>
+<div style="block-size:var(--pa-spacing-2xl)"></div>
+</body>
+</html>

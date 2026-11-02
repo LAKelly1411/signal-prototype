@@ -1,0 +1,900 @@
+<!doctype html>
+<!-- SOURCE. Edit this, then run: python3 docs/design/build-contact-sheet.py  (writes contact-sheet.html).
+     View: cd ~/code && python3 -m http.server 4410 --bind 127.0.0.1, then open http://localhost:4410/signals/docs/design/contact-sheet.html -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signals contact sheet</title>
+<!-- PA design system, in the README cascade order. Served from ~/code so both repos resolve. -->
+<link rel="stylesheet" href="../../../pa-design-system/dist/fonts.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/tokens.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/base.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/core.css">
+<link rel="stylesheet" href="../../../pa-design-system/dist/product.css">
+<style>
+/* ================================================================
+   PROPOSED COMPONENT TOKENS (draft)
+   Raw values here would move to tokens/components/<name>.json.
+   Everything below this block binds tokens only.
+   ================================================================ */
+:root {
+  --pa-sparkline-height: 3.5rem;
+  --pa-line-chart-height: 12rem;
+  --pa-score-ring-size: 1.25rem;
+  --pa-avatar-size-xs: 1.5rem; /* 24px: a logo inline with a line of text (source, company, chip) */
+  --pa-heat-map-cell: 1.5rem;
+  --pa-heat-map-label-width: 14rem;
+  --pa-filter-panel-width: 18.75rem;
+  --pa-group-panel-width: 30rem;
+  --pa-menu-min-width: 16rem;
+  --pa-tabs-underline-min-width: 6.875rem; /* 110px, as the signals tabs */
+  --pa-range-thumb: 1rem;
+  --pa-range-track: 0.25rem;
+  --pa-bar-list-bar-height: 0.5rem;
+  --pa-empty-state-icon: 2.5rem;
+  --pa-tooltip-max-width: 18rem;
+  /* Proposed DS change (decision 0002): a resting card has no border and a soft, wide shadow, as the original kit.
+     Ink at 10% / 14%. Would become elevation.card and elevation.card-hover. */
+  --pa-elevation-card: 0 4px 24px rgb(0 0 0 / 0.1);
+  --pa-elevation-card-hover: 0 10px 32px rgb(0 0 0 / 0.14);
+  /* Proposed DS change (breaks decision 0003, "no cobalt on a chart mark"): charts are cobalt.
+     Lines, dots, arcs and bars are Cobalt; ordered fills step from a cobalt tint to Tertiary Blue. */
+  --pa-dataviz-mark: var(--pa-color-cobalt);
+  --pa-dataviz-seq-1: color-mix(in srgb, var(--pa-color-cobalt) 15%, var(--pa-color-white));
+  --pa-dataviz-seq-2: color-mix(in srgb, var(--pa-color-cobalt) 35%, var(--pa-color-white));
+  --pa-dataviz-seq-3: var(--pa-color-tertiary-light-blue);
+  --pa-dataviz-seq-4: var(--pa-color-cobalt);
+  --pa-dataviz-seq-5: var(--pa-color-tertiary-blue);
+}
+
+/* ================================================================
+   CONTACT SHEET CHROME (not proposed for the DS)
+   ================================================================ */
+body { margin: 0; background: var(--pa-color-background); color: var(--pa-color-text);
+  font: var(--pa-typography-app-ui-weight) var(--pa-typography-app-ui-size)/var(--pa-typography-app-ui-leading) var(--pa-typography-app-ui-family); }
+.cs-page { max-width: var(--pa-layout-content-max); margin: 0 auto; padding: var(--pa-spacing-xl) var(--pa-layout-gutter) var(--pa-spacing-2xl); }
+.cs-title { font: var(--pa-typography-app-page-title-weight) var(--pa-typography-app-page-title-size)/var(--pa-typography-app-page-title-leading) var(--pa-typography-app-page-title-family); margin: 0; }
+.cs-lede { max-width: 48rem; color: var(--pa-color-text-muted); margin: 0; }
+.cs-section { margin-top: var(--pa-spacing-2xl); }
+.cs-section__title { font: var(--pa-typography-app-section-title-weight) var(--pa-typography-app-section-title-size)/var(--pa-typography-app-section-title-leading) var(--pa-typography-app-section-title-family); margin: 0 0 var(--pa-spacing-md); padding-bottom: var(--pa-spacing-sm); border-bottom: var(--pa-border-width-200) solid var(--pa-color-text); }
+.cs-entry { border: var(--pa-border-width-100) solid var(--pa-border-color); margin-bottom: var(--pa-spacing-lg); scroll-margin-top: var(--pa-spacing-md); }
+.cs-entry:target { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); }
+.cs-entry__head { display: grid; grid-template-columns: auto 1fr auto; gap: var(--pa-spacing-md); align-items: center; padding: var(--pa-spacing-md); border-bottom: var(--pa-border-width-100) solid var(--pa-border-color); }
+.cs-num { display: inline-grid; place-items: center; min-inline-size: 2.5rem; block-size: 2.5rem; background: var(--pa-color-text); color: var(--pa-color-background);
+  font: var(--pa-typography-app-headline-weight) var(--pa-typography-app-headline-size)/1 var(--pa-typography-app-headline-family); }
+.cs-entry__name { margin: 0; font: var(--pa-typography-app-headline-weight) var(--pa-typography-app-headline-size)/var(--pa-typography-app-headline-leading) var(--pa-typography-app-headline-family); }
+.cs-entry__map { margin: 0; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.cs-entry__map code { color: var(--pa-color-text); }
+.cs-disp { font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/1 var(--pa-typography-app-label-family); letter-spacing: var(--pa-typography-app-label-tracking); text-transform: uppercase; padding: var(--pa-spacing-xs) var(--pa-spacing-sm); border: var(--pa-border-width-200) solid var(--pa-color-text); white-space: nowrap; }
+.cs-disp--new { background: var(--pa-color-text); color: var(--pa-color-background); }
+.cs-disp--extend { background: var(--pa-color-surface); border-color: var(--pa-color-surface); }
+.cs-disp--out { border-style: dashed; color: var(--pa-color-text-muted); border-color: var(--pa-color-text-muted); }
+.cs-stage { display: flex; flex-wrap: wrap; gap: var(--pa-spacing-lg); padding: var(--pa-spacing-lg) var(--pa-spacing-md); }
+.cs-stage--col { display: grid; }
+.cs-var--start { align-items: flex-start; }
+.cs-var { margin: 0; display: flex; flex-direction: column; gap: var(--pa-spacing-sm); min-inline-size: 0; }
+.cs-var--grow { flex: 1 1 28rem; }
+.cs-var figcaption { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.cs-var figcaption b { color: var(--pa-color-text); font-weight: var(--pa-font-weight-regular); text-transform: uppercase; letter-spacing: var(--pa-letter-spacing-caps); }
+.cs-canvas--well { background: var(--pa-color-surface); padding: var(--pa-spacing-md); }
+.cs-notes { margin: 0; padding: var(--pa-spacing-md) var(--pa-spacing-md) var(--pa-spacing-md) var(--pa-spacing-xl); border-top: var(--pa-border-width-100) solid var(--pa-border-color); display: grid; gap: var(--pa-spacing-xs); }
+.cs-notes li b { font-weight: var(--pa-font-weight-regular); text-transform: uppercase; letter-spacing: var(--pa-letter-spacing-caps); font-size: var(--pa-font-size-12); }
+.cs-toc { columns: 3 14rem; padding: 0; list-style: none; margin: var(--pa-spacing-lg) 0 0; }
+.cs-toc li { break-inside: avoid; padding: var(--pa-spacing-xs) 0; }
+.cs-toc a { color: var(--pa-color-action-text); }
+.cs-legend { display: flex; flex-wrap: wrap; gap: var(--pa-spacing-md); align-items: center; margin-top: var(--pa-spacing-md); }
+.cs-conflicts { margin: var(--pa-spacing-lg) 0 0; padding: var(--pa-spacing-md) var(--pa-spacing-lg) var(--pa-spacing-md) var(--pa-spacing-xl); background: var(--pa-color-surface); display: grid; gap: var(--pa-spacing-xs); }
+.cs-w-panel { inline-size: var(--pa-group-panel-width); max-inline-size: 100%; }
+.cs-w-card { inline-size: 46rem; max-inline-size: 100%; }
+.cs-w-half { inline-size: 22rem; max-inline-size: 100%; }
+.cs-hover { box-shadow: var(--pa-elevation-card-hover) !important; transform: translateY(-2px); }
+.cs-tall { min-block-size: 16rem; }
+
+/* ================================================================
+   PROPOSED RECIPES (draft) — token-only, pa- BEM.
+   Each block would become components/<surface>/<name>/<name>.css
+   ================================================================ */
+
+/* ---------- 1. product/signal-card ---------- */
+.pa-signal-card { box-sizing: border-box; display: flex; flex-direction: column; gap: var(--pa-spacing-sm);
+  padding: var(--pa-spacing-lg);
+  background: var(--pa-color-background); border: var(--pa-border-width-100) solid transparent;
+  box-shadow: var(--pa-elevation-card); transition: box-shadow var(--pa-duration-fast) var(--pa-easing-standard), transform var(--pa-duration-fast) var(--pa-easing-standard); }
+.pa-signal-card:hover { box-shadow: var(--pa-elevation-card-hover); transform: translateY(-2px); }
+.pa-signal-card--compact { box-shadow: var(--pa-elevation-flat); border-color: var(--pa-border-color); }
+.pa-signal-card--compact:hover { transform: none; }
+.pa-signal-card--compact:hover { box-shadow: var(--pa-elevation-flat); border-color: var(--pa-border-strong); }
+.pa-signal-card--compact { padding: var(--pa-spacing-md); }
+.pa-signal-card__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--pa-spacing-md); }
+.pa-signal-card__source { display: flex; align-items: center; gap: var(--pa-spacing-sm); min-inline-size: 0; }
+.pa-signal-card__source-name { white-space: nowrap; }
+.pa-signal-card__time { color: var(--pa-color-text-muted); white-space: nowrap;
+  font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-signal-card__headline { margin: var(--pa-spacing-xs) 0 0; font: var(--pa-typography-app-headline-weight) var(--pa-font-size-28)/var(--pa-typography-app-headline-leading) var(--pa-font-family-condensed); letter-spacing: var(--pa-typography-app-headline-tracking); }
+.pa-signal-card--compact .pa-signal-card__headline { font-size: var(--pa-font-size-20); }
+.pa-signal-card__standfirst { margin: 0; max-inline-size: 45rem; font: var(--pa-typography-app-standfirst-weight) var(--pa-typography-app-standfirst-size)/var(--pa-typography-app-standfirst-leading) var(--pa-font-family-sans); }
+.pa-signal-card__pattern { margin: 0; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-signal-card__foot { display: flex; justify-content: space-between; align-items: flex-end; gap: var(--pa-spacing-md); margin-top: var(--pa-spacing-sm); }
+
+/* ---------- 2. product/group-card ---------- */
+.pa-group-card { box-sizing: border-box; display: flex; flex-direction: column; gap: var(--pa-spacing-sm); inline-size: 100%;
+  padding: var(--pa-spacing-lg); text-align: start; color: inherit; font: inherit; cursor: pointer;
+  background: var(--pa-color-background); border: var(--pa-border-width-100) solid transparent;
+  box-shadow: var(--pa-elevation-card); transition: box-shadow var(--pa-duration-fast) var(--pa-easing-standard), transform var(--pa-duration-fast) var(--pa-easing-standard); }
+.pa-group-card:hover { box-shadow: var(--pa-elevation-card-hover); transform: translateY(-2px); }
+.pa-group-card:focus-visible { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); outline-offset: var(--pa-border-width-200); }
+.pa-group-card[aria-pressed="true"] { border-color: var(--pa-color-text); box-shadow: inset 0 0 0 var(--pa-border-width-100) var(--pa-color-text), var(--pa-elevation-card-hover); }
+.pa-group-card__head { display: flex; justify-content: space-between; align-items: center; gap: var(--pa-spacing-md); }
+.pa-group-card__title { display: flex; align-items: center; gap: var(--pa-spacing-sm); margin: 0;
+  font: var(--pa-typography-app-headline-weight) var(--pa-font-size-24)/var(--pa-typography-app-headline-leading) var(--pa-font-family-condensed); }
+.pa-group-card__summary { margin: 0; font: var(--pa-typography-app-standfirst-weight) var(--pa-typography-app-standfirst-size)/var(--pa-typography-app-standfirst-leading) var(--pa-font-family-sans); }
+.pa-group-card__meta { margin: 0; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-group-card__tile { display: inline-grid; place-items: center; inline-size: var(--pa-avatar-size-xs); block-size: var(--pa-avatar-size-xs); background: var(--pa-color-text); color: var(--pa-color-background); flex: none; }
+
+/* ---------- 3. avatar --xs, --initials, --logo (extend) ---------- */
+.pa-avatar--xs { inline-size: var(--pa-avatar-size-xs); block-size: var(--pa-avatar-size-xs); }
+.pa-avatar--xs.pa-avatar--initials { font-size: calc(var(--pa-font-size-12) * 0.833); letter-spacing: var(--pa-letter-spacing-none); } /* 10px, as the app today */
+.pa-avatar--xs.pa-avatar--long { font-size: calc(var(--pa-font-size-12) * 0.667); } /* 8px for 3+ letters (MGA, DCMS), as the app's logoSm */
+.pa-avatar--initials { background: var(--pa-color-text); color: var(--pa-color-background); display: inline-grid; place-items: center; text-transform: uppercase;
+  font: var(--pa-font-weight-bold) var(--pa-font-size-12)/1 var(--pa-font-family-sans); letter-spacing: var(--pa-letter-spacing-caps); }
+.pa-avatar--logo { background: var(--pa-color-background); border: var(--pa-border-width-100) solid var(--pa-border-color); }
+.pa-avatar--logo .pa-avatar__image { object-fit: contain; }
+
+/* ---------- 5. product/meter (score ring + activity, merged) ---------- */
+.pa-meter { display: inline-flex; align-items: center; gap: var(--pa-spacing-sm); padding: var(--pa-spacing-xs) var(--pa-spacing-sm); background: var(--pa-color-surface); white-space: nowrap; }
+.pa-meter--bare { background: none; padding: 0; }
+.pa-meter__ring { inline-size: var(--pa-score-ring-size); block-size: var(--pa-score-ring-size); flex: none; transform: rotate(-90deg); }
+.pa-meter__track { fill: none; stroke: var(--pa-dataviz-seq-1); stroke-width: 5; }
+.pa-meter__arc { fill: none; stroke: var(--pa-dataviz-mark); stroke-width: 5; }
+.pa-meter__label { font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; }
+.pa-meter__value { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+
+/* ---------- 6. product/sparkline ---------- */
+.pa-sparkline { box-sizing: border-box; display: grid; gap: var(--pa-spacing-xs); inline-size: 100%; padding-inline-end: calc(var(--pa-spacing-sm) / 2); } /* room for the end dot, so it never pokes past the card's padding */
+.pa-sparkline__plot { position: relative; block-size: var(--pa-sparkline-height); }
+.pa-sparkline__svg { display: block; inline-size: 100%; block-size: 100%; overflow: visible; }
+.pa-sparkline__grid { stroke: var(--pa-border-color); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.pa-sparkline__area { fill: var(--pa-dataviz-mark); fill-opacity: 0.08; }
+.pa-sparkline__line { fill: none; stroke: var(--pa-dataviz-mark); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.pa-sparkline__line--quiet { stroke: var(--pa-dataviz-seq-2); }
+.pa-sparkline__dot { position: absolute; inset-inline-end: 0; inline-size: var(--pa-spacing-sm); block-size: var(--pa-spacing-sm); background: var(--pa-dataviz-mark); box-shadow: 0 0 0 var(--pa-border-width-200) var(--pa-color-background); transform: translate(50%, 50%); }
+.pa-sparkline__dot--quiet { background: var(--pa-dataviz-seq-2); }
+.pa-sparkline__guide { position: absolute; inset-block: 0; inline-size: 1px; background: var(--pa-border-strong); }
+.pa-sparkline__axis { display: flex; justify-content: space-between; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+
+/* ---------- 9. product/menu ---------- */
+.pa-menu { position: relative; display: inline-block; }
+.pa-menu__trigger { display: inline-flex; align-items: center; gap: var(--pa-spacing-xs); cursor: pointer; list-style: none; color: var(--pa-color-text); }
+.pa-menu__trigger::-webkit-details-marker { display: none; }
+.pa-menu__trigger:hover .pa-menu__chevron, .pa-menu__trigger:focus-visible .pa-menu__chevron { color: var(--pa-color-action-text); }
+.pa-menu__trigger:focus-visible { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); outline-offset: var(--pa-border-width-200); }
+.pa-menu__title { margin: 0; font: var(--pa-typography-app-page-title-weight) var(--pa-typography-app-page-title-size)/var(--pa-typography-app-page-title-leading) var(--pa-font-family-condensed); }
+.pa-menu__chevron { color: var(--pa-color-action-text); transition: transform var(--pa-duration-fast) var(--pa-easing-standard); }
+.pa-menu[open] .pa-menu__chevron { transform: rotate(180deg); }
+.pa-menu__list { position: absolute; inset-block-start: calc(100% + var(--pa-spacing-xs)); inset-inline-start: 0; z-index: 2; min-inline-size: var(--pa-menu-min-width);
+  margin: 0; padding: var(--pa-spacing-xs) 0; list-style: none; background: var(--pa-color-background);
+  border: var(--pa-border-width-100) solid var(--pa-border-color); box-shadow: var(--pa-elevation-overlay); }
+.pa-menu--end .pa-menu__list { inset-inline: auto 0; }
+.pa-menu--static .pa-menu__list { position: static; margin-top: var(--pa-spacing-xs); }
+.pa-menu__item { display: grid; grid-template-columns: var(--pa-spacing-lg) 1fr auto; align-items: center; gap: var(--pa-spacing-sm);
+  padding: var(--pa-spacing-sm) var(--pa-spacing-md); color: var(--pa-color-text); text-decoration: none; }
+.pa-menu__item:hover, .pa-menu__item.is-active { background: var(--pa-color-surface); }
+.pa-menu__tick { visibility: hidden; color: var(--pa-color-text); }
+.pa-menu__item[aria-current] .pa-menu__tick { visibility: visible; }
+.pa-menu__note { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+.pa-menu__inline-value { font-weight: var(--pa-font-weight-regular); }
+
+/* ---------- 10. tabs __end slot (extend) ---------- */
+.pa-tab-row { display: flex; align-items: end; justify-content: space-between; gap: var(--pa-spacing-md); border-bottom: var(--pa-border-width-100) solid var(--pa-border-color); }
+.pa-tab-row > .pa-tabs { margin-bottom: calc(-1 * var(--pa-border-width-100)); }
+.pa-tab-row__end { padding-bottom: var(--pa-spacing-sm); }
+/* tabs --underline (extend): the signals design. Sentence case, centred, current = Bold + 2px cobalt underline on the row's rule. */
+.pa-tabs--underline .pa-tabs__list { gap: 0; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.pa-tabs--underline .pa-tabs__tab { block-size: auto; min-inline-size: var(--pa-tabs-underline-min-width); padding: var(--pa-spacing-sm) var(--pa-spacing-sm);
+  font-family: var(--pa-typography-app-ui-family); font-size: var(--pa-font-size-16); font-weight: var(--pa-font-weight-regular); line-height: var(--pa-line-height-125);
+  letter-spacing: normal; text-transform: none; color: var(--pa-color-text); border-bottom: var(--pa-border-width-200) solid transparent; }
+.pa-tabs--underline .pa-tabs__tab:hover { background-color: var(--pa-color-surface); color: var(--pa-color-text); }
+.pa-tabs--underline .pa-tabs__tab:focus-visible { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); outline-offset: calc(-1 * var(--pa-border-width-200)); }
+.pa-tabs--underline .pa-tabs__tab[aria-current="page"], .pa-tabs--underline .pa-tabs__tab[aria-selected="true"] {
+  background-color: transparent; color: var(--pa-color-text); font-weight: var(--pa-font-weight-bold); border-bottom-color: var(--pa-color-action); }
+
+/* ---------- 11. status-strip --neutral + __details (extend) ---------- */
+.pa-status-line { display: flex; flex-wrap: wrap; align-items: center; gap: var(--pa-spacing-sm); margin: 0; color: var(--pa-color-text-muted);
+  font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-status-strip__details { margin-top: var(--pa-spacing-xs); }
+.pa-status-strip__details summary { cursor: pointer; color: var(--pa-color-action-text); list-style: none; display: inline-flex; align-items: center; gap: var(--pa-spacing-xs); }
+.pa-status-strip__details summary::-webkit-details-marker { display: none; }
+.pa-status-strip__details[open] summary .pa-icon { transform: rotate(90deg); }
+.pa-status-strip__details p { margin: var(--pa-spacing-xs) 0 0; padding-inline-start: var(--pa-spacing-lg); }
+
+/* ---------- 13. product/empty-state ---------- */
+.pa-empty-state { display: grid; grid-template-columns: auto 1fr; gap: var(--pa-spacing-md); align-items: start; padding: var(--pa-spacing-lg); background: var(--pa-color-surface); box-shadow: var(--pa-elevation-flat); }
+.pa-empty-state__icon { display: grid; place-items: center; inline-size: var(--pa-empty-state-icon); block-size: var(--pa-empty-state-icon); background: var(--pa-color-background); --pa-icon-size: var(--pa-spacing-lg); }
+.pa-empty-state__body { display: flex; flex-direction: column; align-items: flex-start; gap: var(--pa-spacing-xs); }
+.pa-empty-state__title { margin: 0; font: var(--pa-typography-app-headline-weight) var(--pa-font-size-20)/var(--pa-typography-app-headline-leading) var(--pa-font-family-condensed); }
+.pa-empty-state__text { margin: 0; color: var(--pa-color-text-muted); max-inline-size: 36rem; }
+.pa-empty-state__action { margin-top: var(--pa-spacing-sm); }
+
+/* ---------- 14. product/filter-panel ---------- */
+.pa-filter-panel { box-sizing: border-box; inline-size: var(--pa-filter-panel-width); max-inline-size: 100%; background: var(--pa-color-background); border-inline-end: var(--pa-border-width-100) solid var(--pa-border-color); padding: var(--pa-spacing-lg) var(--pa-spacing-md); }
+.pa-filter-panel__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--pa-spacing-md); }
+.pa-filter-panel__title { margin: 0; font: var(--pa-typography-app-section-title-weight) var(--pa-typography-app-section-title-size)/var(--pa-typography-app-section-title-leading) var(--pa-font-family-condensed); }
+.pa-filter-panel__section { border-top: var(--pa-border-width-100) solid var(--pa-border-color); padding: var(--pa-spacing-md) 0; }
+.pa-filter-panel__summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none;
+  font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; }
+.pa-filter-panel__summary::-webkit-details-marker { display: none; }
+.pa-filter-panel__summary .pa-icon { transition: transform var(--pa-duration-fast) var(--pa-easing-standard); }
+.pa-filter-panel__section:not([open]) .pa-filter-panel__summary .pa-icon { transform: rotate(-90deg); }
+.pa-filter-panel__content { padding-top: var(--pa-spacing-md); display: flex; flex-direction: column; gap: var(--pa-spacing-sm); }
+
+/* ---------- 15. core/range ---------- */
+.pa-range { display: grid; gap: var(--pa-spacing-xs); --pa-range-value: 50%; }
+.pa-range__value { justify-self: start; margin-inline-start: clamp(0%, calc(var(--pa-range-value) - var(--pa-spacing-sm)), calc(100% - var(--pa-spacing-lg)));
+  font: var(--pa-typography-control-label-weight) var(--pa-typography-control-label-size)/1 var(--pa-typography-control-label-family); }
+.pa-range__input { appearance: none; -webkit-appearance: none; inline-size: 100%; block-size: var(--pa-range-thumb); margin: 0; background: transparent; cursor: pointer; }
+.pa-range__input::-webkit-slider-runnable-track { block-size: var(--pa-range-track); background: linear-gradient(to right, var(--pa-color-action) var(--pa-range-value), var(--pa-color-surface-strong) var(--pa-range-value)); }
+.pa-range__input::-moz-range-track { block-size: var(--pa-range-track); background: var(--pa-color-surface-strong); }
+.pa-range__input::-moz-range-progress { block-size: var(--pa-range-track); background: var(--pa-color-action); }
+.pa-range__input::-webkit-slider-thumb { -webkit-appearance: none; inline-size: var(--pa-range-thumb); block-size: var(--pa-range-thumb); margin-top: calc((var(--pa-range-track) - var(--pa-range-thumb)) / 2); background: var(--pa-color-action); border: 0; border-radius: var(--pa-radius-control); }
+.pa-range__input::-moz-range-thumb { inline-size: var(--pa-range-thumb); block-size: var(--pa-range-thumb); background: var(--pa-color-action); border: 0; border-radius: var(--pa-radius-control); }
+.pa-range__input:hover::-webkit-slider-thumb { background: var(--pa-color-action-hover); }
+.pa-range__input:focus-visible { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); outline-offset: var(--pa-border-width-200); }
+.pa-range__scale { display: flex; justify-content: space-between; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+
+/* ---------- 16. core/combobox ---------- */
+.pa-combobox { position: relative; }
+.pa-combobox__list { margin: var(--pa-spacing-xs) 0 0; padding: var(--pa-spacing-xs) 0; list-style: none; background: var(--pa-color-background); border: var(--pa-border-width-100) solid var(--pa-border-color); box-shadow: var(--pa-elevation-overlay); }
+.pa-combobox__option { display: flex; justify-content: space-between; gap: var(--pa-spacing-sm); padding: var(--pa-spacing-sm) var(--pa-spacing-md); cursor: pointer; }
+.pa-combobox__option[aria-selected="true"], .pa-combobox__option:hover { background: var(--pa-color-surface); }
+.pa-combobox__count { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-ui-leading) var(--pa-typography-app-meta-family); }
+.pa-combobox__chosen { list-style: none; margin: var(--pa-spacing-sm) 0 0; padding: 0; display: grid; gap: var(--pa-spacing-xs); }
+.pa-combobox__chip { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--pa-spacing-sm); }
+.pa-icon-btn { display: inline-grid; place-items: center; inline-size: var(--pa-button-compact-height); block-size: var(--pa-button-compact-height); padding: 0; border: 0; background: none; color: var(--pa-color-action-text); cursor: pointer; }
+.pa-icon-btn:hover { background: var(--pa-color-surface); color: var(--pa-color-text); }
+.pa-icon-btn:focus-visible { outline: var(--pa-border-width-200) solid var(--pa-color-focus-ring); outline-offset: calc(-1 * var(--pa-border-width-200)); }
+
+/* ---------- 18. core/tooltip ---------- */
+.pa-tooltip { display: inline-grid; gap: var(--pa-spacing-xs); max-inline-size: var(--pa-tooltip-max-width); padding: var(--pa-spacing-xs) var(--pa-spacing-sm);
+  background: var(--pa-color-surface); color: var(--pa-color-text); box-shadow: var(--pa-elevation-overlay);
+  font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-tooltip__value { font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; }
+.pa-help { display: inline-flex; align-items: center; gap: var(--pa-spacing-sm); }
+.pa-help__anchor { position: relative; display: inline-flex; }
+
+/* ---------- 19. stat-strip --hero/__note (extend) ---------- */
+.pa-stat-strip__note { display: block; margin-top: var(--pa-spacing-xs); color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/var(--pa-typography-app-meta-leading) var(--pa-typography-app-meta-family); }
+.pa-stat-grid { list-style: none; margin: 0; padding: 0; background: var(--pa-color-background); display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); border: var(--pa-border-width-100) solid transparent; border-inline-start: var(--pa-border-keyline-lg) solid var(--pa-color-text);  box-shadow: var(--pa-elevation-card); }
+.pa-stat-grid__item { padding: var(--pa-spacing-md) var(--pa-spacing-lg); border-inline-start: var(--pa-border-width-100) solid var(--pa-border-color); display: flex; flex-direction: column; }
+.pa-stat-grid__item:first-child { border-inline-start: 0; }
+.pa-stat-grid__label { order: -1; font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; }
+.pa-stat-grid__value { font: var(--pa-typography-app-page-title-weight) var(--pa-typography-app-page-title-size)/var(--pa-typography-app-page-title-leading) var(--pa-font-family-condensed); }
+.pa-stat-grid__item--hero { background: var(--pa-color-text); color: var(--pa-color-background); }
+.pa-stat-grid__item--hero .pa-stat-strip__note { color: inherit; }
+
+/* ---------- 20. product/chart-card ---------- */
+.pa-chart-card { box-sizing: border-box; display: flex; flex-direction: column; gap: var(--pa-spacing-md); padding: var(--pa-spacing-lg); border: var(--pa-border-width-100) solid transparent; background: var(--pa-color-background);  box-shadow: var(--pa-elevation-card); }
+.pa-chart-card__title { margin: 0; font: var(--pa-typography-app-section-title-weight) var(--pa-typography-app-section-title-size)/var(--pa-typography-app-section-title-leading) var(--pa-font-family-condensed); }
+.pa-chart-card__sub { margin: var(--pa-spacing-xs) 0 0; color: var(--pa-color-text-muted); max-inline-size: 48rem; }
+.pa-chart-card__table summary { cursor: pointer; color: var(--pa-color-action-text); display: inline-flex; align-items: center; gap: var(--pa-spacing-xs); list-style: none;
+  font: var(--pa-typography-control-label-weight) var(--pa-typography-control-label-size)/1 var(--pa-typography-control-label-family); }
+.pa-chart-card__table summary::-webkit-details-marker { display: none; }
+.pa-chart-card__table[open] summary .pa-icon { transform: rotate(90deg); }
+.pa-data-table { border-collapse: collapse; margin-top: var(--pa-spacing-sm); inline-size: 100%; }
+.pa-data-table th, .pa-data-table td { text-align: start; padding: var(--pa-spacing-xs) var(--pa-spacing-sm); border-bottom: var(--pa-border-width-100) solid var(--pa-border-color); }
+.pa-data-table th { font-weight: var(--pa-font-weight-regular); color: var(--pa-color-text-muted); }
+.pa-data-table td.is-num, .pa-data-table th.is-num { text-align: end; font-variant-numeric: tabular-nums; }
+
+/* ---------- 21. product/line-chart ---------- */
+.pa-line-chart { display: grid; grid-template-columns: auto 1fr; gap: var(--pa-spacing-sm); }
+.pa-line-chart__y { position: relative; inline-size: var(--pa-spacing-lg); color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+.pa-line-chart__y span { position: absolute; inset-inline-end: 0; transform: translateY(50%); }
+.pa-line-chart__plot { position: relative; block-size: var(--pa-line-chart-height); }
+.pa-line-chart__svg { display: block; inline-size: 100%; block-size: 100%; overflow: visible; }
+.pa-line-chart__grid { stroke: var(--pa-border-color); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.pa-line-chart__base { stroke: var(--pa-color-text); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.pa-line-chart__area { fill: var(--pa-dataviz-mark); fill-opacity: 0.08; }
+.pa-line-chart__line { fill: none; stroke: var(--pa-dataviz-mark); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.pa-line-chart__mark { position: absolute; inline-size: var(--pa-spacing-sm); block-size: var(--pa-spacing-sm); background: var(--pa-dataviz-mark); box-shadow: 0 0 0 var(--pa-border-width-200) var(--pa-color-background); transform: translate(-50%, 50%); }
+.pa-line-chart__key { display: inline-block; inline-size: var(--pa-spacing-sm); block-size: var(--pa-spacing-sm); background: var(--pa-dataviz-mark); vertical-align: middle; }
+.pa-line-chart__guide { position: absolute; inset-block: 0; inline-size: 1px; background: var(--pa-border-strong); }
+.pa-line-chart__tip { position: absolute; inset-block-start: 0; margin-inline-start: var(--pa-spacing-sm); }
+.pa-line-chart__hdot { position: absolute; inline-size: var(--pa-spacing-sm); block-size: var(--pa-spacing-sm); background: var(--pa-dataviz-mark); box-shadow: 0 0 0 var(--pa-border-width-200) var(--pa-color-background); transform: translate(-50%, 50%); }
+.pa-line-chart__x { position: relative; block-size: var(--pa-spacing-md); grid-column: 2; color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+.pa-line-chart__x span { position: absolute; top: var(--pa-spacing-xs); }
+
+/* ---------- 22. product/heat-map ---------- */
+.pa-heat-map { display: grid; gap: var(--pa-border-width-200); overflow-x: auto; }
+.pa-heat-map__row { display: grid; grid-template-columns: var(--pa-heat-map-label-width) repeat(var(--weeks), var(--pa-heat-map-cell)) var(--pa-spacing-xl); gap: var(--pa-border-width-200); align-items: center; }
+.pa-heat-map__name { display: flex; align-items: center; gap: var(--pa-spacing-sm); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pa-heat-map__cell { block-size: var(--pa-heat-map-cell); background: var(--pa-color-background); box-shadow: inset 0 0 0 1px var(--pa-border-color); }
+.pa-heat-map__cell[data-step]:not([data-step="0"]) { box-shadow: none; }
+.pa-heat-map__cell[data-step="1"] { background: var(--pa-dataviz-seq-1); }
+.pa-heat-map__cell[data-step="2"] { background: var(--pa-dataviz-seq-2); }
+.pa-heat-map__cell[data-step="3"] { background: var(--pa-dataviz-seq-3); }
+.pa-heat-map__cell[data-step="4"] { background: var(--pa-dataviz-seq-4); }
+.pa-heat-map__cell[data-step="5"] { background: var(--pa-dataviz-seq-5); }
+.pa-heat-map__cell:hover { outline: var(--pa-border-width-200) solid var(--pa-color-text); outline-offset: var(--pa-border-width-100); }
+.pa-heat-map__month, .pa-heat-map__total { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+.pa-heat-map__total { text-align: end; font-variant-numeric: tabular-nums; color: var(--pa-color-text); }
+.pa-heat-map__legend { display: flex; flex-wrap: wrap; gap: var(--pa-spacing-md); color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+.pa-heat-map__legend span { display: inline-flex; align-items: center; gap: var(--pa-spacing-xs); }
+.pa-heat-map__legend .pa-heat-map__cell { inline-size: var(--pa-spacing-md); block-size: var(--pa-spacing-md); }
+
+/* ---------- 23. product/ranked-table ---------- */
+.pa-ranked-table { inline-size: 100%; border-collapse: collapse; }
+.pa-ranked-table th { text-align: start; font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; padding: var(--pa-spacing-xs) var(--pa-spacing-sm); border-bottom: var(--pa-border-width-200) solid var(--pa-color-text); }
+.pa-ranked-table td { padding: var(--pa-spacing-sm); border-bottom: var(--pa-border-width-100) solid var(--pa-border-color); vertical-align: middle; }
+.pa-ranked-table .is-num { text-align: end; font-variant-numeric: tabular-nums; }
+.pa-ranked-table__name { display: flex; align-items: center; gap: var(--pa-spacing-sm); }
+.pa-ranked-table__spark { inline-size: 6rem; block-size: var(--pa-spacing-lg); display: block; }
+.pa-ranked-table__spark polyline { fill: none; stroke: var(--pa-dataviz-mark); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+
+/* ---------- 24. product/bar-list ---------- */
+.pa-bar-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--pa-spacing-sm); }
+.pa-bar-list__row { display: grid; grid-template-columns: minmax(8rem, 12rem) 1fr minmax(9rem, auto); gap: var(--pa-spacing-md); align-items: center; }
+.pa-bar-list__bar { display: flex; align-items: center; gap: var(--pa-spacing-sm); block-size: var(--pa-bar-list-bar-height); border-inline-start: 1px solid var(--pa-color-text); }
+.pa-bar-list__bar span { display: block; block-size: 100%; background: var(--pa-dataviz-mark); }
+.pa-bar-list__bar b { font-weight: var(--pa-font-weight-regular); font-variant-numeric: tabular-nums; color: var(--pa-color-text-muted); font-size: var(--pa-font-size-13); }
+.pa-bar-list__dir { display: inline-flex; align-items: center; gap: var(--pa-spacing-xs); white-space: nowrap; }
+.pa-bar-list__counts { color: var(--pa-color-text-muted); font: var(--pa-typography-app-meta-weight) var(--pa-typography-app-meta-size)/1 var(--pa-typography-app-meta-family); }
+
+/* ---------- 25. product/group-panel ---------- */
+.pa-group-panel { box-sizing: border-box; display: flex; flex-direction: column; background: var(--pa-color-background); border-inline-start: var(--pa-border-width-100) solid var(--pa-border-color); box-shadow: var(--pa-elevation-overlay); }
+.pa-group-panel__head { display: grid; grid-template-columns: 1fr auto; gap: var(--pa-spacing-sm); padding: var(--pa-spacing-lg); border-bottom: var(--pa-border-width-100) solid var(--pa-border-color); }
+.pa-group-panel__body { display: flex; flex-direction: column; gap: var(--pa-spacing-sm); grid-column: 1 / -1; }
+.pa-group-panel__title-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--pa-spacing-sm); }
+.pa-group-panel__title { margin: 0; display: flex; align-items: center; gap: var(--pa-spacing-sm); font: var(--pa-typography-app-headline-weight) var(--pa-typography-app-headline-size)/var(--pa-typography-app-headline-leading) var(--pa-font-family-condensed); }
+.pa-group-panel__section { margin: 0; padding: var(--pa-spacing-md) var(--pa-spacing-lg) var(--pa-spacing-sm); font: var(--pa-typography-app-label-weight) var(--pa-typography-app-label-size)/var(--pa-typography-app-label-leading) var(--pa-font-family-sans); letter-spacing: normal; }
+.pa-group-panel__list { display: flex; flex-direction: column; gap: var(--pa-spacing-sm); padding: 0 var(--pa-spacing-lg) var(--pa-spacing-lg); }
+.pa-group-panel__toggle summary { cursor: pointer; color: var(--pa-color-action-text); list-style: none; font: var(--pa-typography-control-label-weight) var(--pa-typography-control-label-size)/1 var(--pa-typography-control-label-family); }
+.pa-group-panel__toggle summary::-webkit-details-marker { display: none; }
+.pa-group-panel__toggle ul { margin: var(--pa-spacing-sm) 0 0; padding-inline-start: var(--pa-spacing-md); }
+
+/* ---------- Baselines: text beside text shares a baseline.
+   Rows of a logo or icon + words are inline text, not flex: the words sit on one baseline and the logo is
+   centred on the capitals, the way core/icon centres an icon (vertical-align: 0.5cap - size/2).
+   (Fold each line into its component's recipe when it moves to the DS.) ---------- */
+@property --pa-inline-cap { syntax: '<length>'; inherits: true; initial-value: 0px; }
+.pa-signal-card__source, .pa-group-card__title, .pa-group-panel__title, .pa-bar-list__dir { display: block; white-space: nowrap; --pa-inline-cap: 1cap; }
+.pa-signal-card__source { overflow: hidden; text-overflow: ellipsis; }
+/* The row's cap height, measured on the row (not the logo, whose initials are smaller), centres the logo on the words' capitals. */
+.pa-signal-card__source > .pa-avatar, .pa-group-card__title > :is(.pa-avatar, .pa-group-card__tile), .pa-group-panel__title > .pa-avatar {
+  vertical-align: calc(var(--pa-inline-cap) / 2 - var(--pa-avatar-size-xs) / 2); margin-inline-end: var(--pa-spacing-sm); }
+/* An xs avatar is an inline block, so its baseline is its bottom edge and the centring above holds for initials as for images. */
+.pa-avatar--xs { display: inline-block; line-height: var(--pa-avatar-size-xs); text-align: center; vertical-align: middle; }
+.pa-avatar--xs .pa-avatar__image { display: block; }
+.pa-signal-card__time { margin-inline-start: var(--pa-spacing-sm); }
+.pa-bar-list__dir > .pa-icon { margin-inline-end: var(--pa-spacing-xs); }
+/* Rows of separate text items line up on their baselines; icons and rings in them centre. */
+.pa-signal-card__head, .pa-group-card__head, .pa-group-panel__title-row,
+.pa-meter, .pa-combobox__option, .pa-status-line, .pa-filter-panel__head, .pa-menu__trigger,
+.pa-menu__item, .pa-bar-list__row { align-items: baseline; }
+.pa-meter__ring, .pa-menu__tick, .pa-menu__trigger > .pa-icon, .pa-menu__chevron, .pa-bar-list__bar { align-self: center; }
+.pa-signal-card__foot { align-items: baseline; }
+/* Proposed fix to core/tag and core/status-badge: they centre their parts, so their baseline came from the icon, and the word sat 1-3px off text beside it.
+   Now the word sets the baseline; its line is as tall as the tag, so it stays centred, and the icon still centres. They look the same. */
+.pa-tag { align-items: baseline; line-height: var(--pa-tag-block-size); }
+.pa-tag__icon { align-self: center; }
+.pa-status-badge { align-items: baseline; }
+.pa-status-badge svg { align-self: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pa-signal-card, .pa-group-card, .pa-menu__chevron, .pa-filter-panel__summary .pa-icon { transition: none; }
+}
+</style>
+</head>
+<body>
+<main class="cs-page">
+
+<header class="pa-stack pa-gap-sm">
+  <h1 class="cs-title">Signals → PA design system: contact sheet</h1>
+  <p class="cs-lede">Every component in <code>signals/web/components</code>, drawn with the PA design system (v0.17.0) so you can refine it before it's componentised. Where the DS already has the component, the real DS class is used. Where it doesn't, a draft <code>pa-</code> recipe below binds tokens only. Each entry is numbered, so you can say "change 7".</p>
+  <div class="cs-legend">
+    <span class="cs-disp">Reuse</span> use the existing DS component as-is
+    <span class="cs-disp cs-disp--extend">Extend</span> add a variant or part to a DS component
+    <span class="cs-disp cs-disp--new">New</span> a new DS component (draft recipe here)
+    <span class="cs-disp cs-disp--out">Out of scope</span>
+  </div>
+  <ol class="cs-conflicts">
+    <li><b>Charts stay cobalt, which breaks a DS rule.</b> Decision 0003 says "no cobalt on a chart mark" because cobalt means clickable. The relevance ring, activity pill, sparklines, weekly line, heat map and theme bars are drawn in cobalt by choice. Taking this into the DS needs 0003 changed first. The proposal adds <code>dataviz.mark</code> (Cobalt) and <code>dataviz.seq-1…5</code> (a cobalt tint up to Tertiary Blue), so the charts no longer use hand-picked hex values.</li>
+    <li><b>Depth: soft shadows and no borders, as the original prototype, which changes a DS rule.</b> Cards are white on a white page with no hairline, and carry a wide soft shadow (proposed <code>elevation.card</code>, Ink 10%). On hover they lift 2px to <code>elevation.card-hover</code> (Ink 14%). Decision 0002 says every surface keeps its border and resting cards are flat, so it needs a rule change and two new tokens.</li>
+    <li><b>Bold Press Sans at small sizes.</b> Source names stay Regular, but labels, the meter word and table headers are Press Sans Bold at 15–16px, as today. The DS allows Bold Press Sans only from 24px, and sets small labels in condensed caps.</li>
+    <li><b>Headings condensed; everything else Press Sans, no serif.</b> Headings (page and section titles, card headlines, figures) stay Press Sans Condensed Bold, as the DS does. Labels, table headers and body text are Press Sans: Bold for labels in sentence case, Regular for body. The DS sets labels in condensed caps and editorial body text in the Frame Text serif, so that part is a signals change.</li>
+    <li><b>Icons</b> become Material Symbols <b>Sharp 600</b> through <code>pa-icon</code>, in place of the mixed inline paths in <code>Glyph.tsx</code> and <code>Icon.tsx</code>.</li>
+    <li><b>No orange tag, no green strip.</b> The DS dropped the coloured "accent" tag (decision 0007) and has no success strip by design. Both are shown below as options for you to decide.</li>
+  </ol>
+  <ol class="cs-toc">
+    <li><a href="#e1">1. Signal card</a></li><li><a href="#e2">2. Group card (pattern / theme)</a></li><li><a href="#e3">3. Source and company logo</a></li><li><a href="#e4">4. Tag (entity, category, overflow)</a></li><li><a href="#e5">5. Meter (relevance + activity)</a></li><li><a href="#e6">6. Sparkline</a></li><li><a href="#e7">7. Icons</a></li><li><a href="#e8">8. App header (masthead)</a></li><li><a href="#e9">9. Menu (sector switcher, sort)</a></li><li><a href="#e10">10. Section tabs + end slot</a></li><li><a href="#e11">11. Source health strip</a></li><li><a href="#e12">12. Update notice</a></li><li><a href="#e13">13. Empty state</a></li><li><a href="#e14">14. Filter panel</a></li><li><a href="#e15">15. Range slider</a></li><li><a href="#e16">16. Combobox (company search)</a></li><li><a href="#e17">17. Switch with help</a></li><li><a href="#e18">18. Tooltip</a></li><li><a href="#e19">19. Headline figures</a></li><li><a href="#e20">20. Chart card + table view</a></li><li><a href="#e21">21. Weekly volume (line chart)</a></li><li><a href="#e22">22. Category heat map</a></li><li><a href="#e23">23. Companies in the news (ranked table)</a></li><li><a href="#e24">24. Theme momentum (bar list)</a></li><li><a href="#e25">25. Group preview panel</a></li><li><a href="#e26">26. Login art</a></li>
+  </ol>
+</header>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="cards">
+<h2 class="cs-section__title">A · Cards</h2>
+
+<article class="cs-entry" id="e1" data-name="Signal card">
+  <header class="cs-entry__head"><span class="cs-num">1</span>
+    <div><h3 class="cs-entry__name">Signal card</h3><p class="cs-entry__map"><code>SignalCard.tsx</code> + <code>card.module.css</code> → <code>product/signal-card</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage cs-stage--col">
+    <figure class="cs-var"><div class="cs-w-card">
+      <article class="pa-signal-card" aria-labelledby="sc1">
+        <div class="pa-signal-card__head">
+          <div class="pa-signal-card__source">
+            <span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span>
+            <span class="pa-signal-card__source-name">Gambling Commission</span>
+            <time class="pa-signal-card__time" datetime="2026-07-23">3 days ago</time>
+          </div>
+          <span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__label">Highly relevant</span><span class="pa-meter__value">78%</span></span>
+        </div>
+        <h3 class="pa-signal-card__headline" id="sc1">Evolution Malta Holding Limited to pay £4.75m</h3>
+        <p class="pa-signal-card__standfirst">A £4.75m Gambling Commission settlement against a major B2B supplier signals heightened scrutiny of game and software providers, not just operators.</p>
+        <p class="pa-signal-card__pattern">Part of a pattern · 6 signals · Very active · see Patterns</p>
+        <div class="pa-signal-card__foot">
+          <span class="pa-cluster pa-gap-sm">
+            <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Malta Holding</span>
+            <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg></span>Enforcement action</span>
+          </span>
+          <a class="pa-btn pa-btn--ghost pa-btn--compact" href="#e1">Source <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M431.52-260.78H280q-90.98 0-155.1-64.11Q60.78-389 60.78-479.96q0-90.95 64.12-155.11 64.12-64.15 155.1-64.15h151.52v106H280.24q-47.27 0-80.36 33.02-33.1 33.03-33.1 80.2t33.1 80.2q33.09 33.02 80.36 33.02h151.28v106ZM307-435.48v-89.04h346v89.04H307Zm221.48 174.7v-106h151.28q47.27 0 80.36-33.02 33.1-33.03 33.1-80.2t-33.1-80.2q-33.09-33.02-80.36-33.02H528.48v-106H680q90.98 0 155.1 64.11 64.12 64.11 64.12 155.07 0 90.95-64.12 155.11-64.12 64.15-155.1 64.15H528.48Z"/></svg></a>
+        </div>
+      </article></div>
+      <figcaption><b>Default</b>: a source logo, then the time in <code>app-meta</code>. Meter on the right. Headline Condensed 28, body in Press Sans Regular.</figcaption></figure>
+
+    <div class="cs-stage" style="padding:0">
+      <figure class="cs-var cs-var--grow"><article class="pa-signal-card cs-hover">
+        <div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">DCMS</span><span class="pa-signal-card__source-name">DCMS</span><time class="pa-signal-card__time">2 hours ago</time></div>
+          <span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="24.5 47.12"/></svg><span class="pa-meter__label">Relevant</span><span class="pa-meter__value">52%</span></span></div>
+        <h3 class="pa-signal-card__headline">Consultation on banning unlicensed gambling sponsorship</h3>
+        <p class="pa-signal-card__standfirst">A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.</p>
+        <div class="pa-signal-card__foot"><span class="pa-cluster pa-gap-sm">
+          <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M182.48-273.78v-280H280v280h-97.52Zm249.04 0v-280h96.96v280h-96.96ZM60.78-105.3v-106h838.44v106H60.78ZM680-273.78v-280h97.52v280H680ZM60.78-616.82v-111.09L480-937.52l419.22 209.61v111.09H60.78Zm226.61-106.01h385.22-385.22Zm0 0h385.22L480-818.13l-192.61 95.3Z"/></svg></span>Gambling Commission</span>
+          <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M182.48-273.78v-280H280v280h-97.52Zm249.04 0v-280h96.96v280h-96.96ZM60.78-105.3v-106h838.44v106H60.78ZM680-273.78v-280h97.52v280H680ZM60.78-616.82v-111.09L480-937.52l419.22 209.61v111.09H60.78Zm226.61-106.01h385.22-385.22Zm0 0h385.22L480-818.13l-192.61 95.3Z"/></svg></span>DCMS</span>
+          <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg></span>Lisa Nandy</span>
+          <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Premier League</span>
+          <span class="pa-tag pa-tag--plain">+2 more</span>
+          <span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M728.48-431.52v-96.96h186v96.96h-186ZM794-142.48 645.09-254.3l58.74-77.57 148.35 111.26L794-142.48Zm-90.17-485.65-58.74-77.57L794-817.52l58.18 78.13-148.35 111.26ZM165.52-180.78v-160h-120v-278.44h253.57l224.3-134.69v547.82l-224.3-134.69h-24.18v160H165.52ZM417.39-393.3v-173.4l-91.22 53.48H151.52v66.44h174.65l91.22 53.48Zm146 66.52v-306.44q35.48 26.26 56.5 66.42 21.02 40.15 21.02 86.8t-21.02 86.8q-21.02 40.16-56.5 66.42ZM284.74-480Z"/></svg></span>Advertising ruling</span></span></div>
+      </article><figcaption><b>Hover</b>: <code>elevation.card-hover</code> and a 2px lift. Initials logo for a source with no image. Tag overflow after 4.</figcaption></figure>
+
+      <figure class="cs-var cs-w-panel"><article class="pa-signal-card pa-signal-card--compact">
+        <div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span><span class="pa-signal-card__source-name">Gambling Commission</span><time class="pa-signal-card__time">30 Jun</time></div>
+          <span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__value">78%</span></span></div>
+        <h3 class="pa-signal-card__headline">Petfre (Gibraltar) Limited to pay £900,000 for regulatory failures</h3>
+        <p class="pa-signal-card__standfirst">A £900,000 penalty highlights ongoing UKGC crackdowns on operator compliance failures.</p>
+      </article><figcaption><b>Compact</b> (in the preview pane): 20px headline, bare meter, border darkens on hover.</figcaption></figure>
+    </div>
+  </div>
+  <ul class="cs-notes">
+    <li><b>Why new:</b> <code>feed-item</code> is a wire story with a time column and slug line. A signal has a source, a score and entities, which is a different anatomy. Could be a <code>feed-item</code> variant if you'd rather keep one feed component.</li>
+    <li><b>Changes:</b> the original soft shadow and 2px hover lift, kept as proposed tokens <code>elevation.card</code> and <code>card-hover</code>; source name Regular (was Bold 16); headline Condensed Bold 28 (one step up from <code>app-headline</code>'s 24; was Press Sans Bold 24); body stays Press Sans; "Source" becomes a DS ghost compact button; the exact-time tooltip moves to #18.</li>
+    <li><b>Decide:</b> should the "part of a pattern" line link to the pattern?</li>
+  </ul>
+</article>
+
+<article class="cs-entry" id="e2" data-name="Group card (pattern / theme)">
+  <header class="cs-entry__head"><span class="cs-num">2</span>
+    <div><h3 class="cs-entry__name">Group card (pattern / theme)</h3><p class="cs-entry__map"><code>GroupCard.tsx</code> + <code>groups.module.css</code> → <code>product/group-card</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><button class="pa-group-card" type="button" aria-pressed="false">
+      <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span>Evolution</span>
+        <span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="42.4 47.12"/></svg><span class="pa-meter__label">Very active</span></span></span>
+      <span class="pa-group-card__summary">Settlements and licence reviews against Evolution's UK-facing entities, with two more filings this month.</span>
+      <span class="pa-group-card__meta">6 signals · latest 3 days ago · since 12 May</span>
+      <span class="pa-sparkline" role="img" aria-label="Signals per week over the last 18 weeks: peak 5; 4 this week."><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,56.00 5.88,56.00 11.76,32.74 17.65,56.00 23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="0.00,56.00 5.88,56.00"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="17.65,56.00 23.53,56.00"/><polyline class="pa-sparkline__line" points="5.88,56.00 11.76,32.74 17.65,56.00"/><polyline class="pa-sparkline__line" points="23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49"/></svg><span class="pa-sparkline__dot" style="bottom:83.1%"></span></span><span class="pa-sparkline__axis"><span>12 May</span><span>This week</span></span></span>
+      <span class="pa-cluster pa-gap-sm"><span class="pa-tag pa-tag--plain">Run of filings</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Malta</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Gaming</span><span class="pa-tag pa-tag--plain">+1 more</span></span>
+    </button><figcaption><b>Pattern</b>: company logo tile</figcaption></figure>
+    <figure class="cs-var cs-var--grow"><button class="pa-group-card" type="button" aria-pressed="true">
+      <span class="pa-group-card__head"><span class="pa-group-card__title"><span class="pa-group-card__tile"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg></span>Enforcement action</span>
+        <span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="28.3 47.12"/></svg><span class="pa-meter__label">Active</span></span></span>
+      <span class="pa-group-card__meta">14 signals · 9 companies · latest today</span>
+      <span class="pa-sparkline" role="img" aria-label="Signals per week over the last 18 weeks: peak 4; 0 this week."><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,32.74 5.88,23.11 11.76,32.74 17.65,56.00 23.53,23.11 29.41,15.72 35.29,23.11 41.18,32.74 47.06,23.11 52.94,23.11 58.82,15.72 64.71,32.74 70.59,23.11 76.47,9.49 82.35,15.72 88.24,23.11 94.12,56.00 100.00,56.00 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="94.12,56.00 100.00,56.00"/><polyline class="pa-sparkline__line" points="0.00,32.74 5.88,23.11 11.76,32.74 17.65,56.00 23.53,23.11 29.41,15.72 35.29,23.11 41.18,32.74 47.06,23.11 52.94,23.11 58.82,15.72 64.71,32.74 70.59,23.11 76.47,9.49 82.35,15.72 88.24,23.11 94.12,56.00"/></svg><span class="pa-sparkline__dot pa-sparkline__dot--quiet" style="bottom:0.0%"></span></span><span class="pa-sparkline__axis"><span>12 May</span><span>This week</span></span></span>
+      <span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Petfre</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Malta</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Entain</span><span class="pa-tag pa-tag--plain">+6 more</span></span>
+    </button><figcaption><b>Theme, selected</b> (<code>aria-pressed</code>): a 2px ink edge and the hover shadow. The sparkline's tail goes quiet.</figcaption></figure>
+  </div>
+  <ul class="cs-notes">
+    <li><b>Changes:</b> the title is Condensed Bold 24 (was Press Sans Bold 20); the activity pill is now the shared meter (#5); selected is a 2px ink edge plus the hover shadow (was a cobalt outline).</li>
+    <li><b>Decide:</b> is "Run of filings" (a flag) a plain tag, or should flags get their own look?</li>
+  </ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="atoms">
+<h2 class="cs-section__title">B · Small parts</h2>
+
+<article class="cs-entry" id="e3" data-name="Source and company logo">
+  <header class="cs-entry__head"><span class="cs-num">3</span>
+    <div><h3 class="cs-entry__name">Source and company logo</h3><p class="cs-entry__map"><code>SourceLogo.tsx</code> (SourceLogo, CompanyLogo, Initials) → <code>product/avatar</code> + <code>--xs</code>, <code>--logo</code>, <code>--initials</code></p></div>
+    <span class="cs-disp cs-disp--extend">Extend</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt="Gambling Commission"></span><figcaption><b>--xs --logo</b>: 24px, inline with text (cards, tables, chips)</figcaption></figure>
+    <figure class="cs-var"><span class="pa-cluster pa-gap-sm"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">GC</span><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">DCMS</span></span><figcaption><b>--xs --initials</b>: 2 letters; <b>--long</b> for 3 or more (MGA, DCMS)</figcaption></figure>
+    <figure class="cs-var"><span class="pa-avatar pa-avatar--fallback pa-avatar--xs"><svg class="pa-icon pa-avatar__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg></span><figcaption><b>--xs --fallback</b>: a person</figcaption></figure>
+    <figure class="cs-var"><span class="pa-avatar pa-avatar--initials">EV</span><figcaption><b>Default (44px)</b>: what it was, for comparison; for a person beside a name</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why extend:</b> <code>avatar</code> is already square, sized by tokens and has a person fallback. A logo is the same slot. Image-load failure falling back to initials stays in app code.</li><li><b>Changes:</b> a new <code>--xs</code> size (24px, a proposed <code>avatar.size-xs</code> token) for logos, matching the app today. The DS's smallest size, 44px, is a portrait size. Initials are Press Sans Bold capitals in ink (were 10px bold sans on <code>#1f1f1f</code>).</li></ul>
+</article>
+
+<article class="cs-entry" id="e4" data-name="Tag (entity, category, overflow)">
+  <header class="cs-entry__head"><span class="cs-num">4</span>
+    <div><h3 class="cs-entry__name">Tag (entity, category, overflow)</h3><p class="cs-entry__map"><code>Tag.tsx</code>, <code>FlagTag</code>, <code>TagRow</code> → <code>core/tag</code></p></div>
+    <span class="cs-disp">Reuse</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-cluster pa-gap-sm"><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Entain</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg></span>Lisa Nandy</span><span class="pa-tag pa-tag--plain">+3 more</span></span><figcaption><b>Entity</b>: company / person icon block; <b>plain</b> overflow</figcaption></figure>
+    <figure class="cs-var"><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg></span>Enforcement action</span><figcaption><b>Category, option A</b>: same ink tag; the icon says it's a category (recommended, matches decision 0007)</figcaption></figure>
+    <figure class="cs-var"><span class="pa-ground" data-ground="ink" style="display:inline-block"><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg></span>Enforcement action</span></span><figcaption><b>Category, option B</b>: tag on an ink ground. Would need a <code>--inverse</code> modifier, since grounds are for sections</figcaption></figure>
+    <figure class="cs-var"><span class="pa-cluster pa-gap-sm"><a class="pa-tag" href="#e4">Entain</a><a class="pa-tag pa-tag--plain" href="#e4">+3 more<span class="pa-visually-hidden"> companies</span></a></span><figcaption><b>Linked</b> (exists): if tags ever filter the feed</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Proposed DS fix:</b> the tag's word, not its icon box, sets its baseline, so a tag lines up with text and buttons beside it. The tag looks the same: the word stays centred and the icon box stays flush. <code>status-badge</code> gets the same fix.</li><li><b>Changes:</b> the orange "accent" category tag goes (orange isn't in the palette); the custom 20px tag becomes the DS tag's size and type.</li><li><b>Decide:</b> category tag A or B?</li></ul>
+</article>
+
+<article class="cs-entry" id="e5" data-name="Meter (relevance + activity)">
+  <header class="cs-entry__head"><span class="cs-num">5</span>
+    <div><h3 class="cs-entry__name">Meter (relevance + activity)</h3><p class="cs-entry__map"><code>RelevanceRing.tsx</code> + <code>ActivityPill.tsx</code> + the card's relevance chip → <code>product/meter</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="44.77 47.12"/></svg><span class="pa-meter__label">Highly relevant</span><span class="pa-meter__value">95%</span></span><figcaption><b>Score 95</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__label">Highly relevant</span><span class="pa-meter__value">78%</span></span><figcaption><b>Score 78</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="24.50 47.12"/></svg><span class="pa-meter__label">Relevant</span><span class="pa-meter__value">52%</span></span><figcaption><b>Score 52</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="9.42 47.12"/></svg><span class="pa-meter__label">Low relevance</span><span class="pa-meter__value">20%</span></span><figcaption><b>Score 20</b></figcaption></figure>
+  </div>
+  <div class="cs-stage" style="padding-top:0">
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="42.41 47.12"/></svg><span class="pa-meter__label">Very active</span></span><figcaption><b>Score 90</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="28.27 47.12"/></svg><span class="pa-meter__label">Active</span></span><figcaption><b>Score 60</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="14.14 47.12"/></svg><span class="pa-meter__label">Quiet</span></span><figcaption><b>Score 30</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__value">78%</span></span><figcaption><b>--bare</b>: in tables and compact cards</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why merged:</b> the relevance chip and the activity pill are the same thing: a ring, a tier word, an optional value. One component, two uses.</li><li><b>Changes:</b> a cobalt ring on a 15% cobalt track, as today; <code>color.surface</code> fill (was a cobalt tint, which reads as clickable); tier word in Press Sans Bold, sentence case.</li><li><b>Decide:</b> should the meter carry <code>role="img"</code> with "78% relevant", or is the visible text enough?</li></ul>
+</article>
+
+<article class="cs-entry" id="e6" data-name="Sparkline">
+  <header class="cs-entry__head"><span class="cs-num">6</span>
+    <div><h3 class="cs-entry__name">Sparkline</h3><p class="cs-entry__map"><code>Sparkline.tsx</code> (+ <code>MiniSpark</code> in Movers) → <code>product/sparkline</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><span class="pa-sparkline" role="img" aria-label="Signals per week over the last 18 weeks: peak 5; 4 this week."><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,56.00 5.88,56.00 11.76,32.74 17.65,56.00 23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="0.00,56.00 5.88,56.00"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="17.65,56.00 23.53,56.00"/><polyline class="pa-sparkline__line" points="5.88,56.00 11.76,32.74 17.65,56.00"/><polyline class="pa-sparkline__line" points="23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49"/></svg><span class="pa-sparkline__dot" style="bottom:83.1%"></span></span><span class="pa-sparkline__axis"><span>12 May</span><span>This week</span></span></span><figcaption><b>Active</b>: square end dot on this week</figcaption></figure>
+    <figure class="cs-var cs-var--grow"><span class="pa-sparkline" role="img" aria-label="Signals per week over the last 18 weeks: peak 4; 0 this week."><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,32.74 5.88,23.11 11.76,32.74 17.65,56.00 23.53,23.11 29.41,15.72 35.29,23.11 41.18,32.74 47.06,23.11 52.94,23.11 58.82,15.72 64.71,32.74 70.59,23.11 76.47,9.49 82.35,15.72 88.24,23.11 94.12,56.00 100.00,56.00 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="94.12,56.00 100.00,56.00"/><polyline class="pa-sparkline__line" points="0.00,32.74 5.88,23.11 11.76,32.74 17.65,56.00 23.53,23.11 29.41,15.72 35.29,23.11 41.18,32.74 47.06,23.11 52.94,23.11 58.82,15.72 64.71,32.74 70.59,23.11 76.47,9.49 82.35,15.72 88.24,23.11 94.12,56.00"/></svg><span class="pa-sparkline__dot pa-sparkline__dot--quiet" style="bottom:0.0%"></span></span><span class="pa-sparkline__axis"><span>12 May</span><span>This week</span></span></span><figcaption><b>Quiet tail</b>: segments between empty weeks go <code>seq-2</code></figcaption></figure>
+    <figure class="cs-var cs-var--grow"><span class="pa-sparkline"><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,56.00 5.88,56.00 11.76,32.74 17.65,56.00 23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="0.00,56.00 5.88,56.00"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="17.65,56.00 23.53,56.00"/><polyline class="pa-sparkline__line" points="5.88,56.00 11.76,32.74 17.65,56.00"/><polyline class="pa-sparkline__line" points="23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49"/></svg><span class="pa-sparkline__dot" style="bottom:83.1%"></span><span class="pa-sparkline__guide" style="left:82.35%"></span><span class="pa-tooltip" style="position:absolute;left:82.35%;bottom:100%;transform:translateX(-50%)"><span>8–14 Sep</span><span class="pa-tooltip__value">5 signals</span></span></span><span class="pa-sparkline__axis"><span>30 Jun</span><span>This week</span></span></span><figcaption><b>Hover a week</b>: a guide line and a tooltip (#18)</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> a cobalt line over an 8% wash, with a square end dot (was a round dot). Shared y-scale across cards stays (DS: "charts in one view share one y-scale").</li><li><b>Table view:</b> the DS wants every chart to have one. In a card the <code>aria-label</code> sentence is the stand-in. OK?</li></ul>
+</article>
+
+<article class="cs-entry" id="e7" data-name="Icons">
+  <header class="cs-entry__head"><span class="cs-num">7</span>
+    <div><h3 class="cs-entry__name">Icons</h3><p class="cs-entry__map"><code>Glyph.tsx</code> + <code>Icon.tsx</code> + <code>lib/brand</code> category icons → <code>core/icon</code></p></div>
+    <span class="cs-disp">Reuse</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-cluster pa-gap-md" style="font-size:var(--pa-font-size-24)"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M782.87-98.52 526.91-354.48q-29.43 21.74-68.15 34.61Q420.04-307 375.48-307q-114.09 0-193.55-79.46-79.45-79.45-79.45-193.54 0-114.09 79.45-193.54Q261.39-853 375.48-853q114.09 0 193.54 79.46 79.46 79.45 79.46 193.54 0 45.13-12.87 83.28T601-429.7l256.52 257.09-74.65 74.09ZM375.48-413q69.91 0 118.45-48.54 48.55-48.55 48.55-118.46t-48.55-118.46Q445.39-747 375.48-747t-118.46 48.54Q208.48-649.91 208.48-580t48.54 118.46Q305.57-413 375.48-413Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-201.56V-307h268.83v105.44H100.78Zm0-225.44v-105.44h513.35V-427H100.78Zm0-225.44v-105.43h758.44v105.43H100.78Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm106-106h546.44v-116.61H640q-30 38-71.5 59t-88.5 21q-47 0-88.5-21t-71.5-59H206.78v116.61ZM549-345.39q31-22 43-58h161.22v-349.83H206.78v349.83H368q12 36 43 58t69 22q38 0 69-22ZM206.78-206.78h546.44-546.44Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M256-181.91 181.91-256l224-224-224-224L256-778.09l224 224 224-224L778.09-704l-224 224 224 224L704-181.91l-224-224-224 224Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-341.91 248.91-573h462.18L480-341.91Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m485.91-480-184-184L376-738.09 634.09-480 376-221.91 301.91-296l184-184Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M516.04-256.48q16.48-16.48 16.48-39.82t-16.48-39.45q-16.47-16.12-39.74-16.12-23.26 0-39.74 16.12-16.47 16.11-16.47 39.45 0 23.34 16.47 39.82Q453.04-240 476.3-240q23.27 0 39.74-16.48ZM434.09-394h85.3q0-30.74 7.78-50.3 7.79-19.57 39.96-50.31 24.3-23.74 39.02-48.12 14.72-24.38 14.72-58.61 0-58.09-39.87-88.94-39.87-30.85-95.87-30.85-59.26 0-97.59 32.83-38.32 32.82-53.45 78.21l78.43 29.96q6.13-19.13 22.22-39.57 16.09-20.43 47.56-20.43 25.22 0 38.4 14.67 13.17 14.68 13.17 32.29 0 17.17-11.15 33.82-11.16 16.65-25.2 28.26-41.74 37.87-52.59 59.85-10.84 21.98-10.84 77.24ZM480-60.78q-87.52 0-163.91-32.96-76.38-32.96-132.88-89.47-56.51-56.5-89.47-132.88Q60.78-392.48 60.78-480t32.96-163.91q32.96-76.38 89.47-132.88 56.5-56.51 132.88-89.47 76.39-32.96 163.91-32.96t163.91 32.96q76.38 32.96 132.88 89.47 56.51 56.5 89.47 132.88 32.96 76.39 32.96 163.91t-32.96 163.91q-32.96 76.38-89.47 132.88-56.5 56.51-132.88 89.47Q567.52-60.78 480-60.78Zm0-106q131.74 0 222.48-90.74 90.74-90.74 90.74-222.48t-90.74-222.48Q611.74-793.22 480-793.22t-222.48 90.74Q166.78-611.74 166.78-480t90.74 222.48q90.74 90.74 222.48 90.74ZM480-480Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M431.52-260.78H280q-90.98 0-155.1-64.11Q60.78-389 60.78-479.96q0-90.95 64.12-155.11 64.12-64.15 155.1-64.15h151.52v106H280.24q-47.27 0-80.36 33.02-33.1 33.03-33.1 80.2t33.1 80.2q33.09 33.02 80.36 33.02h151.28v106ZM307-435.48v-89.04h346v89.04H307Zm221.48 174.7v-106h151.28q47.27 0 80.36-33.02 33.1-33.03 33.1-80.2t-33.1-80.2q-33.09-33.02-80.36-33.02H528.48v-106H680q90.98 0 155.1 64.11 64.12 64.11 64.12 155.07 0 90.95-64.12 155.11-64.12 64.15-155.1 64.15H528.48Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M182.48-273.78v-280H280v280h-97.52Zm249.04 0v-280h96.96v280h-96.96ZM60.78-105.3v-106h838.44v106H60.78ZM680-273.78v-280h97.52v280H680ZM60.78-616.82v-111.09L480-937.52l419.22 209.61v111.09H60.78Zm226.61-106.01h385.22-385.22Zm0 0h385.22L480-818.13l-192.61 95.3Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M60.78-140.78v-678.44h586L899.22-480 646.78-140.78h-586Zm105.44-105.44h428.13L767.56-480 594.35-713.78H166.22v467.56ZM467.17-480Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M728.48-431.52v-96.96h186v96.96h-186ZM794-142.48 645.09-254.3l58.74-77.57 148.35 111.26L794-142.48Zm-90.17-485.65-58.74-77.57L794-817.52l58.18 78.13-148.35 111.26ZM165.52-180.78v-160h-120v-278.44h253.57l224.3-134.69v547.82l-224.3-134.69h-24.18v160H165.52ZM417.39-393.3v-173.4l-91.22 53.48H151.52v66.44h174.65l91.22 53.48Zm146 66.52v-306.44q35.48 26.26 56.5 66.42 21.02 40.15 21.02 86.8t-21.02 86.8q-21.02 40.16-56.5 66.42ZM284.74-480Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m135.43-223.04-74.65-74.09 318.05-319.48 160 160 179.73-178.87h-97.78v-106h278.44v277.87h-106v-97.78L538.83-306.43l-160-160-243.4 243.39Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M692.65-272.87 617-347.52 696.48-427h-595.7v-106h595.7l-79.05-79.48 75.66-74.65L899.22-480 692.65-272.87Z"/></svg><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M620.78-223.04v-106h97.78L538.83-507.91l-160 160L60.78-667.39l74.65-74.09 243.4 243.39 160-160 254.39 254.96v-97.78h106v277.87H620.78Z"/></svg></span><figcaption>Material Symbols <b>Sharp, weight 600</b>, from Google's release set, through <code>pa-icon</code> (1.2em, centred on the capitals)</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> two icon helpers become one. Category icons in <code>lib/brand</code> map to Sharp names. <code>dropDown</code> (the filled triangle) can go: sections use <code>expand_more</code>.</li></ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="shell">
+<h2 class="cs-section__title">C · Shell and navigation</h2>
+
+<article class="cs-entry" id="e8" data-name="App header (masthead)">
+  <header class="cs-entry__head"><span class="cs-num">8</span>
+    <div><h3 class="cs-entry__name">App header (masthead)</h3><p class="cs-entry__map"><code>Masthead.tsx</code> (+ the tabs, optionally) → <code>product/app-header</code></p></div>
+    <span class="cs-disp">Reuse</span></header>
+  <div class="cs-stage cs-stage--col">
+    <figure class="cs-var"><header class="pa-app-header pa-ground" data-ground="ink"><a class="pa-app-header__brand" href="#e8"><img class="pa-app-header__logo pa-app-header__logo--light" src="../../../pa-design-system/examples/pa-logo.svg" alt="Press Association"><img class="pa-app-header__logo pa-app-header__logo--dark" src="../../../pa-design-system/examples/pa-logo-negative.svg" alt="Press Association"><span class="pa-app-header__rule" aria-hidden="true"></span><span class="pa-app-header__name">Sector Signal</span></a><nav class="pa-app-header__pages" aria-label="Sections"><ul><li><a class="pa-app-header__page" href="#e8" aria-current="page">Feed</a></li><li><a class="pa-app-header__page" href="#e8">Patterns</a></li><li><a class="pa-app-header__page" href="#e8">Themes</a></li><li><a class="pa-app-header__page" href="#e8">Insights</a></li></ul></nav><div class="pa-app-header__account"><span class="pa-avatar pa-avatar--fallback pa-avatar--tint"><svg class="pa-icon pa-avatar__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg></span><span class="pa-app-header__user">Renars F.</span></div></header>
+      <figcaption><b>Option A</b>: the four sections move into the header as pages, and the tab row (#10) goes away</figcaption></figure>
+    <figure class="cs-var"><header class="pa-app-header pa-ground" data-ground="ink"><a class="pa-app-header__brand" href="#e8"><img class="pa-app-header__logo pa-app-header__logo--light" src="../../../pa-design-system/examples/pa-logo.svg" alt="Press Association"><img class="pa-app-header__logo pa-app-header__logo--dark" src="../../../pa-design-system/examples/pa-logo-negative.svg" alt="Press Association"><span class="pa-app-header__rule" aria-hidden="true"></span><span class="pa-app-header__name">Sector Signal</span></a><div class="pa-app-header__account"><span class="pa-avatar pa-avatar--fallback pa-avatar--tint"><svg class="pa-icon pa-avatar__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M353.15-541.98q-52.37-52.37-52.37-126.85 0-74.48 52.37-126.56 52.37-52.09 126.85-52.09 74.48 0 126.85 52.09 52.37 52.08 52.37 126.56t-52.37 126.85Q554.48-489.61 480-489.61q-74.48 0-126.85-52.37ZM140.78-131.17v-132.35q0-39.26 20.44-72.17 20.43-32.9 54.3-50.22 63.7-31.57 129.93-47.63 66.24-16.07 134.55-16.07 69.39 0 135.65 15.78 66.26 15.79 128.83 47.35 33.87 17.24 54.3 49.99 20.44 32.75 20.44 72.94v132.38H140.78Zm106-106h466.44v-23.53q0-10.45-5.5-19t-14.5-13.3q-50.61-24.74-103.92-37.67Q536-343.61 480-343.61q-54.87 0-109.3 12.94-54.44 12.93-103.92 37.67-9 4.75-14.5 13.3t-5.5 19v23.53ZM531.7-617.11q21.52-21.5 21.52-51.7 0-30.19-21.5-51.43-21.51-21.24-51.7-21.24t-51.72 21.24q-21.52 21.24-21.52 51.43 0 30.2 21.5 51.7 21.51 21.5 51.7 21.5t51.72-21.5ZM480-668.83Zm0 431.66Z"/></svg></span><span class="pa-app-header__user">Renars F.</span></div></header>
+      <figcaption><b>Option B</b>: brand and account only; tabs stay under the sector title as today</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> the two-ink-block "Sector / Signal" wordmark on white becomes the DS lockup on an ink bar. Sign-out and account come for free. No menu button, since signals has no side nav.</li><li><b>Decide:</b> A or B? Is the bespoke wordmark something to keep (a brand call)?</li></ul>
+</article>
+
+<article class="cs-entry" id="e9" data-name="Menu (sector switcher, sort)">
+  <header class="cs-entry__head"><span class="cs-num">9</span>
+    <div><h3 class="cs-entry__name">Menu (sector switcher, sort)</h3><p class="cs-entry__map"><code>SectorMenu.tsx</code> + <code>SortMenu.tsx</code> + <code>useDismiss.ts</code> → <code>product/menu</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><details class="pa-menu"><summary class="pa-menu__trigger" title="Switch sector"><h1 class="pa-menu__title">Gambling</h1><span class="pa-menu__chevron"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></span></summary></details><figcaption><b>Title trigger, closed</b></figcaption></figure>
+    <figure class="cs-var cs-tall"><details class="pa-menu pa-menu--static" open><summary class="pa-menu__trigger"><h1 class="pa-menu__title">Gambling</h1><span class="pa-menu__chevron"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></span></summary>
+      <ul class="pa-menu__list">
+        <li><a class="pa-menu__item" href="#e9" aria-current="true"><span class="pa-menu__tick"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg></span><span>Gambling</span><span class="pa-menu__note">352 signals</span></a></li>
+        <li><a class="pa-menu__item is-active" href="#e9"><span class="pa-menu__tick"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg></span><span>Fintech</span><span class="pa-menu__note">Setting up</span></a></li>
+        <li><a class="pa-menu__item" href="#e9"><span class="pa-menu__tick"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg></span><span>Energy</span><span class="pa-menu__note"></span></a></li>
+      </ul></details><figcaption><b>Title trigger, open</b>: tick on the current item, a note at the end, hover in <code>color.surface</code>, <code>elevation.overlay</code></figcaption></figure>
+    <figure class="cs-var cs-tall"><details class="pa-menu pa-menu--static" open><summary class="pa-menu__trigger"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-201.56V-307h268.83v105.44H100.78Zm0-225.44v-105.44h513.35V-427H100.78Zm0-225.44v-105.43h758.44v105.43H100.78Z"/></svg><span>Sort by: <span class="pa-menu__inline-value">Most recent</span></span><span class="pa-menu__chevron"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></span></summary>
+      <ul class="pa-menu__list">
+        <li><a class="pa-menu__item" href="#e9" aria-current="true"><span class="pa-menu__tick"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg></span><span>Most recent</span><span></span></a></li>
+        <li><a class="pa-menu__item" href="#e9"><span class="pa-menu__tick"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M382-221.91 135.91-468l75.66-75.65L382-373.22l366.43-366.43L824.09-664 382-221.91Z"/></svg></span><span>Highest score</span><span></span></a></li>
+      </ul></details><figcaption><b>Inline trigger</b> (sort)</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why new:</b> nothing in the DS opens a list of links. <code>select</code> is a form control and these are navigation. A <code>&lt;details&gt;</code> menu with dismiss-on-outside/Escape behaviour would ship as a <code>dist/behaviour</code> script, like the tabs' Zag.</li><li><b>Changes:</b> the chevron is cobalt because the trigger is clickable; the value "Most recent" is Regular (was Bold).</li><li><b>Decide:</b> should it be a native <code>popover</code> instead of <code>&lt;details&gt;</code>?</li></ul>
+</article>
+
+<article class="cs-entry" id="e10" data-name="Section tabs + end slot">
+  <header class="cs-entry__head"><span class="cs-num">10</span>
+    <div><h3 class="cs-entry__name">Section tabs + end slot</h3><p class="cs-entry__map"><code>Tabs.tsx</code> (+ <code>shell.module.css</code> tabRow) → <code>product/tabs --underline</code> + a <code>tab-row</code> wrapper</p></div>
+    <span class="cs-disp cs-disp--extend">Extend</span></header>
+  <div class="cs-stage cs-stage--col">
+    <figure class="cs-var"><div class="pa-tab-row"><nav class="pa-tabs pa-tabs--underline" aria-label="Sections"><ul class="pa-tabs__list"><li><a class="pa-tabs__tab" href="#e10" aria-current="page">Feed</a></li><li><a class="pa-tabs__tab" href="#e10">Patterns</a></li><li><a class="pa-tabs__tab" href="#e10">Themes</a></li><li><a class="pa-tabs__tab" href="#e10">Insights</a></li></ul></nav>
+      <div class="pa-tab-row__end"><details class="pa-menu pa-menu--end"><summary class="pa-menu__trigger"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-201.56V-307h268.83v105.44H100.78Zm0-225.44v-105.44h513.35V-427H100.78Zm0-225.44v-105.43h758.44v105.43H100.78Z"/></svg><span>Sort by: <span class="pa-menu__inline-value">Most recent</span></span><span class="pa-menu__chevron"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></span></summary></details></div></div>
+      <figcaption><b>--underline</b> (the signals design): sentence case, 110px min, centred; the current tab Bold with a 2px cobalt underline on the grey rule; sort in the row's end slot</figcaption></figure>
+    <figure class="cs-var"><nav class="pa-tabs" aria-label="Sections"><ul class="pa-tabs__list"><li><a class="pa-tabs__tab" href="#e10">Feed</a></li><li><a class="pa-tabs__tab" href="#e10" aria-current="page">Patterns</a></li><li><a class="pa-tabs__tab" href="#e10">Themes</a></li><li><a class="pa-tabs__tab" href="#e10">Insights</a></li></ul></nav><figcaption><b>DS default</b> (exists), for comparison: condensed caps, ink block for the current tab</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Keeps the signals look</b> as a new <code>--underline</code> variant. It breaks two DS rules: cobalt marks the current tab (the DS keeps cobalt for "clickable", not "you are here"), and the current label is Bold 16 Press Sans (the DS allows Bold only from 24, or condensed caps). The end slot is a small layout wrapper, so the sort stays outside the <code>&lt;nav&gt;</code>.</li><li><b>Decide:</b> extend <code>tabs</code> with an end slot, or add a separate <code>tab-row</code>? Is this dropped if you pick #8 option A?</li></ul>
+</article>
+
+<article class="cs-entry" id="e11" data-name="Source health strip">
+  <header class="cs-entry__head"><span class="cs-num">11</span>
+    <div><h3 class="cs-entry__name">Source health strip</h3><p class="cs-entry__map"><code>StatusStrip.tsx</code> → <code>core/status-strip</code> (+ <code>__details</code>) and <code>core/status-badge</code></p></div>
+    <span class="cs-disp cs-disp--extend">Extend</span></header>
+  <div class="cs-stage cs-stage--col">
+    <figure class="cs-var"><p class="pa-status-line"><span class="pa-status-badge pa-status-badge--success"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 11.6 2.4 8 3.8 6.6 6 8.8l6.2-6.2 1.4 1.4z"/></svg>All sources healthy</span>Updated 2 hours ago · 14/14 sources</p>
+      <figcaption><b>Healthy, option A</b>: no strip (the DS says "no success strip"); a success badge and a meta line instead</figcaption></figure>
+    <figure class="cs-var"><p class="pa-status-line">Updated 2 hours ago · 14/14 sources · all sources healthy</p><figcaption><b>Healthy, option B</b>: plain meta line, no colour at all</figcaption></figure>
+    <figure class="cs-var"><div><p class="pa-status-strip pa-status-strip--warning"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M8 1l7 14H1zm-1 5v4h2V6zm0 5v2h2v-2z"/></svg>Updated 2 hours ago · 12/14 sources · 2 sources returned nothing · 3 awaiting scoring</p>
+      <details class="pa-status-strip__details"><summary><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m485.91-480-184-184L376-738.09 634.09-480 376-221.91 301.91-296l184-184Z"/></svg>Which sources returned nothing?</summary><p>Betting and Gaming Council, ASA rulings</p></details></div>
+      <figcaption><b>Warning</b> (exists) + the proposed <code>__details</code> disclosure, closed</figcaption></figure>
+    <figure class="cs-var"><div><p class="pa-status-strip pa-status-strip--warning"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M8 1l7 14H1zm-1 5v4h2V6zm0 5v2h2v-2z"/></svg>Updated 2 hours ago · 12/14 sources · 2 sources returned nothing</p>
+      <details class="pa-status-strip__details" open><summary><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m485.91-480-184-184L376-738.09 634.09-480 376-221.91 301.91-296l184-184Z"/></svg>Which sources returned nothing?</summary><p>Betting and Gaming Council, ASA rulings</p></details></div>
+      <figcaption><b>Warning, details open</b></figcaption></figure>
+    <figure class="cs-var"><p class="pa-status-strip pa-status-strip--error"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM7 4h2v5H7zm0 6.5h2v2H7z"/></svg>Updated 14 hours ago · the pipeline may have stopped running</p><figcaption><b>Error</b> (exists): stale, or the last update failed</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> the custom green "ok" strip goes. Warning and error use the DS strip exactly.</li><li><b>Decide:</b> healthy A or B? Should <code>__details</code> be a status-strip part, or a generic core <code>disclosure</code>? (The insights "Show as a table" is the same pattern, #20.)</li></ul>
+</article>
+
+<article class="cs-entry" id="e12" data-name="Update notice">
+  <header class="cs-entry__head"><span class="cs-num">12</span>
+    <div><h3 class="cs-entry__name">Update notice</h3><p class="cs-entry__map"><code>EmptyState.tsx → UpdateNotice</code> → <code>core/status-strip --warning</code></p></div>
+    <span class="cs-disp">Reuse</span></header>
+  <div class="cs-stage"><figure class="cs-var"><p class="pa-status-strip pa-status-strip--warning"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M8 1l7 14H1zm-1 5v4h2V6zm0 5v2h2v-2z"/></svg>The last update didn't finish. Showing the latest data we have.</p><figcaption><b>Warning</b></figcaption></figure></div>
+  <ul class="cs-notes"><li><b>Note:</b> the DS says "don't stack several strips; combine the messages". If this shows alongside #11's error, merge the two into one.</li></ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="states">
+<h2 class="cs-section__title">D · Empty and error states</h2>
+<article class="cs-entry" id="e13" data-name="Empty state">
+  <header class="cs-entry__head"><span class="cs-num">13</span>
+    <div><h3 class="cs-entry__name">Empty state</h3><p class="cs-entry__map"><code>EmptyBlock</code>, <code>EmptyState</code>, <code>ErrorState.tsx</code> → <code>product/empty-state</code> (generalising <code>queue__empty</code>)</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><div class="pa-empty-state" role="status"><span class="pa-empty-state__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm106-106h546.44v-116.61H640q-30 38-71.5 59t-88.5 21q-47 0-88.5-21t-71.5-59H206.78v116.61ZM549-345.39q31-22 43-58h161.22v-349.83H206.78v349.83H368q12 36 43 58t69 22q38 0 69-22ZM206.78-206.78h546.44-546.44Z"/></svg></span><div class="pa-empty-state__body"><p class="pa-empty-state__title">Nothing new yet today</p><p class="pa-empty-state__text">We check our sources throughout the day, so new signals will appear here as they come in.</p></div></div><figcaption><b>Text only</b></figcaption></figure>
+    <figure class="cs-var cs-var--grow"><div class="pa-empty-state" role="status"><span class="pa-empty-state__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm106-106h546.44v-116.61H640q-30 38-71.5 59t-88.5 21q-47 0-88.5-21t-71.5-59H206.78v116.61ZM549-345.39q31-22 43-58h161.22v-349.83H206.78v349.83H368q12 36 43 58t69 22q38 0 69-22ZM206.78-206.78h546.44-546.44Z"/></svg></span><div class="pa-empty-state__body"><p class="pa-empty-state__title">No signals match your filters</p><p class="pa-empty-state__text">Try widening them, or catch up on earlier signals below.</p><button class="pa-btn pa-btn--secondary pa-btn--compact pa-empty-state__action" type="button">Clear all</button></div></div><figcaption><b>With action</b></figcaption></figure>
+    <figure class="cs-var cs-var--grow"><div class="pa-empty-state" role="status"><span class="pa-empty-state__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm106-106h546.44v-116.61H640q-30 38-71.5 59t-88.5 21q-47 0-88.5-21t-71.5-59H206.78v116.61ZM549-345.39q31-22 43-58h161.22v-349.83H206.78v349.83H368q12 36 43 58t69 22q38 0 69-22ZM206.78-206.78h546.44-546.44Z"/></svg></span><div class="pa-empty-state__body"><p class="pa-empty-state__title">Setting up</p><p class="pa-empty-state__text">We're gathering the first signals for Fintech. This usually takes under an hour.</p></div></div><figcaption><b>Text only</b></figcaption></figure>
+    <figure class="cs-var cs-var--grow"><div class="pa-empty-state" role="status"><span class="pa-empty-state__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm106-106h546.44v-116.61H640q-30 38-71.5 59t-88.5 21q-47 0-88.5-21t-71.5-59H206.78v116.61ZM549-345.39q31-22 43-58h161.22v-349.83H206.78v349.83H368q12 36 43 58t69 22q38 0 69-22ZM206.78-206.78h546.44-546.44Z"/></svg></span><div class="pa-empty-state__body"><p class="pa-empty-state__title">Not available yet</p><p class="pa-empty-state__text">We couldn't load the latest signals. Try again in a few minutes.</p><button class="pa-btn pa-btn--secondary pa-btn--compact pa-empty-state__action" type="button">Try again</button></div></div><figcaption><b>With action</b></figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why new:</b> <code>queue</code> has <code>pa-queue__empty</code> (a line of text and a reset button), but it's a part of the queue. Signals needs the same thing on its own, with an icon and a title. Proposal: a product <code>empty-state</code>, and <code>queue</code> uses it.</li><li><b>Changes:</b> the title is Condensed Bold 20 (was Press Sans Bold); the icon sits in a square holding shape (foundations → Iconography); the action is a DS secondary compact button (was a custom "Try again").</li></ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="filters">
+<h2 class="cs-section__title">E · Feed filters</h2>
+
+<article class="cs-entry" id="e14" data-name="Filter panel">
+  <header class="cs-entry__head"><span class="cs-num">14</span>
+    <div><h3 class="cs-entry__name">Filter panel</h3><p class="cs-entry__map"><code>FeedFilters.tsx</code> + <code>filters.module.css</code> → <code>product/filter-panel</code> (places #15–#17 and DS core controls)</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><aside class="pa-filter-panel" aria-label="Filters">
+      <div class="pa-filter-panel__head"><h2 class="pa-filter-panel__title">Filters</h2><button class="pa-btn pa-btn--ghost pa-btn--compact" type="button">Clear all</button></div>
+      <div class="pa-text-input pa-text-input--search" style="margin-bottom:var(--pa-spacing-md)"><svg class="pa-icon pa-text-input__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M782.87-98.52 526.91-354.48q-29.43 21.74-68.15 34.61Q420.04-307 375.48-307q-114.09 0-193.55-79.46-79.45-79.45-79.45-193.54 0-114.09 79.45-193.54Q261.39-853 375.48-853q114.09 0 193.54 79.46 79.46 79.45 79.46 193.54 0 45.13-12.87 83.28T601-429.7l256.52 257.09-74.65 74.09ZM375.48-413q69.91 0 118.45-48.54 48.55-48.55 48.55-118.46t-48.55-118.46Q445.39-747 375.48-747t-118.46 48.54Q208.48-649.91 208.48-580t48.54 118.46Q305.57-413 375.48-413Z"/></svg><input class="pa-text-input__field" type="search" aria-label="Search signals" placeholder="Search signals"></div>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Category <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></summary>
+        <div class="pa-filter-panel__content"><fieldset class="pa-checkbox-group"><legend class="pa-visually-hidden">Category</legend>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="c1" checked><label class="pa-label" for="c1">Enforcement action</label></div>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="c2"><label class="pa-label" for="c2">Advertising ruling</label></div>
+          <div class="pa-checkbox"><input class="pa-checkbox__input" type="checkbox" id="c3"><label class="pa-label" for="c3">AML and compliance failures</label></div></fieldset></div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Minimum score <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></summary>
+        <div class="pa-filter-panel__content"><div class="pa-range" style="--pa-range-value:40%"><output class="pa-range__value" for="r40">40</output><input class="pa-range__input" id="r40" type="range" min="0" max="100" value="40" aria-label="Minimum score" oninput="this.parentNode.style.setProperty('--pa-range-value',this.value+'%');this.previousElementSibling.value=this.value"><span class="pa-range__scale"><span>0</span><span>100</span></span></div></div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Company / entity <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></summary>
+        <div class="pa-filter-panel__content">
+          <div class="pa-text-input pa-text-input--search"><svg class="pa-icon pa-text-input__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M782.87-98.52 526.91-354.48q-29.43 21.74-68.15 34.61Q420.04-307 375.48-307q-114.09 0-193.55-79.46-79.45-79.45-79.45-193.54 0-114.09 79.45-193.54Q261.39-853 375.48-853q114.09 0 193.54 79.46 79.46 79.45 79.46 193.54 0 45.13-12.87 83.28T601-429.7l256.52 257.09-74.65 74.09ZM375.48-413q69.91 0 118.45-48.54 48.55-48.55 48.55-118.46t-48.55-118.46Q445.39-747 375.48-747t-118.46 48.54Q208.48-649.91 208.48-580t48.54 118.46Q305.57-413 375.48-413Z"/></svg><input class="pa-text-input__field" type="search" aria-label="Search by company" placeholder="Search by company"></div>
+          <ul class="pa-combobox__chosen"><li class="pa-combobox__chip"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EN</span><span>Entain</span><button class="pa-icon-btn" type="button" aria-label="Remove Entain"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M256-181.91 181.91-256l224-224-224-224L256-778.09l224 224 224-224L778.09-704l-224 224 224 224L704-181.91l-224-224-224 224Z"/></svg></button></li></ul></div></details>
+      <details class="pa-filter-panel__section" open><summary class="pa-filter-panel__summary">Published <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></summary>
+        <div class="pa-filter-panel__content"><fieldset class="pa-radio-group"><legend class="pa-visually-hidden">Published</legend>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="p1" name="pub" checked><label class="pa-label" for="p1">All time</label></div>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="p2" name="pub"><label class="pa-label" for="p2">Last 30 days</label></div>
+          <div class="pa-radio"><input class="pa-radio__input" type="radio" id="p3" name="pub"><label class="pa-label" for="p3">Last 7 days</label></div></fieldset></div></details>
+      <details class="pa-filter-panel__section"><summary class="pa-filter-panel__summary">Source <svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M480-327.48 221.91-585.57 296-659.65l184 184 184-184 74.09 74.08L480-327.48Z"/></svg></summary><div class="pa-filter-panel__content"></div></details>
+    </aside><figcaption><b>Desktop</b>: fixed sidebar, sections as disclosures (the last one closed)</figcaption></figure>
+    <figure class="cs-var cs-var--start"><button class="pa-btn pa-btn--secondary pa-btn--compact" type="button" aria-expanded="false"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M435.48-102.48V-360H533v80h320v97.52H533v80h-97.52Zm-328.48-80V-280h257.52v97.52H107Zm160-169.04v-80H107v-96.96h160v-80h97.52v256.96H267Zm168.48-80v-96.96H853v96.96H435.48Zm160-168.48v-257.52H693v80h160V-680H693v80h-97.52ZM107-680v-97.52h417.52V-680H107Z"/></svg> Filters</button><figcaption><b>Under <code>--pa-breakpoint-md</code></b>: a disclosure button opens the panel inline</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Reuses:</b> <code>text-input --search</code>, <code>checkbox</code>, <code>radio</code> and <code>button --ghost/--secondary --compact</code>, all unchanged. The custom 18px checkboxes and 16px round radios go.</li><li><b>Changes:</b> section labels stay Bold sentence case; "Filters" is <code>app-section-title</code> (was bold 20).</li><li><b>Decide:</b> should "Published" be a <code>segmented-control --quiet</code> (All · 30d · 7d) instead of radios?</li></ul>
+</article>
+
+<article class="cs-entry" id="e15" data-name="Range slider">
+  <header class="cs-entry__head"><span class="cs-num">15</span>
+    <div><h3 class="cs-entry__name">Range slider</h3><p class="cs-entry__map"><code>FeedFilters → ScoreSlider</code> → <code>core/range</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-w-half"><div class="pa-range" style="--pa-range-value:0%"><output class="pa-range__value" for="r0">0</output><input class="pa-range__input" id="r0" type="range" min="0" max="100" value="0" aria-label="Minimum score" oninput="this.parentNode.style.setProperty('--pa-range-value',this.value+'%');this.previousElementSibling.value=this.value"><span class="pa-range__scale"><span>0</span><span>100</span></span></div><figcaption><b>At 0</b></figcaption></figure>
+    <figure class="cs-var cs-w-half"><div class="pa-range" style="--pa-range-value:40%"><output class="pa-range__value" for="r40">40</output><input class="pa-range__input" id="r40" type="range" min="0" max="100" value="40" aria-label="Minimum score" oninput="this.parentNode.style.setProperty('--pa-range-value',this.value+'%');this.previousElementSibling.value=this.value"><span class="pa-range__scale"><span>0</span><span>100</span></span></div><figcaption><b>At 40</b> (the default)</figcaption></figure>
+    <figure class="cs-var cs-w-half"><div class="pa-range" style="--pa-range-value:85%"><output class="pa-range__value" for="r85">85</output><input class="pa-range__input" id="r85" type="range" min="0" max="100" value="85" aria-label="Minimum score" oninput="this.parentNode.style.setProperty('--pa-range-value',this.value+'%');this.previousElementSibling.value=this.value"><span class="pa-range__scale"><span>0</span><span>100</span></span></div><figcaption><b>At 85</b></figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> a square thumb (hard corners; it was a round 16px dot); the track fills with <code>color.action</code>, since a slider is a control and cobalt is right here; the value is <code>control-label</code> and follows the thumb; the 0 and 100 labels are muted (were 50% opacity).</li><li><b>Decide:</b> core (both surfaces) or product only?</li></ul>
+</article>
+
+<article class="cs-entry" id="e16" data-name="Combobox (company search)">
+  <header class="cs-entry__head"><span class="cs-num">16</span>
+    <div><h3 class="cs-entry__name">Combobox (company search)</h3><p class="cs-entry__map"><code>FeedFilters → CompanySearch</code> → <code>core/combobox</code> (built on <code>text-input --search</code>)</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-w-half"><div class="pa-combobox">
+      <div class="pa-text-input pa-text-input--search"><svg class="pa-icon pa-text-input__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M782.87-98.52 526.91-354.48q-29.43 21.74-68.15 34.61Q420.04-307 375.48-307q-114.09 0-193.55-79.46-79.45-79.45-79.45-193.54 0-114.09 79.45-193.54Q261.39-853 375.48-853q114.09 0 193.54 79.46 79.46 79.45 79.46 193.54 0 45.13-12.87 83.28T601-429.7l256.52 257.09-74.65 74.09ZM375.48-413q69.91 0 118.45-48.54 48.55-48.55 48.55-118.46t-48.55-118.46Q445.39-747 375.48-747t-118.46 48.54Q208.48-649.91 208.48-580t48.54 118.46Q305.57-413 375.48-413Z"/></svg><input class="pa-text-input__field" type="search" role="combobox" aria-expanded="true" aria-controls="cb1" value="ev"></div>
+      <ul class="pa-combobox__list" id="cb1" role="listbox"><li class="pa-combobox__option" role="option" aria-selected="true"><span>Evolution Malta Holding</span><span class="pa-combobox__count">6</span></li><li class="pa-combobox__option" role="option"><span>Evoke plc</span><span class="pa-combobox__count">3</span></li><li class="pa-combobox__option" role="option"><span>Betfred (Done Brothers)</span><span class="pa-combobox__count">1</span></li></ul>
+    </div><figcaption><b>Typing</b>: matches with counts, the active option in <code>color.surface</code></figcaption></figure>
+    <figure class="cs-var cs-w-half"><div class="pa-combobox"><div class="pa-text-input pa-text-input--search"><svg class="pa-icon pa-text-input__icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M782.87-98.52 526.91-354.48q-29.43 21.74-68.15 34.61Q420.04-307 375.48-307q-114.09 0-193.55-79.46-79.45-79.45-79.45-193.54 0-114.09 79.45-193.54Q261.39-853 375.48-853q114.09 0 193.54 79.46 79.46 79.45 79.46 193.54 0 45.13-12.87 83.28T601-429.7l256.52 257.09-74.65 74.09ZM375.48-413q69.91 0 118.45-48.54 48.55-48.55 48.55-118.46t-48.55-118.46Q445.39-747 375.48-747t-118.46 48.54Q208.48-649.91 208.48-580t48.54 118.46Q305.57-413 375.48-413Z"/></svg><input class="pa-text-input__field" type="search" aria-label="Search by company" placeholder="Search by company"></div>
+      <ul class="pa-combobox__chosen"><li class="pa-combobox__chip"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EN</span><span>Entain</span><button class="pa-icon-btn" type="button" aria-label="Remove Entain"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M256-181.91 181.91-256l224-224-224-224L256-778.09l224 224 224-224L778.09-704l-224 224 224 224L704-181.91l-224-224-224 224Z"/></svg></button></li><li class="pa-combobox__chip"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span><span>Evolution Malta Holding</span><button class="pa-icon-btn" type="button" aria-label="Remove Evolution Malta Holding"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M256-181.91 181.91-256l224-224-224-224L256-778.09l224 224 224-224L778.09-704l-224 224 224 224L704-181.91l-224-224-224 224Z"/></svg></button></li></ul></div>
+      <figcaption><b>With choices</b>: rows of logo, name and remove</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Also proposes</b> <code>pa-icon-btn</code>, a 32px square icon-only button. The DS has <code>task-panel</code>'s close button, which is the same thing. Promote one to core?</li><li><b>Decide:</b> chosen companies as rows (today) or as removable chips in a cluster?</li></ul>
+</article>
+
+<article class="cs-entry" id="e17" data-name="Switch with help">
+  <header class="cs-entry__head"><span class="cs-num">17</span>
+    <div><h3 class="cs-entry__name">Switch with help</h3><p class="cs-entry__map"><code>QuietToggle.tsx</code> → <code>product/form-controls</code> <code>pa-switch</code> + help button + <code>tooltip</code> (#18)</p></div>
+    <span class="cs-disp">Reuse</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-help"><label class="pa-switch"><input class="pa-switch__input" type="checkbox" role="switch"> Show quieter patterns</label><button class="pa-icon-btn" type="button" aria-label="About quieter patterns"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M516.04-256.48q16.48-16.48 16.48-39.82t-16.48-39.45q-16.47-16.12-39.74-16.12-23.26 0-39.74 16.12-16.47 16.11-16.47 39.45 0 23.34 16.47 39.82Q453.04-240 476.3-240q23.27 0 39.74-16.48ZM434.09-394h85.3q0-30.74 7.78-50.3 7.79-19.57 39.96-50.31 24.3-23.74 39.02-48.12 14.72-24.38 14.72-58.61 0-58.09-39.87-88.94-39.87-30.85-95.87-30.85-59.26 0-97.59 32.83-38.32 32.82-53.45 78.21l78.43 29.96q6.13-19.13 22.22-39.57 16.09-20.43 47.56-20.43 25.22 0 38.4 14.67 13.17 14.68 13.17 32.29 0 17.17-11.15 33.82-11.16 16.65-25.2 28.26-41.74 37.87-52.59 59.85-10.84 21.98-10.84 77.24ZM480-60.78q-87.52 0-163.91-32.96-76.38-32.96-132.88-89.47-56.51-56.5-89.47-132.88Q60.78-392.48 60.78-480t32.96-163.91q32.96-76.38 89.47-132.88 56.5-56.51 132.88-89.47 76.39-32.96 163.91-32.96t163.91 32.96q76.38 32.96 132.88 89.47 56.51 56.5 89.47 132.88 32.96 76.39 32.96 163.91t-32.96 163.91q-32.96 76.38-89.47 132.88-56.5 56.51-132.88 89.47Q567.52-60.78 480-60.78Zm0-106q131.74 0 222.48-90.74 90.74-90.74 90.74-222.48t-90.74-222.48Q611.74-793.22 480-793.22t-222.48 90.74Q166.78-611.74 166.78-480t90.74 222.48q90.74 90.74 222.48 90.74ZM480-480Z"/></svg></button></span><figcaption><b>Off</b></figcaption></figure>
+    <figure class="cs-var"><span class="pa-help"><label class="pa-switch"><input class="pa-switch__input" type="checkbox" role="switch" checked> Show quieter patterns</label><span class="pa-help__anchor"><button class="pa-icon-btn" type="button" aria-label="About quieter patterns"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M516.04-256.48q16.48-16.48 16.48-39.82t-16.48-39.45q-16.47-16.12-39.74-16.12-23.26 0-39.74 16.12-16.47 16.11-16.47 39.45 0 23.34 16.47 39.82Q453.04-240 476.3-240q23.27 0 39.74-16.48ZM434.09-394h85.3q0-30.74 7.78-50.3 7.79-19.57 39.96-50.31 24.3-23.74 39.02-48.12 14.72-24.38 14.72-58.61 0-58.09-39.87-88.94-39.87-30.85-95.87-30.85-59.26 0-97.59 32.83-38.32 32.82-53.45 78.21l78.43 29.96q6.13-19.13 22.22-39.57 16.09-20.43 47.56-20.43 25.22 0 38.4 14.67 13.17 14.68 13.17 32.29 0 17.17-11.15 33.82-11.16 16.65-25.2 28.26-41.74 37.87-52.59 59.85-10.84 21.98-10.84 77.24ZM480-60.78q-87.52 0-163.91-32.96-76.38-32.96-132.88-89.47-56.51-56.5-89.47-132.88Q60.78-392.48 60.78-480t32.96-163.91q32.96-76.38 89.47-132.88 56.5-56.51 132.88-89.47 76.39-32.96 163.91-32.96t163.91 32.96q76.38 32.96 132.88 89.47 56.51 56.5 89.47 132.88 32.96 76.39 32.96 163.91t-32.96 163.91q-32.96 76.38-89.47 132.88-56.5 56.51-132.88 89.47Q567.52-60.78 480-60.78Zm0-106q131.74 0 222.48-90.74 90.74-90.74 90.74-222.48t-90.74-222.48Q611.74-793.22 480-793.22t-222.48 90.74Q166.78-611.74 166.78-480t90.74 222.48q90.74 90.74 222.48 90.74ZM480-480Z"/></svg></button></span></span>
+      <span class="pa-tooltip" role="tooltip">Includes quiet patterns and routine runs of filings.</span><figcaption><b>On, help showing</b></figcaption></figure>
+    <figure class="cs-var"><p class="pa-status-line">8 active patterns of 23.</p><figcaption><b>Caption</b> under it: <code>app-meta</code></figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> the DS switch replaces the custom pill track and knob; the (?) becomes an icon button.</li></ul>
+</article>
+
+<article class="cs-entry" id="e18" data-name="Tooltip">
+  <header class="cs-entry__head"><span class="cs-num">18</span>
+    <div><h3 class="cs-entry__name">Tooltip</h3><p class="cs-entry__map"><code>.timeTip</code>, <code>.pa-tooltip</code> (help, heat map, charts), <code>.tlTip</code> → <code>core/tooltip</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var"><span class="pa-tooltip" role="tooltip">23 July 2026, 09:14 · estimated from when we collected it</span><figcaption><b>One line</b>: the exact time on a card</figcaption></figure>
+    <figure class="cs-var"><span class="pa-tooltip"><span>8–14 Sep</span><span class="pa-tooltip__value">5 signals</span></span><figcaption><b>Label + value</b>: charts</figcaption></figure>
+    <figure class="cs-var"><span class="pa-tooltip"><span>Enforcement action · 8–14 Sep</span><span class="pa-tooltip__value">3 signals</span><span>Top: Evolution Malta Holding Limited to pay £4.75m</span></span><figcaption><b>With a story</b>: weekly volume</figcaption></figure>
+    <figure class="cs-var"><span class="pa-ground" data-ground="ink" style="display:inline-block;padding:var(--pa-spacing-xs) var(--pa-spacing-sm)">23 July 2026, 09:14</span><figcaption><b>Alternative</b>: ink ground, as today (<code>#1f1f1f</code>)</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> drafted on <code>color.surface</code> with <code>elevation.overlay</code>, which is the DS rule for things that float. Today it's a near-black box.</li><li><b>Decide:</b> light (surface + overlay) or ink? Hover-and-focus only, with positioning left to the app or to a behaviour script?</li></ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="insights">
+<h2 class="cs-section__title">F · Insights</h2>
+
+<article class="cs-entry" id="e19" data-name="Headline figures">
+  <header class="cs-entry__head"><span class="cs-num">19</span>
+    <div><h3 class="cs-entry__name">Headline figures</h3><p class="cs-entry__map"><code>insights/StatTiles.tsx</code> → <code>product/stat-strip</code> (+ <code>__note</code>, <code>--hero</code>) or a new <code>stat-grid</code></p></div>
+    <span class="cs-disp cs-disp--extend">Extend</span></header>
+  <div class="cs-stage cs-stage--col">
+    <figure class="cs-var"><ul class="pa-stat-grid" role="list">
+      <li class="pa-stat-grid__item pa-stat-grid__item--hero"><span class="pa-stat-grid__value">42</span><span class="pa-stat-grid__label">Signals this week</span><span class="pa-stat-strip__note">+18% on the 4-week average</span></li>
+      <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">17</span><span class="pa-stat-grid__label">High relevance, 30 days</span><span class="pa-stat-strip__note">+4 on the previous 30 days</span></li>
+      <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">8</span><span class="pa-stat-grid__label">Active patterns</span><span class="pa-stat-strip__note">Companies with a run of related signals</span></li>
+      <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">3</span><span class="pa-stat-grid__label">Themes building</span><span class="pa-stat-strip__note">Sector-wide stories gaining pace</span></li>
+      <li class="pa-stat-grid__item"><span class="pa-stat-grid__value">12/14</span><span class="pa-stat-grid__label">Sources healthy</span><span class="pa-stat-strip__note">At the last update</span></li></ul>
+      <figcaption><b>Option A</b>: <code>stat-grid</code>, up to 5 figures with notes; the first is the hero, on ink</figcaption></figure>
+    <figure class="cs-var"><ul class="pa-stat-strip" role="list">
+      <li class="pa-stat-strip__item"><span class="pa-stat-strip__value">42</span> <span class="pa-stat-strip__label">Signals this week</span><span class="pa-stat-strip__note">+18% on the 4-week average</span></li>
+      <li class="pa-stat-strip__item"><span class="pa-stat-strip__value">17</span> <span class="pa-stat-strip__label">High relevance</span><span class="pa-stat-strip__note">+4 on the previous 30 days</span></li>
+      <li class="pa-stat-strip__item"><span class="pa-stat-strip__value">8</span> <span class="pa-stat-strip__label">Active patterns</span></li></ul>
+      <figcaption><b>Option B</b>: the existing <code>stat-strip</code> + a <code>__note</code> part, held to its 3-figure limit (drop "Themes building" and "Sources healthy")</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Conflict:</b> the DS stat-strip says "don't show more than three figures; use a table". Today there are 4–5 tiles.</li><li><b>Decide:</b> A (a new component) or B (cut to three)? Is an ink hero tile OK, given the DS has no hero figure?</li></ul>
+</article>
+
+<article class="cs-entry" id="e20" data-name="Chart card + table view">
+  <header class="cs-entry__head"><span class="cs-num">20</span>
+    <div><h3 class="cs-entry__name">Chart card + table view</h3><p class="cs-entry__map"><code>insights.module.css .card/.cardHead</code> + <code>TableView.tsx</code> → <code>product/chart-card</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><section class="pa-chart-card"><header><h3 class="pa-chart-card__title">Theme momentum</h3><p class="pa-chart-card__sub">How hot each sector-wide theme is, and which way it's heading: signals in the last 28 days against the 28 before.</p></header>
+      <div style="block-size:var(--pa-spacing-2xl);background:var(--pa-color-surface)"></div>
+      <details class="pa-chart-card__table" open><summary><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m485.91-480-184-184L376-738.09 634.09-480 376-221.91 301.91-296l184-184Z"/></svg>Show as a table</summary>
+        <table class="pa-data-table"><thead><tr><th>Theme</th><th class="is-num">Heat</th><th>Direction</th><th class="is-num">Last 28 days</th><th class="is-num">Previous 28</th></tr></thead>
+        <tbody><tr><td>Enforcement action</td><td class="is-num">214</td><td>Building</td><td class="is-num">12</td><td class="is-num">7</td></tr><tr><td>Advertising ruling</td><td class="is-num">141</td><td>Steady</td><td class="is-num">5</td><td class="is-num">5</td></tr></tbody></table></details>
+    </section><figcaption><b>With the table open</b>: the chart's body is a placeholder here, see #21–#24</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why new:</b> the DS rule "every chart has a table view" has no component behind it yet. This gives it one: title, sub, chart, table.</li><li><b>Also proposes</b> <code>pa-data-table</code>, a plain product data table. The DS only has the marketing <code>comparison-table</code>.</li></ul>
+</article>
+
+<article class="cs-entry" id="e21" data-name="Weekly volume (line chart)">
+  <header class="cs-entry__head"><span class="cs-num">21</span>
+    <div><h3 class="cs-entry__name">Weekly volume (line chart)</h3><p class="cs-entry__map"><code>insights/WeeklyVolume.tsx</code> → <code>product/line-chart</code> inside a chart card</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><section class="pa-chart-card"><header><h3 class="pa-chart-card__title">Signals per week</h3><p class="pa-chart-card__sub">352 signals over 26 weeks · <span class="pa-line-chart__key"></span> week with a signal scoring 75% or more</p></header>
+      <div class="pa-line-chart" role="img" aria-label="Signals per week over the last 26 weeks, 335 in all."><div class="pa-line-chart__y"><span style="bottom:0.0%">0</span><span style="bottom:46.1%">12</span><span style="bottom:96.0%">25</span></div><div class="pa-line-chart__plot"><svg class="pa-line-chart__svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line class="pa-line-chart__grid" x1="0" x2="100" y1="53.92" y2="53.92"/><line class="pa-line-chart__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><line class="pa-line-chart__base" x1="0" x2="100" y1="100" y2="100"/><path class="pa-line-chart__area" d="M0.00,76.96 L4.00,65.44 L8.00,84.64 L12.00,53.92 L16.00,69.28 L20.00,42.40 L24.00,57.76 L28.00,73.12 L32.00,65.44 L36.00,30.88 L40.00,46.24 L44.00,61.60 L48.00,69.28 L52.00,50.08 L56.00,19.36 L60.00,38.56 L64.00,53.92 L68.00,65.44 L72.00,46.24 L76.00,27.04 L80.00,7.84 L84.00,34.72 L88.00,50.08 L92.00,42.40 L96.00,23.20 L100.00,57.76 L100,100 L0,100 Z"/><path class="pa-line-chart__line" d="M0.00,76.96 L4.00,65.44 L8.00,84.64 L12.00,53.92 L16.00,69.28 L20.00,42.40 L24.00,57.76 L28.00,73.12 L32.00,65.44 L36.00,30.88 L40.00,46.24 L44.00,61.60 L48.00,69.28 L52.00,50.08 L56.00,19.36 L60.00,38.56 L64.00,53.92 L68.00,65.44 L72.00,46.24 L76.00,27.04 L80.00,7.84 L84.00,34.72 L88.00,50.08 L92.00,42.40 L96.00,23.20 L100.00,57.76"/></svg><span class="pa-line-chart__mark" style="left:36.00%;bottom:69.1%"></span><span class="pa-line-chart__mark" style="left:56.00%;bottom:80.6%"></span><span class="pa-line-chart__mark" style="left:80.00%;bottom:92.2%"></span><span class="pa-line-chart__mark" style="left:96.00%;bottom:76.8%"></span><span class="pa-line-chart__guide" style="left:44.00%"></span><span class="pa-line-chart__hdot" style="left:44.00%;bottom:38.4%"></span><span class="pa-tooltip pa-line-chart__tip" style="left:44.00%"><span>21–27 Jul</span><span class="pa-tooltip__value">10 signals</span><span>Top: Evolution Malta Holding Limited to pay £4.75m</span></span></div><div class="pa-line-chart__x"><span style="left:8.00%">May</span><span style="left:24.00%">Jun</span><span style="left:40.00%">Jul</span><span style="left:56.00%">Aug</span><span style="left:72.00%">Sep</span><span style="left:88.00%">Oct</span></div></div>
+      <details class="pa-chart-card__table"><summary><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m485.91-480-184-184L376-738.09 634.09-480 376-221.91 301.91-296l184-184Z"/></svg>Show as a table</summary></details></section>
+      <figcaption><b>Hovering week 12</b>: guide, tooltip, square marks on high-score weeks</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> a 2px cobalt line over an 8% wash; high-score weeks are solid 8px cobalt squares with a white ring (were round dots); the tooltip sits beside the guide, so it never covers the line.</li></ul>
+</article>
+
+<article class="cs-entry" id="e22" data-name="Category heat map">
+  <header class="cs-entry__head"><span class="cs-num">22</span>
+    <div><h3 class="cs-entry__name">Category heat map</h3><p class="cs-entry__map"><code>insights/HeatMap.tsx</code> → <code>product/heat-map</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><section class="pa-chart-card"><header><h3 class="pa-chart-card__title">What kind of news, week by week</h3><p class="pa-chart-card__sub">Signals per category each week. Darker means more.</p></header>
+      <div class="pa-heat-map" role="table" aria-label="Signals per category by week" style="--weeks:20"><div class="pa-heat-map__row" aria-hidden="true"><span></span><span class="pa-heat-map__month">Jun</span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month">Jul</span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month">Aug</span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month">Sep</span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month">Oct</span><span class="pa-heat-map__month"></span><span class="pa-heat-map__month"></span><span></span></div><div class="pa-heat-map__row" role="row"><span class="pa-heat-map__name" role="rowheader"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M132.87-85.52V-174h506v88.48h-506Zm241.26-194L129.48-523.61 232.13-627.7l246.09 244.09-104.09 104.09Zm277.74-278.31L407.78-803.91 511.87-906l244.65 244.09-104.65 104.08ZM824-137.39 283.91-677.48 358-752.13l540.09 540.65L824-137.39Z"/></svg>Enforcement action</span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Enforcement action: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Enforcement action: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Enforcement action: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 4 signals" title="4"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Enforcement action: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="4" aria-label="Enforcement action: 5 signals" title="5"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 4 signals" title="4"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Enforcement action: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="4" aria-label="Enforcement action: 6 signals" title="6"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Enforcement action: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Enforcement action: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="5" aria-label="Enforcement action: 8 signals" title="8"></span><span class="pa-heat-map__total" role="cell">55</span></div><div class="pa-heat-map__row" role="row"><span class="pa-heat-map__name" role="rowheader"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M728.48-431.52v-96.96h186v96.96h-186ZM794-142.48 645.09-254.3l58.74-77.57 148.35 111.26L794-142.48Zm-90.17-485.65-58.74-77.57L794-817.52l58.18 78.13-148.35 111.26ZM165.52-180.78v-160h-120v-278.44h253.57l224.3-134.69v547.82l-224.3-134.69h-24.18v160H165.52ZM417.39-393.3v-173.4l-91.22 53.48H151.52v66.44h174.65l91.22 53.48Zm146 66.52v-306.44q35.48 26.26 56.5 66.42 21.02 40.15 21.02 86.8t-21.02 86.8q-21.02 40.16-56.5 66.42ZM284.74-480Z"/></svg>Advertising ruling</span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Advertising ruling: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Advertising ruling: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Advertising ruling: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Advertising ruling: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Advertising ruling: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Advertising ruling: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Advertising ruling: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Advertising ruling: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="Advertising ruling: 4 signals" title="4"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Advertising ruling: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Advertising ruling: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Advertising ruling: 2 signals" title="2"></span><span class="pa-heat-map__total" role="cell">26</span></div><div class="pa-heat-map__row" role="row"><span class="pa-heat-map__name" role="rowheader"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M182.48-273.78v-280H280v280h-97.52Zm249.04 0v-280h96.96v280h-96.96ZM60.78-105.3v-106h838.44v106H60.78ZM680-273.78v-280h97.52v280H680ZM60.78-616.82v-111.09L480-937.52l419.22 209.61v111.09H60.78Zm226.61-106.01h385.22-385.22Zm0 0h385.22L480-818.13l-192.61 95.3Z"/></svg>AML and compliance failures</span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="AML and compliance failures: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="3" aria-label="AML and compliance failures: 3 signals" title="3"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="AML and compliance failures: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="AML and compliance failures: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="AML and compliance failures: 1 signals" title="1"></span><span class="pa-heat-map__total" role="cell">13</span></div><div class="pa-heat-map__row" role="row"><span class="pa-heat-map__name" role="rowheader"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M60.78-140.78v-678.44h586L899.22-480 646.78-140.78h-586Zm105.44-105.44h428.13L767.56-480 594.35-713.78H166.22v467.56ZM467.17-480Z"/></svg>Licence change</span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Licence change: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Licence change: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Licence change: 0 signals" title="0"></span><span class="pa-heat-map__total" role="cell">9</span></div><div class="pa-heat-map__row" role="row"><span class="pa-heat-map__name" role="rowheader"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m135.43-223.04-74.65-74.09 318.05-319.48 160 160 179.73-178.87h-97.78v-106h278.44v277.87h-106v-97.78L538.83-306.43l-160-160-243.4 243.39Z"/></svg>Market entry</span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Market entry: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Market entry: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Market entry: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="2" aria-label="Market entry: 2 signals" title="2"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="1" aria-label="Market entry: 1 signals" title="1"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__cell" role="cell" data-step="0" aria-label="Market entry: 0 signals" title="0"></span><span class="pa-heat-map__total" role="cell">6</span></div></div>
+      <div class="pa-heat-map__legend"><span><span class="pa-heat-map__cell"></span>0</span><span><span class="pa-heat-map__cell" data-step="1"></span>1</span><span><span class="pa-heat-map__cell" data-step="2"></span>2</span><span><span class="pa-heat-map__cell" data-step="3"></span>3–4</span><span><span class="pa-heat-map__cell" data-step="4"></span>5–7</span><span><span class="pa-heat-map__cell" data-step="5"></span>8+</span></div>
+    </section><figcaption><b>Default</b>: the ramp seq-1…seq-5; zero is an outlined empty cell</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> today's hand-picked blues (<code>#93afff → #0033ad</code>) become <code>dataviz.seq-*</code>, built from DS colours: a cobalt tint, Light Blue, Cobalt, then Tertiary Blue.</li><li><b>Note:</b> a cobalt cell looks clickable. The cells do have a hover tooltip, but clicking them does nothing.</li></ul>
+</article>
+
+<article class="cs-entry" id="e23" data-name="Companies in the news (ranked table)">
+  <header class="cs-entry__head"><span class="cs-num">23</span>
+    <div><h3 class="cs-entry__name">Companies in the news (ranked table)</h3><p class="cs-entry__map"><code>insights/Movers.tsx</code> → <code>product/ranked-table</code> (or <code>pa-data-table</code> with cell parts)</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><table class="pa-ranked-table"><thead><tr><th>Company</th><th>18 weeks</th><th>Top</th><th class="is-num">Signals</th><th class="is-num">Change</th></tr></thead><tbody>
+      <tr><td><span class="pa-ranked-table__name"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span>Evolution Malta Holding</span></td><td><svg class="pa-ranked-table__spark" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.0 11.1,20.0 22.2,24.0 33.3,16.0 44.4,20.0 55.6,12.0 66.7,16.0 77.8,8.0 88.9,12.0 100.0,4.0"/></svg></td><td><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__value">78%</span></span></td><td class="is-num">6</td><td class="is-num"><span aria-hidden="true">▲ </span>+4</td></tr>
+      <tr><td><span class="pa-ranked-table__name"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">PE</span>Petfre (Gibraltar)</span></td><td><svg class="pa-ranked-table__spark" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.0 11.1,24.0 22.2,24.0 33.3,14.0 44.4,24.0 55.6,24.0 66.7,4.0 77.8,14.0 88.9,24.0 100.0,14.0"/></svg></td><td><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__value">78%</span></span></td><td class="is-num">3</td><td class="is-num"><span aria-hidden="true">▲ </span>+2</td></tr>
+      <tr><td><span class="pa-ranked-table__name"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EN</span>Entain</span></td><td><svg class="pa-ranked-table__spark" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,4.0 11.1,14.0 22.2,4.0 33.3,14.0 44.4,14.0 55.6,24.0 66.7,14.0 77.8,4.0 88.9,14.0 100.0,14.0"/></svg></td><td><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="30.16 47.12"/></svg><span class="pa-meter__value">64%</span></span></td><td class="is-num">5</td><td class="is-num"><span aria-hidden="true"></span>0</td></tr>
+      <tr><td><span class="pa-ranked-table__name"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">FL</span>Flutter</span></td><td><svg class="pa-ranked-table__spark" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,9.0 11.1,14.0 22.2,4.0 33.3,9.0 44.4,14.0 55.6,14.0 66.7,19.0 77.8,19.0 88.9,24.0 100.0,19.0"/></svg></td><td><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="25.92 47.12"/></svg><span class="pa-meter__value">55%</span></span></td><td class="is-num">4</td><td class="is-num"><span aria-hidden="true">▼ </span>−3</td></tr>
+    </tbody></table><figcaption><b>Default</b>: logo + name, sparkline, bare meter, tabular figures</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> a real <code>&lt;table&gt;</code> (today it's a div grid with a hidden table beside it), so the table view and the chart are the same element and need no "Show as a table".</li><li><b>Decide:</b> its own component, or <code>pa-data-table</code> + the sparkline and meter parts?</li></ul>
+</article>
+
+<article class="cs-entry" id="e24" data-name="Theme momentum (bar list)">
+  <header class="cs-entry__head"><span class="cs-num">24</span>
+    <div><h3 class="cs-entry__name">Theme momentum (bar list)</h3><p class="cs-entry__map"><code>insights/ThemeMomentum.tsx</code> → <code>product/bar-list</code></p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage">
+    <figure class="cs-var cs-var--grow"><ul class="pa-bar-list">
+      <li class="pa-bar-list__row"><span>Enforcement action</span><span class="pa-bar-list__bar"><span style="width:calc(100% - 3rem)"></span><b>214</b></span><span class="pa-bar-list__dir"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m135.43-223.04-74.65-74.09 318.05-319.48 160 160 179.73-178.87h-97.78v-106h278.44v277.87h-106v-97.78L538.83-306.43l-160-160-243.4 243.39Z"/></svg>Building <span class="pa-bar-list__counts">12 vs 7</span></span></li>
+      <li class="pa-bar-list__row"><span>Advertising ruling</span><span class="pa-bar-list__bar"><span style="width:calc(66% - 3rem)"></span><b>141</b></span><span class="pa-bar-list__dir"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M692.65-272.87 617-347.52 696.48-427h-595.7v-106h595.7l-79.05-79.48 75.66-74.65L899.22-480 692.65-272.87Z"/></svg>Steady <span class="pa-bar-list__counts">5 vs 5</span></span></li>
+      <li class="pa-bar-list__row"><span>Affordability checks</span><span class="pa-bar-list__bar"><span style="width:calc(48% - 3rem)"></span><b>103</b></span><span class="pa-bar-list__dir"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="m135.43-223.04-74.65-74.09 318.05-319.48 160 160 179.73-178.87h-97.78v-106h278.44v277.87h-106v-97.78L538.83-306.43l-160-160-243.4 243.39Z"/></svg>Building <span class="pa-bar-list__counts">4 vs 1</span></span></li>
+      <li class="pa-bar-list__row"><span>Sponsorship</span><span class="pa-bar-list__bar"><span style="width:calc(21% - 3rem)"></span><b>45</b></span><span class="pa-bar-list__dir"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M620.78-223.04v-106h97.78L538.83-507.91l-160 160L60.78-667.39l74.65-74.09 243.4 243.39 160-160 254.39 254.96v-97.78h106v277.87H620.78Z"/></svg>Easing <span class="pa-bar-list__counts">1 vs 4</span></span></li>
+    </ul><figcaption><b>Default</b>: a thin cobalt bar from an ink baseline, the value at its tip; direction as an icon and a word</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Changes:</b> cobalt bars, now thin; Sharp trend icons replace the ↗ → ↘ characters; the word stays, so direction isn't carried by the icon alone.</li></ul>
+</article>
+</section>
+
+<!-- ============================================================ -->
+<section class="cs-section" id="panes">
+<h2 class="cs-section__title">G · Panels</h2>
+<article class="cs-entry" id="e25" data-name="Group preview panel">
+  <header class="cs-entry__head"><span class="cs-num">25</span>
+    <div><h3 class="cs-entry__name">Group preview panel</h3><p class="cs-entry__map"><code>PreviewPane.tsx</code> + <code>SignalList.tsx</code> + <code>pane.module.css</code> → <code>product/group-panel</code> (modelled on <code>task-panel</code>)</p></div>
+    <span class="cs-disp cs-disp--new">New</span></header>
+  <div class="cs-stage cs-canvas--well">
+    <figure class="cs-var"><aside class="pa-group-panel cs-w-panel" aria-label="Evolution">
+      <div class="pa-group-panel__head">
+        <div class="pa-group-panel__title-row"><h2 class="pa-group-panel__title"><span class="pa-avatar pa-avatar--initials pa-avatar--xs">EV</span>Evolution</h2>
+          <span class="pa-meter"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="42.4 47.12"/></svg><span class="pa-meter__label">Very active</span></span></div>
+        <button class="pa-icon-btn" type="button" aria-label="Close preview"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M256-181.91 181.91-256l224-224-224-224L256-778.09l224 224 224-224L778.09-704l-224 224 224 224L704-181.91l-224-224-224 224Z"/></svg></button>
+        <div class="pa-group-panel__body">
+          <p class="pa-group-card__meta">6 signals · latest 3 days ago · since 12 May</p>
+          <details class="pa-group-panel__toggle"><summary>Show summary</summary><ul><li>Two settlements in eight weeks</li><li>Licence review opened in July</li></ul></details>
+          <span class="pa-sparkline" role="img" aria-label="Signals per week over the last 18 weeks: peak 5; 4 this week."><span class="pa-sparkline__plot"><svg class="pa-sparkline__svg" viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><line class="pa-sparkline__grid" x1="0" x2="100" y1="4.00" y2="4.00"/><polygon class="pa-sparkline__area" points="0,56 0.00,56.00 5.88,56.00 11.76,32.74 17.65,56.00 23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49 100,56"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="0.00,56.00 5.88,56.00"/><polyline class="pa-sparkline__line pa-sparkline__line--quiet" points="17.65,56.00 23.53,56.00"/><polyline class="pa-sparkline__line" points="5.88,56.00 11.76,32.74 17.65,56.00"/><polyline class="pa-sparkline__line" points="23.53,56.00 29.41,23.11 35.29,32.74 41.18,56.00 47.06,15.72 52.94,32.74 58.82,23.11 64.71,9.49 70.59,23.11 76.47,15.72 82.35,32.74 88.24,4.00 94.12,15.72 100.00,9.49"/></svg><span class="pa-sparkline__dot" style="bottom:83.1%"></span></span><span class="pa-sparkline__axis"><span>12 May</span><span>This week</span></span></span>
+          <span class="pa-cluster pa-gap-sm"><span class="pa-tag pa-tag--plain">Run of filings</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Malta</span><span class="pa-tag"><span class="pa-tag__icon"><svg class="pa-icon" viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M62.48-94v-754.48h435.04v160h400V-94H62.48ZM160-191.52h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm0-160h240v-80H160v80Zm320 480h320v-400H480v400Zm80-240v-80h160v80H560Zm0 160v-80h160v80H560Z"/></svg></span>Evolution Gaming</span></span>
+        </div>
+      </div>
+      <h3 class="pa-group-panel__section">Signals (6)</h3>
+      <div class="pa-group-panel__list">
+        <article class="pa-signal-card pa-signal-card--compact"><div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--logo pa-avatar--xs"><img class="pa-avatar__image" src="../../web/public/logos/gambling_commission.png" alt=""></span><span class="pa-signal-card__source-name">Gambling Commission</span><time class="pa-signal-card__time">23 Jul</time></div><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="36.76 47.12"/></svg><span class="pa-meter__value">78%</span></span></div><h3 class="pa-signal-card__headline">Evolution Malta Holding Limited to pay £4.75m</h3></article>
+        <article class="pa-signal-card pa-signal-card--compact"><div class="pa-signal-card__head"><div class="pa-signal-card__source"><span class="pa-avatar pa-avatar--initials pa-avatar--xs pa-avatar--long">MGA</span><span class="pa-signal-card__source-name">Malta Gaming Authority</span><time class="pa-signal-card__time">2 Jul</time></div><span class="pa-meter pa-meter--bare"><svg class="pa-meter__ring" viewBox="0 0 20 20" aria-hidden="true"><circle class="pa-meter__track" cx="10" cy="10" r="7.5"/><circle class="pa-meter__arc" cx="10" cy="10" r="7.5" stroke-dasharray="21.2 47.12"/></svg><span class="pa-meter__value">45%</span></span></div><h3 class="pa-signal-card__headline">Licence review opened for Evolution Gaming</h3></article>
+      </div>
+    </aside><figcaption><b>Open</b>: <code>elevation.overlay</code>, since it sits over the page (DS: side panels)</figcaption></figure>
+  </div>
+  <ul class="cs-notes"><li><b>Why not reuse task-panel:</b> its anatomy is task-specific (deadline, actions, checks). It's the same shell, though: a header with a close button that owns the corner, and the queue's <code>panel-width</code> (30rem). Could generalise to a <code>detail-panel</code> that both use.</li><li><b>Changes:</b> the close is <code>pa-icon-btn</code> (#16); "Signals (n)" is Press Sans Bold; the list uses compact signal cards (#1).</li></ul>
+</article>
+</section>
+
+<section class="cs-section" id="out">
+<h2 class="cs-section__title">H · Not proposed</h2>
+<article class="cs-entry" id="e26" data-name="Login art">
+  <header class="cs-entry__head"><span class="cs-num">26</span>
+    <div><h3 class="cs-entry__name">Login art</h3><p class="cs-entry__map"><code>LoginArt.tsx</code>: the cobalt grid with the animated line on the sign-in page</p></div>
+    <span class="cs-disp cs-disp--out">Out of scope</span></header>
+  <ul class="cs-notes"><li><b>Why:</b> it's a brand moment, not a product component, and it breaks two product rules on purpose (cobalt as a background on a chart, and an entrance animation). If it's wanted, it belongs with the brand team as a marketing / graphic-device asset.</li><li><b>Also not proposed:</b> <code>GroupList</code> (it's page composition, which the app keeps) and <code>LogosProvider</code> (app state).</li></ul>
+</article>
+</section>
+
+</main>
+</body>
+</html>
