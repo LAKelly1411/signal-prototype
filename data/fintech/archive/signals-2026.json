@@ -2314,5 +2314,83 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": null
+  },
+  {
+    "id": "21900047a60a60ac58b0c9e8cef9e6448b7f374d984daee02544343afcc66b53",
+    "source": "companies_house",
+    "source_id": "MzUzMDI3NjUxOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMDI3NjUxOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593986+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director termination at Starling Bank is routine governance news but worth tracking for leadership changes at a major UK challenger bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "4484379708f319f1cf46858179ef8bc45b968bb00dbaf430e2a46c14bab155d2",
+    "source": "companies_house",
+    "source_id": "MzUzMDI3NjQwN2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMDI3NjQwN2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593992+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director departure at Starling Bank could signal leadership shifts worth monitoring at a major UK digital bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
+  },
+  {
+    "id": "154c70a003bc6b3dba76c10b1caf6c6f8b0509965564fdd8b704304e31758dd9",
+    "source": "companies_house",
+    "source_id": "MzUzMDI3NjI5N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMDI3NjI5N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593998+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director termination at Starling Bank could signal leadership changes worth tracking at a major UK digital bank.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null
   }
 ]

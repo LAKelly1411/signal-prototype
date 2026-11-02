@@ -34,127 +34,6 @@
     "sector": "gambling"
   },
   {
-    "id": "fcaaa37cf5089eacddd807953557115da95c8d9a075093560e432ef063523e2a",
-    "source": "gazette",
-    "source_id": "5167601",
-    "source_url": "https://www.thegazette.co.uk/notice/5167601",
-    "title": "DEESIDE BOOKMAKERS LTD.",
-    "raw_summary": "Appointment of Liquidators: …kmakers Ltd. by virtue of the deemed consent procedure. The nature of the business of the company is Gambling and betting activities. …",
-    "published_at": "2026-07-03T12:01:45+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Deeside Bookmakers Ltd"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A licensed bookmaker entering liquidation signals possible sector distress and may trigger licence and creditor implications.",
-    "category": "insolvency/liquidation",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Deeside Bookmakers"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "theme_summary": "Insolvency filings have hit UK gambling firms across the supply chain since early July, from bookmakers Deeside and MAB Bookmakers to compliance specialist Lysis Gaming Compliance and racing data supplier Equusform. The pace has quickened through August and September, with T33 Gaming moving from petition to winding-up order within three weeks.",
-    "theme_key_points": [
-      "Lysis Gaming Compliance faced repeated winding-up filings between 24 July and 26 August, unusual persistence for one firm",
-      "T33 Gaming progressed from petition (4 Sept) to winding-up order (23 Sept) inside 19 days",
-      "MGE Korea's administrators appointment on 14 Sept scores highest (55), tied to integrated gaming facilities group",
-      "Seventeen separate entities affected since 3 July, spanning bookmakers, publishers, compliance and data suppliers"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:f57c721a8b72:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "cf4831393fdef1be2c169db724402c3a6b5cffb2b0d4305c6324b73f888a68c4",
-    "source": "gazette",
-    "source_id": "5167475",
-    "source_url": "https://www.thegazette.co.uk/notice/5167475",
-    "title": "ACCELERATE CORPORATION LTD.",
-    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1269121/ …",
-    "published_at": "2026-07-03T12:01:35+00:00",
-    "ingested_at": "2026-07-14T10:29:44.848466+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Accelerate Corporation Ltd",
-      "HMRC"
-    ],
-    "newsworthiness_score": 8,
-    "why_it_matters": "No apparent gambling-sector link, so limited relevance to gambling industry journalists despite being an HMRC insolvency action.",
-    "category": "winding-up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Accelerate",
-      "HMRC"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
-    "id": "0bc8c22a0f11fae429c246e88491464597629543919ebf0fcc91813b912bf416",
-    "source": "gazette",
-    "source_id": "5167173",
-    "source_url": "https://www.thegazette.co.uk/notice/5167173",
-    "title": "LANGORF HOTEL LIMITED",
-    "raw_summary": "Appointment of Liquidators: …716940 Nature of Business: Hotels and similar accommodation Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN …",
-    "published_at": "2026-07-03T01:03:54+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Langorf Hotel Limited"
-    ],
-    "newsworthiness_score": 5,
-    "why_it_matters": "A hotel company's liquidation appears unrelated to gambling and gaming, so it holds minimal relevance for this sector's audience.",
-    "category": "insolvency filing",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Langorf Hotel Limited has filed a winding-up resolution, per gazette notices. This is a hotel insolvency matter with no apparent link to gambling or gaming operations.",
-    "cluster_summary_for": "933ee7f1d7e3c921:cecdc011",
-    "canonical_entities": [
-      "Langorf Hotel"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_pattern_type": "unrelated",
-    "cluster_coherent": false,
-    "cluster_significance": 3,
-    "sector": "gambling"
-  },
-  {
-    "id": "ac9bbb676997e0e64ae14284e3653c676c17af867d8779ed55dd513ff7236ec2",
-    "source": "gazette",
-    "source_id": "5167145",
-    "source_url": "https://www.thegazette.co.uk/notice/5167145",
-    "title": "LANGORF HOTEL LIMITED",
-    "raw_summary": "Resolutions for Winding-up: LANGORF HOTEL LIMITED (Company Number 11716940 ) Registered office: Woodgate Studios, 2-8 Games Road, Cockfosters, Barnet EN4 9HN …",
-    "published_at": "2026-07-03T01:03:23+00:00",
-    "ingested_at": "2026-07-14T10:29:44.849474+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Langorf Hotel Limited"
-    ],
-    "newsworthiness_score": 5,
-    "why_it_matters": "A hotel company's winding-up resolution has no apparent connection to the gambling sector.",
-    "category": "insolvency filing",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Langorf Hotel Limited has filed a winding-up resolution, per gazette notices. This is a hotel insolvency matter with no apparent link to gambling or gaming operations.",
-    "cluster_summary_for": "933ee7f1d7e3c921:cecdc011",
-    "canonical_entities": [
-      "Langorf Hotel"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_pattern_type": "unrelated",
-    "cluster_coherent": false,
-    "cluster_significance": 3,
-    "sector": "gambling"
-  },
-  {
     "id": "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
     "source": "dcms",
     "source_id": null,
@@ -258,112 +137,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "21c2edd52201d74d82a225ac51b81e5e5ff8205dfba22d8c8ee7ac5d652924e3",
-    "source": "parliament",
-    "source_id": "1924024",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-03/15684",
-    "title": "Written question: Gambling: Licensing",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, whether her Department has made an assessment of the adequacy of the Gambling Commission’s licensing checks in identifying whether gambling software providers supply unlicensed gambling websites.\nA: The Gambling Commission, as the independent regulator for gambling, has responsibility for making decisions around licensing. As part of its regulatory approach, the Gambling Commission assesses applicants against the statutory licensing objectives and ma...",
-    "published_at": "2026-07-03T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029375+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "newsworthiness_score": 42,
-    "why_it_matters": "Highlights parliamentary scrutiny of whether the Gambling Commission adequately vets software suppliers linked to unlicensed gambling sites.",
-    "category": "licensing oversight",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission has widened enforcement across July to September, revoking personal licences, suspending four operators including BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. The Court of Appeal has also shut down Northern & Shell's challenge over the National Lottery licence award.",
-    "theme_key_points": [
-      "Four operator licences suspended in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
-      "Three personal licence revocations since July: Lubna (13 Jul), Galgerud (6 Aug), Ayeni (4 Sep)",
-      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence award, closing the case on 30 July"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:653827a6d519:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "e29759e12f676d725b9e7145d233ee0349c987d422c567954e1a108666f42fd3",
-    "source": "parliament",
-    "source_id": "1924007",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-03/15824",
-    "title": "Written question: Gambling Commission: Legal Opinion",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, with reference to the answer of 21 April 2026, to Question 126621, on Gambling Commission: Legal Opinion, how many prior approvals have been awarded in the last 12 months.\nA: All employees of the Gambling Commission are required to declare any intention to work in the regulated gambling sector, including consultancy. This is dealt with under a conflict of interest procedure, requiring sign off from a member of the executive te...",
-    "published_at": "2026-07-03T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029391+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "newsworthiness_score": 32,
-    "why_it_matters": "Shows parliamentary scrutiny of Gambling Commission staff moving to industry roles, relevant to regulatory independence concerns.",
-    "category": "governance/conflict of interest",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliamentary written questions dominate the summer's gambling policy traffic, with a heavy cluster on 28 August covering Financial Risk Assessments, Gambling Commission staff conflicts-of-interest and high-street planning reform. Government has confirmed prediction markets need Gambling Commission licensing and signalled councils may soon be able to reject new betting premises.",
-    "theme_key_points": [
-      "28 August alone produced over 20 written questions, seven on Financial Risk Assessment data safeguards under the White Paper",
-      "Government confirmed five times on 1 September that prediction markets require Gambling Commission licensing",
-      "Planning reform would let councils reject new betting shops and require AGCs to seek permission, reversing pro-licensing presumption",
-      "BGC opposed a blanket ad ban (21 September) and Gambling Commission issued new machine harm-reduction rules (30 September)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "c3f7b2f110d6ce672cce9e37006a3c077d8cf3f8abca674910a9a2a1345d5d20",
-    "source": "parliament",
-    "source_id": "1924006",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-03/15823",
-    "title": "Written question: Gambling Commission: Legal Opinion",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, with reference to the answer of 21 April 2026 to Question 126621 on Gambling Commission: Legal Opinion, in what circumstances may joining a consultancy that advises the gambling industry require \nA: All employees of the Gambling Commission are required to declare any intention to work in the regulated gambling sector, including consultancy. This is dealt with under a conflict of interest procedure, requiring sign off from a member of the executive te...",
-    "published_at": "2026-07-03T00:00:00+00:00",
-    "ingested_at": "2026-07-15T17:11:28.029394+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "Reveals how the Gambling Commission manages staff moving into industry consultancy, relevant to perceptions of regulatory independence.",
-    "category": "regulator conflict-of-interest policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliamentary written questions dominate the summer's gambling policy traffic, with a heavy cluster on 28 August covering Financial Risk Assessments, Gambling Commission staff conflicts-of-interest and high-street planning reform. Government has confirmed prediction markets need Gambling Commission licensing and signalled councils may soon be able to reject new betting premises.",
-    "theme_key_points": [
-      "28 August alone produced over 20 written questions, seven on Financial Risk Assessment data safeguards under the White Paper",
-      "Government confirmed five times on 1 September that prediction markets require Gambling Commission licensing",
-      "Planning reform would let councils reject new betting shops and require AGCs to seek permission, reversing pro-licensing presumption",
-      "BGC opposed a blanket ad ban (21 September) and Gambling Commission issued new machine harm-reduction rules (30 September)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -542,47 +315,6 @@
     "sector": "gambling"
   },
   {
-    "id": "8bc86be7110b64c7ebd4e5c5fad479eb64bf1f248310b729d437b85169dc44b5",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/smf-machine-games-duty-report-overlooks-impact-on-jobs-venues-and-high-streets-says-bgc",
-    "title": "SMF Machine Games Duty report overlooks impact on jobs, venues and high streets, says BGC",
-    "raw_summary": "",
-    "published_at": "2026-07-03T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925989+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "BGC",
-      "Social Market Foundation"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "BGC's pushback on proposed Machine Games Duty changes signals a live tax policy fight affecting arcades, pubs and high-street jobs.",
-    "category": "gambling taxation policy",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "The Betting and Gaming Council is pushing back publicly against the Social Market Foundation's report proposing Machine Games Duty changes, arguing it ignores the impact on jobs, arcades, pubs and high streets. The two statements, three days apart, show BGC building a sustained lobbying response ahead of any tax policy decision.",
-    "cluster_summary_for": "96b7f08cd1d837fa:cecdc011",
-    "canonical_entities": [
-      "BGC",
-      "Social Market Foundation"
-    ],
-    "canonical_category": "Tax and levy",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 45,
-    "theme_summary": "The Betting and Gaming Council has run a sustained lobbying campaign since July 2026 against gambling tax rises, citing 540 betting shop closures and 4,500 job losses by mid-August, with Betfred and bet365 named as casualties. The pressure has escalated weekly through September as the Budget approaches, drawing in parliamentary and constituency-level backing.",
-    "theme_key_points": [
-      "BGC quantified 540 shop closures and 4,500 jobs lost since the Budget tax rise by 12 August 2026",
-      "Betfred closures (31 July) and bet365 cost-cutting (8 September) both cited by BGC as direct tax-rise casualties",
-      "Makerfield constituency MP publicly backed local bookies against the proposed rise on 28 September",
-      "Parliamentary written question on 23 July shows the issue has reached Westminster ahead of Budget decisions"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:b1b1d95cbaa1:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
     "source": "lse_rns",
     "source_id": null,
@@ -699,45 +431,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Shareholding disclosure:78daa188c845:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "908cc436f4cd2751bdb9d8267431dca78a51e4a89edd8ab3bad628bc0437ffae",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/timing-of-posting-scheme-document/9650665",
-    "title": "evoke: Timing of Posting Scheme Document",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-07-03T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926387+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 30,
-    "why_it_matters": "Signals procedural progress on a corporate scheme document from evoke, relevant to investors and industry watchers tracking the operator's structure.",
-    "category": "corporate filing",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Evoke is progressing a scheme of arrangement through 2026, from timing and publication of the scheme document in July to court and general meeting approvals by mid-August, alongside interim results and shareholding shifts. The September Intralot general meeting result suggests a related equity stake or ownership tie feeding into the restructuring.",
-    "cluster_summary_for": "db38579c22a9af6f:cecdc011",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Corporate filing",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
-    "theme_summary": "Rank Group has moved through a leadership change, naming Richard Harris CEO in July, then followed with final results, an annual report and AGM notice by early September. Entain, Flutter and evoke filed routine corporate and compliance updates across the same period, keeping disclosure activity steady sector-wide.",
-    "theme_key_points": [
-      "Rank Group: Richard Harris appointed CEO (13 July), Final Results (13 Aug), AGM notice (8 Sept)",
-      "evoke posted H1 2026 interim results on 12 August and flagged scheme document timing on 3 July",
-      "Entain concluded its audit tender on 13 August, a routine governance update",
-      "Flutter Entertainment filed a share cancellation notice on 3 August, its only filing in the period"
-    ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:6fa61261b8af:067ec139",
     "sector": "gambling"
   },
   {
@@ -1044,40 +737,6 @@
     ],
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "sector": "gambling"
-  },
-  {
-    "id": "ce00ed37e5a0b139383fc8dccd02e6a460033b01032c996b6fb5efec4cc83cc4",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/publications/community-and-engagement-survey-methodology",
-    "title": "Community and Engagement Survey Methodology",
-    "raw_summary": "The methodology underlying the Community and Engagement Survey, containing Official Statistics by the Department for Culture, Media and Sport.",
-    "published_at": "2026-07-02T15:36:34+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914900+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Department for Culture, Media and Sport"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Underpins DCMS survey data used to shape gambling harm policy, though methodology alone breaks little news.",
-    "category": "official statistics methodology",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Department for Culture, Media and Sport"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliamentary written questions dominate the summer's gambling policy traffic, with a heavy cluster on 28 August covering Financial Risk Assessments, Gambling Commission staff conflicts-of-interest and high-street planning reform. Government has confirmed prediction markets need Gambling Commission licensing and signalled councils may soon be able to reject new betting premises.",
-    "theme_key_points": [
-      "28 August alone produced over 20 written questions, seven on Financial Risk Assessment data safeguards under the White Paper",
-      "Government confirmed five times on 1 September that prediction markets require Gambling Commission licensing",
-      "Planning reform would let councils reject new betting shops and require AGCs to seek permission, reversing pro-licensing presumption",
-      "BGC opposed a blanket ad ban (21 September) and Gambling Commission issued new machine harm-reduction rules (30 September)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139",
     "sector": "gambling"
   },
   {
@@ -2634,7 +2293,7 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine compliance disclosure for shareholders, offering minimal insight but confirming evoke's capital structure for market transparency.",
     "category": "total voting rights announcement",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
     "cluster_summary_for": "25ef95543ac847ae:cecdc011",
@@ -2642,7 +2301,7 @@
       "William Hill Limited"
     ],
     "canonical_category": "Shareholding disclosure",
-    "theme_id": "Shareholding disclosure",
+    "theme_id": null,
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
@@ -2673,7 +2332,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Flutter's exit from the LSE marks a major shift in where the UK's largest gambling operator trades, affecting investor access and index inclusion.",
     "category": "listing change",
-    "cluster_id": "35eafacb07dc7232",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Flutter Entertainment has completed its delisting from the London Stock Exchange, confirmed by both a formal cancellation notice and the listing-change announcement on the same day. The move ends the UK's largest gambling operator's LSE presence, shifting trading and index inclusion exclusively to its US listing.",
     "cluster_summary_for": "35eafacb07dc7232:cecdc011",
@@ -2712,13 +2371,13 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine share cancellation notice from a major operator, of limited interest beyond compliance tracking.",
     "category": "corporate filing - share cancellation",
-    "cluster_id": "35eafacb07dc7232",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "Flutter Entertainment"
     ],
     "canonical_category": "Corporate filing",
-    "theme_id": "Corporate filing",
+    "theme_id": null,
     "cluster_summary": "Flutter Entertainment has completed its delisting from the London Stock Exchange, confirmed by both a formal cancellation notice and the listing-change announcement on the same day. The move ends the UK's largest gambling operator's LSE presence, shifting trading and index inclusion exclusively to its US listing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -2751,7 +2410,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "A board game cafe entering liquidation has no discernible link to the regulated gambling sector.",
     "category": "insolvency filing",
-    "cluster_id": "54bc0dfee0c5cfa0",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A board game cafe called The Double Six Cafe Limited is entering liquidation, per gazette filings. It has no connection to regulated gambling operators despite the name-based grouping.",
     "cluster_summary_for": "54bc0dfee0c5cfa0:cecdc011",
@@ -2781,7 +2440,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This is a board game cafe winding-up notice with no apparent connection to the gambling or gaming industry.",
     "category": "unrelated insolvency",
-    "cluster_id": "54bc0dfee0c5cfa0",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "A board game cafe called The Double Six Cafe Limited is entering liquidation, per gazette filings. It has no connection to regulated gambling operators despite the name-based grouping.",
     "cluster_summary_for": "54bc0dfee0c5cfa0:cecdc011",
@@ -2823,15 +2482,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 58,
-    "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
     "theme_key_points": [
-      "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
-      "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
-      "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
-      "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
+      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
+      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
+      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:94be923cf7cf:067ec139",
+    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
     "sector": "gambling"
   },
   {
@@ -3327,10 +2986,10 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Interim results from evoke (formerly 888/William Hill parent) reveal financial health and strategic direction of a major UK-listed gambling operator.",
     "category": "accounts filing",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -3339,15 +2998,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -3492,15 +3151,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": false,
     "cluster_significance": 55,
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -3531,15 +3190,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 58,
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -3844,10 +3503,10 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Court and general meeting outcomes could confirm a scheme of arrangement affecting evoke's corporate structure or ownership.",
     "category": "shareholder meeting results",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -3856,15 +3515,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
     "theme_key_points": [
-      "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
-      "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
-      "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
-      "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
+      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
+      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
+      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:94be923cf7cf:067ec139",
+    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
     "sector": "gambling"
   },
   {
@@ -4460,10 +4119,10 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Changes in major shareholdings can signal shifting investor confidence or influence over evoke's strategic direction.",
     "category": "shareholder notification",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
     "canonical_entities": [
       "William Hill Limited"
     ],
@@ -4472,15 +4131,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
     "theme_key_points": [
-      "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
-      "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
-      "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
-      "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
+      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
+      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
+      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:94be923cf7cf:067ec139",
+    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
     "sector": "gambling"
   },
   {
@@ -4511,15 +4170,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 58,
-    "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
     "theme_key_points": [
-      "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
-      "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
-      "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
-      "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
+      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
+      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
+      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:94be923cf7cf:067ec139",
+    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
     "sector": "gambling"
   },
   {
@@ -5267,15 +4926,15 @@
     "cluster_coherent": false,
     "cluster_significance": 55,
     "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -7118,24 +6777,24 @@
     "newsworthiness_score": 30,
     "why_it_matters": "Reveals outcome of Intralot's general meeting, relevant to evoke's stake and any strategic ties between the two gambling firms.",
     "category": "Shareholding disclosure",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
     "canonical_category": "Shareholding disclosure",
     "theme_id": "Shareholding disclosure",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
-    "theme_summary": "Entain has filed two TR-1 major-shareholder notifications since early August, while evoke has moved through a run of corporate disclosures culminating in court and general meeting results tied to Intralot. The pattern points to active ownership changes rather than routine reporting.",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
+    "theme_summary": "Entain filed two separate TR-1 major shareholding notifications in August, while evoke pushed through a scheme of arrangement via court and general meetings, followed by holdings disclosures and an Intralot general meeting tied to the restructuring. The two threads run in parallel: routine Entain ownership shifts alongside a structural reorganisation linking evoke and Intralot.",
     "theme_key_points": [
-      "Entain filed TR-1 notifications on 4 and 27 August 2026, flagging two separate major-holding shifts within weeks",
-      "evoke's 17 August Court and General Meeting results point to a scheme of arrangement altering its corporate structure",
-      "18 September filing confirms Intralot's general meeting outcome, linked directly to evoke's stake",
-      "evoke also issued a routine Total Voting Rights update (3 Aug) and a Holding(s) in Company notice (26 Aug) amid the activity"
+      "Entain lodged TR-1 notifications on 4 and 27 August, both flagged as major holding changes",
+      "evoke's Court and General Meeting on 17 August confirmed a scheme of arrangement altering its corporate structure",
+      "evoke disclosed a further holdings change on 26 August, days after the scheme vote",
+      "Intralot's general meeting result, reported via evoke on 18 September, closes a six-week sequence tying the two firms' ownership together"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:94be923cf7cf:067ec139",
+    "theme_summary_for": "Shareholding disclosure:96ec1f70a3c5:067ec139",
     "sector": "gambling"
   },
   {
@@ -8613,15 +8272,15 @@
     "cluster_coherent": true,
     "cluster_significance": 58,
     "cluster_summary_for": "6ea36ea84dea060e:cecdc011",
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -8920,15 +8579,15 @@
     "cluster_coherent": false,
     "cluster_significance": 55,
     "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
-    "theme_summary": "Entain, Flutter, Rank and William Hill's parent evoke worked through routine corporate reporting cycles between August and October 2026, covering interim and annual results, AGM processes and statutory filings. None of the disclosures signal distress or departure from normal governance timetables.",
+    "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
-      "Rank Group ran a full cycle: Final Results Aug 13, AGM notice Sept 8, AGM result Oct 8",
-      "Entain concluded its audit tender on Aug 13 and filed UK accounts at Companies House on Oct 6",
-      "evoke (William Hill's parent) published H1 2026 interim results on Aug 12",
-      "Flutter's Aug 3 share cancellation notice was the only non-reporting filing in the group"
+      "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
+      "Rank Group released final annual results on 13 August 2026, followed by AGM notice on 8 September and AGM result on 8 October",
+      "Entain concluded its audit tender process on 13 August 2026, confirming a new auditor appointment",
+      "Entain Holdings (UK) Limited filed statutory accounts at Companies House on 6 October 2026"
     ],
     "theme_direction": "steady",
-    "theme_summary_for": "Corporate filing:0867ef360f7a:067ec139",
+    "theme_summary_for": "Corporate filing:080107b77b14:067ec139",
     "sector": "gambling"
   },
   {
@@ -9827,16 +9486,16 @@
     "newsworthiness_score": 30,
     "why_it_matters": "A scheduled trading update from evoke (formerly 888/William Hill group) may signal financial health and strategic direction for a major UK operator.",
     "category": "Financial results",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -10593,16 +10252,16 @@
     "newsworthiness_score": 45,
     "why_it_matters": "Trading updates from major operators like evoke signal performance trends and market health for the UK gambling sector.",
     "category": "Financial results",
-    "cluster_id": "25ef95543ac847ae",
+    "cluster_id": "38d5b79589eb7ac0",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Evoke's court and general meeting results in August point to a scheme of arrangement completing, alongside routine H1 results, trading updates and shareholder notifications through Q3 2026. The Intralot general meeting reference suggests some shareholding or strategic link, though details remain unspecified in the filings themselves.",
+    "cluster_summary": "Evoke's H1 results precede a scheme of arrangement cleared via court and general meeting in August, followed by shareholder notifications and a tie-in to Intralot's own general meeting outcome in September. Q3 trading update process runs on schedule into October, suggesting a corporate restructuring is completing alongside routine reporting.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "cluster_summary_for": "25ef95543ac847ae:cecdc011",
+    "cluster_summary_for": "38d5b79589eb7ac0:cecdc011",
     "theme_summary": "Entain, BetMGM, Rank and evoke all issued results or trading updates between August and October 2026, with Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban. The run of updates clusters tightly in mid-to-late October as the sector's Q3 reporting season lands.",
     "theme_key_points": [
       "Entain held FY26 EBITDA guidance on 28 September despite the Brazil ban, then issued a Q3 trading update on 15 October.",
@@ -11452,5 +11111,55 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:0c4ef39016e0:067ec139"
+  },
+  {
+    "id": "6bbba62b2963361eb1b61c46e938f2cd5b4f6aa43b3a302756f6bb5bb87432eb",
+    "source": "gazette",
+    "source_id": "5240991",
+    "source_url": "https://www.thegazette.co.uk/notice/5240991",
+    "title": "NOLT ENERGY LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1276081/ …",
+    "published_at": "2026-10-30T12:32:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T07:20:21.810405+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Nolt Energy Limited",
+      "HMRC"
+    ],
+    "canonical_entities": [
+      "Nolt Energy",
+      "HMRC"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition concerns an energy company with no apparent link to gambling, so holds negligible relevance for the sector.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "f18c8bdaed762bb83352e413d10ab419a7497a4c4edf13ec2e77e5103c54697b",
+    "source": "parliament",
+    "source_id": "1947530",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-12/HL3968",
+    "title": "Written question: Northern Powerhouse Rail: Kingston upon Hull",
+    "raw_summary": "Q: To ask His Majesty's Government, further to the Written Answer by Lord Hendy of Richmond Hill on 29 September (HL3702), what assessment they have made of whether running battery-electric trains on the existing railway between Hull and Leeds fulfils their \nA: As set out in my answer of 29 September 2026 (HL3702), this Government is committed to ensuring Northern Powerhouse Rail (NPR) services reach Hull. The recently published Great British Railways Rolling Stock and Infrastructure Strategy sets out the Govern...",
+    "published_at": "2026-10-12T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-02T07:20:21.811086+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "Unrelated to gambling; concerns railway infrastructure policy, not relevant to the gambling sector.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]
