@@ -11250,5 +11250,27 @@
     "sector": "gambling",
     "canonical_category": "Other",
     "theme_id": null
+  },
+  {
+    "id": "5c5fe56d5d74dddef84aac217ab4bc6d5f87f1488ad1ea8e1993ca5cf49f80c6",
+    "source": "parliament",
+    "source_id": "1948910",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-14/34697",
+    "title": "Written question: Health Services: Innovation and Technology",
+    "raw_summary": "Q: To ask the Secretary of State for Health and Social Care, what plans she has to use new technologies to improve patient care.\nA: The Government’s plans for using new technologies to improve patient care are set out in Chapter 8, titled Powering transformation: innovation to drive healthcare reform, of the Fit for the Future: 10-Year Health Plan for England, which is available at th...",
+    "published_at": "2026-10-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-03T07:19:59.596715+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This health technology question is unrelated to UK gambling and gaming industry news.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

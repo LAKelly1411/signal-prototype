@@ -1213,84 +1213,6 @@
     "theme_summary_for": "Insolvency:9473ab66cab3:4975febf"
   },
   {
-    "id": "55a03a68746271bec878a1d712568e4a685d96814733e783914dcf1d3b6f2044",
-    "source": "gazette",
-    "source_id": "5168018",
-    "source_url": "https://www.thegazette.co.uk/notice/5168018",
-    "title": "FINTECH DIGITAL SOLUTIONS LIMITED",
-    "raw_summary": "Appointment of Liquidators: Name of Company: FINTECH DIGITAL SOLUTIONS LIMITED …",
-    "published_at": "2026-07-06T01:03:07+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594290+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Fintech Digital Solutions Limited"
-    ],
-    "canonical_entities": [
-      "Fintech Digital Solutions"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A fintech-named company entering liquidation signals potential distress worth tracking despite limited detail on scale or impact.",
-    "category": "Insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "1e2884167d3c0d3471c2d725fa881c3ed6c1b4fcb253348c24c36b41b63eb0f0",
-    "source": "gazette",
-    "source_id": "5167964",
-    "source_url": "https://www.thegazette.co.uk/notice/5167964",
-    "title": "FINTECH DIGITAL SOLUTIONS LIMITED",
-    "raw_summary": "Notices to Creditors: FINTECH DIGITAL SOLUTIONS LIMITED …",
-    "published_at": "2026-07-06T01:02:05+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594294+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Fintech Digital Solutions Limited"
-    ],
-    "canonical_entities": [
-      "Fintech Digital Solutions"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A fintech firm's creditor notice signals financial distress, relevant to sector risk monitoring despite limited company recognition.",
-    "category": "Insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
-    "id": "02b5d361031327c76e73bcc33a6ac62c050cb829c853c80d405a1e36a031a896",
-    "source": "gazette",
-    "source_id": "5167958",
-    "source_url": "https://www.thegazette.co.uk/notice/5167958",
-    "title": "FINTECH DIGITAL SOLUTIONS LIMITED",
-    "raw_summary": "Resolutions for Winding-up: FINTECH DIGITAL SOLUTIONS LIMITED …",
-    "published_at": "2026-07-06T01:01:58+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594298+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Fintech Digital Solutions Limited"
-    ],
-    "canonical_entities": [
-      "Fintech Digital Solutions"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A fintech-named firm's winding-up resolution signals business failure, relevant for tracking sector attrition despite limited public profile.",
-    "category": "Insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Insolvency",
-    "theme_id": null
-  },
-  {
     "id": "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
     "source": "gazette",
     "source_id": "5225818",
@@ -8859,5 +8781,27 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:a8f05cbbf2bf:4975febf"
+  },
+  {
+    "id": "be3c7673694259b923660def9356e00bfbf70a6c9a7eb9a9a42b2a5737377602",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/earned-settlement",
+    "title": "Earned settlement",
+    "raw_summary": "The government is consulting on how the current settlement system should be reformed and how those reforms should be implemented.",
+    "published_at": "2026-11-02T16:09:05+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-03T07:18:54.375907+00:00",
+    "signal_type": "consultation",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A government consultation on settlement system reform could eventually affect payment and financial infrastructure rules.",
+    "category": "Consultation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Consultation",
+    "theme_id": null
   }
 ]
