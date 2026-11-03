@@ -1,7 +1,7 @@
 {
   "sector": "gambling",
-  "started_at": "2026-11-03T07:18:57.674720+00:00",
-  "finished_at": "2026-11-03T07:20:00.953563+00:00",
+  "started_at": "2026-11-03T11:19:37.296890+00:00",
+  "finished_at": "2026-11-03T11:21:11.298588+00:00",
   "sources": {
     "GamblingCommissionCollector": {
       "items": 261,
@@ -24,7 +24,7 @@
       "error": false
     },
     "ParliamentCollector": {
-      "items": 60,
+      "items": 40,
       "ok": true,
       "error": false
     },
@@ -51,9 +51,9 @@
   },
   "healthy_sources": 8,
   "total_sources": 9,
-  "raw_items": 641,
-  "new_signals": 1,
+  "raw_items": 621,
+  "new_signals": 0,
   "unscored": 0,
   "live_signals": 325,
-  "clusters": 30
+  "clusters": 29
 }
