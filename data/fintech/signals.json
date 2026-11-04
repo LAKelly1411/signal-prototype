@@ -8834,5 +8834,31 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "ec669cbfd0c0a163:642be20c"
+  },
+  {
+    "id": "2f6d08c18c04277a8aa519627655e1475a15b99b30550ce15a4cafce320ca0a3",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/xun-meng-international-ltd.html",
+    "title": "Xun Meng International Ltd",
+    "raw_summary": "Upheld / Search (paid): A paid-for Google ad and landing page for an online retailer misleadingly exaggerated the capabilities of a portable internet device and made misleading claims that people could make a one-off payment for the device and receive free or unlimited internet access for life without monthly fees or other ongoing costs.",
+    "published_at": "2026-11-04T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-04T07:19:23.187562+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Xun Meng International Ltd"
+    ],
+    "canonical_entities": [
+      "Xun Meng"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling on misleading internet device ads has little direct relevance to UK fintech or payments stakeholders.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

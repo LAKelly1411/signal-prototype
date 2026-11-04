@@ -10065,5 +10065,68 @@
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:0578a0de9dc2:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "60d597b67d12c7f41c42f176135c1a0769cf96d36eb669e7feab4cc6bdbd8a9a",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-to-introduce-financial-risk-assessments-in-staged-approach",
+    "title": "Commission to introduce Financial Risk Assessments in staged approach",
+    "raw_summary": "A streamlined approach to identifying and supporting high-spending customers in financial difficulties is to be introduced.",
+    "published_at": "2026-07-07T00:00:00+00:00",
+    "ingested_at": "2026-07-14T09:35:23.652879+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 72,
+    "why_it_matters": "Operators must prepare for phased rollout of frictionless financial risk assessments, affecting compliance systems and high-spending customer handling.",
+    "category": "financial risk checks",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has kept up a steady drumbeat of enforcement through July-September 2026, revoking personal licences for individuals like Lubna, Galgerud and Ayeni, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and fining Holland Park Leisure £150,000. Northern & Shell's National Lottery challenge also failed at the Court of Appeal, closing off that avenue.",
+    "theme_key_points": [
+      "Three personal licence revocations since July: Lubna, Galgerud, Ayeni Ibukun Samson",
+      "Four operator suspensions in six weeks: BresBet, Bet St George, Tom Horn Gaming, Targetlocal",
+      "Holland Park Leisure fined £150,000 on 2026-08-18 for compliance failings",
+      "Court of Appeal rejected TNLC/Northern & Shell's National Lottery licence appeal on 2026-07-30"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:f585279edc04:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "501c85fd111398acdabd5a8a54bcee9de1f7b53a62ef0da1d667092046c104f4",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-responds-to-gambling-commissions-announcement-on-fras",
+    "title": "BGC responds to Gambling Commission's announcement on FRAs",
+    "raw_summary": "",
+    "published_at": "2026-07-07T00:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.925986+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Industry body's reaction to regulator's stance on financial risk checks signals ongoing friction over affordability rules affecting UK operators.",
+    "category": "financial risk assessments / affordability checks",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "BGC is running a coordinated lobbying push across affordability checks, black-market threats, tax rises and political relationships, using concrete evidence like Betfred closures to pressure government ahead of policy decisions. The pattern shows an escalating, multi-front campaign to shape UK gambling regulation and taxation in operators' favour.",
+    "cluster_summary_for": "af3336c8c68fc928:aa9d372d",
+    "canonical_entities": [
+      "BGC",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
