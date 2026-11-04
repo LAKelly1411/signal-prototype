@@ -11382,5 +11382,35 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+  },
+  {
+    "id": "ea37b1ba17771d6d5d195d829ccc01f73e7eb76064260043eb7d98f4230142c0",
+    "source": "gazette",
+    "source_id": "5245961",
+    "source_url": "https://www.thegazette.co.uk/notice/5245961",
+    "title": "POP UP ARCADE LTD",
+    "raw_summary": "Moratoria, Prohibited Names and Other: Re-use of a Prohibited Name: …A On 2 November 2026 the above-named company went into insolvent liquidation. I, Kyle Langley of c/o Game Box Holdings Ltd, 3rd Floor, 86-90 Paul Street, London EC2A 4NE …",
+    "published_at": "2026-11-04T12:00:38+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-04T15:20:51.329077+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Pop Up Arcade Ltd",
+      "Kyle Langley",
+      "Game Box Holdings Ltd"
+    ],
+    "canonical_entities": [
+      "Pop Up Arcade",
+      "Kyle Langley",
+      "Game Box"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small arcade operator's insolvent liquidation and prohibited name re-use notice may signal wider gaming-sector financial distress.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null
   }
 ]
