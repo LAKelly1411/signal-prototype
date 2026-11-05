@@ -640,43 +640,6 @@
     "sector": "gambling"
   },
   {
-    "id": "2677f8abb12113d5e56f623f971428514a3d6149dd1365762ad6cb307cba053f",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/news/royal-museums-greenwich-board-appointments-and-reappointments",
-    "title": "Royal Museums Greenwich Board Appointments and Reappointments",
-    "raw_summary": "The Prime Minister has appointed Alexandra Butler, Sanjeev Gupta and Marshall Manson, and reappointed Clare Anderson, Lance Batchelor and Stephen Deuchar as Trustees to the Royal Museums Greenwich Board.",
-    "published_at": "2026-07-08T14:47:55+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914898+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Royal Museums Greenwich",
-      "Alexandra Butler",
-      "Sanjeev Gupta",
-      "Marshall Manson",
-      "Clare Anderson",
-      "Lance Batchelor",
-      "Stephen Deuchar"
-    ],
-    "newsworthiness_score": 2,
-    "why_it_matters": "Unrelated to gambling sector; no relevance to UK gambling and gaming journalists.",
-    "category": "board appointments",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Royal Museums Greenwich",
-      "Alexandra Butler",
-      "Sanjeev Gupta",
-      "Marshall Manson",
-      "Clare Anderson",
-      "Lance Batchelor",
-      "Stephen Deuchar"
-    ],
-    "canonical_category": "Board and director changes",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
     "id": "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
     "source": "dcms",
     "source_id": null,
@@ -2597,7 +2560,7 @@
       "MAB Bookmakers"
     ],
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "MAB Bookmakers Limited faced a winding-up petition in May 2026 and by August had entered liquidation. The progression points to a licensed UK bookmaker exiting the market, with implications for staff, creditors and betting-shop consolidation.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -3229,15 +3192,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -3270,15 +3233,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -3990,15 +3953,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -4029,15 +3992,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -4695,15 +4658,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -6048,15 +6011,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -6575,15 +6538,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -6899,15 +6862,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -7005,15 +6968,15 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -7749,15 +7712,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -7872,15 +7835,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -7966,15 +7929,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8006,15 +7969,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8050,15 +8013,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8094,15 +8057,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8138,15 +8101,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8424,15 +8387,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139",
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139",
     "sector": "gambling"
   },
   {
@@ -8748,15 +8711,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "3dd923d77ab1401f:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139"
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139"
   },
   {
     "id": "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
@@ -10270,15 +10233,15 @@
     "sector": "gambling",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139"
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139"
   },
   {
     "id": "4774be45ff27089f14de89fc3207d2a7bce37201955692bca133717cac2eefd3",
@@ -10510,15 +10473,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139"
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139"
   },
   {
     "id": "1b3b88cd9371d643e2b73668436d384289999f90fd9df7d4ccfeff40fd82c1d9",
@@ -10550,15 +10513,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139"
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139"
   },
   {
     "id": "5c573b30cdd0f8c21cf2f3340c2c4ca670fbac855c4f24394dc2f5a44d331376",
@@ -10590,15 +10553,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Insolvency filings have run through UK gambling since early August, touching bookmakers, casinos, compliance advisers and gaming-machine suppliers alike. The pace has quickened through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines, Casino MK, Bet St George and Gaming International all filing within weeks of each other.",
+    "theme_summary": "Insolvency filings have hit 18 gambling-linked companies since mid-August, spanning compliance advisers, data suppliers, machine operators and a casino. The pace accelerated through October, with Multilinea's Leeds and Developments arms, Carnaby Gaming Machines and Casino MK all filing within the same week.",
     "theme_key_points": [
-      "Multilinea Leeds traded previously as Global Gaming Ventures (Leeds), linking its collapse to an earlier operator identity",
-      "Equusform's creditors' meetings (Sept 18) and liquidation (Oct 1) point to strain reaching racing data suppliers, not just operators",
-      "Casino MK (Oct 9) and Bet St George (Oct 12) mark land-based casino and betting operators hit within days of each other",
-      "October alone produced nine separate filings across six companies, the sharpest concentration since the first MAB Bookmakers case in August"
+      "Multilinea Leeds, formerly Global Gaming Ventures (Leeds), and Multilinea Developments both entered liquidation on 2026-10-01 alongside Carnaby Gaming Machines",
+      "Gaming International Limited logged three separate insolvency filings on 2026-10-28, the heaviest single-date cluster",
+      "T33 Gaming moved from winding-up petition (2026-09-04) to winding-up order (2026-09-23) in under three weeks",
+      "Casino MK (2026-10-09) and Bet St George (2026-10-12) mark the first land-based casino and betting operator failures in the run, following earlier supplier and compliance-firm cases"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:a30ca4818509:067ec139"
+    "theme_summary_for": "Insolvency:5424c29b76eb:067ec139"
   },
   {
     "id": "24a2d627cf26fa8b1c93f72fc95d0a927f5507f0604c659ca3e395a9c2a5d7e2",

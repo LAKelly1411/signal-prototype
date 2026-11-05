@@ -10128,5 +10128,42 @@
     "canonical_category": "Player protection",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "2677f8abb12113d5e56f623f971428514a3d6149dd1365762ad6cb307cba053f",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/news/royal-museums-greenwich-board-appointments-and-reappointments",
+    "title": "Royal Museums Greenwich Board Appointments and Reappointments",
+    "raw_summary": "The Prime Minister has appointed Alexandra Butler, Sanjeev Gupta and Marshall Manson, and reappointed Clare Anderson, Lance Batchelor and Stephen Deuchar as Trustees to the Royal Museums Greenwich Board.",
+    "published_at": "2026-07-08T14:47:55+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914898+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Royal Museums Greenwich",
+      "Alexandra Butler",
+      "Sanjeev Gupta",
+      "Marshall Manson",
+      "Clare Anderson",
+      "Lance Batchelor",
+      "Stephen Deuchar"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Unrelated to gambling sector; no relevance to UK gambling and gaming journalists.",
+    "category": "board appointments",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Royal Museums Greenwich",
+      "Alexandra Butler",
+      "Sanjeev Gupta",
+      "Marshall Manson",
+      "Clare Anderson",
+      "Lance Batchelor",
+      "Stephen Deuchar"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
