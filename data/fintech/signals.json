@@ -8923,5 +8923,27 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:e4b4a36b4944:4975febf"
+  },
+  {
+    "id": "172a9c8decda79747282ac8bc53606ce24f4571b29c117cf30d6e6dcec0618c9",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/government-functional-standard-govs-014-debt",
+    "title": "Government Functional Standard - GovS 014: Debt",
+    "raw_summary": "This standard is part of a suite of standards to guide people working in and with the UK government.",
+    "published_at": "2026-11-05T10:30:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-05T11:19:19.028578+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Internal government debt-management standard has little direct relevance to UK fintech or payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
