@@ -332,45 +332,6 @@
     "sector": "gambling"
   },
   {
-    "id": "029288381db26a18274bec7db4db1cd3ec8b608506b704a52d756fb2cab2e480",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/holding-s-in-company/9659410",
-    "title": "evoke: Holding(s) in Company",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-07-08T16:46:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926384+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "Changes in major shareholdings can signal shifts in ownership or investor sentiment toward gambling operator evoke.",
-    "category": "shareholder notification",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Evoke (William Hill/888) has moved through a scheme of arrangement from document publication in July to court and general meeting approval by August 17, alongside H1 2026 results and routine shareholding/voting disclosures. The process points to a takeover or restructuring reaching its final approval stage, with Intralot's general meeting outcome appearing as a tangential cross-reference rather than a direct link.",
-    "cluster_summary_for": "70b9b57606438624:cecdc011",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Shareholding disclosure",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
-    "theme_summary": "Routine TR-1 and holding notifications continue at Entain and evoke through August 2026, but evoke's disclosures escalate beyond standard shareholding updates into corporate restructuring: a court and general meeting on 17 August confirmed a scheme of arrangement, followed by an Intralot general meeting result on 18 September tied to evoke's stake.",
-    "theme_key_points": [
-      "Entain filed TR-1 major holding notifications twice, on 4 August and 27 August 2026",
-      "evoke's 17 August scheme of arrangement vote followed two routine Holding(s) in Company filings on 8 July and 26 August",
-      "Intralot's 18 September general meeting outcome directly concerns evoke's shareholding and strategic ties",
-      "William Hill produced no shareholding disclosure signals despite being named alongside Entain and Intralot"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Shareholding disclosure:78daa188c845:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
     "source": "lse_rns",
     "source_id": null,
@@ -448,76 +409,6 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "ff7060382f68d658bb3134b765df1cd946b793f94f05f63268297c620ea5d62c",
-    "source": "parliament",
-    "source_id": "1926159",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-09/17574",
-    "title": "Written question: Gambling: Cryptocurrencies",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, if she will publish a list of organisations that have lobbied the Gambling Commission or her Department on the subject of crypto gambling.\nA: As the Gambling Commission is an independent regulatory body, the Department for Culture, Media and Sport does not hold records of which organisations have lobbied the Commission on any particular topic. Transparency data for ministerial meetings will be ...",
-    "published_at": "2026-07-09T00:00:00+00:00",
-    "ingested_at": "2026-07-16T17:09:03.417666+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "newsworthiness_score": 32,
-    "why_it_matters": "Shows lack of transparency on lobbying over crypto gambling, a growing regulatory concern for UK operators and suppliers.",
-    "category": "crypto gambling policy",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission",
-      "Department for Culture, Media and Sport"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified through August and September 2026, with a single day on 28 August producing over a dozen written questions on Financial Risk Assessments, Gambling Commission staff conflicts and new planning rules for betting shops. The Gambling Commission followed with new machine rules and annual statistics in late September, while BGC pushed back against a proposed blanket advertising ban.",
-    "theme_key_points": [
-      "28 August: 15+ written questions in one day cover Financial Risk Assessment safeguards, GC staff revolving-door concerns, and planning permission for AGCs/betting shops.",
-      "1 September: five separate questions confirm prediction markets and event contracts require Gambling Commission licensing, closing a regulatory gap.",
-      "Vicky Foxcroft appointed gambling minister 11 August, visits Grosvenor Casino Liverpool 29 September; Gambling Commission still lacks a permanent CEO.",
-      "Gambling Commission issues new machine harm-reduction rules (30 Sept) and 2025/26 sector statistics (17 Sept) as BGC campaigns against a blanket ad ban and for betting shop business rates relief."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:825f33ea4070:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "34c6e2eecbcba8ce096520de5d6891148a835094a9e2087fdd3b4ccffda7c58b",
-    "source": "parliament",
-    "source_id": "1926359",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-09/17575",
-    "title": "Written question: Gambling: Internet",
-    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what steps the Gambling Commission is taking to prevent UK licensed gambling software companies providing games to illegal gambling sites.\nA: The Gambling Commission, as the independent regulator for gambling, has responsibility for making decisions around licensing. As part of its regulatory approach, the Gambling Commission assesses applicants against the statutory licensing objectives and ma...",
-    "published_at": "2026-07-09T00:00:00+00:00",
-    "ingested_at": "2026-07-17T17:06:56.438969+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "Signals parliamentary scrutiny of how licensed software suppliers may inadvertently support illegal gambling sites.",
-    "category": "illegal market/licensing oversight",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "Gambling Commission enforcement against unlicensed operators has escalated from raids and arrests in July to a sentencing in October, while the BGC runs a parallel campaign citing a £1bn Premier League black market and a $50bn global estimate. Parliament has filed five written questions on illegal gambling and licensing since July.",
-    "theme_key_points": [
-      "Gambling Commission ran five separate actions in 11 weeks: Doncaster raids (21 Jul), arrests (29 Jul), police-backed operation (10 Aug), four arrests/£20,000 seized (23 Sept), sentencing (5 Oct)",
-      "BGC escalated its messaging from general black-market warnings to specific figures: £1bn Premier League betting forecast (24 Aug), $50bn global market claim (7 Sept)",
-      "BGC flagged the St Leger's 250th anniversary (14 Sept) as a target for illegal bookmakers around a major racing fixture",
-      "Five parliamentary written questions on gambling licensing, addictions and crime filed between 9 July and 1 September"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:1ada0faa4ced:067ec139",
     "sector": "gambling"
   },
   {
@@ -1316,40 +1207,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Enforcement action:4b9f5309e166:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "afc6a84e7cfc0e967458fbfec19715bfc390b71765c4ab2a5152fd5ab9b6d36b",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/333",
-    "title": "Evans Amusements Limited",
-    "raw_summary": "Sanction: Financial penalty",
-    "published_at": "2026-07-09T00:00:00+00:00",
-    "ingested_at": "2026-07-23T08:54:10.107141+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Evans Amusements Limited"
-    ],
-    "newsworthiness_score": 58,
-    "why_it_matters": "A Gambling Commission financial penalty signals compliance failings, relevant for tracking enforcement trends across licensees.",
-    "category": "AML/enforcement penalty",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Evans Amusements"
-    ],
-    "canonical_category": "AML and compliance failures",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission has issued three financial penalties within six weeks, hitting Evans Amusements, Holland Park Leisure and QuinnBet (Gibraltar). QuinnBet's £609,104 settlement, announced 20 August, is the largest and most severe of the three cases.",
-    "theme_key_points": [
-      "Evans Amusements penalised 9 July; Holland Park Leisure followed 31 July, both scored in the high-50s/60s range",
-      "QuinnBet (Gibraltar) settled 20 August for £609,104, covering penalty and regulator costs",
-      "Three separate operators penalised in six weeks, spanning arcade/leisure operators to an online Gibraltar-licensed firm",
-      "QuinnBet case scored highest (78) of the three, reflecting the scale of the payout"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "AML and compliance failures:61d7143510a4:067ec139",
     "sector": "gambling"
   },
   {
@@ -2934,15 +2791,15 @@
     ],
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -5191,15 +5048,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -6791,15 +6648,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -7034,15 +6891,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -7298,15 +7155,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -7791,15 +7648,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "sector": "gambling"
   },
   {
@@ -8605,15 +8462,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -8746,15 +8603,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -8919,15 +8776,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -8956,15 +8813,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139",
     "cluster_summary": "UK parliamentary answers confirm remote betting duty climbing to 25% for greyhound racing and Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027, squeezing bookmaker margins and the levy funding that underpins greyhound racing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -8996,15 +8853,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -9175,15 +9032,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -9464,15 +9321,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -9534,15 +9391,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -9569,15 +9426,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -9905,15 +9762,15 @@
     "cluster_coherent": false,
     "cluster_significance": 15,
     "cluster_summary_for": "779e384630cb8bb4:cecdc011",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
@@ -10090,15 +9947,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "58be0e224fc22784fb5ba1d65bf675d14390e07cc8c4072b7376f6186040e143",
@@ -10127,15 +9984,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "76b515f1cdffaf8a34a357798a692e1aa2aa8afe260e862b19005cd71cfc7078",
@@ -10588,15 +10445,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "3dac43cc26234388e050cdaeba4d721387df59de06d1e2c2094f4e2a946b6e48",
@@ -10628,15 +10485,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "cb1c279a8bef7967:cecdc011",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "adb7ab775eed1f64430af5188c1e5913efb3fc764a4cc619eb18b5c50904890e",
@@ -10668,15 +10525,15 @@
     "cluster_coherent": false,
     "cluster_significance": 55,
     "cluster_summary_for": "f7ee7175ec7b898c:cecdc011",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "f9b4cfada04a97d7a92827fb410342dedef726e1c3228a6c2017801b4e995d3e",
@@ -10738,15 +10595,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "0a77273326c90369f3c289413e8665e1e2946dc4961a49efdb56eab85f846187",
@@ -11336,15 +11193,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "4342a6f47e724300:cecdc011",
-    "theme_summary": "The Betting and Gaming Council ran a sustained lobbying campaign through August to October 2026 against gambling tax rises, culminating in the Autumn Budget confirming remote betting duty at 25% and Machine Games Duty rising from 20% to 25% by 2027. Entain and Rank issued formal statements on the financial impact once the Budget landed.",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
     "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, cited repeatedly through autumn",
-      "Remote betting duty confirmed at 25% from 2027, applied to greyhound racing but horseracing exempted",
-      "MGD for higher-stake machines rises from 20% to 25% in 2027 despite Labour MP push for even higher rates",
-      "Entain and Rank both filed formal Budget-impact statements on 28-29 October after confirmation of the duty rises"
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:7821b35c7caf:067ec139"
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   },
   {
     "id": "ea37b1ba17771d6d5d195d829ccc01f73e7eb76064260043eb7d98f4230142c0",
@@ -11445,5 +11302,42 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:b84cd7e7d0c8:067ec139"
+  },
+  {
+    "id": "a64004c12540f01ba1a001eb3ba18dc01846c5f32d6be43bcac8cb9dae98326e",
+    "source": "parliament",
+    "source_id": "1954677",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-29/39195",
+    "title": "Written question: Gaming Machines: Excise Duties",
+    "raw_summary": "Q: To ask the Chancellor of the Exchequer, with reference to the Autumn Budget 2026, what assessment he has made of the potential impact of levels of Machine Game Duty on community bingo clubs.\nA: At Budget 2026, the government announced the rate of Machines Games Duty will increase from 20% to 25% on higher stake machines from 1 April 2027. The increase is targeted at higher risk machine games which are more associated with gambling harm. An asses...",
+    "published_at": "2026-10-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-06T07:20:07.429617+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury",
+      "community bingo clubs"
+    ],
+    "canonical_entities": [
+      "HM Treasury",
+      "community bingo clubs"
+    ],
+    "newsworthiness_score": 48,
+    "why_it_matters": "A Machine Games Duty rise to 25% on higher-stake machines could squeeze bingo clubs' margins from April 2027.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "Gambling tax policy moved from lobbying to confirmed decision between August and late October 2026, with the BGC running a near-weekly campaign against further rises before the Budget landed. Remote Betting Duty rises to 25% and Machine Games Duty climbs from 20% to 25% on higher-stake machines from April 2027, prompting formal statements from Entain and Rank once the Budget was confirmed.",
+    "theme_key_points": [
+      "BGC says 540+ betting shops closed and 4,500 jobs lost since the prior Budget tax rise, cited 12 August",
+      "Remote Betting Duty set at 25% covers greyhound racing but horseracing stays exempt, confirmed 14 September",
+      "MGD rise from 20% to 25% on higher-stake machines confirmed 23 October, hitting bingo clubs and betting shop economics from April 2027",
+      "BGC cites Flutter and bet365 job cuts as direct tax consequences before Entain and Rank issue formal Budget-impact statements on 28-29 October"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:28e1ed823337:067ec139"
   }
 ]

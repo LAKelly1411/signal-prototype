@@ -2470,5 +2470,31 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "f1c517245cdbde4186eb88da14665671e8f739d806ed24f5edd42c954943ba40",
+    "source": "companies_house",
+    "source_id": "MzUzMTQ5NjUzMWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMTQ5NjUzMWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Mortgage filed",
+    "raw_summary": "Type: MR04 · Description: Mortgage satisfy charge full",
+    "published_at": "2026-07-09T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593981+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine Companies House filing showing Starling Bank has satisfied a charge, a minor administrative update.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
   }
 ]
