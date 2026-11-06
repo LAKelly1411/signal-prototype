@@ -10308,5 +10308,26 @@
     "theme_direction": "building",
     "theme_summary_for": "AML and compliance failures:61d7143510a4:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "9401bb6154f06b151d78c11c9ac39b7b0a1ca36c9fd1ec1742563c3ce7319d2e",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/annual-report-to-parliament-on-public-libraries-activities-from-april-2025-to-march-2026",
+    "title": "Annual Report to Parliament on public libraries activities from April 2025 to March 2026",
+    "raw_summary": "Report presented to Parliament under Section 17 of the Public Libraries and Museums Act 1964",
+    "published_at": "2026-07-09T08:03:42+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914894+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This library report has no connection to UK gambling or gaming regulation, operators, or suppliers.",
+    "category": "unrelated public sector report",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
