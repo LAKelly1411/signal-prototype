@@ -9522,5 +9522,27 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "33b5f9f9282ad20e:642be20c"
+  },
+  {
+    "id": "6a905704c9a00832a58127f2d75b3f22b8a83315402ddfacd9d114e3c1d7a7b7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/trade-specialised-committee-on-goods",
+    "title": "Trade Specialised Committee on Goods",
+    "raw_summary": "The Specialised Committee monitors the implementation and functioning of the Goods market access and national treatment chapter of the Trade and Cooperation Agreement.",
+    "published_at": "2026-11-09T13:00:02+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-09T15:19:15.359124+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A generic trade committee update on UK-EU goods rules has minimal direct relevance to fintech or payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
