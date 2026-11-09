@@ -2496,5 +2496,45 @@
     "sector": "fintech",
     "canonical_category": "Corporate filing",
     "theme_id": null
+  },
+  {
+    "id": "b1029c6b9a88bf05750cf6d01d109b8746db54d5def6ee836356d5094c1a0d93",
+    "source": "companies_house",
+    "source_id": "MzUzMDYwOTgwOGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMDYwOTgwOGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Accounts filed",
+    "raw_summary": "Type: AA · Description: Accounts with accounts type group",
+    "published_at": "2026-07-12T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593975+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Routine annual accounts filing from a major UK digital bank, useful for tracking financial performance but not itself a news event.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Starling Bank filed routine annual accounts and a director appointment with Companies House within days of each other. Both are standard corporate filings with no detail yet on financial results or who joined the board.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "82916f12126c1481:642be20c",
+    "theme_summary": "Four UK fintechs filed annual accounts at Companies House within an eleven-week window from mid-July to late September, while Wise layered on extra London Stock Exchange disclosures around a share buyback and debt restructuring. PayPoint used the same late-September period to set out growth plans at a Capital Markets Day.",
+    "theme_key_points": [
+      "Annual accounts filed by Starling (12 Jul), Monzo (27 Aug), Wise (25 Sep) and Klarna UK (29 Sep)",
+      "Wise alone generated three RNS events: buyback launch 21 Jul, notes guarantor accession 17 Aug, AGM result 24 Sep",
+      "Klarna's UK accounts filing (29 Sep) lands as BNPL regulatory scrutiny builds",
+      "PayPoint's Capital Markets Day and Klarna's accounts filing both fall on 29 September"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:c36493b40b24:4975febf"
   }
 ]

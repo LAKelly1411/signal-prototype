@@ -10329,5 +10329,40 @@
     "canonical_category": "Financial results",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "df78e9c4122e2f53e2b249a4f004c53d3ca75ff7d60d457e15d9c97c5ee96399",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/334",
+    "title": "Dench eGaming Solutions Limited",
+    "raw_summary": "Sanction: Financial penalty",
+    "published_at": "2026-07-10T00:00:00+00:00",
+    "ingested_at": "2026-07-24T10:28:55.135867+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Dench eGaming Solutions Limited"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A UK Gambling Commission financial penalty signals compliance failings, relevant to operators and suppliers watching enforcement trends.",
+    "category": "financial penalty",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Dench eGaming Solutions"
+    ],
+    "canonical_category": "Enforcement action",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement ran continuously from July through October 2026, hitting suppliers, individual licence holders and operators of all sizes. It culminated on 7 October with a £5m penalty against land-based casino operators, naming Grosvenor Casinos and Rank Group, alongside Evolution Malta's earlier £4.75m settlement.",
+    "theme_key_points": [
+      "Evolution Malta Holding paid £4.75m to the Commission on 23 July, the largest supplier-side settlement in the run",
+      "Land-based casinos were fined £5m collectively on 7 October, with Grosvenor Casinos and Rank Group both settling separately",
+      "Individual licence holders faced action too: Maxwell and Pamela Taylor (6 August) and Anthony Francis Lane (15 September)",
+      "Smaller operators Dench eGaming, The Purple Gaming Company and Sladders all drew separate penalties or warnings between July and August",
+      "Election betting scandal enforcement continued in parallel, with two more guilty pleas reported 10 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Enforcement action:b99ca495c291:067ec139",
+    "sector": "gambling"
   }
 ]
