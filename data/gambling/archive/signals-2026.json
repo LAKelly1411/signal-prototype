@@ -10364,5 +10364,156 @@
     "theme_direction": "building",
     "theme_summary_for": "Enforcement action:b99ca495c291:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "3058a3214248104b6db57fb55d500411ca7141f630177e4f66c1566c987b68fa",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/appointment-of-richard-harris-as-ceo-/9664229",
+    "title": "Rank Group: Appointment of Richard Harris as CEO",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-07-13T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926537+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group",
+      "Richard Harris"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A new CEO at a major listed casino and bingo operator could signal strategic shifts affecting UK gambling market direction.",
+    "category": "leadership change",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Rank Group installed Richard Harris as CEO in July, moved through full-year results, board changes and routine AGM filings, then settled with the Gambling Commission in October over compliance failings. The Vicky Foxcroft ministerial items are unconnected political news that only brush against Rank via a Grosvenor Casino visit.",
+    "cluster_summary_for": "5891050c45edf76b:cecdc011",
+    "canonical_entities": [
+      "Rank",
+      "Richard Harris"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "theme_summary": "Rank Group has moved through a full governance and reporting cycle over three months, naming Richard Harris CEO in July, publishing final results in August and clearing its AGM by October. Alongside this, Entain, Flutter and evoke have filed routine compliance and results disclosures typical of the annual corporate calendar.",
+    "theme_key_points": [
+      "Rank Group's cycle ran CEO appointment (13 Jul) to final results (13 Aug) to AGM result (8 Oct)",
+      "Entain concluded its audit tender on 13 Aug and filed Companies House accounts on 6 Oct",
+      "evoke (ex-William Hill parent) published H1 2026 interim results on 12 Aug",
+      "Flutter's only filing was a routine share cancellation notice on 3 Aug"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:d12e8c59b202:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "f627f730c74e9b5e0fdfccf3efa98d60289181d568af55546937a40fd584db75",
+    "source": "parliament",
+    "source_id": "1927100",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-13/18346",
+    "title": "Written question: Cryptocurrencies: Gambling",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, what information her Department holds on the Reform Party holding discussions with the Gambling Commission on Crypto Gambling.\nA: The Gambling Commission, as the independent regulator for gambling, has responsibility for making decisions around licensing. The Gambling Commission has not been approached or held any discussion with the Reform Party on crypto gambling. ",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-21T17:45:30.840940+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Reform Party",
+      "Department for Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Confirms no regulatory engagement yet on crypto gambling, but flags political interest that could shape future policy.",
+    "category": "crypto gambling policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Reform Party",
+      "Department for Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "817d8501b51372ea7233759c30eb9c3e350d1801ac3985ad9515f14d2537f46d",
+    "source": "parliament",
+    "source_id": "1927104",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-13/18347",
+    "title": "Written question: Gambling: Licensing",
+    "raw_summary": "Q: To ask the Secretary of State for Culture, Media and Sport, with reference to Investigate Europe's report entitled Payment firms handled millions for companies linked to unlicensed gambling network, published on 9 July 2026, whether the payments associati\nA: We are committed to taking action on the illegal gambling market. Since its launch in January this year, the Illegal Gambling Taskforce has worked with payment providers and other relevant stakeholders to consider the best way to tackle the issue of payme...",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-21T17:45:30.840945+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Illegal Gambling Taskforce",
+      "Investigate Europe"
+    ],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Signals government scrutiny of payment providers' links to unlicensed gambling, potentially prompting new enforcement or compliance obligations.",
+    "category": "illegal gambling/payments policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "A cluster of parliamentary questions shows sustained legislative attention on illegal online gambling, spanning age verification, tech-platform ad cooperation, and payment providers' ties to unlicensed operators. The pattern points toward broadening enforcement scope beyond operators themselves to intermediaries, signalling potential new compliance obligations across the payments and advertising supply chain.",
+    "cluster_summary_for": "67f0719a12a0389b:aa9d372d",
+    "canonical_entities": [
+      "Illegal Gambling Taskforce",
+      "Investigate Europe"
+    ],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement against unlicensed operators has run almost continuously since July 2026, moving from raids and arrests to a sentencing in October, while the BGC escalates public warnings about black-market scale ahead of major sporting events.",
+    "theme_key_points": [
+      "Commission actions progressed from Doncaster raids (21 Jul) and casino arrests (29 Jul) to four arrests and £20,000 seized (23 Sep) and a sentencing (5 Oct)",
+      "BGC forecasts black-market betting on the Premier League will hit £1bn a season (24 Aug) and cites a $50bn global black market (7 Sep)",
+      "BGC flags St Leger's 250th anniversary (14 Sep) as a specific target for illegal bookmakers",
+      "Parliament raised gambling licensing and crime questions three times between 13 Jul and 1 Sep, keeping ministerial attention on enforcement scale"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:25f882732808:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "d11e395ad23e9461445e4a7c7dfa2881a94a31e8cf7494bac95a2950a6306d0d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/336",
+    "title": "Abouleyazid Mustafa Lubna",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "ingested_at": "2026-07-30T06:18:43.119057+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Abouleyazid Mustafa Lubna"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A personal gambling licence revocation signals Commission enforcement action against an individual, relevant to fitness-and-propriety standards in the sector.",
+    "category": "personal licence revocation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Abouleyazid Mustafa Lubna"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July through September 2026, revoking three personal licences, fining Holland Park Leisure £150,000, and suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal. Northern & Shell's National Lottery licence challenge also ended, with the Court of Appeal refusing permission to appeal.",
+    "theme_key_points": [
+      "Three personal licence revocations: Abouleyazid Mustafa Lubna (13 July), Zura Adam Galgerud (6 August), Ayeni Ibukun Samson (4 September)",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings",
+      "Four operator suspensions in five weeks: BresBet and Bet St George (28 August), Tom Horn Gaming (8 September), Targetlocal (21 September)",
+      "Court of Appeal refused Northern & Shell/TNLC permission to appeal the National Lottery licence decision on 30 July"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:c47687fc14d8:067ec139",
+    "sector": "gambling"
   }
 ]

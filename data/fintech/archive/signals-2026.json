@@ -2536,5 +2536,42 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:c36493b40b24:4975febf"
+  },
+  {
+    "id": "c17e383927085ff03e0e78adb220a4914513bf67934b1dbeb8e2796d9faf7788",
+    "source": "gazette",
+    "source_id": "5171815",
+    "source_url": "https://www.thegazette.co.uk/notice/5171815",
+    "title": "ELDENS FINANCE LIMITED",
+    "raw_summary": "Appointment of Administrators: …Nature of Business: Other service activities not elsewhere classified Previous Name of Company: Coin Fintech Limited …",
+    "published_at": "2026-07-13T01:00:15+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594286+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Eldens Finance Limited",
+      "Coin Fintech Limited"
+    ],
+    "canonical_entities": [
+      "Eldens Finance",
+      "Coin Fintech"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A company formerly branded as a fintech has entered administration, signalling possible distress in the payments or crypto space.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Formal insolvency filings have touched nine UK fintech-linked entities since mid-July, from administration at Eldens Finance to winding-up petitions against New Tech Finance, Newtech Finance and Ohm Topco. Two related investment vehicles, UK Fintech Growth GP and GP 2, entered liquidation on the same day in August, pointing to a fund wind-down alongside operating-company distress.",
+    "theme_key_points": [
+      "Eldens Finance entered administration 13 July, the earliest filing in the group",
+      "UK Fintech Growth GP and GP 2 LLP both hit liquidation/creditor notices on 11 August 2026",
+      "Separate winding-up petitions followed against New Tech Finance (14 Aug), Newtech Finance (20 Aug) and Ohm Topco (18 Sept)",
+      "Quaymile Limited, an IT consultancy, was petitioned 23 Sept with only loose sector relevance"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:9473ab66cab3:4975febf"
   }
 ]

@@ -817,15 +817,15 @@
     "cluster_coherent": true,
     "cluster_significance": 25,
     "cluster_summary_for": "5da753ac435f329d:642be20c",
-    "theme_summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
     "theme_key_points": [
-      "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
-      "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
-      "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
-      "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
+      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
+      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
+      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
+    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
   },
   {
     "id": "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
@@ -859,15 +859,15 @@
     "cluster_coherent": true,
     "cluster_significance": 25,
     "cluster_summary_for": "5da753ac435f329d:642be20c",
-    "theme_summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
     "theme_key_points": [
-      "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
-      "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
-      "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
-      "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
+      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
+      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
+      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
+    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
   },
   {
     "id": "b2377a11a628fa7bf0ce797b8b68a8286fe2354582f7db9f7a549744208170e7",
@@ -889,11 +889,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A liquidator appointment to an LLP named UK Fintech Growth GP signals the wind-down of a fintech-focused investment vehicle.",
     "category": "Insolvency",
-    "cluster_id": "64b8b28b80af7284",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP LLP, the general partner vehicle behind a fintech-focused investment fund, has entered insolvency with a liquidator appointed and creditor notices filed. The three gazette entries all stem from the same 11 August filing, pointing to formal wind-down of the fund structure rather than a trading business.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -929,11 +929,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A fintech-sector investment vehicle's creditor notice may signal fund wind-down affecting investors and portfolio companies.",
     "category": "Insolvency",
-    "cluster_id": "64b8b28b80af7284",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP LLP, the general partner vehicle behind a fintech-focused investment fund, has entered insolvency with a liquidator appointed and creditor notices filed. The three gazette entries all stem from the same 11 August filing, pointing to formal wind-down of the fund structure rather than a trading business.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -969,11 +969,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A UK fintech-focused investment vehicle is winding up, a minor signal worth tracking for sector fund activity.",
     "category": "Insolvency",
-    "cluster_id": "64b8b28b80af7284",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP LLP, the general partner vehicle behind a fintech-focused investment fund, has entered insolvency with a liquidator appointed and creditor notices filed. The three gazette entries all stem from the same 11 August filing, pointing to formal wind-down of the fund structure rather than a trading business.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -1009,11 +1009,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A notice to creditors signals formal insolvency proceedings for a UK fintech-linked investment vehicle, relevant to sector funding activity.",
     "category": "Insolvency",
-    "cluster_id": "429d7f0be1ac5194",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP 2 LLP, a fund vehicle tied to a fintech-focused investment structure, has entered formal insolvency with a creditors' notice filed 11 August 2026. The three gazette entries describe the same liquidation event rather than separate developments.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
@@ -1049,11 +1049,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A UK fintech-linked investment vehicle has entered liquidation, a minor but notable signal of sector consolidation or fund wind-down.",
     "category": "Insolvency",
-    "cluster_id": "429d7f0be1ac5194",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP 2 LLP, a fund vehicle tied to a fintech-focused investment structure, has entered formal insolvency with a creditors' notice filed 11 August 2026. The three gazette entries describe the same liquidation event rather than separate developments.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
@@ -1089,11 +1089,11 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A UK fintech-focused investment vehicle is winding up, a minor signal worth noting for sector fund-flow tracking.",
     "category": "Insolvency",
-    "cluster_id": "429d7f0be1ac5194",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "UK Fintech Growth GP 2 LLP, a fund vehicle tied to a fintech-focused investment structure, has entered formal insolvency with a creditors' notice filed 11 August 2026. The three gazette entries describe the same liquidation event rather than separate developments.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
@@ -1108,43 +1108,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
-  },
-  {
-    "id": "c17e383927085ff03e0e78adb220a4914513bf67934b1dbeb8e2796d9faf7788",
-    "source": "gazette",
-    "source_id": "5171815",
-    "source_url": "https://www.thegazette.co.uk/notice/5171815",
-    "title": "ELDENS FINANCE LIMITED",
-    "raw_summary": "Appointment of Administrators: …Nature of Business: Other service activities not elsewhere classified Previous Name of Company: Coin Fintech Limited …",
-    "published_at": "2026-07-13T01:00:15+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594286+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Eldens Finance Limited",
-      "Coin Fintech Limited"
-    ],
-    "canonical_entities": [
-      "Eldens Finance",
-      "Coin Fintech"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "A company formerly branded as a fintech has entered administration, signalling possible distress in the payments or crypto space.",
-    "category": "Insolvency",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "theme_summary": "Formal insolvency filings have touched nine UK fintech-linked entities since mid-July, from administration at Eldens Finance to winding-up petitions against New Tech Finance, Newtech Finance and Ohm Topco. Two related investment vehicles, UK Fintech Growth GP and GP 2, entered liquidation on the same day in August, pointing to a fund wind-down alongside operating-company distress.",
-    "theme_key_points": [
-      "Eldens Finance entered administration 13 July, the earliest filing in the group",
-      "UK Fintech Growth GP and GP 2 LLP both hit liquidation/creditor notices on 11 August 2026",
-      "Separate winding-up petitions followed against New Tech Finance (14 Aug), Newtech Finance (20 Aug) and Ohm Topco (18 Sept)",
-      "Quaymile Limited, an IT consultancy, was petitioned 23 Sept with only loose sector relevance"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:9473ab66cab3:4975febf"
   },
   {
     "id": "3a04dbf618907ec48da4eb215b38eec7b1acb1cae90df15410d12e1a723ca0f3",
@@ -1587,15 +1550,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
     "theme_key_points": [
-      "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
-      "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
-      "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
-      "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
+      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
+      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
+      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
+    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
   },
   {
     "id": "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
@@ -1674,15 +1637,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
     "theme_key_points": [
-      "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
-      "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
-      "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
-      "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
+      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
+      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
+      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
+    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
   },
   {
     "id": "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
@@ -4120,15 +4083,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Insolvency notices have run almost weekly since August across UK fintech-linked entities, starting with the wind-down of two UK Fintech Growth GP fund vehicles and extending through winding-up petitions against New Tech Finance, Newtech Finance, Ohm Topco, Quaymile and Profound by mid-October.",
+    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
     "theme_key_points": [
-      "UK Fintech Growth GP LLP and UK Fintech Growth GP 2 LLP both entered liquidation on 11 August, the same fund family wound down together.",
-      "New Tech Finance Ltd (14 August) and Newtech Finance Ltd (20 August) faced winding-up petitions within six days of each other, near-identical names.",
-      "Ohm Topco Limited petitioned 18 September, followed by Quaymile Limited (23 September) and Profound Limited (15 October), the latter two scored as only loosely fintech-adjacent (IT consultancy, car leasing).",
-      "Petitions run continuously from mid-August to mid-October with no gap longer than four weeks."
+      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
+      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
+      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
+      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:09adf5bb5507:4975febf"
+    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
   },
   {
     "id": "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
