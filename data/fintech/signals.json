@@ -1869,48 +1869,6 @@
     "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
   },
   {
-    "id": "a03b4a964b280cbc97d87c5fbbc880c550793b63dc5d3ab6eca25dbac3699aa5",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/publications/wholesale-digital-markets-champion-first-report",
-    "title": "Wholesale Digital Markets Champion – first report",
-    "raw_summary": "Report from the UK’s Wholesale Digital Markets Champion, setting out a framework for the UK financial sector to drive tokenisation of wholesale financial markets.",
-    "published_at": "2026-07-13T08:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594636+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Wholesale Digital Markets Champion",
-      "DCMS"
-    ],
-    "canonical_entities": [
-      "Wholesale Digital Markets Champion",
-      "DCMS"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "This framework signals UK government direction on wholesale market tokenisation, shaping future regulation affecting banks and fintech infrastructure providers.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "cluster_summary": "Two separate UK government policy moves surface under the same DCMS tag: a wholesale market tokenisation framework in July and a £500m AML enforcement expansion in September. They address different regulatory tracks with no direct link beyond the department issuing them.",
-    "cluster_pattern_type": "unrelated",
-    "cluster_coherent": false,
-    "cluster_significance": 30,
-    "cluster_summary_for": "459202143e119f74:642be20c",
-    "theme_summary": "UK government activity through autumn 2026 pushes on digital assets, sanctions enforcement and cash access in parallel: a digitally native gilt pilot, a £500m AML officer recruitment drive, and the 250th banking hub opening alongside a run of Treasury speeches on digital assets and private capital.",
-    "theme_key_points": [
-      "DCMS reports a digitally native UK gilt step (6 Oct) and a Digital Assets Week Treasury speech the same day",
-      "£500m AML crackdown (15 Sept) adds 'hundreds' of new officers targeting dirty money networks",
-      "Three BoE-Treasury inflation correspondence letters plus an APF update all land on 17 September",
-      "Chepstow's banking hub (18 Sept) marks the 250th opened, continuing cash-access infrastructure policy"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
-  },
-  {
     "id": "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
     "source": "dcms",
     "source_id": null,
@@ -9506,6 +9464,32 @@
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "864473319f332e178ba31ec1b5f9762814fa21013a3402a32b6f804a9526cc8a",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/oscar-guidance-for-budgeting-plans-and-outturn",
+    "title": "OSCAR guidance for Budgeting (Plans and Outturn)",
+    "raw_summary": "Guidance on how to load data, review control totals and download reports for HM Treasury's OSCAR database.",
+    "published_at": "2026-11-10T09:26:52+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-10T11:19:50.611198+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Internal government budgeting guidance has negligible relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
     "theme_id": null
   }
 ]
