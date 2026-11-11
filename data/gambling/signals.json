@@ -252,47 +252,6 @@
     "sector": "gambling"
   },
   {
-    "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/notice-of-betmgm-q2-update-and-conference-call/9668414",
-    "title": "Entain: Notice of BetMGM Q2 Update and Conference Call",
-    "raw_summary": "RNS announcement from Entain (ENT).",
-    "published_at": "2026-07-14T14:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926034+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Entain",
-      "BetMGM"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
-    "category": "earnings notice",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
-    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
-    "canonical_entities": [
-      "Entain Holdings (UK) Limited",
-      "BetMGM"
-    ],
-    "canonical_category": "Financial results",
-    "theme_id": null,
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 35,
-    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
-    "theme_key_points": [
-      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
-      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
-      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
-      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
-    ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
     "source": "lse_rns",
     "source_id": null,
@@ -2442,7 +2401,7 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A new auditor appointment at Entain, one of the UK's largest listed gambling operators, signals routine governance change with limited immediate market impact.",
     "category": "corporate governance",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
     "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
@@ -2556,15 +2515,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -2597,15 +2556,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -3317,15 +3276,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -3356,15 +3315,15 @@
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
     "cluster_significance": 25,
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -3422,10 +3381,10 @@
     "newsworthiness_score": 25,
     "why_it_matters": "A major shareholding change at Entain could signal shifting investor confidence or influence over one of the UK's largest gambling operators.",
     "category": "shareholder disclosure",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "canonical_entities": [
       "Entain Holdings (UK) Limited"
     ],
@@ -3433,7 +3392,7 @@
     "theme_id": "Shareholding disclosure",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
+    "cluster_significance": 55,
     "theme_summary": "Evoke's scheme of arrangement cleared its Court and General Meeting on 17 August, followed by two shareholding notifications within the same week and a tie to Intralot's own general meeting outcome in September. Entain separately filed a TR-1 major holdings notice on 27 August.",
     "theme_key_points": [
       "Evoke's Court Meeting and General Meeting results landed 17 August, confirming scheme progress.",
@@ -3495,7 +3454,7 @@
     "newsworthiness_score": 78,
     "why_it_matters": "The Gambling Commission's suspension of two operators' licences signals active enforcement and potential compliance failures in the UK betting market.",
     "category": "Licence action",
-    "cluster_id": "3dd923d77ab1401f",
+    "cluster_id": "b36ad0533035e18f",
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
@@ -3509,11 +3468,11 @@
     "theme_direction": "building",
     "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
     "sector": "gambling",
-    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
+    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in late August 2026, and both companies have since entered administration, with Bet St George filing in October and BresBet in November. The sequence points to a regulatory suspension triggering financial collapse rather than a coincidence.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "cluster_summary_for": "3dd923d77ab1401f:cecdc011"
+    "cluster_summary_for": "b36ad0533035e18f:cecdc011"
   },
   {
     "id": "9a7910160e2f3d3253ac283e3486907466edc5bafe1d2542e4857ca8e30a50b2",
@@ -4022,15 +3981,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "cluster_summary": "T33 Gaming Ltd moved from a winding-up petition on 4 September 2026 to a winding-up order by 23 September 2026, confirming the operator's insolvency. The company is now heading toward liquidation, with implications for creditors, staff and any players holding funds with it.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
@@ -4513,15 +4472,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld four rulings against gambling-sector advertisers between 9 September and 28 October 2026, spanning a comparison site, an affiliate, a betting data app and operator Midnite, with only White Hat Gaming's Casimba and Grand Ivy ads cleared. Breaches cover irresponsible ad targeting, misleading profit claims and youth protection failures.",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
     "theme_key_points": [
-      "Smart Gravity's top10onlinecasinoreviews.co.uk and Optival's bestbookiesandbettingsites.co.uk both upheld for irresponsibly targeted paid search ads",
-      "Midnite (Dribble Media) breached youth protection rules on TikTok by using an under-25 model, upheld 16 September",
-      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits",
-      "White Hat Gaming's Casimba and The Grand Ivy Casino ads cleared of under-18 targeting, the sole non-upheld case"
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:af92800f306d:067ec139",
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139",
     "sector": "gambling"
   },
   {
@@ -5375,15 +5334,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -5470,15 +5429,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A new director appointment at a major operator's UK entity may signal leadership or governance shifts worth monitoring.",
     "category": "Board and director changes",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -5510,15 +5469,15 @@
     "newsworthiness_score": 15,
     "why_it_matters": "A director termination at a major UK gambling operator subsidiary is routine but worth tracking for governance patterns.",
     "category": "Board and director changes",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "sector": "gambling"
   },
   {
@@ -5614,15 +5573,15 @@
     "cluster_coherent": true,
     "cluster_significance": 45,
     "cluster_summary_for": "3cae1668c5f7e0c6:cecdc011",
-    "theme_summary": "The ASA upheld four rulings against gambling-sector advertisers between 9 September and 28 October 2026, spanning a comparison site, an affiliate, a betting data app and operator Midnite, with only White Hat Gaming's Casimba and Grand Ivy ads cleared. Breaches cover irresponsible ad targeting, misleading profit claims and youth protection failures.",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
     "theme_key_points": [
-      "Smart Gravity's top10onlinecasinoreviews.co.uk and Optival's bestbookiesandbettingsites.co.uk both upheld for irresponsibly targeted paid search ads",
-      "Midnite (Dribble Media) breached youth protection rules on TikTok by using an under-25 model, upheld 16 September",
-      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits",
-      "White Hat Gaming's Casimba and The Grand Ivy Casino ads cleared of under-18 targeting, the sole non-upheld case"
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:af92800f306d:067ec139",
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139",
     "sector": "gambling"
   },
   {
@@ -5653,15 +5612,15 @@
     "status": "seen",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld four rulings against gambling-sector advertisers between 9 September and 28 October 2026, spanning a comparison site, an affiliate, a betting data app and operator Midnite, with only White Hat Gaming's Casimba and Grand Ivy ads cleared. Breaches cover irresponsible ad targeting, misleading profit claims and youth protection failures.",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
     "theme_key_points": [
-      "Smart Gravity's top10onlinecasinoreviews.co.uk and Optival's bestbookiesandbettingsites.co.uk both upheld for irresponsibly targeted paid search ads",
-      "Midnite (Dribble Media) breached youth protection rules on TikTok by using an under-25 model, upheld 16 September",
-      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits",
-      "White Hat Gaming's Casimba and The Grand Ivy Casino ads cleared of under-18 targeting, the sole non-upheld case"
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:af92800f306d:067ec139",
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139",
     "sector": "gambling"
   },
   {
@@ -5902,15 +5861,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "cluster_summary": "Equusform Limited, a horse racing data supplier to bookmakers, has moved from creditors' meetings in mid-September 2026 to liquidation by early October, pointing to a clean insolvency process reaching its conclusion rather than a drawn-out dispute.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -6226,15 +6185,15 @@
     "cluster_coherent": true,
     "cluster_significance": 40,
     "cluster_summary_for": "79ee6c333a759caf:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -6332,15 +6291,15 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "6dddf90984997240:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -6616,15 +6575,15 @@
     "newsworthiness_score": 62,
     "why_it_matters": "Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban signals resilience but highlights regulatory risk exposure for investors and operators.",
     "category": "Financial results",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Entain, Rank and evoke all filed Q3 trading updates within an eight-day window in mid-to-late October 2026, with Entain reaffirming full-year EBITDA guidance despite a Brazil market ban. BetMGM's own Q3 update followed via Entain's RNS feed, underlining the joint venture's weight on group numbers.",
     "theme_key_points": [
       "Entain reaffirmed FY26 EBITDA guidance on 28 September despite losing access to the Brazilian market",
@@ -7076,15 +7035,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8932c6012be5f9f4:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7199,15 +7158,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7293,15 +7252,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7333,15 +7292,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "615cd328b3491de8:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7377,15 +7336,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7421,15 +7380,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7465,15 +7424,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "318ff7da2fdd27ce:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -7527,15 +7486,15 @@
     "newsworthiness_score": 20,
     "why_it_matters": "Routine annual accounts filing provides a data point for tracking Entain's UK financial position but carries limited independent news value.",
     "category": "Corporate filing",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "canonical_category": "Corporate filing",
     "theme_id": null,
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Entain, Rank and William Hill's parent evoke worked through routine corporate filing obligations between August and October 2026, covering interim and annual results, an audit tender conclusion, and standard Companies House and AGM disclosures. None of the filings signal distress or strategic shift.",
     "theme_key_points": [
       "evoke (formerly 888/William Hill) published H1 2026 interim results on 12 August 2026",
@@ -7751,15 +7710,15 @@
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139",
     "sector": "gambling"
   },
   {
@@ -8065,25 +8024,25 @@
     "newsworthiness_score": 45,
     "why_it_matters": "A betting operator entering administration signals financial distress worth tracking for industry consolidation trends.",
     "category": "Insolvency",
-    "cluster_id": "3dd923d77ab1401f",
+    "cluster_id": "b36ad0533035e18f",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in August 2026 over suspected compliance failures. By October, Bet St George Ltd had entered administration, confirming the suspension tipped the operator into insolvency.",
+    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in late August 2026, and both companies have since entered administration, with Bet St George filing in October and BresBet in November. The sequence points to a regulatory suspension triggering financial collapse rather than a coincidence.",
     "cluster_pattern_type": "escalation",
     "cluster_coherent": true,
     "cluster_significance": 55,
-    "cluster_summary_for": "3dd923d77ab1401f:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "cluster_summary_for": "b36ad0533035e18f:cecdc011",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "a97d57eac7dc20b51ed80d5037cdd682518c08f405192148367ec3d07423164b",
@@ -8173,16 +8132,16 @@
     "newsworthiness_score": 35,
     "why_it_matters": "A BetMGM trading update from Entain could signal joint venture performance trends affecting UK-listed operator revenue expectations.",
     "category": "Financial results",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Entain, Rank and evoke all filed Q3 trading updates within an eight-day window in mid-to-late October 2026, with Entain reaffirming full-year EBITDA guidance despite a Brazil market ban. BetMGM's own Q3 update followed via Entain's RNS feed, underlining the joint venture's weight on group numbers.",
     "theme_key_points": [
       "Entain reaffirmed FY26 EBITDA guidance on 28 September despite losing access to the Brazilian market",
@@ -8220,15 +8179,15 @@
     "sector": "gambling",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld four rulings against gambling-sector advertisers between 9 September and 28 October 2026, spanning a comparison site, an affiliate, a betting data app and operator Midnite, with only White Hat Gaming's Casimba and Grand Ivy ads cleared. Breaches cover irresponsible ad targeting, misleading profit claims and youth protection failures.",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
     "theme_key_points": [
-      "Smart Gravity's top10onlinecasinoreviews.co.uk and Optival's bestbookiesandbettingsites.co.uk both upheld for irresponsibly targeted paid search ads",
-      "Midnite (Dribble Media) breached youth protection rules on TikTok by using an under-25 model, upheld 16 September",
-      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits",
-      "White Hat Gaming's Casimba and The Grand Ivy Casino ads cleared of under-18 targeting, the sole non-upheld case"
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:af92800f306d:067ec139"
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139"
   },
   {
     "id": "385ddcdd94383bdf9f9d8b677ebac7bb32398d68f53d93cfd4f74f5bc64f44cc",
@@ -8569,16 +8528,16 @@
     "newsworthiness_score": 55,
     "why_it_matters": "Entain's trading update offers insight into the financial health and market performance of one of the UK's largest gambling operators.",
     "category": "Financial results",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Financial results",
     "theme_id": "Financial results",
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Entain, Rank and evoke all filed Q3 trading updates within an eight-day window in mid-to-late October 2026, with Entain reaffirming full-year EBITDA guidance despite a Brazil market ban. BetMGM's own Q3 update followed via Entain's RNS feed, underlining the joint venture's weight on group numbers.",
     "theme_key_points": [
       "Entain reaffirmed FY26 EBITDA guidance on 28 September despite losing access to the Brazilian market",
@@ -8715,16 +8674,16 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Director declarations can signal governance changes or conflicts of interest at a major FTSE-listed gambling operator.",
     "category": "Board and director changes",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Board and director changes",
     "theme_id": null,
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "Leadership turnover concentrates at the Gambling Commission this autumn, with Ruth Evans confirmed as new Chair on 7 September and a separate CEO appointment process underway, while Rank and Entain report routine board and director changes.",
     "theme_key_points": [
       "Ruth Evans appointed Gambling Commission Chair on 2026-09-07, welcomed same day by the BGC",
@@ -9597,15 +9556,15 @@
     "sector": "gambling",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "4774be45ff27089f14de89fc3207d2a7bce37201955692bca133717cac2eefd3",
@@ -9735,15 +9694,15 @@
     "sector": "gambling",
     "canonical_category": "Advertising ruling",
     "theme_id": "Advertising ruling",
-    "theme_summary": "The ASA upheld four rulings against gambling-sector advertisers between 9 September and 28 October 2026, spanning a comparison site, an affiliate, a betting data app and operator Midnite, with only White Hat Gaming's Casimba and Grand Ivy ads cleared. Breaches cover irresponsible ad targeting, misleading profit claims and youth protection failures.",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
     "theme_key_points": [
-      "Smart Gravity's top10onlinecasinoreviews.co.uk and Optival's bestbookiesandbettingsites.co.uk both upheld for irresponsibly targeted paid search ads",
-      "Midnite (Dribble Media) breached youth protection rules on TikTok by using an under-25 model, upheld 16 September",
-      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits",
-      "White Hat Gaming's Casimba and The Grand Ivy Casino ads cleared of under-18 targeting, the sole non-upheld case"
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Advertising ruling:af92800f306d:067ec139"
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139"
   },
   {
     "id": "c91f8ffd97517312c9bfd898b497cabad9122751ddc513bfdd9009051b572005",
@@ -9837,15 +9796,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "1b3b88cd9371d643e2b73668436d384289999f90fd9df7d4ccfeff40fd82c1d9",
@@ -9877,15 +9836,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "5c573b30cdd0f8c21cf2f3340c2c4ca670fbac855c4f24394dc2f5a44d331376",
@@ -9917,15 +9876,15 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "8d122e4ef213675e:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "24a2d627cf26fa8b1c93f72fc95d0a927f5507f0604c659ca3e395a9c2a5d7e2",
@@ -9982,16 +9941,16 @@
     "newsworthiness_score": 78,
     "why_it_matters": "A major UK operator's formal response to gambling tax rises signals potential financial impact and industry-wide cost pressures.",
     "category": "Tax and levy",
-    "cluster_id": "d4d20ca56a7a9ad5",
+    "cluster_id": "1eb68109172b9fd6",
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "cluster_summary": "Entain's autumn reporting cycle shows resilience under regulatory pressure: FY26 EBITDA guidance held despite a Brazil market ban, followed by Q3 trading and BetMGM updates and a formal response to UK gambling tax increases. Surrounding it are routine governance items—auditor conclusion, director filings, Companies House accounts—typical of a FTSE-listed operator's compliance calendar.",
+    "cluster_summary": "Entain moves through routine corporate housekeeping alongside substantive updates: it reaffirmed FY26 EBITDA guidance despite losing the Brazil market, reported BetMGM and Q3 trading figures, and issued a formal statement on UK gambling tax increases. Director filings and a major shareholding notification round out normal governance and investor-relations activity.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
-    "cluster_significance": 58,
-    "cluster_summary_for": "d4d20ca56a7a9ad5:cecdc011",
+    "cluster_significance": 55,
+    "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
     "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
     "theme_key_points": [
       "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
@@ -10985,15 +10944,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "b608567cde6d0c6c:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "88a038ddb808d4a67bd9e6867db0bc277e8a6ee193cb580a9cdc11c98920653d",
@@ -11025,15 +10984,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "b608567cde6d0c6c:cecdc011",
-    "theme_summary": "Gazette filings since mid-August show insolvency spreading across the UK gambling supply chain, from casino operators to compliance advisers and gaming-machine suppliers. At least 19 companies have entered administration, liquidation or winding-up proceedings since 17 August, with the pace accelerating through October 2026.",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
     "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed winding-up notices on the same day, 1 October 2026",
-      "Multilinea Leeds was formerly Global Gaming Ventures (Leeds), linking the collapse to an earlier-named group entity",
-      "Casino MK faced a winding-up petition (9 October) and Bet St George entered administration (12 October), hitting land-based and betting operators directly",
-      "Lysis Gaming Compliance and RGG Management show distress reaching advisory and commission-affiliated service firms, not just operators"
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:76feace1b757:067ec139"
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
   },
   {
     "id": "93354ae9de21beb493129c85d99c7ee4607dcd45f3c14056cc26bd992bbce5b4",
@@ -11106,5 +11065,108 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:20ce249208e0:067ec139"
+  },
+  {
+    "id": "019f173be63fac4541dbf66deb10bd63d32cea75755b4c749a21565b86f0cfd6",
+    "source": "gazette",
+    "source_id": "5250015",
+    "source_url": "https://www.thegazette.co.uk/notice/5250015",
+    "title": "LEVELUP ESCAPES LIMITED",
+    "raw_summary": "Appointment of Liquidators: …mpany: LEVELUP ESCAPES LIMITED Company Number: 13557693 Nature of Business: Leisure - Entertainment, Betting and Culture …",
+    "published_at": "2026-11-11T01:06:36+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T15:20:50.848273+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "LEVELUP ESCAPES LIMITED"
+    ],
+    "canonical_entities": [
+      "LEVELUP ESCAPES"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "A small leisure/entertainment company tied to betting and culture sector has entered liquidation, of limited interest beyond routine filing.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null
+  },
+  {
+    "id": "a4293de11c1f20b5926989242897da36ef6ad7fe305a0c6e0e745c850bea849f",
+    "source": "gazette",
+    "source_id": "5250191",
+    "source_url": "https://www.thegazette.co.uk/notice/5250191",
+    "title": "BRESBET LTD",
+    "raw_summary": "Appointment of Administrators: …hD) No CR-2026-LDS-001107. BRESBET LTD (Company Number 13250493 ) Nature of Business: Entertainment, Betting and Culture …",
+    "published_at": "2026-11-10T17:42:01+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T15:20:50.848277+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "BRESBET LTD"
+    ],
+    "canonical_entities": [
+      "BRESBET"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "A licensed betting operator entering administration signals financial distress worth tracking for industry consolidation trends.",
+    "category": "Insolvency",
+    "cluster_id": "b36ad0533035e18f",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": "Insolvency",
+    "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in late August 2026, and both companies have since entered administration, with Bet St George filing in October and BresBet in November. The sequence points to a regulatory suspension triggering financial collapse rather than a coincidence.",
+    "cluster_pattern_type": "escalation",
+    "cluster_coherent": true,
+    "cluster_significance": 55,
+    "cluster_summary_for": "b36ad0533035e18f:cecdc011",
+    "theme_summary": "Insolvency filings have run almost weekly across the UK gambling sector since mid-August, hitting operators, machine suppliers and compliance firms alike. Casino MK, Bet St George and Bresbet all entered administration or winding-up in October and November, alongside smaller suppliers like Equusform and Carnaby Gaming Machines.",
+    "theme_key_points": [
+      "Multilinea Developments, Multilinea Leeds and Carnaby Gaming Machines all filed on the same date, 1 October 2026, suggesting linked corporate group failure.",
+      "Bresbet Ltd (score 55) and MGE Korea (score 55) are the highest-severity cases, both tied to licensed operators or integrated gaming groups.",
+      "Lysis Gaming Compliance's winding-up in late August marks rare distress reaching into sector advisory and compliance services, not just operators.",
+      "Filings have accelerated through October and November, with Gaming International, RGG Management, Chillout Games and Bresbet all added since mid-October."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:8dd3e08dc3f7:067ec139"
+  },
+  {
+    "id": "4397adc33d380c39bf3e472fcffbe8ecd6042ad132fd1b011659b7d4526a55c2",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/recro-ltd.html",
+    "title": "Recro Ltd t/a Casumo",
+    "raw_summary": "Upheld / Internet (display): A paid-for online display ad for a gambling website encouraged socially irresponsible behaviour that could lead to financial harm.",
+    "published_at": "2026-11-11T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T15:20:50.848776+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Recro Ltd",
+      "Casumo"
+    ],
+    "canonical_entities": [
+      "Recro",
+      "Casumo"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "ASA upheld a complaint against Casumo for an ad encouraging socially irresponsible gambling, highlighting ongoing advertising compliance risks for operators.",
+    "category": "Advertising ruling",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Advertising ruling",
+    "theme_id": "Advertising ruling",
+    "theme_summary": "The ASA has upheld five rulings against UK gambling operators and affiliates between September and November 2026, covering irresponsible targeting, youth protection breaches and misleading profit claims. Only White Hat Gaming's Casimba and Grand Ivy ads were cleared. The spread across affiliates, data apps and operators points to compliance gaps beyond any single business model.",
+    "theme_key_points": [
+      "Five upheld rulings across six months: Smart Gravity, Midnite, AI Scorecast, bestbookiesandbettingsites.co.uk, Casumo",
+      "Midnite breached youth protection rules using an under-25 model in a TikTok ad (16 Sept 2026)",
+      "AI Scorecast's ruling (14 Oct) centred on misleading claims of guaranteed betting profits, not targeting",
+      "Two affiliate sites (top10onlinecasinoreviews.co.uk, bestbookiesandbettingsites.co.uk) hit for irresponsible paid search targeting"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:d382a57abe62:067ec139"
   }
 ]

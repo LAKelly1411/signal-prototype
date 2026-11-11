@@ -10801,5 +10801,46 @@
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "d5a7d80455ba7ece6b61fc804b29d1a0f0be3850c8c1dbc80e766a10530a8efa",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/notice-of-betmgm-q2-update-and-conference-call/9668414",
+    "title": "Entain: Notice of BetMGM Q2 Update and Conference Call",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-07-14T14:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926034+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain",
+      "BetMGM"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals upcoming financial disclosure from BetMGM/Entain that could reveal US joint-venture performance trends relevant to investors and competitors.",
+    "category": "earnings notice",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain runs through a standard corporate calendar across Q3-Q4 2026: BetMGM Q2 updates, interim results, an audit tender conclusion, routine board and shareholding filings, and reaffirmed FY26 EBITDA guidance despite a Brazil market ban. The Brazil disclosure is the one item with genuine news weight, showing regulatory risk being absorbed without guidance cuts.",
+    "cluster_summary_for": "cb6d978862b47d8f:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited",
+      "BetMGM"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "A cluster of scheduled earnings events from mid-July to late September 2026 covers Entain, BetMGM, Flutter and evoke (William Hill), culminating in Entain reaffirming FY26 EBITDA guidance despite a Brazil market ban.",
+    "theme_key_points": [
+      "BetMGM Q2 update moved from notice (14 July) to full business update on 28 July, feeding Entain's joint-venture earnings.",
+      "Flutter Entertainment flagged Q2 results for 27 July; evoke (William Hill/888) gave interim results notice on 16 July.",
+      "Entain posted interim results on 13 August, then on 28 September maintained FY26 EBITDA guidance despite the Brazil ban.",
+      "Entain is the recurring name across the sequence, appearing in four of six disclosures spanning July to September."
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:aa93581ba84c:067ec139",
+    "sector": "gambling"
   }
 ]
