@@ -10515,5 +10515,291 @@
     "theme_direction": "building",
     "theme_summary_for": "Licence action:c47687fc14d8:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "5b159fdd9d61e29c04b8baf9b60c28372d0e76085c43da2b597af82f14104767",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/full-year-trading-update/9666644",
+    "title": "Rank Group: Full Year Trading Update",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-07-14T07:00:00+00:00",
+    "ingested_at": "2026-07-16T13:29:51.926533+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Rank Group's full-year trading update offers financial performance insight into a major UK bingo and casino operator ahead of results.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Rank Group runs its normal annual reporting cycle through summer 2026—trading update, final results, AGM—while also reshuffling its board. In October it closes out a Gambling Commission enforcement settlement, adding a compliance dimension alongside separate BGC items on new minister Vicky Foxcroft's appointment and casino visit.",
+    "cluster_summary_for": "7f4a2a90327f9617:cecdc011",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 45,
+    "theme_summary": "Five UK-listed gambling operators moved through a concentrated reporting season between mid-July and late September 2026, with Rank, Entain, evoke and Flutter all issuing trading updates or results notices. Entain's disclosures dominated, culminating in a reaffirmed FY26 EBITDA guide despite a Brazil market ban.",
+    "theme_key_points": [
+      "Entain issued four separate updates between 14 July and 28 September, more than any peer in the set",
+      "Rank Group's full-year trading update and evoke's interim results notice both landed within days of each other, 14-16 July",
+      "Flutter Entertainment's Q2 results notice on 27 July preceded BetMGM's own Q2 2026 update the next day",
+      "Entain reaffirmed FY26 EBITDA guidance on 28 September despite a Brazil market ban, signalling resilience alongside regulatory exposure"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:f934efafe809:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "b3c7c5e1c5b7950d1cab9eab5f0c22820b8c11f54550801051cc196cf87344fb",
+    "source": "parliament",
+    "source_id": "1927793",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18904",
+    "title": "Written question: Gambling: Horse Racing",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what assessment has been made of the potential impact of the Gambling Commission's proposed affordability checks for bets of more than £1,000 on the horse racing industry.\nA: The Government recognises the significant contribution that racing makes to British sporting culture and its importance to the British economy. Horseracing is the only sport in receipt of a direct government-mandated levy which helps to drive improvements...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945815+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "Shows ongoing government scrutiny of affordability checks' impact on racing, a key stakeholder in gambling policy debates.",
+    "category": "affordability checks / horse racing",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "canonical_category": "Player protection",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "c85963d4c5d3e2b83fb801289d40225c0bab949c743e8d3b7eb7e6770ebeda5e",
+    "source": "parliament",
+    "source_id": "1927528",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18826",
+    "title": "Written question: Gambling Commission: Public Appointments",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what discussions she has had with the Gambling Commission on a timetable for a new permanent appointment for its chief executive.\nA: The timetable for appointing a permanent Chief Executive to the Gambling Commission is a matter for the Gambling Commission’s Board. Any appointment will be subject to the Secretary of State agreeing terms and conditions. ",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945818+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Ongoing uncertainty over the Gambling Commission's permanent CEO could affect regulatory direction and enforcement priorities for operators.",
+    "category": "regulatory leadership",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "b5591e365ab2a3203e295a8550293e4dbd752d00d1f74de92c46f05246f95969",
+    "source": "parliament",
+    "source_id": "1927532",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18828",
+    "title": "Written question: Gambling Commission: Staff",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, with reference to the answer of 17 April 2026 to Question 123653 on Gambling Commission: Staff, whether Gambling Commission staff are (a) civil and (b) crown servants.\nA: Gambling Commission staff are neither civil nor crown servants. They are public servants who act on behalf of the Crown to regulate the commercial gambling industry. ",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945821+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Clarifies the legal status of Gambling Commission staff, a niche governance point relevant to regulatory accountability debates.",
+    "category": "regulator governance",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "fa4d1629a7b2e4d0269a017429c8cc15237a6cd4ffd56da13d8b799afd84cb5c",
+    "source": "parliament",
+    "source_id": "1927913",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18769",
+    "title": "Written question: Gaming Machines: Payment Methods",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what discussions her Department has had with representatives of the adult gaming centre sector on enabling cashless payment systems; and whether she plans to bring forward related regula\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945824+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Department for Digital, Culture, Media and Sport",
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Signals government is holding off on cashless payment reforms for adult gaming centres pending stronger customer protections.",
+    "category": "cashless payments policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d",
+    "canonical_entities": [
+      "Department for Digital, Culture, Media and Sport",
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "3ff4dd080a75fb679c959fcb85a002f75b709cef20c689feaf9a6d82b803e5d9",
+    "source": "parliament",
+    "source_id": "1927911",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18768",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department has had discussions with the adult gaming centre sector on raising the stakes and prizes cap; and what assessment she has made of the potential economic impact of \nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945827+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government reluctance to deregulate AGC stakes and prizes caps, affecting sector growth plans and lobbying strategy.",
+    "category": "stakes and prizes policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "7147c93d379355989def6922587002401f65dd139f72edab1e09ff52652b46a5",
+    "source": "parliament",
+    "source_id": "1927910",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18767",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department has considered raising the stakes and prizes cap for adult gaming centres.\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945830+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "Signals government is holding off on deregulation for adult gaming centres, affecting AGC operators' growth plans.",
+    "category": "AGC stakes and prizes policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "9baca67befa297a9aa13f9e31b67718d143419d22b0c40482c692a920ac852cd",
+    "source": "parliament",
+    "source_id": "1927900",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-14/18766",
+    "title": "Written question: Gaming Machines: Prizes",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, whether her Department plans to review the maximum stakes and prizes limits for Category B3 and C gaming machines in adult gaming centres.\nA: The government has been clear that it will not look to make additional deregulatory changes to the adult gaming sector until further improvements are made on customer protections. Government officials meet regularly with the Gambling Commission and repres...",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "ingested_at": "2026-07-22T17:42:37.945833+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "Signals government will delay any B3/C machine stake or prize deregulation until customer protection improvements are made, affecting AGC operators.",
+    "category": "gaming machine stakes policy",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "UK gambling policy is in a holding pattern: affordability checks and racing's status remain contested, cashless and stake/prize reforms for gaming machines are stalled pending stronger safeguards, and Gambling Commission leadership is in flux with a new senior appointment amid an unresolved permanent CEO question, signalling cautious, transitional regulatory direction.",
+    "cluster_summary_for": "c056fbfa794c015f:aa9d372d",
+    "canonical_entities": [
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "Parliamentary scrutiny of UK gambling policy intensified sharply through late August and September 2026, with a dense run of written questions on financial risk checks, Gambling Commission governance and high-street planning rules, alongside new machine standards and a ministerial reshuffle. The BGC has stepped up public lobbying on tax, ad bans and betting shops as these fronts converge.",
+    "theme_key_points": [
+      "28 August saw over a dozen written questions in one day covering Financial Risk Assessments, Commission staff conflicts-of-interest and new council powers to reject gambling premises.",
+      "1 September brought five separate confirmations that prediction markets/event contracts require Gambling Commission licensing.",
+      "Vicky Foxcroft became gambling minister on 11 August and visited Grosvenor Casino Liverpool on 29 September; Simon Cox was named BHA chair on 22 July.",
+      "Gambling Commission issued new machine rules on 30 September and 2025/26 industry statistics on 17 September; BGC countered with a 21 September campaign against a blanket ad ban."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:ffe71e2eb0c6:067ec139",
+    "sector": "gambling"
   }
 ]

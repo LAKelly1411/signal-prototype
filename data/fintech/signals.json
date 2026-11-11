@@ -320,46 +320,6 @@
     "cluster_summary_for": "c3ae93a9bfedc71a:642be20c"
   },
   {
-    "id": "f26a1c226d35055fc772af8568e8cd7fcdc5f6f3fbf4b3a139ea4fb402d3ab82",
-    "source": "companies_house",
-    "source_id": "MzUzMjE2Njc1MWFkaXF6a2N4",
-    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMjE2Njc1MWFkaXF6a2N4/document?format=pdf&download=0",
-    "title": "Starling Bank Limited: Officers filed",
-    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
-    "published_at": "2026-07-14T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.593970+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Starling Bank Limited"
-    ],
-    "canonical_entities": [
-      "Starling Bank Limited"
-    ],
-    "newsworthiness_score": 20,
-    "why_it_matters": "A new director appointment at Starling Bank could signal leadership strategy shifts worth monitoring for the fintech sector.",
-    "category": "Board and director changes",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Board and director changes",
-    "theme_id": null,
-    "cluster_summary": "Starling Bank filed routine annual accounts and a director appointment with Companies House within days of each other. Both are standard corporate filings with no detail yet on financial results or who joined the board.",
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 15,
-    "cluster_summary_for": "82916f12126c1481:642be20c",
-    "theme_summary": "Companies House filings show director changes across most of the UK's major digital banks and payments firms between mid-July and early October 2026, with Monzo recording repeated officer departures on 30 July and again on 10 September. Regulatory board turnover has followed, with new appointments to the Bank of England and the FCA board in September.",
-    "theme_key_points": [
-      "Monzo Bank filed director departures on 30 July (five separate filings) and again on 10 September 2026",
-      "ClearBank logged a director departure the same day as Monzo's, 30 July 2026",
-      "Klarna's UK entity filed two separate officer terminations, on 19 July and 6 October 2026",
-      "FCA board appointments announced 30 September follow Bank of England non-executive appointments on 16 September"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:4cebf902505f:4975febf"
-  },
-  {
     "id": "f55c65dc93c74011aa091a4f32b930d4febc21fb983d9dcbd257ff977ff4568e",
     "source": "companies_house",
     "source_id": "MzU0NzkxODI0OWFkaXF6a2N4",
@@ -1674,15 +1634,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "ccbf5d34d86e3137e3781b021f7eb4bdf5955dd1a17d68a0a86616e515e57cd6",
@@ -1714,15 +1674,15 @@
     "cluster_coherent": false,
     "cluster_significance": 20,
     "cluster_summary_for": "4d44e710becfb749:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "0735281b2609732c0dcdf582f7ad64d788118af76afb20d60c6fb780b869076d",
@@ -1832,43 +1792,6 @@
     "theme_id": null
   },
   {
-    "id": "05a1fc429e349934e06701bc8f5ef5627bccde45c2ac9f7efb820d826c6aa66d",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/publications/recommendations-for-the-financial-conduct-authority-november-2024",
-    "title": "Recommendations for the Financial Conduct Authority: November 2024",
-    "raw_summary": "Letter from the Chancellor of the Exchequer to the Chief Executive of the Financial Conduct Authority (FCA) providing recommendations for the FCA.",
-    "published_at": "2026-07-13T16:12:57+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594633+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Financial Conduct Authority",
-      "HM Treasury"
-    ],
-    "canonical_entities": [
-      "Financial Conduct Authority",
-      "HM Treasury"
-    ],
-    "newsworthiness_score": 35,
-    "why_it_matters": "Chancellor's recommendations can shape FCA priorities, influencing regulatory focus across UK fintech and payments firms.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "UK government activity through autumn 2026 pushes on digital assets, sanctions enforcement and cash access in parallel: a digitally native gilt pilot, a £500m AML officer recruitment drive, and the 250th banking hub opening alongside a run of Treasury speeches on digital assets and private capital.",
-    "theme_key_points": [
-      "DCMS reports a digitally native UK gilt step (6 Oct) and a Digital Assets Week Treasury speech the same day",
-      "£500m AML crackdown (15 Sept) adds 'hundreds' of new officers targeting dirty money networks",
-      "Three BoE-Treasury inflation correspondence letters plus an APF update all land on 17 September",
-      "Chepstow's banking hub (18 Sept) marks the 250th opened, continuing cash-access infrastructure policy"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
-  },
-  {
     "id": "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
     "source": "dcms",
     "source_id": null,
@@ -1893,15 +1816,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf",
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf",
     "cluster_summary": "OFSI's general licence regime around Russia sanctions is in flux, with licences expiring and parliament directly questioning whether an FCA-regulated fintech was used to evade sanctions. Payments firms relying on those licences for sanctioned transactions now face reassessment deadlines and heightened compliance scrutiny.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -1959,15 +1882,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "42a57c39291ab3464f9dd5f4b3d86ca5ba552165fa9a164f4ac51dfc7c653597",
@@ -2107,15 +2030,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "75ebbc65890ba9374c983683c3ea5bc55460407cc642d8876dd9e1f8819f3927",
@@ -2166,15 +2089,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "5a5f1e7f3fcc937efd7390cec041b4eea6ade44eec153c47a904de19bd85ac7b",
@@ -2203,15 +2126,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "bdcdd32fa4126b46d80a1cac2800178490502cd96035f5a6cc54d255eba35b47",
@@ -2262,15 +2185,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "8ad2f8d2df889853f4fb1ff0771f2d98bbd29f57d86917b4e35545357baa7c4f",
@@ -2332,15 +2255,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "39afb532355266a2f9182afa4a8e6785a9ce882f3c2adb2969aeb5a43aaf29c8",
@@ -2395,15 +2318,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "70a0728542c7cd0c3e31fffa8b227df528f19386798c8a1b15085b83c3626d34",
@@ -2485,15 +2408,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "96f6cbf829478bc3732b1ffb6b79af2eb3de5bdc6ea7eacdc161c9c71ca5c784",
@@ -2547,15 +2470,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "84c450c526b2f022eacd02b7786bf0a937152458121686ed5ac947689c8d60a0",
@@ -2587,15 +2510,15 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "5e24b76ff453fc78:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "5ff55ccb8d665d99e093b22a93218545cb610931c08bfb6e7c17287f9ceb56f7",
@@ -2668,15 +2591,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "c9b7977613f3a06b79d224610c5d8208e1d7c001edf7a9e96e78c0919a012992",
@@ -2730,15 +2653,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
@@ -3564,15 +3487,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "2c5a31adfe1e298d3a3a26d7f4ad5936e516a7335df89f35fa6faaf8c2e2d473",
@@ -3673,15 +3596,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "e5c0f33e130a1e310899d15fddbfc3ab93bb437206721c786f68f11951c68dba",
@@ -3708,15 +3631,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "27b9273f303417e9a437fcca96b6c287166cc7c309c50f673234e557ad8d9ea5",
@@ -4244,15 +4167,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "ae306041c8b774017d0f3b51631afc5ad234f5b6cc004b304251167effac0cb7",
@@ -4286,15 +4209,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "0ed2dc3210dd9fc3:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "719f8f1499b4b91a2eb8b55dc56223d51b3aa6853e0ac1f382a99d2bd4f97398",
@@ -5256,15 +5179,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "57ed079796cfab3dbe6ef52c8f6effb61911cb5794a66d76b519ec77f139f2f2",
@@ -5293,15 +5216,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "905e6eaf5bad92f045cb2c3bc0eb5070bcb62f16c7a91ffdbd596987de5f689b",
@@ -5330,15 +5253,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "ab0e37465b0da5fe108fbcf2760fe7ab9197dc93c98056273389ae689c9a4982",
@@ -5774,15 +5697,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "775260bf3a758aebc95120fb668679ef8fb014375582dfea5da4a7d23e26ca0c",
@@ -5816,15 +5739,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "a37760b0c5d671f499ab9de1558fdd2f992cc2fd3c4ee5ea7d831b7f93b1a4d4",
@@ -5891,15 +5814,15 @@
     "cluster_coherent": false,
     "cluster_significance": 10,
     "cluster_summary_for": "63770a80346c0f1f:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "1865cbcbca6ce1829e98e5c6e786e8ad1cc7d27e1b7673dacfc8ebfdc0b8d261",
@@ -6534,15 +6457,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "46aaa8ad8a8f0235995f4f65d1f07bfea2fced17c6cfe3202de57d607378fbe1",
@@ -7087,15 +7010,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "88229b811e915f5db0ebddecab12635fdc210d5014fd8d44e6af7f16c6358bfd",
@@ -7306,15 +7229,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "8289760c02c13c36a9bd525f0ab02ae48b9997786bf23947c9b9986d878ad5f4",
@@ -7400,15 +7323,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "b1ba74176c1b893334728a5dcfa0c07735ba7240c77807f6710f8af9e4e7841f",
@@ -7435,15 +7358,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "93c70b685454cb37c456fd6ac41c4a234055f1bfc5acde862277d697b0370245",
@@ -7612,15 +7535,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "9eed2342523c2686dee2b407404c042723504a75f51768617d6513ac959ddbf5",
@@ -7724,15 +7647,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "d0ddf999205a631cad4b01cfb94cf85c6526cb4325ddfb8e47a62bda01247c26",
@@ -7763,15 +7686,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "bd7e9cd2851599304bc1b0bcd35b29833e125f30ef2fac6c5175d2cda98f06dd",
@@ -7891,15 +7814,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "782a5d4d48a790c5:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "abcab372980ec7b946bf76762506115313f4817e411a0747bf5b9543220af07b",
@@ -7979,15 +7902,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "494c3575519d54ab:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "85551242df671d549364ebabf7ce71fd1e317bf21a1f7a50dbb741608d67b869",
@@ -8023,15 +7946,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "494c3575519d54ab:642be20c",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "90c16206a11dc14c2096372224da1192b15c13b0237c94faae501b85ec31d5ac",
@@ -8054,15 +7977,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "cc1073ef0dd9496e91d86b2dfac751ca6039f85a36bd04abc64ad1af7b2b0752",
@@ -8085,15 +8008,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "c65c8411f04e79f23235ef7145b473e2890423ae5acde32270e14e132ddf6ccc",
@@ -8287,15 +8210,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "053c471fde0fe42bd2bf7229a0a54cd5ddf2b5354768fbfa7b01427281ec11dd",
@@ -8385,15 +8308,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "92605807af3d4b362e24de3825da25431212a50ba7c5cd2b30a761db095ac255",
@@ -8472,15 +8395,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "31a59bd3f24e9405bc07c13e00b5f4a6599920eec41d631709437efd3d5305c0",
@@ -8551,15 +8474,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "b26b92a6d136b0f7ba776cef7a6ce18768b3b3d607c74797bcda858cfaf9c2c0",
@@ -8588,15 +8511,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "be3c7673694259b923660def9356e00bfbf70a6c9a7eb9a9a42b2a5737377602",
@@ -8815,15 +8738,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "88ceea24607fa31432e254b102b0f71939b8c3e4dd8bb8984c684e0937528f0c",
@@ -8922,15 +8845,15 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
   },
   {
     "id": "7d272adaa4a0aadb81f3cf52865eed4c08b36a4faaca21e4b945c5e153241868",
@@ -9581,14 +9504,564 @@
     "sector": "fintech",
     "canonical_category": "Policy and legislation",
     "theme_id": "Policy and legislation",
-    "theme_summary": "Budget 2026 on 28 October triggered a dense cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding boost and devolved debt-relief schemes. Alongside this, the UK pushed forward a digitally native gilt, held bilateral financial dialogues with Singapore, Canada, Australia and Switzerland, and expanded anti-money-laundering enforcement.",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
     "theme_key_points": [
-      "Budget 2026 (28 Oct) produced over a dozen linked releases: FPC remit, monetary policy remit, British Business Bank letter, breathing-space extensions for NI and Scotland",
-      "Digitally native gilt progressed from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), the highest-scored signals in the set (58, 65)",
-      "£500m AML officer recruitment (15 Sept) and new OFSI general licences (8 Oct) tighten compliance obligations for payments firms",
-      "Five bilateral financial dialogues concluded in nine weeks - India, Singapore, Canada, Australia, Switzerland - alongside written confirmation government will not issue a state-backed stablecoin (13 Oct)"
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:e8bd6612060c:4975febf"
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
+  },
+  {
+    "id": "6e0616dafde61271ee9545b8ded9a4d7e4b9dbc2c74b5b8717e1b232d0e0cda0",
+    "source": "parliament",
+    "source_id": "1955405",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39834",
+    "title": "Written question: Electric Bicycles and Electric Scooters: Licensing",
+    "raw_summary": "Q: To ask the Secretary of State for Transport, whether accessibility requirements for people with sight loss will form part of the conditions attached to future rental micromobility licences.\nA: I know that for people with sight loss and other disabilities, obstructively parked shared cycles are not just an inconvenience but a real safety concern and a barrier to mobility. That is why accessibility is a key consideration as we work to implement s...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749720+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Irrelevant to fintech/payments; concerns transport micromobility licensing and accessibility, not financial services.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "ae9a4e8bf36e8200d0e554822827e5f47c5e04bfbea57e78404f301fd3eedcad",
+    "source": "parliament",
+    "source_id": "1955678",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40107",
+    "title": "Written question: No 10 North: Travel",
+    "raw_summary": "Q: To ask the Minister for the Cabinet Office, how much has been spent on travel costs for civil servants travelling to No. 10 North since it opened.\nA: As No10 North staff have been temporarily surged from a number of departments, travel cost information is not centrally collated. Costs are met within existing departmental budgets. A recruitment campaign for longer-term roles in No10 North is being run i...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749724+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns civil service travel costs with no sector relevance.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "7970dd7aa1f2af576d878d0368eefd939767b6fdb48bbe480803b3ae94c2ac70",
+    "source": "parliament",
+    "source_id": "1955403",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39832",
+    "title": "Written question: Electric Bicycles and Electric Scooters: Licensing",
+    "raw_summary": "Q: To ask the Secretary of State for Transport, whether Guide Dogs and other organisations representing people with sight loss will be consulted on the development of the micromobility licensing framework.\nA: The public consultation on local licensing of shared cycle schemes is open to all, and we will be actively engaging with Guide Dogs and other organisations representing the interests of disabled people as part of it.",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749727+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Guide Dogs",
+      "Department for Transport"
+    ],
+    "canonical_entities": [
+      "Guide Dogs",
+      "Department for Transport"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Not relevant to UK fintech or payments; concerns micromobility licensing and disability consultation.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "c82769616c9b6039b4156bb3a8bf819f896fa67a9554d62b0ad6abc18b41ff7e",
+    "source": "parliament",
+    "source_id": "1953013",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-26/37801",
+    "title": "Written question: UK Resilience Academy",
+    "raw_summary": "Q: To ask the Minister for the Cabinet Office, how the UK Resilience Academy is scaling its training capacity for local responders and civil servants.\nA: The UK Government launched the UK Resilience Academy (UKRA) in April 2025 to strengthen preparedness, skills, and capability across all levels of government and civil society. To scale training capacity nationwide, the Academy operates a multi-channel del...",
+    "published_at": "2026-10-26T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749731+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "UK Resilience Academy",
+      "Cabinet Office"
+    ],
+    "canonical_entities": [
+      "UK Resilience Academy",
+      "Cabinet Office"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Not relevant to UK fintech and payments; concerns civil resilience training, not financial services.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "25230160012c3b5c2260173438459882355b9c649e7b250451f47176a51d0d17",
+    "source": "parliament",
+    "source_id": "1950208",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-19/HL4260",
+    "title": "Written question: AI Economics Institute: Employment",
+    "raw_summary": "Q: To ask His Majesty's Government whether they intend that the AI Economics Institute will publish regular assessments of the impact of AI on (1) vacancies, (2) recruitment, and (3) wages, disaggregated by (a) age, (b) occupation, (c) sector, and (d) region\nA:  The AI Economics Institute (AIEI) has been established to build the evidence base on AI’s economic impacts, examining how AI is affecting productivity, labour markets, and growth. This will include assessments of AI's distributional impacts across demogr...",
+    "published_at": "2026-10-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749735+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "AI Economics Institute"
+    ],
+    "canonical_entities": [
+      "AI Economics Institute"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Minor parliamentary Q&A on AI labour market research has negligible direct relevance to UK fintech and payments firms.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "a578e09f84660a1db965b5f624e72d93d6f822f62ef3d42d728c77960cd9584e",
+    "source": "parliament",
+    "source_id": "1955322",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39751",
+    "title": "Written question: Israel: Sanctions",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether his Department has considered issuing sanctions against Israeli ministers who have encouraged the recent forced displacements and demolition in Hebron and the West Ba\nA: The UK has taken action against a number of those responsible for violence against Palestinian communities in the West Bank, including sanctioning Israeli Ministers Bezalel Smotrich and Itamar Ben-Gvir in their personal capacities for inciting violence ag...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749738+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Bezalel Smotrich",
+      "Itamar Ben-Gvir"
+    ],
+    "canonical_entities": [
+      "Bezalel Smotrich",
+      "Itamar Ben-Gvir"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "This foreign policy sanctions question has minimal direct relevance to UK fintech or payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "93354ae9de21beb493129c85d99c7ee4607dcd45f3c14056cc26bd992bbce5b4",
+    "source": "parliament",
+    "source_id": "1956071",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-03/40396",
+    "title": "Written question: Gambling: Internet",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what assessment her Department has made of the potential harms associated with online gambling operators offering existing customers financial incentives, including free bets or bonuses,\nA: The Government recognises that promotional incentives, including free bets and bonuses, need careful regulation in order to reduce the risk of harm. The Gambling Commission has strengthened its Licence Conditions and Codes of Practice to ensure all such i...",
+    "published_at": "2026-11-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749744+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Gambling Commission"
+    ],
+    "canonical_entities": [
+      "Gambling Commission"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Signals continued regulatory scrutiny of gambling incentives, tangential to fintech/payments but relevant to embedded gambling-adjacent payment flows.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "d0731894cf40a4cfba0438883d08719e277cb5a298e2d3d333a80f1a33fe1bae",
+    "source": "parliament",
+    "source_id": "1955503",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39932",
+    "title": "Written question: Mauritania: Christianity",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what assessment he has made of the potential implications for his policies of the Open Doors World Watch List report on restrictions and societal pressure affecting Christian\nA: We have noted Open Doors' World Watch List's concerns. The UK continues to champion Freedom of Religion or Belief (FoRB) for all. Last July, the UK's Special Envoy for Freedom of Religion or Belief, David Smith MP, set out the Government's new strategy on...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749748+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns foreign policy on religious freedom in Mauritania.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "e458457c84cb3f5c59a9a9d2630a3ea8e9479830bc77aa375825f4b1c9d9f4e0",
+    "source": "parliament",
+    "source_id": "1955492",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39921",
+    "title": "Written question: Russia: Sanctions",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what discussions he has had with the EU on coordinating anti-circumvention measures relating to Kyrgyzstan.\nA: The UK is committed to tackling Russian sanctions circumvention, including through Kyrgyzstan. The UK was the first G7 country to sanction the Kremlin-backed A7 network, which Russia uses to circumvent international sanctions on its financial sector. We h...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749751+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Kyrgyzstan",
+      "A7 network",
+      "EU"
+    ],
+    "canonical_entities": [
+      "Kyrgyzstan",
+      "A7 network",
+      "EU"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals UK sanctions enforcement focus that could affect payment firms dealing with Russia-adjacent jurisdictions.",
+    "category": "Policy and legislation",
+    "cluster_id": "2fa7fd5b37b46e25",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "cluster_summary": "Three near-identical UK parliamentary written questions on the same day probe Russia sanctions enforcement, including evasion routes via Kyrgyzstan. No named payments company appears; the entries are policy signals rather than news about a specific firm.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 15,
+    "cluster_summary_for": "2fa7fd5b37b46e25:642be20c",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
+    "theme_key_points": [
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
+  },
+  {
+    "id": "e8c7641989aaf225ae937e5ab88597884ec72364d82f7f1d4d4aebf1df8d8c29",
+    "source": "parliament",
+    "source_id": "1955490",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39919",
+    "title": "Written question: Russia: Arms Trade",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what estimate he has made of the value of common high-priority battlefield items re-exported to Russia via Central Asian states in 2026.\nA: The UK is committed to tackling Russian sanctions circumvention, including through Kyrgyzstan. The UK was the first G7 country to sanction the Kremlin-backed A7 network, which Russia uses to circumvent international sanctions on its financial sector. We h...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749754+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Relates to sanctions enforcement policy, with limited direct relevance to UK fintech and payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "391708872071dfe7e9ba691220339e311bc11c3af2f023b79892f5198b9bdcc0",
+    "source": "parliament",
+    "source_id": "1955489",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39918",
+    "title": "Written question: Russia: Sanctions",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether he has assessed the potential merits of designating Kyrgyz officials who have facilitated the evasion of sanctions against Russia.\nA: The UK is committed to tackling Russian sanctions circumvention, including through Kyrgyzstan. The UK was the first G7 country to sanction the Kremlin-backed A7 network, which Russia uses to circumvent international sanctions on its financial sector. We h...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749758+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "A7 network"
+    ],
+    "canonical_entities": [
+      "A7 network"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Signals ongoing UK focus on sanctions evasion via Kyrgyzstan, relevant to payments firms' compliance and screening obligations.",
+    "category": "Policy and legislation",
+    "cluster_id": "2fa7fd5b37b46e25",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "cluster_summary": "Three near-identical UK parliamentary written questions on the same day probe Russia sanctions enforcement, including evasion routes via Kyrgyzstan. No named payments company appears; the entries are policy signals rather than news about a specific firm.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 15,
+    "cluster_summary_for": "2fa7fd5b37b46e25:642be20c",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
+    "theme_key_points": [
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
+  },
+  {
+    "id": "db5c2593a3bebcc1b9e897dfc1a2433c9c6512def8ad977df21309162c013ce4",
+    "source": "parliament",
+    "source_id": "1955487",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39916",
+    "title": "Written question: Russia: Sanctions",
+    "raw_summary": "Q: To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what assessment he has made of the effectiveness of UK sanctions against entities in Kyrgyzstan involved in the evasion of sanctions against Russia.\nA: The UK is committed to tackling Russian sanctions circumvention, including through Kyrgyzstan. The UK was the first G7 country to sanction the Kremlin-backed A7 network, which Russia uses to circumvent international sanctions on its financial sector. We h...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749761+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "A7 network"
+    ],
+    "canonical_entities": [
+      "A7 network"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals continued UK focus on sanctions evasion routes via Kyrgyzstan, relevant to payments firms' compliance risk assessments.",
+    "category": "Policy and legislation",
+    "cluster_id": "2fa7fd5b37b46e25",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": "Policy and legislation",
+    "cluster_summary": "Three near-identical UK parliamentary written questions on the same day probe Russia sanctions enforcement, including evasion routes via Kyrgyzstan. No named payments company appears; the entries are policy signals rather than news about a specific firm.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 15,
+    "cluster_summary_for": "2fa7fd5b37b46e25:642be20c",
+    "theme_summary": "Budget 2026 on 28 October triggered a cluster of Treasury announcements covering monetary policy remits, a £2bn British Business Bank funding letter, and debt-respite extensions to Northern Ireland and Scotland. Alongside this, sanctions enforcement against Russian evasion networks via Kyrgyzstan intensified, and the digitally native gilt project advanced through two stages toward launch.",
+    "theme_key_points": [
+      "£500m AML crackdown (15 Sept) added hundreds of officers before Budget-day sanctions and SME measures followed",
+      "Digital gilt moved from 'next step' (6 Oct) to 'moves closer to launching' (2 Nov), a concrete pilot sequence",
+      "28 October Budget bundled FPC remit, BBB £2bn letter, monetary policy remit and breathing-space rules in one day",
+      "Three written questions on Russia sanctions via Kyrgyzstan filed 2 November show sustained parliamentary compliance scrutiny"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:b66610ab9606:4975febf"
+  },
+  {
+    "id": "b1f2b5a996c87f161a64b3a3c261fdc8273031cc92b5eb6be721c4aa4fe34c2c",
+    "source": "parliament",
+    "source_id": "1955611",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40040",
+    "title": "Written question: Delivery Services: Conditions of Employment",
+    "raw_summary": "Q: To ask the Secretary of State for Business, Innovation, Science and Trade, how many investigations the Fair Work Agency has opened into employment status in the parcel delivery sector since 7 April 2026.\nA: The FWA considers all relevant evidence of non-compliance affecting workers, including worker complaints and intelligence from third parties.BIST Ministers regularly meet the FWA’s CEO and Chair to discuss strategic priorities. The FWA’s first full strate...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749764+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Fair Work Agency"
+    ],
+    "canonical_entities": [
+      "Fair Work Agency"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Minor parliamentary exchange on parcel sector employment status enforcement has limited direct relevance to fintech and payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
+  },
+  {
+    "id": "67757bf3d3294e327c5d7b9bb2f6e32b331d7c044129b193b9ec7eea1240128d",
+    "source": "parliament",
+    "source_id": "1955425",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39854",
+    "title": "Written question: Regeneration",
+    "raw_summary": "Q: To ask the Secretary of State for Housing, Communities and Local Government, with reference to the press release entitled Boarded-up high streets brought back to life with £210m boost, of 25 September 2026, whether the schemes will operate on a competitiv\nA: The £210 million Community Assets Programme includes the Derelict Buildings Fund, grants for High Street Rental Auctions, the Regional Co-operative Development Programme and new community ownership funding.The £125 million Derelict Buildings Fund will sup...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749769+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 5,
+    "why_it_matters": "Irrelevant to UK fintech and payments; concerns regeneration funding for high streets, not financial services.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "f073a75f2f9fa4f3925ddafb05edde56927940bed4ba5b17d674e37437aa84f1",
+    "source": "parliament",
+    "source_id": "1955424",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39853",
+    "title": "Written question: Regeneration",
+    "raw_summary": "Q: To ask the Secretary of State for Housing, Communities and Local Government, with reference to the press release entitled Boarded-up high streets brought back to life with £210m boost, of 25 September 2026, what the profile is of the £210 million across (\nA: The £210 million Community Assets Programme includes the Derelict Buildings Fund, grants for High Street Rental Auctions, the Regional Co-operative Development Programme and new community ownership funding.The £125 million Derelict Buildings Fund will sup...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749778+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 3,
+    "why_it_matters": "Concerns high street regeneration funding, not directly relevant to UK fintech or payments industry stakeholders.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "ddc44cc71ad325f969fbe1c5deffa355d013c47fc3335cf24b4e261e43bcc15f",
+    "source": "parliament",
+    "source_id": "1955387",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/39816",
+    "title": "Written question: Broadband",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what steps her Department is taking to require Openreach to publish firm delivery dates for Full Fibre and reasons for delays where work has already begun.\nA: Openreach and other broadband network suppliers are asked to report on their delivery plans to Building Digital UK (BDUK) via the broadband Open Market Reviews which currently take place three times per year. Openreach always provides a response to these ...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749782+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Openreach",
+      "Building Digital UK"
+    ],
+    "canonical_entities": [
+      "Openreach",
+      "Building Digital"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "Concerns broadband rollout policy, not fintech or payments, so minimal relevance to this sector's audience.",
+    "category": "Other",
+    "cluster_id": "70337e01ec1ac076",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "Two parliamentary written questions about broadband rollout policy happen to share a company name with firms tracked by this newsdesk, but neither concerns fintech, payments or financial regulation.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "70337e01ec1ac076:642be20c"
+  },
+  {
+    "id": "355c8937c57cc040ff0fda8b45f8e0cd655a6b0f83f5fe916b91eb184587bb6b",
+    "source": "parliament",
+    "source_id": "1956175",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-03/40500",
+    "title": "Written question: Broadband",
+    "raw_summary": "Q: To ask the Secretary of State for Digital, Culture, Media and Sport, what assessment she has made of whether Ofcom's revised copper retirement threshold is consistent with the Government's objective of achieving nationwide gigabit-capable broadband covera\nA: Ofcom’s copper retirement framework governs how Openreach transitions customers from legacy copper networks to Full Fibre (FTTP) and decommissions older infrastructure. On 9 September 2026, Ofcom published its new approach to the copper retirement second ...",
+    "published_at": "2026-11-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749788+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Ofcom",
+      "Openreach"
+    ],
+    "canonical_entities": [
+      "Ofcom",
+      "Openreach"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This concerns broadband infrastructure policy, not UK fintech or payments, so it has negligible relevance to this newsdesk.",
+    "category": "Other",
+    "cluster_id": "70337e01ec1ac076",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "Two parliamentary written questions about broadband rollout policy happen to share a company name with firms tracked by this newsdesk, but neither concerns fintech, payments or financial regulation.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "70337e01ec1ac076:642be20c"
+  },
+  {
+    "id": "6750e8a5b6783c5acf6d4a32ce5956a7f20045deae55c0dbaead209652fba8c5",
+    "source": "parliament",
+    "source_id": "1955700",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-02/40129",
+    "title": "Written question: Railways: Investment",
+    "raw_summary": "Q: To ask the Secretary of State for Transport, pursuant to the Answer of 30 October 2026 to Question 37216 on Railways: Investment, what assessment she has made of the potential impact of Clause 71 on investment in new rolling stock and the expansion of ope\nA: The power at Clause 71 is a transitional provision concerned solely with ensuring that existing access agreements remain operable as part of the transition to Great British Railways. It applies only to agreements and rights which pre-date its commencement...",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749791+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This concerns rail investment legislation, not fintech or payments, so it has no relevance to the specialist audience.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "3ba732139e7db2547295bc78ea11e3bf3132205b58f237199026384f325d64dc",
+    "source": "parliament",
+    "source_id": "1955969",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-03/40294",
+    "title": "Written question: Self-employed: Arts",
+    "raw_summary": "Q: To ask the Secretary of State for Work and Pensions, what assessment he has made of the adequacy of financial support available to self-employed workers in the creative industries who experience irregular earnings and prolonged periods without employment.\nA: The Department aims to support self-employment via Universal Credit where it is a realistic route for customers to become financially self-sufficient. The policy focuses on a customer’s earnings rather than the sector they work in. To support the full ran...",
+    "published_at": "2026-11-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749794+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A DWP written answer on Universal Credit support for self-employed creative workers has negligible relevance to UK fintech and payments journalism.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "5d1c9e677250b3a5b48553fa9b4c7eab8dfc85e38b005f165b76b060e4871a10",
+    "source": "parliament",
+    "source_id": "1955043",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-29/HL4735",
+    "title": "Written question: Contraceptives",
+    "raw_summary": "Q: To ask His Majesty's Government what assessment they have made of the practice by health services of restricting intrauterine device fittings for contraception only.\nA: Local authorities commission comprehensive open-access sexual health services, including intrauterine devices (IUDs) for contraceptive purposes, while integrated care boards commission gynaecological services, including the use of IUDs for non-contracepti...",
+    "published_at": "2026-10-29T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-11T07:19:23.749798+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 0,
+    "why_it_matters": "This health policy question on contraceptive services has no relevance to UK fintech or payments journalism.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

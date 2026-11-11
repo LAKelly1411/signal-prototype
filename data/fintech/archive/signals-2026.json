@@ -2615,5 +2615,82 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
+  },
+  {
+    "id": "f26a1c226d35055fc772af8568e8cd7fcdc5f6f3fbf4b3a139ea4fb402d3ab82",
+    "source": "companies_house",
+    "source_id": "MzUzMjE2Njc1MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09092149/filing-history/MzUzMjE2Njc1MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Starling Bank Limited: Officers filed",
+    "raw_summary": "Type: AP01 · Description: Appoint person director company with name date",
+    "published_at": "2026-07-14T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593970+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Starling Bank Limited"
+    ],
+    "canonical_entities": [
+      "Starling Bank Limited"
+    ],
+    "newsworthiness_score": 20,
+    "why_it_matters": "A new director appointment at Starling Bank could signal leadership strategy shifts worth monitoring for the fintech sector.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Starling Bank filed routine annual accounts and a director appointment with Companies House within days of each other. Both are standard corporate filings with no detail yet on financial results or who joined the board.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "82916f12126c1481:642be20c",
+    "theme_summary": "Companies House filings show director changes across most of the UK's major digital banks and payments firms between mid-July and early October 2026, with Monzo recording repeated officer departures on 30 July and again on 10 September. Regulatory board turnover has followed, with new appointments to the Bank of England and the FCA board in September.",
+    "theme_key_points": [
+      "Monzo Bank filed director departures on 30 July (five separate filings) and again on 10 September 2026",
+      "ClearBank logged a director departure the same day as Monzo's, 30 July 2026",
+      "Klarna's UK entity filed two separate officer terminations, on 19 July and 6 October 2026",
+      "FCA board appointments announced 30 September follow Bank of England non-executive appointments on 16 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:4cebf902505f:4975febf"
+  },
+  {
+    "id": "05a1fc429e349934e06701bc8f5ef5627bccde45c2ac9f7efb820d826c6aa66d",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/recommendations-for-the-financial-conduct-authority-november-2024",
+    "title": "Recommendations for the Financial Conduct Authority: November 2024",
+    "raw_summary": "Letter from the Chancellor of the Exchequer to the Chief Executive of the Financial Conduct Authority (FCA) providing recommendations for the FCA.",
+    "published_at": "2026-07-13T16:12:57+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594633+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "Financial Conduct Authority",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "Chancellor's recommendations can shape FCA priorities, influencing regulatory focus across UK fintech and payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "UK government activity through autumn 2026 pushes on digital assets, sanctions enforcement and cash access in parallel: a digitally native gilt pilot, a £500m AML officer recruitment drive, and the 250th banking hub opening alongside a run of Treasury speeches on digital assets and private capital.",
+    "theme_key_points": [
+      "DCMS reports a digitally native UK gilt step (6 Oct) and a Digital Assets Week Treasury speech the same day",
+      "£500m AML crackdown (15 Sept) adds 'hundreds' of new officers targeting dirty money networks",
+      "Three BoE-Treasury inflation correspondence letters plus an APF update all land on 17 September",
+      "Chepstow's banking hub (18 Sept) marks the 250th opened, continuing cash-access infrastructure policy"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:0feb25e3e65e:4975febf"
   }
 ]
