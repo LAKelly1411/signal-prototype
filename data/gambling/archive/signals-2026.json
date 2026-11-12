@@ -11024,5 +11024,42 @@
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:ecb8f9599f2e:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "5e14130feb806886c801bcf4c216b9b3a8ea001f226a3c46a912c3433934b4e7",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/consultations/consultation-on-banning-unlicensed-gambling-sponsorship",
+    "title": "Consultation on banning unlicensed gambling sponsorship",
+    "raw_summary": "A consultation on banning gambling operators which are not licensed by the Gambling Commission from entering into sponsorship or advertising arrangements across all sectors, including sports.",
+    "published_at": "2026-07-15T09:14:26Z",
+    "ingested_at": "2026-07-15T09:56:33.864083+00:00",
+    "signal_type": "consultation",
+    "entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "newsworthiness_score": 78,
+    "why_it_matters": "A ban on unlicensed operator sponsorship could reshape sports and media sponsorship deals across the UK gambling sector.",
+    "category": "advertising/sponsorship policy",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Gambling Commission",
+      "DCMS"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "The ASA has upheld three separate gambling ad complaints since late July, against BoyleSports, Midnite and a comparison site, over harmful betting encouragement, under-25 imagery and irresponsible targeting. DCMS is meanwhile consulting on banning unlicensed operator sponsorship, a move that would hit sponsorship deals sector-wide.",
+    "theme_key_points": [
+      "BoyleSports ruling (29 July) upheld for ads encouraging repetitive betting behaviour",
+      "Dribble Media's Midnite breached youth protection rules using an under-25 model on TikTok (16 September)",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk site sanctioned for irresponsible paid search targeting (9 September)",
+      "White Hat Gaming's Casimba and Grand Ivy Casino ads cleared of under-18 targeting, the sole clean result",
+      "DCMS consultation (15 July) targets unlicensed sponsorship, a broader structural threat beyond individual ad rulings"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:360be487d932:067ec139",
+    "sector": "gambling"
   }
 ]
