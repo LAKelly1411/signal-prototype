@@ -2745,5 +2745,70 @@
     "sector": "fintech",
     "canonical_category": "Consultation",
     "theme_id": null
+  },
+  {
+    "id": "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
+    "source": "parliament",
+    "source_id": "1928170",
+    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-15/19193",
+    "title": "Written question: Digital Markets, Competition and Consumers Act 2024",
+    "raw_summary": "Q: To ask the Secretary of State for Business, Innovation, Science and Trade, whether the Competition and Markets Authority has met with representatives of (a) Apple and (b) Google on the implementation of the Digital Markets, Competition and Consumers Act (\nA: Since October 2025, the CMA has met with representatives of Apple and Google on the implementation of the Digital Markets, Competition and Consumers Act 2024. The digital markets competition regime was designed to be highly participative, with engagement ...",
+    "published_at": "2026-07-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594849+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Competition and Markets Authority",
+      "Apple",
+      "Google"
+    ],
+    "canonical_entities": [
+      "Competition and Markets Authority",
+      "Apple",
+      "Google"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Confirms CMA engagement with Apple and Google on digital markets rules, relevant to fintech app ecosystem competition policy.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "UK government policy activity touching fintech and payments has intensified through September and October 2026, spanning a £500m AML enforcement drive, sanctions action on Russian evasion networks, monetary policy correspondence between the Treasury and Bank of England, and a push towards a digitally native gilt. Most individual announcements are routine, but their frequency and scope have widened sharply since early September.",
+    "theme_key_points": [
+      "15 September: government unveils £500m crackdown with hundreds of new officers targeting dirty money networks.",
+      "31 August: DCMS reports UK-led disruption of a Russian sanctions evasion network, raising cross-border compliance expectations.",
+      "6 October: UK moves towards first digitally native government bond alongside a Treasury speech at UK Digital Assets Week.",
+      "CMA's engagement with Apple and Google on the Digital Markets, Competition and Consumers Act 2024 surfaced via parliamentary question on 15 July."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:fe4acb663dee:4975febf"
+  },
+  {
+    "id": "7e17b619f030662db0ba87fee1dbd85da103bae49ef80d59f775aebab8572eaf",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/eurowings-gmbh---a26-1326605-eurowings-gmbh.html",
+    "title": "Eurowings GmbH t/a Eurowings",
+    "raw_summary": "Upheld / Search (paid): A paid-for Google ad for an airline gave a misleading impression of their flights environmental impact and implied that people could pay to fully offset the carbon emissions from a specific flight without suitable evidence to support these claims.",
+    "published_at": "2026-07-15T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595058+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Eurowings"
+    ],
+    "canonical_entities": [
+      "Eurowings"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "An ASA ruling against an airline's misleading carbon offset ad claims has no relevance to UK fintech or payments.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

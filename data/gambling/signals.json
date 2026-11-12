@@ -37,75 +37,6 @@
     "sector": "gambling"
   },
   {
-    "id": "5ef6d7a1e3d5740c13bd0cbecf52a9512db273104d1d3ca43360712612ca245c",
-    "source": "gazette",
-    "source_id": "5173405",
-    "source_url": "https://www.thegazette.co.uk/notice/5173405",
-    "title": "LOCKED IN GAMES YORK LIMITED",
-    "raw_summary": "Appointment of Liquidators: Name of Company: LOCKED IN GAMES YORK LIMITED …",
-    "published_at": "2026-07-15T01:03:51+00:00",
-    "ingested_at": "2026-07-15T12:01:49.407204+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Locked In Games York Limited"
-    ],
-    "newsworthiness_score": 12,
-    "why_it_matters": "A minor liquidation notice with no clear evidence of gambling-sector involvement, unlikely to interest specialist readers.",
-    "category": "insolvency filing",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Locked In Games York Limited has entered voluntary winding-up, confirmed by a gazette insolvency filing dated 15 July 2026. Details on scale, creditors or gambling-sector relevance remain thin, with one source itself questioning whether the company has any real gambling connection.",
-    "cluster_summary_for": "b0d9958d52ab4727:cecdc011",
-    "canonical_entities": [
-      "Locked In Games York"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 15,
-    "sector": "gambling"
-  },
-  {
-    "id": "d8bf3029809cfec6751fe561acaf2e37e2e54f7ae8ddd7191cae45375ece0e3d",
-    "source": "gazette",
-    "source_id": "5173313",
-    "source_url": "https://www.thegazette.co.uk/notice/5173313",
-    "title": "LOCKED IN GAMES YORK LIMITED",
-    "raw_summary": "Resolutions for Winding-up: LOCKED IN GAMES YORK LIMITED …",
-    "published_at": "2026-07-15T01:02:00+00:00",
-    "ingested_at": "2026-07-15T12:01:49.407204+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Locked In Games York Limited"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A gaming-related company entering voluntary winding-up may signal sector distress worth tracking for wider industry trends.",
-    "category": "company winding-up",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Locked In Games York Limited has entered voluntary winding-up, confirmed by a gazette insolvency filing dated 15 July 2026. Details on scale, creditors or gambling-sector relevance remain thin, with one source itself questioning whether the company has any real gambling connection.",
-    "cluster_summary_for": "b0d9958d52ab4727:cecdc011",
-    "canonical_entities": [
-      "Locked In Games York"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": true,
-    "cluster_significance": 15,
-    "theme_summary": "Insolvency filings across UK gambling-linked companies have run almost weekly since mid-July 2026, hitting suppliers, compliance firms and operators alike, and peaked with six separate petitions on 1 October. Casino MK Ltd's winding-up petition on 9 October extends the pattern to land-based casinos.",
-    "theme_key_points": [
-      "T33 Gaming Ltd moved from winding-up petition (4 Sept) to winding-up order (23 Sept) within three weeks.",
-      "Lysis Gaming Compliance Ltd faced three separate petition/winding-up filings between 24 July and 26 August.",
-      "Six filings landed on 1 October alone: Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures Leeds) and Carnaby Gaming Machines.",
-      "MAB Bookmakers Ltd's liquidation (7 Aug) and Casino MK Ltd's petition (9 Oct) mark the only licensed, customer-facing operators affected so far."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:7fde6c1d0e51:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
     "source": "gambling_commission",
     "source_id": null,
@@ -175,80 +106,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "a7aa41e4bbe7db4131679c34824a2029f5927bde229c06ab797031ec0f6d5b61",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/bgc-response-to-dcms-launching-its-consultation-on-a-proposed-ban-on-unlicensed-gambling-sponsorship-of-sports",
-    "title": "BGC welcomes DCMS consultation on banning unlicensed gambling sponsorship in UK sport",
-    "raw_summary": "",
-    "published_at": "2026-07-15T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925980+00:00",
-    "signal_type": "consultation",
-    "entities": [
-      "Betting and Gaming Council",
-      "DCMS"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "A DCMS crackdown on unlicensed gambling sponsorship in sport could reshape marketing rules and squeeze black-market operators' visibility.",
-    "category": "sponsorship regulation",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "BGC is running a coordinated lobbying campaign that pairs support for anti-black-market measures (unlicensed sponsorship bans) with warnings that tax increases push bettors to illegal operators and destroy high-street jobs, using shop closure data to pressure policymakers ahead of further fiscal decisions.",
-    "cluster_summary_for": "02d19e62d1c72e61:aa9d372d",
-    "canonical_entities": [
-      "Betting and Gaming Council",
-      "DCMS"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliament logged a dense run of written questions on 28 August and 1 September covering planning restrictions on betting shops, business rates, Gambling Commission conflict-of-interest rules and Financial Risk Assessments, while government confirmed prediction markets need Commission licensing. The BGC responded with lobbying on high streets, advertising and sponsorship as new ministers and regulator staff took up post.",
-    "theme_key_points": [
-      "28 August: councils set to gain power to reject new betting shop and adult gaming centre licences, reversing pro-licensing presumption",
-      "Nine separate written questions on Financial Risk Assessments (28 Aug–1 Sept) probe affordability-check data protection and implementation under the White Paper",
-      "Five questions on 1 September confirm prediction markets/event contracts require Gambling Commission licensing, closing a potential regulatory gap",
-      "BGC engaged Vicky Foxcroft as new gambling minister (11 Aug), Simon Cox as BHA chair (22 Jul) and opposed a blanket ad ban (21 Sept) while running 'Back Our Betting Shops' campaign (28 Sept)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:ecb8f9599f2e:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "da146b2646ab144920675fc93d25dc0b45dc771235b82f4e739f27e968205cd7",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/the-black-market-is-the-gambling-threat-westminster-cant-ignore",
-    "title": "The black market is the gambling threat Westminster can't ignore",
-    "raw_summary": "",
-    "published_at": "2026-07-15T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925983+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "BGC"
-    ],
-    "newsworthiness_score": 42,
-    "why_it_matters": "BGC lobbying on unlicensed gambling could shape future affordability checks and tax policy affecting licensed UK operators.",
-    "category": "black market/policy advocacy",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "BGC is intensifying coordinated lobbying across government reshuffles, regulatory appointments and tax policy, framing black-market growth and shop closures as consequences of tax rises. The pattern shows the trade body positioning itself early with new ministers and BHA leadership to influence upcoming affordability, levy and duty decisions.",
-    "cluster_summary_for": "4dce7c0ff57fd2e4:aa9d372d",
-    "canonical_entities": [
-      "BGC"
-    ],
-    "canonical_category": "Illegal gambling",
-    "theme_id": null,
-    "theme_summary": "Gambling Commission enforcement against unlicensed operators has run almost continuously since July 2026, moving from raids and arrests to a sentencing in October, while the BGC escalates public warnings about black-market scale ahead of major sporting events.",
-    "theme_key_points": [
-      "Commission actions progressed from Doncaster raids (21 Jul) and casino arrests (29 Jul) to four arrests and £20,000 seized (23 Sep) and a sentencing (5 Oct)",
-      "BGC forecasts black-market betting on the Premier League will hit £1bn a season (24 Aug) and cites a $50bn global black market (7 Sep)",
-      "BGC flags St Leger's 250th anniversary (14 Sep) as a specific target for illegal bookmakers",
-      "Parliament raised gambling licensing and crime questions three times between 13 Jul and 1 Sep, keeping ministerial attention on enforcement scale"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:25f882732808:067ec139",
     "sector": "gambling"
   },
   {
@@ -3774,45 +3631,6 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:20ce249208e0:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "f5bdc901f3aebb98aae30b44e4299d2ff70b577a05776e6d27e199583affc7b4",
-    "source": "parliament",
-    "source_id": "1928311",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-15/19043",
-    "title": "Written question: Gambling Commission: Public Appointments",
-    "raw_summary": "Q: To ask the Minister for the Cabinet Office, if he will make his policy to review the business appointment provisions of the Gambling Commission as part of the response to the Ethics and Integrity Committee’s July 2026 submission to the Government on busin\nA: The Ethics and Integrity Commission’s review makes no recommendations or findings specific to the business appointment provisions of the Gambling Commission. As set out in the terms of reference, the Government will consider the report’s findings and pres...",
-    "published_at": "2026-07-15T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-09-04T10:18:21.665457+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Gambling Commission",
-      "Cabinet Office",
-      "Ethics and Integrity Committee"
-    ],
-    "canonical_entities": [
-      "Gambling Commission",
-      "Cabinet Office",
-      "Ethics and Integrity Committee"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Signals ongoing scrutiny of Gambling Commission governance and appointment rules, relevant to sector oversight even without concrete policy change.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "Parliament logged a dense run of written questions on 28 August and 1 September covering planning restrictions on betting shops, business rates, Gambling Commission conflict-of-interest rules and Financial Risk Assessments, while government confirmed prediction markets need Commission licensing. The BGC responded with lobbying on high streets, advertising and sponsorship as new ministers and regulator staff took up post.",
-    "theme_key_points": [
-      "28 August: councils set to gain power to reject new betting shop and adult gaming centre licences, reversing pro-licensing presumption",
-      "Nine separate written questions on Financial Risk Assessments (28 Aug–1 Sept) probe affordability-check data protection and implementation under the White Paper",
-      "Five questions on 1 September confirm prediction markets/event contracts require Gambling Commission licensing, closing a potential regulatory gap",
-      "BGC engaged Vicky Foxcroft as new gambling minister (11 Aug), Simon Cox as BHA chair (22 Jul) and opposed a blanket ad ban (21 Sept) while running 'Back Our Betting Shops' campaign (28 Sept)"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:ecb8f9599f2e:067ec139",
     "sector": "gambling"
   },
   {

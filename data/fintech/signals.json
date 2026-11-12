@@ -767,7 +767,7 @@
     "newsworthiness_score": 40,
     "why_it_matters": "A winding-up petition against a finance-named firm signals possible financial distress in the fintech-adjacent sector.",
     "category": "Insolvency",
-    "cluster_id": "5da753ac435f329d",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
@@ -777,15 +777,15 @@
     "cluster_coherent": true,
     "cluster_significance": 25,
     "cluster_summary_for": "5da753ac435f329d:642be20c",
-    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
+    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
     "theme_key_points": [
-      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
-      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
-      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
-      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
+      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
+      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
+      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
+      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
+    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
   },
   {
     "id": "95531ffc88d6ba4c2d2941d3c51b96c1b88ed4aa259504ed4e9d90ac0e07060a",
@@ -809,11 +809,11 @@
     "newsworthiness_score": 35,
     "why_it_matters": "A winding-up petition against a fintech-named firm signals potential financial distress and a creditor dispute worth monitoring.",
     "category": "Insolvency",
-    "cluster_id": "5da753ac435f329d",
+    "cluster_id": null,
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "A winding-up petition was filed against New Tech Finance Ltd on 14 August 2026, followed by a near-identical gazette notice on 20 August naming Newtech Finance Ltd. The duplication likely reflects one insolvency case recorded twice under slightly different company name renderings rather than two separate firms in distress.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -1510,15 +1510,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
+    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
     "theme_key_points": [
-      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
-      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
-      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
-      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
+      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
+      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
+      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
+      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
+    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
   },
   {
     "id": "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
@@ -1597,15 +1597,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
+    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
     "theme_key_points": [
-      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
-      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
-      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
-      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
+      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
+      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
+      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
+      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
+    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
   },
   {
     "id": "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
@@ -2611,45 +2611,6 @@
     "theme_summary_for": "Policy and legislation:2e7504b1945a:4975febf"
   },
   {
-    "id": "a223fcde26e1f8fa58214f83413c31fbfe2ca3f86ae5d33279d3ea68c0dbe960",
-    "source": "parliament",
-    "source_id": "1928170",
-    "source_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-15/19193",
-    "title": "Written question: Digital Markets, Competition and Consumers Act 2024",
-    "raw_summary": "Q: To ask the Secretary of State for Business, Innovation, Science and Trade, whether the Competition and Markets Authority has met with representatives of (a) Apple and (b) Google on the implementation of the Digital Markets, Competition and Consumers Act (\nA: Since October 2025, the CMA has met with representatives of Apple and Google on the implementation of the Digital Markets, Competition and Consumers Act 2024. The digital markets competition regime was designed to be highly participative, with engagement ...",
-    "published_at": "2026-07-15T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594849+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Competition and Markets Authority",
-      "Apple",
-      "Google"
-    ],
-    "canonical_entities": [
-      "Competition and Markets Authority",
-      "Apple",
-      "Google"
-    ],
-    "newsworthiness_score": 22,
-    "why_it_matters": "Confirms CMA engagement with Apple and Google on digital markets rules, relevant to fintech app ecosystem competition policy.",
-    "category": "Policy and legislation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "theme_summary": "UK government policy activity touching fintech and payments has intensified through September and October 2026, spanning a £500m AML enforcement drive, sanctions action on Russian evasion networks, monetary policy correspondence between the Treasury and Bank of England, and a push towards a digitally native gilt. Most individual announcements are routine, but their frequency and scope have widened sharply since early September.",
-    "theme_key_points": [
-      "15 September: government unveils £500m crackdown with hundreds of new officers targeting dirty money networks.",
-      "31 August: DCMS reports UK-led disruption of a Russian sanctions evasion network, raising cross-border compliance expectations.",
-      "6 October: UK moves towards first digitally native government bond alongside a Treasury speech at UK Digital Assets Week.",
-      "CMA's engagement with Apple and Google on the Digital Markets, Competition and Consumers Act 2024 surfaced via parliamentary question on 15 July."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Policy and legislation:fe4acb663dee:4975febf"
-  },
-  {
     "id": "282edc39b5e4ad28ef47d78bdcae6ee5351950839bf41906feb38a8529dac89e",
     "source": "asa",
     "source_id": null,
@@ -2834,32 +2795,6 @@
     ],
     "newsworthiness_score": 2,
     "why_it_matters": "An ASA ruling on a bubble tea ad has no relevance to UK fintech or payments journalists.",
-    "category": "Other",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Other",
-    "theme_id": null
-  },
-  {
-    "id": "7e17b619f030662db0ba87fee1dbd85da103bae49ef80d59f775aebab8572eaf",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/eurowings-gmbh---a26-1326605-eurowings-gmbh.html",
-    "title": "Eurowings GmbH t/a Eurowings",
-    "raw_summary": "Upheld / Search (paid): A paid-for Google ad for an airline gave a misleading impression of their flights environmental impact and implied that people could pay to fully offset the carbon emissions from a specific flight without suitable evidence to support these claims.",
-    "published_at": "2026-07-15T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595058+00:00",
-    "signal_type": "enforcement",
-    "entities": [
-      "Eurowings"
-    ],
-    "canonical_entities": [
-      "Eurowings"
-    ],
-    "newsworthiness_score": 5,
-    "why_it_matters": "An ASA ruling against an airline's misleading carbon offset ad claims has no relevance to UK fintech or payments.",
     "category": "Other",
     "cluster_id": null,
     "status": "seen",
@@ -3911,15 +3846,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have hit six UK companies with fintech-adjacent names since mid-August, including near-identical filings against New Tech Finance Ltd and Newtech Finance Ltd days apart. The pace has continued into October with Ohm Topco, Quaymile and Profound, though several targets have only loose ties to payments.",
+    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
     "theme_key_points": [
-      "New Tech Finance Ltd (14 Aug) and Newtech Finance Ltd (20 Aug) both petitioned within a week, despite near-identical names",
-      "Ohm Topco Limited petitioned 18 September, possibly linked to the fintech/payments sector",
-      "Quaymile (IT consultancy, 23 Sept) and Profound (car leasing, 15 Oct) show weaker sector relevance",
-      "Five petitions filed across nine weeks, from 14 August to 15 October 2026"
+      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
+      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
+      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
+      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Insolvency:12efa012ce75:4975febf"
+    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
   },
   {
     "id": "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
