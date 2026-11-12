@@ -1711,34 +1711,6 @@
     "theme_id": null
   },
   {
-    "id": "59d7397a93d459a2724b4f9c28de8abbd8dd80f99afc4b74b438256cae59ade2",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/consultations/updating-the-bank-of-englands-fee-regime-for-recognised-payment-systems",
-    "title": "Updating the Bank of England’s fee regime for recognised payment systems",
-    "raw_summary": "The government is consulting on the fee regime for recognised payment systems, specified service providers and digital settlement asset service providers. ",
-    "published_at": "2026-07-15T13:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.594622+00:00",
-    "signal_type": "consultation",
-    "entities": [
-      "Bank of England",
-      "HM Treasury"
-    ],
-    "canonical_entities": [
-      "Bank of England",
-      "HM Treasury"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "Proposed fee changes could affect costs for payment systems and stablecoin firms regulated by the Bank of England.",
-    "category": "Consultation",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Consultation",
-    "theme_id": null
-  },
-  {
     "id": "2ce7be2ede43abd2ea6bdc36343eadcd7839ac37e12026eb869c007f7437ac9c",
     "source": "dcms",
     "source_id": null,
