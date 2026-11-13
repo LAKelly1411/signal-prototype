@@ -1,51 +1,5 @@
 [
   {
-    "id": "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/collections/dcms-sectors-economic-estimates",
-    "title": "DCMS Sectors Economic Estimates",
-    "raw_summary": "This series brings together all documents relating to DCMS Sectors Economic Estimates.",
-    "published_at": "2026-07-16T08:30:04+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914876+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "DCMS"
-    ],
-    "newsworthiness_score": 8,
-    "why_it_matters": "Background economic data on DCMS sectors offers limited direct relevance to gambling-specific policy or enforcement news.",
-    "category": "sector economic statistics",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "DCMS"
-    ],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
-    "id": "6fe85526249f01919b6f80ff449f3554481d0f6079e745b0f03249500b698f4f",
-    "source": "dcms",
-    "source_id": null,
-    "source_url": "https://www.gov.uk/government/statistics/economic-estimates-employment-january-2025-to-december-2025-for-dcms-sectors",
-    "title": "Economic Estimates: Employment January 2025 to December 2025 for DCMS Sectors",
-    "raw_summary": "Official Statistics in development used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by employment.",
-    "published_at": "2026-07-16T08:30:04+00:00",
-    "ingested_at": "2026-07-20T17:35:15.914879+00:00",
-    "signal_type": "policy",
-    "entities": [],
-    "newsworthiness_score": 8,
-    "why_it_matters": "Broad DCMS employment data offers limited direct relevance to gambling-specific policy or enforcement news.",
-    "category": "sector employment statistics",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [],
-    "canonical_category": "Policy and legislation",
-    "theme_id": null,
-    "sector": "gambling"
-  },
-  {
     "id": "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
     "source": "dcms",
     "source_id": null,
@@ -2894,15 +2848,15 @@
     ],
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -3683,15 +3637,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -4994,15 +4948,15 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "7dfedc23199a57cf:cecdc011",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -5374,15 +5328,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -5763,15 +5717,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -6162,15 +6116,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -6346,15 +6300,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -7073,15 +7027,15 @@
     "status": "seen",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139",
     "sector": "gambling"
   },
   {
@@ -8042,15 +7996,15 @@
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139"
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   },
   {
     "id": "2096805c867cf79806dab968636ccf5494ac842066650c9faafaf2172f8f5a5c",
@@ -8079,15 +8033,15 @@
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139"
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   },
   {
     "id": "c5e12ac52260cd0cd9f43b60e96acd083a95918d6bc3894741fe76dcbae148cb",
@@ -8742,15 +8696,15 @@
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139"
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   },
   {
     "id": "22ea2d12dd7861ac26e69b133d889a43a036ed2fb2e6b0414d5b46c50771b2e1",
@@ -10377,15 +10331,15 @@
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139"
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   },
   {
     "id": "a64004c12540f01ba1a001eb3ba18dc01846c5f32d6be43bcac8cb9dae98326e",
@@ -10522,15 +10476,15 @@
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
     "theme_id": "Illegal gambling",
-    "theme_summary": "Illegal gambling has moved up both the Gambling Commission's enforcement agenda and Parliament's order paper since late August, with raids, arrests, sentencing and asset seizures running alongside BGC warnings about a £1bn Premier League black market and scrutiny of crypto operator Tether.bet. Activity has intensified through October and November rather than fading.",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
-      "Gambling Commission moved from £20,000 seizure and four arrests (23 Sep) to sentencing a gambling den operation (5 Oct)",
-      "9 Nov update shows Commission pivoting toward seizing illegal operators' profits and assets, not just prosecutions",
-      "Parliament raised Tether.bet and the Illegal Gambling Taskforce's structure in the same week, 9 October",
-      "BGC flagged St Leger's 250th anniversary and a $50bn global black market estimate as distinct sponsorship-season risks"
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Illegal gambling:eca44f6e64c4:067ec139"
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   },
   {
     "id": "30e35f2edf15c6d88a6d429c3e2693332710aa66a6b31ac44282fe26114f4716",
@@ -10875,5 +10829,40 @@
     "sector": "gambling",
     "canonical_category": "Insolvency",
     "theme_id": null
+  },
+  {
+    "id": "705372b5928b4916ec08ee477fe76c98100d6e519c0ef7f6e7ea371f882e2134",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/black-market-bookies-set-to-take-half-a-billion-pounds-in-bets-during-britains-jump-racing-season",
+    "title": "BLACK MARKET BOOKIES SET TO TAKE HALF A BILLION POUNDS IN BETS DURING BRITAIN'S JUMP RACING SEASON",
+    "raw_summary": "",
+    "published_at": "2026-11-13T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-13T11:20:45.148670+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC"
+    ],
+    "canonical_entities": [
+      "BGC"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "BGC data highlights scale of black-market betting during jump racing season, bolstering industry arguments against stricter regulation.",
+    "category": "Illegal gambling",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Illegal gambling",
+    "theme_id": "Illegal gambling",
+    "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
+    "theme_key_points": [
+      "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
+      "Gambling Commission raids seized £20,000 and made four arrests on 23 September; two men sentenced for an illegal den on 5 October",
+      "Parliament raised Tether.bet by name on 9 October alongside two separate questions on the Illegal Gambling Taskforce",
+      "Commission announced on 9 November a shift toward seizing illegal operators' profits and assets, not just prosecutions"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:d58465679b70:067ec139"
   }
 ]

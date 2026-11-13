@@ -11224,5 +11224,51 @@
     "theme_direction": "steady",
     "theme_summary_for": "Financial results:32f29912f34d:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/collections/dcms-sectors-economic-estimates",
+    "title": "DCMS Sectors Economic Estimates",
+    "raw_summary": "This series brings together all documents relating to DCMS Sectors Economic Estimates.",
+    "published_at": "2026-07-16T08:30:04+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914876+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Background economic data on DCMS sectors offers limited direct relevance to gambling-specific policy or enforcement news.",
+    "category": "sector economic statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
+  },
+  {
+    "id": "6fe85526249f01919b6f80ff449f3554481d0f6079e745b0f03249500b698f4f",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/statistics/economic-estimates-employment-january-2025-to-december-2025-for-dcms-sectors",
+    "title": "Economic Estimates: Employment January 2025 to December 2025 for DCMS Sectors",
+    "raw_summary": "Official Statistics in development used to provide an estimate of the contribution of DCMS Sectors to the UK economy, measured by employment.",
+    "published_at": "2026-07-16T08:30:04+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914879+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Broad DCMS employment data offers limited direct relevance to gambling-specific policy or enforcement news.",
+    "category": "sector employment statistics",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
