@@ -1,116 +1,5 @@
 [
   {
-    "id": "30c0c8a9694a144233e33c455b0b132e591bb506626ae9804e69142a7b57487e",
-    "source": "gambling_commission",
-    "source_id": null,
-    "source_url": "https://www.gamblingcommission.gov.uk/news/article/commission-publishes-third-annual-gambling-survey-for-great-britain",
-    "title": "Commission publishes third annual Gambling Survey for Great Britain",
-    "raw_summary": "The Gambling Commission has today published the third annual report from the Gambling Survey for Great Britain (GSGB).",
-    "published_at": "2026-07-16T00:00:00+00:00",
-    "ingested_at": "2026-07-16T10:03:42.645103+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Gambling Commission"
-    ],
-    "newsworthiness_score": 62,
-    "why_it_matters": "GSGB data shapes regulatory debate on gambling harm rates, informing future policy and affordability check decisions.",
-    "category": "prevalence/survey data",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Gambling Commission"
-    ],
-    "canonical_category": "Licence action",
-    "theme_id": null,
-    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from July to October 2026, fining Holland Park Leisure £150,000, suspending BresBet, Bet St George, Tom Horn Gaming and Targetlocal, and revoking several personal licences. The National Lottery challenge by TNLC and Northern & Shell has also been shut down after the Court of Appeal refused permission to appeal.",
-    "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August, the largest single penalty in the run",
-      "Four operator licence suspensions in six weeks: BresBet and Bet St George (28 Aug), Tom Horn Gaming (8 Sep), Targetlocal (21 Sep)",
-      "Three personal licence revocations since August: Galgerud, Ayeni Ibukun Samson, De Sa Nogueira",
-      "Court of Appeal's 30 July refusal ends Northern & Shell's National Lottery licence challenge, closing a years-long dispute"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:def1f6013ce5:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "8602a0ee926b09798d7c432f76fc4b7e8396c2156851224eb5dbb251d0daacff",
-    "source": "bgc",
-    "source_id": null,
-    "source_url": "https://bettingandgamingcouncil.com/news/reeves-tax-raid-is-a-jackpot-for-illegal-bookies",
-    "title": "REEVES' TAX RAID IS A JACKPOT FOR ILLEGAL BOOKIES",
-    "raw_summary": "",
-    "published_at": "2026-07-16T00:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.925976+00:00",
-    "signal_type": "policy",
-    "entities": [
-      "Betting and Gaming Council",
-      "Rachel Reeves"
-    ],
-    "newsworthiness_score": 55,
-    "why_it_matters": "BGC warns proposed tax rises could drive UK bettors to unregulated black-market operators, a key lobbying flashpoint ahead of fiscal policy decisions.",
-    "category": "gambling tax policy",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "BGC is running a coordinated pre-Budget lobbying campaign, using black-market and job-loss framing to pressure the UK government against further gambling tax rises. The messaging progression—from warning of illegal betting risks to citing 540+ shop closures and 4,500 jobs lost—shows an escalating, data-driven push timed ahead of fiscal decisions.",
-    "cluster_summary_for": "1f34e10f26c0dcd5:aa9d372d",
-    "canonical_entities": [
-      "Betting and Gaming Council",
-      "Rachel Reeves"
-    ],
-    "canonical_category": "Tax and levy",
-    "theme_id": null,
-    "theme_summary": "The Betting and Gaming Council has run a near-weekly lobbying campaign against Rachel Reeves' proposed gambling tax rises since mid-July 2026, citing Betfred store closures, bet365 cost cuts and casino investment threats as evidence of damage ahead of the Budget.",
-    "theme_key_points": [
-      "BGC says 540+ betting shops and 4,500 jobs lost since the Budget tax raid, reported 12 August 2026.",
-      "Bet365 cuts cited by BGC on 8 September as reason against further tax rises.",
-      "BGC warns 2 October a further casino tax hike puts a £200m UK investment drive at risk.",
-      "Makerfield MP publicly backed local bookies against the tax rise on 28 September; BGC's final pre-Budget warning (13 October) cites 36,000 betting shop jobs at risk."
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:192e24b49a7c:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "1c6aedbaa2c1e265964ac6a812d6026203dc17e9fbe977bc88538e34f9a28880",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/notice-of-interim-results/9671318",
-    "title": "evoke: Notice of Interim Results",
-    "raw_summary": "RNS announcement from evoke (EVOK).",
-    "published_at": "2026-07-16T07:00:00+00:00",
-    "ingested_at": "2026-07-16T13:29:51.926379+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "evoke"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "Signals upcoming interim results date for evoke (William Hill/888 owner), relevant for tracking operator financial health.",
-    "category": "results announcement notice",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Evoke plc is pushing a scheme of arrangement through its full approval sequence: scheme document published 21 July, court and general meetings cleared it by 17 August, with H1 2026 results landing in between. Shareholding notifications and an Intralot general meeting outcome in September point to the scheme's corporate counterparty or related stake-building.",
-    "cluster_summary_for": "39eefa85bce3f72d:cecdc011",
-    "canonical_entities": [
-      "William Hill Limited"
-    ],
-    "canonical_category": "Financial results",
-    "theme_id": null,
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 72,
-    "theme_summary": "Entain, Flutter and evoke (William Hill's owner) ran through a scheduled reporting cycle from July to October 2026, with Entain's results drawing the most scrutiny after it held FY26 EBITDA guidance despite a Brazil market ban. BetMGM updates in July and October kept Entain's US joint-venture exposure in view alongside its UK reporting.",
-    "theme_key_points": [
-      "Entain reported interim results on 13 August 2026, the most significant single disclosure in the cycle",
-      "Entain reaffirmed FY26 EBITDA guidance on 28 September 2026 despite a Brazil market ban",
-      "BetMGM business updates on 28 July and 13 October fed into Entain's joint-venture earnings picture",
-      "Flutter and evoke (William Hill/888) filed routine notices for Q2 and interim results in July 2026"
-    ],
-    "theme_direction": "steady",
-    "theme_summary_for": "Financial results:32f29912f34d:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "fc1e76c7d22c2db1486f6332c364cb91168c015b3496f17725a0bc2811764fc3",
     "source": "dcms",
     "source_id": null,
@@ -2381,7 +2270,7 @@
     "newsworthiness_score": 2,
     "why_it_matters": "Not gambling-related; an alarms company insolvency notice has no relevance to the gambling sector.",
     "category": "creditors meeting",
-    "cluster_id": "905c17b019bd5aee",
+    "cluster_id": null,
     "status": "seen",
     "canonical_entities": [
       "G.C.S. Alarms 2018"
@@ -2545,15 +2434,15 @@
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
     "cluster_significance": 40,
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139",
     "sector": "gambling"
   },
   {
@@ -3226,15 +3115,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139",
     "sector": "gambling",
     "cluster_summary": "The Gambling Commission suspended the licences of BresBet Ltd and Bet St George Ltd in late August 2026, and both companies have since entered administration, with Bet St George filing in October and BresBet in November. The sequence points to a regulatory suspension triggering financial collapse rather than a coincidence.",
     "cluster_pattern_type": "escalation",
@@ -3360,7 +3249,7 @@
     "newsworthiness_score": 3,
     "why_it_matters": "This alarms company insolvency notice has no apparent connection to the UK gambling and gaming sector.",
     "category": "Insolvency",
-    "cluster_id": "905c17b019bd5aee",
+    "cluster_id": null,
     "status": "seen",
     "canonical_category": "Insolvency",
     "theme_id": null,
@@ -5773,15 +5662,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139",
     "sector": "gambling"
   },
   {
@@ -5949,15 +5838,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139",
     "sector": "gambling"
   },
   {
@@ -6212,15 +6101,15 @@
     "status": "seen",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139",
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139",
     "sector": "gambling"
   },
   {
@@ -7692,15 +7581,15 @@
     "sector": "gambling",
     "canonical_category": "Licence action",
     "theme_id": "Licence action",
-    "theme_summary": "The Gambling Commission has taken enforcement action against seven licensees between mid-August and early October 2026, ranging from a £150,000 fine on Holland Park Leisure to suspensions at BresBet, Bet St George, Tom Horn Gaming and Targetlocal, plus two personal licence revocations.",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
     "theme_key_points": [
-      "Holland Park Leisure fined £150,000 on 18 August 2026, the only financial penalty in the run",
-      "BresBet Ltd and Bet St George Ltd had licences suspended together on 28 August 2026",
-      "Tom Horn Gaming's suspension on 8 September 2026 hits a B2B supplier, not just operators",
-      "Two individuals, Ayeni Ibukun Samson and Solange Juellato De Sa Nogueira, had personal licences revoked in September and October"
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Licence action:bb0d9f673679:067ec139"
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139"
   },
   {
     "id": "a5731280fc4b1307970efa0ac2d29d044c50848eca0fc08912f2a8983d64ff1a",
@@ -10922,6 +10811,69 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "ab59d5d9d5c9af3db9e8ca053ccf1a4b582f09ca75159ce4e5cbb6b559d39e28",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/354",
+    "title": "Saha Santanu",
+    "raw_summary": "Sanction: Revoked",
+    "published_at": "2026-11-03T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-13T07:20:16.592314+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "Saha Santanu"
+    ],
+    "canonical_entities": [
+      "Saha Santanu"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A personal licence revocation signals Gambling Commission enforcement against an individual, relevant for compliance monitoring across the sector.",
+    "category": "Licence action",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Licence action",
+    "theme_id": "Licence action",
+    "theme_summary": "The Gambling Commission has taken seven licence actions since mid-August, spanning a £150,000 fine against Holland Park Leisure, operator suspensions at BresBet, Bet St George and Targetlocal, a supplier suspension at Tom Horn Gaming, and personal licence revocations against three individuals. Action has continued at roughly fortnightly intervals through to early November.",
+    "theme_key_points": [
+      "Holland Park Leisure fined £150,000 on 18 August, the only financial penalty in the run",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August",
+      "Tom Horn Gaming suspended 8 September, the only supplier-side action, risking operator contracts",
+      "Three individuals - Ayeni Ibukun Samson, Solange Juellato De Sa Nogueira, Saha Santanu - had personal licences revoked between September and November"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Licence action:b95136b8f551:067ec139"
+  },
+  {
+    "id": "7b4316c5f5bda643ae3b737a8706d4155e51ef8a8ac5a46ead9b303ac7cb6c20",
+    "source": "gazette",
+    "source_id": "5251956",
+    "source_url": "https://www.thegazette.co.uk/notice/5251956",
+    "title": "NERDY COFFEE CO. LTD",
+    "raw_summary": "Appointment of Liquidators: …RDY COFFEE CO. LTD Company Number: 11850042 Trading Name: Nerdy Shrewsbury Nature of Business: Board game café …",
+    "published_at": "2026-11-13T01:06:38+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-13T07:20:16.592998+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Nerdy Coffee Co. Ltd",
+      "Nerdy Shrewsbury"
+    ],
+    "canonical_entities": [
+      "Nerdy Coffee",
+      "Nerdy Shrewsbury"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "A board game café's liquidation is unrelated to gambling and carries negligible relevance for a B2B gambling audience.",
+    "category": "Insolvency",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
     "theme_id": null
   }
 ]
