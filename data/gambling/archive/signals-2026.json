@@ -11270,5 +11270,32 @@
     "canonical_category": "Policy and legislation",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "0c0a6564d8f9e9a315b72ee93e8714ab160ba79bdc70519db9bd5188fe44e02a",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/creative-industries-business-growth-and-access-to-finance-discovery-report",
+    "title": "Creative Industries business growth and access to finance discovery report",
+    "raw_summary": "Research by TPXImpact exploring how growing creative businesses navigate their investment options, with the aim of creating a clearer pathway through the business growth journey.",
+    "published_at": "2026-07-16T13:28:24+00:00",
+    "ingested_at": "2026-07-20T17:35:15.914949+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "DCMS",
+      "TPXImpact"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Focuses on creative business finance, not gambling-specific, so minimal relevance to UK gambling sector journalists.",
+    "category": "creative industries research",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "DCMS",
+      "TPXImpact"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
