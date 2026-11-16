@@ -10872,5 +10872,57 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+  },
+  {
+    "id": "61d84687d54c24677b80a57c1652161b351dfaf86e81d3a69649d5137ecf9f60",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/safer-gambling-week-turns-10-a-decade-of-progress-but-our-commitment-is-year-round",
+    "title": "Safer Gambling Week turns 10: A decade of progress, but our commitment is year-round",
+    "raw_summary": "",
+    "published_at": "2026-11-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-16T15:20:20.126279+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Marks a BGC-led industry awareness milestone, offering context on sector messaging but limited operator-specific or enforcement detail.",
+    "category": "Player protection",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Player protection",
+    "theme_id": null
+  },
+  {
+    "id": "4788ba4f2704e39d6fe13d135e2ae93f6b186ab5f34380787bafd8e18870bce2",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/safer-gambling-week-returns-for-landmark-tenth-year",
+    "title": "SAFER GAMBLING WEEK RETURNS FOR LANDMARK TENTH YEAR",
+    "raw_summary": "",
+    "published_at": "2026-11-16T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-16T15:20:20.126282+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC"
+    ],
+    "canonical_entities": [
+      "BGC"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Highlights the gambling industry's ongoing self-regulatory awareness efforts, relevant context for player protection coverage but not breaking news.",
+    "category": "Player protection",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Player protection",
+    "theme_id": null
   }
 ]
