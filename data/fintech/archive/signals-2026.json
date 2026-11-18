@@ -2909,5 +2909,45 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "ff6ae5833d59733b:642be20c"
+  },
+  {
+    "id": "f2beee9dcd36f8a55b6880730c15fa2220a683d9cb3344af24fc9f7045d34612",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-group-plc-launches-share-buyback-program/9679249",
+    "title": "Wise: Wise Group plc launches share buyback program",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-07-21T07:56:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595119+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Wise Group plc"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "A share buyback signals Wise's capital allocation strategy and confidence in its financial position, relevant to fintech investors and competitors.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Wise spent mid-2026 through a full corporate cycle: a share buyback, a US national trust bank charter application, a notes guarantor accession, AGM notices and results, routine Companies House filings, board changes and a Q2 FY27 trading statement. Nothing here is a crisis; it's the normal cadence of a large listed fintech executing capital returns and US expansion.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "e0c0c017c6d53a52:642be20c",
+    "theme_summary": "Routine corporate filings cluster across the sector between July and September 2026: Wise ran a share buyback and AGM alongside a notes guarantor change, while Monzo, Wise and Klarna filed annual accounts and PayPoint set out growth plans at a Capital Markets Day.",
+    "theme_key_points": [
+      "Monzo Bank Limited filed accounts on 2026-08-27, ahead of Wise (2026-09-25) and Klarna UK (2026-09-29).",
+      "Wise Group plc launched a share buyback on 2026-07-21 and added a new guarantor to its Notes on 2026-08-17.",
+      "PayPoint held a Capital Markets Day on 2026-09-29, the same day Klarna's UK entity filed accounts.",
+      "Wise's AGM result, published 2026-09-24, preceded its own accounts filing by a day."
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Corporate filing:2d3f29b53779:4975febf"
   }
 ]
