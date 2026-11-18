@@ -10199,5 +10199,95 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:f9f255641ef2:4975febf"
+  },
+  {
+    "id": "46a7a57b979496bf2234599d7b6ef0f2e30f4f16edf09f8b341de9b3ac4e3a21",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/the-guinness-partnership-ltd.html",
+    "title": "The Guinness Partnership Ltd t/a Guinness Homes",
+    "raw_summary": "Upheld / Social media (paid ad), Website (own site): A paid-for Facebook ad and a website for Guinness Homes failed to make clear that the property in the ad was offered on a shared ownership basis and the percentage share represented by the advertised price. The ads also didn’t make clear that a service charge applied and what the cost of that was.",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-18T07:19:08.823027+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "The Guinness Partnership Ltd",
+      "Guinness Homes"
+    ],
+    "canonical_entities": [
+      "The Guinness Partnership",
+      "Guinness Homes"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "An ASA ruling on misleading property advertising has little relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
+  },
+  {
+    "id": "53c42039fa106d6c1eafd1b56aa3cb2c87be767c82b8b51a0b38f1ee9b61267b",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/onthemarket-ltd.html",
+    "title": "OnTheMarket Ltd",
+    "raw_summary": "Upheld / Internet (classified), Internet (display): A paid-for website display ad and a property listing failed to make clear that the property in the ad was offered on a shared ownership basis, or the percentage share represented by the advertised price. The ads also didn’t make clear that a service charge applied, how much it was or that the property was subject...",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-18T07:19:08.823032+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "OnTheMarket Ltd"
+    ],
+    "canonical_entities": [
+      "OnTheMarket"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "An ASA ruling against a property portal's ad has limited direct relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": "d55995b8859b9a9d",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "Two ASA rulings on the same day find OnTheMarket property ads fell short on disclosure, including shared-ownership terms. The repetition is a single advertising-standards matter rather than a financial or payments development, and holds little relevance for fintech coverage.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 5,
+    "cluster_summary_for": "d55995b8859b9a9d:642be20c"
+  },
+  {
+    "id": "5cdc7452260ecbc189369c78a8225171d31633cda734f30f4ca6f6f9f10a630a",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/onthemarket-ltd-2.html",
+    "title": "OnTheMarket Ltd",
+    "raw_summary": "Upheld / Social media (paid ad): A paid-for Facebook ad and a property listing failed to make clear that the property in the ad was offered on a shared ownership basis, or the percentage share represented by the advertised price. The ads also didn’t make clear that a service charge applied or how much it was.",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-18T07:19:08.823035+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "OnTheMarket Ltd"
+    ],
+    "canonical_entities": [
+      "OnTheMarket"
+    ],
+    "newsworthiness_score": 10,
+    "why_it_matters": "An ASA ruling on a property ad's shared ownership disclosure has minimal relevance to UK fintech and payments journalists.",
+    "category": "Other",
+    "cluster_id": "d55995b8859b9a9d",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null,
+    "cluster_summary": "Two ASA rulings on the same day find OnTheMarket property ads fell short on disclosure, including shared-ownership terms. The repetition is a single advertising-standards matter rather than a financial or payments development, and holds little relevance for fintech coverage.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 5,
+    "cluster_summary_for": "d55995b8859b9a9d:642be20c"
   }
 ]

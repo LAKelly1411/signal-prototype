@@ -11297,5 +11297,178 @@
     "canonical_category": "Policy and legislation",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "e0620e0a515362777c95eb7eab221b30a7236ca12d3183770626bb2d40395ad5",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-welcomes-lisa-nandys-reappointment-and-looks-forward-to-working-with-chancellor-john-healey",
+    "title": "BGC WELCOMES LISA NANDY'S REAPPOINTMENT AND LOOKS FORWARD TO WORKING WITH CHANCELLOR JOHN HEALEY",
+    "raw_summary": "",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "ingested_at": "2026-07-21T10:21:41.411373+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "BGC",
+      "Lisa Nandy",
+      "John Healey"
+    ],
+    "newsworthiness_score": 22,
+    "why_it_matters": "Signals which ministers the gambling industry's trade body will engage with on future policy and regulation.",
+    "category": "political reaction/lobbying",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "BGC is intensifying coordinated lobbying across a reshuffled UK political and sporting landscape—welcoming new ministers, a new BHA chair, and framing Betfred closures as tax-policy fallout—positioning itself to shape gambling duty and regulatory decisions before further changes are decided.",
+    "cluster_summary_for": "78cb57759c7a0866:aa9d372d",
+    "canonical_entities": [
+      "BGC",
+      "Lisa Nandy",
+      "John Healey"
+    ],
+    "canonical_category": "Policy and legislation",
+    "theme_id": null,
+    "theme_summary": "A dense late-August parliamentary question dump pushed Financial Risk Assessments, prediction-market licensing, Gambling Commission revolving-door concerns and high-street planning curbs onto the record within days of each other. BGC has run a parallel lobbying campaign on business rates, ad bans and betting-shop closures while new ministers and a new BHA chair settle in.",
+    "theme_key_points": [
+      "28 August: 29 written questions in one day covered Financial Risk Assessments, Gambling Commission staff conflicts and planning rules for betting shops",
+      "1 September: five separate questions confirmed prediction markets/event contracts require Gambling Commission licensing",
+      "Vicky Foxcroft became gambling minister (11 August) and visited Grosvenor Casino Liverpool during Labour conference (29 September)",
+      "Gambling Commission issued new gaming machine rules (30 September, score 68) and 2025/26 industry statistics (17 September), its two highest-scoring actions"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Policy and legislation:1c680ba3765d:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "b3ee3e1c0af70eee13dd8b64aa67c8880613c2678f2752477e4f49af9c542bb0",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/evoke-di---evok/publication-of-the-scheme-document/9678458",
+    "title": "evoke: Publication of the Scheme Document",
+    "raw_summary": "RNS announcement from evoke (EVOK).",
+    "published_at": "2026-07-21T07:00:00+00:00",
+    "ingested_at": "2026-07-21T10:21:41.411804+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "evoke"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Signals a formal corporate scheme (likely M&A or restructuring) for gambling operator evoke, relevant to investors and industry watchers.",
+    "category": "corporate restructuring/scheme document",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Evoke is pushing a scheme of arrangement through the courts, from the Scheme Document in July to Court/General Meeting approval in mid-August, alongside interim results, shareholding shifts and a tie-in with Intralot's own general meeting. Taken together, the filings track a live restructuring of the former 888/William Hill group's corporate structure through Q3.",
+    "cluster_summary_for": "013e67f0916af75c:cecdc011",
+    "canonical_entities": [
+      "William Hill Limited"
+    ],
+    "canonical_category": "Merger and acquisition",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 62,
+    "theme_summary": "Entain, Flutter and William Hill are each restructuring their corporate footprints through 2026, with Entain divesting 20% of its CEE business, Flutter completing its LSE delisting on 3 August, and evoke publishing a scheme document on 21 July.",
+    "theme_key_points": [
+      "Entain agreed a phased 20% divestment of its CEE business on 25 June 2026",
+      "Flutter Entertainment completed delisting from the London Stock Exchange on 3 August 2026",
+      "evoke published a formal Scheme Document on 21 July 2026, signalling restructuring or takeover terms",
+      "Three separate corporate-structure moves land within six weeks, spanning divestment, delisting and scheme processes"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Merger and acquisition:8d669f0b0c18:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "83eb148f10baae3cb4238d51d77203a351f440888ff123136c9217dea8b74e24",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/unlicensed-gambling-den-raids-in-doncaster",
+    "title": "Unlicensed gambling den raids in Doncaster",
+    "raw_summary": "",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "ingested_at": "2026-07-21T14:22:38.214062+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 58,
+    "why_it_matters": "Shows the Commission actively targeting unlicensed gambling operations, signalling enforcement priorities and risks for operators near illegal markets.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement against unlicensed operators has run almost continuously since July 2026, moving from raids and arrests to a sentencing in October, while the BGC escalates public warnings about black-market scale ahead of major sporting events.",
+    "theme_key_points": [
+      "Commission actions progressed from Doncaster raids (21 Jul) and casino arrests (29 Jul) to four arrests and £20,000 seized (23 Sep) and a sentencing (5 Oct)",
+      "BGC forecasts black-market betting on the Premier League will hit £1bn a season (24 Aug) and cites a $50bn global black market (7 Sep)",
+      "BGC flags St Leger's 250th anniversary (14 Sep) as a specific target for illegal bookmakers",
+      "Parliament raised gambling licensing and crime questions three times between 13 Jul and 1 Sep, keeping ministerial attention on enforcement scale"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:25f882732808:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "c9f9afd029be39106cfc1c9f3c47e53654b900b019c850a8e371bb6907d35f2a",
+    "source": "gazette",
+    "source_id": "5176733",
+    "source_url": "https://www.thegazette.co.uk/notice/5176733",
+    "title": "THE CTRL PAD LTD",
+    "raw_summary": "Appointment of Liquidators: …Nature of Business: Other information technology service activities Previous Name of Company: E-Dojo Gaming Limited …",
+    "published_at": "2026-07-21T01:03:06+00:00",
+    "ingested_at": "2026-07-21T14:22:38.215682+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "The Ctrl Pad Ltd",
+      "E-Dojo Gaming Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming-linked IT firm formerly named E-Dojo Gaming has entered liquidation, a minor data point on sector attrition.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "The Ctrl Pad",
+      "E-Dojo Gaming"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Insolvency filings have hit at least 20 gambling-linked firms since late July 2026, spanning betting operators, casinos, gaming machine suppliers and compliance consultancies. The pace has quickened into October, with four companies collapsing on 1 October alone and further cases at Casino MK and Bet St George within the following fortnight.",
+    "theme_key_points": [
+      "Lysis Gaming Compliance faced repeated winding-up petitions (24 July, 26 August x2), pointing to sustained distress among advisory firms.",
+      "T33 Gaming moved from a winding-up petition (4 September) to a winding-up order (23 September) within three weeks.",
+      "Four linked companies — Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures), Carnaby Gaming Machines — entered liquidation on the same day, 1 October.",
+      "MGE Korea, a holding company tied to integrated gaming facilities, drew the highest distress score (55) when administrators were appointed on 14 September.",
+      "Bet St George entered administration on 12 October and Casino MK faced a winding-up petition on 9 October, extending the pattern into licensed operators."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:b9d903aec75c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "8c928ee0402a8da3588049d4f5d7553ee877b7d81f158dc8a8a2cd43952671bd",
+    "source": "gazette",
+    "source_id": "5176711",
+    "source_url": "https://www.thegazette.co.uk/notice/5176711",
+    "title": "BOOMERANG STUDIOS LIMITED",
+    "raw_summary": "Appointment of Liquidators: …IMITED Company Number: 14938096 Trading Name: Dice Dice Baby Shop Nature of Business: Retail sale of games and toys in specialised stores …",
+    "published_at": "2026-07-21T01:02:40+00:00",
+    "ingested_at": "2026-07-21T14:22:38.215685+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Boomerang Studios Limited",
+      "Dice Dice Baby Shop"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A small toy/games retailer's liquidation has minimal relevance to the UK gambling sector.",
+    "category": "insolvency filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Boomerang Studios",
+      "Dice Dice Baby Shop"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
