@@ -10864,5 +10864,67 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:4c8410efe6f1:067ec139"
+  },
+  {
+    "id": "24e8cc1101df8834013d0b24b2c9e1966012256995fe5e07681a4e1418f2d659",
+    "source": "gazette",
+    "source_id": "5254736",
+    "source_url": "https://www.thegazette.co.uk/notice/5254736",
+    "title": "QUALITY NUT PRODUCTS LIMITED",
+    "raw_summary": "Appointment of Liquidators: Name of Company: QUALITY NUT PRODUCTS LIMITED Company Number: 01047263 Registered office: 100 St James Road, Northampton, NN5 5LF Principal trading address: Cavalry Hill Industrial Park, Weedon, North…",
+    "published_at": "2026-11-18T05:30:09+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-18T15:21:15.520963+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "QUALITY NUT PRODUCTS LIMITED"
+    ],
+    "canonical_entities": [
+      "QUALITY NUT PRODUCTS"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This is a non-gambling company liquidation with no relevance to the UK gambling industry.",
+    "category": "Insolvency",
+    "cluster_id": "f244d7952aaf8109",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Both entries are winding-up notices for Quality Nut Products Limited, a food company with no connection to gambling or gaming. The cluster appears to have been grouped by name-matching error rather than any real link to the betting industry.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "f244d7952aaf8109:cecdc011"
+  },
+  {
+    "id": "00d86d32d48d1180118691a435eb5daca280e5b293fa6a915829f37b413d789d",
+    "source": "gazette",
+    "source_id": "5254735",
+    "source_url": "https://www.thegazette.co.uk/notice/5254735",
+    "title": "QUALITY NUT PRODUCTS LIMITED",
+    "raw_summary": "Resolutions for Winding-up: Company Address 100 St James Road, Northampton, NN5 5LF",
+    "published_at": "2026-11-18T05:20:11+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-18T15:21:15.520965+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Quality Nut Products Limited"
+    ],
+    "canonical_entities": [
+      "Quality Nut Products"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "This winding-up notice concerns a food company unrelated to the gambling or gaming sector.",
+    "category": "Insolvency",
+    "cluster_id": "f244d7952aaf8109",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Both entries are winding-up notices for Quality Nut Products Limited, a food company with no connection to gambling or gaming. The cluster appears to have been grouped by name-matching error rather than any real link to the betting industry.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 2,
+    "cluster_summary_for": "f244d7952aaf8109:cecdc011"
   }
 ]

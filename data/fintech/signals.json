@@ -731,7 +731,7 @@
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Insolvency",
-    "theme_id": "Insolvency",
+    "theme_id": null,
     "cluster_summary": "A winding-up petition was filed against New Tech Finance Ltd on 14 August 2026, followed by a near-identical gazette notice on 20 August naming Newtech Finance Ltd. The duplication likely reflects one insolvency case recorded twice under slightly different company name renderings rather than two separate firms in distress.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -1470,15 +1470,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
+    "theme_summary": "Winding-up petitions have landed against three companies in five weeks: Ohm Topco on 18 September, Quaymile on 23 September, and Profound on 15 October. None sit squarely in fintech, but the pace of filings warrants a baseline note for the sector.",
     "theme_key_points": [
-      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
-      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
-      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
-      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
+      "Ohm Topco petition filed 18 September, the only one with possible fintech/payments linkage",
+      "Quaymile Limited, an IT consultancy, hit with a petition on 23 September",
+      "Profound Limited, a car leasing firm, faced a winding-up petition on 15 October",
+      "Three petitions across three unrelated sectors within a 27-day span"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
+    "theme_direction": "steady",
+    "theme_summary_for": "Insolvency:86590932a50b:4975febf"
   },
   {
     "id": "b2efdfb34087fa2dc53d6ff8b53a34aa83b538a1787cdbc81ab463226912e484",
@@ -1557,15 +1557,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
+    "theme_summary": "Winding-up petitions have landed against three companies in five weeks: Ohm Topco on 18 September, Quaymile on 23 September, and Profound on 15 October. None sit squarely in fintech, but the pace of filings warrants a baseline note for the sector.",
     "theme_key_points": [
-      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
-      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
-      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
-      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
+      "Ohm Topco petition filed 18 September, the only one with possible fintech/payments linkage",
+      "Quaymile Limited, an IT consultancy, hit with a petition on 23 September",
+      "Profound Limited, a car leasing firm, faced a winding-up petition on 15 October",
+      "Three petitions across three unrelated sectors within a 27-day span"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
+    "theme_direction": "steady",
+    "theme_summary_for": "Insolvency:86590932a50b:4975febf"
   },
   {
     "id": "f0e77945227913544c813d67db856eb66fba79110cc7a6d1bc06168a6526f5b1",
@@ -3725,15 +3725,15 @@
     "sector": "fintech",
     "canonical_category": "Insolvency",
     "theme_id": "Insolvency",
-    "theme_summary": "Winding-up petitions have been filed against five companies touching the UK fintech and payments space since August 2026, starting with Newtech Finance and Ohm Topco and extending into adjacent sectors with Quaymile and Profound.",
+    "theme_summary": "Winding-up petitions have landed against three companies in five weeks: Ohm Topco on 18 September, Quaymile on 23 September, and Profound on 15 October. None sit squarely in fintech, but the pace of filings warrants a baseline note for the sector.",
     "theme_key_points": [
-      "Newtech Finance Ltd petition filed 2026-08-20, the earliest in the run",
-      "Ohm Topco Limited petition followed 2026-09-18, roughly a month later",
-      "Quaymile Limited (IT consultancy) and Profound Limited (car leasing) petitions came in September-October, both only loosely fintech-linked",
-      "Four petitions logged across two months, August to October 2026, with no signs of slowing"
+      "Ohm Topco petition filed 18 September, the only one with possible fintech/payments linkage",
+      "Quaymile Limited, an IT consultancy, hit with a petition on 23 September",
+      "Profound Limited, a car leasing firm, faced a winding-up petition on 15 October",
+      "Three petitions across three unrelated sectors within a 27-day span"
     ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:fe9f57a0b643:4975febf"
+    "theme_direction": "steady",
+    "theme_summary_for": "Insolvency:86590932a50b:4975febf"
   },
   {
     "id": "2fee215b9b1206fcc71d674b27d97e432f96eb4a04a9cece28b9d474ed4f621b",
