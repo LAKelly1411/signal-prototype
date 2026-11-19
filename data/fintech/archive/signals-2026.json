@@ -2949,5 +2949,31 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:2d3f29b53779:4975febf"
+  },
+  {
+    "id": "79aaa4bc4392670ded84b1072961483e7d056628321921ace1fff1434582bd76",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/bubbleology-uk-i-ltd-a26-1327617-bubbleology-uk-i-ltd.html",
+    "title": "Bubbleology UK-I Ltd t/a Bubbleology",
+    "raw_summary": "Not upheld / Social media (paid ad): A paid-for Instagram ad for a bubble tea company didn’t break the less healthy food rules because it was a small and medium-sized enterprise and was therefore exempt.",
+    "published_at": "2026-07-22T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595054+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Bubbleology UK-I Ltd"
+    ],
+    "canonical_entities": [
+      "Bubbleology UK-I"
+    ],
+    "newsworthiness_score": 2,
+    "why_it_matters": "An ASA ruling on a bubble tea ad has no relevance to UK fintech or payments journalists.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]

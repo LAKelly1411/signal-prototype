@@ -2724,32 +2724,6 @@
     "theme_id": null
   },
   {
-    "id": "79aaa4bc4392670ded84b1072961483e7d056628321921ace1fff1434582bd76",
-    "source": "asa",
-    "source_id": null,
-    "source_url": "https://www.asa.org.uk/rulings/bubbleology-uk-i-ltd-a26-1327617-bubbleology-uk-i-ltd.html",
-    "title": "Bubbleology UK-I Ltd t/a Bubbleology",
-    "raw_summary": "Not upheld / Social media (paid ad): A paid-for Instagram ad for a bubble tea company didn’t break the less healthy food rules because it was a small and medium-sized enterprise and was therefore exempt.",
-    "published_at": "2026-07-22T00:00:00+00:00",
-    "published_at_estimated": false,
-    "ingested_at": "2026-10-09T14:19:13.595054+00:00",
-    "signal_type": "regulatory",
-    "entities": [
-      "Bubbleology UK-I Ltd"
-    ],
-    "canonical_entities": [
-      "Bubbleology UK-I"
-    ],
-    "newsworthiness_score": 2,
-    "why_it_matters": "An ASA ruling on a bubble tea ad has no relevance to UK fintech or payments journalists.",
-    "category": "Other",
-    "cluster_id": null,
-    "status": "seen",
-    "sector": "fintech",
-    "canonical_category": "Other",
-    "theme_id": null
-  },
-  {
     "id": "68cdc2878c5db25ca3fcf26130454ce25c7b7b8a9d0de59359ac422863ad995b",
     "source": "lse_rns",
     "source_id": null,
@@ -2942,16 +2916,16 @@
     "newsworthiness_score": 40,
     "why_it_matters": "PayPoint's growth strategy signals could affect its retail payments and fintech partnerships relevant to UK payments market watchers.",
     "category": "Corporate filing",
-    "cluster_id": "d35fe536d4a0b8f4",
+    "cluster_id": "4cbf4fa887df83ed",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Corporate filing",
     "theme_id": "Corporate filing",
-    "cluster_summary": "PayPoint held a Capital Markets Day in late September laying out growth drivers, bracketed by two routine shareholding disclosures in September and October. No deal, activist stake or regulatory event is indicated beyond standard LSE filings.",
+    "cluster_summary": "PayPoint ran a Capital Markets Day in late September 2026 setting out its growth strategy, followed by half-year results in November. Two shareholding disclosures either side of these events reflect routine investor position changes rather than any sign of corporate activity.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 20,
-    "cluster_summary_for": "d35fe536d4a0b8f4:642be20c",
+    "cluster_significance": 25,
+    "cluster_summary_for": "4cbf4fa887df83ed:642be20c",
     "theme_summary": "Four UK payments and fintech firms cleared routine corporate filing obligations between late August and late September 2026, with Monzo, Wise and Klarna filing annual accounts at Companies House and Wise and PayPoint making separate stock exchange disclosures.",
     "theme_key_points": [
       "Monzo Bank Limited filed annual accounts on 2026-08-27, ahead of the rest of the group",
@@ -2982,16 +2956,16 @@
     "newsworthiness_score": 20,
     "why_it_matters": "A shareholding change in PayPoint could signal investor sentiment shifts relevant to payments sector watchers.",
     "category": "Shareholding disclosure",
-    "cluster_id": "d35fe536d4a0b8f4",
+    "cluster_id": "4cbf4fa887df83ed",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Shareholding disclosure",
     "theme_id": null,
-    "cluster_summary": "PayPoint held a Capital Markets Day in late September laying out growth drivers, bracketed by two routine shareholding disclosures in September and October. No deal, activist stake or regulatory event is indicated beyond standard LSE filings.",
+    "cluster_summary": "PayPoint ran a Capital Markets Day in late September 2026 setting out its growth strategy, followed by half-year results in November. Two shareholding disclosures either side of these events reflect routine investor position changes rather than any sign of corporate activity.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 20,
-    "cluster_summary_for": "d35fe536d4a0b8f4:642be20c"
+    "cluster_significance": 25,
+    "cluster_summary_for": "4cbf4fa887df83ed:642be20c"
   },
   {
     "id": "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
@@ -3777,16 +3751,16 @@
     "newsworthiness_score": 25,
     "why_it_matters": "Changes in major shareholdings of PayPoint can signal shifts in investor confidence or potential corporate activity affecting the payments sector.",
     "category": "Shareholding disclosure",
-    "cluster_id": "d35fe536d4a0b8f4",
+    "cluster_id": "4cbf4fa887df83ed",
     "status": "seen",
     "sector": "fintech",
     "canonical_category": "Shareholding disclosure",
     "theme_id": null,
-    "cluster_summary": "PayPoint held a Capital Markets Day in late September laying out growth drivers, bracketed by two routine shareholding disclosures in September and October. No deal, activist stake or regulatory event is indicated beyond standard LSE filings.",
+    "cluster_summary": "PayPoint ran a Capital Markets Day in late September 2026 setting out its growth strategy, followed by half-year results in November. Two shareholding disclosures either side of these events reflect routine investor position changes rather than any sign of corporate activity.",
     "cluster_pattern_type": "routine",
     "cluster_coherent": true,
-    "cluster_significance": 20,
-    "cluster_summary_for": "d35fe536d4a0b8f4:642be20c"
+    "cluster_significance": 25,
+    "cluster_summary_for": "4cbf4fa887df83ed:642be20c"
   },
   {
     "id": "0b284818b3019b5e2147550cc00d8a9d343b653789bc7f37cefb8a228cdf948d",
@@ -10315,5 +10289,90 @@
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null
+  },
+  {
+    "id": "59a603dfa6b344b9011f5372dacdaf08e8696a7bff1352a043fb1ce81e12bd1a",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/national-loans-fund-account-2025-to-2026",
+    "title": "National Loans Fund account 2025 to 2026",
+    "raw_summary": "The National Loans Fund accounts for 2025 to 2026 have been published.",
+    "published_at": "2026-11-12T16:44:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-19T07:19:22.322665+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "National Loans Fund"
+    ],
+    "canonical_entities": [
+      "National Loans Fund"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine government accounts publication with limited direct relevance to UK fintech and payments firms.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "02146511d219c3e150ade40e6d17422451958a0fee4227efb240cefbc6213378",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/exchange-equalisation-account-report-and-accounts-2025-to-2026",
+    "title": "Exchange Equalisation Account: report and accounts 2025 to 2026",
+    "raw_summary": "The Exchange Equalisation Account report and accounts for 2025 to 2026 have been published.",
+    "published_at": "2026-11-04T16:12:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-19T07:19:22.322708+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Exchange Equalisation Account",
+      "HM Treasury"
+    ],
+    "canonical_entities": [
+      "Exchange Equalisation Account",
+      "HM Treasury"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine government account filing with limited direct relevance to UK fintech and payments firms.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null
+  },
+  {
+    "id": "3c8a2c2727d64d3357f0a818ed47a8d714fca5abce81c46238eea44a01d25dca",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/half-year-results-for-the-six-months-ended-30-/9882853",
+    "title": "PayPoint: Half year results for the six months ended 30...",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-11-19T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-19T07:19:22.322921+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "PayPoint's half-year results reveal financial performance trends for a major UK payments and retail services network.",
+    "category": "Financial results",
+    "cluster_id": "4cbf4fa887df83ed",
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_summary": "PayPoint ran a Capital Markets Day in late September 2026 setting out its growth strategy, followed by half-year results in November. Two shareholding disclosures either side of these events reflect routine investor position changes rather than any sign of corporate activity.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 25,
+    "cluster_summary_for": "4cbf4fa887df83ed:642be20c"
   }
 ]

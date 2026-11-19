@@ -1,10 +1,10 @@
 {
   "sector": "gambling",
-  "started_at": "2026-11-18T15:19:55.436014+00:00",
-  "finished_at": "2026-11-18T15:21:20.420078+00:00",
+  "started_at": "2026-11-19T07:19:28.634061+00:00",
+  "finished_at": "2026-11-19T07:20:40.875465+00:00",
   "sources": {
     "GamblingCommissionCollector": {
-      "items": 262,
+      "items": 261,
       "ok": true,
       "error": false
     },
@@ -34,8 +34,8 @@
       "error": false
     },
     "BGCCollector": {
-      "items": 0,
-      "ok": false,
+      "items": 18,
+      "ok": true,
       "error": false
     },
     "InsolvencyServiceCollector": {
@@ -49,11 +49,11 @@
       "error": false
     }
   },
-  "healthy_sources": 7,
+  "healthy_sources": 8,
   "total_sources": 9,
-  "raw_items": 604,
-  "new_signals": 2,
+  "raw_items": 621,
+  "new_signals": 0,
   "unscored": 0,
-  "live_signals": 314,
+  "live_signals": 312,
   "clusters": 27
 }
