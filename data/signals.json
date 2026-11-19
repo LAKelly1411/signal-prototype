@@ -10848,5 +10848,31 @@
     "cluster_coherent": false,
     "cluster_significance": 2,
     "cluster_summary_for": "f244d7952aaf8109:cecdc011"
+  },
+  {
+    "id": "c2a47107c634295ebe8eee2be503d1357c52fafe39aa758d13560dfeb9278b0c",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/safer-gambling-week-2026-sees-record-breaking-parliamentary-support",
+    "title": "Safer Gambling Week 2026 Sees Record-Breaking Parliamentary Support",
+    "raw_summary": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-19T11:20:31.221840+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Betting and Gaming Council"
+    ],
+    "canonical_entities": [
+      "Betting and Gaming Council"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Signals political engagement with responsible gambling messaging but contains no regulatory, financial or enforcement substance.",
+    "category": "Other",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Other",
+    "theme_id": null
   }
 ]
