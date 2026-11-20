@@ -10820,5 +10820,71 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:094608cfd594:067ec139"
+  },
+  {
+    "id": "ce6977c9f265d193668290e63223839176c64dde9edc1d831aed26ecb6601548",
+    "source": "gazette",
+    "source_id": "5256549",
+    "source_url": "https://www.thegazette.co.uk/notice/5256549",
+    "title": "TEAM N LIMITED",
+    "raw_summary": "Appointment of Liquidators: …ing Name: Mantlestates Nature of Business: Real Estate agency Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Herts, EN4 9HN …",
+    "published_at": "2026-11-20T01:04:09+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-20T11:20:12.528892+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "TEAM N LIMITED",
+      "Mantlestates"
+    ],
+    "canonical_entities": [
+      "TEAM N",
+      "Mantlestates"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A real estate agency's liquidation appears unrelated to the gambling sector and has minimal relevance to industry journalists.",
+    "category": "Insolvency",
+    "cluster_id": "2d008e50c86a42d8",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Two Gazette notices record winding-up proceedings against Team N Limited, a company with no apparent tie to gambling or gaming — the entries describe a real estate agency insolvency rather than an operator event.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 3,
+    "cluster_summary_for": "2d008e50c86a42d8:cecdc011"
+  },
+  {
+    "id": "34335bf944cdbdc119d40c6e38677ac31958a0e5191008618b6b91bf4e726979",
+    "source": "gazette",
+    "source_id": "5256511",
+    "source_url": "https://www.thegazette.co.uk/notice/5256511",
+    "title": "TEAM N LIMITED",
+    "raw_summary": "Resolutions for Winding-up: …LIMITED (Company Number 08512376 ) Trading Name: Mantlestates Registered office: Woodgate House, 2-8 Games Road, Cockfosters, Herts, EN4 9HN …",
+    "published_at": "2026-11-20T01:03:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-20T11:20:12.528895+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "TEAM N LIMITED",
+      "Mantlestates"
+    ],
+    "canonical_entities": [
+      "TEAM N",
+      "Mantlestates"
+    ],
+    "newsworthiness_score": 3,
+    "why_it_matters": "This winding-up notice concerns a company with no apparent connection to the gambling or gaming industry.",
+    "category": "Insolvency",
+    "cluster_id": "2d008e50c86a42d8",
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Two Gazette notices record winding-up proceedings against Team N Limited, a company with no apparent tie to gambling or gaming — the entries describe a real estate agency insolvency rather than an operator event.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 3,
+    "cluster_summary_for": "2d008e50c86a42d8:cecdc011"
   }
 ]
