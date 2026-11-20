@@ -10414,5 +10414,27 @@
     ],
     "theme_direction": "steady",
     "theme_summary_for": "Corporate filing:750f7e8dc63b:4975febf"
+  },
+  {
+    "id": "49be9810cb677d28d86a3ab883dad09c8f1a19113f1713c6fcca877e8461db7f",
+    "source": "dcms",
+    "source_id": null,
+    "source_url": "https://www.gov.uk/government/publications/methodology-economic-impact-of-the-uk-eu-youth-experience-scheme",
+    "title": "Methodology: Economic Impact of the UK–EU Youth Experience Scheme",
+    "raw_summary": "This methodology note sets out the inputs, assumptions, and modelling approach used in calculating the expected impact of the Youth Experience Scheme (YES) on UK GDP.",
+    "published_at": "2026-11-20T13:09:59+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-20T15:18:58.101900+00:00",
+    "signal_type": "policy",
+    "entities": [],
+    "canonical_entities": [],
+    "newsworthiness_score": 8,
+    "why_it_matters": "A government methodology note on a youth mobility scheme has minimal direct relevance to UK fintech and payments firms.",
+    "category": "Policy and legislation",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Policy and legislation",
+    "theme_id": null
   }
 ]
