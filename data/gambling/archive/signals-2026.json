@@ -11678,5 +11678,117 @@
     "theme_direction": "building",
     "theme_summary_for": "Tax and levy:021866c50677:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/directorate-change/9685277",
+    "title": "Rank Group: Directorate change",
+    "raw_summary": "RNS announcement from Rank Group (RNK).",
+    "published_at": "2026-07-24T07:00:00+00:00",
+    "ingested_at": "2026-07-24T10:28:55.138321+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Rank Group"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
+    "category": "board/directorate change",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Rank Group moves through its normal corporate calendar — board changes, final results, AGM, Q1 trading update — while also closing out a Gambling Commission enforcement settlement in October 2026. The ministerial visit to Grosvenor Casino Liverpool is a separate Westminster story only loosely tied to Rank via its venue, not a Rank development itself.",
+    "cluster_summary_for": "54f2f535b3507eca:cecdc011",
+    "canonical_entities": [
+      "Rank"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": false,
+    "cluster_significance": 42,
+    "theme_summary": "Board-level turnover has run through both operators and the regulator over the summer: Rank Group and Entain each filed multiple director changes between July and October 2026, while the Gambling Commission confirmed Ruth Evans as its new Chair on 7 September. The BGC publicly welcomed the regulatory appointment, underlining its weight for the sector.",
+    "theme_key_points": [
+      "Rank Group filed two separate board changes, 24 July and 13 August 2026",
+      "Entain logged three governance filings in three months: directorate change (27 July), officer filing (15 Sept), director declaration (15 Oct)",
+      "Parliament questioned the Gambling Commission's CEO search timeline on 28 August, days before Evans's appointment was confirmed",
+      "Ruth Evans named Gambling Commission Chair 7 September, prompting immediate BGC statement of welcome"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:1c934aba865c:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
+    "source": "gazette",
+    "source_id": "5179513",
+    "source_url": "https://www.thegazette.co.uk/notice/5179513",
+    "title": "FIRESTOKE GROUP LIMITED",
+    "raw_summary": "Appointment of Liquidators: …Number: SC689236 Name of Company: FIRESTOKE GROUP LIMITED Nature of Business: Publishing of computer …",
+    "published_at": "2026-07-24T01:03:49+00:00",
+    "ingested_at": "2026-07-24T17:52:12.055270+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Firestoke Group Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A gaming publisher entering liquidation could signal wider financial distress affecting suppliers or partners in the sector.",
+    "category": "insolvency/liquidation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Firestoke"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_key_points": [
+      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
+      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
+      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
+      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
+    "source": "gazette",
+    "source_id": "5178467",
+    "source_url": "https://www.thegazette.co.uk/notice/5178467",
+    "title": "LYSIS GAMING COMPLIANCE LTD",
+    "raw_summary": "Petitions to Wind Up (Companies): …ourt of Justice (Chancery Division) Companies Court No CR-2026-004834 of 2026 In the Matter of LYSIS GAMING COMPLIANCE LTD …",
+    "published_at": "2026-07-24T00:11:14+00:00",
+    "ingested_at": "2026-07-24T17:52:12.055273+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Lysis Gaming Compliance Ltd"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "A gambling compliance firm facing a winding-up petition could signal financial distress affecting operator compliance support in the UK market.",
+    "category": "winding up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Lysis Gaming Compliance"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "cluster_summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 30,
+    "cluster_summary_for": "50b72ca3f3030631:cecdc011",
+    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
+    "theme_key_points": [
+      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
+      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
+      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
+      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
+    "sector": "gambling"
   }
 ]

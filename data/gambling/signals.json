@@ -1,117 +1,5 @@
 [
   {
-    "id": "edbb1204da6cf471d70634e7db308e891acaca840fc4123c3fa8348eb5c2f0c3",
-    "source": "lse_rns",
-    "source_id": null,
-    "source_url": "https://www.investegate.co.uk/announcement/rns/rank-group--rnk/directorate-change/9685277",
-    "title": "Rank Group: Directorate change",
-    "raw_summary": "RNS announcement from Rank Group (RNK).",
-    "published_at": "2026-07-24T07:00:00+00:00",
-    "ingested_at": "2026-07-24T10:28:55.138321+00:00",
-    "signal_type": "corporate_filing",
-    "entities": [
-      "Rank Group"
-    ],
-    "newsworthiness_score": 30,
-    "why_it_matters": "Leadership changes at a major listed UK gambling operator can signal strategic shifts relevant to investors and industry watchers.",
-    "category": "board/directorate change",
-    "cluster_id": null,
-    "status": "seen",
-    "cluster_summary": "Rank Group moves through its normal corporate calendar — board changes, final results, AGM, Q1 trading update — while also closing out a Gambling Commission enforcement settlement in October 2026. The ministerial visit to Grosvenor Casino Liverpool is a separate Westminster story only loosely tied to Rank via its venue, not a Rank development itself.",
-    "cluster_summary_for": "54f2f535b3507eca:cecdc011",
-    "canonical_entities": [
-      "Rank"
-    ],
-    "canonical_category": "Board and director changes",
-    "theme_id": null,
-    "cluster_pattern_type": "routine",
-    "cluster_coherent": false,
-    "cluster_significance": 42,
-    "theme_summary": "Board-level turnover has run through both operators and the regulator over the summer: Rank Group and Entain each filed multiple director changes between July and October 2026, while the Gambling Commission confirmed Ruth Evans as its new Chair on 7 September. The BGC publicly welcomed the regulatory appointment, underlining its weight for the sector.",
-    "theme_key_points": [
-      "Rank Group filed two separate board changes, 24 July and 13 August 2026",
-      "Entain logged three governance filings in three months: directorate change (27 July), officer filing (15 Sept), director declaration (15 Oct)",
-      "Parliament questioned the Gambling Commission's CEO search timeline on 28 August, days before Evans's appointment was confirmed",
-      "Ruth Evans named Gambling Commission Chair 7 September, prompting immediate BGC statement of welcome"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Board and director changes:1c934aba865c:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "b2fd4f2e76e37adb076a717b933587e356d24b9296e0e826296d6722846f5940",
-    "source": "gazette",
-    "source_id": "5179513",
-    "source_url": "https://www.thegazette.co.uk/notice/5179513",
-    "title": "FIRESTOKE GROUP LIMITED",
-    "raw_summary": "Appointment of Liquidators: …Number: SC689236 Name of Company: FIRESTOKE GROUP LIMITED Nature of Business: Publishing of computer …",
-    "published_at": "2026-07-24T01:03:49+00:00",
-    "ingested_at": "2026-07-24T17:52:12.055270+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Firestoke Group Limited"
-    ],
-    "newsworthiness_score": 25,
-    "why_it_matters": "A gaming publisher entering liquidation could signal wider financial distress affecting suppliers or partners in the sector.",
-    "category": "insolvency/liquidation",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Firestoke"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
-    "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
-    "sector": "gambling"
-  },
-  {
-    "id": "6558807aa7dc7cb1b8f8cd165d2df64a531d63e53964031a68b020603484d922",
-    "source": "gazette",
-    "source_id": "5178467",
-    "source_url": "https://www.thegazette.co.uk/notice/5178467",
-    "title": "LYSIS GAMING COMPLIANCE LTD",
-    "raw_summary": "Petitions to Wind Up (Companies): …ourt of Justice (Chancery Division) Companies Court No CR-2026-004834 of 2026 In the Matter of LYSIS GAMING COMPLIANCE LTD …",
-    "published_at": "2026-07-24T00:11:14+00:00",
-    "ingested_at": "2026-07-24T17:52:12.055273+00:00",
-    "signal_type": "insolvency",
-    "entities": [
-      "Lysis Gaming Compliance Ltd"
-    ],
-    "newsworthiness_score": 45,
-    "why_it_matters": "A gambling compliance firm facing a winding-up petition could signal financial distress affecting operator compliance support in the UK market.",
-    "category": "winding up petition",
-    "cluster_id": null,
-    "status": "seen",
-    "canonical_entities": [
-      "Lysis Gaming Compliance"
-    ],
-    "canonical_category": "Insolvency",
-    "theme_id": null,
-    "cluster_summary": "Lysis Gaming Compliance Ltd faced a winding-up petition in late July 2026, followed by confirmed insolvency filings in August. The compliance advisory firm is now heading into liquidation, with three separate gazette notices tracking the same collapse.",
-    "cluster_pattern_type": "developing_story",
-    "cluster_coherent": true,
-    "cluster_significance": 30,
-    "cluster_summary_for": "50b72ca3f3030631:cecdc011",
-    "theme_summary": "Insolvency filings have run almost continuously across UK gambling from July to October 2026, touching land-based operators, machine suppliers, data providers and compliance firms. The pace quickened through September and October, with casino operator Casino MK, bookmaker Bet St George and gaming firm T33 Gaming all hitting formal winding-up or administration stages.",
-    "theme_key_points": [
-      "Multilinea Developments, Multilinea Leeds (ex-Global Gaming Ventures) and Carnaby Gaming Machines all entered liquidation on the same day, 1 October 2026",
-      "Lysis Gaming Compliance faced repeated winding-up petitions across July and August 2026, flagging stress among sector advisory firms",
-      "Horse racing data supplier Equusform moved from creditors' meetings on 18 September to liquidation by 1 October",
-      "MGE Korea's 14 September administration points to distress at a holding company tied to integrated gaming facilities beyond the UK"
-    ],
-    "theme_direction": "building",
-    "theme_summary_for": "Insolvency:524438cb586d:067ec139",
-    "sector": "gambling"
-  },
-  {
     "id": "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
     "source": "lse_rns",
     "source_id": null,
@@ -2430,7 +2318,7 @@
     "newsworthiness_score": 62,
     "why_it_matters": "BGC's £1bn black market forecast fuels the ongoing policy debate over gambling sponsorship and advertising restrictions in football.",
     "category": "black market growth",
-    "cluster_id": "b0f45a7fa9de63ce",
+    "cluster_id": null,
     "status": "seen",
     "cluster_summary": "BGC's claim that Premier League black-market betting could hit £1bn a season feeds directly into the parliamentary debate over gambling advertising restrictions, with government responses signalling continued scrutiny of ads' effect on children. Both point to the same unresolved tension between tightening marketing rules and fears of pushing bettors offshore.",
     "cluster_summary_for": "b0f45a7fa9de63ce:cecdc011",
@@ -2439,7 +2327,7 @@
       "Premier League"
     ],
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -2870,15 +2758,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -2904,7 +2792,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Enforcement action",
-    "theme_id": "Enforcement action",
+    "theme_id": null,
     "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
     "theme_key_points": [
       "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
@@ -3239,7 +3127,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -3693,15 +3581,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "sector": "gambling"
   },
   {
@@ -4430,15 +4318,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -4569,7 +4457,7 @@
     "cluster_id": "7dfedc23199a57cf",
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "cluster_summary": "BGC marked the St Leger's 250th anniversary with a Parliamentary celebration, then followed up with warnings that illegal bookmakers are targeting the event for black-market betting. The two releases form a coordinated PR push around the same anniversary, pairing celebration with an industry safety message.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -4957,7 +4845,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -5320,15 +5208,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "sector": "gambling"
   },
   {
@@ -5350,7 +5238,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -5563,15 +5451,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "sector": "gambling"
   },
   {
@@ -5626,15 +5514,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -5749,7 +5637,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -5827,15 +5715,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "sector": "gambling"
   },
   {
@@ -5898,15 +5786,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -5934,7 +5822,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -6325,15 +6213,15 @@
     "status": "seen",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "sector": "gambling"
   },
   {
@@ -6665,7 +6553,7 @@
     "cluster_id": null,
     "status": "seen",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -6777,15 +6665,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -6812,15 +6700,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -6852,15 +6740,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "aeb0be1faf358760:cecdc011",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -6887,15 +6775,15 @@
     "status": "seen",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139",
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139",
     "sector": "gambling"
   },
   {
@@ -7140,15 +7028,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "9927f864c5afa5be7ad5c9ede426cbedf935eac20539b9b7bad9310c908d52ec",
@@ -7281,15 +7169,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "f01d8ce85fe242117a172ad8c81fd0112b8ebfea315409d382a5c210b323f21b",
@@ -7454,15 +7342,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "b62b756b1db92b8752b9271c4f6b945dc44c831cae242983ee56c04f26c95300",
@@ -7491,15 +7379,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139",
     "cluster_summary": "UK parliamentary answers confirm remote betting duty climbing to 25% for greyhound racing and Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027, squeezing bookmaker margins and the levy funding that underpins greyhound racing.",
     "cluster_pattern_type": "developing_story",
     "cluster_coherent": true,
@@ -7531,15 +7419,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "a623126320941320f0fc432f8cc231e7978c0fc33c6f765308b982144188af38",
@@ -7636,7 +7524,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -7673,7 +7561,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -7711,15 +7599,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "d5e3708b4f793336ba8acaf92623ad4bf0a477633dfff8df7c574ecad119a9c6",
@@ -8001,15 +7889,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "60372307d53d27e2b717b6f3b89342545dd8e8da6affc0e2b8172fe830352e2f",
@@ -8072,15 +7960,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "ed13c7f12a675df231a276bad5577478397540c56d90be1f10760584ee38796b",
@@ -8107,15 +7995,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "edbf4251d07e8b0a98c8078b3a46f574a0b0c248118ac499596399cfb74e5c1f",
@@ -8343,7 +8231,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -8449,15 +8337,15 @@
     "cluster_coherent": false,
     "cluster_significance": 25,
     "cluster_summary_for": "09ce3c86704682e4:cecdc011",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "baeeee272e9cd6a698e2f9668de094034fc0873fb6eff941d6e734602b69651c",
@@ -8489,15 +8377,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "40f26ae38e3d04b7:cecdc011",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "e464b3ae92fb9ad5febb261d6f5a5bb710d86a8a0d6660a28326e1a1e8b2f5b1",
@@ -8529,15 +8417,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "40f26ae38e3d04b7:cecdc011",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "c987d752e8ec3adc3505029f954d59c48d1dc604e88a834349dc33781fd6fee7",
@@ -8635,15 +8523,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "58be0e224fc22784fb5ba1d65bf675d14390e07cc8c4072b7376f6186040e143",
@@ -8672,15 +8560,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "76b515f1cdffaf8a34a357798a692e1aa2aa8afe260e862b19005cd71cfc7078",
@@ -8743,15 +8631,15 @@
     "sector": "gambling",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "b0caaeeb4cadc1a791f0f493f63d936fa5a694094972b02b7c38eab8a022a9e2",
@@ -9134,15 +9022,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "3dac43cc26234388e050cdaeba4d721387df59de06d1e2c2094f4e2a946b6e48",
@@ -9174,15 +9062,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "1eb68109172b9fd6:cecdc011",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "adb7ab775eed1f64430af5188c1e5913efb3fc764a4cc619eb18b5c50904890e",
@@ -9214,15 +9102,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "aeb0be1faf358760:cecdc011",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "f9b4cfada04a97d7a92827fb410342dedef726e1c3228a6c2017801b4e995d3e",
@@ -9285,15 +9173,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "0a77273326c90369f3c289413e8665e1e2946dc4961a49efdb56eab85f846187",
@@ -9492,15 +9380,15 @@
     "sector": "gambling",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "94fff5c0b11509ba544415ea1d74ca88eab6430f851146b095c1f3e2632c761d",
@@ -9893,15 +9781,15 @@
     "cluster_coherent": true,
     "cluster_significance": 55,
     "cluster_summary_for": "4342a6f47e724300:cecdc011",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "ea37b1ba17771d6d5d195d829ccc01f73e7eb76064260043eb7d98f4230142c0",
@@ -9958,15 +9846,15 @@
     "sector": "gambling",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "a7f56cccef7bf3ef3700b2931957509f9e54e11b4761bcd4d9e9c39de30dc52e",
@@ -9992,7 +9880,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -10030,15 +9918,15 @@
     "sector": "gambling",
     "canonical_category": "Tax and levy",
     "theme_id": "Tax and levy",
-    "theme_summary": "The BGC ran a sustained lobbying campaign through September and October against gambling tax rises, citing job cuts at bet365 and Flutter and warning casino and betting-shop jobs were at risk. The Autumn Budget confirmed Machine Games Duty rising from 20% to 25% on higher-stake machines from 2027 and remote betting duty at 25%, prompting formal impact statements from Entain and Rank.",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
     "theme_key_points": [
-      "BGC issued at least ten public warnings between 8 Sept and 28 Oct, citing bet365 and Flutter job losses and a £200m casino investment threat",
-      "Remote betting duty confirmed at 25%, applying to greyhound racing (hitting venues like Romford) while horseracing was exempted",
-      "MGD rise from 20% to 25% on higher-stake machines confirmed for April 2027, squeezing bookmakers and bingo club margins",
-      "Entain and Rank both filed LSE statements on 28-29 October detailing financial impact after the Budget, alongside the first statutory gambling levy report"
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Tax and levy:c9d01180a375:067ec139"
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   },
   {
     "id": "ed837e6b9fe07c84f125dd8f7ca75b92a3aa842d8d65a554b70f9d8dcc5221a5",
@@ -10138,7 +10026,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -10519,7 +10407,7 @@
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Illegal gambling",
-    "theme_id": "Illegal gambling",
+    "theme_id": null,
     "theme_summary": "The Gambling Commission moved from parliamentary questioning into direct enforcement over August to November 2026, with raids, arrests, sentencing and a new push to seize illegal operators' assets. The BGC amplified this with escalating black-market betting estimates tied to football, racing and crypto platforms like Tether.bet.",
     "theme_key_points": [
       "BGC forecasts black-market Premier League betting hitting £1bn a season, up from earlier estimates",
@@ -10555,15 +10443,15 @@
     "sector": "gambling",
     "canonical_category": "Enforcement action",
     "theme_id": "Enforcement action",
-    "theme_summary": "Gambling Commission enforcement has run almost weekly since late August, hitting operators from small outfits like Sladders and Fun City to major land-based brands. Rank Group and Grosvenor Casinos settled a £5m land-based casino penalty on 7 October, followed by L&L Europe's £900,000 fine on 21 October for withdrawal delays, alongside separate criminal sentencing in the general election betting scandal.",
+    "theme_summary": "The Gambling Commission ran near-continuous enforcement through autumn 2026, peaking on 7 October with a £5m settlement against Grosvenor Casinos and parent Rank Group for land-based regulatory failures. L&L Europe followed with a £900,000 fine for withdrawal delays, while smaller operators and individual licence holders faced separate penalties and warnings across the same period.",
     "theme_key_points": [
-      "7 October: Rank Group/Grosvenor Casinos settlement totals £5m for land-based casino regulatory failures",
-      "21 October: L&L Europe fined £900,000, including withdrawal-delay failings, same week as its separate settlement",
-      "Election betting scandal runs parallel track: two guilty pleas 10 September, three sentenced 23 October",
-      "Personal licence holders also targeted: Anthony Francis Lane fined, Loewenstein Itai warned, September-October"
+      "Grosvenor Casinos and Rank Group settled jointly on 7 October 2026, accounting for the period's largest penalty at £5m",
+      "L&L Europe fined £900,000 on 21 October for failures including payout withdrawal delays",
+      "Smaller operators penalised too: Fun City (16 October), R&O Leisure (9 November), Sladders warned (26 August)",
+      "Separate track of criminal enforcement in the general election betting scandal: guilty pleas 10 September, three sentenced 23 October"
     ],
     "theme_direction": "building",
-    "theme_summary_for": "Enforcement action:103af93618bc:067ec139"
+    "theme_summary_for": "Enforcement action:f4f8abc8a1a8:067ec139"
   },
   {
     "id": "61d84687d54c24677b80a57c1652161b351dfaf86e81d3a69649d5137ecf9f60",
@@ -10709,7 +10597,7 @@
     "newsworthiness_score": 42,
     "why_it_matters": "Government response signals continued scrutiny of gambling advertising's effect on children, hinting at future regulatory action.",
     "category": "Policy and legislation",
-    "cluster_id": "b0f45a7fa9de63ce",
+    "cluster_id": null,
     "status": "seen",
     "sector": "gambling",
     "canonical_category": "Policy and legislation",
@@ -10999,5 +10887,42 @@
     ],
     "theme_direction": "building",
     "theme_summary_for": "Policy and legislation:6f17040ed780:067ec139"
+  },
+  {
+    "id": "2efcd06ccfe0d79fb9d9f0b7bbb5d85c7b747f9ea257688cea6573ce170a18af",
+    "source": "bgc",
+    "source_id": null,
+    "source_url": "https://bettingandgamingcouncil.com/news/bgc-further-betfred-closures-show-real-cost-of-government-tax-rises",
+    "title": "BGC: FURTHER BETFRED CLOSURES SHOW REAL COST OF GOVERNMENT TAX RISES",
+    "raw_summary": "",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-11-23T07:20:40.242792+00:00",
+    "signal_type": "policy",
+    "entities": [
+      "Betfred",
+      "BGC"
+    ],
+    "canonical_entities": [
+      "Betfred",
+      "BGC"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Betfred shop closures highlight how rising gambling taxes are driving industry job losses and retrenchment in the UK betting sector.",
+    "category": "Tax and levy",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "gambling",
+    "canonical_category": "Tax and levy",
+    "theme_id": "Tax and levy",
+    "theme_summary": "The BGC ran a sustained pre-Budget lobbying campaign through September and October warning against gambling tax rises, but the Chancellor pushed ahead regardless: remote betting duty rises to 25%, Machine Games Duty climbs to 25% by April 2027, and casinos face further hikes. Entain and Rank both issued formal statements after the 28 October Budget, and Betfred announced further shop closures by 20 November.",
+    "theme_key_points": [
+      "Remote betting duty rises to 25% and applies to greyhound racing, while horseracing is exempted, per 14 September parliamentary answers",
+      "BGC warned a casino tax hike could derail a £200m UK investment pledge (2 October) and threaten thousands of casino jobs (12 October)",
+      "MGD confirmed rising from 20% to 25% on higher-stake machines from 2027, squeezing bingo clubs and betting shop economics",
+      "Post-Budget fallout includes Entain's formal tax statement (28 Oct), Rank's Budget impact filing (29 Oct), and Betfred shop closures (20 Nov)"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Tax and levy:626194f93b8b:067ec139"
   }
 ]

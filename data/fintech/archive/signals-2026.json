@@ -2975,5 +2975,36 @@
     "sector": "fintech",
     "canonical_category": "Other",
     "theme_id": null
+  },
+  {
+    "id": "92a324fea96850a359ca41fd8579807afd403221f210f22687c0f4bb935d0ce4",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wise-class-a--wise/wise-us-national-trust-bank-charter-application/9685426",
+    "title": "Wise: Wise US national trust bank charter application",
+    "raw_summary": "RNS announcement from Wise (WISE).",
+    "published_at": "2026-07-24T07:01:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595116+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Wise"
+    ],
+    "canonical_entities": [
+      "Wise Payments Limited"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Wise seeking a US national trust bank charter signals a major strategic push to deepen its US banking capabilities.",
+    "category": "Authorisation and permissions",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Authorisation and permissions",
+    "theme_id": null,
+    "cluster_summary": "Wise's filings over three months track a normal corporate calendar: AGM notice and results, routine Companies House accounts and director filings, a notes guarantor accession, and a Q2 FY27 trading update. The standout item is Wise's application for a US national trust bank charter, pointing to a deeper push into US banking.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "cluster_summary_for": "4816be6a1bf5723d:642be20c"
   }
 ]
