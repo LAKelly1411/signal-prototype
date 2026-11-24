@@ -11790,5 +11790,44 @@
     "theme_direction": "building",
     "theme_summary_for": "Insolvency:524438cb586d:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "303dde88f1f90f471e49f80e9acf2c45dda65bcf0755a9321f0deffc9a9dbc0d",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/directorate-changes/9689263",
+    "title": "Entain: Directorate Changes",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-07-27T12:32:00+00:00",
+    "ingested_at": "2026-07-27T14:18:41.127997+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "Leadership changes at Entain, a major UK-listed gambling operator, can signal strategic shifts affecting investors and industry direction.",
+    "category": "board/director change",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain's routine corporate calendar runs through mid-2026 — board changes, TR-1 shareholder notifications, interim results, BetMGM quarterly updates and Companies House filings — punctuated by one real event: FY26 EBITDA guidance held despite a Brazil market ban. That single regulatory hit stands out against an otherwise standard drumbeat of governance and reporting disclosures.",
+    "cluster_summary_for": "86545df4cff05c46:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited"
+    ],
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "Boardroom turnover runs through both operators and the regulator this year: Entain and Rank have each reshuffled directors since July, while the Gambling Commission completed its own leadership transition with Ruth Evans confirmed as Chair in September.",
+    "theme_key_points": [
+      "Entain filed three separate changes: directorate changes (27 Jul), new Companies House officers (15 Sep), director declaration (15 Oct)",
+      "Rank Group announced a board update on 13 August",
+      "Ruth Evans appointed Gambling Commission Chair 7 September, welcomed publicly by the BGC same day",
+      "DCMS parliamentary question on 28 August flagged the Commission's CEO appointment timeline ahead of the Chair announcement"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:399a079488e0:067ec139",
+    "sector": "gambling"
   }
 ]
