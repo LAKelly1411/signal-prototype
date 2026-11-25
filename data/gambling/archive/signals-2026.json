@@ -11868,5 +11868,73 @@
     "theme_direction": "building",
     "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "069ac621b165e48144257709e2837c4591bcf003524d2f8d5bdc1f6c764a7a96",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/entain--ent/betmgm-q2-2026-business-update/9691513",
+    "title": "Entain: BetMGM Q2 2026 Business Update",
+    "raw_summary": "RNS announcement from Entain (ENT).",
+    "published_at": "2026-07-28T12:00:00+00:00",
+    "ingested_at": "2026-07-28T14:18:33.789523+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Entain",
+      "BetMGM"
+    ],
+    "newsworthiness_score": 40,
+    "why_it_matters": "BetMGM's US performance affects Entain's joint-venture earnings and shapes investor and market views on UK-listed operator strategy.",
+    "category": "trading update",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Entain's routine corporate calendar runs through Q3: BetMGM updates, interim and Q3 trading results, shareholder notifications, audit tender conclusion, and Companies House filings. The standout item is FY26 EBITDA guidance held despite a Brazil market ban, flagging regulatory exposure even as the group reaffirms financial resilience.",
+    "cluster_summary_for": "808f38b35c9b82f2:cecdc011",
+    "canonical_entities": [
+      "Entain Holdings (UK) Limited",
+      "BetMGM"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 35,
+    "theme_summary": "Entain, Rank and evoke (formerly William Hill) all issued Q3 trading updates within an eight-day window in October 2026, part of a routine quarterly reporting cycle. Entain reaffirmed FY26 EBITDA guidance on 28 September despite a Brazil market ban, and BetMGM continued feeding quarterly US performance data into Entain's joint-venture earnings.",
+    "theme_key_points": [
+      "Entain held FY26 EBITDA guidance on 28 September 2026 despite exiting the Brazil market via ban",
+      "BetMGM supplied Entain with two separate quarterly updates, 28 July and 13 October 2026",
+      "Rank Group and evoke both filed Q3 trading updates within a day of Entain's, 15-16 October",
+      "evoke issued a notice of update (16 October) before publishing results a week later on 23 October"
+    ],
+    "theme_direction": "steady",
+    "theme_summary_for": "Financial results:237c831d48b0:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "4e1fcb3906f5f09b97c1d32b77cdc8f068b09ccdf236d5f6d7282a54be8ecaa3",
+    "source": "gazette",
+    "source_id": "5181029",
+    "source_url": "https://www.thegazette.co.uk/notice/5181029",
+    "title": "POTTERS HEALTH CARE LIMITED",
+    "raw_summary": "Petitions to Wind Up (Companies): …ue & Customs HMRC Legal Group Queen Elizabeth House, Edinburgh for Petitioner Ref: Scotland/1273155/ …",
+    "published_at": "2026-07-28T12:01:08+00:00",
+    "ingested_at": "2026-07-29T10:18:39.232553+00:00",
+    "signal_type": "insolvency",
+    "entities": [
+      "Potters Health Care Limited",
+      "HM Revenue & Customs"
+    ],
+    "newsworthiness_score": 5,
+    "why_it_matters": "This HMRC winding-up petition against a healthcare company has no apparent link to the gambling sector.",
+    "category": "winding-up petition",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "Potters Health Care",
+      "HM Revenue & Customs"
+    ],
+    "canonical_category": "Insolvency",
+    "theme_id": null,
+    "sector": "gambling"
   }
 ]
