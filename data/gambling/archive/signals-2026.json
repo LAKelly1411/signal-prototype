@@ -11829,5 +11829,44 @@
     "theme_direction": "building",
     "theme_summary_for": "Board and director changes:399a079488e0:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "20bf14e64824db3ccd90627c2f49cd32d4cc226b8519ad1e4720c11c7a6210f1",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/rns/flutter-entertainment-cdi---fltr/notice-of-q2-results/9689634",
+    "title": "Flutter Entertainment: Notice of Q2 Results",
+    "raw_summary": "RNS announcement from Flutter Entertainment (FLTR).",
+    "published_at": "2026-07-27T16:00:00+00:00",
+    "ingested_at": "2026-07-28T06:18:37.329854+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Flutter Entertainment"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "Flags upcoming Q2 results from a major operator, giving journalists advance notice to prepare coverage of performance and market impact.",
+    "category": "results announcement notice",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Flutter Entertainment completed its delisting from the London Stock Exchange on 3 August 2026, formalising a shift of its primary listing away from London, with the related share cancellation filing processed the same day. A Q2 results notice from a week earlier is procedural and unconnected to the delisting move.",
+    "cluster_summary_for": "8edbc94ebca97265:cecdc011",
+    "canonical_entities": [
+      "Flutter Entertainment"
+    ],
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": true,
+    "cluster_significance": 62,
+    "theme_summary": "Entain, Rank and evoke all moved through scheduled trading updates and interim results between July and October 2026, with Entain reaffirming FY26 EBITDA guidance in September despite a Brazil market ban. Reporting density peaked in mid-to-late October, when Entain, Rank and evoke each issued updates within a ten-day span.",
+    "theme_key_points": [
+      "Entain published five separate updates between July and October, more than any other operator in the set",
+      "Entain held FY26 EBITDA guidance on 28 September despite citing a Brazil ban as a risk factor",
+      "Rank Group's Q1 2026/27 trading update landed on 15 October, the same day as Entain's Q3 update",
+      "evoke (formerly William Hill/888) issued a notice on 16 October followed by its Q3 update a week later on 23 October"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Financial results:c1ca8fbfd156:067ec139",
+    "sector": "gambling"
   }
 ]

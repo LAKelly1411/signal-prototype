@@ -1,7 +1,7 @@
 {
   "sector": "gambling",
-  "started_at": "2026-11-24T15:19:06.580596+00:00",
-  "finished_at": "2026-11-24T15:20:16.987402+00:00",
+  "started_at": "2026-11-25T07:19:36.284496+00:00",
+  "finished_at": "2026-11-25T07:21:15.975971+00:00",
   "sources": {
     "GamblingCommissionCollector": {
       "items": 262,
@@ -52,8 +52,8 @@
   "healthy_sources": 8,
   "total_sources": 9,
   "raw_items": 622,
-  "new_signals": 0,
+  "new_signals": 6,
   "unscored": 0,
-  "live_signals": 316,
-  "clusters": 27
+  "live_signals": 321,
+  "clusters": 29
 }
