@@ -3006,5 +3006,36 @@
     "cluster_coherent": true,
     "cluster_significance": 35,
     "cluster_summary_for": "4816be6a1bf5723d:642be20c"
+  },
+  {
+    "id": "d152d10c594cc0d8814179b6dcecc1cdc7b3be2f6ad9d54125fed57c1907fbbf",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/1st-quarter-results/9692244",
+    "title": "PayPoint: 1st Quarter Results",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-07-29T07:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595176+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 45,
+    "why_it_matters": "PayPoint's quarterly results reveal performance trends in UK retail payments and bill payment infrastructure, relevant to fintech competitors and investors.",
+    "category": "Financial results",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Financial results",
+    "theme_id": null,
+    "cluster_summary": "PayPoint moves through a routine corporate calendar: Q1 results, AGM voting, a Capital Markets Day laying out growth drivers, and two separate notifications of shareholding changes. Nothing here points to distress or a takeover approach, just standard LSE disclosure cadence for a listed payments firm.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 20,
+    "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
   }
 ]

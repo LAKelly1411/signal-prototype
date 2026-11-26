@@ -11936,5 +11936,112 @@
     "canonical_category": "Insolvency",
     "theme_id": null,
     "sector": "gambling"
+  },
+  {
+    "id": "54ddecf11c30cbb45839ffd065a6f8357fec7f5952c88a867e985468e670d840",
+    "source": "asa",
+    "source_id": null,
+    "source_url": "https://www.asa.org.uk/rulings/boylesports--gibraltar--ltd-a26-1339078-boylesports--gibraltar--ltd.html",
+    "title": "BoyleSports (Gibraltar) Ltd t/a BoyleSports",
+    "raw_summary": "Upheld / Website (paid ad): A paid-for online display ad for a gambling company encouraged gambling behaviour that was socially irresponsible and could lead to financial harm by encouraging frequent and repetitive participation.",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "ingested_at": "2026-07-29T06:18:13.721446+00:00",
+    "signal_type": "enforcement",
+    "entities": [
+      "BoyleSports (Gibraltar) Ltd"
+    ],
+    "newsworthiness_score": 55,
+    "why_it_matters": "An ASA upheld ruling against BoyleSports highlights ongoing scrutiny of gambling ads encouraging harmful, repetitive betting behaviour.",
+    "category": "ASA ruling - irresponsible advertising",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "BoyleSports"
+    ],
+    "canonical_category": "Advertising ruling",
+    "theme_id": null,
+    "theme_summary": "The ASA has upheld four gambling ad rulings since late July 2026, spanning BoyleSports, Midnite, a betting comparison site and a tipster app, over harmful betting encouragement, poor targeting, youth protection and misleading profit claims. White Hat Gaming's Casimba and Grand Ivy ads were cleared in the same period.",
+    "theme_key_points": [
+      "BoyleSports upheld 29 July for ads encouraging repetitive, harmful betting behaviour.",
+      "Midnite (Dribble Media) upheld 16 September for using an under-25 model in a TikTok ad.",
+      "HRY Games' AI Scorecast upheld 14 October for implying guaranteed betting profits.",
+      "Smart Gravity's top10onlinecasinoreviews.co.uk upheld 9 September over irresponsible paid search targeting; White Hat Gaming's Casimba/Grand Ivy ads cleared same week."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Advertising ruling:a44f8f0031ca:067ec139",
+    "sector": "gambling"
+  },
+  {
+    "id": "139c47f32b955962557766a9bc6e092ee0a19c90c53ceddf9366b725153edc2d",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/sarah-fox-to-join-the-gambling-commission",
+    "title": "Sarah Fox to join the Gambling Commission",
+    "raw_summary": "A senior leader from the Department for Digital, Culture, Media and Sport (DCMS) is to join the Gambling Commission’s Executive Team.",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "ingested_at": "2026-07-29T10:18:39.231007+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "Sarah Fox",
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "newsworthiness_score": 42,
+    "why_it_matters": "A new senior appointment at the Gambling Commission could signal shifts in regulatory priorities or DCMS-Commission alignment on policy.",
+    "category": "regulator leadership change",
+    "cluster_id": null,
+    "status": "seen",
+    "cluster_summary": "Sarah Fox's move to the Gambling Commission surfaces twice: first as an appointment announcement, then via a parliamentary written question probing the DCMS secondment arrangement behind it. The two signals describe the same personnel change rather than a developing controversy.",
+    "cluster_summary_for": "09d1d22710cfe299:cecdc011",
+    "canonical_entities": [
+      "Sarah Fox",
+      "Gambling Commission",
+      "Department for Digital, Culture, Media and Sport"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has run a steady enforcement campaign from late July through early October 2026, spanning personal licence revocations, operator suspensions and a £150,000 fine. The National Lottery legal fight also ended, with the Court of Appeal shutting down Northern & Shell's challenge to Allwyn's licence award.",
+    "theme_key_points": [
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd both had licences suspended on 28 August, followed by Tom Horn Gaming on 8 September and Targetlocal Ltd on 21 September.",
+      "Three personal licences revoked individually: Galgerud (6 August), Ayeni Ibukun Samson (4 September), De Sa Nogueira (5 October).",
+      "Court of Appeal refused Northern & Shell's TNLC permission to appeal on 30 July, closing the National Lottery licence dispute in Allwyn's favour."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:8894c66c4127:067ec139",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "sector": "gambling"
+  },
+  {
+    "id": "917c5d8fe4ce8bf7ac667e59942eb7599d0b3ef5e191c498ee977871594866bc",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/illegal-casino-arrests",
+    "title": "Illegal casino arrests",
+    "raw_summary": "",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "ingested_at": "2026-07-29T14:18:50.138992+00:00",
+    "signal_type": "enforcement",
+    "entities": [],
+    "newsworthiness_score": 55,
+    "why_it_matters": "Arrests linked to illegal casinos signal active Gambling Commission enforcement against unlicensed operators, a key compliance risk area for the sector.",
+    "category": "illegal gambling enforcement",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [],
+    "canonical_category": "Illegal gambling",
+    "theme_id": null,
+    "theme_summary": "Gambling Commission enforcement against unlicensed operators has run almost monthly since July 2026 — arrests, raids and sentencing — while the BGC has published escalating black-market estimates, from £1bn a season on Premier League betting to a $50bn global figure. Parliamentary questions sharpened in October, naming the Illegal Gambling Taskforce and crypto platform Tether.bet directly.",
+    "theme_key_points": [
+      "Gambling Commission actions: arrests 29 July, police backing 10 Aug, four arrests/£20k seized 23 Sept, two men sentenced 5 Oct",
+      "BGC black-market estimates escalated: £1bn/season Premier League (24 Aug), $50bn global (7 Sept), St Leger 250th anniversary risk (14 Sept)",
+      "Three parliamentary questions filed same day, 9 October, covering Illegal Gambling Taskforce structure and naming Tether.bet specifically",
+      "Questioning shifted from general enforcement scale in September to named platforms and taskforce mechanics by October"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Illegal gambling:ed74b54801be:067ec139",
+    "sector": "gambling"
   }
 ]
