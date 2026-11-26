@@ -3037,5 +3037,36 @@
     "cluster_coherent": true,
     "cluster_significance": 20,
     "cluster_summary_for": "3c9692bfb63cd22d:642be20c"
+  },
+  {
+    "id": "82cc1edead4b087602f502984a9858dba734b1481c01e1a1b807c54473aac605",
+    "source": "lse_rns",
+    "source_id": null,
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/paypoint--pay/result-of-2026-agm/9694096",
+    "title": "PayPoint: Result of 2026 AGM",
+    "raw_summary": "RNS announcement from PayPoint (PAY).",
+    "published_at": "2026-07-29T13:08:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.595171+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "PayPoint"
+    ],
+    "canonical_entities": [
+      "PayPoint"
+    ],
+    "newsworthiness_score": 15,
+    "why_it_matters": "Routine AGM voting results have limited news value unless shareholder dissent signals governance concerns at this payments firm.",
+    "category": "Corporate filing",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "PayPoint's 2026 disclosures run through routine corporate housekeeping: an unremarkable AGM result, two separate shareholding notifications in September and October, and a Capital Markets Day in late September where management laid out growth drivers for its retail payments business. Nothing here points to distress or dissent.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "ac28100e352fbbda:642be20c"
   }
 ]
