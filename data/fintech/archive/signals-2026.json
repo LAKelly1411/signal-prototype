@@ -3068,5 +3068,245 @@
     "cluster_coherent": true,
     "cluster_significance": 15,
     "cluster_summary_for": "ac28100e352fbbda:642be20c"
+  },
+  {
+    "id": "f8562fdc57f9ce4b74a26261498949cd17679bdd8eeded4fe7a892e66442b623",
+    "source": "companies_house",
+    "source_id": "MzUzNTk5MDY0N2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUzNTk5MDY0N2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593867+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A director departure at Monzo, a major UK digital bank, could signal leadership shifts worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Monzo Bank filed a string of routine Companies House updates between July and October 2026, including multiple officer changes and an annual accounts filing. None of the filings specify names or reasons, and the pattern reflects standard corporate housekeeping rather than a distinct leadership shake-up.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "3909bc0884a41500:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
+  },
+  {
+    "id": "19fb9b9d931a98bcd3a7344b861341c9de47b6fbf06e48c64cfe86e5a8d0e8cc",
+    "source": "companies_house",
+    "source_id": "MzUzNTk5MDY0NWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUzNTk5MDY0NWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593872+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A director departure at a major UK digital bank like Monzo can signal leadership or strategic shifts worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Monzo Bank filed a string of routine Companies House updates between July and October 2026, including multiple officer changes and an annual accounts filing. None of the filings specify names or reasons, and the pattern reflects standard corporate housekeeping rather than a distinct leadership shake-up.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "3909bc0884a41500:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
+  },
+  {
+    "id": "af7a37143910fcd1a0e215b8299a560985a3d977daf09141fb7d211bb552e125",
+    "source": "companies_house",
+    "source_id": "MzUzNTk5MDY0MWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUzNTk5MDY0MWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593876+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A director departure at Monzo, one of the UK's largest digital banks, could signal leadership shifts worth tracking.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Monzo Bank filed a string of routine Companies House updates between July and October 2026, including multiple officer changes and an annual accounts filing. None of the filings specify names or reasons, and the pattern reflects standard corporate housekeeping rather than a distinct leadership shake-up.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "3909bc0884a41500:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
+  },
+  {
+    "id": "6b216681c578a5b2c4c95df720f948cc2f4565f97d489ec4d4e0589a9f318600",
+    "source": "companies_house",
+    "source_id": "MzUzNTk5MDY0MGFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUzNTk5MDY0MGFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593880+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 35,
+    "why_it_matters": "A director departure at Monzo, a major UK digital bank, could signal leadership shifts worth tracking for fintech watchers.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Monzo Bank filed a string of routine Companies House updates between July and October 2026, including multiple officer changes and an annual accounts filing. None of the filings specify names or reasons, and the pattern reflects standard corporate housekeeping rather than a distinct leadership shake-up.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "3909bc0884a41500:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
+  },
+  {
+    "id": "f8a465c54e9938aada5908965ef77e14d74f540aa6f881f07e7807a93bf73f23",
+    "source": "companies_house",
+    "source_id": "MzUzNTk5MDY0M2FkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09446231/filing-history/MzUzNTk5MDY0M2FkaXF6a2N4/document?format=pdf&download=0",
+    "title": "Monzo Bank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.593884+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "Monzo Bank Limited"
+    ],
+    "canonical_entities": [
+      "Monzo Bank Limited"
+    ],
+    "newsworthiness_score": 30,
+    "why_it_matters": "A director departure at Monzo signals possible leadership changes at one of the UK's largest digital banks.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "Monzo Bank filed a string of routine Companies House updates between July and October 2026, including multiple officer changes and an annual accounts filing. None of the filings specify names or reasons, and the pattern reflects standard corporate housekeeping rather than a distinct leadership shake-up.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 15,
+    "cluster_summary_for": "3909bc0884a41500:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
+  },
+  {
+    "id": "3aca3e1abcc4f7e34ef7c849a0c175557603f247bc1b4af2c548429f58c74ec0",
+    "source": "companies_house",
+    "source_id": "MzUzNjA2MDY0NmFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/09736376/filing-history/MzUzNjA2MDY0NmFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "ClearBank Limited: Officers filed",
+    "raw_summary": "Type: TM01 · Description: Termination director company with name termination date",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "published_at_estimated": false,
+    "ingested_at": "2026-10-09T14:19:13.594161+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "ClearBank Limited"
+    ],
+    "canonical_entities": [
+      "ClearBank Limited"
+    ],
+    "newsworthiness_score": 25,
+    "why_it_matters": "A director's departure at UK clearing bank ClearBank could signal leadership shifts worth monitoring in the fintech infrastructure space.",
+    "category": "Board and director changes",
+    "cluster_id": null,
+    "status": "seen",
+    "sector": "fintech",
+    "canonical_category": "Board and director changes",
+    "theme_id": null,
+    "cluster_summary": "ClearBank files a sequence of routine Companies House updates: a director change in July 2026, a minor correction to an appointment filing in September, and the annual confirmation statement later that month. None carry substantive business or regulatory content.",
+    "cluster_pattern_type": "routine",
+    "cluster_coherent": true,
+    "cluster_significance": 8,
+    "cluster_summary_for": "ee73ac2c0e283225:642be20c",
+    "theme_summary": "Director changes have run through nearly every major UK digital bank and payments firm since late July, with Monzo filing five separate officer changes alone. Revolut, Wise, Klarna and ClearBank have all logged board moves, alongside new appointments to the Bank of England and FCA boards.",
+    "theme_key_points": [
+      "Monzo filed officer changes five times between 30 July and 21 October, more than any other firm",
+      "Revolut made two separate filings (4 August, 12 October); Wise followed with both a Companies House filing and an LSE directorate-change notice on 28 Sept and 13 Oct",
+      "Klarna's UK regulated entity recorded a director termination on 6 October, its only filing in the period",
+      "Regulatory boards moved too: new Bank of England non-executive directors announced 16 September, new FCA board members confirmed 30 September"
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Board and director changes:93ced7d4c18b:4975febf"
   }
 ]

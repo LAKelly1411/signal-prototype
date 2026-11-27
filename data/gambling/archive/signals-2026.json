@@ -12043,5 +12043,80 @@
     "theme_direction": "building",
     "theme_summary_for": "Illegal gambling:ed74b54801be:067ec139",
     "sector": "gambling"
+  },
+  {
+    "id": "06cdd5605bfda7bc93337257c15af57d74796a75ebf69ca96b03d2fca88af4d0",
+    "source": "gambling_commission",
+    "source_id": null,
+    "source_url": "https://www.gamblingcommission.gov.uk/news/article/court-of-appeal-refuses-tnlc-permission-to-appeal",
+    "title": "Court of Appeal refuses TNLC permission to appeal",
+    "raw_summary": "The Court of Appeal has refused The New Lottery Company Limited (TNLC) and Northern & Shell PLC’s application to appeal part of the High Court decision from April 2026 which had dismissed all claims against the Gambling Commission.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "ingested_at": "2026-07-31T06:18:36.495875+00:00",
+    "signal_type": "regulatory",
+    "entities": [
+      "The New Lottery Company Limited",
+      "Northern & Shell PLC",
+      "Gambling Commission",
+      "Allwyn"
+    ],
+    "newsworthiness_score": 62,
+    "why_it_matters": "Ends TNLC and Northern & Shell's legal challenge over the National Lottery licence award, reinforcing the Gambling Commission's decision-making authority.",
+    "category": "licence dispute litigation",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "The New Lottery",
+      "Northern & Shell",
+      "Gambling Commission",
+      "Allwyn"
+    ],
+    "canonical_category": "Licence action",
+    "theme_id": null,
+    "theme_summary": "The Gambling Commission has run a continuous enforcement cycle since late July, closing out the National Lottery licence appeal and then moving through fines, suspensions and personal licence revocations roughly every two weeks. Operators hit range from small firms like BresBet and Bet St George to supplier Tom Horn Gaming, alongside three individual PML holders stripped of their licences.",
+    "theme_key_points": [
+      "Court of Appeal's 30 July ruling ended TNLC and Northern & Shell's challenge to Allwyn's National Lottery licence award.",
+      "Holland Park Leisure fined £150,000 on 18 August for compliance failings.",
+      "BresBet Ltd and Bet St George Ltd suspended together on 28 August; Tom Horn Gaming suspended 8 September; Targetlocal Ltd suspended 21 September.",
+      "Three personal licence holders — Galgerud, Ayeni Ibukun Samson and De Sa Nogueira — had licences revoked between 6 August and 5 October."
+    ],
+    "theme_direction": "building",
+    "theme_summary_for": "Licence action:48c7ffcd2696:067ec139",
+    "cluster_summary": "The Court of Appeal has shut down TNLC and Northern & Shell's last legal bid to overturn Allwyn's National Lottery licence win, cementing the Gambling Commission's original award. The other two entries are generic Gambling Commission speeches by Sarah Gardner, linked only because one event carried Allwyn's sponsorship name.",
+    "cluster_pattern_type": "developing_story",
+    "cluster_coherent": false,
+    "cluster_significance": 55,
+    "cluster_summary_for": "4edb95b021e1f179:cecdc011",
+    "sector": "gambling"
+  },
+  {
+    "id": "2ec42643843dd6e54e40097c464ea3ff2a6afd30e0908715159a39af65355bd4",
+    "source": "companies_house",
+    "source_id": "MzUzNjA3NjI4OWFkaXF6a2N4",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04241161/filing-history/MzUzNjA3NjI4OWFkaXF6a2N4/document?format=pdf&download=0",
+    "title": "bet365 Group Limited: Confirmation statement filed",
+    "raw_summary": "Type: CS01 · Description: Confirmation statement with no updates",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "ingested_at": "2026-07-31T06:18:36.496825+00:00",
+    "signal_type": "corporate_filing",
+    "entities": [
+      "bet365 Group Limited"
+    ],
+    "newsworthiness_score": 8,
+    "why_it_matters": "Routine confirmation statement with no updates offers minimal news value beyond confirming bet365's continued corporate status.",
+    "category": "accounts filing",
+    "cluster_id": null,
+    "status": "seen",
+    "canonical_entities": [
+      "bet365 Group Limited"
+    ],
+    "canonical_category": "Corporate filing",
+    "theme_id": null,
+    "cluster_summary": "Bet365 filed a routine confirmation statement at Companies House, drawing no news beyond confirming its corporate status. Separately, the Betting and Gaming Council cited bet365's job and cost cuts to lobby against further UK gambling tax rises ahead of the budget.",
+    "cluster_pattern_type": "unrelated",
+    "cluster_coherent": false,
+    "cluster_significance": 25,
+    "cluster_summary_for": "9afea8157b7f7e76:cecdc011",
+    "sector": "gambling"
   }
 ]
